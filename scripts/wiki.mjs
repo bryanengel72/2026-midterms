@@ -7,7 +7,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-const USER_AGENT =
+export const USER_AGENT =
   "2026-midterms-poll-checker/1.0 (https://github.com/bryanengel72/2026-midterms)";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

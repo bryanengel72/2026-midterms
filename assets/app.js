@@ -3,6 +3,8 @@
 // trend chart and tables, and a table of every race. All text that comes from
 // the data is inserted with textContent, never as HTML.
 
+import { fetchEvents, summarizeEvent, THIN_MARKET_VOLUME } from "./markets.js";
+
 const ELECTION = "2026-11-03";
 const DAY = 86400000;
 
@@ -182,9 +184,57 @@ function rampFor(party) {
 
 const RATING_STEP = { Safe: 3, Likely: 2, Lean: 1, Tilt: 1, Tossup: 0 };
 
+// ---------------------------------------------------------------------------
+// Betting odds (Polymarket)
+// ---------------------------------------------------------------------------
+
+const LIVE_MAX_AGE = 60 * 1000;
+const liveOdds = new Map(); // race id -> { market, at }
+
+/** Live odds when loaded recently, else the snapshot from the data build. */
+function oddsFor(race) {
+  const live = liveOdds.get(race.id);
+  if (live) return { ...live.market, live: true, at: live.at };
+  if (race.market) return { ...race.market, live: false, at: race.market.fetchedAt };
+  return null;
+}
+
+function fmtChance(p) {
+  if (typeof p !== "number") return "–";
+  if (p > 0 && p < 0.01) return "<1%";
+  if (p > 0.99 && p < 1) return ">99%";
+  return `${Math.round(p * 100)}%`;
+}
+
+function fmtMoney(v) {
+  if (typeof v !== "number") return "–";
+  if (v >= 1e6) return `$${(v / 1e6).toFixed(v >= 1e7 ? 0 : 1)}M`;
+  if (v >= 1e3) return `$${Math.round(v / 1e3)}K`;
+  return `$${Math.round(v)}`;
+}
+
+function outcomeName(o) {
+  return o.name || o.label;
+}
+
+/** Odds leader as text, e.g. "Talarico 70%". */
+function oddsLeader(market) {
+  const top = market?.outcomes?.[0];
+  return top ? `${surname(outcomeName(top))} ${fmtChance(top.probability)}` : null;
+}
+
 /** Map fill + label for a race under the current "color by" mode. */
 function tileStyle(race) {
   if (!race) return null;
+  if (ui.colorBy === "odds") {
+    const top = race.market?.outcomes?.[0];
+    if (!top) return { fill: null, label: "–" };
+    const p = top.probability;
+    const label = `${top.party || "?"} ${fmtChance(p)}`;
+    if (p < 0.6 || !top.party) return { fill: "--neutral", label };
+    const step = p >= 0.9 ? 3 : p >= 0.75 ? 2 : 1;
+    return { fill: `--${rampFor(top.party)}-${step}`, label };
+  }
   if (ui.colorBy === "ratings") {
     const c = race.consensus;
     if (!c) return { fill: null, label: "–" };
@@ -289,6 +339,23 @@ function renderLegend() {
     );
     const iLead = allRaces().some((r) => r.headline?.leader && !["D", "R"].includes(candidate(r, r.headline.leader).party));
     if (iLead) groups.push(h("div", { class: "legend-group" }, sw("--i-2", "Independent or third party leads")));
+  } else if (ui.colorBy === "odds") {
+    groups.push(
+      h("div", { class: "legend-group" },
+        h("span", { class: "label" }, "Democrat favored"),
+        sw("--d-3", "90%+"), sw("--d-2", "75–90%"), sw("--d-1", "60–75%"),
+      ),
+      h("div", { class: "legend-group" }, sw("--neutral", "Under 60%")),
+      h("div", { class: "legend-group" },
+        h("span", { class: "label" }, "Republican favored"),
+        sw("--r-1", "60–75%"), sw("--r-2", "75–90%"), sw("--r-3", "90%+"),
+      ),
+    );
+    const iFav = allRaces().some((r) => {
+      const top = r.market?.outcomes?.[0];
+      return top && top.probability >= 0.6 && top.party && !["D", "R"].includes(top.party);
+    });
+    if (iFav) groups.push(h("div", { class: "legend-group" }, sw("--i-2", "Independent or third party favored")));
   } else {
     groups.push(
       h("div", { class: "legend-group" },
@@ -304,16 +371,22 @@ function renderLegend() {
   }
   groups.push(
     h("div", { class: "legend-group" },
-      h("span", { class: "legend-item" }, h("span", { class: "swatch empty" }), ui.colorBy === "polls" ? "No race, or no polls" : "No race"),
+      h("span", { class: "legend-item" }, h("span", { class: "swatch empty" }), ui.colorBy === "polls" ? "No race, or no polls" : ui.colorBy === "odds" ? "No race, or no market" : "No race"),
     ),
   );
   el.replaceChildren(...groups);
 
   const hint = document.getElementById("map-hint");
-  hint.textContent =
+  let text =
     ui.office === "all"
       ? "Each tile shows the Senate race on top and the governor race below. Select a state for its polls."
       : `Showing ${ui.office === "Senate" ? "Senate" : "governor"} races. Select a state for its polls.`;
+  if (ui.colorBy === "odds") {
+    const at = allRaces().map((r) => r.market?.fetchedAt).filter(Boolean).sort().at(-1);
+    const when = at ? new Date(at).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "";
+    text = `Chance of winning on Polymarket, a betting market, as of ${when}. These are bettors' odds, not polls. Open a state for live odds.`;
+  }
+  hint.textContent = text;
 }
 
 function tileTooltip(st) {
@@ -333,6 +406,7 @@ function tileTooltip(st) {
       rows.push(h("div", {}, "No general election polls"));
     }
     if (r.consensus) rows.push(h("div", { class: "tt-sub" }, `Forecasters: ${r.consensus.rating}`));
+    if (r.market?.outcomes?.length) rows.push(h("div", { class: "tt-sub" }, `Betting odds: ${oddsLeader(r.market)}`));
   }
   return rows;
 }
@@ -828,6 +902,13 @@ function raceCard(race) {
     );
   }
 
+  if (race.market?.slug) {
+    summary.append(
+      h("h4", {}, "Betting odds"),
+      h("div", { class: "odds", "data-market-for": race.id }, oddsContent(race, colors)),
+    );
+  }
+
   if (race.ratings.length) {
     const c = race.consensus;
     summary.append(
@@ -870,6 +951,80 @@ function raceCard(race) {
   return card;
 }
 
+let liveFailedAt = 0;
+
+function oddsContent(race, colors) {
+  const m = oddsFor(race);
+  if (!m || !m.outcomes?.length) return [h("p", { class: "hint" }, "No betting market data for this race.")];
+  const rows = h(
+    "div",
+    { class: "odds-rows" },
+    m.outcomes.slice(0, 4).map((o) => {
+      const color = (o.name && colors.get(o.name)) || (o.party === "D" ? "--party-d" : o.party === "R" ? "--party-r" : "--party-x");
+      return h("div", { class: "odds-row" },
+        h("span", { class: "swatch", style: { background: `var(${color})` } }),
+        h("span", { class: "name" }, outcomeName(o), o.party ? h("small", {}, ` (${o.party})`) : null),
+        h("span", { class: "meter", "aria-hidden": "true" },
+          h("span", { style: { width: `${Math.max(0, Math.min(100, o.probability * 100))}%`, background: `var(${color})` } }),
+        ),
+        h("span", { class: "value" }, fmtChance(o.probability)),
+      );
+    }),
+  );
+  const at = m.at ? new Date(m.at) : null;
+  let status;
+  if (m.live) status = `live, updated ${at.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" })}`;
+  else {
+    const when = at ? at.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "earlier";
+    status = `as of ${when}${liveFailedAt ? " (live odds unavailable right now)" : ""}`;
+  }
+  const url = safeUrl(m.url);
+  const meta = h("p", { class: "odds-meta" },
+    `Polymarket · ${fmtMoney(m.volume)} traded · ${status}`,
+    url ? [" · ", h("a", { href: url, target: "_blank", rel: "noopener" }, "View market")] : null,
+  );
+  const thin = typeof m.volume === "number" && m.volume < THIN_MARKET_VOLUME
+    ? h("p", { class: "odds-warn" }, "Thin market: little money has changed hands, so a few bets can swing these odds.")
+    : null;
+  return [rows, meta, thin, h("p", { class: "hint" }, "Bettors' implied chance of winning. Not a poll.")].filter(Boolean);
+}
+
+function updateOddsDom(races) {
+  for (const r of races) {
+    const el = document.querySelector(`[data-market-for="${r.id}"]`);
+    if (el) el.replaceChildren(...oddsContent(r, candidateColors(r)));
+  }
+}
+
+/** Loads live odds for a state's races (at most once a minute per race). */
+const oddsInFlight = new Set();
+
+async function refreshOdds(stateCode) {
+  const st = ui.data.states.find((x) => x.code === stateCode);
+  if (!st || oddsInFlight.has(stateCode)) return;
+  const races = st.races.filter((r) => r.market?.slug);
+  const now = Date.now();
+  const due = races.filter((r) => !liveOdds.has(r.id) || now - liveOdds.get(r.id).at >= LIVE_MAX_AGE - 1000);
+  if (due.length) {
+    oddsInFlight.add(stateCode);
+    try {
+      const events = await fetchEvents(due.map((r) => r.market.slug));
+      const at = Date.now();
+      for (const r of due) {
+        const ev = events.get(r.market.slug);
+        if (ev) liveOdds.set(r.id, { market: summarizeEvent(ev, r.candidates, r.incumbent), at });
+      }
+      liveFailedAt = 0;
+    } catch (err) {
+      liveFailedAt = Date.now();
+      console.warn(`Live odds unavailable: ${err.message}`);
+    } finally {
+      oddsInFlight.delete(stateCode);
+    }
+  }
+  if (ui.selected === stateCode) updateOddsDom(races);
+}
+
 function renderDetail({ scroll = false } = {}) {
   const el = document.getElementById("state-detail");
   const st = ui.data.states.find((x) => x.code === ui.selected);
@@ -900,6 +1055,7 @@ function renderDetail({ scroll = false } = {}) {
     body = h("div", { class: "race-grid" }, races.map(raceCard));
   }
   el.replaceChildren(head, body);
+  refreshOdds(st.code);
   if (scroll) {
     el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
     el.focus({ preventScroll: true });
@@ -916,6 +1072,10 @@ function renderRacesTable() {
   const byState = (a, b) => a.state.name.localeCompare(b.state.name) || a.office.localeCompare(b.office);
   if (ui.sort === "state") races.sort(byState);
   else if (ui.sort === "recent") races.sort((a, b) => (b.latestPoll || "").localeCompare(a.latestPoll || "") || byState(a, b));
+  else if (ui.sort === "odds") {
+    const top = (r) => r.market?.outcomes?.[0]?.probability ?? Infinity;
+    races.sort((a, b) => top(a) - top(b) || byState(a, b));
+  }
   else {
     races.sort((a, b) => {
       const ma = a.headline ? a.headline.margin : Infinity;
@@ -942,6 +1102,7 @@ function renderRacesTable() {
       h("td", { class: "num lead-cell" }, r.headline ? (r.headline.leader ? `+${fmtMargin(r.headline.margin)}` : "0") : "–"),
       h("td", {}, r.headline ? BASIS_SHORT[r.headline.basis] || "" : "–"),
       h("td", {}, r.consensus ? `${r.consensus.rating} (${r.consensus.count}/${r.consensus.of})` : "–"),
+      h("td", { class: "num" }, oddsLeader(r.market) || "–"),
       h("td", { class: "num" }, fmtDate(r.latestPoll)),
     );
   });
@@ -1008,6 +1169,9 @@ function setupControls() {
     renderRacesTable();
   });
   window.addEventListener("hashchange", () => selectState(readHash(), true));
+  setInterval(() => {
+    if (ui.selected && document.visibilityState === "visible") refreshOdds(ui.selected);
+  }, LIVE_MAX_AGE);
 
   let resizeTimer = 0;
   let lastWidth = window.innerWidth;

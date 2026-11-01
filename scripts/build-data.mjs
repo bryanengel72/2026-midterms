@@ -7,12 +7,17 @@
 //
 // A race whose article cannot be fetched keeps its previous data (marked
 // stale) so one bad request never blanks a state.
+//
+// It also snapshots Polymarket betting odds for each race (the browser loads
+// live odds on its own; the snapshot feeds the map and the races table).
+// --offline reuses the previous snapshot instead of calling Polymarket.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { STATES, listRaces, houseSeatsPage } from "./races.mjs";
-import { fetchWikitext, pageUrl } from "./wiki.mjs";
+import { STATES, listRaces, houseSeatsPage, POLYMARKET_SLUGS } from "./races.mjs";
+import { fetchWikitext, pageUrl, USER_AGENT } from "./wiki.mjs";
+import { fetchEvents, summarizeEvent, POLYMARKET_API } from "../assets/markets.js";
 import { parseRace, simpleAverage } from "./parse-race.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -125,6 +130,57 @@ async function loadPrevious() {
   }
 }
 
+/** Finds a race's Polymarket event by title when its known slug stops resolving. */
+async function searchEvent(race, stateName) {
+  const office = race.office === "Senate" ? "Senate" : "Governor";
+  const title = `${stateName} ${office} Election Winner`;
+  const res = await fetch(`${POLYMARKET_API}/public-search?q=${encodeURIComponent(title)}`, {
+    headers: { "User-Agent": USER_AGENT },
+  });
+  if (!res.ok) return null;
+  const body = await res.json();
+  return (body.events || []).find((e) => String(e.title || "").trim() === title && !e.closed) || null;
+}
+
+async function attachMarkets(built, previous, races) {
+  const keepPrevious = (entry) => {
+    const prev = previous.get(entry.id)?.market;
+    if (prev) entry.market = { ...prev, stale: true };
+  };
+  if (offline) {
+    for (const entry of built.values()) {
+      const prev = previous.get(entry.id)?.market;
+      if (prev) entry.market = prev;
+    }
+    return "reused previous snapshot (offline)";
+  }
+  let events = new Map();
+  try {
+    events = await fetchEvents(Object.values(POLYMARKET_SLUGS), { headers: { "User-Agent": USER_AGENT } });
+  } catch (err) {
+    for (const entry of built.values()) keepPrevious(entry);
+    return `unavailable (${err.message}); kept previous snapshot`;
+  }
+  const fetchedAt = new Date().toISOString();
+  const missing = [];
+  for (const race of races) {
+    const entry = built.get(race.id);
+    if (!entry) continue;
+    let event = events.get(POLYMARKET_SLUGS[race.id]);
+    if (!event) {
+      const stateName = STATES.find((st) => st.code === race.state).name;
+      event = await searchEvent(race, stateName).catch(() => null);
+      if (event) console.warn(`Polymarket slug for ${race.id} changed to ${event.slug}; update POLYMARKET_SLUGS.`);
+    }
+    if (event) entry.market = { ...summarizeEvent(event, entry.candidates, entry.incumbent), fetchedAt };
+    else {
+      missing.push(race.id);
+      keepPrevious(entry);
+    }
+  }
+  return `${built.size - missing.length} races${missing.length ? `; not found: ${missing.join(", ")}` : ""}`;
+}
+
 async function main() {
   const today = new Date().toISOString().slice(0, 10);
   const { byId: previous, fingerprint: previousFingerprint } = await loadPrevious();
@@ -170,6 +226,9 @@ async function main() {
     if (!page.fromCache) await sleep(delayMs);
   }
 
+  const marketStatus = await attachMarkets(built, previous, races);
+  console.log(`Polymarket odds: ${marketStatus}`);
+
   const withPolls = [...built.values()].filter((r) => r.polls.length).length;
   const prevWithPolls = [...previous.values()].filter((r) => r.polls?.length).length;
   if (prevWithPolls && withPolls < prevWithPolls * 0.5) {
@@ -188,6 +247,11 @@ async function main() {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
       note: "Polls, aggregates and ratings are read from each race's English Wikipedia article.",
+    },
+    markets: {
+      name: "Polymarket",
+      url: "https://polymarket.com",
+      note: "Implied chance of winning from Polymarket prices. Betting odds, not polls.",
     },
     states: STATES.map(({ code, name }) => ({
       code,

@@ -39,6 +39,7 @@
         <legend>Color map by</legend>
         <label><input type="radio" name="colorby" value="polls" checked><span>Polls</span></label>
         <label><input type="radio" name="colorby" value="ratings"><span>Forecasters</span></label>
+        <label><input type="radio" name="colorby" value="odds"><span>Betting odds</span></label>
       </fieldset>
       <label class="check">
         <input type="checkbox" id="close-only">
@@ -66,6 +67,7 @@
             <option value="close">Closest in the polls</option>
             <option value="state">State name</option>
             <option value="recent">Most recent poll</option>
+            <option value="odds">Closest in betting odds</option>
           </select>
         </label>
       </div>
@@ -79,6 +81,7 @@
               <th scope="col" class="num">Lead</th>
               <th scope="col">Based on</th>
               <th scope="col">Forecasters</th>
+              <th scope="col" class="num">Betting odds</th>
               <th scope="col" class="num">Latest poll</th>
             </tr>
           </thead>
@@ -93,6 +96,7 @@
     <div class="wrap">
       <p>Polls show where a race stood when voters were surveyed. They are not predictions, and a lead within the margin of error is effectively a tie.</p>
       <p>Data: polls, aggregates and ratings are read from each race's article on <a href="https://en.wikipedia.org/wiki/2026_United_States_elections">English Wikipedia</a> and used under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Wikipedia editors compile them from the original pollsters and forecasters; follow the article links to check any number at its source.</p>
+      <p>Betting odds are the implied chance of winning from prices on <a href="https://polymarket.com">Polymarket</a>, a prediction market. They reflect what bettors are willing to pay, not what voters told pollsters, and thinly traded markets can swing on a few bets.</p>
       <p>Find your polling place and registration status at <a href="https://vote.gov/">vote.gov</a>.</p>
     </div>
   </footer>

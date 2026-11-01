@@ -6,7 +6,8 @@ A state-by-state poll checker for the November 3, 2026 midterms. For every U.S. 
 - **Every general election poll**: pollster, field dates, sample size and population, margin of error, each candidate's share, and the lead.
 - **A poll trend chart** with a 30-day rolling average.
 - **Forecaster ratings** (Cook, Sabato, Inside Elections and more) with the consensus rating.
-- **A tile map** of all 50 states, colored by polling lead or by forecaster rating, and a sortable table of every race.
+- **Betting odds from Polymarket**: each candidate's implied chance of winning, loaded live when you open a state and refreshed every minute while it stays open.
+- **A tile map** of all 50 states, colored by polling lead, forecaster rating or betting odds, and a sortable table of every race.
 
 Coverage: all 35 Senate races (33 regular plus the Florida and Ohio specials) and all 36 governor races. States with no statewide race (Indiana, Missouri, North Dakota, Utah, Washington) link to their House races.
 
@@ -22,6 +23,12 @@ Each race's English Wikipedia article (for example [2026 United States Senate el
 - refuses to overwrite the data if far fewer races parse than last time, so a Wikipedia outage or layout change cannot blank the site;
 - leaves the file untouched when nothing changed.
 
+## Betting odds
+
+Odds come from [Polymarket](https://polymarket.com)'s public API (no key needed). Every race has a "<State> <Office> Election Winner" market; their slugs are listed in `scripts/races.mjs`. The browser fetches live prices for the state you open. The data build also saves a snapshot, which colors the map and fills the table, and falls back to a title search if a slug stops working.
+
+Odds are not polls. They show what bettors will pay for each outcome, they can disagree with the polls, and markets with little money traded (flagged on the page under $50,000) can swing on a few bets. Check Polymarket's terms of use before publishing the site widely.
+
 ## Running it
 
 Requires Node 20 or newer. There are no dependencies to install.
@@ -32,11 +39,11 @@ npm start          # serve the site at http://localhost:8080
 npm test           # parser tests
 ```
 
-`npm run update:cached` reuses articles already downloaded to `.cache/` (handy while working on the parser). Behind a corporate or sandbox proxy, run Node with `NODE_USE_ENV_PROXY=1` so `fetch` honors `HTTPS_PROXY`.
+`npm run update:cached` reuses articles already downloaded to `.cache/` (handy while working on the parser); `npm run build:offline` also skips Polymarket and keeps the previous odds snapshot. Behind a corporate or sandbox proxy, run Node with `NODE_USE_ENV_PROXY=1` so `fetch` honors `HTTPS_PROXY`.
 
 ## Automatic updates and hosting
 
-`.github/workflows/update-polls.yml` runs every three hours on `main` (and on demand from the Actions tab). It tests the parser, refreshes the data, commits `data/polls.json` if anything changed, and publishes the site with GitHub Pages.
+`.github/workflows/update-polls.yml` runs every three hours on `main` (and on demand from the Actions tab). It tests the parser, refreshes the polls and the odds snapshot, commits `data/polls.json` if anything changed, and publishes the site with GitHub Pages. Because odds move constantly, expect a data commit on most runs.
 
 To turn on publishing, once: **Settings > Pages > Build and deployment > Source: GitHub Actions**. The site is plain HTML, CSS and JavaScript, so any static host works too.
 
@@ -45,6 +52,7 @@ To turn on publishing, once: **Settings > Pages > Build and deployment > Source:
 ```
 index.html               page shell
 assets/app.js            map, state view, chart and tables
+assets/markets.js        Polymarket odds (shared by the browser and the build)
 assets/styles.css        styles, light and dark themes
 data/polls.json          generated data (committed)
 scripts/races.mjs        which races are on the ballot in each state
@@ -54,6 +62,7 @@ scripts/parse-race.mjs   turns one race article into polls, averages and ratings
 scripts/build-data.mjs   builds data/polls.json
 scripts/serve.mjs        local preview server
 test/parser.test.mjs     parser tests
+test/markets.test.mjs    odds matching tests
 ```
 
 ## Reading the numbers
