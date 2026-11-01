@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 Midterm Poll Checker</title>
+  <meta name="description" content="State-by-state polls, polling averages and forecaster ratings for every 2026 U.S. Senate and governor race.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='6' height='14' rx='1.5' fill='%232a78d6'/%3E%3Crect x='9' y='1' width='6' height='14' rx='1.5' fill='%23e34948'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#state-detail">Skip to state details</a>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="title-row">
+        <h1>2026 Midterm Poll Checker</h1>
+        <button type="button" id="theme-toggle" class="ghost" aria-label="Color theme: follow system">Theme: Auto</button>
+      </div>
+      <p class="lede">Polls, polling averages and forecaster ratings for every U.S. Senate and governor race on the 2026 ballot, state by state.</p>
+      <p class="meta"><span id="countdown">Election Day: Tuesday, November 3, 2026</span> <span aria-hidden="true">·</span> <span id="updated">Loading data…</span></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <label class="field">
+        <span>State</span>
+        <select id="state-select">
+          <option value="">All states</option>
+        </select>
+      </label>
+      <fieldset class="segmented" id="office-filter">
+        <legend>Office</legend>
+        <label><input type="radio" name="office" value="all" checked><span>Both</span></label>
+        <label><input type="radio" name="office" value="Senate"><span>Senate</span></label>
+        <label><input type="radio" name="office" value="Governor"><span>Governor</span></label>
+      </fieldset>
+      <fieldset class="segmented" id="color-filter">
+        <legend>Color map by</legend>
+        <label><input type="radio" name="colorby" value="polls" checked><span>Polls</span></label>
+        <label><input type="radio" name="colorby" value="ratings"><span>Forecasters</span></label>
+      </fieldset>
+      <label class="check">
+        <input type="checkbox" id="close-only">
+        <span>Close races only (within 5 points)</span>
+      </label>
+    </section>
+
+    <section class="card map-card" aria-labelledby="map-title">
+      <div class="card-head">
+        <h2 id="map-title">Every state at a glance</h2>
+        <p class="hint" id="map-hint">Each tile shows the Senate race on top and the governor race below. Select a state for its polls.</p>
+      </div>
+      <div class="map-legend" id="map-legend" aria-label="Map legend"></div>
+      <div class="tile-map" id="tile-map"></div>
+    </section>
+
+    <section id="state-detail" class="state-detail" tabindex="-1" aria-live="polite"></section>
+
+    <section class="card" aria-labelledby="races-title">
+      <div class="card-head">
+        <h2 id="races-title">All races</h2>
+        <label class="field inline">
+          <span>Sort</span>
+          <select id="sort-select">
+            <option value="close">Closest in the polls</option>
+            <option value="state">State name</option>
+            <option value="recent">Most recent poll</option>
+          </select>
+        </label>
+      </div>
+      <div class="table-scroll">
+        <table class="data races-table" id="races-table">
+          <thead>
+            <tr>
+              <th scope="col">State</th>
+              <th scope="col">Race</th>
+              <th scope="col">Polling leader</th>
+              <th scope="col" class="num">Lead</th>
+              <th scope="col">Based on</th>
+              <th scope="col">Forecasters</th>
+              <th scope="col" class="num">Latest poll</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="hint" id="races-count"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Polls show where a race stood when voters were surveyed. They are not predictions, and a lead within the margin of error is effectively a tie.</p>
+      <p>Data: polls, aggregates and ratings are read from each race's article on <a href="https://en.wikipedia.org/wiki/2026_United_States_elections">English Wikipedia</a> and used under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Wikipedia editors compile them from the original pollsters and forecasters; follow the article links to check any number at its source.</p>
+      <p>Find your polling place and registration status at <a href="https://vote.gov/">vote.gov</a>.</p>
+    </div>
+  </footer>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

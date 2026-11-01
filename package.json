@@ -1,0 +1,17 @@
+{
+  "name": "2026-midterms-poll-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "State-by-state polls, polling averages and forecaster ratings for the 2026 U.S. Senate and governor races.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "update": "node scripts/build-data.mjs",
+    "update:cached": "node scripts/build-data.mjs --cache",
+    "build:offline": "node scripts/build-data.mjs --offline",
+    "test": "node --test test/*.test.mjs",
+    "start": "node scripts/serve.mjs"
+  }
+}
