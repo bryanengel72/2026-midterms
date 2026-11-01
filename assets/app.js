@@ -548,7 +548,7 @@ function renderMap() {
         },
         onblur: hideTooltip,
       },
-      h("span", { class: "code", "aria-hidden": "true" }, st.code),
+      h("span", { class: "code", "aria-hidden": "true" }, isWatched(st.code) ? h("span", { class: "star" }, "★") : null, st.code),
       bands,
     );
     tiles.push(tile);
@@ -595,6 +595,94 @@ function renderMap() {
       }),
     );
   }
+}
+
+// ---------------------------------------------------------------------------
+// Watched states (saved on this device)
+// ---------------------------------------------------------------------------
+
+const watched = (() => {
+  try {
+    const list = JSON.parse(localStorage.getItem("watchedStates") || "[]");
+    return new Set(Array.isArray(list) ? list.filter((c) => /^[A-Z]{2}$/.test(c)) : []);
+  } catch {
+    return new Set();
+  }
+})();
+
+function isWatched(code) {
+  return watched.has(code);
+}
+
+function toggleWatch(code) {
+  if (watched.has(code)) watched.delete(code);
+  else watched.add(code);
+  try {
+    localStorage.setItem("watchedStates", JSON.stringify([...watched]));
+  } catch {}
+  renderWatched();
+  renderMap();
+  renderRacesTable();
+  const btn = document.querySelector(`#state-detail .watch-btn[data-code="${code}"]`);
+  if (btn) setWatchButton(btn, code);
+}
+
+function setWatchButton(btn, code) {
+  const on = isWatched(code);
+  btn.textContent = on ? "★ Watching" : "☆ Watch";
+  btn.classList.toggle("on", on);
+  btn.setAttribute("aria-pressed", on ? "true" : "false");
+  btn.setAttribute("title", on ? "Stop watching this state" : "Pin this state to the top of the page");
+}
+
+/** One short line per race for a watched state's card. */
+function watchSummary(race) {
+  const res = resultSummary(race);
+  if (res && ui.colorBy === "results") {
+    if (res.runoff) return "Runoff";
+    return `${surname(res.leader.name)} ${res.called ? "won" : `+${fmtMargin(res.margin)}, counting`}`;
+  }
+  const hl = headlineFor(race);
+  if (hl) return leadLabel(race);
+  return race.consensus ? race.consensus.rating : "No polls";
+}
+
+function renderWatched() {
+  const section = document.getElementById("watched");
+  const states = ui.data.states.filter((st) => watched.has(st.code));
+  section.hidden = states.length === 0;
+  if (!states.length) return;
+  const cards = states.map((st) => {
+    const closing = closingLine(st.code);
+    return h("div", { class: "watch-card" },
+      h("button", { type: "button", class: "watch-open", onclick: () => selectState(st.code, true), "aria-label": `Open ${st.name}` },
+        h("span", { class: "watch-name" }, st.name),
+        st.races.length
+          ? st.races.map((r) => {
+              const hl = headlineFor(r);
+              const lead = hl?.leader ? candidate(r, hl.leader).party : null;
+              const res = ui.colorBy === "results" ? resultSummary(r) : null;
+              const party = res ? res.leader.party : lead;
+              const fill = party === "D" ? "--party-d" : party === "R" ? "--party-r" : party ? "--party-i" : "--neutral";
+              return h("span", { class: "watch-race" },
+                h("span", { class: "swatch", style: { background: `var(${fill})` } }),
+                h("span", { class: "office" }, r.office === "Senate" ? "Senate" : "Governor"),
+                h("strong", {}, watchSummary(r)),
+              );
+            })
+          : h("span", { class: "watch-race muted" }, "No statewide race"),
+        closing ? h("span", { class: "watch-closing" }, closing.replace(/ \([^)]*your time\)/, "")) : null,
+      ),
+      h("button", {
+        type: "button",
+        class: "watch-remove",
+        "aria-label": `Stop watching ${st.name}`,
+        title: "Stop watching",
+        onclick: () => toggleWatch(st.code),
+      }, "×"),
+    );
+  });
+  document.getElementById("watched-list").replaceChildren(...cards);
 }
 
 // ---------------------------------------------------------------------------
@@ -1460,6 +1548,12 @@ function renderDetail({ scroll = false } = {}) {
       `${st.races.length ? `${st.races.length} statewide race${st.races.length === 1 ? "" : "s"} · ` : ""}All U.S. House seats are also on the ballot: `,
       house ? h("a", { href: house, target: "_blank", rel: "noopener" }, "House races") : "House races",
       " · ",
+      (() => {
+        const btn = h("button", { type: "button", class: "linkish watch-btn", "data-code": st.code, onclick: () => toggleWatch(st.code) });
+        setWatchButton(btn, st.code);
+        return btn;
+      })(),
+      " ",
       h("button", { type: "button", class: "linkish", onclick: () => selectState(null) }, "Close"),
     ),
   );
@@ -1521,7 +1615,9 @@ function renderRacesTable() {
     return h(
       "tr",
       { onclick: go },
-      h("td", {}, h("a", { href: `#${r.state.code}`, onclick: (e) => { e.preventDefault(); e.stopPropagation(); go(); } }, r.state.name)),
+      h("td", {},
+        isWatched(r.state.code) ? h("span", { class: "star", title: "Watching" }, "★ ") : null,
+        h("a", { href: `#${r.state.code}`, onclick: (e) => { e.preventDefault(); e.stopPropagation(); go(); } }, r.state.name)),
       h("td", {}, r.label),
       h("td", { class: "avg-cell" },
         rh
@@ -1598,6 +1694,7 @@ function setTimeMachine(index) {
     : `${fmtDate(ui.asOf, true)} · 30-day poll averages`;
   document.getElementById("tm-reset").hidden = atToday;
   document.getElementById("time-machine").classList.toggle("active", !atToday);
+  renderWatched();
   renderSenate();
   renderLegend();
   renderMap();
@@ -1652,6 +1749,7 @@ function setupTimeMachine() {
 // ---------------------------------------------------------------------------
 
 function renderAll() {
+  renderWatched();
   renderSenate();
   renderClosings();
   renderLegend();
@@ -1701,6 +1799,7 @@ function setupControls() {
   setInterval(() => {
     if (document.visibilityState !== "visible") return;
     renderClosings();
+    renderWatched();
     const line = document.querySelector("#state-detail .closing-line");
     if (line && ui.selected) line.textContent = `🗳 ${closingLine(ui.selected) || ""}`;
   }, 30000);
@@ -1717,6 +1816,7 @@ function setupControls() {
         renderRacesTable();
       }
       document.getElementById("time-machine").classList.toggle("off", ui.colorBy !== "polls");
+      renderWatched();
       renderSenate();
       renderLegend();
       renderMap();
