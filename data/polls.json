@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T16:19:31.876Z",
+ "generatedAt": "2026-11-01T16:25:17.599Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24,6 +24,5616 @@
    "I": 2
   },
   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+ },
+ "genericBallot": {
+  "id": "US-HOUSE",
+  "label": "House generic ballot",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+  "pollsUrl": "https://en.wikipedia.org/wiki/Template%3A2026_United_States_elections%2Fpolling",
+  "candidates": [
+   {
+    "name": "Democrats",
+    "party": "D",
+    "nominee": true
+   },
+   {
+    "name": "Republicans",
+    "party": "R",
+    "nominee": true
+   }
+  ],
+  "aggregates": [
+   {
+    "source": "Decision Desk HQ",
+    "isAverage": false,
+    "dates": "January 9, 2025 – October 26, 2026",
+    "updated": "October 30, 2026",
+    "updatedIso": "2026-10-30",
+    "values": {
+     "Republicans": 42.6,
+     "Democrats": 51.5
+    },
+    "otherUndecided": 5.9
+   },
+   {
+    "source": "FiftyPlusOne",
+    "isAverage": false,
+    "dates": "January 9, 2025 – October 26, 2026",
+    "updated": "October 30, 2026",
+    "updatedIso": "2026-10-30",
+    "values": {
+     "Republicans": 43.4,
+     "Democrats": 52.2
+    },
+    "otherUndecided": 4.4
+   },
+   {
+    "source": "NBC News",
+    "isAverage": false,
+    "dates": "January 9, 2025 – October 26, 2026",
+    "updated": "October 30, 2026",
+    "updatedIso": "2026-10-30",
+    "values": {
+     "Republicans": 44,
+     "Democrats": 52
+    },
+    "otherUndecided": 4
+   },
+   {
+    "source": "RealClearPolitics",
+    "isAverage": false,
+    "dates": "October 8–26, 2026",
+    "updated": "October 30, 2026",
+    "updatedIso": "2026-10-30",
+    "values": {
+     "Republicans": 43.2,
+     "Democrats": 51.4
+    },
+    "otherUndecided": 5.4
+   },
+   {
+    "source": "Silver Bulletin",
+    "isAverage": false,
+    "dates": "January 9, 2025 – October 26, 2026",
+    "updated": "October 30, 2026",
+    "updatedIso": "2026-10-30",
+    "values": {
+     "Republicans": 42.4,
+     "Democrats": 51.3
+    },
+    "otherUndecided": 6.3
+   },
+   {
+    "source": "Average",
+    "isAverage": true,
+    "dates": "",
+    "updated": "",
+    "updatedIso": null,
+    "values": {
+     "Republicans": 43.1,
+     "Democrats": 51.7
+    },
+    "otherUndecided": 5.2
+   }
+  ],
+  "polls": [
+   {
+    "pollster": "ActiVote",
+    "dates": "October 22–30, 2026",
+    "start": "2026-10-22",
+    "end": "2026-10-30",
+    "sample": 2000,
+    "population": "LV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 53.5,
+     "Republicans": 46.5
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Ipsos",
+    "dates": "October 20–28, 2026",
+    "start": "2026-10-20",
+    "end": "2026-10-28",
+    "sample": 1209,
+    "population": "LV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Tufts University/YouGov",
+    "dates": "October 23–27, 2026",
+    "start": "2026-10-23",
+    "end": "2026-10-27",
+    "sample": 499,
+    "population": "LV",
+    "moe": 4.6,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "October 24–26, 2026",
+    "start": "2026-10-24",
+    "end": "2026-10-26",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "October 24–26, 2026",
+    "start": "2026-10-24",
+    "end": "2026-10-26",
+    "sample": null,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 48
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "October 23–26, 2026",
+    "start": "2026-10-23",
+    "end": "2026-10-26",
+    "sample": 1123,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "October 22–26, 2026",
+    "start": "2026-10-22",
+    "end": "2026-10-26",
+    "sample": 1164,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "NPR/PBS/Marist University",
+    "dates": "October 19–26, 2026",
+    "start": "2026-10-19",
+    "end": "2026-10-26",
+    "sample": null,
+    "population": "LV",
+    "moe": 3.8,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "October 23–24, 2026",
+    "start": "2026-10-23",
+    "end": "2026-10-24",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "CBS/YouGov",
+    "dates": "October 21–23, 2026",
+    "start": "2026-10-21",
+    "end": "2026-10-23",
+    "sample": 1749,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 1
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "October 16–23, 2026",
+    "start": "2026-10-16",
+    "end": "2026-10-23",
+    "sample": 3644,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "Prolific",
+    "dates": "October 21–22, 2026",
+    "start": "2026-10-21",
+    "end": "2026-10-22",
+    "sample": 713,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Clarity Campaign Labs",
+    "dates": "October 15–21, 2026",
+    "start": "2026-10-15",
+    "end": "2026-10-21",
+    "sample": 1016,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "ActiVote",
+    "dates": "October 15–21, 2026",
+    "start": "2026-10-15",
+    "end": "2026-10-21",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "October 19–20, 2026",
+    "start": "2026-10-19",
+    "end": "2026-10-20",
+    "sample": 1179,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Focaldata/Financial Times",
+    "dates": "October 16–20, 2026",
+    "start": "2026-10-16",
+    "end": "2026-10-20",
+    "sample": 1594,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "Pennsylvania State University/YouGov",
+    "dates": "October 14–20, 2026",
+    "start": "2026-10-14",
+    "end": "2026-10-20",
+    "sample": 724,
+    "population": "LV",
+    "moe": 4.4,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "The Rainey Center",
+    "dates": "October 14–20, 2026",
+    "start": "2026-10-14",
+    "end": "2026-10-20",
+    "sample": 1279,
+    "population": "RV",
+    "moe": 3.6,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "October 13–20, 2026",
+    "start": "2026-10-13",
+    "end": "2026-10-20",
+    "sample": 2050,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "October 16–19, 2026",
+    "start": "2026-10-16",
+    "end": "2026-10-19",
+    "sample": 1279,
+    "population": "RV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 35
+    },
+    "other": null,
+    "undecided": 19
+   },
+   {
+    "pollster": "The New York Times/Siena University",
+    "dates": "October 12–19, 2026",
+    "start": "2026-10-12",
+    "end": "2026-10-19",
+    "sample": 3494,
+    "population": "LV",
+    "moe": 1.9,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "CNN/SSRS",
+    "dates": "October 15–18, 2026",
+    "start": "2026-10-15",
+    "end": "2026-10-18",
+    "sample": 1206,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Hart Research Associates (D)/Public Opinion Strategies (R)",
+    "dates": "October 14–18, 2026",
+    "start": "2026-10-14",
+    "end": "2026-10-18",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "October 13–14, 2026",
+    "start": "2026-10-13",
+    "end": "2026-10-14",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "ActiVote",
+    "dates": "October 4–14, 2026",
+    "start": "2026-10-04",
+    "end": "2026-10-14",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "The Washington Post/ABC News/Ipsos",
+    "dates": "October 9–13, 2026",
+    "start": "2026-10-09",
+    "end": "2026-10-13",
+    "sample": 2032,
+    "population": "LV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "October 10–12, 2026",
+    "start": "2026-10-10",
+    "end": "2026-10-12",
+    "sample": 1403,
+    "population": "RV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+    "dates": "October 9–12, 2026",
+    "start": "2026-10-09",
+    "end": "2026-10-12",
+    "sample": 1202,
+    "population": "RV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 54,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 1
+   },
+   {
+    "pollster": "SurveyMonkey",
+    "dates": "September 28 – October 12, 2026",
+    "start": "2026-09-28",
+    "end": "2026-10-12",
+    "sample": 17649,
+    "population": "RV",
+    "moe": 1.6,
+    "values": {
+     "Democrats": 55,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "October 5–11, 2026",
+    "start": "2026-10-05",
+    "end": "2026-10-11",
+    "sample": 17654,
+    "population": "LV",
+    "moe": 1,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "October 7–10, 2026",
+    "start": "2026-10-07",
+    "end": "2026-10-10",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "TrueDot",
+    "dates": "October 5–9, 2026",
+    "start": "2026-10-05",
+    "end": "2026-10-09",
+    "sample": 974,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Focaldata/Financial Times",
+    "dates": "October 2–5, 2026",
+    "start": "2026-10-02",
+    "end": "2026-10-05",
+    "sample": 2201,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "October 2–5, 2026",
+    "start": "2026-10-02",
+    "end": "2026-10-05",
+    "sample": 995,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "September 30 – October 5, 2026",
+    "start": "2026-09-30",
+    "end": "2026-10-05",
+    "sample": 3526,
+    "population": "RV",
+    "moe": 1.7,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 19
+   },
+   {
+    "pollster": "University of Massachusetts Lowell/YouGov",
+    "dates": "October 2–4, 2026",
+    "start": "2026-10-02",
+    "end": "2026-10-04",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.84,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "September 28 – October 4, 2026",
+    "start": "2026-09-28",
+    "end": "2026-10-04",
+    "sample": 17659,
+    "population": "LV",
+    "moe": 0.9,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Pew Research Center",
+    "dates": "September 28 – October 4, 2026",
+    "start": "2026-09-28",
+    "end": "2026-10-04",
+    "sample": 3917,
+    "population": "RV",
+    "moe": 1.8,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 20
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "October 1–2, 2026",
+    "start": "2026-10-01",
+    "end": "2026-10-02",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.53,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "CBS News/YouGov",
+    "dates": "September 30 – October 2, 2026",
+    "start": "2026-09-30",
+    "end": "2026-10-02",
+    "sample": 1572,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 54,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "ActiVote",
+    "dates": "September 22 – October 2, 2026",
+    "start": "2026-09-22",
+    "end": "2026-10-02",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 4.4,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 48
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "I&I/TIPP Insights (R)",
+    "dates": "September 29 – October 1, 2026",
+    "start": "2026-09-29",
+    "end": "2026-10-01",
+    "sample": 1328,
+    "population": "RV",
+    "moe": 2.8,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Centerline Research & Strategy",
+    "dates": "September 26 – October 1, 2026",
+    "start": "2026-09-26",
+    "end": "2026-10-01",
+    "sample": 930,
+    "population": "LV",
+    "moe": 3.8,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "September 24–30, 2026",
+    "start": "2026-09-24",
+    "end": "2026-09-30",
+    "sample": 1794,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "September 26–28, 2026",
+    "start": "2026-09-26",
+    "end": "2026-09-28",
+    "sample": 2200,
+    "population": "RV",
+    "moe": 2.1,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 50
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "AlphaROC",
+    "dates": "September 25–28, 2026",
+    "start": "2026-09-25",
+    "end": "2026-09-28",
+    "sample": 1000,
+    "population": "A",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 20
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "September 25–28, 2026",
+    "start": "2026-09-25",
+    "end": "2026-09-28",
+    "sample": 1003,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Quinnipiac University",
+    "dates": "September 24–27, 2026",
+    "start": "2026-09-24",
+    "end": "2026-09-27",
+    "sample": 1032,
+    "population": "RV",
+    "moe": 3.8,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "September 21–27, 2026",
+    "start": "2026-09-21",
+    "end": "2026-09-27",
+    "sample": 18786,
+    "population": "LV",
+    "moe": 0.9,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Angus Reid Global",
+    "dates": "September 19–25, 2026",
+    "start": "2026-09-19",
+    "end": "2026-09-25",
+    "sample": 919,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 56,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "GBAO (D)",
+    "dates": "September 17–24, 2026",
+    "start": "2026-09-17",
+    "end": "2026-09-24",
+    "sample": 2000,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Change Research (D)",
+    "dates": "September 15–24, 2026",
+    "start": "2026-09-15",
+    "end": "2026-09-24",
+    "sample": 2021,
+    "population": "RV",
+    "moe": 2.3,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "September 17–23, 2026",
+    "start": "2026-09-17",
+    "end": "2026-09-23",
+    "sample": 1819,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "September 21–22, 2026",
+    "start": "2026-09-21",
+    "end": "2026-09-22",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "The Argument/Verasight",
+    "dates": "September 16–22, 2026",
+    "start": "2026-09-16",
+    "end": "2026-09-22",
+    "sample": null,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 55,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "McLaughlin & Associates (R)",
+    "dates": "September 16–22, 2026",
+    "start": "2026-09-16",
+    "end": "2026-09-22",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "September 18–21, 2026",
+    "start": "2026-09-18",
+    "end": "2026-09-21",
+    "sample": 975,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "September 17–21, 2026",
+    "start": "2026-09-17",
+    "end": "2026-09-21",
+    "sample": 1002,
+    "population": "LV",
+    "moe": 3.6,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Strength In Numbers/Verasight",
+    "dates": "September 16–21, 2026",
+    "start": "2026-09-16",
+    "end": "2026-09-21",
+    "sample": null,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Impact Research (D)/ National Research Inc. (R)",
+    "dates": "September 16–21, 2026",
+    "start": "2026-09-16",
+    "end": "2026-09-21",
+    "sample": 1500,
+    "population": "RV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "KFF",
+    "dates": "September 16–21, 2026",
+    "start": "2026-09-16",
+    "end": "2026-09-21",
+    "sample": 1013,
+    "population": "RV",
+    "moe": 4,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 35
+    },
+    "other": null,
+    "undecided": 21
+   },
+   {
+    "pollster": "ActiVote",
+    "dates": "September 11–21, 2026",
+    "start": "2026-09-11",
+    "end": "2026-09-21",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "September 18–20, 2026",
+    "start": "2026-09-18",
+    "end": "2026-09-20",
+    "sample": 18336,
+    "population": "LV",
+    "moe": 0.9,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "September 17–20, 2026",
+    "start": "2026-09-17",
+    "end": "2026-09-20",
+    "sample": 979,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 35
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "September 15–18, 2026",
+    "start": "2026-09-15",
+    "end": "2026-09-18",
+    "sample": 1389,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "CNN/SSRS",
+    "dates": "September 16–17, 2026",
+    "start": "2026-09-16",
+    "end": "2026-09-17",
+    "sample": 867,
+    "population": "RV",
+    "moe": 4.1,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "John Zogby Strategies",
+    "dates": "September 15–17, 2026",
+    "start": "2026-09-15",
+    "end": "2026-09-17",
+    "sample": 1007,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "The Winston Group (R)",
+    "dates": "September 12–16, 2026",
+    "start": "2026-09-12",
+    "end": "2026-09-16",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Clarity Campaign Labs (D)",
+    "dates": "September 11–16, 2026",
+    "start": "2026-09-11",
+    "end": "2026-09-16",
+    "sample": 1046,
+    "population": "LV",
+    "moe": 3.03,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "September 10–16, 2026",
+    "start": "2026-09-10",
+    "end": "2026-09-16",
+    "sample": 1746,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Marist University",
+    "dates": "September 14–15, 2026",
+    "start": "2026-09-14",
+    "end": "2026-09-15",
+    "sample": 1280,
+    "population": "RV",
+    "moe": 3.8,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Big Data Poll (R)",
+    "dates": "September 13–15, 2026",
+    "start": "2026-09-13",
+    "end": "2026-09-15",
+    "sample": 2633,
+    "population": "LV",
+    "moe": 1.7,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "Emerson College/ RealClear Opinion Research",
+    "dates": "September 12–15, 2026",
+    "start": "2026-09-12",
+    "end": "2026-09-15",
+    "sample": 1500,
+    "population": "RV",
+    "moe": 2.4,
+    "values": {
+     "Democrats": 37,
+     "Republicans": 29
+    },
+    "other": null,
+    "undecided": 35
+   },
+   {
+    "pollster": "Hart Research Associates (D)/ Public Opinion Strategies (R)",
+    "dates": "September 11–15, 2026",
+    "start": "2026-09-11",
+    "end": "2026-09-15",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "September 10–15, 2026",
+    "start": "2026-09-10",
+    "end": "2026-09-15",
+    "sample": 2102,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "September 8–15, 2026",
+    "start": "2026-09-08",
+    "end": "2026-09-15",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "September 11–14, 2026",
+    "start": "2026-09-11",
+    "end": "2026-09-14",
+    "sample": 896,
+    "population": "RV",
+    "moe": 3.4,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 19
+   },
+   {
+    "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+    "dates": "September 11–14, 2026",
+    "start": "2026-09-11",
+    "end": "2026-09-14",
+    "sample": 1211,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "September 11–14, 2026",
+    "start": "2026-09-11",
+    "end": "2026-09-14",
+    "sample": 1051,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "The Rainey Center",
+    "dates": "September 10–14, 2026",
+    "start": "2026-09-10",
+    "end": "2026-09-14",
+    "sample": 1004,
+    "population": "RV",
+    "moe": 4.9,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "New York Times/Siena College",
+    "dates": "September 8–13, 2026",
+    "start": "2026-09-08",
+    "end": "2026-09-13",
+    "sample": 1503,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "September 7–13, 2026",
+    "start": "2026-09-07",
+    "end": "2026-09-13",
+    "sample": null,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "CBS News/YouGov",
+    "dates": "September 8–11, 2026",
+    "start": "2026-09-08",
+    "end": "2026-09-11",
+    "sample": 1750,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 54,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "ActiVote",
+    "dates": "August 31 – September 10, 2026",
+    "start": "2026-08-31",
+    "end": "2026-09-10",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 48
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Catawba College/YouGov",
+    "dates": "September 4–9, 2026",
+    "start": "2026-09-04",
+    "end": "2026-09-09",
+    "sample": 779,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "September 3–9, 2026",
+    "start": "2026-09-03",
+    "end": "2026-09-09",
+    "sample": 1905,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Marquette University Law School",
+    "dates": "September 2–9, 2026",
+    "start": "2026-09-02",
+    "end": "2026-09-09",
+    "sample": 581,
+    "population": "LV",
+    "moe": 4.3,
+    "values": {
+     "Democrats": 54,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "September 4–8, 2026",
+    "start": "2026-09-04",
+    "end": "2026-09-08",
+    "sample": 1015,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Public Religion Research Institute",
+    "dates": "August 20 – September 7, 2026",
+    "start": "2026-08-20",
+    "end": "2026-09-07",
+    "sample": null,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 21
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "September 4–6, 2026",
+    "start": "2026-09-04",
+    "end": "2026-09-06",
+    "sample": 2203,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Quinnipiac University",
+    "dates": "September 3–6, 2026",
+    "start": "2026-09-03",
+    "end": "2026-09-06",
+    "sample": 970,
+    "population": "RV",
+    "moe": 3.9,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "September 1–2, 2026",
+    "start": "2026-09-01",
+    "end": "2026-09-02",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Focaldata/Financial Times",
+    "dates": "August 28 – September 2, 2026",
+    "start": "2026-08-28",
+    "end": "2026-09-02",
+    "sample": 1837,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "August 28–31, 2026",
+    "start": "2026-08-28",
+    "end": "2026-08-31",
+    "sample": 924,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 19
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "August 28–30, 2026",
+    "start": "2026-08-28",
+    "end": "2026-08-30",
+    "sample": 2100,
+    "population": "RV",
+    "moe": 2.1,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 49
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "August 23–30, 2026",
+    "start": "2026-08-23",
+    "end": "2026-08-30",
+    "sample": 2231,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 23
+   },
+   {
+    "pollster": "UMass Amherst/YouGov",
+    "dates": "August 21–26, 2026",
+    "start": "2026-08-21",
+    "end": "2026-08-26",
+    "sample": 1000,
+    "population": "A",
+    "moe": 4.1,
+    "values": {
+     "Democrats": 42,
+     "Republicans": 34
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "McLaughlin & Associates (R)",
+    "dates": "August 14–24, 2026",
+    "start": "2026-08-14",
+    "end": "2026-08-24",
+    "sample": 1000,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "ActiVote",
+    "dates": "August 10–24, 2026",
+    "start": "2026-08-10",
+    "end": "2026-08-24",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 48
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "August 16–17, 2026",
+    "start": "2026-08-16",
+    "end": "2026-08-17",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "August 14–17, 2026",
+    "start": "2026-08-14",
+    "end": "2026-08-17",
+    "sample": 1449,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "August 14–17, 2026",
+    "start": "2026-08-14",
+    "end": "2026-08-17",
+    "sample": 876,
+    "population": "RV",
+    "moe": 3.4,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 23
+   },
+   {
+    "pollster": "The Bullfinch Group",
+    "dates": "August 14–17, 2026",
+    "start": "2026-08-14",
+    "end": "2026-08-17",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 42,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 21
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "August 13–17, 2026",
+    "start": "2026-08-13",
+    "end": "2026-08-17",
+    "sample": 1002,
+    "population": "LV",
+    "moe": 3.4,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Morning Consult/Cato Institute",
+    "dates": "August 13–16, 2026",
+    "start": "2026-08-13",
+    "end": "2026-08-16",
+    "sample": 4150,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Noble Predictive Insights/ The Center Square",
+    "dates": "August 12–16, 2026",
+    "start": "2026-08-12",
+    "end": "2026-08-16",
+    "sample": 2533,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "August 10–16, 2026",
+    "start": "2026-08-10",
+    "end": "2026-08-16",
+    "sample": 29719,
+    "population": "RV",
+    "moe": 0.6,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Angus Reid Global",
+    "dates": "August 8–11, 2026",
+    "start": "2026-08-08",
+    "end": "2026-08-11",
+    "sample": 1525,
+    "population": "A",
+    "moe": 2,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 19
+   },
+   {
+    "pollster": "Wave Polling/Verasight",
+    "dates": "August 7–11, 2026",
+    "start": "2026-08-07",
+    "end": "2026-08-11",
+    "sample": 1591,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Focaldata/Financial Times",
+    "dates": "August 7–11, 2026",
+    "start": "2026-08-07",
+    "end": "2026-08-11",
+    "sample": 1857,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "AlphaROC",
+    "dates": "August 8–10, 2026",
+    "start": "2026-08-08",
+    "end": "2026-08-10",
+    "sample": 1000,
+    "population": "A",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "August 7–10, 2026",
+    "start": "2026-08-07",
+    "end": "2026-08-10",
+    "sample": 1419,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "August 3–9, 2026",
+    "start": "2026-08-03",
+    "end": "2026-08-09",
+    "sample": 29719,
+    "population": "RV",
+    "moe": 0.6,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "ActiVote",
+    "dates": "July 29 – August 8, 2026",
+    "start": "2026-07-29",
+    "end": "2026-08-08",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 52.5,
+     "Republicans": 47.5
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "August 6–7, 2026",
+    "start": "2026-08-06",
+    "end": "2026-08-07",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "John Zogby Strategies",
+    "dates": "August 4–5, 2026",
+    "start": "2026-08-04",
+    "end": "2026-08-05",
+    "sample": 921,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "August 3–4, 2026",
+    "start": "2026-08-03",
+    "end": "2026-08-04",
+    "sample": 1048,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "July 31 – August 3, 2026",
+    "start": "2026-07-31",
+    "end": "2026-08-03",
+    "sample": 1472,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "July 29 – August 3, 2026",
+    "start": "2026-07-29",
+    "end": "2026-08-03",
+    "sample": 3542,
+    "population": "RV",
+    "moe": 1.7,
+    "values": {
+     "Democrats": 42,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 21
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "July 27 – August 2, 2026",
+    "start": "2026-07-27",
+    "end": "2026-08-02",
+    "sample": 24000,
+    "population": "RV",
+    "moe": 1,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Big Data Poll (R)",
+    "dates": "July 27–29, 2026",
+    "start": "2026-07-27",
+    "end": "2026-07-29",
+    "sample": 2617,
+    "population": "LV",
+    "moe": 1.7,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Marquette University Law School",
+    "dates": "July 22–29, 2026",
+    "start": "2026-07-22",
+    "end": "2026-07-29",
+    "sample": 572,
+    "population": "LV",
+    "moe": 4.4,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "CNN/SSRS",
+    "dates": "July 23–27, 2026",
+    "start": "2026-07-23",
+    "end": "2026-07-27",
+    "sample": 914,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Quinnipiac University",
+    "dates": "July 23–27, 2026",
+    "start": "2026-07-23",
+    "end": "2026-07-27",
+    "sample": 963,
+    "population": "RV",
+    "moe": 4.1,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "July 24–26, 2026",
+    "start": "2026-07-24",
+    "end": "2026-07-26",
+    "sample": 1003,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 40,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "July 20–26, 2026",
+    "start": "2026-07-20",
+    "end": "2026-07-26",
+    "sample": 24000,
+    "population": "RV",
+    "moe": 1,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "The Argument/Verasight",
+    "dates": "July 20–26, 2026",
+    "start": "2026-07-20",
+    "end": "2026-07-26",
+    "sample": 3000,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 54,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "CBS News/YouGov",
+    "dates": "July 22–24, 2026",
+    "start": "2026-07-22",
+    "end": "2026-07-24",
+    "sample": 1474,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Clarity Campaign Labs (D)",
+    "dates": "July 17–22, 2026",
+    "start": "2026-07-17",
+    "end": "2026-07-22",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "McLaughlin & Associates (R)",
+    "dates": "July 15–21, 2026",
+    "start": "2026-07-15",
+    "end": "2026-07-21",
+    "sample": 1000,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "July 19–20, 2026",
+    "start": "2026-07-19",
+    "end": "2026-07-20",
+    "sample": 1100,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+    "dates": "July 17–20, 2026",
+    "start": "2026-07-17",
+    "end": "2026-07-20",
+    "sample": 1003,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": 1
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "July 17–20, 2026",
+    "start": "2026-07-17",
+    "end": "2026-07-20",
+    "sample": 1432,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Focaldata",
+    "dates": "July 14–20, 2026",
+    "start": "2026-07-14",
+    "end": "2026-07-20",
+    "sample": 2064,
+    "population": "A",
+    "moe": null,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 20
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "July 17–19, 2026",
+    "start": "2026-07-17",
+    "end": "2026-07-19",
+    "sample": 2200,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Strength In Numbers/Verasight",
+    "dates": "July 14–17, 2026",
+    "start": "2026-07-14",
+    "end": "2026-07-17",
+    "sample": 1364,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "AlphaROC",
+    "dates": "July 13–14, 2026",
+    "start": "2026-07-13",
+    "end": "2026-07-14",
+    "sample": 1000,
+    "population": "A",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 42,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 21
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "July 6–14, 2026",
+    "start": "2026-07-06",
+    "end": "2026-07-14",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "July 10–13, 2026",
+    "start": "2026-07-10",
+    "end": "2026-07-13",
+    "sample": 2200,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "July 10–13, 2026",
+    "start": "2026-07-10",
+    "end": "2026-07-13",
+    "sample": 1447,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "July 9–13, 2026",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "sample": 1004,
+    "population": "LV",
+    "moe": 3.6,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "The Washington Post/Ipsos",
+    "dates": "July 8–13, 2026",
+    "start": "2026-07-08",
+    "end": "2026-07-13",
+    "sample": 1483,
+    "population": "LV",
+    "moe": 2.6,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 2
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "July 11–12, 2026",
+    "start": "2026-07-11",
+    "end": "2026-07-12",
+    "sample": 1776,
+    "population": "RV",
+    "moe": 2.3,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 50
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Hart Research Associates (D)/ Public Opinion Strategies (R)",
+    "dates": "July 8–12, 2026",
+    "start": "2026-07-08",
+    "end": "2026-07-12",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Pew Research Center",
+    "dates": "July 6–12, 2026",
+    "start": "2026-07-06",
+    "end": "2026-07-12",
+    "sample": 2779,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 20
+   },
+   {
+    "pollster": "HarrisX/2WAY",
+    "dates": "July 9–10, 2026",
+    "start": "2026-07-09",
+    "end": "2026-07-10",
+    "sample": 787,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "July 3–7, 2026",
+    "start": "2026-07-03",
+    "end": "2026-07-07",
+    "sample": 1140,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Manhattan Institute",
+    "dates": "July 1–6, 2026",
+    "start": "2026-07-01",
+    "end": "2026-07-06",
+    "sample": 1121,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "June 29 – July 5, 2026",
+    "start": "2026-06-29",
+    "end": "2026-07-05",
+    "sample": 24000,
+    "population": "RV",
+    "moe": 1,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Zogby Analytics",
+    "dates": "July 1–4, 2026",
+    "start": "2026-07-01",
+    "end": "2026-07-04",
+    "sample": 1003,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 42,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Talker Research",
+    "dates": "June 25 – July 2, 2026",
+    "start": "2026-06-25",
+    "end": "2026-07-02",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "June 30 – July 1, 2026",
+    "start": "2026-06-30",
+    "end": "2026-07-01",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "June 24 – July 1, 2026",
+    "start": "2026-06-24",
+    "end": "2026-07-01",
+    "sample": 2224,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Focaldata/Financial Times",
+    "dates": "June 26–30, 2026",
+    "start": "2026-06-26",
+    "end": "2026-06-30",
+    "sample": 1723,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "June 26–29, 2026",
+    "start": "2026-06-26",
+    "end": "2026-06-29",
+    "sample": 1426,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "AlphaROC",
+    "dates": "June 27–28, 2026",
+    "start": "2026-06-27",
+    "end": "2026-06-28",
+    "sample": 1000,
+    "population": "A",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 20
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "June 26–28, 2026",
+    "start": "2026-06-26",
+    "end": "2026-06-28",
+    "sample": 2202,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Big Data Poll (R)",
+    "dates": "June 26–28, 2026",
+    "start": "2026-06-26",
+    "end": "2026-06-28",
+    "sample": 2604,
+    "population": "LV",
+    "moe": 1.8,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "June 22–28, 2026",
+    "start": "2026-06-22",
+    "end": "2026-06-28",
+    "sample": 24000,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "ActiVote",
+    "dates": "June 6–28, 2026",
+    "start": "2026-06-06",
+    "end": "2026-06-28",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Morning Consult/Cato Institute",
+    "dates": "June 25–26, 2026",
+    "start": "2026-06-25",
+    "end": "2026-06-26",
+    "sample": 1797,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 16
+   },
+   {
+    "pollster": "McLaughlin & Associates (R)",
+    "dates": "June 17–23, 2026",
+    "start": "2026-06-17",
+    "end": "2026-06-23",
+    "sample": 1000,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "June 19–22, 2026",
+    "start": "2026-06-19",
+    "end": "2026-06-22",
+    "sample": null,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "June 19–22, 2026",
+    "start": "2026-06-19",
+    "end": "2026-06-22",
+    "sample": 1517,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "June 18–22, 2026",
+    "start": "2026-06-18",
+    "end": "2026-06-22",
+    "sample": 978,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 23
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "June 18–22, 2026",
+    "start": "2026-06-18",
+    "end": "2026-06-22",
+    "sample": 1008,
+    "population": "LV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "Quinnipiac University",
+    "dates": "June 18–22, 2026",
+    "start": "2026-06-18",
+    "end": "2026-06-22",
+    "sample": 1165,
+    "population": "RV",
+    "moe": 3.4,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Strength In Numbers/Verasight",
+    "dates": "June 17–22, 2026",
+    "start": "2026-06-17",
+    "end": "2026-06-22",
+    "sample": 1896,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Data for Progress (D)",
+    "dates": "May 15 – June 21, 2026",
+    "start": "2026-05-15",
+    "end": "2026-06-21",
+    "sample": 5809,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "June 16–17, 2026",
+    "start": "2026-06-16",
+    "end": "2026-06-17",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "The Bullfinch Group",
+    "dates": "June 12–16, 2026",
+    "start": "2026-06-12",
+    "end": "2026-06-16",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 20
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "June 13–15, 2026",
+    "start": "2026-06-13",
+    "end": "2026-06-15",
+    "sample": 1402,
+    "population": "RV",
+    "moe": 3.4,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "June 11–14, 2026",
+    "start": "2026-06-11",
+    "end": "2026-06-14",
+    "sample": 1012,
+    "population": "LV",
+    "moe": 3.7,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "June 8–14, 2026",
+    "start": "2026-06-08",
+    "end": "2026-06-14",
+    "sample": 24000,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "June 7–8, 2026",
+    "start": "2026-06-07",
+    "end": "2026-06-08",
+    "sample": 1200,
+    "population": "LV",
+    "moe": 2.8,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "June 5–8, 2026",
+    "start": "2026-06-05",
+    "end": "2026-06-08",
+    "sample": 1393,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "June 3–8, 2026",
+    "start": "2026-06-03",
+    "end": "2026-06-08",
+    "sample": 3578,
+    "population": "RV",
+    "moe": 1.7,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "June 1–7, 2026",
+    "start": "2026-06-01",
+    "end": "2026-06-07",
+    "sample": 24849,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Hart Research Associates (D)/ Public Opinion Strategies (R)",
+    "dates": "May 29 – June 7, 2026",
+    "start": "2026-05-29",
+    "end": "2026-06-07",
+    "sample": 2400,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "HarrisX/Forbes",
+    "dates": "May 20 – June 7, 2026",
+    "start": "2026-05-20",
+    "end": "2026-06-07",
+    "sample": 1565,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Research Co.",
+    "dates": "June 4–6, 2026",
+    "start": "2026-06-04",
+    "end": "2026-06-06",
+    "sample": 1001,
+    "population": "A",
+    "moe": null,
+    "values": {
+     "Democrats": 38,
+     "Republicans": 33
+    },
+    "other": null,
+    "undecided": 29
+   },
+   {
+    "pollster": "Clarity Campaign Labs (D)",
+    "dates": "May 28 – June 5, 2026",
+    "start": "2026-05-28",
+    "end": "2026-06-05",
+    "sample": 1045,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Noble Predictive Insights/ The Center Square",
+    "dates": "June 1–4, 2026",
+    "start": "2026-06-01",
+    "end": "2026-06-04",
+    "sample": 2585,
+    "population": "RV",
+    "moe": 1.9,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "June 1–4, 2026",
+    "start": "2026-06-01",
+    "end": "2026-06-04",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "June 2–3, 2026",
+    "start": "2026-06-02",
+    "end": "2026-06-03",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "The Argument/Verasight",
+    "dates": "May 29 – June 3, 2026",
+    "start": "2026-05-29",
+    "end": "2026-06-03",
+    "sample": 3008,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "June 1–2, 2026",
+    "start": "2026-06-01",
+    "end": "2026-06-02",
+    "sample": 1050,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "The Winston Group (R)",
+    "dates": "May 30 – June 2, 2026",
+    "start": "2026-05-30",
+    "end": "2026-06-02",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "The Bullfinch Group",
+    "dates": "May 29 – June 2, 2026",
+    "start": "2026-05-29",
+    "end": "2026-06-02",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 42,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Focaldata/Financial Times",
+    "dates": "May 29 – June 1, 2026",
+    "start": "2026-05-29",
+    "end": "2026-06-01",
+    "sample": 1483,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "May 29 – June 1, 2026",
+    "start": "2026-05-29",
+    "end": "2026-06-01",
+    "sample": 1452,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "May 29–31, 2026",
+    "start": "2026-05-29",
+    "end": "2026-05-31",
+    "sample": 1725,
+    "population": "RV",
+    "moe": 2.4,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 49
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "May 25–31, 2026",
+    "start": "2026-05-25",
+    "end": "2026-05-31",
+    "sample": null,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "I&I/TIPP Insights (R)",
+    "dates": "May 26–28, 2026",
+    "start": "2026-05-26",
+    "end": "2026-05-28",
+    "sample": 1332,
+    "population": "RV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Big Data Poll (R)",
+    "dates": "May 24–27, 2026",
+    "start": "2026-05-24",
+    "end": "2026-05-27",
+    "sample": 2784,
+    "population": "LV",
+    "moe": 1.8,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "May 22–26, 2026",
+    "start": "2026-05-22",
+    "end": "2026-05-26",
+    "sample": 1393,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Marquette University Law School",
+    "dates": "May 20–26, 2026",
+    "start": "2026-05-20",
+    "end": "2026-05-26",
+    "sample": 576,
+    "population": "LV",
+    "moe": 4.4,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 48
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "Pennsylvania State University/YouGov",
+    "dates": "May 19–26, 2026",
+    "start": "2026-05-19",
+    "end": "2026-05-26",
+    "sample": 862,
+    "population": "RV",
+    "moe": 4,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "May 24–25, 2026",
+    "start": "2026-05-24",
+    "end": "2026-05-25",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "John Zogby Strategies",
+    "dates": "May 21–22, 2026",
+    "start": "2026-05-21",
+    "end": "2026-05-22",
+    "sample": null,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Morris Predictive Insights/Verasight",
+    "dates": "May 18–20, 2026",
+    "start": "2026-05-18",
+    "end": "2026-05-20",
+    "sample": 2000,
+    "population": "A",
+    "moe": 2.7,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "May 13–20, 2026",
+    "start": "2026-05-13",
+    "end": "2026-05-20",
+    "sample": 2161,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Strength In Numbers/Verasight",
+    "dates": "May 18–19, 2026",
+    "start": "2026-05-18",
+    "end": "2026-05-19",
+    "sample": 1413,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "The Rainey Center",
+    "dates": "May 17–18, 2026",
+    "start": "2026-05-17",
+    "end": "2026-05-18",
+    "sample": 1010,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Data for Progress (D)",
+    "dates": "May 15–18, 2026",
+    "start": "2026-05-15",
+    "end": "2026-05-18",
+    "sample": 1149,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "May 15–18, 2026",
+    "start": "2026-05-15",
+    "end": "2026-05-18",
+    "sample": 984,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 39,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 23
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "May 15–18, 2026",
+    "start": "2026-05-15",
+    "end": "2026-05-18",
+    "sample": 1375,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "May 14–18, 2026",
+    "start": "2026-05-14",
+    "end": "2026-05-18",
+    "sample": 1008,
+    "population": "LV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Quinnipiac University",
+    "dates": "May 14–18, 2026",
+    "start": "2026-05-14",
+    "end": "2026-05-18",
+    "sample": 1106,
+    "population": "RV",
+    "moe": 3.7,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "McLaughlin & Associates (R)",
+    "dates": "May 12–18, 2026",
+    "start": "2026-05-12",
+    "end": "2026-05-18",
+    "sample": 1000,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Impact Research (D)/ National Research Inc. (R)",
+    "dates": "May 7–18, 2026",
+    "start": "2026-05-07",
+    "end": "2026-05-18",
+    "sample": 1500,
+    "population": "RV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "May 15–17, 2026",
+    "start": "2026-05-15",
+    "end": "2026-05-17",
+    "sample": 2203,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "May 11–17, 2026",
+    "start": "2026-05-11",
+    "end": "2026-05-17",
+    "sample": 28525,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "CBS News/YouGov",
+    "dates": "May 13–15, 2026",
+    "start": "2026-05-13",
+    "end": "2026-05-15",
+    "sample": 1397,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "New York Times/Siena College",
+    "dates": "May 11–15, 2026",
+    "start": "2026-05-11",
+    "end": "2026-05-15",
+    "sample": 1507,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "May 9–11, 2026",
+    "start": "2026-05-09",
+    "end": "2026-05-11",
+    "sample": 1406,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "May 8–11, 2026",
+    "start": "2026-05-08",
+    "end": "2026-05-11",
+    "sample": 993,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 35
+    },
+    "other": null,
+    "undecided": 24
+   },
+   {
+    "pollster": "AtlasIntel",
+    "dates": "May 4–7, 2026",
+    "start": "2026-05-04",
+    "end": "2026-05-07",
+    "sample": 2069,
+    "population": "A",
+    "moe": 2,
+    "values": {
+     "Democrats": 55,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "May 4–7, 2026",
+    "start": "2026-05-04",
+    "end": "2026-05-07",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "May 5–6, 2026",
+    "start": "2026-05-05",
+    "end": "2026-05-06",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "May 4–6, 2026",
+    "start": "2026-05-04",
+    "end": "2026-05-06",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "HarrisX/Forbes",
+    "dates": "April 29 – May 5, 2026",
+    "start": "2026-04-29",
+    "end": "2026-05-05",
+    "sample": 1891,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Focaldata/Financial Times",
+    "dates": "May 1–5, 2026",
+    "start": "2026-05-01",
+    "end": "2026-05-05",
+    "sample": 3017,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "May 1–4, 2026",
+    "start": "2026-05-01",
+    "end": "2026-05-04",
+    "sample": 1406,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "CNN/SSRS",
+    "dates": "April 30 – May 4, 2026",
+    "start": "2026-04-30",
+    "end": "2026-05-04",
+    "sample": null,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "April 30 – May 3, 2026",
+    "start": "2026-04-30",
+    "end": "2026-05-03",
+    "sample": 2201,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Marist University",
+    "dates": "April 27–30, 2026",
+    "start": "2026-04-27",
+    "end": "2026-04-30",
+    "sample": 1155,
+    "population": "RV",
+    "moe": 3.3,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Big Data Poll (R)",
+    "dates": "April 25–28, 2026",
+    "start": "2026-04-25",
+    "end": "2026-04-28",
+    "sample": 2874,
+    "population": "LV",
+    "moe": 1.7,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "The Washington Post/ABC News/Ipsos",
+    "dates": "April 24–28, 2026",
+    "start": "2026-04-24",
+    "end": "2026-04-28",
+    "sample": 2059,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "April 24–27, 2026",
+    "start": "2026-04-24",
+    "end": "2026-04-27",
+    "sample": 1645,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "April 24–27, 2026",
+    "start": "2026-04-24",
+    "end": "2026-04-27",
+    "sample": 1014,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "April 24–27, 2026",
+    "start": "2026-04-24",
+    "end": "2026-04-27",
+    "sample": 2201,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Public Opinion Strategies (R)",
+    "dates": "April 21–27, 2026",
+    "start": "2026-04-21",
+    "end": "2026-04-27",
+    "sample": 1000,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "April 24–26, 2026",
+    "start": "2026-04-24",
+    "end": "2026-04-26",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "April 23–26, 2026",
+    "start": "2026-04-23",
+    "end": "2026-04-26",
+    "sample": 2745,
+    "population": "RV",
+    "moe": 1.9,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 50
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Clarity Campaign Labs (D)",
+    "dates": "April 15–24, 2026",
+    "start": "2026-04-15",
+    "end": "2026-04-24",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "April 21–23, 2026",
+    "start": "2026-04-21",
+    "end": "2026-04-23",
+    "sample": 1452,
+    "population": "LV",
+    "moe": 2.6,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "The Argument/Verasight",
+    "dates": "April 20–23, 2026",
+    "start": "2026-04-20",
+    "end": "2026-04-23",
+    "sample": 1516,
+    "population": "RV",
+    "moe": 2.7,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+    "dates": "April 17–20, 2026",
+    "start": "2026-04-17",
+    "end": "2026-04-20",
+    "sample": 1001,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": 1
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "April 17–20, 2026",
+    "start": "2026-04-17",
+    "end": "2026-04-20",
+    "sample": 1012,
+    "population": "LV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "April 17–20, 2026",
+    "start": "2026-04-17",
+    "end": "2026-04-20",
+    "sample": 1549,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "April 15–20, 2026",
+    "start": "2026-04-15",
+    "end": "2026-04-20",
+    "sample": 3577,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 21
+   },
+   {
+    "pollster": "KFF",
+    "dates": "April 14–19, 2026",
+    "start": "2026-04-14",
+    "end": "2026-04-19",
+    "sample": 1107,
+    "population": "RV",
+    "moe": 4,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 34
+    },
+    "other": null,
+    "undecided": 23
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "April 13–19, 2026",
+    "start": "2026-04-13",
+    "end": "2026-04-19",
+    "sample": 27869,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "John Zogby Strategies",
+    "dates": "April 17–18, 2026",
+    "start": "2026-04-17",
+    "end": "2026-04-18",
+    "sample": 1001,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Marquette University Law School",
+    "dates": "April 8–16, 2026",
+    "start": "2026-04-08",
+    "end": "2026-04-16",
+    "sample": 576,
+    "population": "LV",
+    "moe": 4.4,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "GBAO (D)/Third Way (D)",
+    "dates": "April 8–15, 2026",
+    "start": "2026-04-08",
+    "end": "2026-04-15",
+    "sample": 2000,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "McLaughlin & Associates (R)",
+    "dates": "April 8–15, 2026",
+    "start": "2026-04-08",
+    "end": "2026-04-15",
+    "sample": 1000,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Strength In Numbers/Verasight",
+    "dates": "April 10–14, 2026",
+    "start": "2026-04-10",
+    "end": "2026-04-14",
+    "sample": 1386,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Survey 160",
+    "dates": "April 8–13, 2026",
+    "start": "2026-04-08",
+    "end": "2026-04-13",
+    "sample": 1539,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 16
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "April 6–12, 2026",
+    "start": "2026-04-06",
+    "end": "2026-04-12",
+    "sample": 12505,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Tavern Research (D)",
+    "dates": "April 6–9, 2026",
+    "start": "2026-04-06",
+    "end": "2026-04-09",
+    "sample": 502,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "April 6–9, 2026",
+    "start": "2026-04-06",
+    "end": "2026-04-09",
+    "sample": 2200,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "April 6–9, 2026",
+    "start": "2026-04-06",
+    "end": "2026-04-09",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "April 3–9, 2026",
+    "start": "2026-04-03",
+    "end": "2026-04-09",
+    "sample": 2880,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "April 3–6, 2026",
+    "start": "2026-04-03",
+    "end": "2026-04-06",
+    "sample": 1558,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "March 30 – April 5, 2026",
+    "start": "2026-03-30",
+    "end": "2026-04-05",
+    "sample": 12505,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "April 3–4, 2026",
+    "start": "2026-04-03",
+    "end": "2026-04-04",
+    "sample": 2203,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "April 2–3, 2026",
+    "start": "2026-04-02",
+    "end": "2026-04-03",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "UMass Lowell/YouGov",
+    "dates": "March 26–30, 2026",
+    "start": "2026-03-26",
+    "end": "2026-03-30",
+    "sample": 1000,
+    "population": "A",
+    "moe": 4.1,
+    "values": {
+     "Democrats": 38,
+     "Republicans": 35
+    },
+    "other": null,
+    "undecided": 27
+   },
+   {
+    "pollster": "CNN/SSRS",
+    "dates": "March 26–30, 2026",
+    "start": "2026-03-26",
+    "end": "2026-03-30",
+    "sample": 951,
+    "population": "RV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "March 25–26, 2026",
+    "start": "2026-03-25",
+    "end": "2026-03-26",
+    "sample": 2009,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 49
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "March 25–26, 2026",
+    "start": "2026-03-25",
+    "end": "2026-03-26",
+    "sample": 1472,
+    "population": "LV",
+    "moe": 2.8,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Big Data Poll (R)",
+    "dates": "March 22–24, 2026",
+    "start": "2026-03-22",
+    "end": "2026-03-24",
+    "sample": 3003,
+    "population": "RV",
+    "moe": 1.9,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "March 20–23, 2026",
+    "start": "2026-03-20",
+    "end": "2026-03-23",
+    "sample": 1501,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Quinnipiac University",
+    "dates": "March 19–23, 2026",
+    "start": "2026-03-19",
+    "end": "2026-03-23",
+    "sample": 1191,
+    "population": "RV",
+    "moe": 3.6,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "March 16–23, 2026",
+    "start": "2026-03-16",
+    "end": "2026-03-23",
+    "sample": 2222,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Yale Youth Poll",
+    "dates": "March 9–23, 2026",
+    "start": "2026-03-09",
+    "end": "2026-03-23",
+    "sample": 3429,
+    "population": "RV",
+    "moe": 1.4,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "March 20–22, 2026",
+    "start": "2026-03-20",
+    "end": "2026-03-22",
+    "sample": 985,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 40,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "March 17–22, 2026",
+    "start": "2026-03-17",
+    "end": "2026-03-22",
+    "sample": 15029,
+    "population": "A",
+    "moe": 1,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "March 16–22, 2026",
+    "start": "2026-03-16",
+    "end": "2026-03-22",
+    "sample": 26406,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Impact Research (D)/ BSP Research (D)",
+    "dates": "March 10–20, 2026",
+    "start": "2026-03-10",
+    "end": "2026-03-20",
+    "sample": 1000,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "March 17–19, 2026",
+    "start": "2026-03-17",
+    "end": "2026-03-19",
+    "sample": 1206,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 40,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 23
+   },
+   {
+    "pollster": "John Zogby Strategies",
+    "dates": "March 17–18, 2026",
+    "start": "2026-03-17",
+    "end": "2026-03-18",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "March 17–18, 2026",
+    "start": "2026-03-17",
+    "end": "2026-03-18",
+    "sample": 1064,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Strength In Numbers/Verasight",
+    "dates": "March 16–18, 2026",
+    "start": "2026-03-16",
+    "end": "2026-03-18",
+    "sample": 1370,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "March 16–17, 2026",
+    "start": "2026-03-16",
+    "end": "2026-03-17",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "The Winston Group (R)",
+    "dates": "March 15–17, 2026",
+    "start": "2026-03-15",
+    "end": "2026-03-17",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "The Argument/Verasight",
+    "dates": "March 12–17, 2026",
+    "start": "2026-03-12",
+    "end": "2026-03-17",
+    "sample": 1519,
+    "population": "RV",
+    "moe": 2.7,
+    "values": {
+     "Democrats": 54,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "March 13–16, 2026",
+    "start": "2026-03-13",
+    "end": "2026-03-16",
+    "sample": 2201,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "March 13–16, 2026",
+    "start": "2026-03-13",
+    "end": "2026-03-16",
+    "sample": 1427,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 16
+   },
+   {
+    "pollster": "Yahoo News/YouGov",
+    "dates": "March 12–16, 2026",
+    "start": "2026-03-12",
+    "end": "2026-03-16",
+    "sample": 1147,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 16
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "March 12–16, 2026",
+    "start": "2026-03-12",
+    "end": "2026-03-16",
+    "sample": 1033,
+    "population": "LV",
+    "moe": 3.4,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Survey 160",
+    "dates": "March 9–15, 2026",
+    "start": "2026-03-09",
+    "end": "2026-03-15",
+    "sample": 1546,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "March 9–15, 2026",
+    "start": "2026-03-09",
+    "end": "2026-03-15",
+    "sample": 2663,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Focaldata",
+    "dates": "March 6–10, 2026",
+    "start": "2026-03-06",
+    "end": "2026-03-10",
+    "sample": 1456,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "March 6–9, 2026",
+    "start": "2026-03-06",
+    "end": "2026-03-09",
+    "sample": 1403,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "McLaughlin & Associates (R)",
+    "dates": "March 4–9, 2026",
+    "start": "2026-03-04",
+    "end": "2026-03-09",
+    "sample": 1000,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "March 2–8, 2026",
+    "start": "2026-03-02",
+    "end": "2026-03-08",
+    "sample": 25948,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Clarity Campaign Labs (D)",
+    "dates": "February 26 – March 7, 2026",
+    "start": "2026-02-26",
+    "end": "2026-03-07",
+    "sample": 1004,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "March 2–5, 2026",
+    "start": "2026-03-02",
+    "end": "2026-03-05",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "March 3–4, 2026",
+    "start": "2026-03-03",
+    "end": "2026-03-04",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Marist University",
+    "dates": "March 2–4, 2026",
+    "start": "2026-03-02",
+    "end": "2026-03-04",
+    "sample": 1392,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "March 2–3, 2026",
+    "start": "2026-03-02",
+    "end": "2026-03-03",
+    "sample": 1624,
+    "population": "LV",
+    "moe": 2.6,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Hart Research Associates (D)/ Public Opinion Strategies (R)",
+    "dates": "February 27 – March 3, 2026",
+    "start": "2026-02-27",
+    "end": "2026-03-03",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "February 27 – March 2, 2026",
+    "start": "2026-02-27",
+    "end": "2026-03-02",
+    "sample": 1363,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "February 23 – March 1, 2026",
+    "start": "2026-02-23",
+    "end": "2026-03-01",
+    "sample": null,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "The Public Sentiment Institute",
+    "dates": "February 28, 2026",
+    "start": "2026-02-28",
+    "end": "2026-02-28",
+    "sample": 249,
+    "population": "LV",
+    "moe": 5.5,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "CBS News/YouGov",
+    "dates": "February 25–27, 2026",
+    "start": "2026-02-25",
+    "end": "2026-02-27",
+    "sample": 1523,
+    "population": "RV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "I&I/TIPP Insights (R)",
+    "dates": "February 24–27, 2026",
+    "start": "2026-02-24",
+    "end": "2026-02-27",
+    "sample": 1264,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "February 25–26, 2026",
+    "start": "2026-02-25",
+    "end": "2026-02-26",
+    "sample": 1999,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 50
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "February 24–26, 2026",
+    "start": "2026-02-24",
+    "end": "2026-02-26",
+    "sample": 1048,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "GrayHouse (R)",
+    "dates": "February 20–23, 2026",
+    "start": "2026-02-20",
+    "end": "2026-02-23",
+    "sample": 1394,
+    "population": "RV",
+    "moe": 2.6,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 17
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "February 20–23, 2026",
+    "start": "2026-02-20",
+    "end": "2026-02-23",
+    "sample": 1402,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "February 19–23, 2026",
+    "start": "2026-02-19",
+    "end": "2026-02-23",
+    "sample": 1002,
+    "population": "LV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "Pennsylvania State University/YouGov",
+    "dates": "February 18–23, 2026",
+    "start": "2026-02-18",
+    "end": "2026-02-23",
+    "sample": 824,
+    "population": "LV",
+    "moe": 3.8,
+    "values": {
+     "Democrats": 42,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 21
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "February 18–23, 2026",
+    "start": "2026-02-18",
+    "end": "2026-02-23",
+    "sample": 3686,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 40,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "February 21–22, 2026",
+    "start": "2026-02-21",
+    "end": "2026-02-22",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "February 20–22, 2026",
+    "start": "2026-02-20",
+    "end": "2026-02-22",
+    "sample": 2202,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Global Strategy Group (D)",
+    "dates": "February 17–22, 2026",
+    "start": "2026-02-17",
+    "end": "2026-02-22",
+    "sample": 1051,
+    "population": "LV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Strength In Numbers/Verasight",
+    "dates": "February 18–20, 2026",
+    "start": "2026-02-18",
+    "end": "2026-02-20",
+    "sample": 1401,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "Talker Research",
+    "dates": "February 13–19, 2026",
+    "start": "2026-02-13",
+    "end": "2026-02-19",
+    "sample": 1000,
+    "population": "A",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 42,
+     "Republicans": 36
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Big Data Poll (R)",
+    "dates": "February 16–18, 2026",
+    "start": "2026-02-16",
+    "end": "2026-02-18",
+    "sample": 2012,
+    "population": "RV",
+    "moe": 2.1,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "BGSU/YouGov",
+    "dates": "February 13–18, 2026",
+    "start": "2026-02-13",
+    "end": "2026-02-18",
+    "sample": 1200,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Washington Post/ABC News/Ipsos",
+    "dates": "February 12–17, 2026",
+    "start": "2026-02-12",
+    "end": "2026-02-17",
+    "sample": 2087,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "February 13–16, 2026",
+    "start": "2026-02-13",
+    "end": "2026-02-16",
+    "sample": 1509,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "February 13–16, 2026",
+    "start": "2026-02-13",
+    "end": "2026-02-16",
+    "sample": 846,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "February 13–16, 2026",
+    "start": "2026-02-13",
+    "end": "2026-02-16",
+    "sample": 2200,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "February 12–13, 2026",
+    "start": "2026-02-12",
+    "end": "2026-02-13",
+    "sample": 1515,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "February 9–12, 2026",
+    "start": "2026-02-09",
+    "end": "2026-02-12",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Yahoo News/YouGov",
+    "dates": "February 9–12, 2026",
+    "start": "2026-02-09",
+    "end": "2026-02-12",
+    "sample": 1149,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "Focaldata",
+    "dates": "February 10, 2026",
+    "start": "2026-02-10",
+    "end": "2026-02-10",
+    "sample": null,
+    "population": "LV",
+    "moe": null,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 5
+   },
+   {
+    "pollster": "The Argument/Verasight",
+    "dates": "February 4–10, 2026",
+    "start": "2026-02-04",
+    "end": "2026-02-10",
+    "sample": 3003,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "February 6–9, 2026",
+    "start": "2026-02-06",
+    "end": "2026-02-09",
+    "sample": 2200,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "February 6–9, 2026",
+    "start": "2026-02-06",
+    "end": "2026-02-09",
+    "sample": 1549,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 18
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "February 2–8, 2026",
+    "start": "2026-02-02",
+    "end": "2026-02-08",
+    "sample": 29303,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "John Zogby Strategies",
+    "dates": "February 4–5, 2026",
+    "start": "2026-02-04",
+    "end": "2026-02-05",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "February 3–4, 2026",
+    "start": "2026-02-03",
+    "end": "2026-02-04",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "January 30 – February 2, 2026",
+    "start": "2026-01-30",
+    "end": "2026-02-02",
+    "sample": 1501,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 16
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "January 30 – February 1, 2026",
+    "start": "2026-01-30",
+    "end": "2026-02-01",
+    "sample": 2201,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Public Policy Polling (D)",
+    "dates": "January 29–30, 2026",
+    "start": "2026-01-29",
+    "end": "2026-01-30",
+    "sample": 652,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Harvard/Harris Poll/HarrisX",
+    "dates": "January 28–29, 2026",
+    "start": "2026-01-28",
+    "end": "2026-01-29",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2,
+    "values": {
+     "Democrats": 54,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "I&I/TIPP Insights (R)",
+    "dates": "January 27–28, 2026",
+    "start": "2026-01-27",
+    "end": "2026-01-28",
+    "sample": 1126,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "January 27–28, 2026",
+    "start": "2026-01-27",
+    "end": "2026-01-28",
+    "sample": 1004,
+    "population": "LV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Marquette University Law School",
+    "dates": "January 21–28, 2026",
+    "start": "2026-01-21",
+    "end": "2026-01-28",
+    "sample": 577,
+    "population": "LV",
+    "moe": 4.4,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "The Argument/Verasight",
+    "dates": "January 26–27, 2026",
+    "start": "2026-01-26",
+    "end": "2026-01-27",
+    "sample": 1515,
+    "population": "RV",
+    "moe": 2.7,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 48
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
+    "pollster": "McLaughlin & Associates (R)",
+    "dates": "January 21–27, 2026",
+    "start": "2026-01-21",
+    "end": "2026-01-27",
+    "sample": 1000,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+    "dates": "January 23–26, 2026",
+    "start": "2026-01-23",
+    "end": "2026-01-26",
+    "sample": 1005,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 46
+    },
+    "other": null,
+    "undecided": 2
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "January 23–26, 2026",
+    "start": "2026-01-23",
+    "end": "2026-01-26",
+    "sample": 1519,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 19
+   },
+   {
+    "pollster": "Echelon Insights",
+    "dates": "January 22–26, 2026",
+    "start": "2026-01-22",
+    "end": "2026-01-26",
+    "sample": 1029,
+    "population": "LV",
+    "moe": 3.4,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "January 23–25, 2026",
+    "start": "2026-01-23",
+    "end": "2026-01-25",
+    "sample": 906,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 41,
+     "Republicans": 37
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "January 23–25, 2026",
+    "start": "2026-01-23",
+    "end": "2026-01-25",
+    "sample": 2201,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Big Data Poll (R)",
+    "dates": "January 22–24, 2026",
+    "start": "2026-01-22",
+    "end": "2026-01-24",
+    "sample": 2909,
+    "population": "LV",
+    "moe": 2.1,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Quantus Insights (R)",
+    "dates": "January 20–22, 2026",
+    "start": "2026-01-20",
+    "end": "2026-01-22",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Clarity Campaign Labs (D)",
+    "dates": "January 15–22, 2026",
+    "start": "2026-01-15",
+    "end": "2026-01-22",
+    "sample": 1147,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "Strength In Numbers/Verasight",
+    "dates": "January 14–20, 2026",
+    "start": "2026-01-14",
+    "end": "2026-01-20",
+    "sample": 1352,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 6
+   },
+   {
+    "pollster": "KFF",
+    "dates": "January 13–20, 2026",
+    "start": "2026-01-13",
+    "end": "2026-01-20",
+    "sample": 1141,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Emerson College",
+    "dates": "January 17–19, 2026",
+    "start": "2026-01-17",
+    "end": "2026-01-19",
+    "sample": 1000,
+    "population": "LV",
+    "moe": 3,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "January 16–19, 2026",
+    "start": "2026-01-16",
+    "end": "2026-01-19",
+    "sample": 1717,
+    "population": "RV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 43,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 18
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "January 16–18, 2026",
+    "start": "2026-01-16",
+    "end": "2026-01-18",
+    "sample": 2201,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "New York Times/Siena College",
+    "dates": "January 12–17, 2026",
+    "start": "2026-01-12",
+    "end": "2026-01-17",
+    "sample": 1625,
+    "population": "RV",
+    "moe": 2.8,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 9
+   },
+   {
+    "pollster": "Public Policy Polling (D)",
+    "dates": "January 13–14, 2026",
+    "start": "2026-01-13",
+    "end": "2026-01-14",
+    "sample": 597,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 50,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 8
+   },
+   {
+    "pollster": "Rasmussen Reports (R)",
+    "dates": "January 7–14, 2026",
+    "start": "2026-01-07",
+    "end": "2026-01-14",
+    "sample": 2273,
+    "population": "LV",
+    "moe": 2,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 12
+   },
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "January 12–13, 2026",
+    "start": "2026-01-12",
+    "end": "2026-01-13",
+    "sample": 941,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 40,
+     "Republicans": 38
+    },
+    "other": null,
+    "undecided": 22
+   },
+   {
+    "pollster": "Impact Research (D)/ National Research Inc. (R)",
+    "dates": "January 8–13, 2026",
+    "start": "2026-01-08",
+    "end": "2026-01-13",
+    "sample": 1500,
+    "population": "RV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 47,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 10
+   },
+   {
+    "pollster": "CNN/SSRS",
+    "dates": "January 9–12, 2026",
+    "start": "2026-01-09",
+    "end": "2026-01-12",
+    "sample": 968,
+    "population": "RV",
+    "moe": 3.5,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 41
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "January 9–12, 2026",
+    "start": "2026-01-09",
+    "end": "2026-01-12",
+    "sample": 2201,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "January 9–12, 2026",
+    "start": "2026-01-09",
+    "end": "2026-01-12",
+    "sample": 1433,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 16
+   },
+   {
+    "pollster": "Yahoo News/YouGov",
+    "dates": "January 8–12, 2026",
+    "start": "2026-01-08",
+    "end": "2026-01-12",
+    "sample": 1148,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 40
+    },
+    "other": null,
+    "undecided": 15
+   },
+   {
+    "pollster": "The Winston Group (R)",
+    "dates": "January 8–12, 2026",
+    "start": "2026-01-08",
+    "end": "2026-01-12",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3,
+    "values": {
+     "Democrats": 46,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "Cygnal (R)",
+    "dates": "January 7–8, 2026",
+    "start": "2026-01-07",
+    "end": "2026-01-08",
+    "sample": 1500,
+    "population": "LV",
+    "moe": 2.5,
+    "values": {
+     "Democrats": 48,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 7
+   },
+   {
+    "pollster": "RMG Research",
+    "dates": "January 5–8, 2026",
+    "start": "2026-01-05",
+    "end": "2026-01-08",
+    "sample": 2000,
+    "population": "RV",
+    "moe": 2.2,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 43
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "The Economist/YouGov",
+    "dates": "January 2–5, 2026",
+    "start": "2026-01-02",
+    "end": "2026-01-05",
+    "sample": 1386,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 16
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "January 2–4, 2026",
+    "start": "2026-01-02",
+    "end": "2026-01-04",
+    "sample": 2201,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 45,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 13
+   },
+   {
+    "pollster": "Morning Consult",
+    "dates": "December 29, 2025 – January 4, 2026",
+    "start": "2025-12-29",
+    "end": "2026-01-04",
+    "sample": 22709,
+    "population": "RV",
+    "moe": null,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 14
+   },
+   {
+    "pollster": "The Bullfinch Group",
+    "dates": "December 30, 2025 – January 1, 2026",
+    "start": "2025-12-30",
+    "end": "2026-01-01",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 44,
+     "Republicans": 33
+    },
+    "other": null,
+    "undecided": 23
+   },
+   {
+    "pollster": "Hart Research Associates (D)/ Public Opinion Strategies (R)",
+    "dates": "April 15–19, 2025",
+    "start": "2025-04-15",
+    "end": "2025-04-19",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
+    "values": {
+     "Democrats": 49,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 6
+   }
+  ],
+  "headline": {
+   "basis": "aggregate-average",
+   "detail": "Average of 5 poll aggregators",
+   "values": {
+    "Republicans": 43.1,
+    "Democrats": 51.7
+   },
+   "leader": "Democrats",
+   "margin": 8.6
+  },
+  "latestPoll": "2026-10-30"
  },
  "states": [
   {
@@ -27920,7 +33530,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 20, 2026"
+       "asOf": "October 30, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -27928,7 +33538,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "October 31, 2026"
       },
       {
        "source": "Economist",
@@ -27936,7 +33546,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -27944,7 +33554,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "October 31, 2026"
       },
       {
        "source": "Fox News",
@@ -27952,7 +33562,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Inside Elections",
@@ -27960,7 +33570,15 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 15, 2026"
+       "asOf": "October 29, 2026"
+      },
+      {
+       "source": "MS NOW",
+       "rating": "Safe R",
+       "strength": "Safe",
+       "lean": "R",
+       "flip": false,
+       "asOf": "October 29, 2026"
       },
       {
        "source": "NBC News",
@@ -27968,7 +33586,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -27976,7 +33594,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "October 31, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -27984,7 +33602,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "October 29, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -27992,7 +33610,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "October 31, 2026"
       },
       {
        "source": "Split Ticket",
@@ -28000,7 +33618,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "October 31, 2026"
       }
      ],
      "aggregates": [],
@@ -28010,8 +33628,8 @@
       "rating": "Safe R",
       "strength": "Safe",
       "lean": "R",
-      "count": 11,
-      "of": 11
+      "count": 12,
+      "of": 12
      },
      "latestPoll": null
     }
@@ -28410,7 +34028,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 20, 2026"
+       "asOf": "October 30, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -28418,7 +34036,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "October 31, 2026"
       },
       {
        "source": "Economist",
@@ -28426,7 +34044,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -28434,7 +34052,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "October 31, 2026"
       },
       {
        "source": "Fox News",
@@ -28442,7 +34060,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Inside Elections",
@@ -28450,7 +34068,15 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 15, 2026"
+       "asOf": "October 29, 2026"
+      },
+      {
+       "source": "MS NOW",
+       "rating": "Safe R",
+       "strength": "Safe",
+       "lean": "R",
+       "flip": false,
+       "asOf": "October 29, 2026"
       },
       {
        "source": "NBC News",
@@ -28458,7 +34084,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -28466,7 +34092,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "October 31, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -28474,7 +34100,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "October 29, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -28482,7 +34108,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "October 31, 2026"
       },
       {
        "source": "Split Ticket",
@@ -28490,7 +34116,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "October 31, 2026"
       }
      ],
      "aggregates": [],
@@ -28500,8 +34126,8 @@
       "rating": "Safe R",
       "strength": "Safe",
       "lean": "R",
-      "count": 11,
-      "of": 11
+      "count": 12,
+      "of": 12
      },
      "latestPoll": null
     },

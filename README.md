@@ -8,6 +8,7 @@ A state-by-state poll checker for the November 3, 2026 midterms. For every U.S. 
 - **Forecaster ratings** (Cook, Sabato, Inside Elections and more) with the consensus rating.
 - **A tile map** of all 50 states, colored by polling lead or by forecaster rating, and a sortable table of every race.
 
+- **The House generic ballot**: the national Democrat-vs-Republican congressional average, its trend, the aggregators and every poll (from Wikipedia's 2026 House elections article and its generic ballot polling table).
 - **A 100-seat Senate chart** showing where the chamber stands if each race goes to its polling leader (or forecasters' pick).
 - **Poll closing times** for election night, with countdowns, and each state's closing time on its page.
 - **A time machine**: a slider and Play button that rewind the map, Senate chart and table to any date since August 1, using 30-day poll averages.
