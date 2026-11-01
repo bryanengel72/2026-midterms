@@ -1,16 +1,11 @@
 {
- "generatedAt": "2026-11-01T12:04:46.018Z",
+ "generatedAt": "2026-11-01T07:17:02.729Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "note": "Polls, aggregates and ratings are read from each race's English Wikipedia article."
- },
- "markets": {
-  "name": "Polymarket",
-  "url": "https://polymarket.com",
-  "note": "Only links to each race's market are stored here. Odds are loaded live in the visitor's browser and are betting odds, not polls."
  },
  "states": [
   {
@@ -227,11 +222,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-10-24",
-     "polymarket": {
-      "slug": "alabama-senate-election-winner-154",
-      "url": "https://polymarket.com/event/alabama-senate-election-winner-154"
-     }
+     "latestPoll": "2026-10-24"
     },
     {
      "id": "AL-GOV",
@@ -433,11 +424,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-24",
-     "polymarket": {
-      "slug": "alabama-governor-winner-2026",
-      "url": "https://polymarket.com/event/alabama-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-24"
     }
    ]
   },
@@ -1122,11 +1109,7 @@
       "count": 11,
       "of": 14
      },
-     "latestPoll": "2026-10-29",
-     "polymarket": {
-      "slug": "alaska-senate-election-winner",
-      "url": "https://polymarket.com/event/alaska-senate-election-winner"
-     }
+     "latestPoll": "2026-10-29"
     },
     {
      "id": "AK-GOV",
@@ -1371,11 +1354,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-18",
-     "polymarket": {
-      "slug": "alaska-governor-election-winner",
-      "url": "https://polymarket.com/event/alaska-governor-election-winner"
-     }
+     "latestPoll": "2026-10-18"
     }
    ]
   },
@@ -2017,11 +1996,7 @@
       "count": 3,
       "of": 8
      },
-     "latestPoll": "2026-10-29",
-     "polymarket": {
-      "slug": "arizona-governor-winner-2026",
-      "url": "https://polymarket.com/event/arizona-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -2291,11 +2266,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-10-13",
-     "polymarket": {
-      "slug": "arkansas-senate-election-winner",
-      "url": "https://polymarket.com/event/arkansas-senate-election-winner"
-     }
+     "latestPoll": "2026-10-13"
     },
     {
      "id": "AR-GOV",
@@ -2446,11 +2417,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-13",
-     "polymarket": {
-      "slug": "arkansas-governor-winner-2026",
-      "url": "https://polymarket.com/event/arkansas-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-13"
     }
    ]
   },
@@ -2891,11 +2858,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-25",
-     "polymarket": {
-      "slug": "california-governor-election-2026",
-      "url": "https://polymarket.com/event/california-governor-election-2026"
-     }
+     "latestPoll": "2026-10-25"
     }
    ]
   },
@@ -3031,11 +2994,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "colorado-senate-election-winner",
-      "url": "https://polymarket.com/event/colorado-senate-election-winner"
-     }
+     "latestPoll": null
     },
     {
      "id": "CO-GOV",
@@ -3135,11 +3094,7 @@
       "count": 7,
       "of": 8
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "colorado-governor-winner-2026",
-      "url": "https://polymarket.com/event/colorado-governor-winner-2026"
-     }
+     "latestPoll": null
     }
    ]
   },
@@ -3472,11 +3427,7 @@
       "count": 7,
       "of": 8
      },
-     "latestPoll": "2026-10-12",
-     "polymarket": {
-      "slug": "connecticut-governor-winner-2026",
-      "url": "https://polymarket.com/event/connecticut-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-12"
     }
    ]
   },
@@ -3607,11 +3558,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "delaware-senate-election-winner",
-      "url": "https://polymarket.com/event/delaware-senate-election-winner"
-     }
+     "latestPoll": null
     }
    ]
   },
@@ -4285,11 +4232,7 @@
       "count": 10,
       "of": 12
      },
-     "latestPoll": "2026-10-30",
-     "polymarket": {
-      "slug": "florida-senate-election-winner",
-      "url": "https://polymarket.com/event/florida-senate-election-winner"
-     }
+     "latestPoll": "2026-10-30"
     },
     {
      "id": "FL-GOV",
@@ -5089,11 +5032,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-30",
-     "polymarket": {
-      "slug": "florida-governor-winner-2026",
-      "url": "https://polymarket.com/event/florida-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-30"
     }
    ]
   },
@@ -5655,11 +5594,7 @@
       "count": 8,
       "of": 13
      },
-     "latestPoll": "2026-10-23",
-     "polymarket": {
-      "slug": "georgia-senate-election-winner",
-      "url": "https://polymarket.com/event/georgia-senate-election-winner"
-     }
+     "latestPoll": "2026-10-23"
     },
     {
      "id": "GA-GOV",
@@ -6114,11 +6049,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-27",
-     "polymarket": {
-      "slug": "georgia-governor-winner-2026",
-      "url": "https://polymarket.com/event/georgia-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-27"
     }
    ]
   },
@@ -6225,11 +6156,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "hawaii-governor-winner-2026",
-      "url": "https://polymarket.com/event/hawaii-governor-winner-2026"
-     }
+     "latestPoll": null
     }
    ]
   },
@@ -6505,11 +6432,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-10-22",
-     "polymarket": {
-      "slug": "idaho-senate-election-winner",
-      "url": "https://polymarket.com/event/idaho-senate-election-winner"
-     }
+     "latestPoll": "2026-10-22"
     },
     {
      "id": "ID-GOV",
@@ -6676,11 +6599,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-22",
-     "polymarket": {
-      "slug": "idaho-governor-winner-2026",
-      "url": "https://polymarket.com/event/idaho-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-22"
     }
    ]
   },
@@ -6868,11 +6787,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-10-30",
-     "polymarket": {
-      "slug": "illinois-senate-election-winner",
-      "url": "https://polymarket.com/event/illinois-senate-election-winner"
-     }
+     "latestPoll": "2026-10-30"
     },
     {
      "id": "IL-GOV",
@@ -7029,11 +6944,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-22",
-     "polymarket": {
-      "slug": "illinois-governor-winner-2026",
-      "url": "https://polymarket.com/event/illinois-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-22"
     }
    ]
   },
@@ -7819,11 +7730,7 @@
       "count": 11,
       "of": 14
      },
-     "latestPoll": "2026-10-28",
-     "polymarket": {
-      "slug": "iowa-senate-election-winner",
-      "url": "https://polymarket.com/event/iowa-senate-election-winner"
-     }
+     "latestPoll": "2026-10-28"
     },
     {
      "id": "IA-GOV",
@@ -8338,11 +8245,7 @@
       "count": 7,
       "of": 8
      },
-     "latestPoll": "2026-10-28",
-     "polymarket": {
-      "slug": "iowa-governor-winner-2026",
-      "url": "https://polymarket.com/event/iowa-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-28"
     }
    ]
   },
@@ -8854,11 +8757,7 @@
       "count": 10,
       "of": 14
      },
-     "latestPoll": "2026-10-28",
-     "polymarket": {
-      "slug": "kansas-senate-election-winner",
-      "url": "https://polymarket.com/event/kansas-senate-election-winner"
-     }
+     "latestPoll": "2026-10-28"
     },
     {
      "id": "KS-GOV",
@@ -9193,11 +9092,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-28",
-     "polymarket": {
-      "slug": "kansas-governor-winner-2026",
-      "url": "https://polymarket.com/event/kansas-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-28"
     }
    ]
   },
@@ -9370,11 +9265,7 @@
       "count": 10,
       "of": 11
      },
-     "latestPoll": "2026-08-27",
-     "polymarket": {
-      "slug": "kentucky-senate-election-winner",
-      "url": "https://polymarket.com/event/kentucky-senate-election-winner"
-     }
+     "latestPoll": "2026-08-27"
     }
    ]
   },
@@ -9562,11 +9453,7 @@
       "count": 6,
       "of": 11
      },
-     "latestPoll": "2026-10-29",
-     "polymarket": {
-      "slug": "louisiana-senate-election-winner",
-      "url": "https://polymarket.com/event/louisiana-senate-election-winner"
-     }
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -10257,11 +10144,7 @@
       "count": 8,
       "of": 14
      },
-     "latestPoll": "2026-10-27",
-     "polymarket": {
-      "slug": "maine-senate-election-winner",
-      "url": "https://polymarket.com/event/maine-senate-election-winner"
-     }
+     "latestPoll": "2026-10-27"
     },
     {
      "id": "ME-GOV",
@@ -10771,11 +10654,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-27",
-     "polymarket": {
-      "slug": "maine-governor-winner-2026",
-      "url": "https://polymarket.com/event/maine-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-27"
     }
    ]
   },
@@ -10924,11 +10803,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-09-27",
-     "polymarket": {
-      "slug": "maryland-governor-winner-2026",
-      "url": "https://polymarket.com/event/maryland-governor-winner-2026"
-     }
+     "latestPoll": "2026-09-27"
     }
    ]
   },
@@ -11325,11 +11200,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-10-18",
-     "polymarket": {
-      "slug": "massachusetts-senate-election-winner",
-      "url": "https://polymarket.com/event/massachusetts-senate-election-winner"
-     }
+     "latestPoll": "2026-10-18"
     },
     {
      "id": "MA-GOV",
@@ -11670,11 +11541,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-18",
-     "polymarket": {
-      "slug": "massachusetts-governor-winner-2026",
-      "url": "https://polymarket.com/event/massachusetts-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-18"
     }
    ]
   },
@@ -12829,11 +12696,7 @@
       "count": 6,
       "of": 14
      },
-     "latestPoll": "2026-10-29",
-     "polymarket": {
-      "slug": "michigan-senate-election-winner",
-      "url": "https://polymarket.com/event/michigan-senate-election-winner"
-     }
+     "latestPoll": "2026-10-29"
     },
     {
      "id": "MI-GOV",
@@ -13528,11 +13391,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-27",
-     "polymarket": {
-      "slug": "michigan-governor-winner-2026",
-      "url": "https://polymarket.com/event/michigan-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-27"
     }
    ]
   },
@@ -14071,11 +13930,7 @@
       "count": 7,
       "of": 12
      },
-     "latestPoll": "2026-10-28",
-     "polymarket": {
-      "slug": "minnesota-senate-election-winner",
-      "url": "https://polymarket.com/event/minnesota-senate-election-winner"
-     }
+     "latestPoll": "2026-10-28"
     },
     {
      "id": "MN-GOV",
@@ -14446,11 +14301,7 @@
       "count": 4,
       "of": 8
      },
-     "latestPoll": "2026-10-28",
-     "polymarket": {
-      "slug": "minnesota-governor-winner-2026",
-      "url": "https://polymarket.com/event/minnesota-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-28"
     }
    ]
   },
@@ -14671,11 +14522,7 @@
       "count": 9,
       "of": 12
      },
-     "latestPoll": "2026-10-22",
-     "polymarket": {
-      "slug": "mississippi-senate-election-winner",
-      "url": "https://polymarket.com/event/mississippi-senate-election-winner"
-     }
+     "latestPoll": "2026-10-22"
     }
    ]
   },
@@ -15219,11 +15066,7 @@
       "count": 6,
       "of": 11
      },
-     "latestPoll": "2026-10-23",
-     "polymarket": {
-      "slug": "montana-senate-election-winner",
-      "url": "https://polymarket.com/event/montana-senate-election-winner"
-     }
+     "latestPoll": "2026-10-23"
     }
    ]
   },
@@ -15720,11 +15563,7 @@
       "count": 6,
       "of": 12
      },
-     "latestPoll": "2026-10-29",
-     "polymarket": {
-      "slug": "nebraska-senate-election-winner",
-      "url": "https://polymarket.com/event/nebraska-senate-election-winner"
-     }
+     "latestPoll": "2026-10-29"
     },
     {
      "id": "NE-GOV",
@@ -16164,11 +16003,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-29",
-     "polymarket": {
-      "slug": "nebraska-governor-winner-2026",
-      "url": "https://polymarket.com/event/nebraska-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -16615,11 +16450,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-28",
-     "polymarket": {
-      "slug": "nevada-governor-winner-2026",
-      "url": "https://polymarket.com/event/nevada-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-28"
     }
    ]
   },
@@ -17301,11 +17132,7 @@
       "count": 6,
       "of": 13
      },
-     "latestPoll": "2026-10-23",
-     "polymarket": {
-      "slug": "new-hampshire-senate-election-winner",
-      "url": "https://polymarket.com/event/new-hampshire-senate-election-winner"
-     }
+     "latestPoll": "2026-10-23"
     },
     {
      "id": "NH-GOV",
@@ -17715,11 +17542,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-23",
-     "polymarket": {
-      "slug": "new-hampshire-governor-winner-2026",
-      "url": "https://polymarket.com/event/new-hampshire-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-23"
     }
    ]
   },
@@ -17850,11 +17673,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "new-jersey-senate-election-winner",
-      "url": "https://polymarket.com/event/new-jersey-senate-election-winner"
-     }
+     "latestPoll": null
     }
    ]
   },
@@ -18079,11 +17898,7 @@
       "count": 10,
       "of": 11
      },
-     "latestPoll": "2026-10-09",
-     "polymarket": {
-      "slug": "new-mexico-senate-election-winner",
-      "url": "https://polymarket.com/event/new-mexico-senate-election-winner"
-     }
+     "latestPoll": "2026-10-09"
     },
     {
      "id": "NM-GOV",
@@ -18283,11 +18098,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-09",
-     "polymarket": {
-      "slug": "new-mexico-governor-winner-2026",
-      "url": "https://polymarket.com/event/new-mexico-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-09"
     }
    ]
   },
@@ -18959,11 +18770,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-25",
-     "polymarket": {
-      "slug": "new-york-governor-winner-2026",
-      "url": "https://polymarket.com/event/new-york-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-25"
     }
    ]
   },
@@ -19915,11 +19722,7 @@
       "count": 8,
       "of": 13
      },
-     "latestPoll": "2026-10-25",
-     "polymarket": {
-      "slug": "north-carolina-senate-election-winner",
-      "url": "https://polymarket.com/event/north-carolina-senate-election-winner"
-     }
+     "latestPoll": "2026-10-25"
     }
    ]
   },
@@ -20810,11 +20613,7 @@
       "count": 10,
       "of": 14
      },
-     "latestPoll": "2026-10-26",
-     "polymarket": {
-      "slug": "ohio-senate-election-winner",
-      "url": "https://polymarket.com/event/ohio-senate-election-winner"
-     }
+     "latestPoll": "2026-10-26"
     },
     {
      "id": "OH-GOV",
@@ -21539,11 +21338,7 @@
       "count": 4,
       "of": 8
      },
-     "latestPoll": "2026-10-26",
-     "polymarket": {
-      "slug": "ohio-governor-winner-2026",
-      "url": "https://polymarket.com/event/ohio-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-26"
     }
    ]
   },
@@ -21701,11 +21496,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-08-06",
-     "polymarket": {
-      "slug": "oklahoma-senate-election-winner",
-      "url": "https://polymarket.com/event/oklahoma-senate-election-winner"
-     }
+     "latestPoll": "2026-08-06"
     },
     {
      "id": "OK-GOV",
@@ -21862,11 +21653,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-13",
-     "polymarket": {
-      "slug": "oklahoma-governor-winner-2026",
-      "url": "https://polymarket.com/event/oklahoma-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-13"
     }
    ]
   },
@@ -21997,11 +21784,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "oregon-senate-election-winner",
-      "url": "https://polymarket.com/event/oregon-senate-election-winner"
-     }
+     "latestPoll": null
     },
     {
      "id": "OR-GOV",
@@ -22240,11 +22023,7 @@
       "count": 3,
       "of": 8
      },
-     "latestPoll": "2026-10-04",
-     "polymarket": {
-      "slug": "oregon-governor-winner-2026",
-      "url": "https://polymarket.com/event/oregon-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-04"
     }
    ]
   },
@@ -22766,11 +22545,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-21",
-     "polymarket": {
-      "slug": "pennsylvania-governor-winner-2026",
-      "url": "https://polymarket.com/event/pennsylvania-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-21"
     }
    ]
   },
@@ -23013,11 +22788,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-10-11",
-     "polymarket": {
-      "slug": "rhode-island-senate-election-winner",
-      "url": "https://polymarket.com/event/rhode-island-senate-election-winner"
-     }
+     "latestPoll": "2026-10-11"
     },
     {
      "id": "RI-GOV",
@@ -23264,11 +23035,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-11",
-     "polymarket": {
-      "slug": "rhode-island-governor-winner-2026",
-      "url": "https://polymarket.com/event/rhode-island-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-11"
     }
    ]
   },
@@ -23718,11 +23485,7 @@
       "count": 9,
       "of": 12
      },
-     "latestPoll": "2026-10-29",
-     "polymarket": {
-      "slug": "south-carolina-senate-election-winner",
-      "url": "https://polymarket.com/event/south-carolina-senate-election-winner"
-     }
+     "latestPoll": "2026-10-29"
     },
     {
      "id": "SC-GOV",
@@ -23954,11 +23717,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-26",
-     "polymarket": {
-      "slug": "south-carolina-governor-winner-2026",
-      "url": "https://polymarket.com/event/south-carolina-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-26"
     }
    ]
   },
@@ -24375,11 +24134,7 @@
       "count": 10,
       "of": 11
      },
-     "latestPoll": "2026-10-26",
-     "polymarket": {
-      "slug": "south-dakota-senate-election-winner",
-      "url": "https://polymarket.com/event/south-dakota-senate-election-winner"
-     }
+     "latestPoll": "2026-10-26"
     },
     {
      "id": "SD-GOV",
@@ -24521,11 +24276,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-14",
-     "polymarket": {
-      "slug": "south-dakota-governor-winner-2026",
-      "url": "https://polymarket.com/event/south-dakota-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-14"
     }
    ]
   },
@@ -24683,11 +24434,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-08-26",
-     "polymarket": {
-      "slug": "tennessee-senate-election-winner",
-      "url": "https://polymarket.com/event/tennessee-senate-election-winner"
-     }
+     "latestPoll": "2026-08-26"
     },
     {
      "id": "TN-GOV",
@@ -24898,11 +24645,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-26",
-     "polymarket": {
-      "slug": "tennessee-governor-winner-2026",
-      "url": "https://polymarket.com/event/tennessee-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-26"
     }
    ]
   },
@@ -26304,11 +26047,7 @@
       "count": 10,
       "of": 14
      },
-     "latestPoll": "2026-10-30",
-     "polymarket": {
-      "slug": "texas-senate-election-winner",
-      "url": "https://polymarket.com/event/texas-senate-election-winner"
-     }
+     "latestPoll": "2026-10-30"
     },
     {
      "id": "TX-GOV",
@@ -27455,11 +27194,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-30",
-     "polymarket": {
-      "slug": "texas-governor-winner-2026",
-      "url": "https://polymarket.com/event/texas-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-30"
     }
    ]
   },
@@ -27674,11 +27409,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-25",
-     "polymarket": {
-      "slug": "vermont-governor-winner-2026",
-      "url": "https://polymarket.com/event/vermont-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-25"
     }
    ]
   },
@@ -27851,11 +27582,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": "2026-06-16",
-     "polymarket": {
-      "slug": "virginia-senate-election-winner",
-      "url": "https://polymarket.com/event/virginia-senate-election-winner"
-     }
+     "latestPoll": "2026-06-16"
     }
    ]
   },
@@ -27992,11 +27719,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "west-virginia-senate-election-winner",
-      "url": "https://polymarket.com/event/west-virginia-senate-election-winner"
-     }
+     "latestPoll": null
     }
    ]
   },
@@ -28353,11 +28076,7 @@
       "count": 4,
       "of": 8
      },
-     "latestPoll": "2026-10-23",
-     "polymarket": {
-      "slug": "wisconsin-governor-winner-2026",
-      "url": "https://polymarket.com/event/wisconsin-governor-winner-2026"
-     }
+     "latestPoll": "2026-10-23"
     }
    ]
   },
@@ -28488,11 +28207,7 @@
       "count": 11,
       "of": 11
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "wyoming-senate-election-winner",
-      "url": "https://polymarket.com/event/wyoming-senate-election-winner"
-     }
+     "latestPoll": null
     },
     {
      "id": "WY-GOV",
@@ -28592,11 +28307,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": null,
-     "polymarket": {
-      "slug": "wyoming-governor-winner-2026",
-      "url": "https://polymarket.com/event/wyoming-governor-winner-2026"
-     }
+     "latestPoll": null
     }
    ]
   }

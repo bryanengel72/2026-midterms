@@ -7,16 +7,12 @@
 //
 // A race whose article cannot be fetched keeps its previous data (marked
 // stale) so one bad request never blanks a state.
-//
-// It also links each race to its Polymarket market (slug and URL only; no
-// prices are stored). The browser loads the odds live.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { STATES, listRaces, houseSeatsPage, POLYMARKET_SLUGS } from "./races.mjs";
-import { fetchWikitext, pageUrl, USER_AGENT } from "./wiki.mjs";
-import { fetchEvents, eventUrl, POLYMARKET_API } from "../assets/markets.js";
+import { STATES, listRaces, houseSeatsPage } from "./races.mjs";
+import { fetchWikitext, pageUrl } from "./wiki.mjs";
 import { parseRace, simpleAverage } from "./parse-race.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -129,68 +125,6 @@ async function loadPrevious() {
   }
 }
 
-/** Finds a race's Polymarket event by title when its known slug stops resolving. */
-async function searchEvent(race, stateName) {
-  const office = race.office === "Senate" ? "Senate" : "Governor";
-  const title = `${stateName} ${office} Election Winner`;
-  const res = await fetch(`${POLYMARKET_API}/public-search?q=${encodeURIComponent(title)}`, {
-    headers: { "User-Agent": USER_AGENT },
-  });
-  if (!res.ok) return null;
-  const body = await res.json();
-  return (body.events || []).find((e) => String(e.title || "").trim() === title && !e.closed) || null;
-}
-
-/**
- * Records which Polymarket market belongs to each race: a slug and a link,
- * never prices. Odds are loaded live in the visitor's browser, so this
- * repository stores no Polymarket data. Online builds check that each slug
- * still resolves and search by title for any that moved.
- */
-async function linkMarkets(built, previous, races) {
-  const link = (entry, slug) => {
-    delete entry.market; // odds snapshots from older builds are not kept
-    const url = eventUrl(slug);
-    entry.polymarket = url ? { slug, url } : null;
-  };
-  const previousSlug = (id) => previous.get(id)?.polymarket?.slug;
-  if (offline) {
-    for (const race of races) {
-      const entry = built.get(race.id);
-      if (entry) link(entry, previousSlug(race.id) || POLYMARKET_SLUGS[race.id]);
-    }
-    return "linked from the slug list (offline, not checked)";
-  }
-  let events = null;
-  try {
-    events = await fetchEvents(Object.values(POLYMARKET_SLUGS), { headers: { "User-Agent": USER_AGENT } });
-  } catch (err) {
-    for (const race of races) {
-      const entry = built.get(race.id);
-      if (entry) link(entry, previousSlug(race.id) || POLYMARKET_SLUGS[race.id]);
-    }
-    return `could not check slugs (${err.message}); linked from the slug list`;
-  }
-  const missing = [];
-  for (const race of races) {
-    const entry = built.get(race.id);
-    if (!entry) continue;
-    let slug = POLYMARKET_SLUGS[race.id];
-    if (!events.has(slug)) {
-      const stateName = STATES.find((st) => st.code === race.state).name;
-      const found = await searchEvent(race, stateName).catch(() => null);
-      if (found) {
-        console.warn(`Polymarket slug for ${race.id} changed to ${found.slug}; update POLYMARKET_SLUGS.`);
-        slug = found.slug;
-      } else {
-        missing.push(race.id);
-      }
-    }
-    link(entry, slug);
-  }
-  return `${races.length - missing.length} races linked${missing.length ? `; not found: ${missing.join(", ")}` : ""}`;
-}
-
 async function main() {
   const today = new Date().toISOString().slice(0, 10);
   const { byId: previous, fingerprint: previousFingerprint } = await loadPrevious();
@@ -236,9 +170,6 @@ async function main() {
     if (!page.fromCache) await sleep(delayMs);
   }
 
-  const marketStatus = await linkMarkets(built, previous, races);
-  console.log(`Polymarket markets: ${marketStatus}`);
-
   const withPolls = [...built.values()].filter((r) => r.polls.length).length;
   const prevWithPolls = [...previous.values()].filter((r) => r.polls?.length).length;
   if (prevWithPolls && withPolls < prevWithPolls * 0.5) {
@@ -257,11 +188,6 @@ async function main() {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
       note: "Polls, aggregates and ratings are read from each race's English Wikipedia article.",
-    },
-    markets: {
-      name: "Polymarket",
-      url: "https://polymarket.com",
-      note: "Only links to each race's market are stored here. Odds are loaded live in the visitor's browser and are betting odds, not polls.",
     },
     states: STATES.map(({ code, name }) => ({
       code,
