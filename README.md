@@ -36,9 +36,9 @@ npm test           # parser tests
 
 ## Automatic updates and hosting
 
-`.github/workflows/update-polls.yml` runs every three hours on `main` (and on demand from the Actions tab). It tests the parser, refreshes the data, commits `data/polls.json` if anything changed, and publishes the site with GitHub Pages.
+`.github/workflows/update-polls.yml` runs every three hours on `main` (and on demand from the Actions tab). It tests the parser, refreshes the data, and commits `data/polls.json` if anything changed.
 
-To turn on publishing, once: **Settings > Pages > Build and deployment > Source: GitHub Actions**. The site is plain HTML, CSS and JavaScript, so any static host works too.
+The site is hosted on Vercel, linked to this repository, at https://2026-midterms.vercel.app. Every push to `main`, including the workflow's data commits, redeploys it. The site is plain HTML, CSS and JavaScript with no build step, so any static host works too.
 
 ## Project layout
 

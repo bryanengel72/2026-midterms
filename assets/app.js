@@ -366,7 +366,7 @@ function renderMap() {
       "button",
       {
         type: "button",
-        class: `tile${relevant ? "" : " dim"}${ui.selected === st.code ? " selected" : ""}`,
+        class: `tile${offices.length === 1 ? " single" : ""}${relevant ? "" : " dim"}${ui.selected === st.code ? " selected" : ""}`,
         style: { gridColumn: pos[0] + 1, gridRow: pos[1] + 1 },
         "aria-label": `${st.name}. ${summary}`,
         "aria-pressed": ui.selected === st.code ? "true" : "false",
