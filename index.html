@@ -54,11 +54,27 @@
         <legend>Color map by</legend>
         <label><input type="radio" name="colorby" value="polls" checked><span>Polls</span></label>
         <label><input type="radio" name="colorby" value="ratings"><span>Forecasters</span></label>
+        <label><input type="radio" name="colorby" value="picks"><span>My picks</span></label>
       </fieldset>
       <label class="check" id="close-only-field">
         <input type="checkbox" id="close-only">
         <span>Close races only (within 5 points)</span>
       </label>
+    </section>
+
+    <section class="picks-bar" id="picks-bar" aria-label="Your picks" hidden>
+      <p class="picks-help" id="picks-help"></p>
+      <div class="picks-tools">
+        <label class="field inline">
+          <span>Races you haven't picked</span>
+          <select id="picks-base">
+            <option value="ratings">Follow forecasters</option>
+            <option value="toss">Leave as toss-ups</option>
+          </select>
+        </label>
+        <button type="button" class="ghost" id="picks-share">Share my picks</button>
+        <button type="button" class="linkish" id="picks-clear">Clear picks</button>
+      </div>
     </section>
 
     <section class="watched" id="watched" aria-labelledby="watched-title" hidden>
