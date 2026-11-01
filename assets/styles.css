@@ -619,6 +619,25 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
 }
 .avg-cell .is-lead .who { color: var(--text); font-weight: 600; }
 .table-actions { margin-top: 8px; }
+.races-tools { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.races-more {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+/* A soft fade over the last visible rows hints that more are hidden. */
+.races-more::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: 56px;
+  background: linear-gradient(to bottom, transparent, var(--surface));
+  pointer-events: none;
+}
+.races-more .linkish { font-weight: 600; color: var(--text); padding: 7px 16px; }
 
 /* Tooltip ----------------------------------------------------------------- */
 
