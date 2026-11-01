@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T22:20:02.716Z",
+ "generatedAt": "2026-11-01T22:41:42.556Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -35565,14 +35565,14 @@
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 28, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Roger Marshall": 46,
-        "Adam Hamilton": 49.1
+        "Roger Marshall": 46.5,
+        "Adam Hamilton": 49.2
        },
-       "otherUndecided": 4.9
+       "otherUndecided": 4.3
       },
       {
        "source": "Average",
