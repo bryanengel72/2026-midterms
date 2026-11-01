@@ -783,6 +783,29 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
   }
 }
 
+/* My picks ------------------------------------------------------------------- */
+
+.picks-bar {
+  background: var(--surface); border: 1px solid var(--grid); border-left: 4px solid var(--focus);
+  border-radius: 12px; padding: 12px 14px; margin: 0 0 16px;
+}
+.picks-help { margin: 0 0 8px; font-size: 14px; color: var(--text-2); }
+.picks-help strong { color: var(--text); }
+.picks-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.seat.unpicked { opacity: 0.6; }
+.band.pickable { cursor: pointer; }
+.band.pickable:hover { filter: brightness(1.08); outline: 2px solid var(--text); outline-offset: -2px; }
+.pick-btns { display: inline-flex; gap: 4px; flex-wrap: wrap; }
+.pick-btn {
+  border: 1.5px solid var(--grid); background: var(--surface); color: var(--text);
+  border-radius: 999px; padding: 2px 10px; font: inherit; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.pick-btn.d.on { background: var(--party-d); border-color: var(--party-d); color: #fff; }
+.pick-btn.r.on { background: var(--party-r); border-color: var(--party-r); color: #fff; }
+.pick-btn:hover { border-color: var(--text-2); }
+.pick-row { display: flex; align-items: center; gap: 8px; margin: -4px 0 10px; flex-wrap: wrap; }
+.pick-row .label { font-size: 13px; color: var(--text-2); font-weight: 600; }
+
 /* Race calls ----------------------------------------------------------------- */
 
 .calls { list-style: none; margin: 8px 0 0; padding: 0; }

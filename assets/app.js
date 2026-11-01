@@ -357,9 +357,163 @@ function rampFor(party) {
 
 const RATING_STEP = { Safe: 3, Likely: 2, Lean: 1, Tilt: 1, Tossup: 0 };
 
+// ---------------------------------------------------------------------------
+// My picks: choose winners, see the totals, share a link
+// ---------------------------------------------------------------------------
+
+const picks = new Map(); // race or district id -> "D" | "R"
+let picksBase = "ratings"; // unpicked races: "ratings" (forecasters' lean) or "toss"
+
+function savePicks() {
+  try {
+    localStorage.setItem("picks", JSON.stringify(Object.fromEntries(picks)));
+    localStorage.setItem("picksBase", picksBase);
+  } catch {}
+}
+
+function validPickIds() {
+  const ids = new Set(allRaces().map((r) => r.id));
+  for (const d of ui.data.house?.districts || []) ids.add(d.id);
+  return ids;
+}
+
+function setPicks(entries) {
+  const ok = validPickIds();
+  picks.clear();
+  for (const [id, side] of entries) if (ok.has(id) && (side === "D" || side === "R")) picks.set(id, side);
+}
+
+/** Loads saved picks, or picks from a shared link (?picks=GA-SEN.D,PA-7.R). */
+function loadPicks() {
+  const params = new URLSearchParams(location.search);
+  const shared = params.get("picks");
+  if (shared !== null) {
+    setPicks(shared.split(",").filter(Boolean).map((x) => { const i = x.lastIndexOf("."); return [x.slice(0, i), x.slice(i + 1)]; }));
+    picksBase = params.get("base") === "toss" ? "toss" : "ratings";
+    savePicks();
+    params.delete("picks");
+    params.delete("base");
+    const q = params.toString();
+    history.replaceState(null, "", location.pathname + (q ? `?${q}` : "") + location.hash);
+    return true;
+  }
+  try {
+    setPicks(Object.entries(JSON.parse(localStorage.getItem("picks") || "{}")));
+    picksBase = localStorage.getItem("picksBase") === "toss" ? "toss" : "ratings";
+  } catch {}
+  return false;
+}
+
+/** The side a race shows in My picks mode, and whether the reader picked it. */
+function pickCall(race) {
+  const p = picks.get(race.id);
+  if (p) return { side: p, picked: true };
+  const c = race.consensus;
+  if (picksBase === "ratings" && c?.lean && c.strength !== "Tossup") return { side: c.lean, picked: false, strength: c.strength };
+  return { side: "T", picked: false };
+}
+
+/** Tap cycle: first the other side from what it shows unpicked, then the opposite, then back to unpicked. */
+function cyclePick(race) {
+  const cur = picks.get(race.id);
+  const base = (() => { const was = picks.get(race.id); picks.delete(race.id); const b = pickCall(race).side; if (was) picks.set(race.id, was); return b; })();
+  const first = base === "D" ? "R" : "D";
+  if (!cur) picks.set(race.id, first);
+  else if (cur === first) picks.set(race.id, first === "D" ? "R" : "D");
+  else picks.delete(race.id);
+  savePicks();
+  renderAfterPick();
+}
+
+function renderAfterPick() {
+  renderPicksBar();
+  renderSenate();
+  renderHouseSeats();
+  renderLegend();
+  renderMap();
+  renderWatched();
+  renderDistricts();
+  renderDetail();
+}
+
+function renderPicksBar() {
+  const bar = document.getElementById("picks-bar");
+  bar.hidden = ui.colorBy !== "picks";
+  if (bar.hidden) return;
+  const n = picks.size;
+  document.getElementById("picks-help").replaceChildren(
+    h("strong", {}, n ? `${n} race${n === 1 ? "" : "s"} picked. ` : "Make your picks. "),
+    "Tap seats on the Senate or House chart, map tile bands, or the pick buttons on races to choose winners. Taps cycle: other party, opposite party, unpicked. Saved in this browser.",
+  );
+  document.getElementById("picks-base").value = picksBase;
+  document.getElementById("picks-clear").disabled = n === 0;
+}
+
+function picksLink() {
+  const list = [...picks].map(([id, side]) => `${id}.${side}`).join(",");
+  return `${location.origin}${location.pathname}?picks=${list}${picksBase === "toss" ? "&base=toss" : ""}`;
+}
+
+async function sharePicks() {
+  const url = picksLink();
+  try {
+    if (navigator.share && matchMedia("(pointer: coarse)").matches) {
+      await navigator.share({ title: "My 2026 midterm picks", url });
+      return;
+    }
+    await navigator.clipboard.writeText(url);
+    showToast("Link copied. Anyone who opens it sees your picks.", () => {}, null, "Shared: ");
+  } catch {
+    window.prompt("Copy this link to share your picks:", url);
+  }
+}
+
+function setupPicks() {
+  document.getElementById("picks-base").addEventListener("change", (e) => {
+    picksBase = e.target.value === "toss" ? "toss" : "ratings";
+    savePicks();
+    renderAfterPick();
+  });
+  document.getElementById("picks-share").addEventListener("click", sharePicks);
+  document.getElementById("picks-clear").addEventListener("click", () => {
+    if (!picks.size || !window.confirm(`Clear all ${picks.size} picks?`)) return;
+    picks.clear();
+    savePicks();
+    renderAfterPick();
+  });
+}
+
+/** Pick buttons for one race, shown on its card and district row in My picks mode. */
+function pickButtons(race) {
+  const cur = picks.get(race.id);
+  const nameFor = (side) => race.candidates.find((c) => c.party === side)?.name;
+  const btn = (side) => {
+    const name = nameFor(side);
+    return h("button", {
+      type: "button",
+      class: `pick-btn ${side.toLowerCase()}${cur === side ? " on" : ""}`,
+      "aria-pressed": cur === side ? "true" : "false",
+      onclick: (e) => {
+        e.stopPropagation();
+        if (cur === side) picks.delete(race.id);
+        else picks.set(race.id, side);
+        savePicks();
+        renderAfterPick();
+      },
+    }, name ? `${surname(name)} (${side})` : side === "D" ? "Democrat" : "Republican");
+  };
+  return h("span", { class: "pick-btns", role: "group", "aria-label": "Your pick" }, btn("D"), btn("R"));
+}
+
 /** Map fill + label for a race under the current "color by" mode. */
 function tileStyle(race) {
   if (!race) return null;
+  if (ui.colorBy === "picks") {
+    const c = pickCall(race);
+    if (c.side === "T") return { fill: "--neutral", label: "Toss-up", race };
+    if (c.picked) return { fill: `--${rampFor(c.side)}-3`, label: `${c.side} pick`, race };
+    return { fill: `--${rampFor(c.side)}-1`, label: `${c.strength === "Likely" ? "Lkly" : c.strength} ${c.side}`, race };
+  }
   if (ui.colorBy === "ratings") {
     const c = race.consensus;
     if (!c) return { fill: null, label: "–" };
@@ -496,6 +650,12 @@ function renderLegend() {
     );
     const iLead = allRaces().some((r) => headlineFor(r)?.leader && !["D", "R"].includes(candidate(r, headlineFor(r).leader).party));
     if (iLead) groups.push(h("div", { class: "legend-group" }, sw("--i-2", "Independent or third party leads")));
+  } else if (ui.colorBy === "picks") {
+    groups.push(
+      h("div", { class: "legend-group" }, h("span", { class: "label" }, "Democrat"), sw("--d-3", "Your pick"), sw("--d-1", picksBase === "ratings" ? "Forecasters' lean" : "")),
+      h("div", { class: "legend-group" }, sw("--neutral", "Toss-up")),
+      h("div", { class: "legend-group" }, h("span", { class: "label" }, "Republican"), sw("--r-1", picksBase === "ratings" ? "Forecasters' lean" : ""), sw("--r-3", "Your pick")),
+    );
   } else if (ui.colorBy === "results") {
     groups.push(
       h("div", { class: "legend-group" }, h("span", { class: "label" }, "Democrat"), sw("--d-3", "Won"), sw("--d-1", "Leading")),
@@ -523,8 +683,9 @@ function renderLegend() {
   el.replaceChildren(...groups);
 
   const hint = document.getElementById("map-hint");
-  hint.textContent =
-    ui.office === "all"
+  hint.textContent = ui.colorBy === "picks"
+    ? "Tap a tile's Senate (top) or governor (bottom) band to pick its winner. Tap the state's name to open it."
+    : ui.office === "all"
       ? "Each tile shows the Senate race on top and the governor race below. Select a state for its polls."
       : `Showing ${ui.office === "Senate" ? "Senate" : "governor"} races. Select a state for its polls.`;
 }
@@ -577,7 +738,13 @@ function renderMap() {
       }
       return h(
         "span",
-        { class: "band", "aria-hidden": "true", "data-fill": style.fill, style: { background: `var(${style.fill})`, color: inkOn(style.fill) } },
+        {
+          class: `band${ui.colorBy === "picks" ? " pickable" : ""}`,
+          "aria-hidden": "true",
+          "data-fill": style.fill,
+          style: { background: `var(${style.fill})`, color: inkOn(style.fill) },
+          onclick: ui.colorBy === "picks" ? (e) => { e.stopPropagation(); cyclePick(race); } : null,
+        },
         style.label,
       );
     });
@@ -870,6 +1037,11 @@ function senateCall(race) {
     return { side: c.lean, strength: RATING_STEP[c.strength] ?? 1, basis: `Forecasters: ${c.rating}` };
   };
   if (ui.colorBy === "ratings") return byRating();
+  if (ui.colorBy === "picks") {
+    const c = pickCall(race);
+    const basis = c.picked ? "Your pick" : c.side === "T" ? "Not picked: toss-up" : `Not picked: forecasters say ${race.consensus?.rating}`;
+    return { side: c.side, strength: c.picked ? 50 : RATING_STEP[c.strength] ?? 0, basis, picked: c.picked };
+  }
   if (ui.colorBy === "results") {
     const r = resultSummary(race);
     if (!r) return { side: "T", strength: 0, basis: "No results yet", pending: true };
@@ -992,7 +1164,9 @@ function renderSenate() {
     svg.addEventListener("pointerleave", hideTooltip);
     svg.addEventListener("click", (e) => {
       const o = seatAt(e);
-      if (o?.kind === "up") selectState(o.race.state.code, true);
+      if (o?.kind !== "up") return;
+      if (ui.colorBy === "picks") cyclePick(o.race);
+      else selectState(o.race.state.code, true);
     });
     svg.addEventListener("focusin", (e) => {
       const o = seatAt(e);
@@ -1005,7 +1179,8 @@ function renderSenate() {
       const o = seatAt(e);
       if (o?.kind === "up" && (e.key === "Enter" || e.key === " ")) {
         e.preventDefault();
-        selectState(o.race.state.code, true);
+        if (ui.colorBy === "picks") cyclePick(o.race);
+        else selectState(o.race.state.code, true);
       }
     });
     if (intro) svg.classList.add("intro");
@@ -1016,7 +1191,7 @@ function renderSenate() {
   senateIntroDone = true;
   svg.querySelectorAll("circle.seat").forEach((c, i) => {
     const o = order[i];
-    c.setAttribute("class", `seat ${o.kind}${o.side === "T" ? " tossup" : ""}`);
+    c.setAttribute("class", `seat ${o.kind}${o.side === "T" ? " tossup" : ""}${o.kind === "up" && ui.colorBy === "picks" && !o.picked ? " unpicked" : ""}`);
     c.style.fill = `var(${fillFor(o)})`;
     if (o.kind === "up") c.setAttribute("tabindex", "0");
     else c.removeAttribute("tabindex");
@@ -1050,6 +1225,7 @@ function renderSenate() {
   const mode = ui.colorBy;
   const L = {
     ratings: { d: "Races leaning Democratic", dx: null, t: "Toss-ups", tx: " (rated Toss-up)", i: "Races leaning independent", r: "Races leaning Republican", rx: null, big: "Toss-ups" },
+    picks: { d: "Races going Democratic", dx: " (your picks + unpicked leans)", t: "Toss-ups", tx: " (not picked)", i: "Races going independent", r: "Races going Republican", rx: " (your picks + unpicked leans)", big: "Toss-ups" },
     results: { d: "Called for Democrats", dx: null, t: "Not called yet", tx: " (counting, runoff or no results)", i: "Called for independents", r: "Called for Republicans", rx: null, big: "Not called" },
     polls: { d: "Races where a Democrat leads", dx: " by 2+ points", t: "Toss-ups", tx: " (lead under 2 points)", i: "Races an independent leads", r: "Races where a Republican leads", rx: " by 2+ points", big: "Toss-ups" },
   }[mode] || {};
@@ -1068,7 +1244,7 @@ function renderSenate() {
     row("--party-r", L.r, rLean, L.rx),
     row("--party-r", "Republicans, not up", makeup.notUp.R, null, true),
   ];
-  if (mode !== "ratings" && toss) {
+  if (mode !== "ratings" && mode !== "picks" && toss) {
     parts.push(h("p", { class: "seat-note" },
       mode === "results" ? "If every uncalled race went to whoever is ahead in the count: " : "If every toss-up went to whoever is ahead, even slightly: ",
       h("strong", {}, `Democrats + allies ${dIf}, Republicans ${rIf}`),
@@ -1082,8 +1258,9 @@ function renderSenate() {
   if (intro) summary.querySelectorAll("[data-count]").forEach((el, i) => countUp(el, Number(el.dataset.count), String, { delay: 300 + i * 40, duration: 1000 }));
 
   const when = ui.asOf ? ` As of ${fmtDate(ui.asOf, true)} (time machine).` : "";
-  document.getElementById("senate-hint").textContent =
-    mode === "ratings"
+  document.getElementById("senate-hint").textContent = mode === "picks"
+    ? "Your picks: tap any of the 35 seats on the ballot to pick its winner (faded seats aren't up this year). Bright seats are your picks; lighter ones follow your setting for unpicked races."
+    : mode === "ratings"
       ? "Each of the 35 seats on the ballot is shaded by forecasters' consensus rating; faded seats aren't up this year. Not a prediction."
       : mode === "results"
         ? "Election results from Wikipedia: seats show a party once the race is called; faded seats weren't up this year. Tap a seat for its race."
@@ -1467,11 +1644,11 @@ function alertNewCalls() {
   }
 }
 
-function showToast(text, onOpen, party) {
+function showToast(text, onOpen, party, title = "Race called: ") {
   const fill = party === "D" ? "--party-d" : party === "R" ? "--party-r" : party ? "--party-i" : "--neutral";
   const toast = h("div", { class: "toast" },
-    h("span", { class: "swatch", style: { background: `var(${fill})` } }),
-    h("button", { type: "button", class: "toast-text", onclick: () => { onOpen(); toast.remove(); } }, h("strong", {}, "Race called: "), text),
+    party ? h("span", { class: "swatch", style: { background: `var(${fill})` } }) : null,
+    h("button", { type: "button", class: "toast-text", onclick: () => { onOpen(); toast.remove(); } }, h("strong", {}, title), text),
     h("button", { type: "button", class: "toast-close", "aria-label": "Dismiss", onclick: () => toast.remove() }, "×"),
   );
   document.getElementById("toasts").append(toast);
@@ -1565,7 +1742,9 @@ function renderHouseSeats() {
     svg.addEventListener("pointerleave", hideTooltip);
     svg.addEventListener("click", (e) => {
       const o = seatAt(e);
-      if (o?.kind === "up") openDistrict(o.d);
+      if (o?.kind !== "up") return;
+      if (ui.colorBy === "picks") cyclePick(o.race);
+      else openDistrict(o.d);
     });
     svg.addEventListener("focusin", (e) => {
       const o = seatAt(e);
@@ -1578,7 +1757,8 @@ function renderHouseSeats() {
       const o = seatAt(e);
       if (o?.kind === "up" && (e.key === "Enter" || e.key === " ")) {
         e.preventDefault();
-        openDistrict(o.d);
+        if (ui.colorBy === "picks") cyclePick(o.race);
+        else openDistrict(o.d);
       }
     });
     document.getElementById("house-seats-chart").replaceChildren(svg);
@@ -1588,7 +1768,7 @@ function renderHouseSeats() {
   houseSeatsIntroDone = true;
   svg.querySelectorAll("circle.seat").forEach((c, i) => {
     const o = order[i];
-    c.setAttribute("class", `seat ${o.kind}${o.side === "T" ? " tossup" : ""}`);
+    c.setAttribute("class", `seat ${o.kind}${o.side === "T" ? " tossup" : ""}${o.kind === "up" && ui.colorBy === "picks" && !o.picked ? " unpicked" : ""}`);
     c.style.fill = `var(${fillFor(o)})`;
     if (o.kind === "up") c.setAttribute("tabindex", "0");
     else c.removeAttribute("tabindex");
@@ -1617,6 +1797,7 @@ function renderHouseSeats() {
   const L = {
     ratings: { d: "Competitive, leaning Democratic", dx: " (consensus rating)", t: "Toss-ups", tx: " (consensus Toss-up)", r: "Competitive, leaning Republican", rx: " (consensus rating)", big: "Toss-ups" },
     results: { d: "Called for Democrats", dx: null, t: "Not called yet", tx: null, r: "Called for Republicans", rx: null, big: "Not called" },
+    picks: { d: "Competitive, going Democratic", dx: " (your picks + unpicked leans)", t: "Toss-ups", tx: " (not picked)", r: "Competitive, going Republican", rx: " (your picks + unpicked leans)", big: "Toss-ups" },
     polls: { d: "Competitive, Democrat leads", dx: " by 2+ in polls, or rated D if unpolled", t: "Toss-ups", tx: " (poll lead under 2, or rated Toss-up)", r: "Competitive, Republican leads", rx: " by 2+ in polls, or rated R if unpolled", big: "Toss-ups" },
   }[mode] || {};
   const parts = [
@@ -1635,7 +1816,7 @@ function renderHouseSeats() {
   const leader = dTotal >= 218 ? "Democrats reach 218" : rTotal >= 218 ? "Republicans reach 218" : null;
   parts.push(h("p", { class: "seat-note" },
     leader ? h("strong", {}, `${leader} without the toss-ups. `) : `Neither party reaches 218 without the toss-ups (Democrats need ${218 - dTotal} more, Republicans ${218 - rTotal}). `,
-    mode !== "ratings" && toss
+    mode !== "ratings" && mode !== "picks" && toss
       ? [mode === "results" ? "If every uncalled race went to whoever is ahead: " : "If every toss-up went to whoever is ahead, even slightly: ",
          h("strong", {}, `Democrats ${dIf}, Republicans ${rIf}`), tied ? `, with ${tied} tied` : "", "."]
       : null));
@@ -1677,7 +1858,9 @@ function renderHouseSeats() {
   const when = ui.asOf ? ` As of ${fmtDate(ui.asOf, true)} (time machine).` : "";
   document.getElementById("house-seats-hint").textContent =
     `All 435 seats. The ${house.safe.D + house.safe.R} faded seats are ones every forecaster calls safe. ` +
-    (mode === "ratings"
+    (mode === "picks"
+      ? "Tap any of the other " + house.districts.length + " to pick its winner; bright seats are your picks."
+      : mode === "ratings"
       ? "The other " + house.districts.length + " are shaded by forecasters' consensus rating."
       : mode === "results"
         ? "The other " + house.districts.length + " show a party once Wikipedia reports the race called."
@@ -1713,6 +1896,7 @@ function incumbentLabel(d) {
 }
 
 function districtPollCell(d, colors) {
+  if (ui.colorBy === "picks") return pickButtons(d);
   if (ui.colorBy === "results" && d.results) {
     const r = resultSummary(d);
     if (r.runoff) return "Runoff";
@@ -1841,7 +2025,7 @@ function renderDistricts() {
   const LIMIT = 12;
   const collapsed = !districtsUi.expanded && list.length > LIMIT;
   const shown = collapsed ? list.slice(0, LIMIT) : list;
-  document.getElementById("districts-polls-col").textContent = ui.colorBy === "results" ? "Results" : "Polls";
+  document.getElementById("districts-polls-col").textContent = ui.colorBy === "results" ? "Results" : ui.colorBy === "picks" ? "Your pick" : "Polls";
   document.querySelector("#districts-table tbody").replaceChildren(...districtRows(shown));
   const more = document.getElementById("districts-more");
   more.hidden = !collapsed && !(districtsUi.expanded && list.length > LIMIT);
@@ -2282,6 +2466,7 @@ function raceCard(race) {
   if (race.latestPoll) bits.push(`latest ended ${fmtDate(race.latestPoll)}`);
   if (race.stale) bits.push("could not refresh, showing last good data");
   card.append(h("p", { class: "race-sub" }, bits.join(" · ")));
+  if (ui.colorBy === "picks") card.append(h("div", { class: "pick-row" }, h("span", { class: "label" }, "Your pick:"), pickButtons(race)));
 
   const summary = h("div", { class: "race-summary" });
   const chartCol = h("div", { class: "race-chart" });
@@ -2435,7 +2620,7 @@ function renderDetail({ scroll = false } = {}) {
         h("div", { class: "table-scroll" },
           h("table", { class: "data districts-table" },
             h("thead", {}, h("tr", {},
-              ["District", "Incumbent", "Lean", "Forecasters", ui.colorBy === "results" ? "Results" : "Polls", "7-day trend", "Latest poll"].map((t, i) =>
+              ["District", "Incumbent", "Lean", "Forecasters", ui.colorBy === "results" ? "Results" : ui.colorBy === "picks" ? "Your pick" : "Polls", "7-day trend", "Latest poll"].map((t, i) =>
                 h("th", { scope: "col", class: i === 2 || i >= 5 ? "num" : null }, t)))),
             h("tbody", {}, districtRows(stateDistricts)),
           ),
@@ -2630,6 +2815,7 @@ function applyOfficeLayout() {
 
 function renderAll() {
   applyOfficeLayout();
+  renderPicksBar();
   renderCalls();
   renderMisses();
   renderWatched();
@@ -2731,6 +2917,7 @@ function wireColorBy(input) {
     input.addEventListener("change", () => {
       ui.colorBy = input.value;
       ui.colorByChosen = true;
+      renderPicksBar();
       if (ui.colorBy !== "polls" && ui.asOf) {
         stopPlaying();
         ui.asOf = null;
@@ -2748,6 +2935,7 @@ function wireColorBy(input) {
       renderLegend();
       renderMap();
       renderCalls();
+      renderDetail();
     });
 }
 
@@ -2844,7 +3032,15 @@ async function main() {
     return;
   }
   renderHeader();
+  const sharedPicks = loadPicks();
+  if (sharedPicks) {
+    ui.colorBy = "picks";
+    ui.colorByChosen = true;
+    document.querySelector('input[name="colorby"][value="picks"]').checked = true;
+  }
   setupControls();
+  setupPicks();
+  if (sharedPicks) document.getElementById("time-machine").classList.add("off");
   ui.selected = readHash();
   document.getElementById("state-select").value = ui.selected || "";
   loadAlertsPref();
@@ -2853,6 +3049,7 @@ async function main() {
   renderAll();
   if (ui.selected) renderDetail({ scroll: true });
   startLiveUpdates();
+  if (sharedPicks) showToast(`Showing ${picks.size} shared pick${picks.size === 1 ? "" : "s"}. Change any of them by tapping.`, () => {}, null, "My picks: ");
 }
 
 // ---------------------------------------------------------------------------
