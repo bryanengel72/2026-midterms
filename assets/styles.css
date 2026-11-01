@@ -783,6 +783,12 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
   }
 }
 
+/* Margin of error ------------------------------------------------------------ */
+
+.within-moe { color: var(--text-2); text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
+.within-moe small { display: block; font-size: 10px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; color: var(--muted); }
+.within-moe.inline { font-weight: 400; }
+
 /* My picks ------------------------------------------------------------------- */
 
 .picks-bar {
