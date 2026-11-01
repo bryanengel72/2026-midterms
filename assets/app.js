@@ -3,6 +3,8 @@
 // trend chart and tables, and a table of every race. All text that comes from
 // the data is inserted with textContent, never as HTML.
 
+import { polymarketUrl } from "./polymarket-links.js";
+
 const ELECTION = "2026-11-03";
 const DAY = 86400000;
 
@@ -1063,10 +1065,14 @@ function raceCard(race) {
   const hl = race.headline;
   const card = h("article", { class: "card race", "aria-label": `${race.state.name} ${race.label}` });
   const url = safeUrl(race.url);
+  const odds = polymarketUrl(race.id);
   card.append(
     h("div", { class: "race-title" },
       h("h3", {}, race.label),
-      url ? h("a", { href: url, target: "_blank", rel: "noopener" }, "Wikipedia article") : null,
+      h("span", { class: "race-links" },
+        url ? h("a", { href: url, target: "_blank", rel: "noopener" }, "Wikipedia article") : null,
+        odds ? h("a", { href: odds, target: "_blank", rel: "noopener noreferrer", title: "Opens Polymarket, a betting market. Odds are bettors' prices, not polls." }, "Betting odds on Polymarket ↗") : null,
+      ),
     ),
   );
   const bits = [];
