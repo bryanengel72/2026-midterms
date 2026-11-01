@@ -703,6 +703,22 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
 
 .watched { margin: 0 0 20px; }
 .watched-title { font-size: 15px; margin: 0 0 8px; color: var(--text-2); font-weight: 600; }
+.watched-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.watched-head .watched-title { margin: 0; }
+.alerts-btn { font-size: 13px; padding: 5px 12px; }
+.alerts-btn.on { border-color: var(--focus); font-weight: 600; }
+.toasts {
+  position: fixed; right: 16px; bottom: 16px; z-index: 60;
+  display: flex; flex-direction: column; gap: 8px; max-width: min(420px, calc(100vw - 32px));
+}
+.toast {
+  display: flex; align-items: center; gap: 10px; padding: 10px 10px 10px 14px;
+  background: var(--surface); color: var(--text); border: 1px solid var(--grid);
+  border-radius: 12px; box-shadow: 0 8px 28px rgb(0 0 0 / 0.18); font-size: 14px;
+}
+.toast-text { flex: 1; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; padding: 0; }
+.toast-close { border: 0; background: none; color: var(--text-2); font-size: 20px; line-height: 1; cursor: pointer; padding: 2px 6px; }
+@media (prefers-reduced-motion: no-preference) { .toast { animation: rise-sm 320ms ease both; } }
 .watched-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));

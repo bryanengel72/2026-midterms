@@ -62,7 +62,10 @@
     </section>
 
     <section class="watched" id="watched" aria-labelledby="watched-title" hidden>
-      <h2 id="watched-title" class="watched-title">★ Your states</h2>
+      <div class="watched-head">
+        <h2 id="watched-title" class="watched-title">★ Your states</h2>
+        <button type="button" class="ghost alerts-btn" id="alerts-btn" hidden></button>
+      </div>
       <div class="watched-list" id="watched-list"></div>
     </section>
 
@@ -228,6 +231,7 @@
   </footer>
 
   <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
   <script type="module" src="assets/app.js"></script>
 </body>
 </html>

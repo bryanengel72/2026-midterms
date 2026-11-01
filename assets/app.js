@@ -731,6 +731,7 @@ function watchHouseLine(st) {
 }
 
 function renderWatched() {
+  renderAlertsButton();
   const section = document.getElementById("watched");
   const states = ui.data.states.filter((st) => watched.has(st.code));
   section.hidden = states.length === 0;
@@ -1258,6 +1259,115 @@ function renderCalls() {
   more.hidden = items.length <= CALLS_SHOWN;
   more.classList.toggle("open", callsUi.expanded);
   document.getElementById("calls-expand").textContent = callsUi.expanded ? "Show fewer" : `Show all ${items.length} calls`;
+}
+
+// ---------------------------------------------------------------------------
+// Alerts for watched states
+// ---------------------------------------------------------------------------
+
+const alerts = { on: false, seen: null };
+const canNotify = typeof window !== "undefined" && "Notification" in window;
+
+function loadAlertsPref() {
+  try {
+    alerts.on = localStorage.getItem("callAlerts") === "1";
+  } catch {}
+  if (alerts.on && canNotify && Notification.permission === "denied") alerts.on = false;
+}
+
+/** Every called race (all offices), keyed by id, for spotting new calls. */
+function allCallIds() {
+  const ids = new Set();
+  for (const r of allRaces()) if (r.results?.winner) ids.add(r.id);
+  for (const d of ui.data.house?.districts || []) if (d.results?.winner) ids.add(d.id);
+  return ids;
+}
+
+function renderAlertsButton() {
+  const btn = document.getElementById("alerts-btn");
+  btn.hidden = watched.size === 0;
+  const perm = canNotify ? Notification.permission : "unsupported";
+  if (perm === "denied") {
+    btn.textContent = "🔕 Alerts blocked";
+    btn.title = "Notifications are blocked for this site in your browser settings. Calls in your states still pop up on the page.";
+  } else if (alerts.on && (perm === "granted" || perm === "unsupported")) {
+    btn.textContent = "🔔 Alerts on";
+    btn.title = perm === "granted"
+      ? "You'll get a notification when a race in your states is called, while this page is open in a tab. Tap to turn off."
+      : "Calls in your states pop up on this page while it's open. Tap to turn off.";
+  } else {
+    btn.textContent = "🔔 Alert me when races are called";
+    btn.title = "Get a notification when a race in one of your states is called, while this page is open in a tab.";
+  }
+  btn.setAttribute("aria-pressed", alerts.on ? "true" : "false");
+  btn.classList.toggle("on", alerts.on);
+}
+
+async function toggleAlerts() {
+  if (alerts.on) {
+    alerts.on = false;
+  } else if (canNotify && Notification.permission !== "granted") {
+    let perm = Notification.permission;
+    try {
+      if (perm === "default") perm = await Notification.requestPermission();
+    } catch {}
+    // Without permission (or support) alerts still pop up on the page.
+    alerts.on = perm !== "denied";
+  } else {
+    alerts.on = true;
+  }
+  try {
+    localStorage.setItem("callAlerts", alerts.on ? "1" : "0");
+  } catch {}
+  renderAlertsButton();
+}
+
+/** After new data: alert on calls in watched states that weren't called before. */
+function alertNewCalls() {
+  const now = allCallIds();
+  const before = alerts.seen;
+  alerts.seen = now;
+  if (!before || !alerts.on) return;
+  const fresh = [];
+  for (const r of allRaces()) {
+    if (!now.has(r.id) || before.has(r.id) || !watched.has(r.state.code)) continue;
+    const office = r.office === "Senate" ? `Senate${/special/i.test(r.label) ? " (special)" : ""}` : "governor";
+    fresh.push({ race: r, label: `${r.state.name} ${office}`, open: () => selectState(r.state.code, true) });
+  }
+  for (const d of ui.data.house?.districts || []) {
+    if (!now.has(d.id) || before.has(d.id) || !watched.has(d.state)) continue;
+    fresh.push({ race: districtRace(d), label: districtLabel(d), open: () => openDistrict(d) });
+  }
+  for (const f of fresh) {
+    const res = f.race.results;
+    const w = res.candidates.find((c) => c.name === res.winner);
+    const party = w?.party || resultCandidate(f.race, res.winner)?.party;
+    const held = f.race.incumbent?.party;
+    const flip = party && held && party !== held && (held === "D" || held === "R");
+    const text = `${res.winner}${party ? ` (${partyLetter(party)})` : ""} wins ${f.label}${flip ? `, a ${party} gain from ${held}` : ""}.`;
+    showToast(text, f.open, party);
+    if (canNotify && Notification.permission === "granted") {
+      try {
+        const n = new Notification(`Race called: ${f.label}`, { body: text, tag: `call-${f.race.id}` });
+        n.onclick = () => {
+          window.focus();
+          f.open();
+          n.close();
+        };
+      } catch {}
+    }
+  }
+}
+
+function showToast(text, onOpen, party) {
+  const fill = party === "D" ? "--party-d" : party === "R" ? "--party-r" : party ? "--party-i" : "--neutral";
+  const toast = h("div", { class: "toast" },
+    h("span", { class: "swatch", style: { background: `var(${fill})` } }),
+    h("button", { type: "button", class: "toast-text", onclick: () => { onOpen(); toast.remove(); } }, h("strong", {}, "Race called: "), text),
+    h("button", { type: "button", class: "toast-close", "aria-label": "Dismiss", onclick: () => toast.remove() }, "×"),
+  );
+  document.getElementById("toasts").append(toast);
+  setTimeout(() => toast.remove(), 15000);
 }
 
 // ---------------------------------------------------------------------------
@@ -2624,6 +2734,9 @@ async function main() {
   setupControls();
   ui.selected = readHash();
   document.getElementById("state-select").value = ui.selected || "";
+  loadAlertsPref();
+  alerts.seen = allCallIds();
+  document.getElementById("alerts-btn").addEventListener("click", toggleAlerts);
   renderAll();
   if (ui.selected) renderDetail({ scroll: true });
   startLiveUpdates();
@@ -2638,7 +2751,8 @@ let lastCheck = Date.now();
 
 function startLiveUpdates() {
   setInterval(() => {
-    if (document.visibilityState === "visible") refreshData();
+    // In a background tab, keep checking only when alerts are on for watched states.
+    if (document.visibilityState === "visible" || (alerts.on && watched.size)) refreshData();
   }, LIVE_EVERY);
   // Coming back to the tab after a while: check right away.
   document.addEventListener("visibilitychange", () => {
@@ -2675,6 +2789,7 @@ function applyNewData(next) {
   ensureResultsOption();
   renderUpdated();
   renderAll();
+  alertNewCalls();
   const el = document.getElementById("updated");
   el.classList.remove("flash");
   void el.offsetWidth;
