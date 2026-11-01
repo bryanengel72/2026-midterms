@@ -86,6 +86,8 @@
     <section class="card" aria-labelledby="races-title">
       <div class="card-head">
         <h2 id="races-title">All races</h2>
+        <div class="races-tools">
+        <button type="button" class="ghost" id="races-toggle" aria-controls="races-table" aria-expanded="true">Collapse</button>
         <label class="field inline">
           <span>Sort</span>
           <select id="sort-select">
@@ -94,6 +96,7 @@
             <option value="recent">Most recent poll</option>
           </select>
         </label>
+        </div>
       </div>
       <div class="table-scroll">
         <table class="data races-table" id="races-table">
@@ -110,6 +113,9 @@
           </thead>
           <tbody></tbody>
         </table>
+      </div>
+      <div class="races-more" id="races-more" hidden>
+        <button type="button" class="linkish" id="races-expand"></button>
       </div>
       <p class="hint" id="races-count"></p>
     </section>

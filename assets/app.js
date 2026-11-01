@@ -1544,6 +1544,19 @@ function renderRacesTable() {
       h("td", { class: "num" }, fmtDate(r.latestPoll)),
     );
   });
+  // Collapsed: show only the first few races (the closest, by default).
+  const COLLAPSED_ROWS = 8;
+  const collapsed = ui.racesCollapsed && rows.length > COLLAPSED_ROWS;
+  rows.forEach((row, i) => {
+    if (collapsed && i >= COLLAPSED_ROWS) row.hidden = true;
+  });
+  const toggle = document.getElementById("races-toggle");
+  toggle.textContent = ui.racesCollapsed ? "Expand" : "Collapse";
+  toggle.setAttribute("aria-expanded", ui.racesCollapsed ? "false" : "true");
+  toggle.hidden = rows.length <= COLLAPSED_ROWS;
+  document.getElementById("races-more").hidden = !collapsed;
+  document.getElementById("races-expand").textContent = `Show all ${rows.length} races`;
+  document.getElementById("races-table").classList.toggle("collapsed", collapsed);
   rows.forEach((row, i) => row.style.setProperty("--i", Math.min(i, 24)));
   const tbody = document.querySelector("#races-table tbody");
   tbody.classList.remove("fresh");
@@ -1554,7 +1567,7 @@ function renderRacesTable() {
   }
   const close = allRaces().filter(inOffice).filter(isClose).length;
   document.getElementById("races-count").textContent =
-    `${races.length} race${races.length === 1 ? "" : "s"} shown. ${close} ${close === 1 ? "is" : "are"} within 5 points in the polls.`;
+    `${collapsed ? `Showing ${COLLAPSED_ROWS} of ${races.length} races` : `${races.length} race${races.length === 1 ? "" : "s"} shown`}. ${close} ${close === 1 ? "is" : "are"} within 5 points in the polls.`;
 }
 
 // ---------------------------------------------------------------------------
@@ -1714,6 +1727,25 @@ function setupControls() {
     renderMap();
     renderRacesTable();
   });
+  // Races table collapse: remembered; starts collapsed on phones.
+  try {
+    const saved = localStorage.getItem("racesCollapsed");
+    ui.racesCollapsed = saved === null ? matchMedia("(max-width: 640px)").matches : saved === "1";
+  } catch {
+    ui.racesCollapsed = false;
+  }
+  const setCollapsed = (v, scrollBack = false) => {
+    ui.racesCollapsed = v;
+    try {
+      localStorage.setItem("racesCollapsed", v ? "1" : "0");
+    } catch {}
+    renderRacesTable();
+    if (scrollBack) {
+      document.getElementById("races-title").scrollIntoView({ behavior: motionOK() ? "smooth" : "auto", block: "start" });
+    }
+  };
+  document.getElementById("races-toggle").addEventListener("click", () => setCollapsed(!ui.racesCollapsed, !ui.racesCollapsed));
+  document.getElementById("races-expand").addEventListener("click", () => setCollapsed(false));
   document.getElementById("sort-select").addEventListener("change", (e) => {
     ui.sort = e.target.value;
     renderRacesTable();
