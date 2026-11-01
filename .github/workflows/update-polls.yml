@@ -4,6 +4,10 @@ on:
   schedule:
     # Every three hours. Wikipedia editors add polls throughout the day.
     - cron: "23 */3 * * *"
+    # Final stretch: hourly from now through Election Day (Nov 1-3, UTC).
+    # The 20-minute election-night schedule below takes over at 6 PM ET.
+    # Remove after the election, or it will also run on these dates next year.
+    - cron: "53 * 1-3 11 *"
     # Election night: every 20 minutes from 6 PM ET Nov 3 to 7 AM ET Nov 4
     # (23:00 UTC Nov 3 to 11:59 UTC Nov 4), so results show up quickly.
     - cron: "*/20 23 3 11 *"
