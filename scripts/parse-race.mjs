@@ -611,26 +611,57 @@ export function parseRace(wikitext, race) {
  * House election ratings article: one row per district with its Cook PVI,
  * incumbent, last result and each forecaster's rating.
  */
-export function parseHouseRatings(text) {
+/** The ratings table of the House ratings article, with its column names. */
+function houseRatingsGrid(text) {
   const clean = stripNoise(text);
   const sections = listSections(clean);
   const sec = sections.find((s) => /latest published ratings/i.test(s.title)) || sections[0];
   const body = sec ? clean.slice(sec.bodyStart, sec.end) : clean;
   const table = findTables(body)[0];
-  if (!table) return [];
+  if (!table) return null;
   const grid = parseTable(table.text);
   // The last all-header row names the columns (District, CPVI, ... , Cook, IE, ...).
   let headerIdx = -1;
   grid.forEach((row, i) => {
     if (row.every((g) => g && g.cell.header) && row.some((g) => /district/i.test(g.cell.text))) headerIdx = i;
   });
-  if (headerIdx === -1) return [];
+  if (headerIdx === -1) return null;
   const names = grid[headerIdx].map((g) => g.cell.text.replace(/\s*[A-Z][a-z]{2}\.?\s*\d+,.*$/, "").trim());
   const col = (re) => names.findIndex((n) => re.test(n));
+  const iLast = col(/last result/i);
+  return { grid, headerIdx, names, col, iLast, firstRating: iLast + 1 };
+}
+
+/**
+ * Each forecaster's whole-House totals, from the table's "Overall" row:
+ * [{ source, D, R, tossup }]. These count all 435 seats, safe ones included.
+ */
+export function parseHouseTotals(text) {
+  const t = houseRatingsGrid(text);
+  if (!t) return [];
+  const row = t.grid.slice(t.headerIdx + 1).find((r) => /^overall$/i.test(r[0]?.cell.text || ""));
+  if (!row) return [];
+  const out = [];
+  for (let c = t.firstRating; c < t.names.length; c++) {
+    const cell = row[c]?.cell;
+    if (!cell || row[c].carried) continue;
+    const txt = cell.text.replace(/[–—-]/g, " ");
+    const num = (re) => { const m = txt.match(re); return m ? Number(m[1]) : null; };
+    const D = num(/\bD\s+(\d+)/);
+    const R = num(/\bR\s+(\d+)/);
+    const tossup = num(/(\d+)\s+toss/i) ?? 0;
+    if (D == null || R == null) continue;
+    out.push({ source: t.names[c], D, R, tossup });
+  }
+  return out;
+}
+
+export function parseHouseRatings(text) {
+  const t = houseRatingsGrid(text);
+  if (!t) return [];
+  const { grid, headerIdx, names, col, iLast, firstRating } = t;
   const iPvi = col(/pvi/i);
   const iInc = col(/^incumbent$/i);
-  const iLast = col(/last result/i);
-  const firstRating = iLast + 1;
   const out = [];
   for (const row of grid.slice(headerIdx + 1)) {
     const head = row[0]?.cell;

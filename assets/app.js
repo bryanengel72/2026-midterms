@@ -1138,6 +1138,213 @@ function renderGenericBallot() {
 }
 
 // ---------------------------------------------------------------------------
+// House seat chart
+// ---------------------------------------------------------------------------
+
+const FORECASTER_NAMES = {
+  Cook: "Cook Political Report", IE: "Inside Elections", Sabato: "Sabato's Crystal Ball", "Econ.": "The Economist",
+  ST: "Split Ticket", DDHQ: "Decision Desk HQ", FPO: "FiftyPlusOne", Fox: "Fox News", Silver: "Silver Bulletin", RCP: "RealClearPolitics",
+};
+const houseView = { svg: null, order: [] };
+let houseSeatsIntroDone = false;
+
+function openDistrict(d) {
+  districtsUi.open.add(d.id);
+  selectState(d.state, true);
+}
+
+function renderHouseSeats() {
+  const card = document.getElementById("house-seats-card");
+  const house = ui.data.house;
+  if (!house?.districts?.length || !house.safe || ui.office !== "all") {
+    card.hidden = true;
+    return;
+  }
+  card.hidden = false;
+  const calls = house.districts.map((d) => {
+    const race = districtRace(d);
+    return { d, race, ...senateCall(race) };
+  });
+  const pick = (side) => calls.filter((c) => c.side === side);
+  // Left to right: seats every forecaster calls safe for Democrats, then the
+  // competitive seats from safest Democratic to safest Republican.
+  const order = [
+    ...Array.from({ length: house.safe.D }, () => ({ kind: "held", side: "D" })),
+    ...pick("D").sort((a, b) => b.strength - a.strength).map((c) => ({ kind: "up", ...c })),
+    ...pick("T").sort((a, b) => (a.lean === "D" ? -1 : a.lean === "R" ? 1 : 0) - (b.lean === "D" ? -1 : b.lean === "R" ? 1 : 0)).map((c) => ({ kind: "up", ...c })),
+    ...pick("I").map((c) => ({ kind: "up", ...c })),
+    ...pick("R").sort((a, b) => a.strength - b.strength).map((c) => ({ kind: "up", ...c })),
+    ...Array.from({ length: house.safe.R }, () => ({ kind: "held", side: "R" })),
+  ];
+  const fillFor = (o) => o.side === "D" ? "--party-d" : o.side === "R" ? "--party-r" : o.side === "I" ? "--party-i" : "--neutral";
+  const width = 520;
+  const { seats, dot, R } = hemicycle(order.length, 12, width);
+
+  let svg = houseView.svg;
+  const intro = motionOK() && !houseSeatsIntroDone;
+  if (!svg || svg.querySelectorAll("circle.seat").length !== order.length) {
+    svg = s("svg", {
+      class: "senate-svg house-svg",
+      viewBox: `${-dot * 2} ${-dot * 3} ${width + dot * 4} ${R + dot * 6}`,
+      role: "img",
+      "aria-label": "House seat chart. The counts beside it list every group of seats.",
+    });
+    order.forEach((_, i) => {
+      const p = seats[i];
+      svg.append(s("circle", {
+        class: "seat", cx: p.x.toFixed(1), cy: p.y.toFixed(1), r: dot.toFixed(1), "data-i": i,
+        style: `--d: ${Math.round((i / order.length) * 900)}ms`,
+      }));
+    });
+    svg.append(
+      s("line", { class: "senate-mid", x1: R, x2: R, y1: -dot * 2.6, y2: -dot * 1.25 }),
+      s("text", { class: "senate-mid-label", x: R, y: R + dot * 1.5, "text-anchor": "middle" }, "218 for a majority"),
+    );
+    const seatAt = (e) => {
+      const i = e.target?.dataset?.i;
+      return i === undefined ? null : houseView.order[Number(i)];
+    };
+    const tip = (o) => {
+      if (o.kind !== "up") return [h("div", { class: "tt-title" }, `Safe ${o.side === "D" ? "Democratic" : "Republican"} seat`), h("div", { class: "tt-sub" }, "Every forecaster rates it safe")];
+      const status = o.side === "T"
+        ? (o.pending ? "Not called yet" : "Toss-up")
+        : ui.colorBy === "results" ? `Called for ${PARTY_NAMES[o.side] || "Independent"}s` : `Leans ${PARTY_NAMES[o.side] || "Independent"}`;
+      return [
+        h("div", { class: "tt-title" }, `${o.race.label}`),
+        h("div", {}, status),
+        h("div", { class: "tt-sub" }, o.basis),
+        h("div", { class: "tt-sub" }, `Incumbent: ${incumbentLabel(o.d)}`),
+      ];
+    };
+    svg.addEventListener("pointermove", (e) => {
+      const o = seatAt(e);
+      if (o) showTooltip(tip(o), e.clientX, e.clientY);
+      else hideTooltip();
+    });
+    svg.addEventListener("pointerleave", hideTooltip);
+    svg.addEventListener("click", (e) => {
+      const o = seatAt(e);
+      if (o?.kind === "up") openDistrict(o.d);
+    });
+    svg.addEventListener("focusin", (e) => {
+      const o = seatAt(e);
+      if (!o) return;
+      const b = e.target.getBoundingClientRect();
+      showTooltip(tip(o), b.right, b.top);
+    });
+    svg.addEventListener("focusout", hideTooltip);
+    svg.addEventListener("keydown", (e) => {
+      const o = seatAt(e);
+      if (o?.kind === "up" && (e.key === "Enter" || e.key === " ")) {
+        e.preventDefault();
+        openDistrict(o.d);
+      }
+    });
+    document.getElementById("house-seats-chart").replaceChildren(svg);
+    houseView.svg = svg;
+  }
+  houseView.order = order;
+  houseSeatsIntroDone = true;
+  svg.querySelectorAll("circle.seat").forEach((c, i) => {
+    const o = order[i];
+    c.setAttribute("class", `seat ${o.kind}${o.side === "T" ? " tossup" : ""}`);
+    c.style.fill = `var(${fillFor(o)})`;
+    if (o.kind === "up") c.setAttribute("tabindex", "0");
+    else c.removeAttribute("tabindex");
+  });
+  if (intro) svg.classList.add("intro");
+
+  const dLean = pick("D").length;
+  const rLean = pick("R").length;
+  const iLean = pick("I").length;
+  const toss = pick("T").length;
+  const dTotal = house.safe.D + dLean;
+  const rTotal = house.safe.R + rLean;
+  let dIf = dTotal, rIf = rTotal, tied = 0;
+  for (const c of pick("T")) {
+    if (c.lean === "D") dIf++;
+    else if (c.lean === "R") rIf++;
+    else tied++;
+  }
+  const row = (fill, label, n, extra, held = false) =>
+    h("div", { class: "seat-row" },
+      h("span", { class: `swatch${held ? " held" : ""}${fill === "--neutral" ? " tossup" : ""}`, style: { background: `var(${fill})` } }),
+      h("span", { class: "seat-label" }, label, extra ? h("small", {}, extra) : null),
+      h("span", { class: "seat-n", "data-count": n }, String(n)),
+    );
+  const mode = ui.colorBy;
+  const L = {
+    ratings: { d: "Competitive, leaning Democratic", dx: " (consensus rating)", t: "Toss-ups", tx: " (consensus Toss-up)", r: "Competitive, leaning Republican", rx: " (consensus rating)", big: "Toss-ups" },
+    results: { d: "Called for Democrats", dx: null, t: "Not called yet", tx: null, r: "Called for Republicans", rx: null, big: "Not called" },
+    polls: { d: "Competitive, Democrat leads", dx: " by 2+ in polls, or rated D if unpolled", t: "Toss-ups", tx: " (poll lead under 2, or rated Toss-up)", r: "Competitive, Republican leads", rx: " by 2+ in polls, or rated R if unpolled", big: "Toss-ups" },
+  }[mode] || {};
+  const parts = [
+    h("div", { class: "seat-totals" },
+      h("div", { class: "big d" }, h("span", { "data-count": dTotal }, String(dTotal)), h("small", {}, "Democrats")),
+      h("div", { class: "big t" }, h("span", { "data-count": toss }, String(toss)), h("small", {}, L.big)),
+      h("div", { class: "big r" }, h("span", { "data-count": rTotal }, String(rTotal)), h("small", {}, "Republicans")),
+    ),
+    row("--party-d", "Safe Democratic", house.safe.D, " (every forecaster)", true),
+    row("--party-d", L.d, dLean, L.dx),
+    row("--neutral", L.t, toss, L.tx),
+    iLean ? row("--party-i", "Competitive, independent ahead", iLean) : null,
+    row("--party-r", L.r, rLean, L.rx),
+    row("--party-r", "Safe Republican", house.safe.R, " (every forecaster)", true),
+  ];
+  const leader = dTotal >= 218 ? "Democrats reach 218" : rTotal >= 218 ? "Republicans reach 218" : null;
+  parts.push(h("p", { class: "seat-note" },
+    leader ? h("strong", {}, `${leader} without the toss-ups. `) : `Neither party reaches 218 without the toss-ups (Democrats need ${218 - dTotal} more, Republicans ${218 - rTotal}). `,
+    mode !== "ratings" && toss
+      ? [mode === "results" ? "If every uncalled race went to whoever is ahead: " : "If every toss-up went to whoever is ahead, even slightly: ",
+         h("strong", {}, `Democrats ${dIf}, Republicans ${rIf}`), tied ? `, with ${tied} tied` : "", "."]
+      : null));
+  if (mode === "results") parts.push(h("p", { class: "seat-note" }, "Results are tracked for the competitive districts only; seats every forecaster rated safe are shown faded for their expected party."));
+  const summary = document.getElementById("house-seats-summary");
+  summary.replaceChildren(...parts.filter(Boolean));
+  if (intro) summary.querySelectorAll("[data-count]").forEach((el, i) => countUp(el, Number(el.dataset.count), String, { delay: 300 + i * 40, duration: 1000 }));
+
+  // Each forecaster's own published totals.
+  const fc = house.forecasts || [];
+  document.getElementById("house-forecasts").replaceChildren(fc.length
+    ? h("details", { class: "forecasts" },
+        h("summary", {}, `What each forecaster projects (${fc.length})`),
+        h("div", { class: "table-scroll" },
+          h("table", { class: "data forecasts-table" },
+            h("thead", {}, h("tr", {},
+              h("th", { scope: "col" }, "Forecaster"),
+              h("th", { scope: "col", class: "num" }, "Dem."),
+              h("th", { scope: "col", class: "num" }, "Toss-up"),
+              h("th", { scope: "col", class: "num" }, "Rep."),
+              h("th", { scope: "col", class: "split-cell" }, "Split"))),
+            h("tbody", {}, fc.map((f) => h("tr", {},
+              h("td", {}, FORECASTER_NAMES[f.source] || f.source),
+              h("td", { class: "num" }, String(f.D)),
+              h("td", { class: "num" }, String(f.tossup)),
+              h("td", { class: "num" }, String(f.R)),
+              h("td", { class: "split-cell" },
+                h("div", { class: "split-bar", role: "img", "aria-label": `${f.D} Democratic, ${f.tossup} toss-up, ${f.R} Republican` },
+                  h("span", { style: { width: `${(f.D / 435) * 100}%`, background: "var(--party-d)" } }),
+                  h("span", { style: { width: `${(f.tossup / 435) * 100}%`, background: "var(--neutral)" } }),
+                  h("span", { style: { width: `${(f.R / 435) * 100}%`, background: "var(--party-r)" } }),
+                  h("i", { class: "majority-tick", "aria-hidden": "true" })))))),
+          ),
+        ),
+        h("p", { class: "hint" }, "Seats each forecaster rates Safe, Likely, Lean or Tilt for a party, as Wikipedia totals them. 218 is a majority."),
+      )
+    : "");
+
+  const when = ui.asOf ? ` As of ${fmtDate(ui.asOf, true)} (time machine).` : "";
+  document.getElementById("house-seats-hint").textContent =
+    `All 435 seats. The ${house.safe.D + house.safe.R} faded seats are ones every forecaster calls safe. ` +
+    (mode === "ratings"
+      ? "The other " + house.districts.length + " are shaded by forecasters' consensus rating."
+      : mode === "results"
+        ? "The other " + house.districts.length + " show a party once Wikipedia reports the race called."
+        : "The other " + house.districts.length + " go to whoever leads the district's polls, or the forecasters' lean where there are none.") +
+    ` Not a prediction. Tap a seat for its district.${when}`;
+}
+
+// ---------------------------------------------------------------------------
 // Competitive House districts
 // ---------------------------------------------------------------------------
 
@@ -2013,6 +2220,7 @@ function setTimeMachine(index) {
   renderWatched();
   renderSenate();
   renderGenericBallot();
+  renderHouseSeats();
   renderDistricts();
   renderLegend();
   renderMap();
@@ -2070,6 +2278,7 @@ function renderAll() {
   renderWatched();
   renderSenate();
   renderGenericBallot();
+  renderHouseSeats();
   renderDistricts();
   renderClosings();
   renderLegend();
@@ -2138,6 +2347,7 @@ function setupControls() {
       document.getElementById("time-machine").classList.toggle("off", ui.colorBy !== "polls");
       renderWatched();
       renderDistricts();
+      renderHouseSeats();
       renderSenate();
       renderLegend();
       renderMap();

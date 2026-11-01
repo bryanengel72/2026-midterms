@@ -9,6 +9,7 @@ A state-by-state poll checker for the November 3, 2026 midterms. For every U.S. 
 - **A tile map** of all 50 states, colored by polling lead or by forecaster rating, and a sortable table of every race.
 
 - **The House generic ballot**: the national Democrat-vs-Republican congressional average, its trend, the aggregators and every poll (from Wikipedia's 2026 House elections article and its generic ballot polling table).
+- **A 435-seat House chart**: seats every forecaster rates safe, plus each competitive district by its polling leader (or forecasters' consensus, or the result once called), with the count toward 218 and each forecaster's own published seat totals.
 - **Competitive House districts**: every district that at least one of ten forecasters (Cook, Inside Elections, Sabato, The Economist, Split Ticket, Decision Desk HQ, FiftyPlusOne, Fox News, Silver Bulletin, RealClearPolitics) doesn't rate safe, with its partisan lean, incumbent, consensus rating, candidates and district polls. A summary bar splits them by consensus rating, the table filters and sorts, and each state's page lists its own competitive districts. Ratings come from Wikipedia's "2026 United States House of Representatives election ratings" article; candidates and polls from each district's section of its state's House elections article.
 - **A 100-seat Senate chart** showing where the chamber stands if each race goes to its polling leader (or forecasters' pick).
 - **Poll closing times** for election night, with countdowns, and each state's closing time on its page.
