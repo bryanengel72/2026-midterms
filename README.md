@@ -17,6 +17,7 @@ A state-by-state poll checker for the November 3, 2026 midterms. For every U.S. 
 - **Live updates**: an open page checks for new data every two minutes (and when you return to the tab) and updates in place, no reload needed.
 - **Race calls**: a feed of races as Wikipedia editors mark winners, newest first, with party flips marked. Times are when the site first saw each call.
 - **Alerts for your states**: a "🔔 Alert me" button on Your states sends a browser notification (and an on-page pop-up) when a race in a starred state is called, while the page is open in a tab. Where browsers don't support notifications (iPhone Safari outside a home-screen app), the on-page pop-up still works.
+- **How far off were the polls?**: once races are called, a chart of each race's final polling average against the result (Democrat minus Republican margin), biggest misses first, with the average lean of the misses, the typical miss and how often the polling leader won.
 - **Election-night results**: once Wikipedia editors fill in vote counts, a Results view appears (and becomes the default), with winners, votes, the Senate chart by called races, and how each result compared with the final polls.
 
 Coverage: all 35 Senate races (33 regular plus the Florida and Ohio specials) and all 36 governor races. States with no statewide race (Indiana, Missouri, North Dakota, Utah, Washington) link to their House races.

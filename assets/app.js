@@ -1262,6 +1262,114 @@ function renderCalls() {
 }
 
 // ---------------------------------------------------------------------------
+// Poll misses: final polling average against the result
+// ---------------------------------------------------------------------------
+
+const missesUi = { expanded: false };
+const MISSES_SHOWN = 12;
+
+/**
+ * Called races with a polling average and both a Democrat and a Republican
+ * in the polls and the results. Margins are Democrat minus Republican, so a
+ * positive miss means Democrats did better than their polls.
+ */
+function pollMisses() {
+  const out = [];
+  const add = (race, label, open, short = label) => {
+    const res = race.results;
+    const hl = race.headline;
+    if (!res?.winner || !hl?.values) return;
+    const pollD = race.candidates.find((c) => c.party === "D" && typeof hl.values[c.name] === "number");
+    const pollR = race.candidates.find((c) => c.party === "R" && typeof hl.values[c.name] === "number");
+    const resD = res.candidates.find((c) => c.party === "D" && typeof c.percentage === "number");
+    const resR = res.candidates.find((c) => c.party === "R" && typeof c.percentage === "number");
+    if (!pollD || !pollR || !resD || !resR) return;
+    const polled = hl.values[pollD.name] - hl.values[pollR.name];
+    const actual = resD.percentage - resR.percentage;
+    const winner = res.candidates.find((c) => c.name === res.winner);
+    out.push({
+      id: race.id, label, short, open, polled, actual,
+      miss: Math.round((actual - polled) * 10) / 10,
+      winnerParty: winner?.party || null,
+      pollPicked: polled === 0 ? null : (polled > 0 ? "D" : "R") === winner?.party,
+      basis: hl.detail,
+    });
+  };
+  if (ui.office !== "House") {
+    for (const r of allRaces().filter(inOffice)) {
+      const office = r.office === "Senate" ? `Senate${/special/i.test(r.label) ? " (special)" : ""}` : "governor";
+      const short = `${r.state.code} ${r.office === "Senate" ? (/special/i.test(r.label) ? "Sen (sp.)" : "Sen") : "Gov"}`;
+      add(r, `${r.state.name} ${office}`, () => selectState(r.state.code, true), short);
+    }
+  }
+  if (showsHouse()) {
+    for (const d of ui.data.house?.districts || []) add(districtRace(d), districtLabel(d), () => openDistrict(d));
+  }
+  return out;
+}
+
+const fmtSide = (m) => (Math.abs(m) < 0.05 ? "Tie" : `${m > 0 ? "D" : "R"} +${fmtNum(Math.round(Math.abs(m) * 10) / 10)}`);
+
+function renderMisses() {
+  const card = document.getElementById("misses-card");
+  const items = pollMisses();
+  if (!items.length) {
+    card.hidden = true;
+    return;
+  }
+  card.hidden = false;
+  const n = items.length;
+  const avg = items.reduce((a, o) => a + o.miss, 0) / n;
+  const abs = items.reduce((a, o) => a + Math.abs(o.miss), 0) / n;
+  const picked = items.filter((o) => o.pollPicked === true).length;
+  const ties = items.filter((o) => o.pollPicked === null).length;
+  const bias = Math.abs(avg) < 0.5
+    ? "Average miss: no clear lean either way"
+    : `Average miss: polls underrated ${avg > 0 ? "Democrats" : "Republicans"}`;
+  const stat = (big, small, cls = "") => h("div", { class: `miss-stat ${cls}` }, h("strong", {}, big), h("small", {}, small));
+  document.getElementById("miss-stats").replaceChildren(
+    stat(Math.abs(avg) < 0.5 ? "Even" : fmtSide(avg), bias, avg > 0.5 ? "d" : avg < -0.5 ? "r" : ""),
+    stat(`${fmtNum(Math.round(abs * 10) / 10)} pts`, "Typical miss, either direction"),
+    stat(`${picked} of ${n - ties}`, `Polling leader won${ties ? ` (${ties} tied in polls)` : ""}`),
+  );
+  document.getElementById("misses-hint").textContent =
+    `${n} called race${n === 1 ? "" : "s"} with polls, comparing the final polling average with the result (Democrat minus Republican margin). Hollow ring: polls. Dot: result. Biggest misses first. Tap a race to open it.`;
+
+  const sorted = items.slice().sort((a, b) => Math.abs(b.miss) - Math.abs(a.miss) || a.label.localeCompare(b.label));
+  const shown = missesUi.expanded ? sorted : sorted.slice(0, MISSES_SHOWN);
+  // Democrats to the left, Republicans to the right, as on the seat charts.
+  // The scale fits the widest margin shown, in steps of 10 (20 to 60).
+  const widest = Math.max(...items.map((o) => Math.max(Math.abs(o.polled), Math.abs(o.actual))));
+  const MISS_RANGE = Math.min(60, Math.max(20, Math.ceil(widest / 10) * 10));
+  const pct = (m) => 50 - (Math.max(-MISS_RANGE, Math.min(MISS_RANGE, m)) / MISS_RANGE) * 48;
+  const axis = h("div", { class: "miss-row miss-axis", "aria-hidden": "true" },
+    h("span", {}, ""),
+    h("span", { class: "miss-axis-labels" }, h("span", {}, `D +${MISS_RANGE}`), h("span", {}, "Tie"), h("span", {}, `R +${MISS_RANGE}`)),
+    h("span", { class: "miss-val" }, "Miss"));
+  const rows = shown.map((o) => {
+    const dir = o.miss > 0 ? "--party-d" : o.miss < 0 ? "--party-r" : "--text-2";
+    const won = o.winnerParty === "D" ? "--party-d" : o.winnerParty === "R" ? "--party-r" : "--party-i";
+    const pa = pct(o.polled);
+    const pb = pct(o.actual);
+    const plot = h("span", { class: "miss-track", role: "img", "aria-label": `Polls ${fmtSide(o.polled)}, result ${fmtSide(o.actual)}` },
+      h("span", { class: "miss-zero" }),
+      h("span", { class: "miss-link", style: { left: `${Math.min(pa, pb)}%`, width: `${Math.abs(pa - pb)}%`, background: `var(${dir})` } }),
+      h("span", { class: "miss-poll", style: { left: `${pa}%` } }),
+      h("span", { class: "miss-result", style: { left: `${pb}%`, background: `var(${won})` } }),
+    );
+    return h("button", { type: "button", class: "miss-row", onclick: o.open, title: `${o.label}: polls ${fmtSide(o.polled)}, result ${fmtSide(o.actual)}. ${o.basis || ""}` },
+      h("span", { class: "miss-label" }, h("span", { class: "long" }, o.label), h("span", { class: "short" }, o.short)),
+      h("span", { class: "miss-plot" }, plot),
+      h("span", { class: "miss-val", style: { color: `var(${dir})` } }, Math.abs(o.miss) < 0.05 ? "0" : `${o.miss > 0 ? "D" : "R"} +${fmtNum(Math.abs(o.miss))}`));
+  });
+  document.getElementById("miss-chart").replaceChildren(axis, ...rows);
+  const more = document.getElementById("misses-more");
+  more.hidden = sorted.length <= MISSES_SHOWN;
+  more.classList.toggle("open", missesUi.expanded);
+  document.getElementById("misses-expand").textContent = missesUi.expanded ? "Show fewer" : `Show all ${sorted.length} races`;
+}
+
+// ---------------------------------------------------------------------------
 // Alerts for watched states
 // ---------------------------------------------------------------------------
 
@@ -2523,6 +2631,7 @@ function applyOfficeLayout() {
 function renderAll() {
   applyOfficeLayout();
   renderCalls();
+  renderMisses();
   renderWatched();
   renderSenate();
   renderGenericBallot();
@@ -2579,6 +2688,10 @@ function setupControls() {
     if (line && ui.selected) line.textContent = `🗳 ${closingLine(ui.selected) || ""}`;
   }, 30000);
   for (const input of document.querySelectorAll('input[name="colorby"]')) wireColorBy(input);
+  document.getElementById("misses-expand").addEventListener("click", () => {
+    missesUi.expanded = !missesUi.expanded;
+    renderMisses();
+  });
   document.getElementById("calls-expand").addEventListener("click", () => {
     callsUi.expanded = !callsUi.expanded;
     renderCalls();
