@@ -1,4 +1,4 @@
-name: Update polls and deploy
+name: Update polls
 
 on:
   schedule:
@@ -16,8 +16,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: update-polls
@@ -52,31 +50,3 @@ jobs:
           git commit -m "Update poll data from Wikipedia"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
-
-  deploy:
-    # Publishes the site with GitHub Pages. One-time setup:
-    # Settings > Pages > Build and deployment > Source: GitHub Actions.
-    needs: update
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Assemble site
-        run: |
-          mkdir _site
-          cp -r index.html assets data _site/
-
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-      - id: deployment
-        uses: actions/deploy-pages@v4
