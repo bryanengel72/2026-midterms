@@ -603,6 +603,82 @@ export function parseRace(wikitext, race) {
 }
 
 // ---------------------------------------------------------------------------
+// Competitive House districts
+// ---------------------------------------------------------------------------
+
+/**
+ * Reads the "Latest published ratings for competitive seats" table of the
+ * House election ratings article: one row per district with its Cook PVI,
+ * incumbent, last result and each forecaster's rating.
+ */
+export function parseHouseRatings(text) {
+  const clean = stripNoise(text);
+  const sections = listSections(clean);
+  const sec = sections.find((s) => /latest published ratings/i.test(s.title)) || sections[0];
+  const body = sec ? clean.slice(sec.bodyStart, sec.end) : clean;
+  const table = findTables(body)[0];
+  if (!table) return [];
+  const grid = parseTable(table.text);
+  // The last all-header row names the columns (District, CPVI, ... , Cook, IE, ...).
+  let headerIdx = -1;
+  grid.forEach((row, i) => {
+    if (row.every((g) => g && g.cell.header) && row.some((g) => /district/i.test(g.cell.text))) headerIdx = i;
+  });
+  if (headerIdx === -1) return [];
+  const names = grid[headerIdx].map((g) => g.cell.text.replace(/\s*[A-Z][a-z]{2}\.?\s*\d+,.*$/, "").trim());
+  const col = (re) => names.findIndex((n) => re.test(n));
+  const iPvi = col(/pvi/i);
+  const iInc = col(/^incumbent$/i);
+  const iLast = col(/last result/i);
+  const firstRating = iLast + 1;
+  const out = [];
+  for (const row of grid.slice(headerIdx + 1)) {
+    const head = row[0]?.cell;
+    const m = head?.raw.match(/ushr\s*\|\s*([A-Z]{2})\s*\|\s*([^|}]+)/i);
+    if (!m) continue;
+    const state = m[1].toUpperCase();
+    const num = m[2].trim().toUpperCase() === "AL" ? "AL" : String(parseInt(m[2], 10));
+    const pviRaw = iPvi >= 0 ? row[iPvi]?.cell.raw || "" : "";
+    const pm = pviRaw.match(/PVI\s*\|\s*([DR])\s*\|\s*(\d+)/i);
+    const pvi = pm ? `${pm[1].toUpperCase()}+${pm[2]}` : /even/i.test(toPlainText(pviRaw)) ? "EVEN" : null;
+    const incCell = iInc >= 0 ? row[iInc]?.cell : null;
+    const incName = incCell ? incCell.text : "";
+    const incParty = incCell ? (/Democratic/i.test(incCell.attrs) ? "D" : /Republican/i.test(incCell.attrs) ? "R" : null) : null;
+    const ratings = [];
+    for (let c = firstRating; c < names.length; c++) {
+      const cell = row[c]?.cell;
+      if (!cell || !cell.text) continue;
+      ratings.push({ source: names[c], ...normalizeRating(cell.text) });
+    }
+    out.push({
+      id: `${state}-${num}`,
+      state,
+      district: num,
+      pvi,
+      incumbent: incName && !/^(vacant|open)/i.test(incName) ? { name: incName, party: incParty } : null,
+      lastResult: iLast >= 0 ? row[iLast]?.cell.text || null : null,
+      ratings,
+    });
+  }
+  return out;
+}
+
+/**
+ * The part of a state's House article about one district: its
+ * "==District N==" section, or the whole article for at-large seats.
+ */
+export function districtSection(text, district) {
+  if (district === "AL") {
+    const secs = listSections(text);
+    const al = secs.find((s) => s.level === 2 && /at.large/i.test(s.title));
+    return al ? text.slice(al.start, al.end) : text;
+  }
+  const secs = listSections(text);
+  const sec = secs.find((s) => s.level === 2 && new RegExp(`^District\\s+${district}$`, "i").test(s.title));
+  return sec ? text.slice(sec.start, sec.end) : null;
+}
+
+// ---------------------------------------------------------------------------
 // House generic ballot
 // ---------------------------------------------------------------------------
 

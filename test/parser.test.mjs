@@ -9,6 +9,8 @@ import {
   parseRace,
   parseResults,
   parseGenericBallot,
+  parseHouseRatings,
+  districtSection,
   simpleAverage,
 } from "../scripts/parse-race.mjs";
 import { listRaces, STATES } from "../scripts/races.mjs";
@@ -364,4 +366,57 @@ test("parseGenericBallot reads aggregates and polls keyed by party", () => {
   assert.equal(g.polls.length, 1);
   assert.deepEqual(g.polls[0].values, { Democrats: 50, Republicans: 44 });
   assert.equal(g.polls[0].end, "2026-10-28");
+});
+
+test("parseHouseRatings reads each district's lean, incumbent and forecaster ratings", () => {
+  const text = `Intro.
+== Latest published ratings ==
+{| class="wikitable sortable"
+! colspan="2" |Constituency
+! colspan="2" |Incumbent
+! colspan="2" |Ratings
+|-
+![[List of United States congressional districts|District]]
+![[Cook Partisan Voting Index|CPVI]]
+!Incumbent
+!Last result<ref>x</ref>
+![[Cook Political Report|Cook]]<br>{{small|Oct. 30,<br>2026}}
+![[Sabato's Crystal Ball|Sabato]]<br>{{small|Oct. 27,<br>2026}}
+|-
+!{{ushr|PA|7|X}}
+|{{shading PVI|R|1}}
+| {{Party shading/Republican}} |{{sortname|Ryan|Mackenzie}}
+| {{Party shading/Republican}} data-sort-value="50.5" |50.5% R
+|{{USRaceRating|Tossup}}
+|{{USRaceRating|Lean|D|Flip}}
+|-
+!{{ushr|AK|AL|X}}
+|{{shading PVI|EVEN}}
+| {{Party shading/Republican}} |{{sortname|Nick|Begich}} (retiring)
+| {{Party shading/Republican}} |51.6% R
+|{{USRaceRating|Likely|R}}
+|{{USRaceRating|Safe|R}}
+|}
+== Other ==
+`;
+  const rows = parseHouseRatings(text);
+  assert.equal(rows.length, 2);
+  assert.equal(rows[0].id, "PA-7");
+  assert.equal(rows[0].pvi, "R+1");
+  assert.deepEqual(rows[0].incumbent, { name: "Ryan Mackenzie", party: "R" });
+  assert.equal(rows[0].lastResult, "50.5% R");
+  assert.deepEqual(rows[0].ratings.map((r) => [r.source, r.rating, r.flip]), [["Cook", "Tossup", false], ["Sabato", "Lean D", true]]);
+  assert.equal(rows[1].id, "AK-AL");
+  assert.equal(rows[1].district, "AL");
+  assert.equal(rows[1].pvi, "EVEN");
+  assert.deepEqual(rows[1].incumbent, { name: "Nick Begich (retiring)", party: "R" });
+});
+
+test("districtSection finds a numbered district, or the whole article for at-large seats", () => {
+  const text = "Lead.\n== District 1 ==\none\n=== Polling ===\np\n== District 10 ==\nten\n";
+  assert.match(districtSection(text, "1"), /one[\s\S]*Polling/);
+  assert.doesNotMatch(districtSection(text, "1"), /ten/);
+  assert.match(districtSection(text, "10"), /ten/);
+  assert.equal(districtSection(text, "3"), null);
+  assert.equal(districtSection(text, "AL"), text);
 });

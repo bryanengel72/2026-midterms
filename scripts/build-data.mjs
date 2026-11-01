@@ -13,7 +13,14 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { STATES, listRaces, houseSeatsPage } from "./races.mjs";
 import { fetchWikitext, pageUrl } from "./wiki.mjs";
-import { parseRace, simpleAverage, partyCode, parseGenericBallot } from "./parse-race.mjs";
+import {
+  parseRace,
+  simpleAverage,
+  partyCode,
+  parseGenericBallot,
+  parseHouseRatings,
+  districtSection,
+} from "./parse-race.mjs";
 import { parseInfobox, toPlainText } from "./wikitext.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -118,6 +125,115 @@ function fingerprint(data) {
 const SENATE_OVERVIEW = "2026 United States Senate elections";
 const HOUSE_OVERVIEW = "2026 United States House of Representatives elections";
 const GENERIC_BALLOT_POLLS = "Template:2026 United States elections/polling";
+const HOUSE_RATINGS = "2026 United States House of Representatives election ratings";
+const AT_LARGE = new Set(["AK", "DE", "ND", "SD", "VT", "WY"]);
+
+function houseStatePage(code) {
+  const name = STATES.find((st) => st.code === code).name;
+  return AT_LARGE.has(code)
+    ? `2026 United States House of Representatives election in ${name}`
+    : `2026 United States House of Representatives elections in ${name}`;
+}
+
+/** Title of the "(districts A–B)" sub-article that covers `district`, if any. */
+function subArticleFor(text, district) {
+  const n = Number(district);
+  if (!Number.isFinite(n)) return null;
+  for (const m of text.matchAll(/\{\{\s*main\s*\|\s*([^}|]*\(districts?\s*(\d+)\s*[–-]\s*(\d+)\)[^}|]*)/gi)) {
+    if (n >= Number(m[2]) && n <= Number(m[3])) return m[1].trim();
+  }
+  return null;
+}
+
+/**
+ * Competitive House districts: the ratings article lists every district at
+ * least one forecaster doesn't call safe; each district's candidates, polls
+ * and results come from its section of the state's House article. A state
+ * whose article can't be read keeps its districts' previous data.
+ */
+async function buildHouseDistricts(today, previous, failures) {
+  const prevById = new Map((previous?.districts || []).map((d) => [d.id, d]));
+  let page;
+  try {
+    page = await fetchWikitext(HOUSE_RATINGS, { cacheDir: CACHE, useCache, offline });
+  } catch (err) {
+    failures.push(`House ratings: ${err.message}`);
+  }
+  const rated = page ? parseHouseRatings(page.text) : [];
+  if (!rated.length) {
+    failures.push("House ratings: could not read; kept previous");
+    return previous || null;
+  }
+  const byState = new Map();
+  for (const d of rated) {
+    if (!byState.has(d.state)) byState.set(d.state, []);
+    byState.get(d.state).push(d);
+  }
+  const districts = [];
+  const subPages = new Map();
+  for (const [code, list] of byState) {
+    let statePage = null;
+    try {
+      statePage = await fetchWikitext(houseStatePage(code), { cacheDir: CACHE, useCache, offline });
+    } catch (err) {
+      failures.push(`House ${code}: ${err.message}`);
+    }
+    for (const d of list) {
+      const entry = {
+        ...d,
+        consensus: consensus(d.ratings),
+        url: statePage
+          ? pageUrl(statePage.title) + (d.district === "AL" ? "" : `#District_${d.district}`)
+          : prevById.get(d.id)?.url || null,
+      };
+      let section = statePage ? districtSection(statePage.text, d.district) : null;
+      if (!section && statePage) {
+        // Big states split districts into sub-articles, e.g. California's
+        // "(districts 1–26)" and "(districts 27–52)".
+        const sub = subArticleFor(statePage.text, d.district);
+        if (sub) {
+          if (!subPages.has(sub)) {
+            try {
+              const sp = await fetchWikitext(sub, { cacheDir: CACHE, useCache, offline });
+              subPages.set(sub, sp);
+              if (sp && !sp.fromCache) await sleep(delayMs);
+            } catch (err) {
+              failures.push(`House ${code} (${sub}): ${err.message}`);
+              subPages.set(sub, null);
+            }
+          }
+          const sp = subPages.get(sub);
+          if (sp) {
+            section = districtSection(sp.text, d.district);
+            if (section) entry.url = `${pageUrl(sp.title)}#District_${d.district}`;
+          }
+        }
+      }
+      if (section) {
+        const parsed = parseRace(section, { id: d.id });
+        entry.candidates = parsed.candidates.length ? parsed.candidates : parsed.nominees;
+        entry.polls = parsed.polls;
+        entry.aggregates = parsed.aggregates;
+        entry.results = parsed.results;
+        if (!entry.incumbent && parsed.incumbent) entry.incumbent = parsed.incumbent;
+      } else {
+        const prev = prevById.get(d.id);
+        Object.assign(entry, {
+          candidates: prev?.candidates || [],
+          polls: prev?.polls || [],
+          aggregates: prev?.aggregates || [],
+          results: prev?.results || null,
+          stale: Boolean(prev),
+        });
+      }
+      entry.headline = headline(entry, today);
+      entry.latestPoll = entry.polls[0]?.end || null;
+      districts.push(entry);
+    }
+    if (statePage && !statePage.fromCache) await sleep(delayMs);
+  }
+  return { url: pageUrl(page.title), districts };
+}
 
 /**
  * Reads the Senate's current makeup from the overview article's infobox:
@@ -150,9 +266,15 @@ async function loadPrevious() {
     const prev = JSON.parse(await readFile(OUT, "utf8"));
     const byId = new Map();
     for (const s of prev.states || []) for (const r of s.races || []) byId.set(r.id, r);
-    return { byId, fingerprint: fingerprint(prev), senate: prev.senate || null, genericBallot: prev.genericBallot || null };
+    return {
+      byId,
+      fingerprint: fingerprint(prev),
+      senate: prev.senate || null,
+      genericBallot: prev.genericBallot || null,
+      house: prev.house || null,
+    };
   } catch {
-    return { byId: new Map(), fingerprint: null, senate: null, genericBallot: null };
+    return { byId: new Map(), fingerprint: null, senate: null, genericBallot: null, house: null };
   }
 }
 
@@ -163,6 +285,7 @@ async function main() {
     fingerprint: previousFingerprint,
     senate: previousSenate,
     genericBallot: previousGenericBallot,
+    house: previousHouse,
   } = await loadPrevious();
   const races = listRaces();
   const built = new Map();
@@ -255,6 +378,13 @@ async function main() {
     failures.push("Generic ballot: could not read; kept previous");
   }
 
+  const house = await buildHouseDistricts(today, previousHouse, failures);
+  if (house) {
+    const n = house.districts.length;
+    const polled = house.districts.filter((d) => d.polls.length).length;
+    console.log(`House: ${n} competitive districts, ${polled} with polls`);
+  }
+
   const withPolls = [...built.values()].filter((r) => r.polls.length).length;
   const prevWithPolls = [...previous.values()].filter((r) => r.polls?.length).length;
   if (prevWithPolls && withPolls < prevWithPolls * 0.5) {
@@ -276,6 +406,7 @@ async function main() {
     },
     senate,
     genericBallot,
+    house,
     states: STATES.map(({ code, name }) => ({
       code,
       name,

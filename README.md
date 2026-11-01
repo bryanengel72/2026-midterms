@@ -9,6 +9,7 @@ A state-by-state poll checker for the November 3, 2026 midterms. For every U.S. 
 - **A tile map** of all 50 states, colored by polling lead or by forecaster rating, and a sortable table of every race.
 
 - **The House generic ballot**: the national Democrat-vs-Republican congressional average, its trend, the aggregators and every poll (from Wikipedia's 2026 House elections article and its generic ballot polling table).
+- **Competitive House districts**: every district that at least one of ten forecasters (Cook, Inside Elections, Sabato, The Economist, Split Ticket, Decision Desk HQ, FiftyPlusOne, Fox News, Silver Bulletin, RealClearPolitics) doesn't rate safe, with its partisan lean, incumbent, consensus rating, candidates and district polls. A summary bar splits them by consensus rating, the table filters and sorts, and each state's page lists its own competitive districts. Ratings come from Wikipedia's "2026 United States House of Representatives election ratings" article; candidates and polls from each district's section of its state's House elections article.
 - **A 100-seat Senate chart** showing where the chamber stands if each race goes to its polling leader (or forecasters' pick).
 - **Poll closing times** for election night, with countdowns, and each state's closing time on its page.
 - **A time machine**: a slider and Play button that rewind the map, Senate chart and table to any date since August 1, using 30-day poll averages.
@@ -33,7 +34,7 @@ Each race's English Wikipedia article (for example [2026 United States Senate el
 Requires Node 20 or newer. There are no dependencies to install.
 
 ```sh
-npm run update     # fetch all 71 articles from Wikipedia and rebuild data/polls.json
+npm run update     # fetch the race, ratings and state House articles from Wikipedia and rebuild data/polls.json
 npm start          # serve the site at http://localhost:8080
 npm test           # parser tests
 ```
