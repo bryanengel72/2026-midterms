@@ -460,13 +460,17 @@ function renderHeader() {
       : "Election Day was Tuesday, November 3, 2026. These are the final pre-election polls";
   }
 
+  renderUpdated();
+}
+
+function renderUpdated() {
   const gen = new Date(ui.data.generatedAt);
   const stamp = gen.toLocaleString(undefined, {
     month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit",
   });
   const total = allRaces().reduce((n, r) => n + r.polls.length, 0);
   document.getElementById("updated").textContent =
-    `${total.toLocaleString()} polls across ${allRaces().length} races · updated ${stamp}`;
+    `${total.toLocaleString()} polls across ${allRaces().length} races · updated ${stamp} · refreshes on its own`;
 }
 
 // ---------------------------------------------------------------------------
@@ -1171,6 +1175,92 @@ function renderGenericBallot() {
 }
 
 // ---------------------------------------------------------------------------
+// Race calls
+// ---------------------------------------------------------------------------
+
+const callsUi = { expanded: false, seen: null };
+const CALLS_SHOWN = 8;
+
+/** Every called race the office filter shows, newest call first. */
+function calledRaces() {
+  const items = [];
+  const add = (race, kind, open, label) => {
+    const res = race.results;
+    if (!res?.winner) return;
+    const w = res.candidates.find((c) => c.name === res.winner) || resultCandidate(race, res.winner) || { name: res.winner };
+    const party = w.party || resultCandidate(race, res.winner)?.party || null;
+    const held = race.incumbent?.party || null;
+    items.push({
+      id: race.id,
+      kind,
+      race,
+      open,
+      label,
+      winner: res.winner,
+      party,
+      when: res.calledAt || ui.data.generatedAt,
+      flip: Boolean(party && held && party !== held && (held === "D" || held === "R")),
+      held,
+    });
+  };
+  for (const r of allRaces().filter(inOffice)) {
+    if (ui.office === "House") break;
+    const office = r.office === "Senate" ? `Senate${/special/i.test(r.label) ? " (special)" : ""}` : "governor";
+    add(r, "statewide", () => selectState(r.state.code, true), `${r.state.name} ${office}`);
+  }
+  if (showsHouse()) {
+    for (const d of ui.data.house?.districts || []) {
+      const race = districtRace(d);
+      add(race, "house", () => openDistrict(d), districtLabel(d));
+    }
+  }
+  items.sort((a, b) => b.when.localeCompare(a.when) || a.race.state.name.localeCompare(b.race.state.name));
+  return items;
+}
+
+function renderCalls() {
+  const card = document.getElementById("calls-card");
+  const statewide = anyResults();
+  const house = (ui.data.house?.districts || []).some((d) => d.results);
+  if (!statewide && !house) {
+    card.hidden = true;
+    return;
+  }
+  card.hidden = false;
+  const items = calledRaces();
+  const firstRender = callsUi.seen === null;
+  if (firstRender) callsUi.seen = new Set(items.map((o) => o.id));
+  const flips = items.filter((o) => o.flip);
+  document.getElementById("calls-hint").textContent = items.length
+    ? `${items.length} race${items.length === 1 ? "" : "s"} called${flips.length ? `, ${flips.length} changing parties` : ""}. Calls come from Wikipedia editors; times are when this page first saw them. Tap one for the race.`
+    : "No races called yet. Calls appear here as Wikipedia editors mark winners; this page checks every couple of minutes.";
+  const shown = callsUi.expanded ? items : items.slice(0, CALLS_SHOWN);
+  const fill = (p) => p === "D" ? "--party-d" : p === "R" ? "--party-r" : p ? "--party-i" : "--neutral";
+  const rows = shown.map((o) => {
+    const fresh = !firstRender && !callsUi.seen.has(o.id);
+    const t = new Date(o.when);
+    const time = t.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+    const day = t.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    return h("li", { class: `call${fresh ? " new" : ""}${o.flip ? " flip" : ""}` },
+      h("button", { type: "button", class: "call-btn", onclick: o.open },
+        h("time", { datetime: o.when, title: `${day}, ${time}` }, time),
+        h("span", { class: "swatch", style: { background: `var(${fill(o.party)})` } }),
+        h("span", { class: "call-text" },
+          h("strong", {}, `${surname(o.winner)}${o.party ? ` (${partyLetter(o.party)})` : ""}`),
+          ` wins ${o.label}`),
+        o.flip ? h("span", { class: "flip-badge" }, `${o.party} gain from ${o.held}`) : null,
+        fresh ? h("span", { class: "new-badge" }, "New") : null,
+      ));
+  });
+  document.getElementById("calls").replaceChildren(...rows);
+  for (const o of items) callsUi.seen.add(o.id);
+  const more = document.getElementById("calls-more");
+  more.hidden = items.length <= CALLS_SHOWN;
+  more.classList.toggle("open", callsUi.expanded);
+  document.getElementById("calls-expand").textContent = callsUi.expanded ? "Show fewer" : `Show all ${items.length} calls`;
+}
+
+// ---------------------------------------------------------------------------
 // House seat chart
 // ---------------------------------------------------------------------------
 
@@ -1537,6 +1627,7 @@ function renderDistricts() {
   document.querySelector("#districts-table tbody").replaceChildren(...districtRows(shown));
   const more = document.getElementById("districts-more");
   more.hidden = !collapsed && !(districtsUi.expanded && list.length > LIMIT);
+  more.classList.toggle("open", !collapsed);
   document.getElementById("districts-expand").textContent = collapsed ? `Show all ${list.length} districts` : "Show fewer";
 }
 
@@ -2321,6 +2412,7 @@ function applyOfficeLayout() {
 
 function renderAll() {
   applyOfficeLayout();
+  renderCalls();
   renderWatched();
   renderSenate();
   renderGenericBallot();
@@ -2367,14 +2459,7 @@ function setupControls() {
       renderAll();
     });
   }
-  if (anyResults()) {
-    // Election night: offer (and default to) the results view.
-    const label = h("label", {}, h("input", { type: "radio", name: "colorby", value: "results" }), h("span", {}, "Results"));
-    document.getElementById("color-filter").append(label);
-    ui.colorBy = "results";
-    label.querySelector("input").checked = true;
-    document.getElementById("time-machine").classList.add("off");
-  }
+  ensureResultsOption();
   setupTimeMachine();
   setInterval(() => {
     if (document.visibilityState !== "visible") return;
@@ -2383,9 +2468,46 @@ function setupControls() {
     const line = document.querySelector("#state-detail .closing-line");
     if (line && ui.selected) line.textContent = `🗳 ${closingLine(ui.selected) || ""}`;
   }, 30000);
-  for (const input of document.querySelectorAll('input[name="colorby"]')) {
+  for (const input of document.querySelectorAll('input[name="colorby"]')) wireColorBy(input);
+  document.getElementById("calls-expand").addEventListener("click", () => {
+    callsUi.expanded = !callsUi.expanded;
+    renderCalls();
+  });
+  document.getElementById("close-only").addEventListener("change", (e) => {
+    ui.closeOnly = e.target.checked;
+    renderMap();
+    renderRacesTable();
+  });
+  setupControlsRest();
+}
+
+/** Election night: offer the Results view, and switch to it unless the reader picked a view. */
+function ensureResultsOption() {
+  if (!anyResults() || document.querySelector('input[name="colorby"][value="results"]')) return;
+  const label = h("label", {}, h("input", { type: "radio", name: "colorby", value: "results" }), h("span", {}, "Results"));
+  document.getElementById("color-filter").append(label);
+  if (document.querySelector('input[name="colorby"][value="polls"]')?.dataset.wired) wireColorBy(label.querySelector("input"));
+  if (!ui.colorByChosen) {
+    ui.colorBy = "results";
+    label.querySelector("input").checked = true;
+    if (ui.asOf) {
+      stopPlaying();
+      ui.asOf = null;
+      document.getElementById("tm-range").value = String(tm.days);
+      document.getElementById("tm-label").textContent = "Today";
+      document.getElementById("tm-reset").hidden = true;
+      document.getElementById("time-machine").classList.remove("active");
+    }
+    document.getElementById("time-machine").classList.add("off");
+  }
+}
+
+function wireColorBy(input) {
+    if (input.dataset.wired) return;
+    input.dataset.wired = "1";
     input.addEventListener("change", () => {
       ui.colorBy = input.value;
+      ui.colorByChosen = true;
       if (ui.colorBy !== "polls" && ui.asOf) {
         stopPlaying();
         ui.asOf = null;
@@ -2402,13 +2524,11 @@ function setupControls() {
       renderSenate();
       renderLegend();
       renderMap();
+      renderCalls();
     });
-  }
-  document.getElementById("close-only").addEventListener("change", (e) => {
-    ui.closeOnly = e.target.checked;
-    renderMap();
-    renderRacesTable();
-  });
+}
+
+function setupControlsRest() {
   // Races table collapse: remembered; starts collapsed on phones.
   try {
     const saved = localStorage.getItem("racesCollapsed");
@@ -2506,6 +2626,59 @@ async function main() {
   document.getElementById("state-select").value = ui.selected || "";
   renderAll();
   if (ui.selected) renderDetail({ scroll: true });
+  startLiveUpdates();
+}
+
+// ---------------------------------------------------------------------------
+// Live updates: pick up new data without a reload
+// ---------------------------------------------------------------------------
+
+const LIVE_EVERY = 2 * 60 * 1000;
+let lastCheck = Date.now();
+
+function startLiveUpdates() {
+  setInterval(() => {
+    if (document.visibilityState === "visible") refreshData();
+  }, LIVE_EVERY);
+  // Coming back to the tab after a while: check right away.
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && Date.now() - lastCheck > 60 * 1000) refreshData();
+  });
+}
+
+async function refreshData() {
+  lastCheck = Date.now();
+  let next;
+  try {
+    const res = await fetch("data/polls.json", { cache: "no-cache" });
+    if (!res.ok) return;
+    next = await res.json();
+  } catch {
+    return; // offline or mid-deploy: try again next time
+  }
+  if (!next?.generatedAt || next.generatedAt === ui.data.generatedAt) return;
+  applyNewData(next);
+}
+
+function applyNewData(next) {
+  ui.data = next;
+  asOfCache.clear();
+  // A new day moves the time machine's end.
+  const today = ui.data.generatedAt.slice(0, 10);
+  const days = Math.max(1, Math.round((Date.parse(today) - Date.parse(TM_START)) / DAY));
+  if (days !== tm.days) {
+    tm.days = days;
+    const range = document.getElementById("tm-range");
+    range.max = String(days);
+    if (!ui.asOf) range.value = String(days);
+  }
+  ensureResultsOption();
+  renderUpdated();
+  renderAll();
+  const el = document.getElementById("updated");
+  el.classList.remove("flash");
+  void el.offsetWidth;
+  if (motionOK()) el.classList.add("flash");
 }
 
 main();
