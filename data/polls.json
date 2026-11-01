@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T20:54:59.329Z",
+ "generatedAt": "2026-11-01T22:08:46.049Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -28566,6 +28566,21 @@
        "undecided": 4
       },
       {
+       "pollster": "Lake Research Partners (D)",
+       "dates": "September 16–30, 2026",
+       "start": "2026-09-16",
+       "end": "2026-09-30",
+       "sample": 600,
+       "population": "RV",
+       "moe": null,
+       "values": {
+        "Katie Hobbs": 56,
+        "Andy Biggs": 33
+       },
+       "other": 2,
+       "undecided": 8
+      },
+      {
        "pollster": "Equis Research",
        "dates": "September 1–9, 2026",
        "start": "2026-09-01",
@@ -29809,11 +29824,13 @@
       {
        "name": "John Hickenlooper",
        "party": "D",
+       "nominee": true,
        "partyName": "Democratic Party"
       },
       {
        "name": "Mark Baisley",
        "party": "R",
+       "nominee": true,
        "partyName": "Republican Party"
       }
      ],
@@ -29917,8 +29934,33 @@
       }
      ],
      "aggregates": [],
-     "polls": [],
-     "headline": null,
+     "polls": [
+      {
+       "pollster": "Lake Research Partners (D)",
+       "dates": "September 16–30, 2026",
+       "start": "2026-09-16",
+       "end": "2026-09-30",
+       "sample": 600,
+       "population": "RV",
+       "moe": null,
+       "values": {
+        "Mark Baisley": 38,
+        "John Hickenlooper": 52
+       },
+       "other": 1,
+       "undecided": 8
+      }
+     ],
+     "headline": {
+      "basis": "latest-poll",
+      "detail": "Most recent poll: Lake Research Partners (D), September 16–30, 2026",
+      "values": {
+       "Mark Baisley": 38,
+       "John Hickenlooper": 52
+      },
+      "leader": "John Hickenlooper",
+      "margin": 14
+     },
      "consensus": {
       "rating": "Safe D",
       "strength": "Safe",
@@ -29926,7 +29968,7 @@
       "count": 12,
       "of": 12
      },
-     "latestPoll": null
+     "latestPoll": "2026-09-30"
     },
     {
      "id": "CO-GOV",
@@ -29942,11 +29984,13 @@
       {
        "name": "Phil Weiser",
        "party": "D",
+       "nominee": true,
        "partyName": "Democratic Party"
       },
       {
        "name": "Victor Marx",
        "party": "R",
+       "nominee": true,
        "partyName": "Republican Party"
       }
      ],
@@ -30018,8 +30062,33 @@
       }
      ],
      "aggregates": [],
-     "polls": [],
-     "headline": null,
+     "polls": [
+      {
+       "pollster": "Lake Research Partners (D)",
+       "dates": "September 16–30, 2026",
+       "start": "2026-09-16",
+       "end": "2026-09-30",
+       "sample": 600,
+       "population": "RV",
+       "moe": null,
+       "values": {
+        "Victor Marx": 36,
+        "Phil Weiser": 51
+       },
+       "other": 3,
+       "undecided": 10
+      }
+     ],
+     "headline": {
+      "basis": "latest-poll",
+      "detail": "Most recent poll: Lake Research Partners (D), September 16–30, 2026",
+      "values": {
+       "Victor Marx": 36,
+       "Phil Weiser": 51
+      },
+      "leader": "Phil Weiser",
+      "margin": 15
+     },
      "consensus": {
       "rating": "Safe D",
       "strength": "Safe",
@@ -30027,7 +30096,7 @@
       "count": 7,
       "of": 8
      },
-     "latestPoll": null
+     "latestPoll": "2026-09-30"
     }
    ]
   },
@@ -37371,27 +37440,27 @@
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 27, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Hannah Pingree": 50.1,
-        "Bobby Charles": 39
+        "Hannah Pingree": 50.7,
+        "Bobby Charles": 40.3
        },
-       "otherUndecided": 10.9
+       "otherUndecided": 9
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 27, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Hannah Pingree": 50,
-        "Bobby Charles": 39,
+        "Hannah Pingree": 50.5,
+        "Bobby Charles": 39.9,
         "Rick Bennett": 7.2
        },
-       "otherUndecided": 3.8
+       "otherUndecided": 2.4
       },
       {
        "source": "RealClearPolitics",
@@ -37409,13 +37478,13 @@
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through October 27, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Hannah Pingree": 49.3,
+        "Hannah Pingree": 49.4,
         "Bobby Charles": 39.4
        },
-       "otherUndecided": 11.3
+       "otherUndecided": 11.2
       },
       {
        "source": "Average",
@@ -37424,11 +37493,11 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Hannah Pingree": 49.5,
-        "Bobby Charles": 39.3,
+        "Hannah Pingree": 49.7,
+        "Bobby Charles": 39.7,
         "Rick Bennett": 7.3
        },
-       "otherUndecided": 3.9
+       "otherUndecided": 3.3
       }
      ],
      "polls": [
@@ -37442,11 +37511,10 @@
        "moe": 4,
        "values": {
         "Hannah Pingree": 53,
-        "Bobby Charles": 45,
-        "Rick Bennett": 2
+        "Bobby Charles": 45
        },
-       "other": 0,
-       "undecided": null
+       "other": 2,
+       "undecided": 0
       },
       {
        "pollster": "Data for Progress (D)",
@@ -37768,12 +37836,12 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Hannah Pingree": 49.5,
-       "Bobby Charles": 39.3,
+       "Hannah Pingree": 49.7,
+       "Bobby Charles": 39.7,
        "Rick Bennett": 7.3
       },
       "leader": "Hannah Pingree",
-      "margin": 10.2
+      "margin": 10
      },
      "consensus": {
       "rating": "Safe D",
@@ -38832,62 +38900,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 8–27, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "October 8–29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Abdul El-Sayed": 49.8,
-        "Mike Rogers": 44.3
+        "Abdul El-Sayed": 50.5,
+        "Mike Rogers": 44.5
        },
-       "otherUndecided": 5.9
+       "otherUndecided": 5
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through October 29, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Abdul El-Sayed": 49.2,
-        "Mike Rogers": 44.5
+        "Abdul El-Sayed": 49.4,
+        "Mike Rogers": 44.8
        },
-       "otherUndecided": 6.3
+       "otherUndecided": 5.8
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 28, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Abdul El-Sayed": 49.3,
-        "Mike Rogers": 44.6
+        "Abdul El-Sayed": 49.7,
+        "Mike Rogers": 44.9
        },
-       "otherUndecided": 6.1
+       "otherUndecided": 5.4
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "September 28 – October 29, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
+       "dates": "October 2–29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Abdul El-Sayed": 49.1,
-        "Mike Rogers": 45.6
+        "Abdul El-Sayed": 49.3,
+        "Mike Rogers": 45.4
        },
        "otherUndecided": 5.3
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 27, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Abdul El-Sayed": 49.4,
-        "Mike Rogers": 45.6
+        "Abdul El-Sayed": 49.7,
+        "Mike Rogers": 45.5
        },
-       "otherUndecided": 5
+       "otherUndecided": 4.8
       },
       {
        "source": "Average",
@@ -38896,10 +38964,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Abdul El-Sayed": 49.4,
-        "Mike Rogers": 44.9
+        "Abdul El-Sayed": 49.7,
+        "Mike Rogers": 45
        },
-       "otherUndecided": 5.7
+       "otherUndecided": 5.3
       }
      ],
      "polls": [
@@ -38930,7 +38998,7 @@
         "Abdul El-Sayed": 51,
         "Mike Rogers": 47
        },
-       "other": 1,
+       "other": 2,
        "undecided": 1
       },
       {
@@ -39838,11 +39906,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Abdul El-Sayed": 49.4,
-       "Mike Rogers": 44.9
+       "Abdul El-Sayed": 49.7,
+       "Mike Rogers": 45
       },
       "leader": "Abdul El-Sayed",
-      "margin": 4.5
+      "margin": 4.7
      },
      "consensus": {
       "rating": "Lean D",
@@ -42836,11 +42904,11 @@
       },
       {
        "source": "NBC News",
-       "rating": "Likely R",
-       "strength": "Likely",
+       "rating": "Lean R",
+       "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 28, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -43215,7 +43283,7 @@
       "rating": "Likely R",
       "strength": "Likely",
       "lean": "R",
-      "count": 6,
+      "count": 5,
       "of": 8
      },
      "latestPoll": "2026-10-29"
@@ -47177,34 +47245,34 @@
        "updated": "November 1, 2026",
        "updatedIso": "2026-11-01",
        "values": {
-        "Jon Husted": 46,
+        "Jon Husted": 46.1,
         "Sherrod Brown": 48.6
        },
-       "otherUndecided": 5.4
+       "otherUndecided": 5.3
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 5–29, 2026",
+       "dates": "October 5–30, 2026",
        "updated": "November 1, 2026",
        "updatedIso": "2026-11-01",
        "values": {
-        "Jon Husted": 45.6,
-        "Sherrod Brown": 48.1
+        "Jon Husted": 46,
+        "Sherrod Brown": 48.4
        },
-       "otherUndecided": 6.3
+       "otherUndecided": 5.6
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 26, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Jon Husted": 45.3,
-        "Sherrod Brown": 48.3
+        "Jon Husted": 45.6,
+        "Sherrod Brown": 48.5
        },
-       "otherUndecided": 6.4
+       "otherUndecided": 5.9
       },
       {
        "source": "Average",
@@ -47213,16 +47281,16 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Jon Husted": 46,
-        "Sherrod Brown": 48.4
+        "Jon Husted": 46.2,
+        "Sherrod Brown": 48.5
        },
-       "otherUndecided": 5.6
+       "otherUndecided": 5.3
       }
      ],
      "polls": [
       {
        "pollster": "ActiVote",
-       "dates": "October 18-31, 2026",
+       "dates": "October 18–31, 2026",
        "start": "2026-10-18",
        "end": "2026-10-31",
        "sample": 400,
@@ -47237,7 +47305,7 @@
       },
       {
        "pollster": "InsiderAdvantage (R)",
-       "dates": "October 29-30, 2026",
+       "dates": "October 29–30, 2026",
        "start": "2026-10-29",
        "end": "2026-10-30",
        "sample": 1200,
@@ -47915,11 +47983,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Jon Husted": 46,
-       "Sherrod Brown": 48.4
+       "Jon Husted": 46.2,
+       "Sherrod Brown": 48.5
       },
       "leader": "Sherrod Brown",
-      "margin": 2.4
+      "margin": 2.3
      },
      "consensus": {
       "rating": "Tossup",
@@ -48098,7 +48166,7 @@
      "polls": [
       {
        "pollster": "ActiVote",
-       "dates": "October 16-31, 2026",
+       "dates": "October 16–31, 2026",
        "start": "2026-10-16",
        "end": "2026-10-31",
        "sample": 400,
