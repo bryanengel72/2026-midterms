@@ -60,6 +60,7 @@ scripts/wikitext.mjs     wikitext table and template parsing
 scripts/parse-race.mjs   turns one race article into polls, averages and ratings
 scripts/build-data.mjs   builds data/polls.json
 scripts/serve.mjs        local preview server
+scripts/og-image.mjs     renders assets/og.png, the social preview image (needs Playwright)
 test/parser.test.mjs     parser tests
 ```
 
