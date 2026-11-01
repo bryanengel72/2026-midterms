@@ -6,6 +6,51 @@
 const ELECTION = "2026-11-03";
 const DAY = 86400000;
 
+// ---------------------------------------------------------------------------
+// Motion. Everything here is skipped when the visitor's device asks for
+// reduced motion; the page then renders its final state directly.
+// ---------------------------------------------------------------------------
+
+const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+const motionOK = () => !reducedMotion.matches;
+const easeOut = (t) => 1 - (1 - t) ** 3;
+
+/** Counts a number up from zero inside `el`, formatted by `fmt`. */
+function countUp(el, to, fmt, { duration = 900, delay = 0 } = {}) {
+  el.textContent = fmt(to);
+  if (!motionOK()) return;
+  const decimals = Number.isInteger(to) ? 0 : 1;
+  el.textContent = fmt(0);
+  const start = performance.now() + delay;
+  const step = (now) => {
+    const t = Math.min(1, Math.max(0, (now - start) / duration));
+    const v = to * easeOut(t);
+    el.textContent = fmt(t === 1 ? to : Number(v.toFixed(decimals)));
+    if (t < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
+/** Draws a chart's average lines in and pops its poll dots. */
+function animateChart(svg) {
+  if (!motionOK()) return;
+  svg.querySelectorAll("path.avg").forEach((path) => {
+    const len = path.getTotalLength();
+    path.style.setProperty("--len", len);
+    path.classList.add("draw");
+  });
+  // Dots appear left to right, in step with the lines drawing.
+  const width = svg.viewBox.baseVal?.width || 1;
+  svg.querySelectorAll("circle.poll-dot").forEach((dot) => {
+    dot.style.setProperty("--d", `${Math.round((Number(dot.getAttribute("cx")) / width) * 1200)}ms`);
+  });
+  svg.classList.add("animate");
+}
+
+let mapIntroDone = false;
+let lastDetailState = null;
+let detailEntering = false;
+
 // 11 x 8 tile grid, roughly geographic. [column, row]
 const TILES = {
   AK: [0, 0], ME: [10, 0],
@@ -36,7 +81,12 @@ function h(tag, attrs, ...children) {
   for (const [k, v] of Object.entries(attrs || {})) {
     if (v === null || v === undefined || v === false) continue;
     if (k === "class") el.className = v;
-    else if (k === "style" && typeof v === "object") Object.assign(el.style, v);
+    else if (k === "style" && typeof v === "object") {
+      for (const [prop, val] of Object.entries(v)) {
+        if (prop.startsWith("--")) el.style.setProperty(prop, String(val));
+        else el.style[prop] = val;
+      }
+    }
     else if (k.startsWith("on") && typeof v === "function") el.addEventListener(k.slice(2), v);
     else el.setAttribute(k, v === true ? "" : String(v));
   }
@@ -250,12 +300,31 @@ function renderHeader() {
   const local = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
   const eday = Date.parse(`${ELECTION}T00:00:00Z`);
   const days = Math.round((eday - local) / DAY);
-  let text = "Election Day: Tuesday, November 3, 2026";
-  if (days > 1) text += ` (in ${days} days)`;
-  else if (days === 1) text += " (tomorrow)";
-  else if (days === 0) text = "Election Day is today, Tuesday, November 3, 2026";
-  else text = "Election Day was Tuesday, November 3, 2026. These are the final pre-election polls";
-  document.getElementById("countdown").textContent = text;
+  const countdown = document.getElementById("countdown");
+  if (days > 0) {
+    // Ticks down to midnight (local time) at the start of Election Day.
+    const target = new Date(2026, 10, 3).getTime();
+    const label = h("span", {}, "Election Day: Tuesday, November 3, 2026");
+    const clock = h("span", { class: "clock", "aria-hidden": "true" });
+    countdown.replaceChildren(label, " ", clock);
+    countdown.setAttribute("aria-label", `Election Day: Tuesday, November 3, 2026, in ${days} day${days === 1 ? "" : "s"}`);
+    const pad = (n) => String(n).padStart(2, "0");
+    const tick = () => {
+      const left = Math.max(0, target - Date.now());
+      const d = Math.floor(left / DAY);
+      const hh = Math.floor((left % DAY) / 3600000);
+      const mm = Math.floor((left % 3600000) / 60000);
+      const ss = Math.floor((left % 60000) / 1000);
+      clock.textContent = `${d}d ${pad(hh)}h ${pad(mm)}m ${pad(ss)}s to go`;
+      if (left === 0) clearInterval(timer);
+    };
+    tick();
+    const timer = setInterval(tick, 1000);
+  } else {
+    countdown.textContent = days === 0
+      ? "Election Day is today, Tuesday, November 3, 2026"
+      : "Election Day was Tuesday, November 3, 2026. These are the final pre-election polls";
+  }
 
   const gen = new Date(ui.data.generatedAt);
   const stamp = gen.toLocaleString(undefined, {
@@ -339,6 +408,11 @@ function tileTooltip(st) {
 
 function renderMap() {
   const map = document.getElementById("tile-map");
+  // Remember each band's current fill so a re-render can fade between colors.
+  const previous = new Map();
+  for (const tile of map.querySelectorAll(".tile[data-code]")) {
+    previous.set(tile.dataset.code, [...tile.querySelectorAll(".band")].map((b) => b.dataset.fill || ""));
+  }
   const tiles = [];
   const offices = ui.office === "all" ? ["Senate", "Governor"] : [ui.office];
   for (const st of ui.data.states) {
@@ -353,7 +427,7 @@ function renderMap() {
       }
       return h(
         "span",
-        { class: "band", "aria-hidden": "true", style: { background: `var(${style.fill})`, color: inkOn(style.fill) } },
+        { class: "band", "aria-hidden": "true", "data-fill": style.fill, style: { background: `var(${style.fill})`, color: inkOn(style.fill) } },
         style.label,
       );
     });
@@ -366,8 +440,9 @@ function renderMap() {
       "button",
       {
         type: "button",
+        "data-code": st.code,
         class: `tile${offices.length === 1 ? " single" : ""}${relevant ? "" : " dim"}${ui.selected === st.code ? " selected" : ""}`,
-        style: { gridColumn: pos[0] + 1, gridRow: pos[1] + 1 },
+        style: { gridColumn: pos[0] + 1, gridRow: pos[1] + 1, "--i": pos[0] + pos[1] * 2 },
         "aria-label": `${st.name}. ${summary}`,
         "aria-pressed": ui.selected === st.code ? "true" : "false",
         onclick: () => selectState(st.code, true),
@@ -397,7 +472,35 @@ function renderMap() {
       ),
     );
   }
+  // Start changed bands at their old color, then let CSS transition them.
+  const pending = [];
+  if (motionOK() && mapIntroDone) {
+    for (const tile of tiles) {
+      const old = previous.get(tile.dataset?.code);
+      if (!old) continue;
+      tile.querySelectorAll(".band").forEach((band, i) => {
+        const from = old[i];
+        const to = band.dataset.fill;
+        if (from && to && from !== to) {
+          band.style.background = `var(${from})`;
+          pending.push([band, to]);
+        }
+      });
+    }
+  }
+  map.classList.toggle("intro", motionOK() && !mapIntroDone);
   map.replaceChildren(...tiles);
+  if (!mapIntroDone) {
+    mapIntroDone = true;
+    setTimeout(() => map.classList.remove("intro"), 1400);
+  }
+  if (pending.length) {
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        for (const [band, to] of pending) band.style.background = `var(${to})`;
+      }),
+    );
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -800,7 +903,7 @@ function raceCard(race) {
             `${name} `,
             h("small", {}, `(${partyTag(c)})${isInc ? " · incumbent" : ""}${c.note ? ` · ${c.note}` : ""}`),
           ),
-          h("span", { class: "value" }, fmtPct(v)),
+          h("span", { class: "value", "data-count": v }, fmtPct(v)),
         ),
       );
     });
@@ -856,7 +959,10 @@ function raceCard(race) {
     // Size the chart once the card is in the document.
     requestAnimationFrame(() => {
       const chart = renderTrend(race, colors, chartMount);
-      if (chart) chartMount.replaceChildren(chart);
+      if (chart) {
+        chartMount.replaceChildren(chart);
+        if (detailEntering) animateChart(chart.querySelector("svg"));
+      }
       else chartMount.previousSibling?.remove();
     });
   }
@@ -875,6 +981,7 @@ function renderDetail({ scroll = false } = {}) {
   const st = ui.data.states.find((x) => x.code === ui.selected);
   if (!st) {
     el.replaceChildren();
+    lastDetailState = null;
     return;
   }
   const races = st.races.filter(inOffice).map((r) => ({ ...r, state: st }));
@@ -897,9 +1004,26 @@ function renderDetail({ scroll = false } = {}) {
     body = h("div", { class: "card no-polls" },
       `${st.name} has no ${ui.office === "Senate" ? "Senate" : "governor"} race in 2026. Switch the office filter to Both to see its other race.`);
   } else {
-    body = h("div", { class: "race-grid" }, races.map(raceCard));
+    body = h("div", { class: "race-grid" }, races.map((r, i) => {
+      const card = raceCard(r);
+      card.style.setProperty("--i", i);
+      return card;
+    }));
   }
+  // Animate only when a different state opens, not on filter or resize redraws.
+  detailEntering = motionOK() && st.code !== lastDetailState;
+  lastDetailState = st.code;
+  el.classList.remove("enter");
   el.replaceChildren(head, body);
+  if (detailEntering) {
+    void el.offsetWidth; // restart the CSS entrance animations
+    el.classList.add("enter");
+    el.querySelectorAll(".race").forEach((card, i) => {
+      card.querySelectorAll("[data-count]").forEach((v) =>
+        countUp(v, Number(v.dataset.count), fmtPct, { delay: 150 + i * 120 }),
+      );
+    });
+  }
   if (scroll) {
     el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
     el.focus({ preventScroll: true });
@@ -932,12 +1056,20 @@ function renderRacesTable() {
       { onclick: go },
       h("td", {}, h("a", { href: `#${r.state.code}`, onclick: (e) => { e.preventDefault(); e.stopPropagation(); go(); } }, r.state.name)),
       h("td", {}, r.label),
-      h("td", {},
-        leader
-          ? h("span", { class: "leader" },
-              h("span", { class: "swatch", style: { background: `var(${colors.get(leader.name)})` } }),
-              `${leader.name} (${partyTag(leader)})`)
-          : r.headline ? "Tied" : h("span", { class: "sub" }, "No polls"),
+      h("td", { class: "avg-cell" },
+        r.headline
+          ? Object.entries(r.headline.values)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 3)
+              .map(([name, v]) => {
+                const c = candidate(r, name);
+                return h("span", { class: `leader${name === leader?.name ? " is-lead" : ""}` },
+                  h("span", { class: "swatch", style: { background: `var(${colors.get(name)})` } }),
+                  h("span", { class: "pct" }, fmtPct(v)),
+                  h("span", { class: "who" }, `${surname(name)} (${partyTag(c)})`),
+                );
+              })
+          : h("span", { class: "sub" }, "No polls"),
       ),
       h("td", { class: "num lead-cell" }, r.headline ? (r.headline.leader ? `+${fmtMargin(r.headline.margin)}` : "0") : "–"),
       h("td", {}, r.headline ? BASIS_SHORT[r.headline.basis] || "" : "–"),
@@ -945,7 +1077,14 @@ function renderRacesTable() {
       h("td", { class: "num" }, fmtDate(r.latestPoll)),
     );
   });
-  document.querySelector("#races-table tbody").replaceChildren(...rows);
+  rows.forEach((row, i) => row.style.setProperty("--i", Math.min(i, 24)));
+  const tbody = document.querySelector("#races-table tbody");
+  tbody.classList.remove("fresh");
+  tbody.replaceChildren(...rows);
+  if (motionOK()) {
+    void tbody.offsetWidth;
+    tbody.classList.add("fresh");
+  }
   const close = allRaces().filter(inOffice).filter(isClose).length;
   document.getElementById("races-count").textContent =
     `${races.length} race${races.length === 1 ? "" : "s"} shown. ${close} ${close === 1 ? "is" : "are"} within 5 points in the polls.`;
