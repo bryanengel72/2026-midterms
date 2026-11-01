@@ -216,9 +216,14 @@ const asOfCache = new Map();
  */
 function headlineFor(race) {
   if (!ui.asOf) return race.headline;
-  const key = `${race.id}|${ui.asOf}`;
+  return averageAt(race, ui.asOf);
+}
+
+/** 30-day average (newest poll per pollster) of polls finished by `iso`. */
+function averageAt(race, iso) {
+  const key = `${race.id}|${iso}`;
   if (asOfCache.has(key)) return asOfCache.get(key);
-  const t = Date.parse(ui.asOf);
+  const t = Date.parse(iso);
   const newest = new Map();
   for (const p of race.polls) {
     if (!p.end) continue;
@@ -247,6 +252,48 @@ function headlineFor(race) {
   }
   asOfCache.set(key, hl);
   return hl;
+}
+
+// ---------------------------------------------------------------------------
+// Trend arrows: how the race moved over the last 7 days
+// ---------------------------------------------------------------------------
+
+/**
+ * Change in the gap between the top two candidates over the last 7 days,
+ * comparing 30-day poll averages a week apart (as of the time machine's
+ * date, or today). Returns null without a new poll this week, or without
+ * enough polls on both dates.
+ */
+function weekTrend(race) {
+  const base = ui.asOf || ui.data.generatedAt.slice(0, 10);
+  // Only when new polls arrived this week: otherwise any change would just
+  // be old polls ageing out of the 30-day window.
+  const t = Date.parse(base);
+  const fresh = race.polls.some((p) => p.end && Date.parse(p.end) <= t && Date.parse(p.end) > t - 7 * DAY);
+  if (!fresh) return null;
+  const now = averageAt(race, base);
+  const then = averageAt(race, new Date(Date.parse(base) - 7 * DAY).toISOString().slice(0, 10));
+  if (!now || !then) return null;
+  const [a, b] = Object.entries(now.values).sort((x, y) => y[1] - x[1]).map(([n]) => n);
+  if (!b || typeof then.values[a] !== "number" || typeof then.values[b] !== "number") return null;
+  const shift = Math.round(((now.values[a] - now.values[b]) - (then.values[a] - then.values[b])) * 10) / 10;
+  if (Math.abs(shift) < 0.5) return { steady: true, shift: 0 };
+  const towardName = shift > 0 ? a : b;
+  return { steady: false, shift: Math.abs(shift), towardName, toward: candidate(race, towardName).party };
+}
+
+/** A small trend marker: party-colored arrow plus text. */
+function trendChip(race, { long = false } = {}) {
+  const t = weekTrend(race);
+  if (!t) return null;
+  if (t.steady) {
+    return h("span", { class: "trend steady", title: "Little change in the last 7 days" }, "→ ", long ? "steady this week" : "steady");
+  }
+  const fill = t.toward === "D" ? "--party-d" : t.toward === "R" ? "--party-r" : "--party-i";
+  const who = long ? `${fmtNum(t.shift)} toward ${surname(t.towardName)} this week` : `${partyLetter(t.toward)} +${fmtNum(t.shift)}`;
+  return h("span", { class: "trend", title: `Moved ${fmtNum(t.shift)} points toward ${t.towardName} in the last 7 days (30-day poll averages)` },
+    h("span", { class: "arrow", style: { color: `var(${fill})` }, "aria-hidden": "true" }, "▲"),
+    " ", who);
 }
 
 // ---------------------------------------------------------------------------
@@ -668,6 +715,7 @@ function renderWatched() {
                 h("span", { class: "swatch", style: { background: `var(${fill})` } }),
                 h("span", { class: "office" }, r.office === "Senate" ? "Senate" : "Governor"),
                 h("strong", {}, watchSummary(r)),
+                ui.colorBy === "results" ? null : trendChip(r),
               );
             })
           : h("span", { class: "watch-race muted" }, "No statewide race"),
@@ -1050,7 +1098,11 @@ function renderGenericBallot() {
     summary.append(
       standings,
       bar,
-      h("p", { class: "headline-note" }, h("strong", {}, lead), ` · ${hl.detail}${ui.asOf ? ` (as of ${fmtDate(ui.asOf, true)})` : ""}`),
+      h("p", { class: "headline-note" }, h("strong", {}, lead), ` · ${hl.detail}${ui.asOf ? ` (as of ${fmtDate(ui.asOf, true)})` : ""}`,
+        (() => {
+          const chip = trendChip(race, { long: true });
+          return chip ? [" · ", chip] : null;
+        })()),
       h("p", { class: "hint" },
         "A national lead doesn't translate seat for seat: district lines and where voters live matter, so a party can win the popular vote and still fall short of 218. ",
         safeUrl(gb.url) ? h("a", { href: gb.url, target: "_blank", rel: "noopener" }, "House races on Wikipedia") : null,
@@ -1554,7 +1606,11 @@ function raceCard(race) {
     summary.append(
       standings,
       bar,
-      h("p", { class: "headline-note" }, h("strong", {}, leadLabel(race, { hl })), ` · ${hl.detail}`),
+      h("p", { class: "headline-note" }, h("strong", {}, leadLabel(race, { hl })), ` · ${hl.detail}`,
+        (() => {
+          const chip = trendChip(race, { long: true });
+          return chip ? [" · ", chip] : null;
+        })()),
     );
   } else {
     summary.append(
@@ -1716,6 +1772,7 @@ function renderRacesTable() {
           : h("span", { class: "sub" }, "No polls"),
       ),
       h("td", { class: "num lead-cell" }, rh ? (rh.leader ? `+${fmtMargin(rh.margin)}` : "0") : "–"),
+      h("td", { class: "num trend-cell" }, trendChip(r) || "–"),
       h("td", {}, rh ? BASIS_SHORT[rh.basis] || "" : "–"),
       h("td", {}, r.consensus ? `${r.consensus.rating} (${r.consensus.count}/${r.consensus.of})` : "–"),
       h("td", { class: "num" }, fmtDate(r.latestPoll)),
