@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T17:58:48.220Z",
+ "generatedAt": "2026-11-01T18:55:51.332Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -36029,11 +36029,11 @@
       },
       {
        "source": "Decision Desk HQ",
-       "rating": "Likely R",
-       "strength": "Likely",
+       "rating": "Safe R",
+       "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Economist",
@@ -36163,7 +36163,7 @@
       "rating": "Safe R",
       "strength": "Safe",
       "lean": "R",
-      "count": 11,
+      "count": 12,
       "of": 12
      },
      "latestPoll": "2026-08-27"
@@ -46962,25 +46962,25 @@
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through October 31, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Jon Husted": 46.2,
-        "Sherrod Brown": 48.6
+        "Jon Husted": 46.7,
+        "Sherrod Brown": 48.9
        },
-       "otherUndecided": 5.2
+       "otherUndecided": 4.4
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through October 31, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Jon Husted": 45.3,
+        "Jon Husted": 45.4,
         "Sherrod Brown": 48.2
        },
-       "otherUndecided": 6.5
+       "otherUndecided": 6.4
       },
       {
        "source": "RealClearPolitics",
@@ -47013,10 +47013,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Jon Husted": 45.6,
+        "Jon Husted": 45.7,
         "Sherrod Brown": 48.2
        },
-       "otherUndecided": 6.2
+       "otherUndecided": 6.1
       }
      ],
      "polls": [
@@ -47685,11 +47685,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Jon Husted": 45.6,
+       "Jon Husted": 45.7,
        "Sherrod Brown": 48.2
       },
       "leader": "Sherrod Brown",
-      "margin": 2.6
+      "margin": 2.5
      },
      "consensus": {
       "rating": "Tossup",
