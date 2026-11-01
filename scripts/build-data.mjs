@@ -13,7 +13,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { STATES, listRaces, houseSeatsPage } from "./races.mjs";
 import { fetchWikitext, pageUrl } from "./wiki.mjs";
-import { parseRace, simpleAverage, partyCode } from "./parse-race.mjs";
+import { parseRace, simpleAverage, partyCode, parseGenericBallot } from "./parse-race.mjs";
 import { parseInfobox, toPlainText } from "./wikitext.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -116,6 +116,8 @@ function fingerprint(data) {
 }
 
 const SENATE_OVERVIEW = "2026 United States Senate elections";
+const HOUSE_OVERVIEW = "2026 United States House of Representatives elections";
+const GENERIC_BALLOT_POLLS = "Template:2026 United States elections/polling";
 
 /**
  * Reads the Senate's current makeup from the overview article's infobox:
@@ -148,15 +150,20 @@ async function loadPrevious() {
     const prev = JSON.parse(await readFile(OUT, "utf8"));
     const byId = new Map();
     for (const s of prev.states || []) for (const r of s.races || []) byId.set(r.id, r);
-    return { byId, fingerprint: fingerprint(prev), senate: prev.senate || null };
+    return { byId, fingerprint: fingerprint(prev), senate: prev.senate || null, genericBallot: prev.genericBallot || null };
   } catch {
-    return { byId: new Map(), fingerprint: null, senate: null };
+    return { byId: new Map(), fingerprint: null, senate: null, genericBallot: null };
   }
 }
 
 async function main() {
   const today = new Date().toISOString().slice(0, 10);
-  const { byId: previous, fingerprint: previousFingerprint, senate: previousSenate } = await loadPrevious();
+  const {
+    byId: previous,
+    fingerprint: previousFingerprint,
+    senate: previousSenate,
+    genericBallot: previousGenericBallot,
+  } = await loadPrevious();
   const races = listRaces();
   const built = new Map();
   const failures = [];
@@ -214,6 +221,40 @@ async function main() {
     failures.push("Senate overview: could not read seat counts; kept previous");
   }
 
+  // House generic ballot: aggregates from the House article, polls from the
+  // polling template. Keep the previous data if either can't be read.
+  let genericBallot = null;
+  try {
+    const house = await fetchWikitext(HOUSE_OVERVIEW, { cacheDir: CACHE, useCache, offline });
+    const pollsPage = await fetchWikitext(GENERIC_BALLOT_POLLS, { cacheDir: CACHE, useCache, offline });
+    if (house && pollsPage) {
+      const gb = parseGenericBallot(house.text, pollsPage.text);
+      if (gb.aggregates.length || gb.polls.length) {
+        const entry = {
+          id: "US-HOUSE",
+          label: "House generic ballot",
+          url: pageUrl(house.title),
+          pollsUrl: pageUrl(pollsPage.title),
+          candidates: [
+            { name: "Democrats", party: "D", nominee: true },
+            { name: "Republicans", party: "R", nominee: true },
+          ],
+          aggregates: gb.aggregates,
+          polls: gb.polls,
+        };
+        entry.headline = headline(entry, today);
+        entry.latestPoll = entry.polls[0]?.end || null;
+        genericBallot = entry;
+      }
+    }
+  } catch (err) {
+    failures.push(`Generic ballot: ${err.message}`);
+  }
+  if (!genericBallot) {
+    genericBallot = previousGenericBallot;
+    failures.push("Generic ballot: could not read; kept previous");
+  }
+
   const withPolls = [...built.values()].filter((r) => r.polls.length).length;
   const prevWithPolls = [...previous.values()].filter((r) => r.polls?.length).length;
   if (prevWithPolls && withPolls < prevWithPolls * 0.5) {
@@ -234,6 +275,7 @@ async function main() {
       note: "Polls, aggregates and ratings are read from each race's English Wikipedia article.",
     },
     senate,
+    genericBallot,
     states: STATES.map(({ code, name }) => ({
       code,
       name,

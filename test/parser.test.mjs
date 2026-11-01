@@ -8,6 +8,7 @@ import {
   splitNameParty,
   parseRace,
   parseResults,
+  parseGenericBallot,
   simpleAverage,
 } from "../scripts/parse-race.mjs";
 import { listRaces, STATES } from "../scripts/races.mjs";
@@ -300,4 +301,67 @@ test("parseResults reports a runoff when two candidates are marked as advancing"
   const r = parseResults(text);
   assert.equal(r.winner, null);
   assert.equal(r.runoff, true);
+});
+
+test("parseGenericBallot reads aggregates and polls keyed by party", () => {
+  const house = `intro
+<section begin="GenericBallotAgg"/>
+{|class="wikitable"
+!Source of poll<br>aggregation
+!Dates<br>administered
+!Dates<br>updated
+!Republicans
+!Democrats
+!Other/<br>Undecided
+!Margin
+|-
+|[[Decision Desk HQ]]
+|January 9, 2025 – October 26, 2026
+|October 30, 2026
+|42.6%
+|{{Party shading/Democratic}} |'''51.5%'''
+|5.9%
+|Democrats +8.9%
+|-
+|colspan=2 |'''Average'''
+|October 30, 2026
+|43.1%
+|51.7%
+|5.2%
+|Democrats +8.6%
+|}<section end="GenericBallotAgg" />`;
+  const polls = `===2025–2026===
+{| class="wikitable sortable mw-collapsible mw-open"
+! Poll source
+! Date(s)<br>administered
+! Sample<br>size
+! Margin<br>of error
+! [[Democratic Party (United States)|Democratic]]<br>
+! [[Republican Party (United States)|Republican]]<br>
+! Other/<br>Undecided
+! Lead
+|-
+| style="text-align:left;"|Ipsos
+|October 20–28, 2026
+|1,209 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''50%'''
+|44%
+|6%
+|6%
+|}
+===2024–2025===
+{| class="wikitable mw-collapsible mw-collapsed"
+! Poll source !! Date(s) administered !! Democratic !! Republican
+|-
+| Old || May 1–2, 2025 || 40% || 45%
+|}`;
+  const g = parseGenericBallot(house, polls);
+  assert.deepEqual(g.aggregates.map((a) => [a.source, a.values, a.isAverage]), [
+    ["Decision Desk HQ", { Republicans: 42.6, Democrats: 51.5 }, false],
+    ["Average", { Republicans: 43.1, Democrats: 51.7 }, true],
+  ]);
+  assert.equal(g.polls.length, 1);
+  assert.deepEqual(g.polls[0].values, { Democrats: 50, Republicans: 44 });
+  assert.equal(g.polls[0].end, "2026-10-28");
 });

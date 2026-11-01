@@ -603,6 +603,61 @@ export function parseRace(wikitext, race) {
 }
 
 // ---------------------------------------------------------------------------
+// House generic ballot
+// ---------------------------------------------------------------------------
+
+function partyKey(name) {
+  const t = name.toLowerCase();
+  if (t.startsWith("democrat")) return "Democrats";
+  if (t.startsWith("republican")) return "Republicans";
+  return null;
+}
+
+function renameParties(values) {
+  const out = {};
+  for (const [k, v] of Object.entries(values)) {
+    const key = partyKey(k);
+    if (key && typeof v === "number") out[key] = v;
+  }
+  return out;
+}
+
+/**
+ * The national House generic ballot. Aggregator averages come from the
+ * House elections article (its "GenericBallotAgg" section); individual polls
+ * from the first (current-cycle) table of the polling template. Values are
+ * keyed "Democrats" and "Republicans".
+ */
+export function parseGenericBallot(houseText, pollingText) {
+  const out = { aggregates: [], polls: [] };
+  const agg = stripNoise(houseText || "").match(/<section begin="?GenericBallotAgg"?\s*\/>([\s\S]*?)<section end/i);
+  if (agg) {
+    for (const t of findTables(agg[1])) {
+      const table = interpretPollTable(parseTable(t.text));
+      if (table?.kind !== "aggregate") continue;
+      for (const row of readAggregateRows(table)) {
+        row.values = renameParties(row.values);
+        if (Object.keys(row.values).length === 2) out.aggregates.push(row);
+      }
+      break;
+    }
+  }
+  const text = stripNoise(pollingText || "");
+  const first = findTables(text).find((t) => !t.hidden);
+  if (first) {
+    const table = interpretPollTable(parseTable(first.text));
+    if (table?.kind === "polls") {
+      for (const p of readPollRows(table)) {
+        p.values = renameParties(p.values);
+        if (Object.keys(p.values).length === 2) out.polls.push(p);
+      }
+    }
+  }
+  out.polls.sort((a, b) => (b.end || "").localeCompare(a.end || ""));
+  return out;
+}
+
+// ---------------------------------------------------------------------------
 // Averages
 // ---------------------------------------------------------------------------
 

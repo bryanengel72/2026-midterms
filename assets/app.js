@@ -1005,6 +1005,87 @@ function renderSenate() {
 }
 
 // ---------------------------------------------------------------------------
+// House generic ballot
+// ---------------------------------------------------------------------------
+
+let houseIntroDone = false;
+
+function renderGenericBallot() {
+  const card = document.getElementById("house-card");
+  const gb = ui.data.genericBallot;
+  if (!gb || ui.office === "Governor") {
+    card.hidden = true;
+    return;
+  }
+  card.hidden = false;
+  const race = { ...gb, state: { name: "National", code: "US" }, ratings: [], consensus: null };
+  const colors = new Map([["Democrats", "--party-d"], ["Republicans", "--party-r"]]);
+  const hl = headlineFor(race);
+  const body = document.getElementById("house-body");
+  const parts = [];
+  const summary = h("div", { class: "race-summary" });
+  const chartCol = h("div", { class: "race-chart" });
+  if (hl) {
+    const ranked = Object.entries(hl.values).sort((a, b) => b[1] - a[1]);
+    const intro = motionOK() && !houseIntroDone;
+    const standings = h("div", { class: "standings" },
+      ranked.map(([name, v], i) =>
+        h("div", { class: `standing${i === 0 && hl.leader ? " lead" : ""}` },
+          h("span", { class: "swatch", style: { background: `var(${colors.get(name)})` } }),
+          h("span", { class: "name" }, name),
+          h("span", { class: "value", "data-count": v }, fmtPct(v)),
+        ),
+      ),
+    );
+    const sum = ranked.reduce((a, [, v]) => a + v, 0);
+    const bar = h("div", {
+      class: `split-bar${intro ? " grow" : ""}`,
+      role: "img",
+      "aria-label": ranked.map(([n, v]) => `${n} ${fmtPct(v)}`).join(", "),
+    },
+      ranked.map(([name, v]) => h("span", { style: { width: `${v}%`, background: `var(${colors.get(name)})` } })),
+      sum < 100 ? h("span", { class: "rest", style: { width: `${100 - sum}%` } }) : null,
+    );
+    const lead = hl.leader ? `${hl.leader} +${fmtMargin(hl.margin)}` : "Tied";
+    summary.append(
+      standings,
+      bar,
+      h("p", { class: "headline-note" }, h("strong", {}, lead), ` · ${hl.detail}${ui.asOf ? ` (as of ${fmtDate(ui.asOf, true)})` : ""}`),
+      h("p", { class: "hint" },
+        "A national lead doesn't translate seat for seat: district lines and where voters live matter, so a party can win the popular vote and still fall short of 218. ",
+        safeUrl(gb.url) ? h("a", { href: gb.url, target: "_blank", rel: "noopener" }, "House races on Wikipedia") : null,
+      ),
+    );
+    if (intro) {
+      houseIntroDone = true;
+      standings.querySelectorAll("[data-count]").forEach((el) => countUp(el, Number(el.dataset.count), fmtPct, { delay: 200 }));
+    }
+  } else {
+    summary.append(h("div", { class: "no-polls" }, "No generic ballot polls for this date."));
+  }
+  parts.push(h("div", { class: "race-top" }, summary, chartCol));
+  const details = h("details", { class: "house-details" },
+    h("summary", {}, `Polling averages and all ${gb.polls.length} polls`),
+    gb.aggregates.length ? [h("h4", {}, "Polling averages"), aggregatesTable(race)] : null,
+    gb.polls.length ? [h("h4", {}, "Polls, newest first"), pollsTable(race)] : null,
+  );
+  parts.push(details);
+  body.replaceChildren(...parts);
+  if (gb.polls.length >= 3) {
+    chartCol.append(h("h4", {}, "Poll trend"));
+    const mount = h("div", {});
+    chartCol.append(mount);
+    requestAnimationFrame(() => {
+      const chart = renderTrend(race, colors, mount);
+      if (chart) {
+        mount.replaceChildren(chart);
+        if (motionOK() && !mount.dataset.drawn) animateChart(chart.querySelector("svg"));
+      }
+    });
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Trend chart
 // ---------------------------------------------------------------------------
 
@@ -1696,6 +1777,7 @@ function setTimeMachine(index) {
   document.getElementById("time-machine").classList.toggle("active", !atToday);
   renderWatched();
   renderSenate();
+  renderGenericBallot();
   renderLegend();
   renderMap();
   renderRacesTable();
@@ -1751,6 +1833,7 @@ function setupTimeMachine() {
 function renderAll() {
   renderWatched();
   renderSenate();
+  renderGenericBallot();
   renderClosings();
   renderLegend();
   renderMap();
