@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T07:17:02.729Z",
+ "generatedAt": "2026-11-01T12:10:25.967Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -2556,6 +2556,21 @@
      ],
      "polls": [
       {
+       "pollster": "ActiVote",
+       "dates": "October 17–31, 2026",
+       "start": "2026-10-17",
+       "end": "2026-10-31",
+       "sample": 400,
+       "population": "LV",
+       "moe": 4.9,
+       "values": {
+        "Xavier Becerra": 63,
+        "Steve Hilton": 37
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
        "pollster": "Berkeley IGS",
        "dates": "October 19–25, 2026",
        "start": "2026-10-19",
@@ -2858,7 +2873,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-25"
+     "latestPoll": "2026-10-31"
     }
    ]
   },
@@ -3769,14 +3784,14 @@
        "dates": "October 26–30, 2026",
        "start": "2026-10-26",
        "end": "2026-10-30",
-       "sample": 1129,
+       "sample": 1067,
        "population": "LV",
        "moe": 3,
        "values": {
-        "Ashley Moody": 47,
-        "Angie Nixon": 44
+        "Ashley Moody": 52,
+        "Angie Nixon": 45
        },
-       "other": 8,
+       "other": 4,
        "undecided": null
       },
       {
@@ -4399,6 +4414,36 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "ActiVote",
+       "dates": "October 20–31, 2026",
+       "start": "2026-10-20",
+       "end": "2026-10-31",
+       "sample": 400,
+       "population": "LV",
+       "moe": 4.9,
+       "values": {
+        "Byron Donalds": 52,
+        "David Jolly": 48
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
+       "pollster": "Big Data Poll",
+       "dates": "October 26–30, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-30",
+       "sample": 1067,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Byron Donalds": 47,
+        "David Jolly": 44
+       },
+       "other": 9,
+       "undecided": null
+      },
       {
        "pollster": "Stetson University",
        "dates": "October 26–30, 2026",
@@ -5032,7 +5077,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-30"
+     "latestPoll": "2026-10-31"
     }
    ]
   },
@@ -6883,6 +6928,21 @@
      "polls": [
       {
        "pollster": "ActiVote",
+       "dates": "October 23–31, 2026",
+       "start": "2026-10-23",
+       "end": "2026-10-31",
+       "sample": 400,
+       "population": "LV",
+       "moe": 4.9,
+       "values": {
+        "JB Pritzker": 59,
+        "Darren Bailey": 41
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
+       "pollster": "ActiVote",
        "dates": "October 2–22, 2026",
        "start": "2026-10-02",
        "end": "2026-10-22",
@@ -6944,7 +7004,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-22"
+     "latestPoll": "2026-10-31"
     }
    ]
   },
