@@ -4,6 +4,7 @@
 // the data is inserted with textContent, never as HTML.
 
 import { polymarketUrl } from "./polymarket-links.js";
+import { POLL_CLOSING_ET, closingTimes, etLabel } from "./poll-closing.js";
 
 const ELECTION = "2026-11-03";
 const DAY = 86400000;
@@ -197,7 +198,78 @@ function inOffice(race) {
 }
 
 function isClose(race) {
-  return race.headline && race.headline.margin < 5;
+  const hl = headlineFor(race);
+  return Boolean(hl && hl.margin < 5);
+}
+
+// ---------------------------------------------------------------------------
+// Time machine: the polling picture as of an earlier date
+// ---------------------------------------------------------------------------
+
+const asOfCache = new Map();
+
+/**
+ * The race's polling picture: today's headline, or, when the time machine is
+ * set to an earlier date, a 30-day average of the polls that had finished by
+ * then (newest poll per pollster). Aggregator averages have no history, so
+ * past dates always use this simple average.
+ */
+function headlineFor(race) {
+  if (!ui.asOf) return race.headline;
+  const key = `${race.id}|${ui.asOf}`;
+  if (asOfCache.has(key)) return asOfCache.get(key);
+  const t = Date.parse(ui.asOf);
+  const newest = new Map();
+  for (const p of race.polls) {
+    if (!p.end) continue;
+    const pt = Date.parse(p.end);
+    if (pt > t || pt <= t - 30 * DAY) continue;
+    const who = p.pollster.replace(/\s*\([^)]*\)\s*$/, "").toLowerCase();
+    if (!newest.has(who)) newest.set(who, p); // polls are newest first
+  }
+  let hl = null;
+  if (newest.size) {
+    const values = {};
+    for (const c of race.candidates) {
+      const nums = [...newest.values()].map((p) => p.values[c.name]).filter((v) => typeof v === "number");
+      if (nums.length) values[c.name] = Math.round((nums.reduce((a, b) => a + b, 0) / nums.length) * 10) / 10;
+    }
+    const ranked = Object.entries(values).sort((a, b) => b[1] - a[1]);
+    if (ranked.length >= 2) {
+      hl = {
+        basis: "time-machine",
+        detail: `30-day average of ${newest.size} poll${newest.size === 1 ? "" : "s"}`,
+        values,
+        leader: ranked[0][1] === ranked[1][1] ? null : ranked[0][0],
+        margin: Math.round((ranked[0][1] - ranked[1][1]) * 10) / 10,
+      };
+    }
+  }
+  asOfCache.set(key, hl);
+  return hl;
+}
+
+// ---------------------------------------------------------------------------
+// Results
+// ---------------------------------------------------------------------------
+
+function anyResults() {
+  return allRaces().some((r) => r.results);
+}
+
+/** Matches a results name ("Jon Ossoff") to the race's candidate entry. */
+function resultCandidate(race, name) {
+  const last = surname(name).toLowerCase();
+  return race.candidates.find((c) => surname(c.name).toLowerCase() === last) || null;
+}
+
+/** Leader, margin (points) and call status from a race's results. */
+function resultSummary(race) {
+  const res = race.results;
+  if (!res || res.candidates.length < 1) return null;
+  const [a, b] = res.candidates;
+  const margin = b ? Math.round(((a.percentage || 0) - (b.percentage || 0)) * 10) / 10 : 100;
+  return { leader: a, margin, called: Boolean(res.winner), winner: res.winner, runoff: res.runoff };
 }
 
 function candidate(race, name) {
@@ -220,8 +292,7 @@ function candidateColors(race) {
   return map;
 }
 
-function leadLabel(race, { short = false } = {}) {
-  const hl = race.headline;
+function leadLabel(race, { short = false, hl = headlineFor(race) } = {}) {
   if (!hl) return null;
   if (!hl.leader) return "Tied";
   const c = candidate(race, hl.leader);
@@ -245,7 +316,15 @@ function tileStyle(race) {
     const word = c.strength === "Likely" ? "Lkly" : c.strength;
     return { fill: `--${rampFor(c.lean)}-${step}`, label: `${word} ${c.lean}` };
   }
-  const hl = race.headline;
+  if (ui.colorBy === "results") {
+    const r = resultSummary(race);
+    if (!r) return { fill: null, label: "–" };
+    if (r.runoff) return { fill: "--neutral", label: "Runoff" };
+    const party = r.leader.party;
+    const label = `${partyLetter(party)}${r.called ? " ✓" : `+${fmtMargin(r.margin)}`}`;
+    return { fill: `--${rampFor(party)}-${r.called ? 3 : 1}`, label };
+  }
+  const hl = headlineFor(race);
   if (!hl) return { fill: null, label: "–" };
   if (!hl.leader || hl.margin < 2) return { fill: "--neutral", label: leadLabel(race, { short: true }) };
   const step = hl.margin >= 10 ? 3 : hl.margin >= 5 ? 2 : 1;
@@ -258,6 +337,7 @@ const BASIS_SHORT = {
   aggregate: "Aggregator average",
   "simple-average": "Recent polls average",
   "latest-poll": "Latest poll only",
+  "time-machine": "30-day poll average",
 };
 
 // ---------------------------------------------------------------------------
@@ -358,8 +438,14 @@ function renderLegend() {
         sw("--r-1", "2–5"), sw("--r-2", "5–10"), sw("--r-3", "10+"),
       ),
     );
-    const iLead = allRaces().some((r) => r.headline?.leader && !["D", "R"].includes(candidate(r, r.headline.leader).party));
+    const iLead = allRaces().some((r) => headlineFor(r)?.leader && !["D", "R"].includes(candidate(r, headlineFor(r).leader).party));
     if (iLead) groups.push(h("div", { class: "legend-group" }, sw("--i-2", "Independent or third party leads")));
+  } else if (ui.colorBy === "results") {
+    groups.push(
+      h("div", { class: "legend-group" }, h("span", { class: "label" }, "Democrat"), sw("--d-3", "Won"), sw("--d-1", "Leading")),
+      h("div", { class: "legend-group" }, sw("--neutral", "Runoff")),
+      h("div", { class: "legend-group" }, h("span", { class: "label" }, "Republican"), sw("--r-1", "Leading"), sw("--r-3", "Won")),
+    );
   } else {
     groups.push(
       h("div", { class: "legend-group" },
@@ -375,7 +461,7 @@ function renderLegend() {
   }
   groups.push(
     h("div", { class: "legend-group" },
-      h("span", { class: "legend-item" }, h("span", { class: "swatch empty" }), ui.colorBy === "polls" ? "No race, or no polls" : "No race"),
+      h("span", { class: "legend-item" }, h("span", { class: "swatch empty" }), ui.colorBy === "polls" ? "No race, or no polls" : ui.colorBy === "results" ? "No race, or no results yet" : "No race"),
     ),
   );
   el.replaceChildren(...groups);
@@ -394,8 +480,14 @@ function tileTooltip(st) {
   for (const r of races) {
     const colors = candidateColors(r);
     rows.push(h("div", { class: "tt-sub" }, r.label));
-    if (r.headline) {
-      const top = Object.entries(r.headline.values).sort((a, b) => b[1] - a[1]).slice(0, 3);
+    const res = resultSummary(r);
+    if (res && ui.colorBy === "results") {
+      for (const c of r.results.candidates.slice(0, 3)) {
+        rows.push(ttRow(c.party === "D" ? "--party-d" : c.party === "R" ? "--party-r" : "--party-i", fmtPct(c.percentage), `${surname(c.name)} (${partyLetter(c.party)})${r.results.winner === c.name ? " ✓ winner" : ""}`));
+      }
+      if (!res.called) rows.push(h("div", { class: "tt-sub" }, res.runoff ? "Headed to a runoff" : "Not called yet"));
+    } else if (headlineFor(r)) {
+      const top = Object.entries(headlineFor(r).values).sort((a, b) => b[1] - a[1]).slice(0, 3);
       for (const [name, v] of top) {
         const c = candidate(r, name);
         rows.push(ttRow(colors.get(name) || "--party-x", fmtPct(v), `${surname(name)} (${partyTag(c)})`));
@@ -436,7 +528,7 @@ function renderMap() {
     const scoped = st.races.filter(inOffice);
     const relevant = scoped.length > 0 && (!ui.closeOnly || scoped.some(isClose));
     const summary = scoped.length
-      ? scoped.map((r) => `${r.label}: ${r.headline ? leadLabel(r) : "no polls"}${r.consensus ? `, forecasters ${r.consensus.rating}` : ""}`).join("; ")
+      ? scoped.map((r) => `${r.label}: ${headlineFor(r) ? leadLabel(r) : "no polls"}${r.consensus ? `, forecasters ${r.consensus.rating}` : ""}`).join("; ")
       : "no race";
     const tile = h(
       "button",
@@ -506,6 +598,89 @@ function renderMap() {
 }
 
 // ---------------------------------------------------------------------------
+// Poll closing times
+// ---------------------------------------------------------------------------
+
+const viewerInET = (() => {
+  try {
+    return Intl.DateTimeFormat().resolvedOptions().timeZone === "America/New_York";
+  } catch {
+    return false;
+  }
+})();
+
+function localTime(date) {
+  return date.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+}
+
+function untilText(ms) {
+  const m = Math.round(ms / 60000);
+  if (m < 60) return `${m} min`;
+  const hrs = Math.floor(m / 60);
+  if (hrs < 24) return `${hrs}h ${String(m % 60).padStart(2, "0")}m`;
+  const d = Math.floor(hrs / 24);
+  return `${d} day${d === 1 ? "" : "s"} ${hrs % 24}h`;
+}
+
+/** One line for a state's page: when its polls close, and how long until. */
+function closingLine(code) {
+  const t = POLL_CLOSING_ET[code];
+  const times = closingTimes(code);
+  if (!t) return null;
+  const now = Date.now();
+  const local = viewerInET ? "" : ` (${localTime(times.first)} your time)`;
+  const split = t.last ? `; last polls ${etLabel(t.last)}` : "";
+  if (now >= times.last.getTime()) return `Polls closed at ${etLabel(t.last || t.first)}`;
+  if (now >= times.first.getTime()) return `Most polls closed at ${etLabel(t.first)}${split}`;
+  return `Polls close ${etLabel(t.first)}${local}${split} · in ${untilText(times.first.getTime() - now)}`;
+}
+
+function renderClosings() {
+  const list = document.getElementById("closings");
+  if (!list) return;
+  const raceStates = new Set(allRaces().map((r) => r.state.code));
+  const slots = new Map();
+  for (const [code, t] of Object.entries(POLL_CLOSING_ET)) {
+    if (!slots.has(t.first)) slots.set(t.first, []);
+    slots.get(t.first).push(code);
+  }
+  const now = Date.now();
+  const ordered = [...slots.keys()].sort();
+  const nextKey = ordered.find((k) => closingTimes(slots.get(k)[0]).first.getTime() > now);
+  const items = ordered.map((key) => {
+    const when = closingTimes(slots.get(key)[0]).first;
+    const closed = when.getTime() <= now;
+    const isNext = key === nextKey;
+    const codes = slots.get(key).sort();
+    return h("li", { class: `slot${closed ? " closed" : ""}${isNext ? " next" : ""}` },
+      h("div", { class: "slot-time" },
+        h("strong", {}, etLabel(key).replace(/ ET.*$/, "")), h("span", {}, key >= "24:00" ? " ET, Nov 4" : " ET"),
+        viewerInET ? null : h("small", {}, `${localTime(when)} your time`),
+        isNext ? h("small", { class: "countdown" }, `in ${untilText(when.getTime() - now)}`) : null,
+        closed ? h("small", {}, "closed") : null,
+      ),
+      h("div", { class: "slot-states" },
+        codes.map((code) => {
+          const st = ui.data.states.find((x) => x.code === code);
+          const has = raceStates.has(code);
+          return h("button", {
+            type: "button",
+            class: `chip state-chip${has ? "" : " quiet"}`,
+            title: `${st?.name || code}${has ? "" : " (no Senate or governor race)"}`,
+            onclick: () => selectState(code, true),
+          }, code);
+        }),
+      ),
+    );
+  });
+  list.replaceChildren(...items);
+  const allClosed = !nextKey;
+  document.getElementById("closings-hint").textContent = allClosed
+    ? "All polls have closed. Times shown are when most polls in each state closed."
+    : "Election night, Tuesday, November 3. Times are when most polls in each state close. Faded states have no Senate or governor race.";
+}
+
+// ---------------------------------------------------------------------------
 // Senate seat chart
 // ---------------------------------------------------------------------------
 
@@ -521,7 +696,15 @@ function senateCall(race) {
     return { side: c.lean, strength: RATING_STEP[c.strength] ?? 1, basis: `Forecasters: ${c.rating}` };
   };
   if (ui.colorBy === "ratings") return byRating();
-  const hl = race.headline;
+  if (ui.colorBy === "results") {
+    const r = resultSummary(race);
+    if (!r) return { side: "T", strength: 0, basis: "No results yet", pending: true };
+    if (r.runoff) return { side: "T", strength: 0, basis: "Headed to a runoff", pending: true };
+    const party = r.leader.party === "D" || r.leader.party === "R" ? r.leader.party : "I";
+    if (!r.called) return { side: "T", strength: 0, basis: `Counting: ${surname(r.leader.name)} +${fmtMargin(r.margin)}`, lean: r.leader.party, pending: true };
+    return { side: party, strength: 100 + r.margin, basis: `Called for ${r.winner} (+${fmtMargin(r.margin)})` };
+  }
+  const hl = headlineFor(race);
   if (!hl) return { ...byRating(), basis: `No polls; forecasters: ${race.consensus?.rating || "none"}` };
   const leader = hl.leader ? candidate(race, hl.leader) : null;
   if (!leader || hl.margin < 2) return { side: "T", strength: 0, basis: `Polls: ${leadLabel(race)}`, lean: leader?.party };
@@ -550,6 +733,7 @@ function hemicycle(total, rows, width) {
 }
 
 let senateIntroDone = false;
+const senateView = { svg: null, order: [] };
 
 function renderSenate() {
   const card = document.getElementById("senate-card");
@@ -580,62 +764,90 @@ function renderSenate() {
   const fillFor = (o) =>
     o.side === "D" ? "--party-d" : o.side === "R" ? "--party-r" : o.side === "IC" || o.side === "I" ? "--party-i" : "--neutral";
 
-  const svg = s("svg", {
-    class: "senate-svg",
-    viewBox: `${-dot * 2} ${-dot * 3} ${width + dot * 4} ${R + dot * 5}`,
-    role: "img",
-    "aria-label": "Senate seat chart. The counts beside it list every group of seats.",
-  });
+  // Build the 100 seats once; later renders recolor them in place so a mode
+  // or date change fades each seat to its new color instead of redrawing.
+  let svg = senateView.svg;
   const intro = motionOK() && !senateIntroDone;
-  order.forEach((o, i) => {
-    const p = seats[i];
-    const c = s("circle", {
-      class: `seat ${o.kind}${o.side === "T" ? " tossup" : ""}`,
-      cx: p.x.toFixed(1),
-      cy: p.y.toFixed(1),
-      r: dot.toFixed(1),
-      style: `fill: var(${fillFor(o)}); --d: ${Math.round((i / order.length) * 900)}ms`,
+  if (!svg || svg.querySelectorAll("circle.seat").length !== order.length) {
+    svg = s("svg", {
+      class: "senate-svg",
+      viewBox: `${-dot * 2} ${-dot * 3} ${width + dot * 4} ${R + dot * 5}`,
+      role: "img",
+      "aria-label": "Senate seat chart. The counts beside it list every group of seats.",
     });
-    if (o.kind === "up") {
-      c.setAttribute("tabindex", "0");
+    order.forEach((_, i) => {
+      const p = seats[i];
+      svg.append(s("circle", {
+        class: "seat",
+        cx: p.x.toFixed(1),
+        cy: p.y.toFixed(1),
+        r: dot.toFixed(1),
+        "data-i": i,
+        style: `--d: ${Math.round((i / order.length) * 900)}ms`,
+      }));
+    });
+    svg.append(
+      s("line", { class: "senate-mid", x1: R, x2: R, y1: -dot * 2.6, y2: -dot * 1.25 }),
+      s("text", { class: "senate-mid-label", x: R, y: R + dot * 0.5, "text-anchor": "middle" }, "50 | 50"),
+    );
+    const seatAt = (e) => {
+      const i = e.target?.dataset?.i;
+      return i === undefined ? null : senateView.order[Number(i)];
+    };
+    const tip = (o) => {
+      if (o.kind !== "up") {
+        const label = o.side === "IC" ? "Independent (caucuses with Democrats)" : PARTY_NAMES[o.side];
+        return [h("div", { class: "tt-title" }, `${label}: not up in 2026`)];
+      }
       const st = o.race.state;
-      const tip = () => [
+      const status = o.side === "T"
+        ? (o.pending ? "Not called yet" : "Toss-up")
+        : ui.colorBy === "results" ? `Called for ${PARTY_NAMES[o.side] || "Independent"}s` : `Leans ${PARTY_NAMES[o.side] || "Independent"}`;
+      return [
         h("div", { class: "tt-title" }, `${st.name}: ${o.race.label}`),
-        h("div", {}, o.side === "T" ? "Toss-up" : `Leans ${PARTY_NAMES[o.side] || "Independent"}`),
+        h("div", {}, status),
         h("div", { class: "tt-sub" }, o.basis),
         h("div", { class: "tt-sub" }, `Held now by: ${o.race.incumbent ? `${o.race.incumbent.name} (${partyLetter(o.race.incumbent.party)})` : "unknown"}`),
       ];
-      c.addEventListener("pointermove", (e) => showTooltip(tip(), e.clientX, e.clientY));
-      c.addEventListener("pointerleave", hideTooltip);
-      c.addEventListener("focus", () => {
-        const b = c.getBoundingClientRect();
-        showTooltip(tip(), b.right, b.top);
-      });
-      c.addEventListener("blur", hideTooltip);
-      c.addEventListener("click", () => selectState(st.code, true));
-      c.addEventListener("keydown", (e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          selectState(st.code, true);
-        }
-      });
-    } else {
-      const label = o.side === "IC" ? "Independent (caucuses with Democrats)" : PARTY_NAMES[o.side];
-      c.addEventListener("pointermove", (e) =>
-        showTooltip([h("div", { class: "tt-title" }, `${label}: not up in 2026`)], e.clientX, e.clientY),
-      );
-      c.addEventListener("pointerleave", hideTooltip);
-    }
-    svg.append(c);
-  });
-  // Majority line: the 51st seat from either side meets in the middle.
-  svg.append(
-    s("line", { class: "senate-mid", x1: R, x2: R, y1: -dot * 2.6, y2: -dot * 1.25 }),
-    s("text", { class: "senate-mid-label", x: R, y: R + dot * 0.5, "text-anchor": "middle" }, "50 | 50"),
-  );
-  if (intro) svg.classList.add("intro");
+    };
+    svg.addEventListener("pointermove", (e) => {
+      const o = seatAt(e);
+      if (o) showTooltip(tip(o), e.clientX, e.clientY);
+      else hideTooltip();
+    });
+    svg.addEventListener("pointerleave", hideTooltip);
+    svg.addEventListener("click", (e) => {
+      const o = seatAt(e);
+      if (o?.kind === "up") selectState(o.race.state.code, true);
+    });
+    svg.addEventListener("focusin", (e) => {
+      const o = seatAt(e);
+      if (!o) return;
+      const b = e.target.getBoundingClientRect();
+      showTooltip(tip(o), b.right, b.top);
+    });
+    svg.addEventListener("focusout", hideTooltip);
+    svg.addEventListener("keydown", (e) => {
+      const o = seatAt(e);
+      if (o?.kind === "up" && (e.key === "Enter" || e.key === " ")) {
+        e.preventDefault();
+        selectState(o.race.state.code, true);
+      }
+    });
+    if (intro) svg.classList.add("intro");
+    document.getElementById("senate-chart").replaceChildren(svg);
+    senateView.svg = svg;
+  }
+  senateView.order = order;
   senateIntroDone = true;
-  document.getElementById("senate-chart").replaceChildren(svg);
+  svg.querySelectorAll("circle.seat").forEach((c, i) => {
+    const o = order[i];
+    c.setAttribute("class", `seat ${o.kind}${o.side === "T" ? " tossup" : ""}`);
+    c.style.fill = `var(${fillFor(o)})`;
+    if (o.kind === "up") c.setAttribute("tabindex", "0");
+    else c.removeAttribute("tabindex");
+  });
+  if (intro) svg.classList.add("intro");
 
   // Counts
   const dLean = pick("D").length;
@@ -661,24 +873,30 @@ function renderSenate() {
       h("span", { class: "seat-label" }, label, extra ? h("small", {}, extra) : null),
       h("span", { class: "seat-n", "data-count": n }, String(n)),
     );
+  const mode = ui.colorBy;
+  const L = {
+    ratings: { d: "Races leaning Democratic", dx: null, t: "Toss-ups", tx: " (rated Toss-up)", i: "Races leaning independent", r: "Races leaning Republican", rx: null, big: "Toss-ups" },
+    results: { d: "Called for Democrats", dx: null, t: "Not called yet", tx: " (counting, runoff or no results)", i: "Called for independents", r: "Called for Republicans", rx: null, big: "Not called" },
+    polls: { d: "Races where a Democrat leads", dx: " by 2+ points", t: "Toss-ups", tx: " (lead under 2 points)", i: "Races an independent leads", r: "Races where a Republican leads", rx: " by 2+ points", big: "Toss-ups" },
+  }[mode] || {};
   const summary = document.getElementById("senate-summary");
   const parts = [
     h("div", { class: "seat-totals" },
       h("div", { class: "big d" }, h("span", { "data-count": dTotal }, String(dTotal)), h("small", {}, "Democrats + allies")),
-      h("div", { class: "big t" }, h("span", { "data-count": toss }, String(toss)), h("small", {}, "Toss-ups")),
+      h("div", { class: "big t" }, h("span", { "data-count": toss }, String(toss)), h("small", {}, L.big)),
       h("div", { class: "big r" }, h("span", { "data-count": rTotal }, String(rTotal)), h("small", {}, "Republicans")),
     ),
     row("--party-d", "Democrats, not up", makeup.notUp.D, null, true),
     row("--party-i", "Independents who caucus with Democrats, not up", makeup.notUp.I, null, true),
-    row("--party-d", ui.colorBy === "ratings" ? "Races leaning Democratic" : "Races where a Democrat leads", dLean, ui.colorBy === "ratings" ? null : " by 2+ points"),
-    row("--neutral", "Toss-ups", toss, ui.colorBy === "ratings" ? " (rated Toss-up)" : " (lead under 2 points)"),
-    iLean ? row("--party-i", "Races an independent leads", iLean) : null,
-    row("--party-r", ui.colorBy === "ratings" ? "Races leaning Republican" : "Races where a Republican leads", rLean, ui.colorBy === "ratings" ? null : " by 2+ points"),
+    row("--party-d", L.d, dLean, L.dx),
+    row("--neutral", L.t, toss, L.tx),
+    iLean ? row("--party-i", L.i, iLean) : null,
+    row("--party-r", L.r, rLean, L.rx),
     row("--party-r", "Republicans, not up", makeup.notUp.R, null, true),
   ];
-  if (ui.colorBy !== "ratings" && toss) {
+  if (mode !== "ratings" && toss) {
     parts.push(h("p", { class: "seat-note" },
-      `If every toss-up went to whoever is ahead, even slightly: `,
+      mode === "results" ? "If every uncalled race went to whoever is ahead in the count: " : "If every toss-up went to whoever is ahead, even slightly: ",
       h("strong", {}, `Democrats + allies ${dIf}, Republicans ${rIf}`),
       iIf ? `, independents ${iIf}` : "",
       tied ? `, with ${tied} race${tied === 1 ? "" : "s"} tied` : "",
@@ -689,10 +907,13 @@ function renderSenate() {
   summary.replaceChildren(...parts.filter(Boolean));
   if (intro) summary.querySelectorAll("[data-count]").forEach((el, i) => countUp(el, Number(el.dataset.count), String, { delay: 300 + i * 40, duration: 1000 }));
 
+  const when = ui.asOf ? ` As of ${fmtDate(ui.asOf, true)} (time machine).` : "";
   document.getElementById("senate-hint").textContent =
-    ui.colorBy === "ratings"
+    mode === "ratings"
       ? "Each of the 35 seats on the ballot is shaded by forecasters' consensus rating; faded seats aren't up this year. Not a prediction."
-      : "Each of the 35 seats on the ballot goes to whoever leads its polling average (forecasters' lean where there are no polls); faded seats aren't up this year. Not a prediction. Tap a seat for its race.";
+      : mode === "results"
+        ? "Election results from Wikipedia: seats show a party once the race is called; faded seats weren't up this year. Tap a seat for its race."
+        : `Each of the 35 seats on the ballot goes to whoever leads its polling average (forecasters' lean where there are no polls); faded seats aren't up this year. Not a prediction. Tap a seat for its race.${when}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -1060,6 +1281,53 @@ function ratingSwatch(r) {
   return `--${rampFor(r.lean)}-${RATING_STEP[r.strength] ?? 1}`;
 }
 
+/** Election-night results, and how they compare with the final polls. */
+function resultsBlock(race, colors) {
+  const res = race.results;
+  const sum = resultSummary(race);
+  const status = sum.called
+    ? `Called for ${sum.winner}`
+    : sum.runoff
+      ? "Headed to a runoff"
+      : "Votes still being counted";
+  const rows = res.candidates.filter((c) => c.votes).slice(0, 4).map((c) => {
+    const cand = resultCandidate(race, c.name);
+    const color = (cand && colors.get(cand.name)) || (c.party === "D" ? "--party-d" : c.party === "R" ? "--party-r" : "--party-x");
+    return h("div", { class: "result-row" },
+      h("span", { class: "swatch", style: { background: `var(${color})` } }),
+      h("span", { class: "name" }, `${c.name} `, h("small", {}, `(${partyLetter(c.party)})`),
+        res.winner === c.name ? h("span", { class: "won" }, "✓ Winner") : null),
+      h("span", { class: "votes" }, c.votes.toLocaleString()),
+      h("span", { class: "value", "data-count": c.percentage }, fmtPct(c.percentage)),
+    );
+  });
+  // Polls vs result: the final pre-election polling margin against the
+  // actual margin between the same two candidates.
+  let compare = null;
+  const hl = race.headline;
+  const [a, b] = res.candidates;
+  const ca = a && resultCandidate(race, a.name);
+  const cb = b && resultCandidate(race, b.name);
+  if (hl && ca && cb && typeof hl.values[ca.name] === "number" && typeof hl.values[cb.name] === "number") {
+    const polled = hl.values[ca.name] - hl.values[cb.name];
+    const actual = (a.percentage || 0) - (b.percentage || 0);
+    const miss = Math.round((actual - polled) * 10) / 10;
+    const fmtM = (m) => (m >= 0 ? `${surname(a.name)} +${fmtNum(Math.round(m * 10) / 10)}` : `${surname(b.name)} +${fmtNum(Math.round(-m * 10) / 10)}`);
+    compare = h("p", { class: "headline-note" },
+      h("strong", {}, `Polls: ${fmtM(polled)} · Result${sum.called ? "" : " so far"}: ${fmtM(actual)}`),
+      Math.abs(miss) < 0.5
+        ? " · the polls were right on"
+        : ` · ${surname(miss > 0 ? a.name : b.name)} did ${fmtNum(Math.abs(miss))} points better than the polls`,
+    );
+  }
+  return h("div", { class: `results-block${sum.called ? " called" : ""}` },
+    h("h4", {}, "Results ", h("span", { class: "status" }, status)),
+    h("div", { class: "result-rows" }, rows),
+    h("p", { class: "hint" }, `${res.totalVotes.toLocaleString()} votes counted, per Wikipedia.`),
+    compare,
+  );
+}
+
 function raceCard(race) {
   const colors = candidateColors(race);
   const hl = race.headline;
@@ -1085,6 +1353,7 @@ function raceCard(race) {
   const summary = h("div", { class: "race-summary" });
   const chartCol = h("div", { class: "race-chart" });
   card.append(h("div", { class: "race-top" }, summary, chartCol));
+  if (race.results) summary.append(resultsBlock(race, colors), race.headline ? h("h4", {}, "Final polling average") : null);
 
   if (hl) {
     const ranked = Object.entries(hl.values).sort((a, b) => b[1] - a[1]);
@@ -1116,7 +1385,7 @@ function raceCard(race) {
     summary.append(
       standings,
       bar,
-      h("p", { class: "headline-note" }, h("strong", {}, leadLabel(race)), ` · ${hl.detail}`),
+      h("p", { class: "headline-note" }, h("strong", {}, leadLabel(race, { hl })), ` · ${hl.detail}`),
     );
   } else {
     summary.append(
@@ -1182,10 +1451,11 @@ function renderDetail({ scroll = false } = {}) {
   }
   const races = st.races.filter(inOffice).map((r) => ({ ...r, state: st }));
   const house = safeUrl(st.houseUrl);
+  const closing = closingLine(st.code);
   const head = h(
     "div",
     { class: "state-head" },
-    h("h2", {}, st.name),
+    h("div", {}, h("h2", {}, st.name), closing ? h("p", { class: "closing-line" }, "🗳 ", closing) : null),
     h("p", { class: "hint" },
       `${st.races.length ? `${st.races.length} statewide race${st.races.length === 1 ? "" : "s"} · ` : ""}All U.S. House seats are also on the ballot: `,
       house ? h("a", { href: house, target: "_blank", rel: "noopener" }, "House races") : "House races",
@@ -1238,14 +1508,15 @@ function renderRacesTable() {
   else if (ui.sort === "recent") races.sort((a, b) => (b.latestPoll || "").localeCompare(a.latestPoll || "") || byState(a, b));
   else {
     races.sort((a, b) => {
-      const ma = a.headline ? a.headline.margin : Infinity;
-      const mb = b.headline ? b.headline.margin : Infinity;
+      const ma = headlineFor(a) ? headlineFor(a).margin : Infinity;
+      const mb = headlineFor(b) ? headlineFor(b).margin : Infinity;
       return ma - mb || byState(a, b);
     });
   }
   const rows = races.map((r) => {
     const colors = candidateColors(r);
-    const leader = r.headline?.leader ? candidate(r, r.headline.leader) : null;
+    const rh = headlineFor(r);
+    const leader = rh?.leader ? candidate(r, rh.leader) : null;
     const go = () => selectState(r.state.code, true);
     return h(
       "tr",
@@ -1253,8 +1524,8 @@ function renderRacesTable() {
       h("td", {}, h("a", { href: `#${r.state.code}`, onclick: (e) => { e.preventDefault(); e.stopPropagation(); go(); } }, r.state.name)),
       h("td", {}, r.label),
       h("td", { class: "avg-cell" },
-        r.headline
-          ? Object.entries(r.headline.values)
+        rh
+          ? Object.entries(rh.values)
               .sort((a, b) => b[1] - a[1])
               .slice(0, 3)
               .map(([name, v]) => {
@@ -1267,8 +1538,8 @@ function renderRacesTable() {
               })
           : h("span", { class: "sub" }, "No polls"),
       ),
-      h("td", { class: "num lead-cell" }, r.headline ? (r.headline.leader ? `+${fmtMargin(r.headline.margin)}` : "0") : "–"),
-      h("td", {}, r.headline ? BASIS_SHORT[r.headline.basis] || "" : "–"),
+      h("td", { class: "num lead-cell" }, rh ? (rh.leader ? `+${fmtMargin(rh.margin)}` : "0") : "–"),
+      h("td", {}, rh ? BASIS_SHORT[rh.basis] || "" : "–"),
       h("td", {}, r.consensus ? `${r.consensus.rating} (${r.consensus.count}/${r.consensus.of})` : "–"),
       h("td", { class: "num" }, fmtDate(r.latestPoll)),
     );
@@ -1277,7 +1548,7 @@ function renderRacesTable() {
   const tbody = document.querySelector("#races-table tbody");
   tbody.classList.remove("fresh");
   tbody.replaceChildren(...rows);
-  if (motionOK()) {
+  if (motionOK() && !tm.playing) {
     void tbody.offsetWidth;
     tbody.classList.add("fresh");
   }
@@ -1287,11 +1558,89 @@ function renderRacesTable() {
 }
 
 // ---------------------------------------------------------------------------
+// Time machine controls
+// ---------------------------------------------------------------------------
+
+const TM_START = "2026-08-01";
+const tm = { playing: false, timer: 0, days: 0 };
+
+function isoPlusDays(iso, n) {
+  return new Date(Date.parse(iso) + n * DAY).toISOString().slice(0, 10);
+}
+
+/** Moves the time machine to `index` days after TM_START (the end is today). */
+function setTimeMachine(index) {
+  const range = document.getElementById("tm-range");
+  const i = Math.max(0, Math.min(tm.days, index));
+  range.value = String(i);
+  const atToday = i >= tm.days;
+  ui.asOf = atToday ? null : isoPlusDays(TM_START, i);
+  if (ui.asOf && ui.colorBy !== "polls") {
+    ui.colorBy = "polls";
+    const radio = document.querySelector('input[name="colorby"][value="polls"]');
+    if (radio) radio.checked = true;
+  }
+  document.getElementById("tm-label").textContent = atToday
+    ? "Today"
+    : `${fmtDate(ui.asOf, true)} · 30-day poll averages`;
+  document.getElementById("tm-reset").hidden = atToday;
+  document.getElementById("time-machine").classList.toggle("active", !atToday);
+  renderSenate();
+  renderLegend();
+  renderMap();
+  renderRacesTable();
+}
+
+function stopPlaying() {
+  tm.playing = false;
+  clearInterval(tm.timer);
+  const btn = document.getElementById("tm-play");
+  btn.textContent = "▶ Play";
+  btn.setAttribute("aria-label", "Play the polls forward from August");
+}
+
+function setupTimeMachine() {
+  const range = document.getElementById("tm-range");
+  const today = ui.data.generatedAt.slice(0, 10);
+  tm.days = Math.max(1, Math.round((Date.parse(today) - Date.parse(TM_START)) / DAY));
+  range.max = String(tm.days);
+  range.value = String(tm.days);
+  range.addEventListener("input", () => {
+    stopPlaying();
+    setTimeMachine(Number(range.value));
+  });
+  document.getElementById("tm-reset").addEventListener("click", () => {
+    stopPlaying();
+    setTimeMachine(tm.days);
+  });
+  document.getElementById("tm-play").addEventListener("click", () => {
+    if (tm.playing) {
+      stopPlaying();
+      return;
+    }
+    let i = Number(range.value);
+    if (i >= tm.days) i = 0;
+    tm.playing = true;
+    const btn = document.getElementById("tm-play");
+    btn.textContent = "❚❚ Pause";
+    btn.setAttribute("aria-label", "Pause");
+    setTimeMachine(i);
+    const step = motionOK() ? 2 : 7;
+    tm.timer = setInterval(() => {
+      i += step;
+      setTimeMachine(i);
+      if (i >= tm.days) stopPlaying();
+    }, motionOK() ? 260 : 900);
+  });
+}
+
+// ---------------------------------------------------------------------------
 // State, routing, controls
 // ---------------------------------------------------------------------------
 
 function renderAll() {
   renderSenate();
+  renderClosings();
   renderLegend();
   renderMap();
   renderDetail();
@@ -1327,9 +1676,34 @@ function setupControls() {
       renderAll();
     });
   }
+  if (anyResults()) {
+    // Election night: offer (and default to) the results view.
+    const label = h("label", {}, h("input", { type: "radio", name: "colorby", value: "results" }), h("span", {}, "Results"));
+    document.getElementById("color-filter").append(label);
+    ui.colorBy = "results";
+    label.querySelector("input").checked = true;
+    document.getElementById("time-machine").classList.add("off");
+  }
+  setupTimeMachine();
+  setInterval(() => {
+    if (document.visibilityState !== "visible") return;
+    renderClosings();
+    const line = document.querySelector("#state-detail .closing-line");
+    if (line && ui.selected) line.textContent = `🗳 ${closingLine(ui.selected) || ""}`;
+  }, 30000);
   for (const input of document.querySelectorAll('input[name="colorby"]')) {
     input.addEventListener("change", () => {
       ui.colorBy = input.value;
+      if (ui.colorBy !== "polls" && ui.asOf) {
+        stopPlaying();
+        ui.asOf = null;
+        document.getElementById("tm-range").value = String(tm.days);
+        document.getElementById("tm-label").textContent = "Today";
+        document.getElementById("tm-reset").hidden = true;
+        document.getElementById("time-machine").classList.remove("active");
+        renderRacesTable();
+      }
+      document.getElementById("time-machine").classList.toggle("off", ui.colorBy !== "polls");
       renderSenate();
       renderLegend();
       renderMap();

@@ -7,6 +7,7 @@ import {
   normalizeRating,
   splitNameParty,
   parseRace,
+  parseResults,
   simpleAverage,
 } from "../scripts/parse-race.mjs";
 import { listRaces, STATES } from "../scripts/races.mjs";
@@ -248,4 +249,55 @@ test("simpleAverage uses the newest poll per pollster inside the window", () => 
   const avg = simpleAverage(polls, candidates, { asOf: "2026-11-01", windowDays: 30 });
   assert.equal(avg.pollCount, 2);
   assert.deepEqual(avg.values, { A: 47, B: 43 });
+});
+
+const EMPTY_RESULTS = `{{Election box begin | title=2026 X}}
+{{Election box candidate with party link no change
+ | party=Democratic Party (United States)
+ | candidate=[[Jon Ossoff]] (incumbent)
+ | votes=
+ | percentage=
+}}
+{{Election box candidate with party link
+ | party=Republican Party (United States)
+ | candidate= [[Mike Collins (politician)|Mike Collins]]
+ | votes=
+}}
+{{Election box total | votes= | percentage=100.0}}
+{{Election box end}}`;
+
+test("parseResults is null until votes are filled in", () => {
+  assert.equal(parseResults(EMPTY_RESULTS), null);
+});
+
+test("parseResults reads votes, percentages and a single winner", () => {
+  const text = `{{Election box begin |title=Results<ref>{{cite web|title=x}}</ref>}}
+{{Election box winning candidate with party link
+ |party=Republican Party (United States)
+ |candidate=[[Bernie Moreno]]
+ |votes=2,857,383
+ |percentage=50.09%
+}}{{Election box candidate with party link|party=Democratic Party (United States)|candidate=[[Sherrod Brown]] (incumbent)|votes=2,650,949|percentage=46.47%}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Don Kissick|votes=195,648}}
+{{Election box total|votes=5,704,620}}
+{{Election box end}}`;
+  const r = parseResults(text);
+  assert.equal(r.winner, "Bernie Moreno");
+  assert.equal(r.runoff, false);
+  assert.equal(r.totalVotes, 5704620);
+  assert.deepEqual(r.candidates.map((c) => [c.name, c.party, c.votes, c.percentage]), [
+    ["Bernie Moreno", "R", 2857383, 50.09],
+    ["Sherrod Brown", "D", 2650949, 46.47],
+    ["Don Kissick", "L", 195648, 3.4], // computed from the total
+  ]);
+});
+
+test("parseResults reports a runoff when two candidates are marked as advancing", () => {
+  const text = `{{Election box begin |title=x}}
+{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=A One|votes=100}}
+{{Election box winning candidate with party link|party=Republican Party (United States)|candidate=B Two|votes=99}}
+{{Election box end}}`;
+  const r = parseResults(text);
+  assert.equal(r.winner, null);
+  assert.equal(r.runoff, true);
 });

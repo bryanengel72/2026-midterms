@@ -57,10 +57,25 @@
       </div>
     </section>
 
+    <section class="card closings-card" id="closings-card" aria-labelledby="closings-title">
+      <div class="card-head">
+        <h2 id="closings-title">When the polls close</h2>
+        <p class="hint" id="closings-hint">Election night, Tuesday, November 3. Times are when most polls in each state close.</p>
+      </div>
+      <ol class="closings" id="closings"></ol>
+      <p class="hint">Sources: The Green Papers, NPR and 270toWin. Anyone in line when polls close can still vote.</p>
+    </section>
+
     <section class="card map-card" aria-labelledby="map-title">
       <div class="card-head">
         <h2 id="map-title">Every state at a glance</h2>
         <p class="hint" id="map-hint">Each tile shows the Senate race on top and the governor race below. Select a state for its polls.</p>
+      </div>
+      <div class="time-machine" id="time-machine">
+        <button type="button" class="ghost tm-play" id="tm-play" aria-label="Play the polls forward from August">▶ Play</button>
+        <input type="range" id="tm-range" min="0" max="0" step="1" value="0" aria-label="Show the polls as of a date">
+        <output id="tm-label" for="tm-range">Today</output>
+        <button type="button" class="linkish" id="tm-reset" hidden>Back to today</button>
       </div>
       <div class="map-legend" id="map-legend" aria-label="Map legend"></div>
       <div class="tile-map" id="tile-map"></div>

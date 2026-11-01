@@ -1,6 +1,7 @@
 // Turns one Wikipedia race article into structured poll data.
 
 import {
+  listTemplates,
   findTables,
   listSections,
   parseInfobox,
@@ -434,6 +435,59 @@ function findGeneralElection(text, sections) {
   return sections.find((s) => /general election/i.test(s.title)) || null;
 }
 
+// ---------------------------------------------------------------------------
+// Results (election night)
+// ---------------------------------------------------------------------------
+
+function parseCount(text) {
+  const n = Number(toPlainText(text || "").replace(/[^0-9.]/g, ""));
+  return Number.isFinite(n) && n > 0 ? n : null;
+}
+
+/**
+ * Reads the general election's {{Election box}} from its Results section.
+ * Returns null until at least one candidate has votes. `winner` is set when
+ * editors mark exactly one winning candidate; two or more marked winners
+ * means they advance to a runoff (Georgia, Louisiana).
+ */
+export function parseResults(sectionText) {
+  const start = sectionText.search(/\{\{\s*Election box begin/i);
+  if (start === -1) return null;
+  const endMatch = sectionText.slice(start).search(/\{\{\s*Election box end/i);
+  const block = sectionText.slice(start, endMatch === -1 ? undefined : start + endMatch);
+  const candidates = [];
+  let total = null;
+  for (const t of listTemplates(block)) {
+    if (/^election box (winning )?candidate/.test(t.name)) {
+      const name = toPlainText(t.params.candidate || "").replace(/\s*\((incumbent|write-in)\)\s*$/i, "").trim();
+      if (!name) continue;
+      candidates.push({
+        name,
+        party: partyCode(t.params.party || ""),
+        votes: parseCount(t.params.votes),
+        percentage: parseCount(t.params.percentage),
+        winner: t.name.startsWith("election box winning"),
+      });
+    } else if (/^election box total/.test(t.name)) {
+      total = parseCount(t.params.votes);
+    }
+  }
+  if (!candidates.some((c) => c.votes)) return null;
+  const sum = candidates.reduce((n, c) => n + (c.votes || 0), 0);
+  const totalVotes = total || sum;
+  for (const c of candidates) {
+    if (c.percentage === null && c.votes) c.percentage = Math.round((c.votes / totalVotes) * 1000) / 10;
+  }
+  candidates.sort((a, b) => (b.votes || 0) - (a.votes || 0));
+  const winners = candidates.filter((c) => c.winner);
+  return {
+    candidates,
+    totalVotes,
+    winner: winners.length === 1 ? winners[0].name : null,
+    runoff: winners.length > 1,
+  };
+}
+
 /**
  * Parses a race article. `race` is an entry from races.mjs.
  */
@@ -448,6 +502,7 @@ export function parseRace(wikitext, race) {
   const result = {
     nominees,
     incumbent,
+    results: null,
     ratings: [],
     aggregates: [],
     polls: [],
@@ -458,6 +513,9 @@ export function parseRace(wikitext, race) {
   const inGeneral = sections.filter(
     (s) => s.start >= general.start && s.start < general.end,
   );
+  const resultsSection = inGeneral.find((s) => /^results$/i.test(s.title));
+  if (resultsSection) result.results = parseResults(text.slice(resultsSection.bodyStart, resultsSection.end));
+
   const predictions = inGeneral.find((s) => /prediction|rating|forecast/i.test(s.title));
   if (predictions) result.ratings = readRatings(text.slice(predictions.bodyStart, predictions.end));
 

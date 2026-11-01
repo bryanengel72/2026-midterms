@@ -185,6 +185,7 @@ async function main() {
       url: pageUrl(page.title),
       incumbent: parsed.incumbent,
       candidates: parsed.candidates.length ? parsed.candidates : parsed.nominees,
+      results: parsed.results,
       ratings: parsed.ratings,
       aggregates: parsed.aggregates,
       polls: parsed.polls,
