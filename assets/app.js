@@ -1138,6 +1138,169 @@ function renderGenericBallot() {
 }
 
 // ---------------------------------------------------------------------------
+// Competitive House districts
+// ---------------------------------------------------------------------------
+
+const RATING_ORDER = { Tossup: 0, Tilt: 1, Lean: 2, Likely: 3, Safe: 4 };
+const districtsUi = { filter: "close", sort: "rating", expanded: false, open: new Set() };
+
+function districtLabel(d) {
+  return d.district === "AL" ? `${d.state} at-large` : `${d.state}-${d.district}`;
+}
+
+function districtRace(d) {
+  const st = ui.data.states.find((x) => x.code === d.state);
+  return { ...d, label: `${st?.name || d.state} ${d.district === "AL" ? "at-large" : `district ${d.district}`}`, state: st || { name: d.state, code: d.state } };
+}
+
+/** "Ashley Hinson (retiring)" → "Ashley Hinson (R), retiring". */
+function incumbentLabel(d) {
+  const inc = d.incumbent;
+  if (!inc || !inc.name) return "Open seat";
+  if (/^new seat/i.test(inc.name)) return "New seat";
+  const m = inc.name.match(/^(.*?)\s*\(([^)]*)\)\s*$/);
+  const name = m ? m[1] : inc.name;
+  const tag = inc.party ? ` (${partyLetter(inc.party)})` : "";
+  return m ? `${name}${tag}, ${m[2]}` : `${name}${tag}`;
+}
+
+function districtPollCell(d, colors) {
+  if (ui.colorBy === "results" && d.results) {
+    const r = resultSummary(d);
+    if (r.runoff) return "Runoff";
+    return h("span", { class: "leader" },
+      h("span", { class: "swatch", style: { background: `var(${r.leader.party === "D" ? "--party-d" : r.leader.party === "R" ? "--party-r" : "--party-i"})` } }),
+      `${surname(r.leader.name)} ${r.called ? "won" : `+${fmtMargin(r.margin)}`}`);
+  }
+  const hl = headlineFor(d);
+  if (!hl) return h("span", { class: "sub" }, "No polls");
+  if (!hl.leader) return "Tied";
+  const c = candidate(d, hl.leader);
+  return h("span", { class: "leader" },
+    h("span", { class: "swatch", style: { background: `var(${colors.get(c.name) || "--party-x"})` } }),
+    `${surname(c.name)} (${partyTag(c)}) +${fmtMargin(hl.margin)}`);
+}
+
+function districtDetail(d) {
+  const race = districtRace(d);
+  const colors = candidateColors(race);
+  const hl = headlineFor(race);
+  const box = h("div", { class: "district-detail" });
+  if (race.results) box.append(resultsBlock(race, colors));
+  const ranked = hl ? Object.entries(hl.values).sort((a, b) => b[1] - a[1]) : [];
+  box.append(
+    h("div", { class: "district-cands" },
+      race.candidates.map((c) => {
+        const v = hl?.values[c.name];
+        return h("span", { class: "leader" },
+          h("span", { class: "swatch", style: { background: `var(${colors.get(c.name)})` } }),
+          `${c.name} (${partyTag(c)})`,
+          typeof v === "number" ? h("strong", {}, ` ${fmtPct(v)}`) : null);
+      }),
+    ),
+    hl ? h("p", { class: "hint" }, `${hl.detail}.`, (() => { const t = trendChip(race, { long: true }); return t ? [" ", t] : null; })()) : null,
+    h("ul", { class: "ratings-list" },
+      race.ratings.map((r) => h("li", {}, h("span", { class: "src" }, r.source), h("span", {}, `${r.rating}${r.flip ? " (flip)" : ""}`))),
+    ),
+  );
+  if (race.polls.length) box.append(h("div", { class: "table-scroll" }, pollsTable(race)));
+  const url = safeUrl(race.url);
+  box.append(h("p", { class: "hint" },
+    `Incumbent: ${incumbentLabel(d)}. `,
+    race.pvi ? `Partisan lean: ${race.pvi}. ` : "",
+    race.lastResult ? `2024 result: ${race.lastResult}. ` : "",
+    url ? h("a", { href: url, target: "_blank", rel: "noopener" }, "District on Wikipedia") : null));
+  return box;
+}
+
+/** Rows for a list of districts; clicking a row opens its details inline. */
+function districtRows(list) {
+  const rows = [];
+  for (const d of list) {
+    const race = districtRace(d);
+    const colors = candidateColors(race);
+    const c = d.consensus;
+    const open = districtsUi.open.has(d.id);
+    const toggle = () => {
+      if (districtsUi.open.has(d.id)) districtsUi.open.delete(d.id);
+      else districtsUi.open.add(d.id);
+      renderDistricts();
+      renderDetail();
+    };
+    rows.push(h("tr", { class: `district-row${open ? " open" : ""}`, onclick: toggle },
+      h("td", {},
+        h("button", { type: "button", class: "linkish disclose", "aria-expanded": open ? "true" : "false", onclick: (e) => { e.stopPropagation(); toggle(); } },
+          `${open ? "▾" : "▸"} ${districtLabel(d)}`)),
+      h("td", {}, incumbentLabel(d)),
+      h("td", { class: "num" }, d.pvi || "–"),
+      h("td", {}, c ? h("span", { class: "chip small" }, h("span", { class: "swatch", style: { background: `var(${ratingSwatch(c)})` } }), `${c.rating}${c.of ? ` ${c.count}/${c.of}` : ""}`) : "–"),
+      h("td", {}, districtPollCell(race, colors)),
+      h("td", { class: "num" }, trendChip(race) || "–"),
+      h("td", { class: "num" }, fmtDate(d.latestPoll)),
+    ));
+    if (open) rows.push(h("tr", { class: "detail-row" }, h("td", { colspan: 7 }, districtDetail(d))));
+  }
+  return rows;
+}
+
+function districtScore(d) {
+  const c = d.consensus;
+  return c ? (RATING_ORDER[c.strength] ?? 4) : 5;
+}
+
+function renderDistricts() {
+  const card = document.getElementById("districts-card");
+  const house = ui.data.house;
+  if (!house?.districts?.length || ui.office !== "all") {
+    card.hidden = true;
+    return;
+  }
+  card.hidden = false;
+  const all = house.districts;
+
+  // Summary: how forecasters' consensus splits the competitive seats.
+  const groups = [
+    ["Safe D", "--d-3", (c) => c.lean === "D" && c.strength === "Safe"],
+    ["Likely D", "--d-2", (c) => c.lean === "D" && c.strength === "Likely"],
+    ["Lean D", "--d-1", (c) => c.lean === "D" && (c.strength === "Lean" || c.strength === "Tilt")],
+    ["Toss-up", "--neutral", (c) => c.strength === "Tossup" || !c.lean],
+    ["Lean R", "--r-1", (c) => c.lean === "R" && (c.strength === "Lean" || c.strength === "Tilt")],
+    ["Likely R", "--r-2", (c) => c.lean === "R" && c.strength === "Likely"],
+    ["Safe R", "--r-3", (c) => c.lean === "R" && c.strength === "Safe"],
+  ].map(([label, fill, test]) => ({ label, fill, n: all.filter((d) => d.consensus && test(d.consensus)).length }));
+  const total = groups.reduce((a, g) => a + g.n, 0) || 1;
+  document.getElementById("district-summary").replaceChildren(
+    h("div", { class: "split-bar tall", role: "img", "aria-label": groups.map((g) => `${g.label} ${g.n}`).join(", ") },
+      groups.filter((g) => g.n).map((g) =>
+        h("span", { style: { width: `${(g.n / total) * 100}%`, background: `var(${g.fill})`, color: inkOn(g.fill) }, title: `${g.label}: ${g.n}` },
+          (g.n / total) > 0.05 ? String(g.n) : ""))),
+    h("div", { class: "map-legend" }, groups.map((g) =>
+      h("span", { class: "legend-item" }, h("span", { class: "swatch", style: { background: `var(${g.fill})` } }), `${g.label} ${g.n}`))),
+  );
+  document.getElementById("districts-hint").textContent =
+    `${all.length} districts that at least one of ten forecasters doesn't call safe; the other ${435 - all.length} seats are rated safe by all of them. "Safe" below means most forecasters call it safe. Tap a district for its candidates, polls and every rating.`;
+
+  let list = all.slice();
+  if (districtsUi.filter === "close") list = list.filter((d) => districtScore(d) <= 2);
+  else if (districtsUi.filter === "polled") list = list.filter((d) => d.polls.length);
+  const byState = (a, b) => a.state.localeCompare(b.state) || (parseInt(a.district, 10) || 0) - (parseInt(b.district, 10) || 0);
+  if (districtsUi.sort === "state") list.sort(byState);
+  else if (districtsUi.sort === "polls") {
+    const m = (d) => headlineFor(d)?.margin ?? Infinity;
+    list.sort((a, b) => m(a) - m(b) || byState(a, b));
+  } else list.sort((a, b) => districtScore(a) - districtScore(b) || byState(a, b));
+
+  const LIMIT = 12;
+  const collapsed = !districtsUi.expanded && list.length > LIMIT;
+  const shown = collapsed ? list.slice(0, LIMIT) : list;
+  document.getElementById("districts-polls-col").textContent = ui.colorBy === "results" ? "Results" : "Polls";
+  document.querySelector("#districts-table tbody").replaceChildren(...districtRows(shown));
+  const more = document.getElementById("districts-more");
+  more.hidden = !collapsed && !(districtsUi.expanded && list.length > LIMIT);
+  document.getElementById("districts-expand").textContent = collapsed ? `Show all ${list.length} districts` : "Show fewer";
+}
+
+// ---------------------------------------------------------------------------
 // Trend chart
 // ---------------------------------------------------------------------------
 
@@ -1711,7 +1874,22 @@ function renderDetail({ scroll = false } = {}) {
   detailEntering = motionOK() && st.code !== lastDetailState;
   lastDetailState = st.code;
   el.classList.remove("enter");
-  el.replaceChildren(head, body);
+  const stateDistricts = (ui.data.house?.districts || []).filter((d) => d.state === st.code)
+    .sort((a, b) => districtScore(a) - districtScore(b) || (parseInt(a.district, 10) || 0) - (parseInt(b.district, 10) || 0));
+  const districtsBlock = stateDistricts.length && ui.office === "all"
+    ? h("section", { class: "card state-districts" },
+        h("h3", {}, `Competitive House districts in ${st.name} (${stateDistricts.length})`),
+        h("div", { class: "table-scroll" },
+          h("table", { class: "data districts-table" },
+            h("thead", {}, h("tr", {},
+              ["District", "Incumbent", "Lean", "Forecasters", ui.colorBy === "results" ? "Results" : "Polls", "7-day trend", "Latest poll"].map((t, i) =>
+                h("th", { scope: "col", class: i === 2 || i >= 5 ? "num" : null }, t)))),
+            h("tbody", {}, districtRows(stateDistricts)),
+          ),
+        ),
+      )
+    : null;
+  el.replaceChildren(head, body, districtsBlock || "");
   if (detailEntering) {
     void el.offsetWidth; // restart the CSS entrance animations
     el.classList.add("enter");
@@ -1835,6 +2013,7 @@ function setTimeMachine(index) {
   renderWatched();
   renderSenate();
   renderGenericBallot();
+  renderDistricts();
   renderLegend();
   renderMap();
   renderRacesTable();
@@ -1891,6 +2070,7 @@ function renderAll() {
   renderWatched();
   renderSenate();
   renderGenericBallot();
+  renderDistricts();
   renderClosings();
   renderLegend();
   renderMap();
@@ -1957,6 +2137,7 @@ function setupControls() {
       }
       document.getElementById("time-machine").classList.toggle("off", ui.colorBy !== "polls");
       renderWatched();
+      renderDistricts();
       renderSenate();
       renderLegend();
       renderMap();
@@ -1984,6 +2165,18 @@ function setupControls() {
       document.getElementById("races-title").scrollIntoView({ behavior: motionOK() ? "smooth" : "auto", block: "start" });
     }
   };
+  document.getElementById("districts-filter").addEventListener("change", (e) => {
+    districtsUi.filter = e.target.value;
+    renderDistricts();
+  });
+  document.getElementById("districts-sort").addEventListener("change", (e) => {
+    districtsUi.sort = e.target.value;
+    renderDistricts();
+  });
+  document.getElementById("districts-expand").addEventListener("click", () => {
+    districtsUi.expanded = !districtsUi.expanded;
+    renderDistricts();
+  });
   document.getElementById("races-toggle").addEventListener("click", () => setCollapsed(!ui.racesCollapsed, !ui.racesCollapsed));
   document.getElementById("races-expand").addEventListener("click", () => setCollapsed(false));
   document.getElementById("sort-select").addEventListener("change", (e) => {
