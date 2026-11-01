@@ -699,6 +699,33 @@ function watchSummary(race) {
   return race.consensus ? race.consensus.rating : "No polls";
 }
 
+/** One line summing up a watched state's competitive House districts. */
+function watchHouseLine(st) {
+  const districts = (ui.data.house?.districts || []).filter((d) => d.state === st.code);
+  if (!ui.data.house?.districts?.length) return null;
+  if (!districts.length) {
+    return h("span", { class: "watch-race muted" }, h("span", { class: "office" }, "House"), "All seats rated safe");
+  }
+  const n = { D: 0, T: 0, R: 0, I: 0 };
+  for (const d of districts) n[senateCall(districtRace(d)).side] += 1;
+  const total = districts.length;
+  const word = ui.colorBy === "results" ? { T: "not called" } : { T: "toss-up" };
+  const bits = [
+    n.D ? `${n.D} D` : null,
+    n.T ? `${n.T} ${word.T}` : null,
+    n.I ? `${n.I} other` : null,
+    n.R ? `${n.R} R` : null,
+  ].filter(Boolean);
+  const label = ui.colorBy === "results" ? "called or leading" : ui.colorBy === "ratings" ? "by forecasters" : "by polls";
+  return h("span", { class: "watch-race watch-house", title: `${total} competitive House district${total === 1 ? "" : "s"}, ${label}. The rest are rated safe.` },
+    h("span", { class: "mini-split", "aria-hidden": "true" },
+      [["D", "--party-d"], ["T", "--neutral"], ["I", "--party-i"], ["R", "--party-r"]].filter(([k]) => n[k]).map(([k, fill]) =>
+        h("span", { style: { flexGrow: String(n[k]), background: `var(${fill})` } }))),
+    h("span", { class: "office" }, "House"),
+    h("strong", { class: "watch-house-bits" }, bits.join(" · ")),
+  );
+}
+
 function renderWatched() {
   const section = document.getElementById("watched");
   const states = ui.data.states.filter((st) => watched.has(st.code));
@@ -709,8 +736,8 @@ function renderWatched() {
     return h("div", { class: "watch-card" },
       h("button", { type: "button", class: "watch-open", onclick: () => selectState(st.code, true), "aria-label": `Open ${st.name}` },
         h("span", { class: "watch-name" }, st.name),
-        st.races.length
-          ? st.races.map((r) => {
+        ui.office === "House" ? null : st.races.filter(inOffice).length
+          ? st.races.filter(inOffice).map((r) => {
               const hl = headlineFor(r);
               const lead = hl?.leader ? candidate(r, hl.leader).party : null;
               const res = ui.colorBy === "results" ? resultSummary(r) : null;
@@ -723,7 +750,8 @@ function renderWatched() {
                 ui.colorBy === "results" ? null : trendChip(r),
               );
             })
-          : h("span", { class: "watch-race muted" }, "No statewide race"),
+          : h("span", { class: "watch-race muted" }, st.races.length ? `No ${ui.office === "Senate" ? "Senate" : "governor"} race` : "No statewide race"),
+        showsHouse() ? watchHouseLine(st) : null,
         closing ? h("span", { class: "watch-closing" }, closing.replace(/ \([^)]*your time\)/, "")) : null,
       ),
       h("button", {
