@@ -259,6 +259,7 @@ button.ghost:hover, .linkish:hover { background: var(--surface-2); }
   border-color: var(--text);
 }
 .segmented input:focus-visible + span { outline: 2px solid var(--focus); outline-offset: 2px; }
+.check[hidden] { display: none; }
 .check {
   display: flex;
   align-items: center;

@@ -45,8 +45,9 @@
       </label>
       <fieldset class="segmented" id="office-filter">
         <legend>Office</legend>
-        <label><input type="radio" name="office" value="all" checked><span>Both</span></label>
+        <label><input type="radio" name="office" value="all" checked><span>All</span></label>
         <label><input type="radio" name="office" value="Senate"><span>Senate</span></label>
+        <label><input type="radio" name="office" value="House"><span>House</span></label>
         <label><input type="radio" name="office" value="Governor"><span>Governor</span></label>
       </fieldset>
       <fieldset class="segmented" id="color-filter">
@@ -54,7 +55,7 @@
         <label><input type="radio" name="colorby" value="polls" checked><span>Polls</span></label>
         <label><input type="radio" name="colorby" value="ratings"><span>Forecasters</span></label>
       </fieldset>
-      <label class="check">
+      <label class="check" id="close-only-field">
         <input type="checkbox" id="close-only">
         <span>Close races only (within 5 points)</span>
       </label>
@@ -150,7 +151,7 @@
       <p class="hint">Sources: The Green Papers, NPR and 270toWin. Anyone in line when polls close can still vote.</p>
     </section>
 
-    <section class="card map-card" aria-labelledby="map-title">
+    <section class="card map-card" id="map-card" aria-labelledby="map-title">
       <div class="card-head">
         <h2 id="map-title">Every state at a glance</h2>
         <p class="hint" id="map-hint">Each tile shows the Senate race on top and the governor race below. Select a state for its polls.</p>
@@ -167,7 +168,7 @@
 
     <section id="state-detail" class="state-detail" tabindex="-1" aria-live="polite"></section>
 
-    <section class="card" aria-labelledby="races-title">
+    <section class="card" id="races-card" aria-labelledby="races-title">
       <div class="card-head">
         <h2 id="races-title">All races</h2>
         <div class="races-tools">

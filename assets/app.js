@@ -197,6 +197,11 @@ function inOffice(race) {
   return ui.office === "all" || race.office === ui.office;
 }
 
+/** Whether the House sections (generic ballot, seat chart, districts) show. */
+function showsHouse() {
+  return ui.office === "all" || ui.office === "House";
+}
+
 function isClose(race) {
   const hl = headlineFor(race);
   return Boolean(hl && hl.margin < 5);
@@ -874,7 +879,7 @@ const senateView = { svg: null, order: [] };
 function renderSenate() {
   const card = document.getElementById("senate-card");
   const makeup = ui.data.senate;
-  if (!makeup || ui.office === "Governor") {
+  if (!makeup || ui.office === "Governor" || ui.office === "House") {
     card.hidden = true;
     return;
   }
@@ -1061,7 +1066,7 @@ let houseIntroDone = false;
 function renderGenericBallot() {
   const card = document.getElementById("house-card");
   const gb = ui.data.genericBallot;
-  if (!gb || ui.office === "Governor") {
+  if (!gb || !showsHouse()) {
     card.hidden = true;
     return;
   }
@@ -1156,7 +1161,7 @@ function openDistrict(d) {
 function renderHouseSeats() {
   const card = document.getElementById("house-seats-card");
   const house = ui.data.house;
-  if (!house?.districts?.length || !house.safe || ui.office !== "all") {
+  if (!house?.districts?.length || !house.safe || !showsHouse()) {
     card.hidden = true;
     return;
   }
@@ -1458,7 +1463,7 @@ function districtScore(d) {
 function renderDistricts() {
   const card = document.getElementById("districts-card");
   const house = ui.data.house;
-  if (!house?.districts?.length || ui.office !== "all") {
+  if (!house?.districts?.length || !showsHouse()) {
     card.hidden = true;
     return;
   }
@@ -2064,12 +2069,18 @@ function renderDetail({ scroll = false } = {}) {
       h("button", { type: "button", class: "linkish", onclick: () => selectState(null) }, "Close"),
     ),
   );
+  const stateDistricts = (ui.data.house?.districts || []).filter((d) => d.state === st.code)
+    .sort((a, b) => districtScore(a) - districtScore(b) || (parseInt(a.district, 10) || 0) - (parseInt(b.district, 10) || 0));
   let body;
-  if (!st.races.length) {
+  if (ui.office === "House") {
+    body = stateDistricts.length
+      ? null
+      : h("div", { class: "card no-polls" }, `None of ${st.name}'s House seats is on the competitive list: every forecaster rates them all safe.`);
+  } else if (!st.races.length) {
     body = h("div", { class: "card no-polls" }, `${st.name} has no U.S. Senate or governor election in 2026.`);
   } else if (!races.length) {
     body = h("div", { class: "card no-polls" },
-      `${st.name} has no ${ui.office === "Senate" ? "Senate" : "governor"} race in 2026. Switch the office filter to Both to see its other race.`);
+      `${st.name} has no ${ui.office === "Senate" ? "Senate" : "governor"} race in 2026. Switch the office filter to All to see its other race.`);
   } else {
     body = h("div", { class: "race-grid" }, races.map((r, i) => {
       const card = raceCard(r);
@@ -2081,9 +2092,7 @@ function renderDetail({ scroll = false } = {}) {
   detailEntering = motionOK() && st.code !== lastDetailState;
   lastDetailState = st.code;
   el.classList.remove("enter");
-  const stateDistricts = (ui.data.house?.districts || []).filter((d) => d.state === st.code)
-    .sort((a, b) => districtScore(a) - districtScore(b) || (parseInt(a.district, 10) || 0) - (parseInt(b.district, 10) || 0));
-  const districtsBlock = stateDistricts.length && ui.office === "all"
+  const districtsBlock = stateDistricts.length && showsHouse()
     ? h("section", { class: "card state-districts" },
         h("h3", {}, `Competitive House districts in ${st.name} (${stateDistricts.length})`),
         h("div", { class: "table-scroll" },
@@ -2096,7 +2105,7 @@ function renderDetail({ scroll = false } = {}) {
         ),
       )
     : null;
-  el.replaceChildren(head, body, districtsBlock || "");
+  el.replaceChildren(head, body || "", districtsBlock || "");
   if (detailEntering) {
     void el.offsetWidth; // restart the CSS entrance animations
     el.classList.add("enter");
@@ -2274,7 +2283,16 @@ function setupTimeMachine() {
 // State, routing, controls
 // ---------------------------------------------------------------------------
 
+/** The map and all-races table cover statewide races only; House view hides them. */
+function applyOfficeLayout() {
+  const house = ui.office === "House";
+  document.getElementById("map-card").hidden = house;
+  document.getElementById("races-card").hidden = house;
+  document.getElementById("close-only-field").hidden = house;
+}
+
 function renderAll() {
+  applyOfficeLayout();
   renderWatched();
   renderSenate();
   renderGenericBallot();
@@ -2313,6 +2331,11 @@ function setupControls() {
   for (const input of document.querySelectorAll('input[name="office"]')) {
     input.addEventListener("change", () => {
       ui.office = input.value;
+      // The time machine lives on the map, which the House view hides.
+      if (ui.office === "House" && ui.asOf) {
+        stopPlaying();
+        setTimeMachine(tm.days);
+      }
       renderAll();
     });
   }
