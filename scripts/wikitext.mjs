@@ -412,3 +412,33 @@ export function parseInfobox(text) {
   }
   return fields;
 }
+
+/**
+ * Lists the top-level templates in `text` as { name, params }, where params
+ * maps named arguments (trimmed raw wikitext) and positional ones by index.
+ */
+export function listTemplates(text) {
+  const out = [];
+  let i = 0;
+  while (i < text.length) {
+    const open = text.indexOf("{{", i);
+    if (open === -1) break;
+    const close = closeTemplate(text, open);
+    if (close === -1) break;
+    const inner = text.slice(open + 2, close);
+    const parts = splitTopLevel(inner, "|");
+    const params = {};
+    let pos = 1;
+    for (const part of parts.slice(1)) {
+      const eq = part.indexOf("=");
+      if (eq !== -1 && /^\s*[\w -]+\s*$/.test(part.slice(0, eq))) {
+        params[part.slice(0, eq).trim().toLowerCase()] = part.slice(eq + 1).trim();
+      } else {
+        params[pos++] = part.trim();
+      }
+    }
+    out.push({ name: parts[0].trim().toLowerCase().replace(/_/g, " ").replace(/\s+/g, " "), params });
+    i = close + 2;
+  }
+  return out;
+}

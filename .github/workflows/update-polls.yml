@@ -4,6 +4,10 @@ on:
   schedule:
     # Every three hours. Wikipedia editors add polls throughout the day.
     - cron: "23 */3 * * *"
+    # Election night: every 20 minutes from 6 PM ET Nov 3 to 7 AM ET Nov 4
+    # (23:00 UTC Nov 3 to 11:59 UTC Nov 4), so results show up quickly.
+    - cron: "*/20 23 3 11 *"
+    - cron: "*/20 0-11 4 11 *"
   workflow_dispatch:
   push:
     branches: [main]
