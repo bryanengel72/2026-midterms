@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T17:04:16.285Z",
+ "generatedAt": "2026-11-01T17:58:48.220Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -34002,6 +34002,21 @@
      ],
      "polls": [
       {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2020,
+       "population": "LV",
+       "moe": 3.1,
+       "values": {
+        "Ashley Hinson": 49,
+        "Josh Turek": 50
+       },
+       "other": 1,
+       "undecided": 0
+      },
+      {
        "pollster": "co/efficient (R)",
        "dates": "October 28, 2026",
        "start": "2026-10-28",
@@ -34559,7 +34574,7 @@
       "count": 11,
       "of": 14
      },
-     "latestPoll": "2026-10-28"
+     "latestPoll": "2026-10-29"
     },
     {
      "id": "IA-GOV",
@@ -34727,6 +34742,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2020,
+       "population": "LV",
+       "moe": 3.1,
+       "values": {
+        "Zach Lahn": 46,
+        "Rob Sand": 53
+       },
+       "other": 0,
+       "undecided": 0
+      },
       {
        "pollster": "co/efficient (R)",
        "dates": "October 28, 2026",
@@ -35075,7 +35105,7 @@
       "count": 7,
       "of": 8
      },
-     "latestPoll": "2026-10-28"
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -35304,6 +35334,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2092,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Roger Marshall": 49,
+        "Adam Hamilton": 50
+       },
+       "other": 1,
+       "undecided": 0
+      },
       {
        "pollster": "Emerson College",
        "dates": "October 26–28, 2026",
@@ -35588,7 +35633,7 @@
       "count": 11,
       "of": 14
      },
-     "latestPoll": "2026-10-28"
+     "latestPoll": "2026-10-29"
     },
     {
      "id": "KS-GOV",
@@ -35757,6 +35802,21 @@
      ],
      "polls": [
       {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2092,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Cindy Holscher": 49,
+        "Ty Masterson": 50
+       },
+       "other": 0,
+       "undecided": 0
+      },
+      {
        "pollster": "Emerson College",
        "dates": "October 26–28, 2026",
        "start": "2026-10-26",
@@ -35924,7 +35984,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-28"
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -37188,6 +37248,22 @@
      ],
      "polls": [
       {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 1503,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Hannah Pingree": 53,
+        "Bobby Charles": 45,
+        "Rick Bennett": 2
+       },
+       "other": 0,
+       "undecided": null
+      },
+      {
        "pollster": "Data for Progress (D)",
        "dates": "October 23–27, 2026",
        "start": "2026-10-23",
@@ -37521,7 +37597,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-27"
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -42033,11 +42109,11 @@
       },
       {
        "source": "Decision Desk HQ",
-       "rating": "Likely R",
-       "strength": "Likely",
+       "rating": "Lean R",
+       "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Economist",
@@ -42183,6 +42259,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 1979,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Pete Ricketts": 49,
+        "Dan Osborn": 49
+       },
+       "other": 1,
+       "undecided": 0
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 23–29, 2026",
@@ -42483,7 +42574,7 @@
       "rating": "Lean R",
       "strength": "Lean",
       "lean": "R",
-      "count": 6,
+      "count": 7,
       "of": 12
      },
      "latestPoll": "2026-10-29"
@@ -42654,6 +42745,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 1979,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Jim Pillen": 50,
+        "Lynne Walz": 47
+       },
+       "other": 1,
+       "undecided": 0
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 23–29, 2026",
@@ -45933,6 +46039,21 @@
      ],
      "polls": [
       {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2130,
+       "population": "LV",
+       "moe": 2.9,
+       "values": {
+        "Michael Whatley": 44,
+        "Roy Cooper": 55
+       },
+       "other": 1,
+       "undecided": 1
+      },
+      {
        "pollster": "Quantus Insights (R)",
        "dates": "October 24–25, 2026",
        "start": "2026-10-24",
@@ -46670,7 +46791,7 @@
       "count": 8,
       "of": 13
      },
-     "latestPoll": "2026-10-25"
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -51948,19 +52069,19 @@
        "dates": "October 26–29, 2026",
        "start": "2026-10-26",
        "end": "2026-10-29",
-       "sample": 2093,
+       "sample": 2141,
        "population": "LV",
-       "moe": 3,
+       "moe": 2.9,
        "values": {
-        "Ken Paxton": 51,
-        "James Talarico": 47,
+        "Ken Paxton": 47,
+        "James Talarico": 51,
         "Ted Brown": 1
        },
-       "other": 1,
-       "undecided": null
+       "other": null,
+       "undecided": 1
       },
       {
-       "pollster": "Quantus Insights",
+       "pollster": "Quantus Insights (R)",
        "dates": "October 26–28, 2026",
        "start": "2026-10-26",
        "end": "2026-10-28",
@@ -52286,7 +52407,7 @@
        "undecided": 4
       },
       {
-       "pollster": "Quantus Insights",
+       "pollster": "Quantus Insights (R)",
        "dates": "October 9–11, 2026",
        "start": "2026-10-09",
        "end": "2026-10-11",
@@ -52874,7 +52995,7 @@
        "undecided": 10
       },
       {
-       "pollster": "Quantus Insights",
+       "pollster": "Quantus Insights (R)",
        "dates": "June 3–4, 2026",
        "start": "2026-06-03",
        "end": "2026-06-04",
@@ -53294,6 +53415,21 @@
        },
        "other": 1,
        "undecided": 3
+      },
+      {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2141,
+       "population": "LV",
+       "moe": 2.9,
+       "values": {
+        "Greg Abbott": 50,
+        "Gina Hinojosa": 49
+       },
+       "other": 1,
+       "undecided": 0
       },
       {
        "pollster": "Quantus Insights (R)",
