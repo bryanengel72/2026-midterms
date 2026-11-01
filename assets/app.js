@@ -344,6 +344,14 @@ function candidateColors(race) {
   return map;
 }
 
+/** "within the margin of error" note when the headline is a single poll whose lead is inside it. */
+function headlineMoe(race, hl) {
+  if (!hl || hl.basis !== "latest-poll" || !hl.leader) return null;
+  const moe = race.polls[0]?.moe;
+  if (!withinMoe(hl.margin, moe)) return null;
+  return h("span", { class: "within-moe inline", title: MOE_TITLE(hl.margin, moe) }, " (within the margin of error)");
+}
+
 function leadLabel(race, { short = false, hl = headlineFor(race) } = {}) {
   if (!hl) return null;
   if (!hl.leader) return "Tied";
@@ -2272,14 +2280,28 @@ function polledNames(race, rows) {
   return race.candidates.filter((c) => seen.has(c.name)).map((c) => c.name);
 }
 
-function leadCell(race, values) {
+/**
+ * True when a lead is inside the poll's margin of error. The error on the
+ * gap between two candidates is roughly twice the poll's stated margin
+ * (which applies to each candidate's share separately).
+ */
+function withinMoe(lead, moe) {
+  return typeof moe === "number" && moe > 0 && lead > 0 && lead < 2 * moe;
+}
+
+const MOE_TITLE = (lead, moe) =>
+  `A ${fmtNum(lead)}-point lead is within this poll's margin of error: the margin on the gap between two candidates is about twice the stated ±${fmtNum(moe)}, so roughly ±${fmtNum(Math.round(moe * 20) / 10)}. The poll can't say for sure who's ahead.`;
+
+function leadCell(race, values, moe = null) {
   const ranked = Object.entries(values)
     .filter(([, v]) => typeof v === "number")
     .sort((a, b) => b[1] - a[1]);
   if (ranked.length < 2) return "–";
   const diff = Math.round((ranked[0][1] - ranked[1][1]) * 10) / 10;
   if (diff === 0) return "Tie";
-  return `${surname(ranked[0][0])} +${fmtNum(diff)}`;
+  const text = `${surname(ranked[0][0])} +${fmtNum(diff)}`;
+  if (!withinMoe(diff, moe)) return text;
+  return h("span", { class: "within-moe", title: MOE_TITLE(diff, moe) }, text, h("small", {}, "within MoE"));
 }
 
 function candHeader(race, name) {
@@ -2304,7 +2326,7 @@ function pollsTable(race) {
       names.map((n) => h("td", { class: "num" }, fmtPct(p.values[n]))),
       hasOther ? h("td", { class: "num" }, fmtPct(p.other)) : null,
       hasUnd ? h("td", { class: "num" }, fmtPct(p.undecided)) : null,
-      h("td", { class: "num lead-cell" }, leadCell(race, p.values)),
+      h("td", { class: "num lead-cell" }, leadCell(race, p.values, p.moe)),
     );
   const fill = (all) => tbody.replaceChildren(...(all ? race.polls : race.polls.slice(0, LIMIT)).map(rowFor));
   fill(false);
@@ -2344,7 +2366,7 @@ function pollsTable(race) {
   }
   wrap.append(
     h("p", { class: "hint", style: { marginTop: "6px" } },
-      "LV = likely voters, RV = registered voters, A = adults. (D) or (R) after a pollster's name marks a partisan pollster or a poll paid for by a partisan sponsor."),
+      "LV = likely voters, RV = registered voters, A = adults. (D) or (R) after a pollster's name marks a partisan pollster or a poll paid for by a partisan sponsor. \"Within MoE\" marks a lead smaller than twice the poll's margin of error (the error on the gap between two candidates), so the poll can't say for sure who's ahead."),
   );
   return wrap;
 }
@@ -2503,7 +2525,7 @@ function raceCard(race) {
     summary.append(
       standings,
       bar,
-      h("p", { class: "headline-note" }, h("strong", {}, leadLabel(race, { hl })), ` · ${hl.detail}`,
+      h("p", { class: "headline-note" }, h("strong", {}, leadLabel(race, { hl })), headlineMoe(race, hl), ` · ${hl.detail}`,
         (() => {
           const chip = trendChip(race, { long: true });
           return chip ? [" · ", chip] : null;
@@ -2748,6 +2770,7 @@ function setTimeMachine(index) {
     : `${fmtDate(ui.asOf, true)} · 30-day poll averages`;
   document.getElementById("tm-reset").hidden = atToday;
   document.getElementById("time-machine").classList.toggle("active", !atToday);
+  syncUrl();
   renderWatched();
   renderSenate();
   renderGenericBallot();
@@ -2835,9 +2858,49 @@ function selectState(code, scroll = false) {
   const sel = document.getElementById("state-select");
   sel.value = ui.selected || "";
   const hash = ui.selected ? `#${ui.selected}` : " ";
-  if ((location.hash || " ") !== hash) history.replaceState(null, "", ui.selected ? hash : location.pathname + location.search);
+  if ((location.hash || " ") !== hash) history.replaceState(null, "", location.pathname + location.search + (ui.selected ? hash : ""));
   renderMap();
   renderDetail({ scroll });
+}
+
+/** Keeps the address bar in step with the view, so a copied link opens it as is. */
+function syncUrl() {
+  const params = new URLSearchParams(location.search);
+  const set = (k, v) => (v ? params.set(k, v) : params.delete(k));
+  set("office", ui.office !== "all" ? ui.office.toLowerCase() : null);
+  set("view", ui.colorByChosen && ui.colorBy !== "polls" ? ui.colorBy : null);
+  set("asof", ui.asOf || null);
+  set("close", ui.closeOnly ? "1" : null);
+  const q = params.toString();
+  const url = location.pathname + (q ? `?${q}` : "") + location.hash;
+  if (url !== location.pathname + location.search + location.hash) history.replaceState(null, "", url);
+}
+
+/** Reads ?office=, ?view=, ?close= before the first render. ?asof= needs the time machine, so it comes after. */
+function readViewParams() {
+  const params = new URLSearchParams(location.search);
+  const office = { senate: "Senate", house: "House", governor: "Governor" }[(params.get("office") || "").toLowerCase()];
+  if (office) {
+    ui.office = office;
+    const radio = document.querySelector(`input[name="office"][value="${office}"]`);
+    if (radio) radio.checked = true;
+  }
+  const view = (params.get("view") || "").toLowerCase();
+  if (["polls", "ratings", "picks", "results"].includes(view) && (view !== "results" || anyResults())) {
+    ui.colorBy = view;
+    ui.colorByChosen = true;
+  }
+  if (params.get("close") === "1") {
+    ui.closeOnly = true;
+    document.getElementById("close-only").checked = true;
+  }
+  return params.get("asof");
+}
+
+function applyAsOfParam(asof) {
+  if (!asof || !/^\d{4}-\d{2}-\d{2}$/.test(asof) || ui.colorBy !== "polls" || ui.office === "House") return;
+  const i = Math.round((Date.parse(asof) - Date.parse(TM_START)) / DAY);
+  if (i >= 0 && i < tm.days) setTimeMachine(i);
 }
 
 function readHash() {
@@ -2856,6 +2919,7 @@ function setupControls() {
   for (const input of document.querySelectorAll('input[name="office"]')) {
     input.addEventListener("change", () => {
       ui.office = input.value;
+      queueMicrotask(syncUrl);
       // The time machine lives on the map, which the House view hides.
       if (ui.office === "House" && ui.asOf) {
         stopPlaying();
@@ -2884,6 +2948,7 @@ function setupControls() {
   });
   document.getElementById("close-only").addEventListener("change", (e) => {
     ui.closeOnly = e.target.checked;
+    syncUrl();
     renderMap();
     renderRacesTable();
   });
@@ -2917,6 +2982,7 @@ function wireColorBy(input) {
     input.addEventListener("change", () => {
       ui.colorBy = input.value;
       ui.colorByChosen = true;
+      queueMicrotask(syncUrl);
       renderPicksBar();
       if (ui.colorBy !== "polls" && ui.asOf) {
         stopPlaying();
@@ -3032,6 +3098,7 @@ async function main() {
     return;
   }
   renderHeader();
+  const asofParam = readViewParams();
   const sharedPicks = loadPicks();
   if (sharedPicks) {
     ui.colorBy = "picks";
@@ -3040,13 +3107,19 @@ async function main() {
   }
   setupControls();
   setupPicks();
-  if (sharedPicks) document.getElementById("time-machine").classList.add("off");
+  {
+    const radio = document.querySelector(`input[name="colorby"][value="${ui.colorBy}"]`);
+    if (radio) radio.checked = true;
+    document.getElementById("time-machine").classList.toggle("off", ui.colorBy !== "polls");
+  }
   ui.selected = readHash();
   document.getElementById("state-select").value = ui.selected || "";
   loadAlertsPref();
   alerts.seen = allCallIds();
   document.getElementById("alerts-btn").addEventListener("click", toggleAlerts);
   renderAll();
+  applyAsOfParam(asofParam);
+  syncUrl();
   if (ui.selected) renderDetail({ scroll: true });
   startLiveUpdates();
   if (sharedPicks) showToast(`Showing ${picks.size} shared pick${picks.size === 1 ? "" : "s"}. Change any of them by tapping.`, () => {}, null, "My picks: ");
