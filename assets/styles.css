@@ -731,6 +731,9 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
 .watch-race { display: flex; align-items: center; gap: 6px; font-size: 13px; }
 .watch-race .office { color: var(--muted); min-width: 58px; }
 .watch-race.muted { color: var(--muted); }
+.mini-split { display: inline-flex; gap: 1px; width: 14px; height: 14px; border-radius: 4px; overflow: hidden; flex: none; }
+.mini-split > span { flex-basis: 0; }
+.watch-house-bits { white-space: nowrap; }
 .watch-closing { font-size: 12px; color: var(--text-2); margin-top: 2px; }
 .watch-remove {
   position: absolute;
