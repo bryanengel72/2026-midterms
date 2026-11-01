@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T22:08:46.049Z",
+ "generatedAt": "2026-11-01T22:20:02.716Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -40016,62 +40016,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 8–27, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "October 8–29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Jocelyn Benson": 51.6,
-        "John James": 43.2
+        "Jocelyn Benson": 51.8,
+        "John James": 43.4
        },
-       "otherUndecided": 5.2
+       "otherUndecided": 4.8
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 27, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Jocelyn Benson": 50.3,
-        "John James": 42.2
+        "Jocelyn Benson": 50.7,
+        "John James": 43.1
        },
-       "otherUndecided": 7.5
+       "otherUndecided": 6.2
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 27, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Jocelyn Benson": 50.7,
-        "John James": 42.5
+        "Jocelyn Benson": 51.1,
+        "John James": 43
        },
-       "otherUndecided": 6.8
+       "otherUndecided": 5.9
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "September 24 – October 29, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "October 2–29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Jocelyn Benson": 51.1,
-        "John James": 43.3
+        "Jocelyn Benson": 51.3,
+        "John James": 43.1
        },
        "otherUndecided": 5.6
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 27, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Jocelyn Benson": 51.4,
-        "John James": 43.3
+        "Jocelyn Benson": 51.5,
+        "John James": 43.1
        },
-       "otherUndecided": 5.3
+       "otherUndecided": 5.4
       },
       {
        "source": "Average",
@@ -40080,10 +40080,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Jocelyn Benson": 51.2,
-        "John James": 42.9
+        "Jocelyn Benson": 51.3,
+        "John James": 43.1
        },
-       "otherUndecided": 5.9
+       "otherUndecided": 5.6
       }
      ],
      "polls": [
@@ -40617,11 +40617,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Jocelyn Benson": 51.2,
-       "John James": 42.9
+       "Jocelyn Benson": 51.3,
+       "John James": 43.1
       },
       "leader": "Jocelyn Benson",
-      "margin": 8.3
+      "margin": 8.2
      },
      "consensus": {
       "rating": "Lean D",
@@ -48180,6 +48180,21 @@
        "undecided": null
       },
       {
+       "pollster": "InsiderAdvantage (R)",
+       "dates": "October 29–30, 2026",
+       "start": "2026-10-29",
+       "end": "2026-10-30",
+       "sample": 1200,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Vivek Ramaswamy": 46,
+        "Amy Acton": 49
+       },
+       "other": 3,
+       "undecided": 2
+      },
+      {
        "pollster": "YouGov",
        "dates": "October 26–29, 2026",
        "start": "2026-10-26",
@@ -48191,7 +48206,7 @@
         "Vivek Ramaswamy": 46,
         "Amy Acton": 52
        },
-       "other": 1,
+       "other": 2,
        "undecided": 0
       },
       {
