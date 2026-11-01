@@ -689,6 +689,60 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
   .tile .band, .split-bar > span, .swatch { forced-color-adjust: none; }
 }
 
+/* Watched states ------------------------------------------------------------ */
+
+.watched { margin: 0 0 20px; }
+.watched-title { font-size: 15px; margin: 0 0 8px; color: var(--text-2); font-weight: 600; }
+.watched-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+  gap: 10px;
+}
+.watch-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: inset 0 3px 0 var(--focus);
+}
+.watch-open {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  width: 100%;
+  padding: 12px 34px 12px 14px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.watch-open:hover { background: var(--surface-2); }
+.watch-name { font-weight: 700; font-size: 16px; }
+.watch-race { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+.watch-race .office { color: var(--muted); min-width: 58px; }
+.watch-race.muted { color: var(--muted); }
+.watch-closing { font-size: 12px; color: var(--text-2); margin-top: 2px; }
+.watch-remove {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 26px;
+  height: 26px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+.watch-remove:hover { background: var(--surface-2); color: var(--text); }
+.watch-btn.on { color: var(--text); border-color: var(--focus); font-weight: 600; }
+.star { color: #e0a100; }
+.tile .code .star { font-size: 10px; margin-right: 1px; }
+
 /* Poll closings ------------------------------------------------------------ */
 
 .closings {
@@ -837,6 +891,10 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
   }
   .seat { transition: fill 450ms ease, opacity 450ms ease; }
   .seat.up:hover { transform-box: fill-box; transform-origin: center; transform: scale(1.25); transition: transform 140ms ease, fill 450ms ease; }
+
+  /* Watched: new cards pop in; the watch button gives a little bounce. */
+  .watch-card { animation: rise-sm 320ms ease both; }
+  .watch-btn.on { animation: pop 360ms cubic-bezier(0.2, 0.9, 0.3, 1.4); }
 
   /* Live countdown: a soft pulse on the dot of time. */
   #countdown .clock { animation: glow 2.4s ease-in-out infinite; }
