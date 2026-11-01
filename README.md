@@ -6,7 +6,7 @@ A state-by-state poll checker for the November 3, 2026 midterms. For every U.S. 
 - **Every general election poll**: pollster, field dates, sample size and population, margin of error, each candidate's share, and the lead.
 - **A poll trend chart** with a 30-day rolling average.
 - **Forecaster ratings** (Cook, Sabato, Inside Elections and more) with the consensus rating.
-- **Betting odds from Polymarket**: each candidate's implied chance of winning, loaded live when you open a state and refreshed every minute while it stays open.
+- **Betting odds from Polymarket**: each candidate's implied chance of winning, loaded live in your browser when you open a state and refreshed every minute while it stays open.
 - **A tile map** of all 50 states, colored by polling lead, forecaster rating or betting odds, and a sortable table of every race.
 
 Coverage: all 35 Senate races (33 regular plus the Florida and Ohio specials) and all 36 governor races. States with no statewide race (Indiana, Missouri, North Dakota, Utah, Washington) link to their House races.
@@ -25,9 +25,18 @@ Each race's English Wikipedia article (for example [2026 United States Senate el
 
 ## Betting odds
 
-Odds come from [Polymarket](https://polymarket.com)'s public API (no key needed). Every race has a "<State> <Office> Election Winner" market; their slugs are listed in `scripts/races.mjs`. The browser fetches live prices for the state you open. The data build also saves a snapshot, which colors the map and fills the table, and falls back to a title search if a slug stops working.
+Odds come from [Polymarket](https://polymarket.com)'s public API (no key needed). Every race has a "<State> <Office> Election Winner" market; their slugs are listed in `scripts/races.mjs`.
 
-Odds are not polls. They show what bettors will pay for each outcome, they can disagree with the polls, and markets with little money traded (flagged on the page under $50,000) can swing on a few bets. Check Polymarket's terms of use before publishing the site widely.
+**No Polymarket data is stored in this repository.** `data/polls.json` holds only each race's market slug and link. The visitor's browser loads the odds directly from Polymarket:
+
+- opening a state loads that state's races (one request), refreshed every minute while it stays open;
+- coloring the map by betting odds, or sorting the table by them, loads all 71 races (five requests), refreshed at most every five minutes while that view is on. Until then the table has no odds column.
+
+The data build checks that each slug still resolves and searches by title for any that moved, but keeps only the slug.
+
+Polymarket's [terms of use](https://polymarket.com/tos) grant a personal-use license and do not clearly permit showing its odds on another public site. If you plan to publish the site widely, consider asking Polymarket for written permission.
+
+Odds are not polls. They show what bettors will pay for each outcome, they can disagree with the polls, and markets with little money traded (flagged on the page under $50,000) can swing on a few bets.
 
 ## Running it
 
@@ -39,11 +48,11 @@ npm start          # serve the site at http://localhost:8080
 npm test           # parser tests
 ```
 
-`npm run update:cached` reuses articles already downloaded to `.cache/` (handy while working on the parser); `npm run build:offline` also skips Polymarket and keeps the previous odds snapshot. Behind a corporate or sandbox proxy, run Node with `NODE_USE_ENV_PROXY=1` so `fetch` honors `HTTPS_PROXY`.
+`npm run update:cached` reuses articles already downloaded to `.cache/` (handy while working on the parser); `npm run build:offline` also skips the Polymarket slug check. Behind a corporate or sandbox proxy, run Node with `NODE_USE_ENV_PROXY=1` so `fetch` honors `HTTPS_PROXY`.
 
 ## Automatic updates and hosting
 
-`.github/workflows/update-polls.yml` runs every three hours on `main` (and on demand from the Actions tab). It tests the parser, refreshes the polls and the odds snapshot, commits `data/polls.json` if anything changed, and publishes the site with GitHub Pages. Because odds move constantly, expect a data commit on most runs.
+`.github/workflows/update-polls.yml` runs every three hours on `main` (and on demand from the Actions tab). It tests the parser, refreshes the polls, commits `data/polls.json` if anything changed, and publishes the site with GitHub Pages.
 
 To turn on publishing, once: **Settings > Pages > Build and deployment > Source: GitHub Actions**. The site is plain HTML, CSS and JavaScript, so any static host works too.
 

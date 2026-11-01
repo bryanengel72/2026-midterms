@@ -8,16 +8,15 @@
 // A race whose article cannot be fetched keeps its previous data (marked
 // stale) so one bad request never blanks a state.
 //
-// It also snapshots Polymarket betting odds for each race (the browser loads
-// live odds on its own; the snapshot feeds the map and the races table).
-// --offline reuses the previous snapshot instead of calling Polymarket.
+// It also links each race to its Polymarket market (slug and URL only; no
+// prices are stored). The browser loads the odds live.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { STATES, listRaces, houseSeatsPage, POLYMARKET_SLUGS } from "./races.mjs";
 import { fetchWikitext, pageUrl, USER_AGENT } from "./wiki.mjs";
-import { fetchEvents, summarizeEvent, POLYMARKET_API } from "../assets/markets.js";
+import { fetchEvents, eventUrl, POLYMARKET_API } from "../assets/markets.js";
 import { parseRace, simpleAverage } from "./parse-race.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -142,43 +141,54 @@ async function searchEvent(race, stateName) {
   return (body.events || []).find((e) => String(e.title || "").trim() === title && !e.closed) || null;
 }
 
-async function attachMarkets(built, previous, races) {
-  const keepPrevious = (entry) => {
-    const prev = previous.get(entry.id)?.market;
-    if (prev) entry.market = { ...prev, stale: true };
+/**
+ * Records which Polymarket market belongs to each race: a slug and a link,
+ * never prices. Odds are loaded live in the visitor's browser, so this
+ * repository stores no Polymarket data. Online builds check that each slug
+ * still resolves and search by title for any that moved.
+ */
+async function linkMarkets(built, previous, races) {
+  const link = (entry, slug) => {
+    delete entry.market; // odds snapshots from older builds are not kept
+    const url = eventUrl(slug);
+    entry.polymarket = url ? { slug, url } : null;
   };
+  const previousSlug = (id) => previous.get(id)?.polymarket?.slug;
   if (offline) {
-    for (const entry of built.values()) {
-      const prev = previous.get(entry.id)?.market;
-      if (prev) entry.market = prev;
+    for (const race of races) {
+      const entry = built.get(race.id);
+      if (entry) link(entry, previousSlug(race.id) || POLYMARKET_SLUGS[race.id]);
     }
-    return "reused previous snapshot (offline)";
+    return "linked from the slug list (offline, not checked)";
   }
-  let events = new Map();
+  let events = null;
   try {
     events = await fetchEvents(Object.values(POLYMARKET_SLUGS), { headers: { "User-Agent": USER_AGENT } });
   } catch (err) {
-    for (const entry of built.values()) keepPrevious(entry);
-    return `unavailable (${err.message}); kept previous snapshot`;
+    for (const race of races) {
+      const entry = built.get(race.id);
+      if (entry) link(entry, previousSlug(race.id) || POLYMARKET_SLUGS[race.id]);
+    }
+    return `could not check slugs (${err.message}); linked from the slug list`;
   }
-  const fetchedAt = new Date().toISOString();
   const missing = [];
   for (const race of races) {
     const entry = built.get(race.id);
     if (!entry) continue;
-    let event = events.get(POLYMARKET_SLUGS[race.id]);
-    if (!event) {
+    let slug = POLYMARKET_SLUGS[race.id];
+    if (!events.has(slug)) {
       const stateName = STATES.find((st) => st.code === race.state).name;
-      event = await searchEvent(race, stateName).catch(() => null);
-      if (event) console.warn(`Polymarket slug for ${race.id} changed to ${event.slug}; update POLYMARKET_SLUGS.`);
+      const found = await searchEvent(race, stateName).catch(() => null);
+      if (found) {
+        console.warn(`Polymarket slug for ${race.id} changed to ${found.slug}; update POLYMARKET_SLUGS.`);
+        slug = found.slug;
+      } else {
+        missing.push(race.id);
+      }
     }
-    if (event) entry.market = { ...summarizeEvent(event, entry.candidates, entry.incumbent), fetchedAt };
-    else {
-      missing.push(race.id);
-      keepPrevious(entry);
-    }
+    link(entry, slug);
   }
-  return `${built.size - missing.length} races${missing.length ? `; not found: ${missing.join(", ")}` : ""}`;
+  return `${races.length - missing.length} races linked${missing.length ? `; not found: ${missing.join(", ")}` : ""}`;
 }
 
 async function main() {
@@ -226,8 +236,8 @@ async function main() {
     if (!page.fromCache) await sleep(delayMs);
   }
 
-  const marketStatus = await attachMarkets(built, previous, races);
-  console.log(`Polymarket odds: ${marketStatus}`);
+  const marketStatus = await linkMarkets(built, previous, races);
+  console.log(`Polymarket markets: ${marketStatus}`);
 
   const withPolls = [...built.values()].filter((r) => r.polls.length).length;
   const prevWithPolls = [...previous.values()].filter((r) => r.polls?.length).length;
@@ -251,7 +261,7 @@ async function main() {
     markets: {
       name: "Polymarket",
       url: "https://polymarket.com",
-      note: "Implied chance of winning from Polymarket prices. Betting odds, not polls.",
+      note: "Only links to each race's market are stored here. Odds are loaded live in the visitor's browser and are betting odds, not polls.",
     },
     states: STATES.map(({ code, name }) => ({
       code,

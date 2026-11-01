@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T11:54:43.340Z",
+ "generatedAt": "2026-11-01T12:04:46.018Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -10,7 +10,7 @@
  "markets": {
   "name": "Polymarket",
   "url": "https://polymarket.com",
-  "note": "Implied chance of winning from Polymarket prices. Betting odds, not polls."
+  "note": "Only links to each race's market are stored here. Odds are loaded live in the visitor's browser and are betting odds, not polls."
  },
  "states": [
   {
@@ -228,27 +228,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-24",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "alabama-senate-election-winner-154",
-      "url": "https://polymarket.com/event/alabama-senate-election-winner-154",
-      "volume": 15918,
-      "outcomes": [
-       {
-        "label": "Barry Moore",
-        "name": "Barry Moore",
-        "party": "R",
-        "probability": 0.991
-       },
-       {
-        "label": "Everett Wess",
-        "name": "Everett Wess",
-        "party": "D",
-        "probability": 0.011
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/alabama-senate-election-winner-154"
      }
     },
     {
@@ -452,27 +434,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-24",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "alabama-governor-winner-2026",
-      "url": "https://polymarket.com/event/alabama-governor-winner-2026",
-      "volume": 55962,
-      "outcomes": [
-       {
-        "label": "Tommy Tuberville",
-        "name": "Tommy Tuberville",
-        "party": "R",
-        "probability": 0.945
-       },
-       {
-        "label": "Doug Jones",
-        "name": "Doug Jones",
-        "party": "D",
-        "probability": 0.055
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/alabama-governor-winner-2026"
      }
     }
    ]
@@ -1159,27 +1123,9 @@
       "of": 14
      },
      "latestPoll": "2026-10-29",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "alaska-senate-election-winner",
-      "url": "https://polymarket.com/event/alaska-senate-election-winner",
-      "volume": 2373396,
-      "outcomes": [
-       {
-        "label": "Mary Peltola",
-        "name": "Mary Peltola",
-        "party": "D",
-        "probability": 0.725
-       },
-       {
-        "label": "Dan Sullivan",
-        "name": "Dan S. Sullivan",
-        "party": "R",
-        "probability": 0.275
-       }
-      ],
-      "otherProbability": 0.003,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/alaska-senate-election-winner"
      }
     },
     {
@@ -1426,27 +1372,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-18",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "alaska-governor-election-winner",
-      "url": "https://polymarket.com/event/alaska-governor-election-winner",
-      "volume": 1748847,
-      "outcomes": [
-       {
-        "label": "Jonathan Kreiss-Tomkins",
-        "name": "Jonathan Kreiss-Tomkins",
-        "party": "D",
-        "probability": 0.888
-       },
-       {
-        "label": "Bernadette Wilson",
-        "name": "Bernadette Wilson",
-        "party": "R",
-        "probability": 0.105
-       }
-      ],
-      "otherProbability": 0.01,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/alaska-governor-election-winner"
      }
     }
    ]
@@ -2090,27 +2018,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-29",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "arizona-governor-winner-2026",
-      "url": "https://polymarket.com/event/arizona-governor-winner-2026",
-      "volume": 543195,
-      "outcomes": [
-       {
-        "label": "Katie Hobbs",
-        "name": "Katie Hobbs",
-        "party": "D",
-        "probability": 0.935
-       },
-       {
-        "label": "Andy Biggs",
-        "name": "Andy Biggs",
-        "party": "R",
-        "probability": 0.07
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/arizona-governor-winner-2026"
      }
     }
    ]
@@ -2382,27 +2292,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-13",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "arkansas-senate-election-winner",
-      "url": "https://polymarket.com/event/arkansas-senate-election-winner",
-      "volume": 106353,
-      "outcomes": [
-       {
-        "label": "Tom Cotton",
-        "name": "Tom Cotton",
-        "party": "R",
-        "probability": 0.955
-       },
-       {
-        "label": "Hallie Shoffner",
-        "name": "Hallie Shoffner",
-        "party": "D",
-        "probability": 0.044
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/arkansas-senate-election-winner"
      }
     },
     {
@@ -2555,27 +2447,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-13",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "arkansas-governor-winner-2026",
-      "url": "https://polymarket.com/event/arkansas-governor-winner-2026",
-      "volume": 12284,
-      "outcomes": [
-       {
-        "label": "Sarah Huckabee Sanders",
-        "name": "Sarah Huckabee Sanders",
-        "party": "R",
-        "probability": 0.972
-       },
-       {
-        "label": "Fredrick Love",
-        "name": "Fredrick Love",
-        "party": "D",
-        "probability": 0.025
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/arkansas-governor-winner-2026"
      }
     }
    ]
@@ -3018,27 +2892,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-25",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "california-governor-election-2026",
-      "url": "https://polymarket.com/event/california-governor-election-2026",
-      "volume": 43804113,
-      "outcomes": [
-       {
-        "label": "Xavier Becerra",
-        "name": "Xavier Becerra",
-        "party": "D",
-        "probability": 0.985
-       },
-       {
-        "label": "Steve Hilton",
-        "name": "Steve Hilton",
-        "party": "R",
-        "probability": 0.015
-       }
-      ],
-      "otherProbability": 0.011,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/california-governor-election-2026"
      }
     }
    ]
@@ -3176,21 +3032,9 @@
       "of": 11
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "colorado-senate-election-winner",
-      "url": "https://polymarket.com/event/colorado-senate-election-winner",
-      "volume": 53860,
-      "outcomes": [
-       {
-        "label": "John Hickenlooper",
-        "name": "John Hickenlooper",
-        "party": "D",
-        "probability": 0.995
-       }
-      ],
-      "otherProbability": 0.005,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/colorado-senate-election-winner"
      }
     },
     {
@@ -3292,27 +3136,9 @@
       "of": 8
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "colorado-governor-winner-2026",
-      "url": "https://polymarket.com/event/colorado-governor-winner-2026",
-      "volume": 19519,
-      "outcomes": [
-       {
-        "label": "Phil Weiser",
-        "name": "Phil Weiser",
-        "party": "D",
-        "probability": 0.968
-       },
-       {
-        "label": "Victor Marx",
-        "name": "Victor Marx",
-        "party": "R",
-        "probability": 0.033
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/colorado-governor-winner-2026"
      }
     }
    ]
@@ -3647,27 +3473,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-12",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "connecticut-governor-winner-2026",
-      "url": "https://polymarket.com/event/connecticut-governor-winner-2026",
-      "volume": 12195,
-      "outcomes": [
-       {
-        "label": "Ned Lamont",
-        "name": "Ned Lamont",
-        "party": "D",
-        "probability": 0.977
-       },
-       {
-        "label": "Ryan Fazio",
-        "name": "Ryan Fazio",
-        "party": "R",
-        "probability": 0.021
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/connecticut-governor-winner-2026"
      }
     }
    ]
@@ -3800,27 +3608,9 @@
       "of": 11
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "delaware-senate-election-winner",
-      "url": "https://polymarket.com/event/delaware-senate-election-winner",
-      "volume": 34156,
-      "outcomes": [
-       {
-        "label": "Democrat",
-        "name": "Chris Coons",
-        "party": "D",
-        "probability": 0.987
-       },
-       {
-        "label": "Republican",
-        "name": "Michael Katz",
-        "party": "R",
-        "probability": 0.012
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/delaware-senate-election-winner"
      }
     }
    ]
@@ -4496,27 +4286,9 @@
       "of": 12
      },
      "latestPoll": "2026-10-30",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "florida-senate-election-winner",
-      "url": "https://polymarket.com/event/florida-senate-election-winner",
-      "volume": 580786,
-      "outcomes": [
-       {
-        "label": "Ashley Moody",
-        "name": "Ashley Moody",
-        "party": "R",
-        "probability": 0.905
-       },
-       {
-        "label": "Angie Nixon",
-        "name": "Angie Nixon",
-        "party": "D",
-        "probability": 0.085
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/florida-senate-election-winner"
      }
     },
     {
@@ -5318,27 +5090,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-30",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "florida-governor-winner-2026",
-      "url": "https://polymarket.com/event/florida-governor-winner-2026",
-      "volume": 1125556,
-      "outcomes": [
-       {
-        "label": "Byron Donalds",
-        "name": "Byron Donalds",
-        "party": "R",
-        "probability": 0.655
-       },
-       {
-        "label": "David Jolly",
-        "name": "David Jolly",
-        "party": "D",
-        "probability": 0.345
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/florida-governor-winner-2026"
      }
     }
    ]
@@ -5902,27 +5656,9 @@
       "of": 13
      },
      "latestPoll": "2026-10-23",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "georgia-senate-election-winner",
-      "url": "https://polymarket.com/event/georgia-senate-election-winner",
-      "volume": 416379,
-      "outcomes": [
-       {
-        "label": "Jon Ossoff",
-        "name": "Jon Ossoff",
-        "party": "D",
-        "probability": 0.974
-       },
-       {
-        "label": "Mike Collins",
-        "name": "Mike Collins",
-        "party": "R",
-        "probability": 0.028
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/georgia-senate-election-winner"
      }
     },
     {
@@ -6379,27 +6115,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-27",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "georgia-governor-winner-2026",
-      "url": "https://polymarket.com/event/georgia-governor-winner-2026",
-      "volume": 390110,
-      "outcomes": [
-       {
-        "label": "Keisha Lance Bottoms",
-        "name": "Keisha Lance Bottoms",
-        "party": "D",
-        "probability": 0.71
-       },
-       {
-        "label": "Rick Jackson",
-        "name": "Rick Jackson",
-        "party": "R",
-        "probability": 0.3
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/georgia-governor-winner-2026"
      }
     }
    ]
@@ -6508,21 +6226,9 @@
       "of": 8
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "hawaii-governor-winner-2026",
-      "url": "https://polymarket.com/event/hawaii-governor-winner-2026",
-      "volume": 29104,
-      "outcomes": [
-       {
-        "label": "Josh Green",
-        "name": "Josh Green",
-        "party": "D",
-        "probability": 0.989
-       }
-      ],
-      "otherProbability": 0.009,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/hawaii-governor-winner-2026"
      }
     }
    ]
@@ -6800,27 +6506,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-22",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "idaho-senate-election-winner",
-      "url": "https://polymarket.com/event/idaho-senate-election-winner",
-      "volume": 473192,
-      "outcomes": [
-       {
-        "label": "Jim Risch",
-        "name": "Jim Risch",
-        "party": "R",
-        "probability": 0.971
-       },
-       {
-        "label": "Todd Achilles",
-        "name": "Todd Achilles",
-        "party": "I",
-        "probability": 0.031
-       }
-      ],
-      "otherProbability": 0.001,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/idaho-senate-election-winner"
      }
     },
     {
@@ -6989,27 +6677,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-22",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "idaho-governor-winner-2026",
-      "url": "https://polymarket.com/event/idaho-governor-winner-2026",
-      "volume": 27685,
-      "outcomes": [
-       {
-        "label": "Brad Little",
-        "name": "Brad Little",
-        "party": "R",
-        "probability": 0.986
-       },
-       {
-        "label": "Terri Pickens",
-        "name": "Terri Pickens",
-        "party": "D",
-        "probability": 0.015
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/idaho-governor-winner-2026"
      }
     }
    ]
@@ -7199,21 +6869,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-30",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "illinois-senate-election-winner",
-      "url": "https://polymarket.com/event/illinois-senate-election-winner",
-      "volume": 40276,
-      "outcomes": [
-       {
-        "label": "Juliana Stratton",
-        "name": "Juliana Stratton",
-        "party": "D",
-        "probability": 0.991
-       }
-      ],
-      "otherProbability": 0.01,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/illinois-senate-election-winner"
      }
     },
     {
@@ -7372,27 +7030,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-22",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "illinois-governor-winner-2026",
-      "url": "https://polymarket.com/event/illinois-governor-winner-2026",
-      "volume": 35411,
-      "outcomes": [
-       {
-        "label": "JB Pritzker",
-        "name": "JB Pritzker",
-        "party": "D",
-        "probability": 0.988
-       },
-       {
-        "label": "Darren Bailey",
-        "name": "Darren Bailey",
-        "party": "R",
-        "probability": 0.011
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/illinois-governor-winner-2026"
      }
     }
    ]
@@ -8180,27 +7820,9 @@
       "of": 14
      },
      "latestPoll": "2026-10-28",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "iowa-senate-election-winner",
-      "url": "https://polymarket.com/event/iowa-senate-election-winner",
-      "volume": 1824537,
-      "outcomes": [
-       {
-        "label": "Ashley Hinson",
-        "name": "Ashley Hinson",
-        "party": "R",
-        "probability": 0.585
-       },
-       {
-        "label": "Josh Turek",
-        "name": "Josh Turek",
-        "party": "D",
-        "probability": 0.415
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/iowa-senate-election-winner"
      }
     },
     {
@@ -8717,27 +8339,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-28",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "iowa-governor-winner-2026",
-      "url": "https://polymarket.com/event/iowa-governor-winner-2026",
-      "volume": 408590,
-      "outcomes": [
-       {
-        "label": "Rob Sand",
-        "name": "Rob Sand",
-        "party": "D",
-        "probability": 0.86
-       },
-       {
-        "label": "Zach Lahn",
-        "name": "Zach Lahn",
-        "party": "R",
-        "probability": 0.135
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/iowa-governor-winner-2026"
      }
     }
    ]
@@ -9251,27 +8855,9 @@
       "of": 14
      },
      "latestPoll": "2026-10-28",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "kansas-senate-election-winner",
-      "url": "https://polymarket.com/event/kansas-senate-election-winner",
-      "volume": 1996015,
-      "outcomes": [
-       {
-        "label": "Adam Hamilton",
-        "name": "Adam Hamilton",
-        "party": "D",
-        "probability": 0.515
-       },
-       {
-        "label": "Roger Marshall",
-        "name": "Roger Marshall",
-        "party": "R",
-        "probability": 0.485
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/kansas-senate-election-winner"
      }
     },
     {
@@ -9608,27 +9194,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-28",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "kansas-governor-winner-2026",
-      "url": "https://polymarket.com/event/kansas-governor-winner-2026",
-      "volume": 258376,
-      "outcomes": [
-       {
-        "label": "Ty Masterson",
-        "name": "Ty Masterson",
-        "party": "R",
-        "probability": 0.755
-       },
-       {
-        "label": "Cindy Holscher",
-        "name": "Cindy Holscher",
-        "party": "D",
-        "probability": 0.255
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/kansas-governor-winner-2026"
      }
     }
    ]
@@ -9803,27 +9371,9 @@
       "of": 11
      },
      "latestPoll": "2026-08-27",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "kentucky-senate-election-winner",
-      "url": "https://polymarket.com/event/kentucky-senate-election-winner",
-      "volume": 38834,
-      "outcomes": [
-       {
-        "label": "Andy Barr",
-        "name": "Andy Barr",
-        "party": "R",
-        "probability": 0.982
-       },
-       {
-        "label": "Charles Booker",
-        "name": "Charles Booker",
-        "party": "D",
-        "probability": 0.021
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/kentucky-senate-election-winner"
      }
     }
    ]
@@ -10013,27 +9563,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-29",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "louisiana-senate-election-winner",
-      "url": "https://polymarket.com/event/louisiana-senate-election-winner",
-      "volume": 127037,
-      "outcomes": [
-       {
-        "label": "Julia Letlow",
-        "name": "Julia Letlow",
-        "party": "R",
-        "probability": 0.915
-       },
-       {
-        "label": "Jamie Davis",
-        "name": "Jamie Davis",
-        "party": "D",
-        "probability": 0.085
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/louisiana-senate-election-winner"
      }
     }
    ]
@@ -10726,27 +10258,9 @@
       "of": 14
      },
      "latestPoll": "2026-10-27",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "maine-senate-election-winner",
-      "url": "https://polymarket.com/event/maine-senate-election-winner",
-      "volume": 3171946,
-      "outcomes": [
-       {
-        "label": "Troy Jackson",
-        "name": "Troy Jackson",
-        "party": "D",
-        "probability": 0.675
-       },
-       {
-        "label": "Susan Collins",
-        "name": "Susan Collins",
-        "party": "R",
-        "probability": 0.325
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/maine-senate-election-winner"
      }
     },
     {
@@ -11258,27 +10772,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-27",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "maine-governor-winner-2026",
-      "url": "https://polymarket.com/event/maine-governor-winner-2026",
-      "volume": 60355,
-      "outcomes": [
-       {
-        "label": "Hannah Pingree",
-        "name": "Hannah Pingree",
-        "party": "D",
-        "probability": 0.969
-       },
-       {
-        "label": "Robert Charles",
-        "name": "Bobby Charles",
-        "party": "R",
-        "probability": 0.03
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/maine-governor-winner-2026"
      }
     }
    ]
@@ -11429,21 +10925,9 @@
       "of": 8
      },
      "latestPoll": "2026-09-27",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "maryland-governor-winner-2026",
-      "url": "https://polymarket.com/event/maryland-governor-winner-2026",
-      "volume": 30450,
-      "outcomes": [
-       {
-        "label": "Wes Moore",
-        "name": "Wes Moore",
-        "party": "D",
-        "probability": 0.992
-       }
-      ],
-      "otherProbability": 0.009,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/maryland-governor-winner-2026"
      }
     }
    ]
@@ -11842,21 +11326,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-18",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "massachusetts-senate-election-winner",
-      "url": "https://polymarket.com/event/massachusetts-senate-election-winner",
-      "volume": 58099,
-      "outcomes": [
-       {
-        "label": "Ed Markey",
-        "name": "Ed Markey",
-        "party": "D",
-        "probability": 0.994
-       }
-      ],
-      "otherProbability": 0.008,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/massachusetts-senate-election-winner"
      }
     },
     {
@@ -12199,27 +11671,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-18",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "massachusetts-governor-winner-2026",
-      "url": "https://polymarket.com/event/massachusetts-governor-winner-2026",
-      "volume": 219490,
-      "outcomes": [
-       {
-        "label": "Maura Healey",
-        "name": "Maura Healey",
-        "party": "D",
-        "probability": 0.983
-       },
-       {
-        "label": "Michael Minogue",
-        "name": "Mike Minogue",
-        "party": "R",
-        "probability": 0.018
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/massachusetts-governor-winner-2026"
      }
     }
    ]
@@ -13376,27 +12830,9 @@
       "of": 14
      },
      "latestPoll": "2026-10-29",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "michigan-senate-election-winner",
-      "url": "https://polymarket.com/event/michigan-senate-election-winner",
-      "volume": 5634649,
-      "outcomes": [
-       {
-        "label": "Abdul El-Sayed",
-        "name": "Abdul El-Sayed",
-        "party": "D",
-        "probability": 0.815
-       },
-       {
-        "label": "Mike Rogers",
-        "name": "Mike Rogers",
-        "party": "R",
-        "probability": 0.185
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/michigan-senate-election-winner"
      }
     },
     {
@@ -14093,27 +13529,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-27",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "michigan-governor-winner-2026",
-      "url": "https://polymarket.com/event/michigan-governor-winner-2026",
-      "volume": 492733,
-      "outcomes": [
-       {
-        "label": "Jocelyn Benson",
-        "name": "Jocelyn Benson",
-        "party": "D",
-        "probability": 0.938
-       },
-       {
-        "label": "John James",
-        "name": "John James",
-        "party": "R",
-        "probability": 0.065
-       }
-      ],
-      "otherProbability": 0.001,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/michigan-governor-winner-2026"
      }
     }
    ]
@@ -14654,27 +14072,9 @@
       "of": 12
      },
      "latestPoll": "2026-10-28",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "minnesota-senate-election-winner",
-      "url": "https://polymarket.com/event/minnesota-senate-election-winner",
-      "volume": 627354,
-      "outcomes": [
-       {
-        "label": "Peggy Flanagan",
-        "name": "Peggy Flanagan",
-        "party": "D",
-        "probability": 0.925
-       },
-       {
-        "label": "Michele Tafoya",
-        "name": "Michele Tafoya",
-        "party": "R",
-        "probability": 0.075
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/minnesota-senate-election-winner"
      }
     },
     {
@@ -15047,27 +14447,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-28",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "minnesota-governor-winner-2026",
-      "url": "https://polymarket.com/event/minnesota-governor-winner-2026",
-      "volume": 148022,
-      "outcomes": [
-       {
-        "label": "Amy Klobuchar",
-        "name": "Amy Klobuchar",
-        "party": "D",
-        "probability": 0.979
-       },
-       {
-        "label": "Lisa Demuth",
-        "name": "Lisa Demuth",
-        "party": "R",
-        "probability": 0.021
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/minnesota-governor-winner-2026"
      }
     }
    ]
@@ -15290,27 +14672,9 @@
       "of": 12
      },
      "latestPoll": "2026-10-22",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "mississippi-senate-election-winner",
-      "url": "https://polymarket.com/event/mississippi-senate-election-winner",
-      "volume": 544707,
-      "outcomes": [
-       {
-        "label": "Cindy Hyde-Smith",
-        "name": "Cindy Hyde-Smith",
-        "party": "R",
-        "probability": 0.885
-       },
-       {
-        "label": "Scott Colom",
-        "name": "Scott Colom",
-        "party": "D",
-        "probability": 0.115
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/mississippi-senate-election-winner"
      }
     }
    ]
@@ -15856,27 +15220,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-23",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "montana-senate-election-winner",
-      "url": "https://polymarket.com/event/montana-senate-election-winner",
-      "volume": 374739,
-      "outcomes": [
-       {
-        "label": "Kurt Alme",
-        "name": "Kurt Alme",
-        "party": "R",
-        "probability": 0.905
-       },
-       {
-        "label": "Independent",
-        "name": "Seth Bodnar",
-        "party": "I",
-        "probability": 0.095
-       }
-      ],
-      "otherProbability": 0.001,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/montana-senate-election-winner"
      }
     }
    ]
@@ -16375,27 +15721,9 @@
       "of": 12
      },
      "latestPoll": "2026-10-29",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "nebraska-senate-election-winner",
-      "url": "https://polymarket.com/event/nebraska-senate-election-winner",
-      "volume": 2110428,
-      "outcomes": [
-       {
-        "label": "Pete Ricketts",
-        "name": "Pete Ricketts",
-        "party": "R",
-        "probability": 0.745
-       },
-       {
-        "label": "Independent",
-        "name": "Dan Osborn",
-        "party": "I",
-        "probability": 0.255
-       }
-      ],
-      "otherProbability": 0.001,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/nebraska-senate-election-winner"
      }
     },
     {
@@ -16837,27 +16165,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-29",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "nebraska-governor-winner-2026",
-      "url": "https://polymarket.com/event/nebraska-governor-winner-2026",
-      "volume": 70531,
-      "outcomes": [
-       {
-        "label": "Jim Pillen",
-        "name": "Jim Pillen",
-        "party": "R",
-        "probability": 0.925
-       },
-       {
-        "label": "Lynne Walz",
-        "name": "Lynne Walz",
-        "party": "D",
-        "probability": 0.075
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/nebraska-governor-winner-2026"
      }
     }
    ]
@@ -17306,27 +16616,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-28",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "nevada-governor-winner-2026",
-      "url": "https://polymarket.com/event/nevada-governor-winner-2026",
-      "volume": 1173358,
-      "outcomes": [
-       {
-        "label": "Aaron Ford",
-        "name": "Aaron Ford",
-        "party": "D",
-        "probability": 0.785
-       },
-       {
-        "label": "Joe Lombardo",
-        "name": "Joe Lombardo",
-        "party": "R",
-        "probability": 0.215
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/nevada-governor-winner-2026"
      }
     }
    ]
@@ -18010,27 +17302,9 @@
       "of": 13
      },
      "latestPoll": "2026-10-23",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "new-hampshire-senate-election-winner",
-      "url": "https://polymarket.com/event/new-hampshire-senate-election-winner",
-      "volume": 562685,
-      "outcomes": [
-       {
-        "label": "Chris Pappas",
-        "name": "Chris Pappas",
-        "party": "D",
-        "probability": 0.935
-       },
-       {
-        "label": "John E. Sununu",
-        "name": "John E. Sununu",
-        "party": "R",
-        "probability": 0.065
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/new-hampshire-senate-election-winner"
      }
     },
     {
@@ -18442,27 +17716,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-23",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "new-hampshire-governor-winner-2026",
-      "url": "https://polymarket.com/event/new-hampshire-governor-winner-2026",
-      "volume": 69880,
-      "outcomes": [
-       {
-        "label": "Kelly Ayotte",
-        "name": "Kelly Ayotte",
-        "party": "R",
-        "probability": 0.921
-       },
-       {
-        "label": "Cinde Warmington",
-        "name": "Cinde Warmington",
-        "party": "D",
-        "probability": 0.077
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/new-hampshire-governor-winner-2026"
      }
     }
    ]
@@ -18595,27 +17851,9 @@
       "of": 11
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "new-jersey-senate-election-winner",
-      "url": "https://polymarket.com/event/new-jersey-senate-election-winner",
-      "volume": 35150,
-      "outcomes": [
-       {
-        "label": "Cory Booker",
-        "name": "Cory Booker",
-        "party": "D",
-        "probability": 0.989
-       },
-       {
-        "label": "Justin Murphy",
-        "name": "Justin Murphy",
-        "party": "R",
-        "probability": 0.01
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/new-jersey-senate-election-winner"
      }
     }
    ]
@@ -18842,27 +18080,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-09",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "new-mexico-senate-election-winner",
-      "url": "https://polymarket.com/event/new-mexico-senate-election-winner",
-      "volume": 33050,
-      "outcomes": [
-       {
-        "label": "Ben Ray Luján",
-        "name": "Ben Ray Luján",
-        "party": "D",
-        "probability": 0.992
-       },
-       {
-        "label": "Larry Marker",
-        "name": "Larry Marker",
-        "party": "R",
-        "probability": 0.011
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/new-mexico-senate-election-winner"
      }
     },
     {
@@ -19064,27 +18284,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-09",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "new-mexico-governor-winner-2026",
-      "url": "https://polymarket.com/event/new-mexico-governor-winner-2026",
-      "volume": 114093,
-      "outcomes": [
-       {
-        "label": "Deb Haaland",
-        "name": "Deb Haaland",
-        "party": "D",
-        "probability": 0.96
-       },
-       {
-        "label": "Gregg Hull",
-        "name": "Gregg Hull",
-        "party": "R",
-        "probability": 0.041
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/new-mexico-governor-winner-2026"
      }
     }
    ]
@@ -19758,27 +18960,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-25",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "new-york-governor-winner-2026",
-      "url": "https://polymarket.com/event/new-york-governor-winner-2026",
-      "volume": 430866,
-      "outcomes": [
-       {
-        "label": "Kathy Hochul",
-        "name": "Kathy Hochul",
-        "party": "D",
-        "probability": 0.977
-       },
-       {
-        "label": "Bruce Blakeman",
-        "name": "Bruce Blakeman",
-        "party": "R",
-        "probability": 0.026
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/new-york-governor-winner-2026"
      }
     }
    ]
@@ -20732,27 +19916,9 @@
       "of": 13
      },
      "latestPoll": "2026-10-25",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "north-carolina-senate-election-winner",
-      "url": "https://polymarket.com/event/north-carolina-senate-election-winner",
-      "volume": 314812,
-      "outcomes": [
-       {
-        "label": "Roy Cooper",
-        "name": "Roy Cooper",
-        "party": "D",
-        "probability": 0.98
-       },
-       {
-        "label": "Michael Whatley",
-        "name": "Michael Whatley",
-        "party": "R",
-        "probability": 0.022
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/north-carolina-senate-election-winner"
      }
     }
    ]
@@ -21645,27 +20811,9 @@
       "of": 14
      },
      "latestPoll": "2026-10-26",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "ohio-senate-election-winner",
-      "url": "https://polymarket.com/event/ohio-senate-election-winner",
-      "volume": 2419412,
-      "outcomes": [
-       {
-        "label": "Sherrod Brown",
-        "name": "Sherrod Brown",
-        "party": "D",
-        "probability": 0.735
-       },
-       {
-        "label": "Jon Husted",
-        "name": "Jon Husted",
-        "party": "R",
-        "probability": 0.265
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/ohio-senate-election-winner"
      }
     },
     {
@@ -22392,27 +21540,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-26",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "ohio-governor-winner-2026",
-      "url": "https://polymarket.com/event/ohio-governor-winner-2026",
-      "volume": 1565192,
-      "outcomes": [
-       {
-        "label": "Amy Acton",
-        "name": "Amy Acton",
-        "party": "D",
-        "probability": 0.825
-       },
-       {
-        "label": "Vivek Ramaswamy",
-        "name": "Vivek Ramaswamy",
-        "party": "R",
-        "probability": 0.185
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/ohio-governor-winner-2026"
      }
     }
    ]
@@ -22572,27 +21702,9 @@
       "of": 11
      },
      "latestPoll": "2026-08-06",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "oklahoma-senate-election-winner",
-      "url": "https://polymarket.com/event/oklahoma-senate-election-winner",
-      "volume": 30115,
-      "outcomes": [
-       {
-        "label": "Kevin Hern",
-        "name": "Kevin Hern",
-        "party": "R",
-        "probability": 0.988
-       },
-       {
-        "label": "N'Kiyla \"Jasmine\" Thomas",
-        "name": "N'Kiyla \"Jasmine\" Thomas",
-        "party": "D",
-        "probability": 0.012
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/oklahoma-senate-election-winner"
      }
     },
     {
@@ -22751,27 +21863,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-13",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "oklahoma-governor-winner-2026",
-      "url": "https://polymarket.com/event/oklahoma-governor-winner-2026",
-      "volume": 151068,
-      "outcomes": [
-       {
-        "label": "Mike Mazzei",
-        "name": "Mike Mazzei",
-        "party": "R",
-        "probability": 0.915
-       },
-       {
-        "label": "Cyndi Munson",
-        "name": "Cyndi Munson",
-        "party": "D",
-        "probability": 0.085
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/oklahoma-governor-winner-2026"
      }
     }
    ]
@@ -22904,21 +21998,9 @@
       "of": 11
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "oregon-senate-election-winner",
-      "url": "https://polymarket.com/event/oregon-senate-election-winner",
-      "volume": 10466,
-      "outcomes": [
-       {
-        "label": "Jeff Merkley",
-        "name": "Jeff Merkley",
-        "party": "D",
-        "probability": 0.989
-       }
-      ],
-      "otherProbability": 0.01,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/oregon-senate-election-winner"
      }
     },
     {
@@ -23159,27 +22241,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-04",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "oregon-governor-winner-2026",
-      "url": "https://polymarket.com/event/oregon-governor-winner-2026",
-      "volume": 167600,
-      "outcomes": [
-       {
-        "label": "Tina Kotek",
-        "name": "Tina Kotek",
-        "party": "D",
-        "probability": 0.835
-       },
-       {
-        "label": "Christine Drazan",
-        "name": "Christine Drazan",
-        "party": "R",
-        "probability": 0.165
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/oregon-governor-winner-2026"
      }
     }
    ]
@@ -23703,27 +22767,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-21",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "pennsylvania-governor-winner-2026",
-      "url": "https://polymarket.com/event/pennsylvania-governor-winner-2026",
-      "volume": 89600,
-      "outcomes": [
-       {
-        "label": "Josh Shapiro",
-        "name": "Josh Shapiro",
-        "party": "D",
-        "probability": 0.984
-       },
-       {
-        "label": "Stacy Garrity",
-        "name": "Stacy Garrity",
-        "party": "R",
-        "probability": 0.017
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/pennsylvania-governor-winner-2026"
      }
     }
    ]
@@ -23968,21 +23014,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-11",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "rhode-island-senate-election-winner",
-      "url": "https://polymarket.com/event/rhode-island-senate-election-winner",
-      "volume": 28120,
-      "outcomes": [
-       {
-        "label": "Jack Reed",
-        "name": "Jack Reed",
-        "party": "D",
-        "probability": 0.991
-       }
-      ],
-      "otherProbability": 0.009,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/rhode-island-senate-election-winner"
      }
     },
     {
@@ -24231,27 +23265,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-11",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "rhode-island-governor-winner-2026",
-      "url": "https://polymarket.com/event/rhode-island-governor-winner-2026",
-      "volume": 76934,
-      "outcomes": [
-       {
-        "label": "Helena Foulkes",
-        "name": "Helena Foulkes",
-        "party": "D",
-        "probability": 0.969
-       },
-       {
-        "label": "Independent",
-        "name": "Ken Block",
-        "party": "I",
-        "probability": 0.015
-       }
-      ],
-      "otherProbability": 0.01,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/rhode-island-governor-winner-2026"
      }
     }
    ]
@@ -24703,27 +23719,9 @@
       "of": 12
      },
      "latestPoll": "2026-10-29",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "south-carolina-senate-election-winner",
-      "url": "https://polymarket.com/event/south-carolina-senate-election-winner",
-      "volume": 1670286,
-      "outcomes": [
-       {
-        "label": "Darline Graham Nordone",
-        "name": "Darline Graham",
-        "party": "R",
-        "probability": 0.745
-       },
-       {
-        "label": "Annie Andrews",
-        "name": "Annie Andrews",
-        "party": "D",
-        "probability": 0.255
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/south-carolina-senate-election-winner"
      }
     },
     {
@@ -24957,27 +23955,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-26",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "south-carolina-governor-winner-2026",
-      "url": "https://polymarket.com/event/south-carolina-governor-winner-2026",
-      "volume": 73857,
-      "outcomes": [
-       {
-        "label": "Alan Wilson",
-        "name": "Alan Wilson",
-        "party": "R",
-        "probability": 0.947
-       },
-       {
-        "label": "Jermaine Johnson",
-        "name": "Jermaine Johnson",
-        "party": "D",
-        "probability": 0.052
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/south-carolina-governor-winner-2026"
      }
     }
    ]
@@ -25396,27 +24376,9 @@
       "of": 11
      },
      "latestPoll": "2026-10-26",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "south-dakota-senate-election-winner",
-      "url": "https://polymarket.com/event/south-dakota-senate-election-winner",
-      "volume": 122400,
-      "outcomes": [
-       {
-        "label": "Mike Rounds",
-        "name": "Mike Rounds",
-        "party": "R",
-        "probability": 0.941
-       },
-       {
-        "label": "Brian Bengs",
-        "name": "Brian Bengs",
-        "party": "I",
-        "probability": 0.058
-       }
-      ],
-      "otherProbability": 0.001,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/south-dakota-senate-election-winner"
      }
     },
     {
@@ -25560,27 +24522,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-14",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "south-dakota-governor-winner-2026",
-      "url": "https://polymarket.com/event/south-dakota-governor-winner-2026",
-      "volume": 28598,
-      "outcomes": [
-       {
-        "label": "Larry Rhoden",
-        "name": "Larry Rhoden",
-        "party": "R",
-        "probability": 0.966
-       },
-       {
-        "label": "Dan Ahlers",
-        "name": "Dan Ahlers",
-        "party": "D",
-        "probability": 0.025
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/south-dakota-governor-winner-2026"
      }
     }
    ]
@@ -25740,27 +24684,9 @@
       "of": 11
      },
      "latestPoll": "2026-08-26",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "tennessee-senate-election-winner",
-      "url": "https://polymarket.com/event/tennessee-senate-election-winner",
-      "volume": 124314,
-      "outcomes": [
-       {
-        "label": "Bill Hagerty",
-        "name": "Bill Hagerty",
-        "party": "R",
-        "probability": 0.981
-       },
-       {
-        "label": "Marquita Bradshaw",
-        "name": "Marquita Bradshaw",
-        "party": "D",
-        "probability": 0.021
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/tennessee-senate-election-winner"
      }
     },
     {
@@ -25973,27 +24899,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-26",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "tennessee-governor-winner-2026",
-      "url": "https://polymarket.com/event/tennessee-governor-winner-2026",
-      "volume": 75886,
-      "outcomes": [
-       {
-        "label": "Marsha Blackburn",
-        "name": "Marsha Blackburn",
-        "party": "R",
-        "probability": 0.935
-       },
-       {
-        "label": "Jerri Green",
-        "name": "Jerri Green",
-        "party": "D",
-        "probability": 0.051
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/tennessee-governor-winner-2026"
      }
     }
    ]
@@ -27397,27 +26305,9 @@
       "of": 14
      },
      "latestPoll": "2026-10-30",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "texas-senate-election-winner",
-      "url": "https://polymarket.com/event/texas-senate-election-winner",
-      "volume": 9557760,
-      "outcomes": [
-       {
-        "label": "James Talarico",
-        "name": "James Talarico",
-        "party": "D",
-        "probability": 0.705
-       },
-       {
-        "label": "Ken Paxton",
-        "name": "Ken Paxton",
-        "party": "R",
-        "probability": 0.295
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/texas-senate-election-winner"
      }
     },
     {
@@ -28566,27 +27456,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-30",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "texas-governor-winner-2026",
-      "url": "https://polymarket.com/event/texas-governor-winner-2026",
-      "volume": 1734558,
-      "outcomes": [
-       {
-        "label": "Greg Abbott",
-        "name": "Greg Abbott",
-        "party": "R",
-        "probability": 0.678
-       },
-       {
-        "label": "Gina Hinojosa",
-        "name": "Gina Hinojosa",
-        "party": "D",
-        "probability": 0.325
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/texas-governor-winner-2026"
      }
     }
    ]
@@ -28803,27 +27675,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-25",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "vermont-governor-winner-2026",
-      "url": "https://polymarket.com/event/vermont-governor-winner-2026",
-      "volume": 304384,
-      "outcomes": [
-       {
-        "label": "Phil Scott",
-        "name": "Phil Scott",
-        "party": "R",
-        "probability": 0.775
-       },
-       {
-        "label": "Amanda Janoo",
-        "name": "Amanda Janoo",
-        "party": "D",
-        "probability": 0.23
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/vermont-governor-winner-2026"
      }
     }
    ]
@@ -28998,21 +27852,9 @@
       "of": 11
      },
      "latestPoll": "2026-06-16",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "virginia-senate-election-winner",
-      "url": "https://polymarket.com/event/virginia-senate-election-winner",
-      "volume": 24336,
-      "outcomes": [
-       {
-        "label": "Mark Warner",
-        "name": "Mark Warner",
-        "party": "D",
-        "probability": 0.989
-       }
-      ],
-      "otherProbability": 0.01,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/virginia-senate-election-winner"
      }
     }
    ]
@@ -29151,27 +27993,9 @@
       "of": 11
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "west-virginia-senate-election-winner",
-      "url": "https://polymarket.com/event/west-virginia-senate-election-winner",
-      "volume": 20402,
-      "outcomes": [
-       {
-        "label": "Shelley Moore Capito",
-        "name": "Shelley Moore Capito",
-        "party": "R",
-        "probability": 0.99
-       },
-       {
-        "label": "Rachel Fetty Anderson",
-        "name": "Rachel Fetty Anderson",
-        "party": "D",
-        "probability": 0.013
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/west-virginia-senate-election-winner"
      }
     }
    ]
@@ -29530,27 +28354,9 @@
       "of": 8
      },
      "latestPoll": "2026-10-23",
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "wisconsin-governor-winner-2026",
-      "url": "https://polymarket.com/event/wisconsin-governor-winner-2026",
-      "volume": 1002831,
-      "outcomes": [
-       {
-        "label": "David Crowley",
-        "name": "David Crowley",
-        "party": "D",
-        "probability": 0.855
-       },
-       {
-        "label": "Tom Tiffany",
-        "name": "Tom Tiffany",
-        "party": "R",
-        "probability": 0.145
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/wisconsin-governor-winner-2026"
      }
     }
    ]
@@ -29683,27 +28489,9 @@
       "of": 11
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "wyoming-senate-election-winner",
-      "url": "https://polymarket.com/event/wyoming-senate-election-winner",
-      "volume": 22305,
-      "outcomes": [
-       {
-        "label": "Harriet Hageman",
-        "name": "Harriet Hageman",
-        "party": "R",
-        "probability": 0.99
-       },
-       {
-        "label": "James W. Byrd",
-        "name": "James W. Byrd",
-        "party": "D",
-        "probability": 0.01
-       }
-      ],
-      "otherProbability": 0,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/wyoming-senate-election-winner"
      }
     },
     {
@@ -29805,21 +28593,9 @@
       "of": 8
      },
      "latestPoll": null,
-     "market": {
-      "source": "Polymarket",
+     "polymarket": {
       "slug": "wyoming-governor-winner-2026",
-      "url": "https://polymarket.com/event/wyoming-governor-winner-2026",
-      "volume": 12611,
-      "outcomes": [
-       {
-        "label": "Eric Barlow",
-        "name": "Eric Barlow",
-        "party": "R",
-        "probability": 0.991
-       }
-      ],
-      "otherProbability": 0.008,
-      "fetchedAt": "2026-11-01T11:54:43.336Z"
+      "url": "https://polymarket.com/event/wyoming-governor-winner-2026"
      }
     }
    ]
