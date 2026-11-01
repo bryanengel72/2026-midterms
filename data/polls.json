@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T16:38:16.819Z",
+ "generatedAt": "2026-11-01T16:52:33.474Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -26641,7 +26641,75 @@
     "headline": null,
     "latestPoll": null
    }
-  ]
+  ],
+  "forecasts": [
+   {
+    "source": "Cook",
+    "D": 222,
+    "R": 195,
+    "tossup": 18
+   },
+   {
+    "source": "IE",
+    "D": 224,
+    "R": 198,
+    "tossup": 13
+   },
+   {
+    "source": "Sabato",
+    "D": 225,
+    "R": 193,
+    "tossup": 17
+   },
+   {
+    "source": "Econ.",
+    "D": 230,
+    "R": 190,
+    "tossup": 15
+   },
+   {
+    "source": "ST",
+    "D": 225,
+    "R": 197,
+    "tossup": 13
+   },
+   {
+    "source": "DDHQ",
+    "D": 223,
+    "R": 203,
+    "tossup": 9
+   },
+   {
+    "source": "FPO",
+    "D": 230,
+    "R": 196,
+    "tossup": 9
+   },
+   {
+    "source": "Fox",
+    "D": 223,
+    "R": 195,
+    "tossup": 17
+   },
+   {
+    "source": "Silver",
+    "D": 230,
+    "R": 196,
+    "tossup": 9
+   },
+   {
+    "source": "RCP",
+    "D": 226,
+    "R": 189,
+    "tossup": 20
+   }
+  ],
+  "safe": {
+   "D": 182,
+   "R": 107,
+   "agreeing": 4,
+   "of": 10
+  }
  },
  "states": [
   {

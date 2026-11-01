@@ -10,6 +10,7 @@ import {
   parseResults,
   parseGenericBallot,
   parseHouseRatings,
+  parseHouseTotals,
   districtSection,
   simpleAverage,
 } from "../scripts/parse-race.mjs";
@@ -396,6 +397,10 @@ test("parseHouseRatings reads each district's lean, incumbent and forecaster rat
 | {{Party shading/Republican}} |51.6% R
 |{{USRaceRating|Likely|R}}
 |{{USRaceRating|Safe|R}}
+|- class="sortbottom"
+! colspan="4" |Overall
+| {{Party shading/Democratic}} |D – 222<br>R – 195<br>18 tossups
+| {{Party shading/Democratic}} |D – 225<br>R – 193<br>17 tossups
 |}
 == Other ==
 `;
@@ -419,4 +424,33 @@ test("districtSection finds a numbered district, or the whole article for at-lar
   assert.match(districtSection(text, "10"), /ten/);
   assert.equal(districtSection(text, "3"), null);
   assert.equal(districtSection(text, "AL"), text);
+});
+
+test("parseHouseTotals reads each forecaster's whole-House totals from the Overall row", () => {
+  const text = `== Latest published ratings ==
+{| class="wikitable"
+![[List of United States congressional districts|District]]
+!CPVI
+!Incumbent
+!Last result
+![[Cook Political Report|Cook]]<br>{{small|Oct. 30,<br>2026}}
+![[Sabato's Crystal Ball|Sabato]]<br>{{small|Oct. 27,<br>2026}}
+|-
+!{{ushr|PA|7|X}}
+|{{shading PVI|R|1}}
+| Ryan Mackenzie
+| 50.5% R
+|{{USRaceRating|Tossup}}
+|{{USRaceRating|Lean|D|Flip}}
+|- class="sortbottom"
+! colspan="4" |Overall
+| {{Party shading/Democratic}} |D – 222<br>R – 195<br>18 tossups
+| {{Party shading/Republican}} |D – 210<br>R – 225
+|}
+`;
+  assert.deepEqual(parseHouseTotals(text), [
+    { source: "Cook", D: 222, R: 195, tossup: 18 },
+    { source: "Sabato", D: 210, R: 225, tossup: 0 },
+  ]);
+  assert.equal(parseHouseRatings(text).length, 1);
 });

@@ -761,6 +761,19 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
   }
 }
 
+/* House seat chart ----------------------------------------------------------- */
+
+.house-svg .seat { stroke-width: 0.8; }
+.house-svg .seat.tossup { stroke-width: 1; }
+.forecasts { margin-top: 14px; }
+.forecasts summary { cursor: pointer; font-weight: 600; }
+.forecasts-table { margin-top: 8px; }
+.forecasts-table .split-cell { width: 40%; min-width: 120px; }
+.forecasts-table .split-bar { position: relative; height: 12px; gap: 1px; margin: 0; }
+.forecasts-table .split-bar > span { border-radius: 2px; }
+.majority-tick { position: absolute; left: calc(218 / 435 * 100%); top: -3px; bottom: -3px; width: 2px; background: var(--text); }
+@media (max-width: 640px) { .forecasts-table .split-cell { display: none; } }
+
 /* Competitive House districts ---------------------------------------------- */
 
 .district-summary { margin: 10px 0 14px; }

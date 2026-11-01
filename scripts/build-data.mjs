@@ -19,6 +19,7 @@ import {
   partyCode,
   parseGenericBallot,
   parseHouseRatings,
+  parseHouseTotals,
   districtSection,
 } from "./parse-race.mjs";
 import { parseInfobox, toPlainText } from "./wikitext.mjs";
@@ -232,7 +233,31 @@ async function buildHouseDistricts(today, previous, failures) {
     }
     if (statePage && !statePage.fromCache) await sleep(delayMs);
   }
-  return { url: pageUrl(page.title), districts };
+  const forecasts = parseHouseTotals(page.text);
+  return { url: pageUrl(page.title), districts, forecasts, safe: safeSeats(forecasts, districts) || previous?.safe || null };
+}
+
+/**
+ * Seats outside the competitive table (every forecaster calls them safe), by
+ * party: a forecaster's total minus the competitive seats it gives that
+ * party. Forecasters whose numbers don't add up to the same 435 are skipped;
+ * the most common answer wins.
+ */
+function safeSeats(forecasts, districts) {
+  const outside = 435 - districts.length;
+  const tally = new Map();
+  for (const f of forecasts) {
+    const lean = (side) => districts.filter((d) => d.ratings.find((r) => r.source === f.source)?.lean === side).length;
+    const D = f.D - lean("D");
+    const R = f.R - lean("R");
+    if (D < 0 || R < 0 || D + R !== outside) continue;
+    const key = `${D}|${R}`;
+    tally.set(key, (tally.get(key) || 0) + 1);
+  }
+  const best = [...tally].sort((a, b) => b[1] - a[1])[0];
+  if (!best) return null;
+  const [D, R] = best[0].split("|").map(Number);
+  return { D, R, agreeing: best[1], of: forecasts.length };
 }
 
 /**
@@ -382,7 +407,7 @@ async function main() {
   if (house) {
     const n = house.districts.length;
     const polled = house.districts.filter((d) => d.polls.length).length;
-    console.log(`House: ${n} competitive districts, ${polled} with polls`);
+    console.log(`House: ${n} competitive districts, ${polled} with polls; safe seats ${house.safe ? `${house.safe.D} D, ${house.safe.R} R` : "unknown"}; ${house.forecasts?.length || 0} forecaster totals`);
   }
 
   const withPolls = [...built.values()].filter((r) => r.polls.length).length;
