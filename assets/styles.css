@@ -629,6 +629,59 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
   .tile .band, .split-bar > span, .swatch { forced-color-adjust: none; }
 }
 
+/* Senate chart -------------------------------------------------------------- */
+
+.senate-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(260px, 1fr);
+  gap: 16px 32px;
+  align-items: center;
+}
+@media (max-width: 760px) {
+  .senate-layout { grid-template-columns: minmax(0, 1fr); }
+}
+.senate-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.seat { stroke: var(--surface); stroke-width: 1.5; }
+.seat.held { opacity: 0.38; }
+.seat.tossup { stroke: var(--text-2); stroke-width: 1.5; }
+.seat.up { cursor: pointer; }
+.seat.up:focus-visible { outline: none; stroke: var(--text); stroke-width: 3; }
+.senate-mid { stroke: var(--text-2); stroke-width: 2; stroke-linecap: round; }
+.senate-mid-label { fill: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.seat-totals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.seat-totals .big {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  border-top: 4px solid var(--neutral);
+}
+.seat-totals .big.d { border-top-color: var(--party-d); }
+.seat-totals .big.r { border-top-color: var(--party-r); }
+.seat-totals .big span { font-size: 30px; font-weight: 700; line-height: 1.1; }
+.seat-totals .big small { font-size: 12px; color: var(--text-2); }
+.seat-row {
+  display: grid;
+  grid-template-columns: 14px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--grid);
+}
+.seat-row .seat-label small { color: var(--muted); }
+.seat-row .swatch.held { opacity: 0.38; }
+.seat-row .swatch.tossup { box-shadow: inset 0 0 0 1.5px var(--text-2); }
+.seat-row .seat-n { font-weight: 650; font-variant-numeric: tabular-nums; }
+.seat-note { font-size: 13px; color: var(--text-2); margin: 10px 0 0; }
+
 /* Motion ------------------------------------------------------------------
    All of it sits behind prefers-reduced-motion: no-preference, so devices
    set to reduce motion get the finished page with nothing moving. */
@@ -680,6 +733,16 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
     animation: rise-sm 360ms ease both;
     animation-delay: calc(var(--i, 0) * 18ms);
   }
+
+  /* Senate: seats pop in left to right; colors fade on mode changes. */
+  .senate-svg.intro .seat {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: pop 480ms cubic-bezier(0.2, 0.9, 0.3, 1.4) both;
+    animation-delay: var(--d, 0ms);
+  }
+  .seat { transition: fill 450ms ease, opacity 450ms ease; }
+  .seat.up:hover { transform-box: fill-box; transform-origin: center; transform: scale(1.25); transition: transform 140ms ease, fill 450ms ease; }
 
   /* Live countdown: a soft pulse on the dot of time. */
   #countdown .clock { animation: glow 2.4s ease-in-out infinite; }

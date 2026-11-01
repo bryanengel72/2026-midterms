@@ -504,6 +504,196 @@ function renderMap() {
 }
 
 // ---------------------------------------------------------------------------
+// Senate seat chart
+// ---------------------------------------------------------------------------
+
+/**
+ * Where each 2026 Senate race stands, under the current "color by" mode:
+ * the polling leader (toss-up if within 2 points; forecasters' lean when a
+ * race has no polls) or the forecasters' consensus.
+ */
+function senateCall(race) {
+  const byRating = () => {
+    const c = race.consensus;
+    if (!c || !c.lean || c.strength === "Tossup") return { side: "T", strength: 0, basis: c ? `Forecasters: ${c.rating}` : "No polls or ratings" };
+    return { side: c.lean, strength: RATING_STEP[c.strength] ?? 1, basis: `Forecasters: ${c.rating}` };
+  };
+  if (ui.colorBy === "ratings") return byRating();
+  const hl = race.headline;
+  if (!hl) return { ...byRating(), basis: `No polls; forecasters: ${race.consensus?.rating || "none"}` };
+  const leader = hl.leader ? candidate(race, hl.leader) : null;
+  if (!leader || hl.margin < 2) return { side: "T", strength: 0, basis: `Polls: ${leadLabel(race)}`, lean: leader?.party };
+  return { side: leader.party === "D" || leader.party === "R" ? leader.party : "I", strength: hl.margin, basis: `Polls: ${leadLabel(race)}` };
+}
+
+/** Seat centers for a 100-seat half circle, ordered left to right. */
+function hemicycle(total, rows, width) {
+  const R = width / 2;
+  const r0 = R * 0.42;
+  const radii = Array.from({ length: rows }, (_, i) => r0 + ((R - r0) * i) / (rows - 1));
+  const sum = radii.reduce((a, b) => a + b, 0);
+  const counts = radii.map((r) => Math.round((total * r) / sum));
+  counts[rows - 1] += total - counts.reduce((a, b) => a + b, 0);
+  const seats = [];
+  radii.forEach((r, i) => {
+    const n = counts[i];
+    for (let j = 0; j < n; j++) {
+      const a = Math.PI - (j * Math.PI) / (n - 1);
+      seats.push({ a, x: R + r * Math.cos(a), y: R - r * Math.sin(a), row: i });
+    }
+  });
+  seats.sort((p, q) => q.a - p.a || p.row - q.row);
+  const dot = ((R - r0) / (rows - 1)) * 0.42;
+  return { seats, dot, R };
+}
+
+let senateIntroDone = false;
+
+function renderSenate() {
+  const card = document.getElementById("senate-card");
+  const makeup = ui.data.senate;
+  if (!makeup || ui.office === "Governor") {
+    card.hidden = true;
+    return;
+  }
+  card.hidden = false;
+  const races = allRaces().filter((r) => r.office === "Senate");
+  const calls = races.map((r) => ({ race: r, ...senateCall(r) }));
+  const pick = (side) => calls.filter((c) => c.side === side);
+  // Left to right: Democrats not up, independents caucusing with them,
+  // Democratic-leaning races (safest first), toss-ups, Republican-leaning
+  // races (closest first), Republicans not up. Other independents sit
+  // between the toss-ups and the Republicans.
+  const order = [
+    ...Array.from({ length: makeup.notUp.D }, () => ({ kind: "held", side: "D" })),
+    ...Array.from({ length: makeup.notUp.I }, () => ({ kind: "held", side: "IC" })),
+    ...pick("D").sort((a, b) => b.strength - a.strength).map((c) => ({ kind: "up", ...c })),
+    ...pick("T").map((c) => ({ kind: "up", ...c })),
+    ...pick("I").map((c) => ({ kind: "up", ...c })),
+    ...pick("R").sort((a, b) => a.strength - b.strength).map((c) => ({ kind: "up", ...c })),
+    ...Array.from({ length: makeup.notUp.R }, () => ({ kind: "held", side: "R" })),
+  ];
+  const width = 520;
+  const { seats, dot, R } = hemicycle(order.length, 6, width);
+  const fillFor = (o) =>
+    o.side === "D" ? "--party-d" : o.side === "R" ? "--party-r" : o.side === "IC" || o.side === "I" ? "--party-i" : "--neutral";
+
+  const svg = s("svg", {
+    class: "senate-svg",
+    viewBox: `${-dot * 2} ${-dot * 3} ${width + dot * 4} ${R + dot * 5}`,
+    role: "img",
+    "aria-label": "Senate seat chart. The counts beside it list every group of seats.",
+  });
+  const intro = motionOK() && !senateIntroDone;
+  order.forEach((o, i) => {
+    const p = seats[i];
+    const c = s("circle", {
+      class: `seat ${o.kind}${o.side === "T" ? " tossup" : ""}`,
+      cx: p.x.toFixed(1),
+      cy: p.y.toFixed(1),
+      r: dot.toFixed(1),
+      style: `fill: var(${fillFor(o)}); --d: ${Math.round((i / order.length) * 900)}ms`,
+    });
+    if (o.kind === "up") {
+      c.setAttribute("tabindex", "0");
+      const st = o.race.state;
+      const tip = () => [
+        h("div", { class: "tt-title" }, `${st.name}: ${o.race.label}`),
+        h("div", {}, o.side === "T" ? "Toss-up" : `Leans ${PARTY_NAMES[o.side] || "Independent"}`),
+        h("div", { class: "tt-sub" }, o.basis),
+        h("div", { class: "tt-sub" }, `Held now by: ${o.race.incumbent ? `${o.race.incumbent.name} (${partyLetter(o.race.incumbent.party)})` : "unknown"}`),
+      ];
+      c.addEventListener("pointermove", (e) => showTooltip(tip(), e.clientX, e.clientY));
+      c.addEventListener("pointerleave", hideTooltip);
+      c.addEventListener("focus", () => {
+        const b = c.getBoundingClientRect();
+        showTooltip(tip(), b.right, b.top);
+      });
+      c.addEventListener("blur", hideTooltip);
+      c.addEventListener("click", () => selectState(st.code, true));
+      c.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          selectState(st.code, true);
+        }
+      });
+    } else {
+      const label = o.side === "IC" ? "Independent (caucuses with Democrats)" : PARTY_NAMES[o.side];
+      c.addEventListener("pointermove", (e) =>
+        showTooltip([h("div", { class: "tt-title" }, `${label}: not up in 2026`)], e.clientX, e.clientY),
+      );
+      c.addEventListener("pointerleave", hideTooltip);
+    }
+    svg.append(c);
+  });
+  // Majority line: the 51st seat from either side meets in the middle.
+  svg.append(
+    s("line", { class: "senate-mid", x1: R, x2: R, y1: -dot * 2.6, y2: -dot * 1.25 }),
+    s("text", { class: "senate-mid-label", x: R, y: R + dot * 0.5, "text-anchor": "middle" }, "50 | 50"),
+  );
+  if (intro) svg.classList.add("intro");
+  senateIntroDone = true;
+  document.getElementById("senate-chart").replaceChildren(svg);
+
+  // Counts
+  const dLean = pick("D").length;
+  const rLean = pick("R").length;
+  const iLean = pick("I").length;
+  const toss = pick("T").length;
+  const dTotal = makeup.notUp.D + makeup.notUp.I + dLean;
+  const rTotal = makeup.notUp.R + rLean;
+  // If every toss-up went to whoever leads in it, however narrowly.
+  let dIf = dTotal;
+  let rIf = rTotal;
+  let iIf = iLean;
+  let tied = 0;
+  for (const c of pick("T")) {
+    if (c.lean === "D") dIf++;
+    else if (c.lean === "R") rIf++;
+    else if (c.lean) iIf++;
+    else tied++;
+  }
+  const row = (fill, label, n, extra, held = false) =>
+    h("div", { class: "seat-row" },
+      h("span", { class: `swatch${held ? " held" : ""}${fill === "--neutral" ? " tossup" : ""}`, style: { background: `var(${fill})` } }),
+      h("span", { class: "seat-label" }, label, extra ? h("small", {}, extra) : null),
+      h("span", { class: "seat-n", "data-count": n }, String(n)),
+    );
+  const summary = document.getElementById("senate-summary");
+  const parts = [
+    h("div", { class: "seat-totals" },
+      h("div", { class: "big d" }, h("span", { "data-count": dTotal }, String(dTotal)), h("small", {}, "Democrats + allies")),
+      h("div", { class: "big t" }, h("span", { "data-count": toss }, String(toss)), h("small", {}, "Toss-ups")),
+      h("div", { class: "big r" }, h("span", { "data-count": rTotal }, String(rTotal)), h("small", {}, "Republicans")),
+    ),
+    row("--party-d", "Democrats, not up", makeup.notUp.D, null, true),
+    row("--party-i", "Independents who caucus with Democrats, not up", makeup.notUp.I, null, true),
+    row("--party-d", ui.colorBy === "ratings" ? "Races leaning Democratic" : "Races where a Democrat leads", dLean, ui.colorBy === "ratings" ? null : " by 2+ points"),
+    row("--neutral", "Toss-ups", toss, ui.colorBy === "ratings" ? " (rated Toss-up)" : " (lead under 2 points)"),
+    iLean ? row("--party-i", "Races an independent leads", iLean) : null,
+    row("--party-r", ui.colorBy === "ratings" ? "Races leaning Republican" : "Races where a Republican leads", rLean, ui.colorBy === "ratings" ? null : " by 2+ points"),
+    row("--party-r", "Republicans, not up", makeup.notUp.R, null, true),
+  ];
+  if (ui.colorBy !== "ratings" && toss) {
+    parts.push(h("p", { class: "seat-note" },
+      `If every toss-up went to whoever is ahead, even slightly: `,
+      h("strong", {}, `Democrats + allies ${dIf}, Republicans ${rIf}`),
+      iIf ? `, independents ${iIf}` : "",
+      tied ? `, with ${tied} race${tied === 1 ? "" : "s"} tied` : "",
+      "."));
+  }
+  parts.push(h("p", { class: "seat-note" },
+    "Control: 51 seats wins outright. At 50–50 the vice president, a Republican, breaks ties, so Democrats need 51 and Republicans 50."));
+  summary.replaceChildren(...parts.filter(Boolean));
+  if (intro) summary.querySelectorAll("[data-count]").forEach((el, i) => countUp(el, Number(el.dataset.count), String, { delay: 300 + i * 40, duration: 1000 }));
+
+  document.getElementById("senate-hint").textContent =
+    ui.colorBy === "ratings"
+      ? "Each of the 35 seats on the ballot is shaded by forecasters' consensus rating; faded seats aren't up this year. Not a prediction."
+      : "Each of the 35 seats on the ballot goes to whoever leads its polling average (forecasters' lean where there are no polls); faded seats aren't up this year. Not a prediction. Tap a seat for its race.";
+}
+
+// ---------------------------------------------------------------------------
 // Trend chart
 // ---------------------------------------------------------------------------
 
@@ -1095,6 +1285,7 @@ function renderRacesTable() {
 // ---------------------------------------------------------------------------
 
 function renderAll() {
+  renderSenate();
   renderLegend();
   renderMap();
   renderDetail();
@@ -1133,6 +1324,7 @@ function setupControls() {
   for (const input of document.querySelectorAll('input[name="colorby"]')) {
     input.addEventListener("change", () => {
       ui.colorBy = input.value;
+      renderSenate();
       renderLegend();
       renderMap();
     });

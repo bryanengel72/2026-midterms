@@ -13,7 +13,8 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { STATES, listRaces, houseSeatsPage } from "./races.mjs";
 import { fetchWikitext, pageUrl } from "./wiki.mjs";
-import { parseRace, simpleAverage } from "./parse-race.mjs";
+import { parseRace, simpleAverage, partyCode } from "./parse-race.mjs";
+import { parseInfobox, toPlainText } from "./wikitext.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "data", "polls.json");
@@ -114,20 +115,48 @@ function fingerprint(data) {
   return JSON.stringify(rest);
 }
 
+const SENATE_OVERVIEW = "2026 United States Senate elections";
+
+/**
+ * Reads the Senate's current makeup from the overview article's infobox:
+ * seats each party holds now (seats_beforeN) and how many of those are on
+ * the 2026 ballot (1dataN, the "Seats up" row). Returns null if unreadable.
+ */
+function parseSenateMakeup(text) {
+  const info = parseInfobox(text);
+  const before = { D: 0, R: 0, I: 0 };
+  const up = { D: 0, R: 0, I: 0 };
+  for (let i = 1; i <= 6; i++) {
+    if (!info[`party${i}`]) continue;
+    const party = partyCode(info[`party${i}`]);
+    if (!(party in before)) continue;
+    const num = (v) => parseInt(toPlainText(v || "").replace(/[^0-9]/g, ""), 10) || 0;
+    before[party] += num(info[`seats_before${i}`]);
+    up[party] += num(info[`1data${i}`]);
+  }
+  const total = before.D + before.R + before.I;
+  if (total !== 100) return null;
+  return {
+    before,
+    up,
+    notUp: { D: before.D - up.D, R: before.R - up.R, I: before.I - up.I },
+  };
+}
+
 async function loadPrevious() {
   try {
     const prev = JSON.parse(await readFile(OUT, "utf8"));
     const byId = new Map();
     for (const s of prev.states || []) for (const r of s.races || []) byId.set(r.id, r);
-    return { byId, fingerprint: fingerprint(prev) };
+    return { byId, fingerprint: fingerprint(prev), senate: prev.senate || null };
   } catch {
-    return { byId: new Map(), fingerprint: null };
+    return { byId: new Map(), fingerprint: null, senate: null };
   }
 }
 
 async function main() {
   const today = new Date().toISOString().slice(0, 10);
-  const { byId: previous, fingerprint: previousFingerprint } = await loadPrevious();
+  const { byId: previous, fingerprint: previousFingerprint, senate: previousSenate } = await loadPrevious();
   const races = listRaces();
   const built = new Map();
   const failures = [];
@@ -170,6 +199,20 @@ async function main() {
     if (!page.fromCache) await sleep(delayMs);
   }
 
+  // Senate makeup for the seat chart; keep the previous one if unreadable.
+  let senate = null;
+  try {
+    const page = await fetchWikitext(SENATE_OVERVIEW, { cacheDir: CACHE, useCache, offline });
+    senate = page ? parseSenateMakeup(page.text) : null;
+    if (senate) senate.url = pageUrl(page.title);
+  } catch (err) {
+    failures.push(`Senate overview: ${err.message}`);
+  }
+  if (!senate) {
+    senate = previousSenate;
+    failures.push("Senate overview: could not read seat counts; kept previous");
+  }
+
   const withPolls = [...built.values()].filter((r) => r.polls.length).length;
   const prevWithPolls = [...previous.values()].filter((r) => r.polls?.length).length;
   if (prevWithPolls && withPolls < prevWithPolls * 0.5) {
@@ -189,6 +232,7 @@ async function main() {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
       note: "Polls, aggregates and ratings are read from each race's English Wikipedia article.",
     },
+    senate,
     states: STATES.map(({ code, name }) => ({
       code,
       name,
