@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T16:59:36.500Z",
+ "generatedAt": "2026-11-01T17:04:16.285Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -38658,6 +38658,21 @@
        "undecided": 4
       },
       {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2093,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Abdul El-Sayed": 51,
+        "Mike Rogers": 47
+       },
+       "other": 1,
+       "undecided": 1
+      },
+      {
        "pollster": "Upswing Research (D)",
        "dates": "October 24–28, 2026",
        "start": "2026-10-24",
@@ -39744,6 +39759,21 @@
      ],
      "polls": [
       {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2093,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Jocelyn Benson": 52,
+        "John James": 46
+       },
+       "other": 1,
+       "undecided": 0
+      },
+      {
        "pollster": "Mitchell Research & Communications",
        "dates": "October 26–27, 2026",
        "start": "2026-10-26",
@@ -40271,7 +40301,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-27"
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -46870,6 +46900,21 @@
      ],
      "polls": [
       {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2090,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Jon Husted": 48,
+        "Sherrod Brown": 50
+       },
+       "other": 2,
+       "undecided": 1
+      },
+      {
        "pollster": "Suffolk University",
        "dates": "October 21–26, 2026",
        "start": "2026-10-21",
@@ -47532,7 +47577,7 @@
       "count": 10,
       "of": 14
      },
-     "latestPoll": "2026-10-26"
+     "latestPoll": "2026-10-29"
     },
     {
      "id": "OH-GOV",
@@ -47700,6 +47745,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2090,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Vivek Ramaswamy": 46,
+        "Amy Acton": 52
+       },
+       "other": 1,
+       "undecided": 0
+      },
       {
        "pollster": "Suffolk University",
        "dates": "October 21–26, 2026",
@@ -48258,7 +48318,7 @@
       "count": 4,
       "of": 8
      },
-     "latestPoll": "2026-10-26"
+     "latestPoll": "2026-10-29"
     }
    ]
   },
@@ -51882,6 +51942,22 @@
        },
        "other": 0,
        "undecided": 6
+      },
+      {
+       "pollster": "YouGov",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 2093,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Ken Paxton": 51,
+        "James Talarico": 47,
+        "Ted Brown": 1
+       },
+       "other": 1,
+       "undecided": null
       },
       {
        "pollster": "Quantus Insights",
