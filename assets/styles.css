@@ -638,6 +638,8 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
   background: linear-gradient(to bottom, transparent, var(--surface));
   pointer-events: none;
 }
+.races-more[hidden] { display: none; }
+.races-more.open::before { display: none; }
 .races-more .linkish { font-weight: 600; color: var(--text); padding: 7px 16px; }
 
 /* Tooltip ----------------------------------------------------------------- */
@@ -763,6 +765,29 @@ table.data td .sub { color: var(--muted); font-size: 12px; }
     transform-origin: left center;
     animation: grow 900ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
   }
+}
+
+/* Race calls ----------------------------------------------------------------- */
+
+.calls { list-style: none; margin: 8px 0 0; padding: 0; }
+.call { border-bottom: 1px solid var(--grid); }
+.call-btn {
+  display: flex; align-items: center; gap: 10px; width: 100%;
+  padding: 8px 4px; border: 0; background: none; color: var(--text);
+  font: inherit; font-size: 14px; text-align: left; cursor: pointer;
+}
+.call-btn:hover { background: var(--surface-2); }
+.call time { min-width: 64px; color: var(--text-2); font-variant-numeric: tabular-nums; font-size: 13px; }
+.call-text { flex: 1; }
+.flip-badge, .new-badge {
+  font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 999px; white-space: nowrap;
+}
+.flip-badge { border: 1.5px solid var(--text); }
+.new-badge { background: var(--text); color: var(--surface); }
+#updated.flash { animation: flash 1.6s ease; }
+@keyframes flash { 0%, 40% { background: var(--surface-2); color: var(--text); } 100% { background: transparent; } }
+@media (prefers-reduced-motion: no-preference) {
+  .call.new { animation: rise-sm 420ms ease both; }
 }
 
 /* House seat chart ----------------------------------------------------------- */

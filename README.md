@@ -14,6 +14,8 @@ A state-by-state poll checker for the November 3, 2026 midterms. For every U.S. 
 - **A 100-seat Senate chart** showing where the chamber stands if each race goes to its polling leader (or forecasters' pick).
 - **Poll closing times** for election night, with countdowns, and each state's closing time on its page.
 - **A time machine**: a slider and Play button that rewind the map, Senate chart and table to any date since August 1, using 30-day poll averages.
+- **Live updates**: an open page checks for new data every two minutes (and when you return to the tab) and updates in place, no reload needed.
+- **Race calls**: a feed of races as Wikipedia editors mark winners, newest first, with party flips marked. Times are when the site first saw each call.
 - **Election-night results**: once Wikipedia editors fill in vote counts, a Results view appears (and becomes the default), with winners, votes, the Senate chart by called races, and how each result compared with the final polls.
 
 Coverage: all 35 Senate races (33 regular plus the Florida and Ohio specials) and all 36 governor races. States with no statewide race (Indiana, Missouri, North Dakota, Utah, Washington) link to their House races.

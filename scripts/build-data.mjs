@@ -117,6 +117,18 @@ function consensus(ratings) {
   };
 }
 
+/**
+ * When a race was first seen called: kept from the previous build while the
+ * winner is unchanged, otherwise this build's time. Wikipedia has no call
+ * times, so this is when this site noticed the call (within one refresh).
+ */
+function stampCall(results, prev, now) {
+  if (!results?.winner) return results;
+  const before = prev?.results;
+  const calledAt = before?.winner === results.winner && before.calledAt ? before.calledAt : now;
+  return { ...results, calledAt };
+}
+
 /** Everything except the timestamp, for change detection. */
 function fingerprint(data) {
   const { generatedAt, ...rest } = data;
@@ -215,7 +227,7 @@ async function buildHouseDistricts(today, previous, failures) {
         entry.candidates = parsed.candidates.length ? parsed.candidates : parsed.nominees;
         entry.polls = parsed.polls;
         entry.aggregates = parsed.aggregates;
-        entry.results = parsed.results;
+        entry.results = stampCall(parsed.results, prevById.get(d.id), buildTime);
         if (!entry.incumbent && parsed.incumbent) entry.incumbent = parsed.incumbent;
       } else {
         const prev = prevById.get(d.id);
@@ -303,6 +315,9 @@ async function loadPrevious() {
   }
 }
 
+// One timestamp per build, for generatedAt and newly seen race calls.
+const buildTime = new Date().toISOString();
+
 async function main() {
   const today = new Date().toISOString().slice(0, 10);
   const {
@@ -340,7 +355,7 @@ async function main() {
       url: pageUrl(page.title),
       incumbent: parsed.incumbent,
       candidates: parsed.candidates.length ? parsed.candidates : parsed.nominees,
-      results: parsed.results,
+      results: stampCall(parsed.results, previous.get(race.id), buildTime),
       ratings: parsed.ratings,
       aggregates: parsed.aggregates,
       polls: parsed.polls,
@@ -421,7 +436,7 @@ async function main() {
   }
 
   const data = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: buildTime,
     electionDate: ELECTION_DATE,
     source: {
       name: "Wikipedia",
