@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T22:41:42.556Z",
+ "generatedAt": "2026-11-02T00:11:17.660Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -10127,8 +10127,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 1–2, 2026",
      "values": {
       "Sydney Gruters": 43,
       "Kelly Kirschner": 39
@@ -12135,8 +12135,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Wavefield Research, September 29 – October 2, 2026",
      "values": {
       "Mariannette Miller-Meeks": 29,
       "Christina Bohannan": 45,
@@ -19560,13 +19560,13 @@
     "results": null,
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Greg Landsman": 47,
-      "Eric Conroy": 41.7
+      "Greg Landsman": 47.5,
+      "Eric Conroy": 40.5
      },
      "leader": "Greg Landsman",
-     "margin": 5.3
+     "margin": 7
     },
     "latestPoll": "2026-10-23"
    },
@@ -34184,62 +34184,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 8–28, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "October 9–28, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Ashley Hinson": 45.8,
-        "Josh Turek": 45.2
+        "Ashley Hinson": 46.2,
+        "Josh Turek": 46.4
        },
-       "otherUndecided": 9
+       "otherUndecided": 7.4
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 28, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "through October 29, 2026",
+       "updated": "November 1 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Ashley Hinson": 46.6,
-        "Josh Turek": 45.6
+        "Ashley Hinson": 47.2,
+        "Josh Turek": 46.7
        },
-       "otherUndecided": 7.8
+       "otherUndecided": 6.1
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 28, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "through October 29, 2026",
+       "updated": "November 1 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Ashley Hinson": 45.7,
-        "Josh Turek": 46.1
+        "Ashley Hinson": 46.5,
+        "Josh Turek": 47.1
        },
-       "otherUndecided": 8.2
+       "otherUndecided": 6.4
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "September 29 – October 28, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "September 29 – October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Ashley Hinson": 46,
-        "Josh Turek": 45.5
+        "Ashley Hinson": 46.4,
+        "Josh Turek": 45.9
        },
-       "otherUndecided": 8.5
+       "otherUndecided": 7.7
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 23, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "through October 29, 2026",
+       "updated": "November 1 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Ashley Hinson": 46,
-        "Josh Turek": 46.8
+        "Ashley Hinson": 46.5,
+        "Josh Turek": 47.3
        },
-       "otherUndecided": 7.2
+       "otherUndecided": 6.2
       },
       {
        "source": "Average",
@@ -34248,8 +34248,8 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Ashley Hinson": 46,
-        "Josh Turek": 45.8
+        "Ashley Hinson": 46.6,
+        "Josh Turek": 46.7
        },
        "otherUndecided": 8.2
       }
@@ -34815,11 +34815,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Ashley Hinson": 46,
-       "Josh Turek": 45.8
+       "Ashley Hinson": 46.6,
+       "Josh Turek": 46.7
       },
-      "leader": "Ashley Hinson",
-      "margin": 0.2
+      "leader": "Josh Turek",
+      "margin": 0.1
      },
      "consensus": {
       "rating": "Tossup",
@@ -34925,62 +34925,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 8–23, 2026",
-       "updated": "October 27, 2026",
-       "updatedIso": "2026-10-27",
+       "dates": "October 8–29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Zach Lahn": 44.8,
-        "Rob Sand": 51
+        "Zach Lahn": 45,
+        "Rob Sand": 51.2
        },
-       "otherUndecided": 4.2
+       "otherUndecided": 3.8
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 28, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Zach Lahn": 45.2,
-        "Rob Sand": 50.7
+        "Zach Lahn": 45.5,
+        "Rob Sand": 51.3
        },
-       "otherUndecided": 4.1
+       "otherUndecided": 3.2
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 28, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Zach Lahn": 44.1,
-        "Rob Sand": 51
+        "Zach Lahn": 44.9,
+        "Rob Sand": 51.6
        },
-       "otherUndecided": 4.9
+       "otherUndecided": 3.5
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 5–28, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "October 5–29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Zach Lahn": 44.4,
-        "Rob Sand": 50.8
+        "Zach Lahn": 44.8,
+        "Rob Sand": 51.4
        },
-       "otherUndecided": 4.8
+       "otherUndecided": 3.8
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 23, 2026",
-       "updated": "October 29, 2026",
-       "updatedIso": "2026-10-29",
+       "dates": "through October 29, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Zach Lahn": 44.3,
-        "Rob Sand": 51.6
+        "Zach Lahn": 44.7,
+        "Rob Sand": 51.9
        },
-       "otherUndecided": 4.1
+       "otherUndecided": 3.4
       },
       {
        "source": "Average",
@@ -34989,10 +34989,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Zach Lahn": 44.6,
-        "Rob Sand": 51
+        "Zach Lahn": 45,
+        "Rob Sand": 51.5
        },
-       "otherUndecided": 4.4
+       "otherUndecided": 3.5
       }
      ],
      "polls": [
@@ -35346,11 +35346,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Zach Lahn": 44.6,
-       "Rob Sand": 51
+       "Zach Lahn": 45,
+       "Rob Sand": 51.5
       },
       "leader": "Rob Sand",
-      "margin": 6.4
+      "margin": 6.5
      },
      "consensus": {
       "rating": "Lean D",
@@ -36032,14 +36032,14 @@
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 28, 2026",
+       "dates": "through October 29, 2026",
        "updated": "November 1, 2026",
        "updatedIso": "2026-11-01",
        "values": {
-        "Cindy Holscher": 47.1,
-        "Ty Masterson": 49.1
+        "Cindy Holscher": 47.3,
+        "Ty Masterson": 49.4
        },
-       "otherUndecided": 3.8
+       "otherUndecided": 3.3
       },
       {
        "source": "Average",
@@ -36048,10 +36048,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Cindy Holscher": 46.9,
-        "Ty Masterson": 48.9
+        "Cindy Holscher": 47,
+        "Ty Masterson": 49
        },
-       "otherUndecided": 4.2
+       "otherUndecided": 4
       }
      ],
      "polls": [
@@ -36225,8 +36225,8 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Cindy Holscher": 46.9,
-       "Ty Masterson": 48.9
+       "Cindy Holscher": 47,
+       "Ty Masterson": 49
       },
       "leader": "Ty Masterson",
       "margin": 2
