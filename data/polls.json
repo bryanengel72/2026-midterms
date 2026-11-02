@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T06:16:29.924Z",
+ "generatedAt": "2026-11-02T06:56:48.897Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -46,33 +46,33 @@
    {
     "source": "Decision Desk HQ",
     "isAverage": false,
-    "dates": "January 9, 2025 – October 26, 2026",
-    "updated": "October 30, 2026",
-    "updatedIso": "2026-10-30",
+    "dates": "January 9, 2025 – October 30, 2026",
+    "updated": "November 1, 2026",
+    "updatedIso": "2026-11-01",
     "values": {
-     "Republicans": 42.6,
-     "Democrats": 51.5
+     "Republicans": 42.3,
+     "Democrats": 51.2
     },
-    "otherUndecided": 5.9
+    "otherUndecided": 6.5
    },
    {
     "source": "FiftyPlusOne",
     "isAverage": false,
-    "dates": "January 9, 2025 – October 26, 2026",
-    "updated": "October 30, 2026",
-    "updatedIso": "2026-10-30",
+    "dates": "January 9, 2025 – October 30, 2026",
+    "updated": "November 1, 2026",
+    "updatedIso": "2026-11-01",
     "values": {
-     "Republicans": 43.4,
-     "Democrats": 52.2
+     "Republicans": 43.7,
+     "Democrats": 52.3
     },
-    "otherUndecided": 4.4
+    "otherUndecided": 4
    },
    {
     "source": "NBC News",
     "isAverage": false,
-    "dates": "January 9, 2025 – October 26, 2026",
-    "updated": "October 30, 2026",
-    "updatedIso": "2026-10-30",
+    "dates": "January 9, 2025 – October 30, 2026",
+    "updated": "November 1, 2026",
+    "updatedIso": "2026-11-01",
     "values": {
      "Republicans": 44,
      "Democrats": 52
@@ -82,26 +82,26 @@
    {
     "source": "RealClearPolitics",
     "isAverage": false,
-    "dates": "October 8–26, 2026",
-    "updated": "October 30, 2026",
-    "updatedIso": "2026-10-30",
+    "dates": "October 8–30, 2026",
+    "updated": "November 1, 2026",
+    "updatedIso": "2026-11-01",
     "values": {
-     "Republicans": 43.2,
-     "Democrats": 51.4
+     "Republicans": 43.1,
+     "Democrats": 52
     },
-    "otherUndecided": 5.4
+    "otherUndecided": 4.9
    },
    {
     "source": "Silver Bulletin",
     "isAverage": false,
-    "dates": "January 9, 2025 – October 26, 2026",
-    "updated": "October 30, 2026",
-    "updatedIso": "2026-10-30",
+    "dates": "January 9, 2025 – October 30, 2026",
+    "updated": "November 1, 2026",
+    "updatedIso": "2026-11-01",
     "values": {
-     "Republicans": 42.4,
-     "Democrats": 51.3
+     "Republicans": 42.6,
+     "Democrats": 51.4
     },
-    "otherUndecided": 6.3
+    "otherUndecided": 6
    },
    {
     "source": "Average",
@@ -111,9 +111,9 @@
     "updatedIso": null,
     "values": {
      "Republicans": 43.1,
-     "Democrats": 51.7
+     "Democrats": 51.8
     },
-    "otherUndecided": 5.2
+    "otherUndecided": 5.1
    }
   ],
   "polls": [
@@ -5643,10 +5643,10 @@
    "detail": "Average of 5 poll aggregators",
    "values": {
     "Republicans": 43.1,
-    "Democrats": 51.7
+    "Democrats": 51.8
    },
    "leader": "Democrats",
-   "margin": 8.6
+   "margin": 8.7
   },
   "latestPoll": "2026-10-30"
  },
