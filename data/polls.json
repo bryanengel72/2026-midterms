@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T16:05:22.590Z",
+ "generatedAt": "2026-11-02T17:28:28.693Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -5680,9 +5680,9 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
       "flip": false
      },
      {
@@ -7671,8 +7671,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Lean R",
+      "strength": "Lean",
       "lean": "R",
       "flip": false
      },
@@ -7963,10 +7963,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -8022,7 +8022,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 6,
+     "count": 5,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado#District_5",
@@ -8712,8 +8712,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Lean R",
+      "strength": "Lean",
       "lean": "R",
       "flip": false
      },
@@ -8771,7 +8771,7 @@
      "rating": "Lean R",
      "strength": "Lean",
      "lean": "R",
-     "count": 6,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_7",
@@ -8997,8 +8997,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Lean R",
+      "strength": "Lean",
       "lean": "R",
       "flip": true
      },
@@ -9572,9 +9572,9 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
       "flip": false
      },
      {
@@ -9631,7 +9631,7 @@
      "rating": "Lean D",
      "strength": "Lean",
      "lean": "D",
-     "count": 5,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_14",
@@ -10331,9 +10331,9 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
       "flip": false
      },
      {
@@ -10390,7 +10390,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_22",
@@ -12424,9 +12424,9 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean R",
+      "strength": "Lean",
+      "lean": "R",
       "flip": false
      },
      {
@@ -12483,7 +12483,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kentucky#District_6",
@@ -13069,8 +13069,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": false
      },
@@ -13128,7 +13128,7 @@
      "rating": "Safe R",
      "strength": "Safe",
      "lean": "R",
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_1",
@@ -13285,10 +13285,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -13344,7 +13344,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 7,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_4",
@@ -13480,10 +13480,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -13539,7 +13539,7 @@
      "rating": "Lean D",
      "strength": "Lean",
      "lean": "D",
-     "count": 4,
+     "count": 5,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_7",
@@ -13753,10 +13753,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -13812,7 +13812,7 @@
      "rating": "Lean D",
      "strength": "Lean",
      "lean": "D",
-     "count": 5,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_10",
@@ -14398,9 +14398,9 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean R",
+      "strength": "Lean",
+      "lean": "R",
       "flip": false
      },
      {
@@ -14457,7 +14457,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 5,
+     "count": 4,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri#District_2",
@@ -14578,10 +14578,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -14637,7 +14637,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana#District_1",
@@ -16106,8 +16106,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Lean R",
+      "strength": "Lean",
       "lean": "R",
       "flip": false
      },
@@ -16165,7 +16165,7 @@
      "rating": "Likely R",
      "strength": "Likely",
      "lean": "R",
-     "count": 7,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Jersey#District_2",
@@ -17123,9 +17123,9 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean R",
+      "strength": "Lean",
+      "lean": "R",
       "flip": false
      },
      {
@@ -17179,9 +17179,9 @@
      }
     ],
     "consensus": {
-     "rating": "Tossup",
-     "strength": "Tossup",
-     "lean": null,
+     "rating": "Lean D",
+     "strength": "Lean",
+     "lean": "D",
      "count": 4,
      "of": 10
     },
@@ -18538,8 +18538,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": false
      },
@@ -18597,7 +18597,7 @@
      "rating": "Likely R",
      "strength": "Likely",
      "lean": "R",
-     "count": 7,
+     "count": 8,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_9",
@@ -18989,8 +18989,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": false
      },
@@ -19048,7 +19048,7 @@
      "rating": "Likely R",
      "strength": "Likely",
      "lean": "R",
-     "count": 8,
+     "count": 9,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_13",
@@ -19412,10 +19412,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -19471,7 +19471,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 7,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_7",
@@ -19730,9 +19730,9 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
       "flip": false
      },
      {
@@ -19789,7 +19789,7 @@
      "rating": "Lean D",
      "strength": "Lean",
      "lean": "D",
-     "count": 6,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_9",
@@ -20605,10 +20605,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -20664,7 +20664,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 7,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_1",
@@ -22108,8 +22108,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": false
      },
@@ -22167,7 +22167,7 @@
      "rating": "Safe R",
      "strength": "Safe",
      "lean": "R",
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee#District_5",
@@ -22366,8 +22366,8 @@
      },
      {
       "source": "Sabato",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": true
      },
@@ -22425,7 +22425,7 @@
      "rating": "Likely R",
      "strength": "Likely",
      "lean": "R",
-     "count": 6,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee#District_9",
@@ -24505,9 +24505,9 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
       "flip": false
      },
      {
@@ -24564,7 +24564,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_35",
@@ -24793,10 +24793,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -24852,7 +24852,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 7,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia#District_1",
@@ -25138,10 +25138,10 @@
      },
      {
       "source": "Sabato",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "Econ.",
@@ -26657,9 +26657,9 @@
    },
    {
     "source": "Sabato",
-    "D": 225,
-    "R": 193,
-    "tossup": 17
+    "D": 239,
+    "R": 196,
+    "tossup": 0
    },
    {
     "source": "Econ.",
@@ -27929,11 +27929,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Lean D",
-       "strength": "Lean",
+       "rating": "Likely D",
+       "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -28099,7 +28099,7 @@
       "rating": "Lean D",
       "strength": "Lean",
       "lean": "D",
-      "count": 5,
+      "count": 4,
       "of": 8
      },
      "latestPoll": "2026-10-30"
@@ -32579,11 +32579,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "October 27, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -32954,7 +32954,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 5,
+      "count": 4,
       "of": 8
      },
      "latestPoll": "2026-10-27"
@@ -34019,11 +34019,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
+       "rating": "Lean R",
+       "strength": "Lean",
+       "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -34702,7 +34702,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 11,
+      "count": 10,
       "of": 14
      },
      "latestPoll": "2026-11-01"
@@ -35381,11 +35381,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "October 29, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -35791,7 +35791,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 11,
+      "count": 10,
       "of": 14
      },
      "latestPoll": "2026-11-01"
@@ -36451,11 +36451,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Likely R",
-       "strength": "Likely",
+       "rating": "Lean R",
+       "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -36536,7 +36536,7 @@
       "rating": "Likely R",
       "strength": "Likely",
       "lean": "R",
-      "count": 7,
+      "count": 6,
       "of": 12
      },
      "latestPoll": "2026-10-29"
@@ -36665,11 +36665,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "October 29, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -36705,20 +36705,20 @@
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Susan Collins": 45.4,
-        "Troy Jackson": 50.3
+        "Susan Collins": 45.3,
+        "Troy Jackson": 51
        },
-       "otherUndecided": 4.3
+       "otherUndecided": 3.7
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Susan Collins": 45.8,
         "Troy Jackson": 50.8
@@ -36741,13 +36741,13 @@
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Susan Collins": 46.4,
-        "Troy Jackson": 50
+        "Susan Collins": 46.3,
+        "Troy Jackson": 50.3
        },
-       "otherUndecided": 3.6
+       "otherUndecided": 3.4
       },
       {
        "source": "Average",
@@ -36756,10 +36756,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Susan Collins": 46,
-        "Troy Jackson": 50.3
+        "Susan Collins": 45.9,
+        "Troy Jackson": 50.5
        },
-       "otherUndecided": 3.7
+       "otherUndecided": 3.6
       }
      ],
      "polls": [
@@ -37263,17 +37263,17 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Susan Collins": 46,
-       "Troy Jackson": 50.3
+       "Susan Collins": 45.9,
+       "Troy Jackson": 50.5
       },
       "leader": "Troy Jackson",
-      "margin": 4.3
+      "margin": 4.6
      },
      "consensus": {
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 8,
+      "count": 7,
       "of": 14
      },
      "latestPoll": "2026-11-01"
@@ -37380,8 +37380,8 @@
        "source": "270toWin",
        "isAverage": false,
        "dates": "October 16 – November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Hannah Pingree": 48.8,
         "Bobby Charles": 39.2,
@@ -37393,26 +37393,26 @@
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Hannah Pingree": 50.4,
+        "Hannah Pingree": 50.5,
         "Bobby Charles": 39.8
        },
-       "otherUndecided": 9.8
+       "otherUndecided": 9.7
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Hannah Pingree": 50.8,
-        "Bobby Charles": 39.6,
+        "Bobby Charles": 39.7,
         "Rick Bennett": 7.2
        },
-       "otherUndecided": 2.4
+       "otherUndecided": 2.3
       },
       {
        "source": "RealClearPolitics",
@@ -37433,10 +37433,10 @@
        "updated": "November 1, 2026",
        "updatedIso": "2026-11-01",
        "values": {
-        "Hannah Pingree": 49.9,
-        "Bobby Charles": 39.8
+        "Hannah Pingree": 50.1,
+        "Bobby Charles": 39.9
        },
-       "otherUndecided": 10.3
+       "otherUndecided": 10
       },
       {
        "source": "Average",
@@ -37445,11 +37445,11 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Hannah Pingree": 49.9,
-        "Bobby Charles": 39.6,
+        "Hannah Pingree": 50,
+        "Bobby Charles": 39.7,
         "Rick Bennett": 7.1
        },
-       "otherUndecided": 3.4
+       "otherUndecided": 3.2
       }
      ],
      "polls": [
@@ -37820,8 +37820,8 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Hannah Pingree": 49.9,
-       "Bobby Charles": 39.6,
+       "Hannah Pingree": 50,
+       "Bobby Charles": 39.7,
        "Rick Bennett": 7.1
       },
       "leader": "Hannah Pingree",
@@ -43506,11 +43506,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "October 27, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -43866,7 +43866,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 8,
+      "count": 7,
       "of": 8
      },
      "latestPoll": "2026-10-28"
@@ -43994,8 +43994,8 @@
       },
       {
        "source": "Silver Bulletin",
-       "rating": "Likely D",
-       "strength": "Likely",
+       "rating": "Safe D",
+       "strength": "Safe",
        "lean": "D",
        "flip": false,
        "asOf": "November 1, 2026"
@@ -44645,11 +44645,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Likely R",
-       "strength": "Likely",
+       "rating": "Lean R",
+       "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -44990,7 +44990,7 @@
       "rating": "Likely R",
       "strength": "Likely",
       "lean": "R",
-      "count": 5,
+      "count": 4,
       "of": 8
      },
      "latestPoll": "2026-10-31"
@@ -47370,11 +47370,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "October 29, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -48218,7 +48218,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 9,
+      "count": 8,
       "of": 14
      },
      "latestPoll": "2026-11-01"
@@ -52268,8 +52268,7 @@
       {
        "name": "David Hatley",
        "party": "I",
-       "nominee": true,
-       "partyName": "Independent"
+       "nominee": false
       }
      ],
      "results": null,
@@ -52583,11 +52582,11 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "October 29, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -52623,11 +52622,11 @@
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Ken Paxton": 45.1,
-        "James Talarico": 49.2
+        "Ken Paxton": 45.8,
+        "James Talarico": 49.3
        },
        "otherUndecided": 5.7
       },
@@ -52635,13 +52634,13 @@
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Ken Paxton": 45.6,
-        "James Talarico": 49.4
+        "Ken Paxton": 45.7,
+        "James Talarico": 49.5
        },
-       "otherUndecided": 5
+       "otherUndecided": 4.8
       },
       {
        "source": "RealClearPolitics",
@@ -52658,12 +52657,12 @@
       {
        "source": "The Texas Tribune",
        "isAverage": false,
-       "dates": "through October 28, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Ken Paxton": 46.4,
-        "James Talarico": 49.1
+        "Ken Paxton": 46.1,
+        "James Talarico": 49.4
        },
        "otherUndecided": 4.5
       },
@@ -52671,11 +52670,11 @@
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Ken Paxton": 45.9,
-        "James Talarico": 49.2
+        "Ken Paxton": 46.3,
+        "James Talarico": 49.8
        },
        "otherUndecided": 4.9
       },
@@ -52686,10 +52685,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Ken Paxton": 45.9,
-        "James Talarico": 49.2
+        "Ken Paxton": 46.1,
+        "James Talarico": 49.4
        },
-       "otherUndecided": 4.9
+       "otherUndecided": 4.5
       }
      ],
      "polls": [
@@ -53904,8 +53903,8 @@
       "basis": "aggregate-average",
       "detail": "Average of 6 poll aggregators",
       "values": {
-       "Ken Paxton": 45.9,
-       "James Talarico": 49.2
+       "Ken Paxton": 46.1,
+       "James Talarico": 49.4
       },
       "leader": "James Talarico",
       "margin": 3.3
@@ -53914,7 +53913,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 9,
+      "count": 8,
       "of": 14
      },
      "latestPoll": "2026-11-01"
@@ -54032,20 +54031,20 @@
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Greg Abbott": 49.1,
-        "Gina Hinojosa": 47.4
+        "Gina Hinojosa": 47.5
        },
-       "otherUndecided": 3.5
+       "otherUndecided": 3.4
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Greg Abbott": 48.9,
         "Gina Hinojosa": 47.4
@@ -54068,13 +54067,13 @@
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Greg Abbott": 49.2,
-        "Gina Hinojosa": 47.1
+        "Greg Abbott": 49.4,
+        "Gina Hinojosa": 47.7
        },
-       "otherUndecided": 3.7
+       "otherUndecided": 2.9
       },
       {
        "source": "Average",
@@ -54084,9 +54083,9 @@
        "updatedIso": null,
        "values": {
         "Greg Abbott": 49.3,
-        "Gina Hinojosa": 47.3
+        "Gina Hinojosa": 47.4
        },
-       "otherUndecided": 3.4
+       "otherUndecided": 3.3
       }
      ],
      "polls": [
@@ -55098,10 +55097,10 @@
       "detail": "Average of 5 poll aggregators",
       "values": {
        "Greg Abbott": 49.3,
-       "Gina Hinojosa": 47.3
+       "Gina Hinojosa": 47.4
       },
       "leader": "Greg Abbott",
-      "margin": 2
+      "margin": 1.9
      },
      "consensus": {
       "rating": "Lean R",
@@ -55230,7 +55229,7 @@
         "Phil Scott": 43,
         "Amanda Janoo": 51
        },
-       "other": 2,
+       "other": 6,
        "undecided": 1
       },
       {
