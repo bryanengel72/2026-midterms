@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T10:57:59.554Z",
+ "generatedAt": "2026-11-03T15:29:50.904Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -26871,10 +26871,47 @@
        "asOf": "November 2, 2026"
       }
      ],
-     "aggregates": [],
+     "aggregates": [
+      {
+       "source": "270toWin",
+       "isAverage": false,
+       "dates": "October 15–24, 2026",
+       "updated": "October 28, 2026",
+       "updatedIso": "2026-10-28",
+       "values": {
+        "Barry Moore": 52.7,
+        "Everett Wess": 36
+       },
+       "otherUndecided": 11.3
+      },
+      {
+       "source": "Silver Bulletin",
+       "isAverage": false,
+       "dates": "through October 24, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
+       "values": {
+        "Barry Moore": 51,
+        "Everett Wess": 37.1
+       },
+       "otherUndecided": 11.9
+      },
+      {
+       "source": "Average",
+       "isAverage": true,
+       "dates": "",
+       "updated": "",
+       "updatedIso": null,
+       "values": {
+        "Barry Moore": 51.6,
+        "Everett Wess": 36.6
+       },
+       "otherUndecided": 11.8
+      }
+     ],
      "polls": [
       {
-       "pollster": "Chism Strategies (D)",
+       "pollster": "Blueprint Polling (D)",
        "dates": "October 22–24, 2026",
        "start": "2026-10-22",
        "end": "2026-10-24",
@@ -26950,14 +26987,14 @@
       }
      ],
      "headline": {
-      "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "basis": "aggregate-average",
+      "detail": "Average of 2 poll aggregators",
       "values": {
-       "Barry Moore": 51.3,
-       "Everett Wess": 36.7
+       "Barry Moore": 51.6,
+       "Everett Wess": 36.6
       },
       "leader": "Barry Moore",
-      "margin": 14.6
+      "margin": 15
      },
      "consensus": {
       "rating": "Safe R",
@@ -27357,13 +27394,13 @@
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Dan S. Sullivan": 48,
+        "Dan S. Sullivan": 47.4,
         "Mary Peltola": 49.7
        },
-       "otherUndecided": 2.3
+       "otherUndecided": 2.9
       },
       {
        "source": "RealClearPolitics",
@@ -27381,13 +27418,13 @@
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Dan S. Sullivan": 45.1,
-        "Mary Peltola": 47.8
+        "Dan S. Sullivan": 45.9,
+        "Mary Peltola": 48.3
        },
-       "otherUndecided": 7.1
+       "otherUndecided": 5.8
       },
       {
        "source": "Average",
@@ -27396,10 +27433,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Dan S. Sullivan": 46.9,
-        "Mary Peltola": 49
+        "Dan S. Sullivan": 47.7,
+        "Mary Peltola": 49.1
        },
-       "otherUndecided": 4.1
+       "otherUndecided": 3.2
       }
      ],
      "polls": [
@@ -27903,11 +27940,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Dan S. Sullivan": 46.9,
-       "Mary Peltola": 49
+       "Dan S. Sullivan": 47.7,
+       "Mary Peltola": 49.1
       },
       "leader": "Mary Peltola",
-      "margin": 2.1
+      "margin": 1.4
      },
      "consensus": {
       "rating": "Tossup",
@@ -28988,43 +29025,34 @@
      ],
      "aggregates": [
       {
-       "source": "270toWin",
-       "isAverage": false,
-       "dates": "August 19–20, 2026",
-       "updated": "October 9, 2026",
-       "updatedIso": "2026-10-09",
-       "values": {
-        "Tom Cotton": 47.5,
-        "Hallie Shoffner": 41
-       },
-       "otherUndecided": 11.5
-      },
-      {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through October 28, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Tom Cotton": 52.7,
-        "Hallie Shoffner": 39.5
+        "Tom Cotton": 52.8,
+        "Hallie Shoffner": 39.8
        },
-       "otherUndecided": 7.8
-      },
-      {
-       "source": "Average",
-       "isAverage": true,
-       "dates": "",
-       "updated": "",
-       "updatedIso": null,
-       "values": {
-        "Tom Cotton": 50.1,
-        "Hallie Shoffner": 40.3
-       },
-       "otherUndecided": 9.6
+       "otherUndecided": 7.4
       }
      ],
      "polls": [
+      {
+       "pollster": "GrayHouse (R)",
+       "dates": "October 27–28, 2026",
+       "start": "2026-10-27",
+       "end": "2026-10-28",
+       "sample": 509,
+       "population": "LV",
+       "moe": 4.3,
+       "values": {
+        "Tom Cotton": 55,
+        "Hallie Shoffner": 39
+       },
+       "other": 4,
+       "undecided": 2
+      },
       {
        "pollster": "Hendrix College",
        "dates": "October 8–13, 2026",
@@ -29037,8 +29065,8 @@
         "Tom Cotton": 50,
         "Hallie Shoffner": 41
        },
-       "other": 4.5,
-       "undecided": 4.5
+       "other": 5,
+       "undecided": 5
       },
       {
        "pollster": "GrayHouse (R)",
@@ -29049,11 +29077,11 @@
        "population": "LV",
        "moe": 4.2,
        "values": {
-        "Tom Cotton": 50,
-        "Hallie Shoffner": 39
+        "Tom Cotton": 51,
+        "Hallie Shoffner": 40
        },
        "other": 4,
-       "undecided": 7
+       "undecided": 5
       },
       {
        "pollster": "J.L. Partners",
@@ -29117,14 +29145,14 @@
       }
      ],
      "headline": {
-      "basis": "aggregate-average",
-      "detail": "Average of 2 poll aggregators",
+      "basis": "aggregate",
+      "detail": "Silver Bulletin polling average",
       "values": {
-       "Tom Cotton": 50.1,
-       "Hallie Shoffner": 40.3
+       "Tom Cotton": 52.8,
+       "Hallie Shoffner": 39.8
       },
       "leader": "Tom Cotton",
-      "margin": 9.8
+      "margin": 13
      },
      "consensus": {
       "rating": "Safe R",
@@ -29133,7 +29161,7 @@
       "count": 12,
       "of": 12
      },
-     "latestPoll": "2026-10-13"
+     "latestPoll": "2026-10-28"
     },
     {
      "id": "AR-GOV",
@@ -29874,7 +29902,44 @@
        "asOf": "November 2, 2026"
       }
      ],
-     "aggregates": [],
+     "aggregates": [
+      {
+       "source": "270toWin",
+       "isAverage": false,
+       "dates": "October 9 – November 2, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "John Hickenlooper": 59,
+        "Mark Baisley": 38
+       },
+       "otherUndecided": 3
+      },
+      {
+       "source": "Silver Bulletin",
+       "isAverage": false,
+       "dates": "through November 2, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
+       "values": {
+        "John Hickenlooper": 57.1,
+        "Mark Baisley": 37.5
+       },
+       "otherUndecided": 5.4
+      },
+      {
+       "source": "Average",
+       "isAverage": true,
+       "dates": "",
+       "updated": "",
+       "updatedIso": null,
+       "values": {
+        "John Hickenlooper": 58.1,
+        "Mark Baisley": 37.8
+       },
+       "otherUndecided": 4.1
+      }
+     ],
      "polls": [
       {
        "pollster": "Research Co.",
@@ -29923,14 +29988,14 @@
       }
      ],
      "headline": {
-      "basis": "simple-average",
-      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+      "basis": "aggregate-average",
+      "detail": "Average of 2 poll aggregators",
       "values": {
-       "John Hickenlooper": 57,
-       "Mark Baisley": 37
+       "John Hickenlooper": 58.1,
+       "Mark Baisley": 37.8
       },
       "leader": "John Hickenlooper",
-      "margin": 20
+      "margin": 20.3
      },
      "consensus": {
       "rating": "Safe D",
@@ -34324,46 +34389,46 @@
        "updated": "November 2, 2026",
        "updatedIso": "2026-11-02",
        "values": {
-        "Ashley Hinson": 47,
-        "Josh Turek": 47
+        "Ashley Hinson": 46.8,
+        "Josh Turek": 47.7
        },
-       "otherUndecided": 6
+       "otherUndecided": 5.5
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Ashley Hinson": 47.2,
-        "Josh Turek": 46.5
+        "Ashley Hinson": 47.3,
+        "Josh Turek": 47
        },
-       "otherUndecided": 6.3
+       "otherUndecided": 5.7
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Ashley Hinson": 46.8,
-        "Josh Turek": 47.1
+        "Ashley Hinson": 47.2,
+        "Josh Turek": 47.8
        },
-       "otherUndecided": 6.1
+       "otherUndecided": 5
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 9 – November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "dates": "October 13 – November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Ashley Hinson": 46.9,
-        "Josh Turek": 46.4
+        "Ashley Hinson": 47.1,
+        "Josh Turek": 47.1
        },
-       "otherUndecided": 6.7
+       "otherUndecided": 5.8
       },
       {
        "source": "Silver Bulletin",
@@ -34372,10 +34437,10 @@
        "updated": "November 2, 2026",
        "updatedIso": "2026-11-02",
        "values": {
-        "Ashley Hinson": 46.6,
-        "Josh Turek": 47.3
+        "Ashley Hinson": 46.7,
+        "Josh Turek": 47.7
        },
-       "otherUndecided": 6.1
+       "otherUndecided": 5.6
       },
       {
        "source": "Average",
@@ -34384,10 +34449,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Ashley Hinson": 46.9,
-        "Josh Turek": 46.9
+        "Ashley Hinson": 47,
+        "Josh Turek": 47.5
        },
-       "otherUndecided": 6.2
+       "otherUndecided": 5.5
       }
      ],
      "polls": [
@@ -35011,11 +35076,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Ashley Hinson": 46.9,
-       "Josh Turek": 46.9
+       "Ashley Hinson": 47,
+       "Josh Turek": 47.5
       },
-      "leader": null,
-      "margin": 0
+      "leader": "Josh Turek",
+      "margin": 0.5
      },
      "consensus": {
       "rating": "Tossup",
@@ -35635,8 +35700,7 @@
       {
        "name": "David Graham",
        "party": "L",
-       "nominee": true,
-       "partyName": "Libertarian Party"
+       "nominee": false
       }
      ],
      "results": null,
@@ -37118,25 +37182,25 @@
        "source": "270toWin",
        "isAverage": false,
        "dates": "October 16 – November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Susan Collins": 45.6,
-        "Troy Jackson": 50.4
+        "Susan Collins": 45.9,
+        "Troy Jackson": 50.9
        },
-       "otherUndecided": 4
+       "otherUndecided": 3.2
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Susan Collins": 45.3,
-        "Troy Jackson": 51
+        "Susan Collins": 45.9,
+        "Troy Jackson": 51.2
        },
-       "otherUndecided": 3.7
+       "otherUndecided": 2.9
       },
       {
        "source": "FiftyPlusOne",
@@ -37145,34 +37209,34 @@
        "updated": "November 2, 2026",
        "updatedIso": "2026-11-02",
        "values": {
-        "Susan Collins": 45.8,
+        "Susan Collins": 46.1,
         "Troy Jackson": 50.8
        },
-       "otherUndecided": 3.4
+       "otherUndecided": 3.1
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
        "dates": "October 8 – November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
         "Susan Collins": 46.6,
-        "Troy Jackson": 49.9
+        "Troy Jackson": 50.2
        },
-       "otherUndecided": 3.5
+       "otherUndecided": 3.2
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Susan Collins": 46.3,
-        "Troy Jackson": 50.3
+        "Susan Collins": 46.5,
+        "Troy Jackson": 50.5
        },
-       "otherUndecided": 3.4
+       "otherUndecided": 3
       },
       {
        "source": "Average",
@@ -37181,10 +37245,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Susan Collins": 45.9,
-        "Troy Jackson": 50.5
+        "Susan Collins": 46.2,
+        "Troy Jackson": 50.7
        },
-       "otherUndecided": 3.6
+       "otherUndecided": 3.1
       }
      ],
      "polls": [
@@ -37748,11 +37812,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Susan Collins": 45.9,
-       "Troy Jackson": 50.5
+       "Susan Collins": 46.2,
+       "Troy Jackson": 50.7
       },
       "leader": "Troy Jackson",
-      "margin": 4.6
+      "margin": 4.5
      },
      "consensus": {
       "rating": "Tossup",
@@ -38552,8 +38616,7 @@
       {
        "name": "Joe Tache",
        "party": "O",
-       "nominee": true,
-       "partyName": "Party for Socialism and Liberation"
+       "nominee": false
       }
      ],
      "results": null,
@@ -38991,6 +39054,12 @@
        "party": "R",
        "nominee": true,
        "partyName": "Republican Party"
+      },
+      {
+       "name": "Andrea James",
+       "party": "I",
+       "nominee": true,
+       "partyName": "Independent"
       }
      ],
      "results": null,
@@ -39121,9 +39190,10 @@
        "moe": 3.3,
        "values": {
         "Maura Healey": 55,
-        "Mike Minogue": 36
+        "Mike Minogue": 36,
+        "Andrea James": 5
        },
-       "other": 6,
+       "other": 1,
        "undecided": 4
       },
       {
@@ -39136,9 +39206,10 @@
        "moe": 4.4,
        "values": {
         "Maura Healey": 59,
-        "Mike Minogue": 36
+        "Mike Minogue": 36,
+        "Andrea James": 2
        },
-       "other": 2,
+       "other": null,
        "undecided": 3
       },
       {
@@ -39151,9 +39222,10 @@
        "moe": 4.4,
        "values": {
         "Maura Healey": 57,
-        "Mike Minogue": 29
+        "Mike Minogue": 29,
+        "Andrea James": 4
        },
-       "other": 4,
+       "other": null,
        "undecided": 8
       },
       {
@@ -39166,9 +39238,10 @@
        "moe": 4.2,
        "values": {
         "Maura Healey": 56,
-        "Mike Minogue": 31
+        "Mike Minogue": 31,
+        "Andrea James": 5
        },
-       "other": 6,
+       "other": 1,
        "undecided": 7
       },
       {
@@ -39181,9 +39254,10 @@
        "moe": 4,
        "values": {
         "Maura Healey": 51,
-        "Mike Minogue": 30
+        "Mike Minogue": 30,
+        "Andrea James": 3
        },
-       "other": 7,
+       "other": 2,
        "undecided": 12
       },
       {
@@ -43397,19 +43471,19 @@
      ],
      "polls": [
       {
-       "pollster": "Greyhouse",
-       "dates": "November 1, 2026",
-       "start": "2026-11-01",
+       "pollster": "GrayHouse (R)",
+       "dates": "October 29 – November 1, 2026",
+       "start": "2026-10-29",
        "end": "2026-11-01",
        "sample": 534,
        "population": "LV",
-       "moe": 2.8,
+       "moe": 4.2,
        "values": {
         "Pete Ricketts": 50,
-        "Dan Osborn": 49
+        "Dan Osborn": 44
        },
-       "other": 1,
-       "undecided": 0
+       "other": 3,
+       "undecided": null
       },
       {
        "pollster": "YouGov",
@@ -52078,9 +52152,9 @@
        "undecided": 4
       },
       {
-       "pollster": "Rasmussen Reports",
-       "dates": "October 31, 2026",
-       "start": "2026-10-31",
+       "pollster": "Rasmussen Reports (R)",
+       "dates": "October 27–31, 2026",
+       "start": "2026-10-27",
        "end": "2026-10-31",
        "sample": 1028,
        "population": "LV",
@@ -53635,11 +53709,11 @@
      "ratings": [
       {
        "source": "ABC News",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "October 26, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 3, 2026"
       },
       {
        "source": "CBS News",
@@ -53671,7 +53745,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -53711,7 +53785,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -53735,7 +53809,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Split Ticket",
@@ -55086,7 +55160,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 8,
+      "count": 7,
       "of": 14
      },
      "latestPoll": "2026-11-02"
