@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T00:04:59.357Z",
+ "generatedAt": "2026-11-03T01:02:17.253Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -143,6 +143,21 @@
     "values": {
      "Democrats": 52,
      "Republicans": 45
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "YouGov",
+    "dates": "October 27–30, 2026",
+    "start": "2026-10-27",
+    "end": "2026-10-30",
+    "sample": 3915,
+    "population": "LV",
+    "moe": 1.7,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 44
     },
     "other": null,
     "undecided": 3
@@ -7529,15 +7544,15 @@
      },
      {
       "source": "ST",
-      "rating": "Likely D",
-      "strength": "Likely",
+      "rating": "Safe D",
+      "strength": "Safe",
       "lean": "D",
       "flip": false
      },
      {
       "source": "DDHQ",
-      "rating": "Safe D",
-      "strength": "Safe",
+      "rating": "Likely D",
+      "strength": "Likely",
       "lean": "D",
       "flip": false
      },
@@ -9363,8 +9378,8 @@
      },
      {
       "source": "DDHQ",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Safe R",
+      "strength": "Safe",
       "lean": "R",
       "flip": false
      },
@@ -9401,7 +9416,7 @@
      "rating": "Likely R",
      "strength": "Likely",
      "lean": "R",
-     "count": 6,
+     "count": 5,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_12",
@@ -23443,8 +23458,8 @@
      },
      {
       "source": "DDHQ",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": false
      },
@@ -23481,7 +23496,7 @@
      "rating": "Safe R",
      "strength": "Safe",
      "lean": "R",
-     "count": 9,
+     "count": 8,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_21",
@@ -34387,6 +34402,21 @@
      ],
      "polls": [
       {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1219,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Ashley Hinson": 46,
+        "Josh Turek": 51
+       },
+       "other": 3,
+       "undecided": 0
+      },
+      {
        "pollster": "New York Times/Siena University",
        "dates": "October 26 – November 1, 2026",
        "start": "2026-10-26",
@@ -35173,6 +35203,21 @@
      ],
      "polls": [
       {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1219,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Zach Lahn": 44,
+        "Rob Sand": 54
+       },
+       "other": 2,
+       "undecided": 0
+      },
+      {
        "pollster": "New York Times/Siena University",
        "dates": "October 26 – November 1, 2026",
        "start": "2026-10-26",
@@ -35585,8 +35630,7 @@
       {
        "name": "David Graham",
        "party": "L",
-       "nominee": true,
-       "partyName": "Libertarian Party"
+       "nominee": false
       }
      ],
      "results": null,
@@ -36277,6 +36321,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 2038,
+       "population": "LV",
+       "moe": 2,
+       "values": {
+        "Cindy Holscher": 50,
+        "Ty Masterson": 46
+       },
+       "other": 4,
+       "undecided": 1
+      },
       {
        "pollster": "Survey 160",
        "dates": "October 27 – November 1, 2026",
@@ -38380,7 +38439,8 @@
       {
        "name": "Joe Tache",
        "party": "O",
-       "nominee": false
+       "nominee": true,
+       "partyName": "Party for Socialism and Liberation"
       }
      ],
      "results": null,
