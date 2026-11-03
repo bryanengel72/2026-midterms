@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T07:18:37.928Z",
+ "generatedAt": "2026-11-03T10:57:59.554Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -43397,6 +43397,21 @@
      ],
      "polls": [
       {
+       "pollster": "Greyhouse",
+       "dates": "November 1, 2026",
+       "start": "2026-11-01",
+       "end": "2026-11-01",
+       "sample": 534,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Pete Ricketts": 50,
+        "Dan Osborn": 49
+       },
+       "other": 1,
+       "undecided": 0
+      },
+      {
        "pollster": "YouGov",
        "dates": "October 26–29, 2026",
        "start": "2026-10-26",
@@ -43729,7 +43744,7 @@
       "count": 7,
       "of": 12
      },
-     "latestPoll": "2026-10-29"
+     "latestPoll": "2026-11-01"
     },
     {
      "id": "NE-GOV",
@@ -48376,8 +48391,8 @@
        "population": "LV",
        "moe": 3.2,
        "values": {
-        "Jon Husted": 46,
-        "Sherrod Brown": 48
+        "Jon Husted": 48,
+        "Sherrod Brown": 46
        },
        "other": 6,
        "undecided": null
@@ -53377,7 +53392,8 @@
       {
        "name": "David Hatley",
        "party": "I",
-       "nominee": false
+       "nominee": true,
+       "partyName": "Independent politician"
       }
      ],
      "results": null,
