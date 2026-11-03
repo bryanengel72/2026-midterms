@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T19:31:19.355Z",
+ "generatedAt": "2026-11-03T21:19:02.792Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -41758,61 +41758,61 @@
        "source": "270toWin",
        "isAverage": false,
        "dates": "October 13 – November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Peggy Flanagan": 49.6,
-        "Michele Tafoya": 44
+        "Peggy Flanagan": 50.2,
+        "Michele Tafoya": 44.8
        },
-       "otherUndecided": 6.4
+       "otherUndecided": 5
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Peggy Flanagan": 49.8,
-        "Michele Tafoya": 43.2
+        "Peggy Flanagan": 49.7,
+        "Michele Tafoya": 43.4
        },
-       "otherUndecided": 7
+       "otherUndecided": 6.9
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Peggy Flanagan": 49.8,
-        "Michele Tafoya": 42.6
+        "Peggy Flanagan": 49.4,
+        "Michele Tafoya": 43.2
        },
-       "otherUndecided": 7.6
+       "otherUndecided": 7.4
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 2–30, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 5 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Peggy Flanagan": 48.4,
-        "Michele Tafoya": 43
+        "Peggy Flanagan": 48.9,
+        "Michele Tafoya": 43.7
        },
-       "otherUndecided": 8.6
+       "otherUndecided": 7.4
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Peggy Flanagan": 49.6,
-        "Michele Tafoya": 43
+        "Peggy Flanagan": 49.5,
+        "Michele Tafoya": 43.5
        },
-       "otherUndecided": 7.4
+       "otherUndecided": 7
       },
       {
        "source": "Average",
@@ -41821,10 +41821,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Peggy Flanagan": 49.4,
-        "Michele Tafoya": 43.2
+        "Peggy Flanagan": 49.6,
+        "Michele Tafoya": 43.7
        },
-       "otherUndecided": 7.4
+       "otherUndecided": 6.7
       }
      ],
      "polls": [
@@ -42208,11 +42208,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Peggy Flanagan": 49.4,
-       "Michele Tafoya": 43.2
+       "Peggy Flanagan": 49.6,
+       "Michele Tafoya": 43.7
       },
       "leader": "Peggy Flanagan",
-      "margin": 6.2
+      "margin": 5.9
      },
      "consensus": {
       "rating": "Lean D",
@@ -42785,7 +42785,20 @@
        "asOf": "November 2, 2026"
       }
      ],
-     "aggregates": [],
+     "aggregates": [
+      {
+       "source": "Silver Bulletin",
+       "isAverage": false,
+       "dates": "through October 22, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
+       "values": {
+        "Cindy Hyde-Smith": 45.7,
+        "Scott Colom": 39.2
+       },
+       "otherUndecided": 15.1
+      }
+     ],
      "polls": [
       {
        "pollster": "Change Research (D)",
@@ -42852,15 +42865,14 @@
       }
      ],
      "headline": {
-      "basis": "simple-average",
-      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+      "basis": "aggregate",
+      "detail": "Silver Bulletin polling average",
       "values": {
-       "Cindy Hyde-Smith": 43,
-       "Scott Colom": 40,
-       "Ty Pinkins": 6
+       "Cindy Hyde-Smith": 45.7,
+       "Scott Colom": 39.2
       },
       "leader": "Cindy Hyde-Smith",
-      "margin": 3
+      "margin": 6.5
      },
      "consensus": {
       "rating": "Likely R",
@@ -43049,8 +43061,8 @@
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through October 23, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
         "Kurt Alme": 40.1,
         "Alani Bankhead": 15.7,
@@ -43059,30 +43071,17 @@
        "otherUndecided": 12.1
       },
       {
-       "source": "RealClearPolitics",
-       "isAverage": false,
-       "dates": "August 27 – October 18, 2026",
-       "updated": "October 20, 2026",
-       "updatedIso": "2026-10-20",
-       "values": {
-        "Kurt Alme": 41,
-        "Alani Bankhead": 18.5,
-        "Seth Bodnar": 29
-       },
-       "otherUndecided": 11.5
-      },
-      {
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through October 23, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Kurt Alme": 41,
-        "Alani Bankhead": 16.8,
+        "Kurt Alme": 41.3,
+        "Alani Bankhead": 17.1,
         "Seth Bodnar": 32.6
        },
-       "otherUndecided": 9.6
+       "otherUndecided": 9
       },
       {
        "source": "Average",
@@ -43091,11 +43090,11 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Kurt Alme": 41,
-        "Alani Bankhead": 17.4,
-        "Seth Bodnar": 30.5
+        "Kurt Alme": 41.1,
+        "Alani Bankhead": 17.2,
+        "Seth Bodnar": 30.9
        },
-       "otherUndecided": 11.1
+       "otherUndecided": 10.8
       }
      ],
      "polls": [
@@ -43405,14 +43404,14 @@
      ],
      "headline": {
       "basis": "aggregate-average",
-      "detail": "Average of 5 poll aggregators",
+      "detail": "Average of 4 poll aggregators",
       "values": {
-       "Kurt Alme": 41,
-       "Alani Bankhead": 17.4,
-       "Seth Bodnar": 30.5
+       "Kurt Alme": 41.1,
+       "Alani Bankhead": 17.2,
+       "Seth Bodnar": 30.9
       },
       "leader": "Kurt Alme",
-      "margin": 10.5
+      "margin": 10.2
      },
      "consensus": {
       "rating": "Likely R",
@@ -43557,50 +43556,50 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "September 28 – October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 16 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Pete Ricketts": 46.6,
-        "Dan Osborn": 43.8
+        "Pete Ricketts": 47.6,
+        "Dan Osborn": 45
        },
-       "otherUndecided": 9.6
+       "otherUndecided": 7.4
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Pete Ricketts": 47.4,
-        "Dan Osborn": 46.2
+        "Pete Ricketts": 47.7,
+        "Dan Osborn": 45.6
        },
-       "otherUndecided": 6.4
+       "otherUndecided": 6.7
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Pete Ricketts": 47.7,
-        "Dan Osborn": 46.2
+        "Pete Ricketts": 48.1,
+        "Dan Osborn": 46.4
        },
-       "otherUndecided": 6.1
+       "otherUndecided": 5.5
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "dates": "through November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Pete Ricketts": 47.3,
-        "Dan Osborn": 46.4
+        "Pete Ricketts": 47.7,
+        "Dan Osborn": 46.5
        },
-       "otherUndecided": 6.3
+       "otherUndecided": 5.8
       },
       {
        "source": "Average",
@@ -43609,10 +43608,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Pete Ricketts": 47.2,
-        "Dan Osborn": 45.6
+        "Pete Ricketts": 47.8,
+        "Dan Osborn": 45.9
        },
-       "otherUndecided": 7.1
+       "otherUndecided": 6.3
       }
      ],
      "polls": [
@@ -43951,11 +43950,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 4 poll aggregators",
       "values": {
-       "Pete Ricketts": 47.2,
-       "Dan Osborn": 45.6
+       "Pete Ricketts": 47.8,
+       "Dan Osborn": 45.9
       },
       "leader": "Pete Ricketts",
-      "margin": 1.6
+      "margin": 1.9
      },
      "consensus": {
       "rating": "Lean R",
@@ -44889,16 +44888,16 @@
      },
      "candidates": [
       {
-       "name": "Chris Pappas",
-       "party": "D",
-       "nominee": true,
-       "partyName": "Democratic Party"
-      },
-      {
        "name": "John E. Sununu",
        "party": "R",
        "nominee": true,
        "partyName": "Republican Party"
+      },
+      {
+       "name": "Chris Pappas",
+       "party": "D",
+       "nominee": true,
+       "partyName": "Democratic Party"
       }
      ],
      "results": null,
@@ -45012,62 +45011,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "September 15 – October 20, 2026",
-       "updated": "October 22, 2026",
-       "updatedIso": "2026-10-22",
+       "dates": "October 2 – November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Chris Pappas": 49.7,
-        "John E. Sununu": 42.8
+        "Chris Pappas": 50.8,
+        "John E. Sununu": 42.6
        },
-       "otherUndecided": 7.5
+       "otherUndecided": 6.6
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 20, 2026",
-       "updated": "October 22, 2026",
-       "updatedIso": "2026-10-22",
+       "dates": "through November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Chris Pappas": 51.1,
-        "John E. Sununu": 43.8
+        "Chris Pappas": 52,
+        "John E. Sununu": 43.6
        },
-       "otherUndecided": 5.1
+       "otherUndecided": 4.4
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 20, 2026",
-       "updated": "October 22, 2026",
-       "updatedIso": "2026-10-22",
+       "dates": "through November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Chris Pappas": 50,
-        "John E. Sununu": 43.1
+        "Chris Pappas": 51.8,
+        "John E. Sununu": 43
        },
        "otherUndecided": 6.9
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "September 15 – October 20, 2026",
-       "updated": "October 22, 2026",
-       "updatedIso": "2026-10-22",
+       "dates": "October 2 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Chris Pappas": 49.5,
-        "John E. Sununu": 43
+        "Chris Pappas": 50.8,
+        "John E. Sununu": 42.8
        },
-       "otherUndecided": 7.5
+       "otherUndecided": 6.4
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 20, 2026",
-       "updated": "October 22, 2026",
-       "updatedIso": "2026-10-22",
+       "dates": "through November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Chris Pappas": 49.6,
-        "John E. Sununu": 42.3
+        "Chris Pappas": 51.3,
+        "John E. Sununu": 43.1
        },
-       "otherUndecided": 8.1
+       "otherUndecided": 5.6
       },
       {
        "source": "Average",
@@ -45076,10 +45075,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Chris Pappas": 50,
+        "Chris Pappas": 51.3,
         "John E. Sununu": 43
        },
-       "otherUndecided": 7
+       "otherUndecided": 5.7
       }
      ],
      "polls": [
@@ -45598,11 +45597,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Chris Pappas": 50,
+       "Chris Pappas": 51.3,
        "John E. Sununu": 43
       },
       "leader": "Chris Pappas",
-      "margin": 7
+      "margin": 8.3
      },
      "consensus": {
       "rating": "Lean D",
@@ -53612,7 +53611,8 @@
       {
        "name": "David Hatley",
        "party": "I",
-       "nominee": false
+       "nominee": true,
+       "partyName": "Independent politician"
       }
      ],
      "results": null,
