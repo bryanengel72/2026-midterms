@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T17:28:28.693Z",
+ "generatedAt": "2026-11-03T00:04:59.357Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -117,6 +117,66 @@
    }
   ],
   "polls": [
+   {
+    "pollster": "Reuters/Ipsos",
+    "dates": "October 28 – November 2, 2026",
+    "start": "2026-10-28",
+    "end": "2026-11-02",
+    "sample": 1212,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 44
+    },
+    "other": null,
+    "undecided": 4
+   },
+   {
+    "pollster": "Focaldata/Financial Times",
+    "dates": "October 30 – November 1, 2026",
+    "start": "2026-10-30",
+    "end": "2026-11-01",
+    "sample": 2090,
+    "population": "LV",
+    "moe": 2.7,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "Big Data Poll",
+    "dates": "October 27–30, 2026",
+    "start": "2026-10-27",
+    "end": "2026-10-30",
+    "sample": 3214,
+    "population": "LV",
+    "moe": 1.7,
+    "values": {
+     "Democrats": 51,
+     "Republicans": 39
+    },
+    "other": null,
+    "undecided": 11
+   },
+   {
+    "pollster": "I&I/TIPP Insights (R)",
+    "dates": "October 27–30, 2026",
+    "start": "2026-10-27",
+    "end": "2026-10-30",
+    "sample": 1158,
+    "population": "LV",
+    "moe": 2.9,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 42
+    },
+    "other": null,
+    "undecided": 5
+   },
    {
     "pollster": "ActiVote",
     "dates": "October 22–30, 2026",
@@ -5648,7 +5708,7 @@
    "leader": "Democrats",
    "margin": 8.7
   },
-  "latestPoll": "2026-10-30"
+  "latestPoll": "2026-11-02"
  },
  "house": {
   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -6385,8 +6445,8 @@
      },
      {
       "source": "Econ.",
-      "rating": "Likely D",
-      "strength": "Likely",
+      "rating": "Lean D",
+      "strength": "Lean",
       "lean": "D",
       "flip": true
      },
@@ -6434,8 +6494,8 @@
      }
     ],
     "consensus": {
-     "rating": "Likely D",
-     "strength": "Likely",
+     "rating": "Lean D",
+     "strength": "Lean",
      "lean": "D",
      "count": 5,
      "of": 10
@@ -7469,8 +7529,8 @@
      },
      {
       "source": "ST",
-      "rating": "Safe D",
-      "strength": "Safe",
+      "rating": "Likely D",
+      "strength": "Likely",
       "lean": "D",
       "flip": false
      },
@@ -7514,7 +7574,7 @@
      "rating": "Safe D",
      "strength": "Safe",
      "lean": "D",
-     "count": 7,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_27%E2%80%9352)#District_45",
@@ -8482,8 +8542,8 @@
     "ratings": [
      {
       "source": "Cook",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": false
      },
@@ -8555,7 +8615,7 @@
      "rating": "Safe R",
      "strength": "Safe",
      "lean": "R",
-     "count": 6,
+     "count": 5,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_4",
@@ -10488,9 +10548,9 @@
      },
      {
       "source": "Econ.",
-      "rating": "Lean D",
-      "strength": "Lean",
-      "lean": "D",
+      "rating": "Tossup",
+      "strength": "Tossup",
+      "lean": null,
       "flip": false
      },
      {
@@ -10540,7 +10600,7 @@
      "rating": "Lean D",
      "strength": "Lean",
      "lean": "D",
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_25",
@@ -11307,8 +11367,8 @@
      },
      {
       "source": "Econ.",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Safe R",
+      "strength": "Safe",
       "lean": "R",
       "flip": false
      },
@@ -11359,7 +11419,7 @@
      "rating": "Safe R",
      "strength": "Safe",
      "lean": "R",
-     "count": 9,
+     "count": 10,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia#District_11",
@@ -18274,8 +18334,8 @@
     "ratings": [
      {
       "source": "Cook",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": false
      },
@@ -18347,7 +18407,7 @@
      "rating": "Likely R",
      "strength": "Likely",
      "lean": "R",
-     "count": 7,
+     "count": 8,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_7",
@@ -19083,8 +19143,8 @@
     "ratings": [
      {
       "source": "Cook",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": false
      },
@@ -19153,10 +19213,10 @@
      }
     ],
     "consensus": {
-     "rating": "Safe R",
-     "strength": "Safe",
+     "rating": "Likely R",
+     "strength": "Likely",
      "lean": "R",
-     "count": 6,
+     "count": 5,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_14",
@@ -22352,8 +22412,8 @@
     "ratings": [
      {
       "source": "Cook",
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "flip": true
      },
@@ -22425,7 +22485,7 @@
      "rating": "Likely R",
      "strength": "Likely",
      "lean": "R",
-     "count": 7,
+     "count": 8,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee#District_9",
@@ -24800,9 +24860,9 @@
      },
      {
       "source": "Econ.",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean R",
+      "strength": "Lean",
+      "lean": "R",
       "flip": false
      },
      {
@@ -24852,7 +24912,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 6,
+     "count": 5,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia#District_1",
@@ -25124,8 +25184,8 @@
     "ratings": [
      {
       "source": "Cook",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Lean R",
+      "strength": "Lean",
       "lean": "R",
       "flip": false
      },
@@ -25197,7 +25257,7 @@
      "rating": "Lean R",
      "strength": "Lean",
      "lean": "R",
-     "count": 6,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia#District_5",
@@ -27299,52 +27359,64 @@
      ],
      "aggregates": [
       {
+       "source": "270toWin",
+       "isAverage": false,
+       "dates": "October 31 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Dan S. Sullivan": 45.5,
+        "Mary Peltola": 49
+       },
+       "otherUndecided": 5.5
+      },
+      {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Dan S. Sullivan": 48.5,
-        "Mary Peltola": 49.8
+        "Dan S. Sullivan": 47.8,
+        "Mary Peltola": 49.2
        },
-       "otherUndecided": 1.7
+       "otherUndecided": 3
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Dan S. Sullivan": 48.2,
-        "Mary Peltola": 50.1
+        "Dan S. Sullivan": 48,
+        "Mary Peltola": 49.7
        },
-       "otherUndecided": 1.7
+       "otherUndecided": 2.3
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 8–29, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "October 8 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Dan S. Sullivan": 48.2,
-        "Mary Peltola": 49.4
+        "Mary Peltola": 49.2
        },
-       "otherUndecided": 2.4
+       "otherUndecided": 2.6
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Dan S. Sullivan": 44.8,
+        "Dan S. Sullivan": 45.1,
         "Mary Peltola": 47.8
        },
-       "otherUndecided": 7.4
+       "otherUndecided": 7.1
       },
       {
        "source": "Average",
@@ -27353,13 +27425,30 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Dan S. Sullivan": 47.4,
-        "Mary Peltola": 49.3
+        "Dan S. Sullivan": 46.9,
+        "Mary Peltola": 49
        },
-       "otherUndecided": 3.3
+       "otherUndecided": 4.1
       }
      ],
      "polls": [
+      {
+       "pollster": "InsiderAdvantage (R)",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 1200,
+       "population": "LV",
+       "moe": 2.8,
+       "values": {
+        "Dan S. Sullivan": 48,
+        "Mary Peltola": 48,
+        "Daniel J. Sullivan Jr.": 2,
+        "Gerald Heikes": 1
+       },
+       "other": null,
+       "undecided": 1
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 23–30, 2026",
@@ -27824,13 +27913,13 @@
      ],
      "headline": {
       "basis": "aggregate-average",
-      "detail": "Average of 4 poll aggregators",
+      "detail": "Average of 5 poll aggregators",
       "values": {
-       "Dan S. Sullivan": 47.4,
-       "Mary Peltola": 49.3
+       "Dan S. Sullivan": 46.9,
+       "Mary Peltola": 49
       },
       "leader": "Mary Peltola",
-      "margin": 1.9
+      "margin": 2.1
      },
      "consensus": {
       "rating": "Tossup",
@@ -27839,7 +27928,7 @@
       "count": 10,
       "of": 14
      },
-     "latestPoll": "2026-10-30"
+     "latestPoll": "2026-11-01"
     },
     {
      "id": "AK-GOV",
@@ -27912,7 +28001,7 @@
        "asOf": "October 29, 2026"
       },
       {
-       "source": "RealClearPolitics",
+       "source": "NBC News",
        "rating": "Lean D",
        "strength": "Lean",
        "lean": "D",
@@ -27920,7 +28009,7 @@
        "asOf": "November 1, 2026"
       },
       {
-       "source": "NBC News",
+       "source": "RealClearPolitics",
        "rating": "Lean D",
        "strength": "Lean",
        "lean": "D",
@@ -27937,11 +28026,11 @@
       },
       {
        "source": "Silver Bulletin",
-       "rating": "Safe D",
-       "strength": "Safe",
+       "rating": "Likely D",
+       "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -28170,20 +28259,20 @@
        "asOf": "October 29, 2026"
       },
       {
+       "source": "NBC News",
+       "rating": "Likely D",
+       "strength": "Likely",
+       "lean": "D",
+       "flip": false,
+       "asOf": "November 2, 2026"
+      },
+      {
        "source": "RealClearPolitics",
        "rating": "Lean D",
        "strength": "Lean",
        "lean": "D",
        "flip": false,
        "asOf": "November 1, 2026"
-      },
-      {
-       "source": "NBC News",
-       "rating": "Lean D",
-       "strength": "Lean",
-       "lean": "D",
-       "flip": false,
-       "asOf": "October 30, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -28754,10 +28843,10 @@
       "margin": 9.3
      },
      "consensus": {
-      "rating": "Lean D",
-      "strength": "Lean",
+      "rating": "Likely D",
+      "strength": "Likely",
       "lean": "D",
-      "count": 3,
+      "count": 4,
       "of": 8
      },
      "latestPoll": "2026-10-29"
@@ -29783,6 +29872,36 @@
      "aggregates": [],
      "polls": [
       {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "John Hickenlooper": 57,
+        "Mark Baisley": 35
+       },
+       "other": 2,
+       "undecided": 6
+      },
+      {
+       "pollster": "CU Boulder/YouGov",
+       "dates": "October 9–20, 2026",
+       "start": "2026-10-09",
+       "end": "2026-10-20",
+       "sample": 710,
+       "population": "LV",
+       "moe": 4.5,
+       "values": {
+        "John Hickenlooper": 57,
+        "Mark Baisley": 39
+       },
+       "other": 4,
+       "undecided": null
+      },
+      {
        "pollster": "Lake Research Partners (D)",
        "dates": "September 16–30, 2026",
        "start": "2026-09-16",
@@ -29791,22 +29910,22 @@
        "population": "RV",
        "moe": null,
        "values": {
-        "Mark Baisley": 38,
-        "John Hickenlooper": 52
+        "John Hickenlooper": 52,
+        "Mark Baisley": 38
        },
        "other": 1,
        "undecided": 8
       }
      ],
      "headline": {
-      "basis": "latest-poll",
-      "detail": "Most recent poll: Lake Research Partners (D), September 16–30, 2026",
+      "basis": "simple-average",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Mark Baisley": 38,
-       "John Hickenlooper": 52
+       "John Hickenlooper": 57,
+       "Mark Baisley": 37
       },
       "leader": "John Hickenlooper",
-      "margin": 14
+      "margin": 20
      },
      "consensus": {
       "rating": "Safe D",
@@ -29815,7 +29934,7 @@
       "count": 12,
       "of": 12
      },
-     "latestPoll": "2026-09-30"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "CO-GOV",
@@ -29911,6 +30030,36 @@
      "aggregates": [],
      "polls": [
       {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Phil Weiser": 53,
+        "Victor Marx": 38
+       },
+       "other": 2,
+       "undecided": 7
+      },
+      {
+       "pollster": "CU Boulder/YouGov",
+       "dates": "October 9–20, 2026",
+       "start": "2026-10-09",
+       "end": "2026-10-20",
+       "sample": 710,
+       "population": "LV",
+       "moe": 4.5,
+       "values": {
+        "Phil Weiser": 57,
+        "Victor Marx": 37
+       },
+       "other": 7,
+       "undecided": null
+      },
+      {
        "pollster": "Lake Research Partners (D)",
        "dates": "September 16–30, 2026",
        "start": "2026-09-16",
@@ -29919,22 +30068,22 @@
        "population": "RV",
        "moe": null,
        "values": {
-        "Victor Marx": 36,
-        "Phil Weiser": 51
+        "Phil Weiser": 51,
+        "Victor Marx": 36
        },
        "other": 3,
        "undecided": 10
       }
      ],
      "headline": {
-      "basis": "latest-poll",
-      "detail": "Most recent poll: Lake Research Partners (D), September 16–30, 2026",
+      "basis": "simple-average",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Victor Marx": 36,
-       "Phil Weiser": 51
+       "Phil Weiser": 55,
+       "Victor Marx": 37.5
       },
       "leader": "Phil Weiser",
-      "margin": 15
+      "margin": 17.5
      },
      "consensus": {
       "rating": "Safe D",
@@ -29943,7 +30092,7 @@
       "count": 7,
       "of": 8
      },
-     "latestPoll": "2026-09-30"
+     "latestPoll": "2026-11-02"
     }
    ]
   },
@@ -30047,38 +30196,38 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "September 22 – October 14, 2026",
-       "updated": "October 14, 2026",
-       "updatedIso": "2026-10-14",
+       "dates": "October 14 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Ned Lamont": 56.6,
-        "Ryan Fazio": 36.4
+        "Ned Lamont": 56.4,
+        "Ryan Fazio": 37
        },
-       "otherUndecided": 7
+       "otherUndecided": 6.6
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "September 16 – October 12, 2026",
-       "updated": "October 19, 2026",
-       "updatedIso": "2026-10-19",
+       "dates": "October 6 – October 31, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Ned Lamont": 53.6,
-        "Ryan Fazio": 37.6
+        "Ned Lamont": 54.8,
+        "Ryan Fazio": 37.5
        },
-       "otherUndecided": 8.8
+       "otherUndecided": 7.7
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "August 20 – October 12, 2026",
-       "updated": "October 16, 2026",
-       "updatedIso": "2026-10-16",
+       "dates": "June 18 – October 31, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Ned Lamont": 55.4,
-        "Ryan Fazio": 37.4
+        "Ryan Fazio": 38.5
        },
-       "otherUndecided": 7.2
+       "otherUndecided": 6.1
       },
       {
        "source": "Average",
@@ -30087,10 +30236,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Ned Lamont": 55.2,
-        "Ryan Fazio": 37.1
+        "Ned Lamont": 55.5,
+        "Ryan Fazio": 37.7
        },
-       "otherUndecided": 7.7
+       "otherUndecided": 6.8
       }
      ],
      "polls": [
@@ -30279,11 +30428,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 3 poll aggregators",
       "values": {
-       "Ned Lamont": 55.2,
-       "Ryan Fazio": 37.1
+       "Ned Lamont": 55.5,
+       "Ryan Fazio": 37.7
       },
       "leader": "Ned Lamont",
-      "margin": 18.1
+      "margin": 17.8
      },
      "consensus": {
       "rating": "Safe D",
@@ -30639,6 +30788,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Ashley Moody": 51,
+        "Angie Nixon": 44
+       },
+       "other": 1,
+       "undecided": 4
+      },
       {
        "pollster": "Big Data Poll",
        "dates": "October 26–30, 2026",
@@ -31107,7 +31271,7 @@
       "count": 10,
       "of": 12
      },
-     "latestPoll": "2026-10-30"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "FL-GOV",
@@ -31275,6 +31439,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Byron Donalds": 48,
+        "David Jolly": 44
+       },
+       "other": 2,
+       "undecided": 6
+      },
       {
        "pollster": "ActiVote",
        "dates": "October 20–31, 2026",
@@ -31938,7 +32117,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-31"
+     "latestPoll": "2026-11-02"
     }
    ]
   },
@@ -32154,6 +32333,36 @@
      ],
      "polls": [
       {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Jon Ossoff": 52,
+        "Mike Collins": 42
+       },
+       "other": null,
+       "undecided": 6
+      },
+      {
+       "pollster": "InsiderAdvantage (R)",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 2500,
+       "population": "LV",
+       "moe": 2,
+       "values": {
+        "Jon Ossoff": 53,
+        "Mike Collins": 46
+       },
+       "other": null,
+       "undecided": 1
+      },
+      {
        "pollster": "Echelon Insights (R)",
        "dates": "October 16–23, 2026",
        "start": "2026-10-16",
@@ -32199,7 +32408,7 @@
        "undecided": 3
       },
       {
-       "pollster": "University of Georgia School of Public and International Affairs",
+       "pollster": "University of Georgia",
        "dates": "October 7–15, 2026",
        "start": "2026-10-07",
        "end": "2026-10-15",
@@ -32501,7 +32710,7 @@
       "count": 8,
       "of": 13
      },
-     "latestPoll": "2026-10-23"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "GA-GOV",
@@ -32669,6 +32878,36 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Rick Jackson": 45,
+        "Keisha Lance Bottoms": 46
+       },
+       "other": null,
+       "undecided": 9
+      },
+      {
+       "pollster": "InsiderAdvantage (R)",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 2500,
+       "population": "LV",
+       "moe": 2,
+       "values": {
+        "Rick Jackson": 49,
+        "Keisha Lance Bottoms": 49
+       },
+       "other": null,
+       "undecided": 2
+      },
       {
        "pollster": "State Navigate",
        "dates": "October 23–27, 2026",
@@ -32957,7 +33196,7 @@
       "count": 4,
       "of": 8
      },
-     "latestPoll": "2026-10-27"
+     "latestPoll": "2026-11-02"
     }
    ]
   },
@@ -33653,6 +33892,21 @@
      "aggregates": [],
      "polls": [
       {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Juliana Stratton": 53,
+        "Don Tracy": 41
+       },
+       "other": 1,
+       "undecided": 5
+      },
+      {
        "pollster": "ActiVote",
        "dates": "October 21–30, 2026",
        "start": "2026-10-21",
@@ -33700,10 +33954,10 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Juliana Stratton": 56,
-       "Don Tracy": 44
+       "Juliana Stratton": 54.5,
+       "Don Tracy": 42.5
       },
       "leader": "Juliana Stratton",
       "margin": 12
@@ -33715,7 +33969,7 @@
       "count": 12,
       "of": 12
      },
-     "latestPoll": "2026-10-30"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "IL-GOV",
@@ -33811,6 +34065,21 @@
      "aggregates": [],
      "polls": [
       {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "JB Pritzker": 57,
+        "Darren Bailey": 36
+       },
+       "other": 1,
+       "undecided": 6
+      },
+      {
        "pollster": "ActiVote",
        "dates": "October 23–31, 2026",
        "start": "2026-10-23",
@@ -33873,13 +34142,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "JB Pritzker": 59,
-       "Darren Bailey": 41
+       "JB Pritzker": 58,
+       "Darren Bailey": 38.5
       },
       "leader": "JB Pritzker",
-      "margin": 18
+      "margin": 19.5
      },
      "consensus": {
       "rating": "Safe D",
@@ -33888,7 +34157,7 @@
       "count": 8,
       "of": 8
      },
-     "latestPoll": "2026-10-31"
+     "latestPoll": "2026-11-02"
     }
    ]
   },
@@ -34046,29 +34315,53 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 21 – November 1, 2026",
+       "dates": "October 16 – November 1, 2026",
        "updated": "November 2, 2026",
        "updatedIso": "2026-11-02",
        "values": {
-        "Ashley Hinson": 46.8,
-        "Josh Turek": 46.8
+        "Ashley Hinson": 47,
+        "Josh Turek": 47
        },
-       "otherUndecided": 6.4
+       "otherUndecided": 6
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Ashley Hinson": 47,
-        "Josh Turek": 46.6
+        "Ashley Hinson": 47.2,
+        "Josh Turek": 46.5
        },
-       "otherUndecided": 6.4
+       "otherUndecided": 6.3
       },
       {
        "source": "FiftyPlusOne",
+       "isAverage": false,
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Ashley Hinson": 46.8,
+        "Josh Turek": 47.1
+       },
+       "otherUndecided": 6.1
+      },
+      {
+       "source": "RealClearPolitics",
+       "isAverage": false,
+       "dates": "October 9 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Ashley Hinson": 46.9,
+        "Josh Turek": 46.4
+       },
+       "otherUndecided": 6.7
+      },
+      {
+       "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
        "updated": "November 2, 2026",
@@ -34080,40 +34373,16 @@
        "otherUndecided": 6.1
       },
       {
-       "source": "RealClearPolitics",
-       "isAverage": false,
-       "dates": "October 9 – November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
-       "values": {
-        "Ashley Hinson": 46.8,
-        "Josh Turek": 46.5
-       },
-       "otherUndecided": 6.7
-      },
-      {
-       "source": "Silver Bulletin",
-       "isAverage": false,
-       "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
-       "values": {
-        "Ashley Hinson": 46.4,
-        "Josh Turek": 47.3
-       },
-       "otherUndecided": 6.3
-      },
-      {
        "source": "Average",
        "isAverage": true,
        "dates": "",
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Ashley Hinson": 46.7,
+        "Ashley Hinson": 46.9,
         "Josh Turek": 46.9
        },
-       "otherUndecided": 6.4
+       "otherUndecided": 6.2
       }
      ],
      "polls": [
@@ -34130,6 +34399,36 @@
         "Josh Turek": 48
        },
        "other": 0,
+       "undecided": 5
+      },
+      {
+       "pollster": "GrayHouse",
+       "dates": "October 28–31, 2026",
+       "start": "2026-10-28",
+       "end": "2026-10-31",
+       "sample": 601,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Ashley Hinson": 48,
+        "Josh Turek": 46
+       },
+       "other": 2,
+       "undecided": 4
+      },
+      {
+       "pollster": "Rasmussen Reports (R)",
+       "dates": "October 27–31, 2026",
+       "start": "2026-10-27",
+       "end": "2026-10-31",
+       "sample": 901,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Ashley Hinson": 47,
+        "Josh Turek": 46
+       },
+       "other": 3,
        "undecided": 5
       },
       {
@@ -34692,11 +34991,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Ashley Hinson": 46.7,
+       "Ashley Hinson": 46.9,
        "Josh Turek": 46.9
       },
-      "leader": "Josh Turek",
-      "margin": 0.2
+      "leader": null,
+      "margin": 0
      },
      "consensus": {
       "rating": "Tossup",
@@ -35286,7 +35585,8 @@
       {
        "name": "David Graham",
        "party": "L",
-       "nominee": false
+       "nominee": true,
+       "partyName": "Libertarian Party"
       }
      ],
      "results": null,
@@ -35333,11 +35633,11 @@
       },
       {
        "source": "FiftyPlusOne",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "November 1, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -35436,10 +35736,10 @@
        "updated": "November 2, 2026",
        "updatedIso": "2026-11-02",
        "values": {
-        "Roger Marshall": 45.8,
+        "Roger Marshall": 45.7,
         "Adam Hamilton": 49.1
        },
-       "otherUndecided": 5.1
+       "otherUndecided": 5.2
       },
       {
        "source": "RealClearPolitics",
@@ -35457,13 +35757,13 @@
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Roger Marshall": 46.1,
-        "Adam Hamilton": 49.3
+        "Adam Hamilton": 49.4
        },
-       "otherUndecided": 4.6
+       "otherUndecided": 4.5
       },
       {
        "source": "Average",
@@ -35473,12 +35773,27 @@
        "updatedIso": null,
        "values": {
         "Roger Marshall": 45.7,
-        "Adam Hamilton": 49.3
+        "Adam Hamilton": 49.4
        },
-       "otherUndecided": 5
+       "otherUndecided": 4.9
       }
      ],
      "polls": [
+      {
+       "pollster": "Survey 160",
+       "dates": "October 27 – November 1, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-01",
+       "sample": 1267,
+       "population": "LV",
+       "moe": 3.6,
+       "values": {
+        "Roger Marshall": 44,
+        "Adam Hamilton": 50
+       },
+       "other": 4,
+       "undecided": 2
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 27 – November 1, 2026",
@@ -35782,16 +36097,16 @@
       "detail": "Average of 5 poll aggregators",
       "values": {
        "Roger Marshall": 45.7,
-       "Adam Hamilton": 49.3
+       "Adam Hamilton": 49.4
       },
       "leader": "Adam Hamilton",
-      "margin": 3.6
+      "margin": 3.7
      },
      "consensus": {
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 10,
+      "count": 9,
       "of": 14
      },
      "latestPoll": "2026-11-01"
@@ -35891,7 +36206,43 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "September 22 – October 29, 2026",
+       "dates": "October 29 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Cindy Holscher": 47.8,
+        "Ty Masterson": 48.4
+       },
+       "otherUndecided": 3.8
+      },
+      {
+       "source": "Decision Desk HQ",
+       "isAverage": false,
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Cindy Holscher": 47.4,
+        "Ty Masterson": 48.1
+       },
+       "otherUndecided": 4.5
+      },
+      {
+       "source": "FiftyPlusOne",
+       "isAverage": false,
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Cindy Holscher": 47.4,
+        "Ty Masterson": 48.7
+       },
+       "otherUndecided": 3.9
+      },
+      {
+       "source": "RealClearPolitics",
+       "isAverage": false,
+       "dates": "September 8 – November 1, 2026",
        "updated": "November 1, 2026",
        "updatedIso": "2026-11-01",
        "values": {
@@ -35901,52 +36252,16 @@
        "otherUndecided": 4.2
       },
       {
-       "source": "Decision Desk HQ",
-       "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
-       "values": {
-        "Cindy Holscher": 47,
-        "Ty Masterson": 48.4
-       },
-       "otherUndecided": 4.6
-      },
-      {
-       "source": "FiftyPlusOne",
-       "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
-       "values": {
-        "Cindy Holscher": 47.2,
-        "Ty Masterson": 49.1
-       },
-       "otherUndecided": 3.7
-      },
-      {
-       "source": "RealClearPolitics",
-       "isAverage": false,
-       "dates": "September 8 – October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
-       "values": {
-        "Cindy Holscher": 46.3,
-        "Ty Masterson": 49.2
-       },
-       "otherUndecided": 4.5
-      },
-      {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Cindy Holscher": 47.3,
-        "Ty Masterson": 49.4
+        "Cindy Holscher": 47.8,
+        "Ty Masterson": 49
        },
-       "otherUndecided": 3.3
+       "otherUndecided": 3.2
       },
       {
        "source": "Average",
@@ -35955,13 +36270,28 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Cindy Holscher": 47,
-        "Ty Masterson": 49
+        "Cindy Holscher": 47.4,
+        "Ty Masterson": 48.6
        },
        "otherUndecided": 4
       }
      ],
      "polls": [
+      {
+       "pollster": "Survey 160",
+       "dates": "October 27 – November 1, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-01",
+       "sample": 1267,
+       "population": "LV",
+       "moe": 3.6,
+       "values": {
+        "Cindy Holscher": 49,
+        "Ty Masterson": 48
+       },
+       "other": 2,
+       "undecided": 1
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 27 – November 1, 2026",
@@ -36147,11 +36477,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Cindy Holscher": 47,
-       "Ty Masterson": 49
+       "Cindy Holscher": 47.4,
+       "Ty Masterson": 48.6
       },
       "leader": "Ty Masterson",
-      "margin": 2
+      "margin": 1.2
      },
      "consensus": {
       "rating": "Lean R",
@@ -36467,11 +36797,11 @@
       },
       {
        "source": "Split Ticket",
-       "rating": "Likely R",
-       "strength": "Likely",
+       "rating": "Safe R",
+       "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -36533,8 +36863,8 @@
       "margin": 0
      },
      "consensus": {
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Safe R",
+      "strength": "Safe",
       "lean": "R",
       "count": 6,
       "of": 12
@@ -36763,6 +37093,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Survey 160",
+       "dates": "October 27 – November 1, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-01",
+       "sample": 1323,
+       "population": "LV",
+       "moe": 4.1,
+       "values": {
+        "Susan Collins": 47,
+        "Troy Jackson": 50
+       },
+       "other": 2,
+       "undecided": 2
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 27 – November 1, 2026",
@@ -37453,6 +37798,22 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Survey 160",
+       "dates": "October 27 – November 1, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-01",
+       "sample": 1323,
+       "population": "LV",
+       "moe": 4.1,
+       "values": {
+        "Hannah Pingree": 53,
+        "Bobby Charles": 41,
+        "Rick Bennett": 5
+       },
+       "other": null,
+       "undecided": 1
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 27 – November 1, 2026",
@@ -38816,11 +39177,11 @@
       },
       {
        "source": "Cook Political Report",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -38915,33 +39276,33 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 8–29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 8 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Abdul El-Sayed": 50.5,
-        "Mike Rogers": 44.5
+        "Abdul El-Sayed": 50.9,
+        "Mike Rogers": 44.6
        },
-       "otherUndecided": 5
+       "otherUndecided": 4.5
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Abdul El-Sayed": 49.9,
-        "Mike Rogers": 43.8
+        "Abdul El-Sayed": 49.6,
+        "Mike Rogers": 44.4
        },
-       "otherUndecided": 5.8
+       "otherUndecided": 6
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Abdul El-Sayed": 49.9,
         "Mike Rogers": 44.6
@@ -38951,7 +39312,7 @@
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 2–29, 2026",
+       "dates": "October 15 – November 1, 2026",
        "updated": "November 1, 2026",
        "updatedIso": "2026-11-01",
        "values": {
@@ -38963,14 +39324,14 @@
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Abdul El-Sayed": 49.9,
-        "Mike Rogers": 45.1
+        "Mike Rogers": 45.2
        },
-       "otherUndecided": 5
+       "otherUndecided": 4.9
       },
       {
        "source": "Average",
@@ -38979,10 +39340,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Abdul El-Sayed": 50,
-        "Mike Rogers": 44.5
+        "Abdul El-Sayed": 50.1,
+        "Mike Rogers": 44.7
        },
-       "otherUndecided": 5.5
+       "otherUndecided": 5.2
       }
      ],
      "polls": [
@@ -39951,16 +40312,16 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Abdul El-Sayed": 50,
-       "Mike Rogers": 44.5
+       "Abdul El-Sayed": 50.1,
+       "Mike Rogers": 44.7
       },
       "leader": "Abdul El-Sayed",
-      "margin": 5.5
+      "margin": 5.4
      },
      "consensus": {
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
       "count": 5,
       "of": 14
      },
@@ -40061,62 +40422,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 8–29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 8 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Jocelyn Benson": 51.8,
-        "John James": 43.4
+        "Jocelyn Benson": 52.4,
+        "John James": 42.7
        },
-       "otherUndecided": 4.8
+       "otherUndecided": 4.9
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Jocelyn Benson": 50.7,
-        "John James": 43.1
+        "Jocelyn Benson": 51.4,
+        "John James": 42.5
        },
-       "otherUndecided": 6.2
+       "otherUndecided": 6.1
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Jocelyn Benson": 51.1,
-        "John James": 43
+        "Jocelyn Benson": 51.6,
+        "John James": 42.2
        },
-       "otherUndecided": 5.9
+       "otherUndecided": 6.2
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 2–29, 2026",
+       "dates": "October 2 – November 1, 2026",
        "updated": "November 1, 2026",
        "updatedIso": "2026-11-01",
        "values": {
-        "Jocelyn Benson": 51.3,
-        "John James": 43.1
+        "Jocelyn Benson": 51.4,
+        "John James": 42.6
        },
-       "otherUndecided": 5.6
+       "otherUndecided": 6
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Jocelyn Benson": 51.5,
-        "John James": 43.1
+        "Jocelyn Benson": 51.8,
+        "John James": 42.4
        },
-       "otherUndecided": 5.4
+       "otherUndecided": 5.8
       },
       {
        "source": "Average",
@@ -40125,10 +40486,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Jocelyn Benson": 51.3,
-        "John James": 43.1
+        "Jocelyn Benson": 51.7,
+        "John James": 42.5
        },
-       "otherUndecided": 5.6
+       "otherUndecided": 5.8
       }
      ],
      "polls": [
@@ -40176,6 +40537,21 @@
        },
        "other": 1,
        "undecided": 0
+      },
+      {
+       "pollster": "Rasmussen Reports (R)",
+       "dates": "October 28–29, 2026",
+       "start": "2026-10-28",
+       "end": "2026-10-29",
+       "sample": 745,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Jocelyn Benson": 50,
+        "John James": 40
+       },
+       "other": 3,
+       "undecided": 7
       },
       {
        "pollster": "Mitchell Research & Communications",
@@ -40692,11 +41068,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Jocelyn Benson": 51.3,
-       "John James": 43.1
+       "Jocelyn Benson": 51.7,
+       "John James": 42.5
       },
       "leader": "Jocelyn Benson",
-      "margin": 8.2
+      "margin": 9.2
      },
      "consensus": {
       "rating": "Lean D",
@@ -40841,62 +41217,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 1–26, 2026",
-       "updated": "October 28, 2026",
-       "updatedIso": "2026-10-28",
+       "dates": "October 13 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Peggy Flanagan": 48.2,
-        "Michele Tafoya": 42.2
+        "Peggy Flanagan": 49.6,
+        "Michele Tafoya": 44
        },
-       "otherUndecided": 9.6
+       "otherUndecided": 6.4
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 26, 2026",
-       "updated": "October 28, 2026",
-       "updatedIso": "2026-10-28",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Peggy Flanagan": 49.5,
-        "Michele Tafoya": 42.7
+        "Peggy Flanagan": 49.8,
+        "Michele Tafoya": 43.2
        },
-       "otherUndecided": 7.8
+       "otherUndecided": 7
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 26, 2026",
-       "updated": "October 28, 2026",
-       "updatedIso": "2026-10-28",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Peggy Flanagan": 49.7,
-        "Michele Tafoya": 41.9
+        "Peggy Flanagan": 49.8,
+        "Michele Tafoya": 42.6
        },
-       "otherUndecided": 8.4
+       "otherUndecided": 7.6
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 2–26, 2026",
-       "updated": "October 28, 2026",
-       "updatedIso": "2026-10-28",
+       "dates": "October 2–30, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
        "values": {
-        "Peggy Flanagan": 47.8,
-        "Michele Tafoya": 42.7
+        "Peggy Flanagan": 48.4,
+        "Michele Tafoya": 43
        },
-       "otherUndecided": 9.5
+       "otherUndecided": 8.6
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 26, 2026",
-       "updated": "October 28, 2026",
-       "updatedIso": "2026-10-28",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Peggy Flanagan": 49.2,
-        "Michele Tafoya": 42.8
+        "Peggy Flanagan": 49.6,
+        "Michele Tafoya": 43
        },
-       "otherUndecided": 8
+       "otherUndecided": 7.4
       },
       {
        "source": "Average",
@@ -40905,10 +41281,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Peggy Flanagan": 48.9,
-        "Michele Tafoya": 42.5
+        "Peggy Flanagan": 49.4,
+        "Michele Tafoya": 43.2
        },
-       "otherUndecided": 8.6
+       "otherUndecided": 7.4
       }
      ],
      "polls": [
@@ -40926,6 +41302,21 @@
        },
        "other": 2,
        "undecided": 7
+      },
+      {
+       "pollster": "Survey 160",
+       "dates": "October 27 – November 1, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-01",
+       "sample": 1365,
+       "population": "LV",
+       "moe": 3.7,
+       "values": {
+        "Peggy Flanagan": 52,
+        "Michele Tafoya": 43
+       },
+       "other": 2,
+       "undecided": 2
       },
       {
        "pollster": "InsiderAdvantage (R)",
@@ -41101,11 +41492,11 @@
        "population": "LV",
        "moe": 4,
        "values": {
-        "Peggy Flanagan": 40,
-        "Michele Tafoya": 38
+        "Peggy Flanagan": 46,
+        "Michele Tafoya": 44
        },
-       "other": 7,
-       "undecided": 15
+       "other": 10,
+       "undecided": null
       },
       {
        "pollster": "InsiderAdvantage (R)",
@@ -41262,11 +41653,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Peggy Flanagan": 48.9,
-       "Michele Tafoya": 42.5
+       "Peggy Flanagan": 49.4,
+       "Michele Tafoya": 43.2
       },
       "leader": "Peggy Flanagan",
-      "margin": 6.4
+      "margin": 6.2
      },
      "consensus": {
       "rating": "Lean D",
@@ -41372,38 +41763,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 2–26, 2026",
-       "updated": "October 28, 2026",
-       "updatedIso": "2026-10-28",
+       "dates": "October 5 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Amy Klobuchar": 50.5,
-        "Lisa Demuth": 39.8
+        "Amy Klobuchar": 52.4,
+        "Lisa Demuth": 41
        },
-       "otherUndecided": 9.7
+       "otherUndecided": 6.6
+      },
+      {
+       "source": "Decision Desk HQ",
+       "isAverage": false,
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Amy Klobuchar": 52.7,
+        "Lisa Demuth": 40.3
+       },
+       "otherUndecided": 7
+      },
+      {
+       "source": "FiftyPlusOne",
+       "isAverage": false,
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Amy Klobuchar": 52.3,
+        "Lisa Demuth": 40.6
+       },
+       "otherUndecided": 7.1
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 2–26, 2026",
-       "updated": "October 28, 2026",
-       "updatedIso": "2026-10-28",
+       "dates": "October 2–28, 2026",
+       "updated": "October 30, 2026",
+       "updatedIso": "2026-10-30",
        "values": {
-        "Amy Klobuchar": 50.5,
-        "Lisa Demuth": 39.8
+        "Amy Klobuchar": 51.3,
+        "Lisa Demuth": 39.3
        },
-       "otherUndecided": 9.7
+       "otherUndecided": 9.4
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 26, 2026",
-       "updated": "October 28, 2026",
-       "updatedIso": "2026-10-28",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Amy Klobuchar": 51.9,
-        "Lisa Demuth": 40
+        "Amy Klobuchar": 52.4,
+        "Lisa Demuth": 40.2
        },
-       "otherUndecided": 8.1
+       "otherUndecided": 7.4
       },
       {
        "source": "Average",
@@ -41412,16 +41827,16 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Amy Klobuchar": 51,
-        "Lisa Demuth": 39.9
+        "Amy Klobuchar": 52.2,
+        "Lisa Demuth": 40.3
        },
-       "otherUndecided": 9.1
+       "otherUndecided": 7.5
       }
      ],
      "polls": [
       {
        "pollster": "Research Co.",
-       "dates": "October 30 - November 1, 2026",
+       "dates": "October 30 – November 1, 2026",
        "start": "2026-10-30",
        "end": "2026-11-01",
        "sample": 450,
@@ -41433,6 +41848,21 @@
        },
        "other": 1,
        "undecided": 6
+      },
+      {
+       "pollster": "Survey 160",
+       "dates": "October 27 – November 1, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-01",
+       "sample": 1365,
+       "population": "LV",
+       "moe": 3.7,
+       "values": {
+        "Amy Klobuchar": 53,
+        "Lisa Demuth": 43
+       },
+       "other": 3,
+       "undecided": 1
       },
       {
        "pollster": "KSTP/SurveyUSA",
@@ -41647,13 +42077,13 @@
      ],
      "headline": {
       "basis": "aggregate-average",
-      "detail": "Average of 3 poll aggregators",
+      "detail": "Average of 5 poll aggregators",
       "values": {
-       "Amy Klobuchar": 51,
-       "Lisa Demuth": 39.9
+       "Amy Klobuchar": 52.2,
+       "Lisa Demuth": 40.3
       },
       "leader": "Amy Klobuchar",
-      "margin": 11.1
+      "margin": 11.9
      },
      "consensus": {
       "rating": "Likely D",
@@ -41931,8 +42361,7 @@
       {
        "name": "Kyle Austin",
        "party": "L",
-       "nominee": true,
-       "partyName": "Libertarian Party"
+       "nominee": false
       }
      ],
      "results": null,
@@ -42538,11 +42967,11 @@
       },
       {
        "source": "RealClearPolitics",
-       "rating": "Lean R",
-       "strength": "Lean",
-       "lean": "R",
+       "rating": "Tossup",
+       "strength": "Tossup",
+       "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -42610,13 +43039,13 @@
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Pete Ricketts": 47.2,
-        "Dan Osborn": 46.2
+        "Pete Ricketts": 47.3,
+        "Dan Osborn": 46.4
        },
-       "otherUndecided": 6.6
+       "otherUndecided": 6.3
       },
       {
        "source": "Average",
@@ -42628,7 +43057,7 @@
         "Pete Ricketts": 47.2,
         "Dan Osborn": 45.6
        },
-       "otherUndecided": 7.2
+       "otherUndecided": 7.1
       }
      ],
      "polls": [
@@ -42962,7 +43391,7 @@
       "rating": "Lean R",
       "strength": "Lean",
       "lean": "R",
-      "count": 8,
+      "count": 7,
       "of": 12
      },
      "latestPoll": "2026-10-29"
@@ -44100,6 +44529,21 @@
        "undecided": 2
       },
       {
+       "pollster": "National Public Affairs (R)",
+       "dates": "October 25–29, 2026",
+       "start": "2026-10-25",
+       "end": "2026-10-29",
+       "sample": 800,
+       "population": "LV",
+       "moe": 3.5,
+       "values": {
+        "Chris Pappas": 51,
+        "John E. Sununu": 45
+       },
+       "other": 2,
+       "undecided": 2
+      },
+      {
        "pollster": "Rasmussen Reports (R)",
        "dates": "October 20–23, 2026",
        "start": "2026-10-20",
@@ -44751,6 +45195,21 @@
        "undecided": 1
       },
       {
+       "pollster": "National Public Affairs (R)",
+       "dates": "October 25–29, 2026",
+       "start": "2026-10-25",
+       "end": "2026-10-29",
+       "sample": 800,
+       "population": "LV",
+       "moe": 3.5,
+       "values": {
+        "Kelly Ayotte": 52,
+        "Cinde Warmington": 43
+       },
+       "other": 3,
+       "undecided": 2
+      },
+      {
        "pollster": "Rasmussen Reports (R)",
        "dates": "October 20–23, 2026",
        "start": "2026-10-20",
@@ -45305,6 +45764,21 @@
      ],
      "polls": [
       {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Ben Ray Luján": 56,
+        "Larry Marker": 37
+       },
+       "other": null,
+       "undecided": 7
+      },
+      {
        "pollster": "Research & Polling Inc.",
        "dates": "October 1–9, 2026",
        "start": "2026-10-01",
@@ -45367,7 +45841,7 @@
       "count": 11,
       "of": 12
      },
-     "latestPoll": "2026-10-09"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "NM-GOV",
@@ -45476,6 +45950,21 @@
      ],
      "polls": [
       {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Deb Haaland": 51,
+        "Gregg Hull": 44
+       },
+       "other": null,
+       "undecided": 5
+      },
+      {
        "pollster": "Research & Polling Inc.",
        "dates": "October 1–9, 2026",
        "start": "2026-10-01",
@@ -45568,7 +46057,7 @@
       "count": 5,
       "of": 8
      },
-     "latestPoll": "2026-10-09"
+     "latestPoll": "2026-11-02"
     }
    ]
   },
@@ -46471,6 +46960,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "East Carolina University",
+       "dates": "October 26–29, 2026",
+       "start": "2026-10-26",
+       "end": "2026-10-29",
+       "sample": 1041,
+       "population": "LV",
+       "moe": 3.5,
+       "values": {
+        "Michael Whatley": 45,
+        "Roy Cooper": 54
+       },
+       "other": 1,
+       "undecided": null
+      },
       {
        "pollster": "YouGov",
        "dates": "October 26–29, 2026",
@@ -47401,29 +47905,29 @@
        "updated": "November 2, 2026",
        "updatedIso": "2026-11-02",
        "values": {
-        "Jon Husted": 47.3,
-        "Sherrod Brown": 49
+        "Jon Husted": 47,
+        "Sherrod Brown": 48.7
        },
-       "otherUndecided": 3.7
+       "otherUndecided": 4.3
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Jon Husted": 45.6,
+        "Jon Husted": 46,
         "Sherrod Brown": 48.3
        },
-       "otherUndecided": 6.1
+       "otherUndecided": 5.7
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Jon Husted": 45.3,
         "Sherrod Brown": 48.2
@@ -47446,13 +47950,13 @@
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
         "Jon Husted": 45.3,
-        "Sherrod Brown": 48.4
+        "Sherrod Brown": 48.3
        },
-       "otherUndecided": 6.3
+       "otherUndecided": 6.4
       },
       {
        "source": "Average",
@@ -47462,12 +47966,27 @@
        "updatedIso": null,
        "values": {
         "Jon Husted": 45.9,
-        "Sherrod Brown": 48.6
+        "Sherrod Brown": 48.5
        },
-       "otherUndecided": 5.5
+       "otherUndecided": 5.6
       }
      ],
      "polls": [
+      {
+       "pollster": "Trafalgar Group (R)",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 1092,
+       "population": "LV",
+       "moe": 2.9,
+       "values": {
+        "Jon Husted": 45,
+        "Sherrod Brown": 47
+       },
+       "other": 4,
+       "undecided": 4
+      },
       {
        "pollster": "Research Co.",
        "dates": "October 30 – November 1, 2026",
@@ -47482,6 +48001,21 @@
        },
        "other": 2,
        "undecided": 9
+      },
+      {
+       "pollster": "Survey 160",
+       "dates": "October 27 – November 1, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-01",
+       "sample": 1122,
+       "population": "LV",
+       "moe": 5.4,
+       "values": {
+        "Jon Husted": 46,
+        "Sherrod Brown": 50
+       },
+       "other": 4,
+       "undecided": 1
       },
       {
        "pollster": "New York Times/Siena University",
@@ -48209,10 +48743,10 @@
       "detail": "Average of 5 poll aggregators",
       "values": {
        "Jon Husted": 45.9,
-       "Sherrod Brown": 48.6
+       "Sherrod Brown": 48.5
       },
       "leader": "Sherrod Brown",
-      "margin": 2.7
+      "margin": 2.6
      },
      "consensus": {
       "rating": "Tossup",
@@ -48318,60 +48852,60 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 1–31, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 16 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Vivek Ramaswamy": 46.2,
-        "Amy Acton": 48.4
+        "Vivek Ramaswamy": 45.9,
+        "Amy Acton": 49.6
        },
-       "otherUndecided": 5.4
+       "otherUndecided": 4.5
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 31, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Vivek Ramaswamy": 46.4,
-        "Amy Acton": 49.3
+        "Vivek Ramaswamy": 45.2,
+        "Amy Acton": 49.2
        },
-       "otherUndecided": 4.3
+       "otherUndecided": 5.6
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 31, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Vivek Ramaswamy": 45.8,
-        "Amy Acton": 49.1
+        "Vivek Ramaswamy": 44.7,
+        "Amy Acton": 48.9
        },
-       "otherUndecided": 5.1
+       "otherUndecided": 6.4
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "September 29 – October 29, 2026",
+       "dates": "October 9 – November 1, 2026",
        "updated": "November 1, 2026",
        "updatedIso": "2026-11-01",
        "values": {
-        "Vivek Ramaswamy": 44.5,
-        "Amy Acton": 49
+        "Vivek Ramaswamy": 44.9,
+        "Amy Acton": 49.6
        },
-       "otherUndecided": 6.5
+       "otherUndecided": 5.5
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 26, 2026",
-       "updated": "October 31, 2026",
-       "updatedIso": "2026-10-31",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Vivek Ramaswamy": 45.1,
-        "Amy Acton": 48.2
+        "Vivek Ramaswamy": 44.6,
+        "Amy Acton": 48.7
        },
        "otherUndecided": 6.7
       },
@@ -48382,10 +48916,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Vivek Ramaswamy": 45.6,
-        "Amy Acton": 48.8
+        "Vivek Ramaswamy": 45.1,
+        "Amy Acton": 49.2
        },
-       "otherUndecided": 5.6
+       "otherUndecided": 5.7
       }
      ],
      "polls": [
@@ -48403,6 +48937,21 @@
        },
        "other": 1,
        "undecided": 9
+      },
+      {
+       "pollster": "Survey 160",
+       "dates": "October 27 – November 1, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-01",
+       "sample": 1122,
+       "population": "LV",
+       "moe": 5.4,
+       "values": {
+        "Vivek Ramaswamy": 44,
+        "Amy Acton": 51
+       },
+       "other": 4,
+       "undecided": 1
       },
       {
        "pollster": "New York Times/Siena University",
@@ -49024,11 +49573,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Vivek Ramaswamy": 45.6,
-       "Amy Acton": 48.8
+       "Vivek Ramaswamy": 45.1,
+       "Amy Acton": 49.2
       },
       "leader": "Amy Acton",
-      "margin": 3.2
+      "margin": 4.1
      },
      "consensus": {
       "rating": "Lean D",
@@ -50674,12 +51223,12 @@
        "population": "LV",
        "moe": 3.5,
        "values": {
-        "Helena Foulkes": 44,
-        "Aaron Guckian": 10,
-        "Ken Block": 35
+        "Helena Foulkes": 48,
+        "Aaron Guckian": 12,
+        "Ken Block": 38
        },
        "other": 2,
-       "undecided": 9
+       "undecided": null
       },
       {
        "pollster": "Embold Research",
@@ -50798,12 +51347,12 @@
       "basis": "simple-average",
       "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Helena Foulkes": 46,
-       "Aaron Guckian": 11.7,
-       "Ken Block": 32.3
+       "Helena Foulkes": 47.3,
+       "Aaron Guckian": 12.3,
+       "Ken Block": 33.3
       },
       "leader": "Helena Foulkes",
-      "margin": 13.7
+      "margin": 14
      },
      "consensus": {
       "rating": "Safe D",
@@ -51028,6 +51577,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Resonance Media poll (R?)",
+       "dates": "October 30, 2026",
+       "start": "2026-10-30",
+       "end": "2026-10-30",
+       "sample": 600,
+       "population": "LV",
+       "moe": 1.6,
+       "values": {
+        "Darline Graham": 45,
+        "Annie Andrews": 46
+       },
+       "other": 2.7,
+       "undecided": 6.5
+      },
       {
        "pollster": "Patinkin Research Strategies (D)",
        "dates": "October 27–29, 2026",
@@ -51271,7 +51835,7 @@
       "count": 10,
       "of": 13
      },
-     "latestPoll": "2026-10-29"
+     "latestPoll": "2026-10-30"
     },
     {
      "id": "SC-GOV",
@@ -51489,13 +52053,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 6 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 5 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Alan Wilson": 48.8,
-       "Jermaine Johnson": 38.2
+       "Alan Wilson": 49.6,
+       "Jermaine Johnson": 38.8
       },
       "leader": "Alan Wilson",
-      "margin": 10.6
+      "margin": 10.8
      },
      "consensus": {
       "rating": "Safe R",
@@ -52692,6 +53256,22 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Ken Paxton": 46,
+        "James Talarico": 49,
+        "Ted Brown": 1
+       },
+       "other": null,
+       "undecided": 4
+      },
       {
        "pollster": "Trafalgar Group (R)",
        "dates": "October 31 – November 1, 2026",
@@ -53916,7 +54496,7 @@
       "count": 8,
       "of": 14
      },
-     "latestPoll": "2026-11-01"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "TX-GOV",
@@ -54089,6 +54669,22 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Research Co.",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 450,
+       "population": "LV",
+       "moe": 4.6,
+       "values": {
+        "Greg Abbott": 46,
+        "Gina Hinojosa": 44,
+        "Pat Dixon": 2
+       },
+       "other": null,
+       "undecided": 8
+      },
       {
        "pollster": "AtlasIntel",
        "dates": "October 28 – November 1, 2026",
@@ -55109,7 +55705,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-11-01"
+     "latestPoll": "2026-11-02"
     }
    ]
   },
@@ -55208,11 +55804,11 @@
       },
       {
        "source": "Silver Bulletin",
-       "rating": "Lean R",
-       "strength": "Lean",
-       "lean": "R",
+       "rating": "Tossup",
+       "strength": "Tossup",
+       "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
