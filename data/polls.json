@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T01:02:17.253Z",
+ "generatedAt": "2026-11-03T07:18:37.928Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -118,6 +118,21 @@
   ],
   "polls": [
    {
+    "pollster": "John Zogby Strategies",
+    "dates": "November 1–2, 2026",
+    "start": "2026-11-01",
+    "end": "2026-11-02",
+    "sample": 1001,
+    "population": "LV",
+    "moe": 3.2,
+    "values": {
+     "Democrats": 53,
+     "Republicans": 47
+    },
+    "other": null,
+    "undecided": null
+   },
+   {
     "pollster": "Reuters/Ipsos",
     "dates": "October 28 – November 2, 2026",
     "start": "2026-10-28",
@@ -140,6 +155,21 @@
     "sample": 2090,
     "population": "LV",
     "moe": 2.7,
+    "values": {
+     "Democrats": 52,
+     "Republicans": 45
+    },
+    "other": null,
+    "undecided": 3
+   },
+   {
+    "pollster": "Hart Research Associates (D)/Public Opinion Strategies (R)",
+    "dates": "October 28–30, 2026",
+    "start": "2026-10-28",
+    "end": "2026-10-30",
+    "sample": 1000,
+    "population": "RV",
+    "moe": 3.1,
     "values": {
      "Democrats": 52,
      "Republicans": 45
@@ -9546,6 +9576,36 @@
     ],
     "polls": [
      {
+      "pollster": "RedBox Research (D)",
+      "dates": "October 20–23, 2026",
+      "start": "2026-10-20",
+      "end": "2026-10-23",
+      "sample": 875,
+      "population": "LV",
+      "moe": 4,
+      "values": {
+       "Anna Paulina Luna": 48,
+       "Leela Gray": 45
+      },
+      "other": 4,
+      "undecided": 3
+     },
+     {
+      "pollster": "Public Policy Polling (D)",
+      "dates": "October 14–15, 2026",
+      "start": "2026-10-14",
+      "end": "2026-10-15",
+      "sample": 603,
+      "population": "LV",
+      "moe": null,
+      "values": {
+       "Anna Paulina Luna": 46,
+       "Leela Gray": 47
+      },
+      "other": null,
+      "undecided": 7
+     },
+     {
       "pollster": "Hart Research Associates (D)",
       "dates": "August 25–27, 2026",
       "start": "2026-08-25",
@@ -9609,16 +9669,16 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "latest-poll",
-     "detail": "Most recent poll: Hart Research Associates (D), August 25–27, 2026",
+     "basis": "simple-average",
+     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Anna Paulina Luna": 46,
-      "Leela Gray": 51
+      "Anna Paulina Luna": 47,
+      "Leela Gray": 46
      },
-     "leader": "Leela Gray",
-     "margin": 5
+     "leader": "Anna Paulina Luna",
+     "margin": 1
     },
-    "latestPoll": "2026-08-27"
+    "latestPoll": "2026-10-23"
    },
    {
     "id": "FL-14",
@@ -11349,141 +11409,6 @@
     "latestPoll": null
    },
    {
-    "id": "GA-11",
-    "state": "GA",
-    "district": "11",
-    "pvi": "R+12",
-    "incumbent": {
-     "name": "Barry Loudermilk (retiring)",
-     "party": "R"
-    },
-    "lastResult": "65.6% R",
-    "ratings": [
-     {
-      "source": "Cook",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "IE",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "Sabato",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "Econ.",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "ST",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "DDHQ",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "FPO",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "Fox",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "Silver",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     },
-     {
-      "source": "RCP",
-      "rating": "Safe R",
-      "strength": "Safe",
-      "lean": "R",
-      "flip": false
-     }
-    ],
-    "consensus": {
-     "rating": "Safe R",
-     "strength": "Safe",
-     "lean": "R",
-     "count": 10,
-     "of": 10
-    },
-    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia#District_11",
-    "candidates": [
-     {
-      "name": "John Cowan",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
-      "name": "Chris Harden",
-      "party": "D",
-      "nominee": true,
-      "partyName": "Democratic Party"
-     }
-    ],
-    "polls": [
-     {
-      "pollster": "Miller Consulting Services",
-      "dates": "August 31 – September 11, 2026",
-      "start": "2026-08-31",
-      "end": "2026-09-11",
-      "sample": 402,
-      "population": "LV",
-      "moe": 4.98,
-      "values": {
-       "John Cowan": 40,
-       "Chris Harden": 42
-      },
-      "other": null,
-      "undecided": 16
-     }
-    ],
-    "aggregates": [],
-    "results": null,
-    "headline": {
-     "basis": "latest-poll",
-     "detail": "Most recent poll: Miller Consulting Services, August 31 – September 11, 2026",
-     "values": {
-      "John Cowan": 40,
-      "Chris Harden": 42
-     },
-     "leader": "Chris Harden",
-     "margin": 2
-    },
-    "latestPoll": "2026-09-11"
-   },
-   {
     "id": "GA-12",
     "state": "GA",
     "district": "12",
@@ -12092,10 +12017,10 @@
      },
      {
       "source": "FPO",
-      "rating": "Lean D",
-      "strength": "Lean",
-      "lean": "D",
-      "flip": true
+      "rating": "Tossup",
+      "strength": "Tossup",
+      "lean": null,
+      "flip": false
      },
      {
       "source": "Fox",
@@ -12123,7 +12048,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 5,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa#District_2",
@@ -12782,9 +12707,9 @@
      },
      {
       "source": "FPO",
-      "rating": "Lean D",
-      "strength": "Lean",
-      "lean": "D",
+      "rating": "Tossup",
+      "strength": "Tossup",
+      "lean": null,
       "flip": false
      },
      {
@@ -12813,7 +12738,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 5,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maine#District_2",
@@ -13439,7 +13364,7 @@
     ],
     "polls": [
      {
-      "pollster": "RedBox Research",
+      "pollster": "RedBox Research (D)",
       "dates": "October 20–23, 2026",
       "start": "2026-10-20",
       "end": "2026-10-23",
@@ -13907,7 +13832,7 @@
     ],
     "polls": [
      {
-      "pollster": "RedBox Research",
+      "pollster": "RedBox Research (D)",
       "dates": "October 20–23, 2026",
       "start": "2026-10-20",
       "end": "2026-10-23",
@@ -14487,9 +14412,9 @@
      },
      {
       "source": "ST",
-      "rating": "Lean R",
-      "strength": "Lean",
-      "lean": "R",
+      "rating": "Tossup",
+      "strength": "Tossup",
+      "lean": null,
       "flip": false
      },
      {
@@ -14532,7 +14457,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 4,
+     "count": 5,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri#District_2",
@@ -14551,6 +14476,21 @@
      }
     ],
     "polls": [
+     {
+      "pollster": "Emerson College",
+      "dates": "October 31 – November 1, 2026",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "sample": 415,
+      "population": "LV",
+      "moe": null,
+      "values": {
+       "Ann Wagner": 49,
+       "Fred Wellman": 50
+      },
+      "other": null,
+      "undecided": 1
+     },
      {
       "pollster": "Public Policy Polling (D)",
       "dates": "October 19–20, 2026",
@@ -14618,13 +14558,13 @@
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Ann Wagner": 45.5,
-      "Fred Wellman": 48.5
+      "Ann Wagner": 47,
+      "Fred Wellman": 48
      },
      "leader": "Fred Wellman",
-     "margin": 3
+     "margin": 1
     },
-    "latestPoll": "2026-10-20"
+    "latestPoll": "2026-11-01"
    },
    {
     "id": "MT-1",
@@ -14737,6 +14677,22 @@
      }
     ],
     "polls": [
+     {
+      "pollster": "Emerson College",
+      "dates": "October 31 – November 1, 2026",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "sample": 311,
+      "population": "LV",
+      "moe": null,
+      "values": {
+       "Aaron Flint": 49,
+       "Sam Forstag": 49,
+       "Nick Sheedy": 3
+      },
+      "other": null,
+      "undecided": null
+     },
      {
       "pollster": "RedBox Research (D)",
       "dates": "October 20–23, 2026",
@@ -14901,14 +14857,14 @@
      "basis": "simple-average",
      "detail": "Simple average of 4 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Aaron Flint": 42.8,
-      "Sam Forstag": 48.3,
-      "Nick Sheedy": 3.3
+      "Aaron Flint": 43.5,
+      "Sam Forstag": 48,
+      "Nick Sheedy": 3
      },
      "leader": "Sam Forstag",
-     "margin": 5.5
+     "margin": 4.5
     },
-    "latestPoll": "2026-10-23"
+    "latestPoll": "2026-11-01"
    },
    {
     "id": "NE-1",
@@ -15818,8 +15774,8 @@
      },
      {
       "source": "Silver",
-      "rating": "Likely D",
-      "strength": "Likely",
+      "rating": "Safe D",
+      "strength": "Safe",
       "lean": "D",
       "flip": false
      },
@@ -15835,7 +15791,7 @@
      "rating": "Likely D",
      "strength": "Likely",
      "lean": "D",
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire#District_1",
@@ -16781,8 +16737,8 @@
      },
      {
       "source": "Silver",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Lean R",
+      "strength": "Lean",
       "lean": "R",
       "flip": false
      },
@@ -16795,10 +16751,10 @@
      }
     ],
     "consensus": {
-     "rating": "Likely R",
-     "strength": "Likely",
+     "rating": "Lean R",
+     "strength": "Lean",
      "lean": "R",
-     "count": 5,
+     "count": 4,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York#District_1",
@@ -21143,8 +21099,8 @@
      },
      {
       "source": "FPO",
-      "rating": "Likely D",
-      "strength": "Likely",
+      "rating": "Lean D",
+      "strength": "Lean",
       "lean": "D",
       "flip": true
      },
@@ -21174,7 +21130,7 @@
      "rating": "Lean D",
      "strength": "Lean",
      "lean": "D",
-     "count": 5,
+     "count": 6,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_8",
@@ -21353,8 +21309,8 @@
      },
      {
       "source": "FPO",
-      "rating": "Likely D",
-      "strength": "Likely",
+      "rating": "Lean D",
+      "strength": "Lean",
       "lean": "D",
       "flip": true
      },
@@ -21384,7 +21340,7 @@
      "rating": "Lean D",
      "strength": "Lean",
      "lean": "D",
-     "count": 6,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_10",
@@ -22469,8 +22425,8 @@
      },
      {
       "source": "FPO",
-      "rating": "Likely R",
-      "strength": "Likely",
+      "rating": "Safe R",
+      "strength": "Safe",
       "lean": "R",
       "flip": true
      },
@@ -22500,7 +22456,7 @@
      "rating": "Likely R",
      "strength": "Likely",
      "lean": "R",
-     "count": 8,
+     "count": 7,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee#District_9",
@@ -24910,10 +24866,10 @@
      },
      {
       "source": "Silver",
-      "rating": "Tossup",
-      "strength": "Tossup",
-      "lean": null,
-      "flip": false
+      "rating": "Lean D",
+      "strength": "Lean",
+      "lean": "D",
+      "flip": true
      },
      {
       "source": "RCP",
@@ -24927,7 +24883,7 @@
      "rating": "Tossup",
      "strength": "Tossup",
      "lean": null,
-     "count": 5,
+     "count": 4,
      "of": 10
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia#District_1",
@@ -26781,7 +26737,7 @@
   ],
   "safe": {
    "D": 182,
-   "R": 107,
+   "R": 108,
    "agreeing": 4,
    "of": 10
   }
@@ -26824,7 +26780,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -26832,7 +26788,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -26840,7 +26796,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -26848,7 +26804,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -26880,7 +26836,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -26888,7 +26844,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -26896,7 +26852,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -26904,7 +26860,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -26912,7 +26868,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -27052,7 +27008,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -27076,7 +27032,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -27084,7 +27040,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -27092,7 +27048,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -27100,7 +27056,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -27281,7 +27237,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -27289,7 +27245,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -27297,7 +27253,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -27305,7 +27261,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -27337,7 +27293,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -27345,7 +27301,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -27353,7 +27309,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -27361,7 +27317,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -27369,7 +27325,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -27463,6 +27419,23 @@
        },
        "other": null,
        "undecided": 1
+      },
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 522,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Dan S. Sullivan": 45,
+        "Mary Peltola": 50,
+        "Daniel J. Sullivan Jr.": 1,
+        "Gerald Heikes": 2
+       },
+       "other": 2,
+       "undecided": null
       },
       {
        "pollster": "New York Times/Siena University",
@@ -27997,7 +27970,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -28021,7 +27994,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -28029,7 +28002,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -28050,6 +28023,23 @@
      ],
      "aggregates": [],
      "polls": [
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 522,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Bernadette Wilson": 34,
+        "Jonathan Kreiss-Tomkins": 52,
+        "Dave Bronson": 9,
+        "Treg Taylor": 4
+       },
+       "other": 1,
+       "undecided": null
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 23–30, 2026",
@@ -28189,15 +28179,15 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 4 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Jonathan Kreiss-Tomkins": 46,
-       "Bernadette Wilson": 27.7,
-       "Dave Bronson": 10.3,
-       "Treg Taylor": 8.3
+       "Jonathan Kreiss-Tomkins": 47.5,
+       "Bernadette Wilson": 29.3,
+       "Dave Bronson": 10,
+       "Treg Taylor": 7.3
       },
       "leader": "Jonathan Kreiss-Tomkins",
-      "margin": 18.3
+      "margin": 18.2
      },
      "consensus": {
       "rating": "Lean D",
@@ -28206,7 +28196,7 @@
       "count": 4,
       "of": 8
      },
-     "latestPoll": "2026-10-30"
+     "latestPoll": "2026-11-01"
     }
    ]
   },
@@ -28255,7 +28245,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -28295,7 +28285,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -28303,7 +28293,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -28905,7 +28895,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -28913,7 +28903,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -28921,7 +28911,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -28929,7 +28919,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -28961,7 +28951,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -28969,7 +28959,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -28977,7 +28967,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -28985,7 +28975,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -28993,7 +28983,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -29191,7 +29181,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -29210,6 +29200,14 @@
        "asOf": "October 29, 2026"
       },
       {
+       "source": "NBC News",
+       "rating": "Safe R",
+       "strength": "Safe",
+       "lean": "R",
+       "flip": false,
+       "asOf": "November 2, 2026"
+      },
+      {
        "source": "RealClearPolitics",
        "rating": "Safe R",
        "strength": "Safe",
@@ -29218,20 +29216,12 @@
        "asOf": "November 1, 2026"
       },
       {
-       "source": "NBC News",
-       "rating": "Safe R",
-       "strength": "Safe",
-       "lean": "R",
-       "flip": false,
-       "asOf": "October 30, 2026"
-      },
-      {
        "source": "Sabato's Crystal Ball",
        "rating": "Safe R",
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -29239,7 +29229,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -29344,7 +29334,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -29368,7 +29358,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -29376,7 +29366,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -29384,7 +29374,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -29392,7 +29382,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -29793,7 +29783,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -29801,7 +29791,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -29809,7 +29799,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -29817,7 +29807,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -29849,7 +29839,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -29857,7 +29847,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -29865,7 +29855,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -29873,7 +29863,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -29881,7 +29871,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -29991,7 +29981,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -30015,7 +30005,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -30023,7 +30013,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -30031,7 +30021,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -30039,7 +30029,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -30156,7 +30146,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -30180,7 +30170,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -30188,7 +30178,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -30196,7 +30186,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -30204,7 +30194,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -30495,7 +30485,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -30503,7 +30493,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -30511,7 +30501,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -30519,7 +30509,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -30551,7 +30541,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -30559,7 +30549,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -30567,7 +30557,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -30575,7 +30565,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -30583,7 +30573,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -30637,7 +30627,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -30645,7 +30635,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -30653,7 +30643,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -30661,7 +30651,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -30693,7 +30683,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -30701,7 +30691,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -30709,7 +30699,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -30717,7 +30707,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -30725,7 +30715,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -31328,7 +31318,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -31352,7 +31342,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -31360,7 +31350,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -31368,7 +31358,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -31376,7 +31366,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -32181,7 +32171,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -32189,7 +32179,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -32197,7 +32187,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -32205,7 +32195,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -32237,7 +32227,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -32245,7 +32235,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -32253,7 +32243,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -32261,7 +32251,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -32269,7 +32259,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -32767,7 +32757,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -32791,7 +32781,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -32799,7 +32789,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -32815,7 +32805,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -33258,7 +33248,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -33282,7 +33272,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -33290,7 +33280,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -33298,7 +33288,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -33306,7 +33296,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -33360,7 +33350,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -33368,7 +33358,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -33376,7 +33366,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -33384,7 +33374,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -33416,7 +33406,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -33424,7 +33414,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -33432,7 +33422,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -33440,7 +33430,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -33448,7 +33438,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -33652,7 +33642,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -33676,7 +33666,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -33684,7 +33674,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -33692,7 +33682,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -33700,7 +33690,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -33813,7 +33803,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -33821,7 +33811,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -33829,7 +33819,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -33837,7 +33827,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -33869,7 +33859,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -33877,7 +33867,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -33885,7 +33875,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -33893,7 +33883,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -33901,7 +33891,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -34026,7 +34016,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -34050,7 +34040,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -34058,7 +34048,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -34066,7 +34056,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -34074,7 +34064,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -34235,7 +34225,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -34243,7 +34233,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -34251,7 +34241,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -34259,7 +34249,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -34291,7 +34281,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -34299,7 +34289,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -34315,7 +34305,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -34323,7 +34313,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -34432,7 +34422,7 @@
        "undecided": 5
       },
       {
-       "pollster": "GrayHouse",
+       "pollster": "GrayHouse (R)",
        "dates": "October 28–31, 2026",
        "start": "2026-10-28",
        "end": "2026-10-31",
@@ -35076,7 +35066,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -35100,7 +35090,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -35108,7 +35098,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -35116,7 +35106,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -35124,69 +35114,69 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 8–29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 8 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Zach Lahn": 45,
-        "Rob Sand": 51.2
+        "Zach Lahn": 44.6,
+        "Rob Sand": 51.6
        },
        "otherUndecided": 3.8
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Zach Lahn": 45.5,
+        "Zach Lahn": 45.1,
         "Rob Sand": 51.3
        },
-       "otherUndecided": 3.2
+       "otherUndecided": 3.6
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 2, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Zach Lahn": 44.9,
-        "Rob Sand": 51.6
+        "Zach Lahn": 44.3,
+        "Rob Sand": 52
        },
-       "otherUndecided": 3.5
+       "otherUndecided": 3.7
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 5–29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 8 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Zach Lahn": 44.8,
-        "Rob Sand": 51.4
+        "Zach Lahn": 44.4,
+        "Rob Sand": 51.9
        },
-       "otherUndecided": 3.8
+       "otherUndecided": 3.7
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Zach Lahn": 44.7,
-        "Rob Sand": 51.9
+        "Zach Lahn": 44.5,
+        "Rob Sand": 51.8
        },
-       "otherUndecided": 3.4
+       "otherUndecided": 3.7
       },
       {
        "source": "Average",
@@ -35195,10 +35185,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Zach Lahn": 45,
-        "Rob Sand": 51.5
+        "Zach Lahn": 44.6,
+        "Rob Sand": 51.7
        },
-       "otherUndecided": 3.5
+       "otherUndecided": 3.7
       }
      ],
      "polls": [
@@ -35231,6 +35221,21 @@
        },
        "other": 0,
        "undecided": 6
+      },
+      {
+       "pollster": "Rasmussen Reports (R)",
+       "dates": "October 27–31, 2026",
+       "start": "2026-10-27",
+       "end": "2026-10-31",
+       "sample": 901,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Zach Lahn": 45,
+        "Rob Sand": 50
+       },
+       "other": 0,
+       "undecided": 5
       },
       {
        "pollster": "YouGov",
@@ -35582,11 +35587,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Zach Lahn": 45,
-       "Rob Sand": 51.5
+       "Zach Lahn": 44.6,
+       "Rob Sand": 51.7
       },
       "leader": "Rob Sand",
-      "margin": 6.5
+      "margin": 7.1
      },
      "consensus": {
       "rating": "Lean D",
@@ -35630,7 +35635,8 @@
       {
        "name": "David Graham",
        "party": "L",
-       "nominee": false
+       "nominee": true,
+       "partyName": "Libertarian Party"
       }
      ],
      "results": null,
@@ -35657,7 +35663,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -35665,7 +35671,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -35673,7 +35679,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -35713,7 +35719,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -35721,7 +35727,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -35737,15 +35743,15 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
-       "rating": "Tossup",
-       "strength": "Tossup",
-       "lean": null,
-       "flip": false,
-       "asOf": "November 1, 2026"
+       "rating": "Lean D",
+       "strength": "Lean",
+       "lean": "D",
+       "flip": true,
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -35823,6 +35829,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 2038,
+       "population": "LV",
+       "moe": 2,
+       "values": {
+        "Roger Marshall": 45,
+        "Adam Hamilton": 52
+       },
+       "other": 3,
+       "undecided": 1
+      },
       {
        "pollster": "Survey 160",
        "dates": "October 27 – November 1, 2026",
@@ -36150,7 +36171,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 9,
+      "count": 8,
       "of": 14
      },
      "latestPoll": "2026-11-01"
@@ -36195,7 +36216,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -36219,7 +36240,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -36227,7 +36248,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -36235,15 +36256,15 @@
        "strength": "Lean",
        "lean": "R",
        "flip": true,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
-       "rating": "Lean R",
-       "strength": "Lean",
-       "lean": "R",
-       "flip": true,
-       "asOf": "November 1, 2026"
+       "rating": "Tossup",
+       "strength": "Tossup",
+       "lean": null,
+       "flip": false,
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -36333,7 +36354,7 @@
         "Cindy Holscher": 50,
         "Ty Masterson": 46
        },
-       "other": 4,
+       "other": 3,
        "undecided": 1
       },
       {
@@ -36546,7 +36567,7 @@
       "rating": "Lean R",
       "strength": "Lean",
       "lean": "R",
-      "count": 5,
+      "count": 4,
       "of": 8
      },
      "latestPoll": "2026-11-01"
@@ -36590,7 +36611,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -36598,7 +36619,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -36606,7 +36627,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -36614,7 +36635,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -36646,7 +36667,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -36654,7 +36675,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -36662,7 +36683,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -36670,7 +36691,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -36678,7 +36699,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -36772,7 +36793,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -36780,7 +36801,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -36788,7 +36809,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -36796,7 +36817,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -36828,7 +36849,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -36836,7 +36857,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -36852,12 +36873,12 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
-       "rating": "Safe R",
-       "strength": "Safe",
+       "rating": "Likely R",
+       "strength": "Likely",
        "lean": "R",
        "flip": false,
        "asOf": "November 2, 2026"
@@ -36865,6 +36886,21 @@
      ],
      "aggregates": [],
      "polls": [
+      {
+       "pollster": "Lincoln Park Strategies (D)",
+       "dates": "October 29–31, 2026",
+       "start": "2026-10-29",
+       "end": "2026-10-31",
+       "sample": null,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Julia Letlow": 47,
+        "Jamie Davis": 47
+       },
+       "other": null,
+       "undecided": 6
+      },
       {
        "pollster": "Hart Research Associates (D)",
        "dates": "October 28–29, 2026",
@@ -36913,22 +36949,22 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Julia Letlow": 45,
-       "Jamie Davis": 45
+       "Julia Letlow": 46,
+       "Jamie Davis": 46
       },
       "leader": null,
       "margin": 0
      },
      "consensus": {
-      "rating": "Safe R",
-      "strength": "Safe",
+      "rating": "Likely R",
+      "strength": "Likely",
       "lean": "R",
       "count": 6,
       "of": 12
      },
-     "latestPoll": "2026-10-29"
+     "latestPoll": "2026-10-31"
     }
    ]
   },
@@ -36986,7 +37022,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -36994,7 +37030,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -37002,7 +37038,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -37010,7 +37046,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -37042,7 +37078,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -37050,7 +37086,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -37066,7 +37102,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -37074,7 +37110,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -37152,6 +37188,51 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Rasmussen Reports (R)",
+       "dates": "October 27 – November 2, 2026",
+       "start": "2026-10-27",
+       "end": "2026-11-02",
+       "sample": 896,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Susan Collins": 46,
+        "Troy Jackson": 49
+       },
+       "other": null,
+       "undecided": 5
+      },
+      {
+       "pollster": "Emerson College",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 600,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Susan Collins": 51,
+        "Troy Jackson": 49
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 967,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Susan Collins": 44,
+        "Troy Jackson": 53
+       },
+       "other": 2,
+       "undecided": 1
+      },
       {
        "pollster": "Survey 160",
        "dates": "October 27 – November 1, 2026",
@@ -37680,7 +37761,7 @@
       "count": 7,
       "of": 14
      },
-     "latestPoll": "2026-11-01"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "ME-GOV",
@@ -37728,7 +37809,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -37752,7 +37833,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -37760,7 +37841,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -37768,7 +37849,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -37776,7 +37857,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -37857,6 +37938,38 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "Emerson College",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 600,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Hannah Pingree": 50,
+        "Bobby Charles": 41,
+        "Rick Bennett": 9
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 967,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Hannah Pingree": 50,
+        "Bobby Charles": 42,
+        "Rick Bennett": 5
+       },
+       "other": 1,
+       "undecided": 2
+      },
       {
        "pollster": "Survey 160",
        "dates": "October 27 – November 1, 2026",
@@ -38303,7 +38416,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -38327,7 +38440,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -38335,7 +38448,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -38343,7 +38456,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -38351,7 +38464,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -38451,7 +38564,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -38459,7 +38572,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -38467,7 +38580,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -38475,7 +38588,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -38507,7 +38620,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -38515,7 +38628,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -38523,7 +38636,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -38531,7 +38644,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -38539,7 +38652,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -38550,10 +38663,22 @@
        "updated": "October 20, 2026",
        "updatedIso": "2026-10-20",
        "values": {
-        "Ed Markey": 55.8,
+        "Ed Markey": 56,
         "John Deaton": 29.8
        },
-       "otherUndecided": 14.4
+       "otherUndecided": 14.2
+      },
+      {
+       "source": "Decision Desk HQ",
+       "isAverage": false,
+       "dates": "through October 31, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Ed Markey": 55.1,
+        "John Deaton": 29.2
+       },
+       "otherUndecided": 15.7
       },
       {
        "source": "RealClearPolitics",
@@ -38624,6 +38749,21 @@
        },
        "other": 1,
        "undecided": 6
+      },
+      {
+       "pollster": "UMass Lowell",
+       "dates": "October 7–18, 2026",
+       "start": "2026-10-07",
+       "end": "2026-10-18",
+       "sample": 850,
+       "population": "LV",
+       "moe": 4.4,
+       "values": {
+        "Ed Markey": 55,
+        "John Deaton": 26
+       },
+       "other": 4,
+       "undecided": 12
       },
       {
        "pollster": "UMass Amherst/YouGov",
@@ -38812,7 +38952,7 @@
      ],
      "headline": {
       "basis": "aggregate-average",
-      "detail": "Average of 3 poll aggregators",
+      "detail": "Average of 4 poll aggregators",
       "values": {
        "Ed Markey": 56,
        "John Deaton": 29.8
@@ -38869,7 +39009,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -38893,7 +39033,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -38901,7 +39041,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -38909,7 +39049,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -38917,7 +39057,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -39000,6 +39140,21 @@
        },
        "other": 2,
        "undecided": 3
+      },
+      {
+       "pollster": "UMass Lowell",
+       "dates": "October 7–18, 2026",
+       "start": "2026-10-07",
+       "end": "2026-10-18",
+       "sample": 850,
+       "population": "LV",
+       "moe": 4.4,
+       "values": {
+        "Maura Healey": 57,
+        "Mike Minogue": 29
+       },
+       "other": 4,
+       "undecided": 8
       },
       {
        "pollster": "UMass Amherst/YouGov",
@@ -39249,7 +39404,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -39257,7 +39412,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -39265,7 +39420,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -39297,7 +39452,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -39305,7 +39460,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -39313,7 +39468,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -39321,7 +39476,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -39329,7 +39484,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -39408,6 +39563,51 @@
      ],
      "polls": [
       {
+       "pollster": "John Zogby Strategies",
+       "dates": "October 31 – November 2, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-02",
+       "sample": 1001,
+       "population": "LV",
+       "moe": 3.2,
+       "values": {
+        "Abdul El-Sayed": 51,
+        "Mike Rogers": 49
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
+       "pollster": "Emerson College",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 500,
+       "population": "LV",
+       "moe": 4.4,
+       "values": {
+        "Abdul El-Sayed": 51,
+        "Mike Rogers": 45
+       },
+       "other": 3,
+       "undecided": null
+      },
+      {
+       "pollster": "Concord Public Opinion Partners (D)",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 510,
+       "population": "LV",
+       "moe": 4.3,
+       "values": {
+        "Abdul El-Sayed": 51,
+        "Mike Rogers": 41
+       },
+       "other": 3,
+       "undecided": 5
+      },
+      {
        "pollster": "Research Co.",
        "dates": "October 30 – November 1, 2026",
        "start": "2026-10-30",
@@ -39421,6 +39621,21 @@
        },
        "other": 1,
        "undecided": 5
+      },
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1316,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Abdul El-Sayed": 54,
+        "Mike Rogers": 46
+       },
+       "other": 0,
+       "undecided": 0
       },
       {
        "pollster": "New York Times/Siena University",
@@ -40385,7 +40600,7 @@
       "count": 5,
       "of": 14
      },
-     "latestPoll": "2026-11-01"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "MI-GOV",
@@ -40427,7 +40642,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -40451,7 +40666,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -40459,7 +40674,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -40467,7 +40682,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -40475,7 +40690,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -40554,6 +40769,36 @@
      ],
      "polls": [
       {
+       "pollster": "Emerson College",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 500,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Jocelyn Benson": 50,
+        "John James": 46
+       },
+       "other": 4,
+       "undecided": null
+      },
+      {
+       "pollster": "Concord Public Opinion Partners (D)",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 510,
+       "population": "LV",
+       "moe": 4.3,
+       "values": {
+        "Jocelyn Benson": 50,
+        "John James": 41
+       },
+       "other": 4,
+       "undecided": 4
+      },
+      {
        "pollster": "Research Co.",
        "dates": "October 30 – November 1, 2026",
        "start": "2026-10-30",
@@ -40567,6 +40812,21 @@
        },
        "other": 1,
        "undecided": 5
+      },
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1316,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Jocelyn Benson": 53,
+        "John James": 45
+       },
+       "other": 0,
+       "undecided": 1
       },
       {
        "pollster": "New York Times/Siena University",
@@ -41182,7 +41442,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -41190,7 +41450,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -41198,7 +41458,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -41206,7 +41466,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -41238,7 +41498,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -41246,7 +41506,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -41254,7 +41514,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -41262,7 +41522,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -41270,7 +41530,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -41362,6 +41622,21 @@
        },
        "other": 2,
        "undecided": 7
+      },
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 2133,
+       "population": "LV",
+       "moe": 2,
+       "values": {
+        "Peggy Flanagan": 48,
+        "Michele Tafoya": 46
+       },
+       "other": 5,
+       "undecided": 1
       },
       {
        "pollster": "Survey 160",
@@ -41768,7 +42043,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -41792,7 +42067,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -41800,7 +42075,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -41808,7 +42083,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -41816,7 +42091,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -42188,7 +42463,7 @@
        "name": "Ty Pinkins",
        "party": "I",
        "nominee": true,
-       "partyName": "Independent"
+       "partyName": "Independent (US)"
       }
      ],
      "results": null,
@@ -42199,7 +42474,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -42207,7 +42482,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -42215,7 +42490,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -42223,7 +42498,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -42255,7 +42530,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -42263,7 +42538,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -42271,7 +42546,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -42279,7 +42554,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -42287,7 +42562,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -42432,7 +42707,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -42440,7 +42715,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -42448,7 +42723,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -42456,7 +42731,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -42488,7 +42763,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -42496,7 +42771,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -42504,7 +42779,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -42512,7 +42787,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -42520,7 +42795,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -42967,7 +43242,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -42975,7 +43250,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -42983,7 +43258,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -42991,7 +43266,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -43023,7 +43298,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -43039,7 +43314,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -43047,7 +43322,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -43055,7 +43330,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -43508,7 +43783,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -43532,7 +43807,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -43540,7 +43815,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -43548,7 +43823,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -43556,7 +43831,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -43959,7 +44234,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -43983,7 +44258,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -43991,7 +44266,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -44007,7 +44282,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -44407,7 +44682,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -44415,7 +44690,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -44423,12 +44698,12 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
-       "rating": "Safe D",
-       "strength": "Safe",
+       "rating": "Likely D",
+       "strength": "Likely",
        "lean": "D",
        "flip": false,
        "asOf": "November 2, 2026"
@@ -44463,7 +44738,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -44471,7 +44746,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -44479,7 +44754,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -44487,7 +44762,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -44574,6 +44849,21 @@
      ],
      "polls": [
       {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1057,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Chris Pappas": 52,
+        "John E. Sununu": 44
+       },
+       "other": 2,
+       "undecided": 2
+      },
+      {
        "pollster": "University of New Hampshire",
        "dates": "October 27–31, 2026",
        "start": "2026-10-27",
@@ -44632,6 +44922,21 @@
        },
        "other": 5,
        "undecided": 2
+      },
+      {
+       "pollster": "UMass Lowell/YouGov",
+       "dates": "October 2–19, 2026",
+       "start": "2026-10-02",
+       "end": "2026-10-19",
+       "sample": 600,
+       "population": "LV",
+       "moe": 5,
+       "values": {
+        "Chris Pappas": 48,
+        "John E. Sununu": 41
+       },
+       "other": 4,
+       "undecided": 7
       },
       {
        "pollster": "National Public Affairs (R)",
@@ -45071,7 +45376,7 @@
       "count": 6,
       "of": 13
      },
-     "latestPoll": "2026-10-31"
+     "latestPoll": "2026-11-01"
     },
     {
      "id": "NH-GOV",
@@ -45113,7 +45418,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -45137,7 +45442,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -45145,7 +45450,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -45161,7 +45466,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -45239,6 +45544,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1057,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Kelly Ayotte": 50,
+        "Cinde Warmington": 44
+       },
+       "other": 3,
+       "undecided": 4
+      },
       {
        "pollster": "University of New Hampshire",
        "dates": "October 27–31, 2026",
@@ -45512,7 +45832,7 @@
       "count": 4,
       "of": 8
      },
-     "latestPoll": "2026-10-31"
+     "latestPoll": "2026-11-01"
     }
    ]
   },
@@ -45551,7 +45871,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -45559,7 +45879,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -45567,7 +45887,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -45575,7 +45895,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -45607,7 +45927,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -45615,7 +45935,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -45623,7 +45943,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -45631,7 +45951,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -45639,7 +45959,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -45693,7 +46013,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -45701,7 +46021,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -45709,7 +46029,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -45717,7 +46037,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -45749,7 +46069,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -45757,7 +46077,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -45765,7 +46085,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -45773,7 +46093,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -45781,7 +46101,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -45943,7 +46263,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -45967,7 +46287,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -45975,7 +46295,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -45983,7 +46303,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -45991,7 +46311,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -46166,7 +46486,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -46190,7 +46510,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -46198,7 +46518,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -46206,7 +46526,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -46214,7 +46534,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -46338,7 +46658,7 @@
        "undecided": null
       },
       {
-       "pollster": "Siena College",
+       "pollster": "Siena University",
        "dates": "October 19–22, 2026",
        "start": "2026-10-19",
        "end": "2026-10-22",
@@ -46563,7 +46883,7 @@
        "undecided": 12
       },
       {
-       "pollster": "Siena College",
+       "pollster": "Siena University",
        "dates": "June 17–23, 2026",
        "start": "2026-06-17",
        "end": "2026-06-23",
@@ -46653,7 +46973,7 @@
        "undecided": 5
       },
       {
-       "pollster": "Siena College",
+       "pollster": "Siena University",
        "dates": "February 23–26, 2026",
        "start": "2026-02-23",
        "end": "2026-02-26",
@@ -46728,7 +47048,7 @@
        "undecided": 8
       },
       {
-       "pollster": "Siena College",
+       "pollster": "Siena University",
        "dates": "December 8–12, 2025",
        "start": "2025-12-08",
        "end": "2025-12-12",
@@ -46854,7 +47174,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -46862,7 +47182,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -46870,15 +47190,15 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
-       "rating": "Likely D",
-       "strength": "Likely",
+       "rating": "Safe D",
+       "strength": "Safe",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -46910,7 +47230,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -46918,7 +47238,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -46926,7 +47246,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -46934,7 +47254,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -46942,7 +47262,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -47020,6 +47340,21 @@
       }
      ],
      "polls": [
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1459,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Michael Whatley": 42,
+        "Roy Cooper": 56
+       },
+       "other": 1,
+       "undecided": 0
+      },
       {
        "pollster": "East Carolina University",
        "dates": "October 26–29, 2026",
@@ -47800,10 +48135,10 @@
       "rating": "Likely D",
       "strength": "Likely",
       "lean": "D",
-      "count": 8,
+      "count": 7,
       "of": 13
      },
-     "latestPoll": "2026-10-29"
+     "latestPoll": "2026-11-01"
     }
    ]
   },
@@ -47866,7 +48201,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -47874,7 +48209,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -47882,7 +48217,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -47890,7 +48225,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -47922,7 +48257,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -47930,7 +48265,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -47946,7 +48281,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -47954,7 +48289,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -48033,6 +48368,21 @@
      ],
      "polls": [
       {
+       "pollster": "Emerson College",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 930,
+       "population": "LV",
+       "moe": 3.2,
+       "values": {
+        "Jon Husted": 46,
+        "Sherrod Brown": 48
+       },
+       "other": 6,
+       "undecided": null
+      },
+      {
        "pollster": "Trafalgar Group (R)",
        "dates": "October 31 – November 1, 2026",
        "start": "2026-10-31",
@@ -48063,6 +48413,21 @@
        "undecided": 9
       },
       {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1801,
+       "population": "LV",
+       "moe": 2,
+       "values": {
+        "Jon Husted": 44,
+        "Sherrod Brown": 51
+       },
+       "other": 4,
+       "undecided": 1
+      },
+      {
        "pollster": "Survey 160",
        "dates": "October 27 – November 1, 2026",
        "start": "2026-10-27",
@@ -48091,6 +48456,21 @@
        },
        "other": 0,
        "undecided": 7
+      },
+      {
+       "pollster": "Rasmussen Reports (R)",
+       "dates": "October 27–31, 2026",
+       "start": "2026-10-27",
+       "end": "2026-10-31",
+       "sample": 1119,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Jon Husted": 46,
+        "Sherrod Brown": 46
+       },
+       "other": 5,
+       "undecided": 3
       },
       {
        "pollster": "ActiVote",
@@ -48881,7 +49261,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -48889,7 +49269,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -48897,7 +49277,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -48905,7 +49285,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -48984,6 +49364,21 @@
      ],
      "polls": [
       {
+       "pollster": "Emerson College",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 930,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Vivek Ramaswamy": 48,
+        "Amy Acton": 48
+       },
+       "other": 3,
+       "undecided": 1
+      },
+      {
        "pollster": "Research Co.",
        "dates": "October 30 – November 1, 2026",
        "start": "2026-10-30",
@@ -48997,6 +49392,21 @@
        },
        "other": 1,
        "undecided": 9
+      },
+      {
+       "pollster": "AtlasIntel",
+       "dates": "October 28 – November 1, 2026",
+       "start": "2026-10-28",
+       "end": "2026-11-01",
+       "sample": 1801,
+       "population": "LV",
+       "moe": 2,
+       "values": {
+        "Vivek Ramaswamy": 44,
+        "Amy Acton": 52
+       },
+       "other": 4,
+       "undecided": 0
       },
       {
        "pollster": "Survey 160",
@@ -49687,7 +50097,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -49695,7 +50105,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -49703,7 +50113,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -49711,7 +50121,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -49743,7 +50153,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -49751,7 +50161,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -49759,7 +50169,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -49767,7 +50177,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -49775,7 +50185,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -49855,7 +50265,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -49879,7 +50289,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -49887,7 +50297,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -49895,7 +50305,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -49903,7 +50313,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -50010,7 +50420,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -50018,7 +50428,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -50026,7 +50436,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -50034,7 +50444,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -50066,7 +50476,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -50074,7 +50484,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -50082,7 +50492,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -50090,7 +50500,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -50098,7 +50508,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -50158,7 +50568,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -50182,7 +50592,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -50190,7 +50600,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -50198,7 +50608,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -50206,7 +50616,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -50400,7 +50810,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -50424,7 +50834,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -50432,7 +50842,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -50440,7 +50850,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -50448,7 +50858,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -50935,7 +51345,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -50943,7 +51353,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -50951,7 +51361,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -50959,7 +51369,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -50991,7 +51401,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -50999,7 +51409,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -51007,7 +51417,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -51015,7 +51425,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -51023,7 +51433,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -51205,7 +51615,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -51229,7 +51639,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -51237,7 +51647,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -51245,7 +51655,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -51253,7 +51663,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -51471,7 +51881,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -51479,7 +51889,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -51487,7 +51897,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -51495,7 +51905,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -51527,7 +51937,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -51535,7 +51945,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -51543,7 +51953,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -51551,7 +51961,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -51559,7 +51969,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -51638,19 +52048,49 @@
      ],
      "polls": [
       {
-       "pollster": "Resonance Media poll (R?)",
+       "pollster": "Trafalgar Group (R)",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 1091,
+       "population": "LV",
+       "moe": 2.9,
+       "values": {
+        "Darline Graham": 48,
+        "Annie Andrews": 46
+       },
+       "other": 3,
+       "undecided": 4
+      },
+      {
+       "pollster": "Rasmussen Reports",
+       "dates": "October 31, 2026",
+       "start": "2026-10-31",
+       "end": "2026-10-31",
+       "sample": 1028,
+       "population": "LV",
+       "moe": 3,
+       "values": {
+        "Darline Graham": 50,
+        "Annie Andrews": 47
+       },
+       "other": null,
+       "undecided": 6
+      },
+      {
+       "pollster": "Resonance Media Services (R)",
        "dates": "October 30, 2026",
        "start": "2026-10-30",
        "end": "2026-10-30",
        "sample": 600,
        "population": "LV",
-       "moe": 1.6,
+       "moe": 4,
        "values": {
         "Darline Graham": 45,
         "Annie Andrews": 46
        },
-       "other": 2.7,
-       "undecided": 6.5
+       "other": 3,
+       "undecided": 7
       },
       {
        "pollster": "Patinkin Research Strategies (D)",
@@ -51895,7 +52335,7 @@
       "count": 10,
       "of": 13
      },
-     "latestPoll": "2026-10-30"
+     "latestPoll": "2026-11-01"
     },
     {
      "id": "SC-GOV",
@@ -51933,11 +52373,11 @@
       },
       {
        "source": "Decision Desk HQ",
-       "rating": "Lean R",
-       "strength": "Lean",
+       "rating": "Likely R",
+       "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -51961,7 +52401,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -51969,7 +52409,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -51977,7 +52417,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -51985,11 +52425,41 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
      "polls": [
+      {
+       "pollster": "Trafalgar Group (R)",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 1091,
+       "population": "LV",
+       "moe": 2.9,
+       "values": {
+        "Alan Wilson": 54,
+        "Jermaine Johnson": 39
+       },
+       "other": 2,
+       "undecided": 5
+      },
+      {
+       "pollster": "Resonance Media Services (R)",
+       "dates": "October 30, 2026",
+       "start": "2026-10-30",
+       "end": "2026-10-30",
+       "sample": 600,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Alan Wilson": 51,
+        "Jermaine Johnson": 42
+       },
+       "other": 1,
+       "undecided": 6
+      },
       {
        "pollster": "New York Times/Siena University",
        "dates": "October 19–26, 2026",
@@ -52113,13 +52583,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 5 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 6 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Alan Wilson": 49.6,
-       "Jermaine Johnson": 38.8
+       "Alan Wilson": 50,
+       "Jermaine Johnson": 39.7
       },
       "leader": "Alan Wilson",
-      "margin": 10.8
+      "margin": 10.3
      },
      "consensus": {
       "rating": "Safe R",
@@ -52128,7 +52598,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-26"
+     "latestPoll": "2026-11-01"
     }
    ]
   },
@@ -52169,7 +52639,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -52177,7 +52647,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -52185,7 +52655,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -52193,7 +52663,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -52225,7 +52695,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -52233,7 +52703,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -52241,7 +52711,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -52249,7 +52719,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -52257,7 +52727,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -52596,7 +53066,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -52620,7 +53090,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -52628,7 +53098,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -52636,7 +53106,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -52644,7 +53114,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -52738,7 +53208,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -52746,7 +53216,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -52754,7 +53224,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -52762,7 +53232,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -52794,7 +53264,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -52802,7 +53272,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -52810,7 +53280,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -52818,7 +53288,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -52826,11 +53296,26 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
      "polls": [
+      {
+       "pollster": "Targoz Market Research",
+       "dates": "October 24 – November 2, 2026",
+       "start": "2026-10-24",
+       "end": "2026-11-02",
+       "sample": 718,
+       "population": "LV",
+       "moe": 3.58,
+       "values": {
+        "Bill Hagerty": 57,
+        "Marquita Bradshaw": 37
+       },
+       "other": 3,
+       "undecided": 3
+      },
       {
        "pollster": "Targoz Market Research",
        "dates": "August 15–26, 2026",
@@ -52848,11 +53333,11 @@
       }
      ],
      "headline": {
-      "basis": "latest-poll",
-      "detail": "Most recent poll: Targoz Market Research, August 15–26, 2026",
+      "basis": "simple-average",
+      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
       "values": {
-       "Bill Hagerty": 51,
-       "Marquita Bradshaw": 31
+       "Bill Hagerty": 57,
+       "Marquita Bradshaw": 37
       },
       "leader": "Bill Hagerty",
       "margin": 20
@@ -52864,7 +53349,7 @@
       "count": 12,
       "of": 12
      },
-     "latestPoll": "2026-08-26"
+     "latestPoll": "2026-11-02"
     },
     {
      "id": "TN-GOV",
@@ -52911,7 +53396,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -52935,7 +53420,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -52943,7 +53428,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -52951,7 +53436,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -52959,18 +53444,34 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
      "polls": [
+      {
+       "pollster": "Targoz Market Research",
+       "dates": "October 24 – November 2, 2026",
+       "start": "2026-10-24",
+       "end": "2026-11-02",
+       "sample": 718,
+       "population": "LV",
+       "moe": 3.58,
+       "values": {
+        "Marsha Blackburn": 54,
+        "Jerri Green": 35,
+        "David Hatley": 7
+       },
+       "other": 2,
+       "undecided": 2
+      },
       {
        "pollster": "GOTV Polling",
        "dates": "October 25–26, 2026",
        "start": "2026-10-25",
        "end": "2026-10-26",
        "sample": 1196,
-       "population": null,
+       "population": "V",
        "moe": 2.8,
        "values": {
         "Marsha Blackburn": 35,
@@ -53060,14 +53561,14 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Marsha Blackburn": 39.5,
-       "Jerri Green": 31,
-       "David Hatley": 19
+       "Marsha Blackburn": 44.3,
+       "Jerri Green": 32.3,
+       "David Hatley": 15
       },
       "leader": "Marsha Blackburn",
-      "margin": 8.5
+      "margin": 12
      },
      "consensus": {
       "rating": "Safe R",
@@ -53076,7 +53577,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-26"
+     "latestPoll": "2026-11-02"
     }
    ]
   },
@@ -53138,7 +53639,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -53146,7 +53647,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -53154,7 +53655,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -53162,7 +53663,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -53194,7 +53695,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -53202,7 +53703,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -53218,7 +53719,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -53226,7 +53727,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -53349,12 +53850,28 @@
        "undecided": 2
       },
       {
+       "pollster": "Emerson College",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 500,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Ken Paxton": 48,
+        "James Talarico": 50,
+        "Ted Brown": 2
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
        "pollster": "AtlasIntel",
        "dates": "October 28 – November 1, 2026",
        "start": "2026-10-28",
        "end": "2026-11-01",
        "sample": 1678,
-       "population": "A",
+       "population": "LV",
        "moe": 2,
        "values": {
         "Ken Paxton": 45,
@@ -54603,7 +55120,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -54627,7 +55144,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -54635,7 +55152,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -54643,7 +55160,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -54651,7 +55168,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -54746,12 +55263,28 @@
        "undecided": 8
       },
       {
+       "pollster": "Emerson College",
+       "dates": "October 31 – November 1, 2026",
+       "start": "2026-10-31",
+       "end": "2026-11-01",
+       "sample": 500,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Greg Abbott": 50,
+        "Gina Hinojosa": 49,
+        "Pat Dixon": 1
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
        "pollster": "AtlasIntel",
        "dates": "October 28 – November 1, 2026",
        "start": "2026-10-28",
        "end": "2026-11-01",
        "sample": 1678,
-       "population": "A",
+       "population": "LV",
        "moe": 2.2,
        "values": {
         "Greg Abbott": 48,
@@ -55820,7 +56353,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -55844,7 +56377,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -55860,7 +56393,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -56037,7 +56570,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -56045,7 +56578,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -56053,7 +56586,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -56061,7 +56594,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -56093,7 +56626,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -56101,7 +56634,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -56109,7 +56642,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -56117,7 +56650,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -56125,7 +56658,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -56223,7 +56756,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -56231,7 +56764,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -56239,7 +56772,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -56247,7 +56780,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -56279,7 +56812,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -56287,7 +56820,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -56295,7 +56828,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -56303,7 +56836,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -56311,7 +56844,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -56373,7 +56906,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -56397,7 +56930,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -56405,7 +56938,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -56413,7 +56946,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -56421,7 +56954,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [
@@ -56736,7 +57269,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -56744,7 +57277,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Economist",
@@ -56752,7 +57285,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -56760,7 +57293,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -56792,7 +57325,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -56800,7 +57333,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 31, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -56808,7 +57341,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -56816,7 +57349,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Split Ticket",
@@ -56824,7 +57357,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
@@ -56877,7 +57410,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Fox News",
@@ -56901,7 +57434,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -56909,7 +57442,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 1, 2026"
       },
       {
        "source": "Sabato's Crystal Ball",
@@ -56917,7 +57450,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "October 27, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Silver Bulletin",
@@ -56925,7 +57458,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 1, 2026"
+       "asOf": "November 2, 2026"
       }
      ],
      "aggregates": [],
