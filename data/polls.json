@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T19:21:40.751Z",
+ "generatedAt": "2026-11-04T19:36:41.268Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -34616,26 +34616,26 @@
        {
         "name": "Brad Little",
         "party": "R",
-        "votes": 389631,
-        "percentage": 57.2,
+        "votes": 407216,
+        "percentage": 57.1,
         "winner": true
        },
        {
         "name": "Terri Pickens",
         "party": "D",
-        "votes": 219051,
-        "percentage": 32.2,
+        "votes": 230763,
+        "percentage": 32.3,
         "winner": false
        },
        {
         "name": "John Stegner",
         "party": "I",
-        "votes": 51717,
+        "votes": 54206,
         "percentage": 7.6,
         "winner": false
        }
       ],
-      "totalVotes": 660399,
+      "totalVotes": 692185,
       "winner": "Brad Little",
       "runoff": false,
       "source": "infobox",
