@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T18:36:40.653Z",
+ "generatedAt": "2026-11-04T18:51:40.782Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -42881,23 +42881,23 @@
        {
         "name": "Peggy Flanagan",
         "party": "D",
-        "votes": 1520300,
+        "votes": 1520871,
         "percentage": 53.7,
         "winner": true
        },
        {
         "name": "Michele Tafoya",
         "party": "R",
-        "votes": 1232683,
+        "votes": 1233476,
         "percentage": 43.6,
         "winner": false
        }
       ],
-      "totalVotes": 2752983,
+      "totalVotes": 2754347,
       "winner": "Peggy Flanagan",
       "runoff": false,
       "source": "infobox",
-      "reporting": 96,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -46300,23 +46300,23 @@
        {
         "name": "Chris Pappas",
         "party": "D",
-        "votes": 331447,
-        "percentage": 56.2,
+        "votes": 337071,
+        "percentage": 56.1,
         "winner": true
        },
        {
         "name": "John E. Sununu",
         "party": "R",
-        "votes": 247329,
-        "percentage": 41.9,
+        "votes": 252746,
+        "percentage": 42.1,
         "winner": false
        }
       ],
-      "totalVotes": 578776,
+      "totalVotes": 589817,
       "winner": "Chris Pappas",
       "runoff": false,
       "source": "infobox",
-      "reporting": 92,
+      "reporting": 94,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
