@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T16:51:41.530Z",
+ "generatedAt": "2026-11-04T17:06:40.533Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12958,7 +12958,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Matthew Dunlap",
+       "party": "D",
+       "votes": 152367,
+       "percentage": 50,
+       "winner": false
+      },
+      {
+       "name": "Paul LePage",
+       "party": "R",
+       "votes": 152098,
+       "percentage": 49.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 304465,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 87
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -16903,7 +16925,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Nick LaLota",
+       "party": "R",
+       "votes": 152546,
+       "percentage": 51.1,
+       "winner": false
+      },
+      {
+       "name": "Chris Gallant",
+       "party": "D",
+       "votes": 145869,
+       "percentage": 48.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 298415,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 86
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Public Policy Polling (D), December 10–11, 2025",
@@ -17020,7 +17064,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Andrew Garbarino",
+       "party": "R",
+       "votes": 125338,
+       "percentage": 51.2,
+       "winner": false
+      },
+      {
+       "name": "Patrick Halpin",
+       "party": "D",
+       "votes": 119079,
+       "percentage": 48.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 244417,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 78
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -17128,7 +17194,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Tom Suozzi",
+       "party": "D",
+       "votes": 144174,
+       "percentage": 55.1,
+       "winner": false
+      },
+      {
+       "name": "Mike LiPetri",
+       "party": "R",
+       "votes": 117001,
+       "percentage": 44.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 261175,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 87
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -17236,7 +17324,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Laura Gillen",
+       "party": "D",
+       "votes": 151336,
+       "percentage": 56.2,
+       "winner": false
+      },
+      {
+       "name": "Jeanine Driscoll",
+       "party": "R",
+       "votes": 116912,
+       "percentage": 43.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 268248,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 85
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -17422,7 +17532,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Cait Conley",
+       "party": "D",
+       "votes": 133219,
+       "percentage": 52.2,
+       "winner": false
+      },
+      {
+       "name": "Mike Lawler",
+       "party": "R",
+       "votes": 121881,
+       "percentage": 47.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 255100,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 61
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -17539,7 +17671,30 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Josh Riley",
+       "party": "D",
+       "votes": 165758,
+       "percentage": 57.2,
+       "winner": true
+      },
+      {
+       "name": "Peter Oberacker",
+       "party": "R",
+       "votes": 123624,
+       "percentage": 42.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 289382,
+     "winner": "Josh Riley",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 96,
+     "calledAt": "2026-11-04T17:06:40.533Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -17649,7 +17804,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Anthony Constantino",
+       "party": "R",
+       "votes": 139830,
+       "percentage": 51,
+       "winner": false
+      },
+      {
+       "name": "Blake Gendebien",
+       "party": "D",
+       "votes": 133771,
+       "percentage": 48.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 273601,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 81
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -17790,7 +17967,30 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Nick Langworthy",
+       "party": "R",
+       "votes": 181807,
+       "percentage": 60.3,
+       "winner": true
+      },
+      {
+       "name": "Aaron Gies",
+       "party": "D",
+       "votes": 119749,
+       "percentage": 39.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 301556,
+     "winner": "Nick Langworthy",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 97,
+     "calledAt": "2026-11-04T17:06:40.533Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Public Policy Polling (D), September 22–23, 2026",
@@ -40543,23 +40743,23 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 2497852,
+        "votes": 2500450,
         "percentage": 52.5,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 2162890,
+        "votes": 2164450,
         "percentage": 45.5,
         "winner": false
        }
       ],
-      "totalVotes": 4660742,
+      "totalVotes": 4664900,
       "winner": "Abdul El-Sayed",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 97,
       "calledAt": "2026-11-04T07:33:11.252Z"
      },
      "ratings": [
@@ -41835,23 +42035,23 @@
        {
         "name": "Jocelyn Benson",
         "party": "D",
-        "votes": 2591316,
-        "percentage": 54.5,
+        "votes": 2594262,
+        "percentage": 54.6,
         "winner": true
        },
        {
         "name": "John James",
         "party": "R",
-        "votes": 2078052,
+        "votes": 2079333,
         "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 4669368,
+      "totalVotes": 4673595,
       "winner": "Jocelyn Benson",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 97,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -46453,23 +46653,23 @@
        {
         "name": "Kelly Ayotte",
         "party": "R",
-        "votes": 299637,
+        "votes": 302583,
         "percentage": 51.1,
         "winner": true
        },
        {
         "name": "Cinde Warmington",
         "party": "D",
-        "votes": 276986,
+        "votes": 279219,
         "percentage": 47.2,
         "winner": false
        }
       ],
-      "totalVotes": 576623,
+      "totalVotes": 581802,
       "winner": "Kelly Ayotte",
       "runoff": false,
       "source": "infobox",
-      "reporting": 90,
+      "reporting": 91,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
