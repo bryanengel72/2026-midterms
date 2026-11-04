@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T08:18:11.144Z",
+ "generatedAt": "2026-11-04T09:18:10.724Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -43392,19 +43392,19 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 462779,
+        "votes": 462821,
         "percentage": 48.95,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 462751,
+        "votes": 462778,
         "percentage": 48.94,
         "winner": false
        }
       ],
-      "totalVotes": 925530,
+      "totalVotes": 925599,
       "winner": null,
       "runoff": false,
       "source": "infobox",
@@ -44771,14 +44771,12 @@
       {
        "name": "Brett Lindstrom",
        "party": "O",
-       "nominee": true,
-       "partyName": "America First"
+       "nominee": false
       },
       {
        "name": "Rick Beard",
        "party": "O",
-       "nominee": true,
-       "partyName": "Legal Marijuana NOW"
+       "nominee": false
       }
      ],
      "results": null,
