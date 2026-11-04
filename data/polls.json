@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T14:51:41.043Z",
+ "generatedAt": "2026-11-04T15:06:40.548Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -33431,23 +33431,23 @@
        {
         "name": "Keisha Lance Bottoms",
         "party": "D",
-        "votes": 2259100,
-        "percentage": 54.2,
+        "votes": 2268462,
+        "percentage": 54.3,
         "winner": true
        },
        {
         "name": "Rick Jackson",
         "party": "R",
-        "votes": 1905921,
-        "percentage": 45.8,
+        "votes": 1908261,
+        "percentage": 45.7,
         "winner": false
        }
       ],
-      "totalVotes": 4165021,
+      "totalVotes": 4176723,
       "winner": "Keisha Lance Bottoms",
       "runoff": false,
       "source": "infobox",
-      "reporting": 96.8,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -34951,7 +34951,7 @@
        "dates": "October 1-22, 2026",
        "start": "2026-10-01",
        "end": "2026-10-22",
-       "sample": 610,
+       "sample": 550,
        "population": "LV",
        "moe": 4.5,
        "values": {
