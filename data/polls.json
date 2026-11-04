@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T23:26:01.162Z",
+ "generatedAt": "2026-11-04T23:41:00.999Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6041,30 +6041,30 @@
       {
        "name": "Nick Begich III",
        "party": "R",
-       "votes": 102147,
-       "percentage": 50,
+       "votes": 105353,
+       "percentage": 49.6,
        "winner": false
       },
       {
        "name": "Bill Hill",
        "party": "I",
-       "votes": 81945,
-       "percentage": 40.1,
+       "votes": 85838,
+       "percentage": 40.4,
        "winner": false
       },
       {
        "name": "Eric Hafner",
        "party": "D",
-       "votes": 14711,
-       "percentage": 7.2,
+       "votes": 15501,
+       "percentage": 7.3,
        "winner": false
       }
      ],
-     "totalVotes": 198803,
+     "totalVotes": 206692,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 67
+     "reporting": 70
     },
     "headline": null,
     "latestPoll": null
@@ -39830,30 +39830,30 @@
        {
         "name": "Hannah Pingree",
         "party": "D",
-        "votes": 357670,
-        "percentage": 55,
+        "votes": 379914,
+        "percentage": 54.8,
         "winner": true
        },
        {
         "name": "Bobby Charles",
         "party": "R",
-        "votes": 240047,
-        "percentage": 36.9,
+        "votes": 257847,
+        "percentage": 37.2,
         "winner": false
        },
        {
         "name": "Rick Bennett",
         "party": "I",
-        "votes": 50943,
+        "votes": 55697,
         "percentage": 8,
         "winner": false
        }
       ],
-      "totalVotes": 648660,
+      "totalVotes": 693458,
       "winner": "Hannah Pingree",
       "runoff": false,
       "source": "infobox",
-      "reporting": 87,
+      "reporting": 91,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -44732,23 +44732,23 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 462857,
-        "percentage": 48.95,
+        "votes": 464926,
+        "percentage": 49.01,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 462792,
-        "percentage": 48.94,
+        "votes": 463788,
+        "percentage": 48.89,
         "winner": false
        }
       ],
-      "totalVotes": 925649,
+      "totalVotes": 928714,
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 95
+      "reporting": 96
      },
      "ratings": [
       {
