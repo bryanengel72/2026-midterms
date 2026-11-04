@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T09:18:10.724Z",
+ "generatedAt": "2026-11-04T09:33:10.372Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -54698,7 +54698,36 @@
        "partyName": "Independent politician"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Marsha Blackburn",
+        "party": "R",
+        "votes": 955259,
+        "percentage": 45.5,
+        "winner": false
+       },
+       {
+        "name": "Jerri Green",
+        "party": "D",
+        "votes": 902546,
+        "percentage": 43,
+        "winner": false
+       },
+       {
+        "name": "David Hatley",
+        "party": "I",
+        "votes": 195288,
+        "percentage": 9.3,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2053093,
+      "winner": null,
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 99
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
