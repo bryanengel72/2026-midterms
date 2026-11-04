@@ -489,6 +489,46 @@ export function parseResults(sectionText) {
 }
 
 /**
+ * Election-night results from the article's infobox. Editors fill in
+ * popular_voteN / percentageN (and often "reporting") there long before
+ * the {{Election box}} in the Results section, and mark the winner by
+ * bolding the nominee's name. Returns null until some nominee has votes.
+ */
+export function parseInfoboxResults(info) {
+  const candidates = [];
+  for (let i = 1; i <= 8; i++) {
+    const raw = info[`nominee${i}`] ?? info[`candidate${i}`];
+    if (!raw) continue;
+    const name = toPlainText(raw).replace(/\s*\([^)]*\)\s*$/, "").trim();
+    if (!name) continue;
+    candidates.push({
+      name,
+      party: partyCode(info[`party${i}`] || ""),
+      votes: parseCount(info[`popular_vote${i}`]),
+      percentage: parseCount(info[`percentage${i}`]),
+      winner: raw.includes("'''"),
+    });
+  }
+  if (!candidates.some((c) => c.votes || c.percentage)) return null;
+  const sum = candidates.reduce((n, c) => n + (c.votes || 0), 0);
+  for (const c of candidates) {
+    if (c.percentage === null && c.votes && sum) c.percentage = Math.round((c.votes / sum) * 1000) / 10;
+  }
+  candidates.sort((a, b) => (b.votes || 0) - (a.votes || 0) || (b.percentage || 0) - (a.percentage || 0));
+  const winners = candidates.filter((c) => c.winner);
+  const reporting = parseCount(info.reporting);
+  const out = {
+    candidates,
+    totalVotes: sum,
+    winner: winners.length === 1 ? winners[0].name : null,
+    runoff: false,
+    source: "infobox",
+  };
+  if (reporting !== null) out.reporting = reporting;
+  return out;
+}
+
+/**
  * Parses a race article. `race` is an entry from races.mjs.
  */
 export function parseRace(wikitext, race) {
@@ -515,6 +555,8 @@ export function parseRace(wikitext, race) {
   );
   const resultsSection = inGeneral.find((s) => /^results$/i.test(s.title));
   if (resultsSection) result.results = parseResults(text.slice(resultsSection.bodyStart, resultsSection.end));
+  // On election night the infobox usually has the counts first.
+  if (!result.results) result.results = parseInfoboxResults(info);
 
   const predictions = inGeneral.find((s) => /prediction|rating|forecast/i.test(s.title));
   if (predictions) result.ratings = readRatings(text.slice(predictions.bodyStart, predictions.end));

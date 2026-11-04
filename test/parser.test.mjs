@@ -454,3 +454,52 @@ test("parseHouseTotals reads each forecaster's whole-House totals from the Overa
   ]);
   assert.equal(parseHouseRatings(text).length, 1);
 });
+
+test("parseRace falls back to infobox counts when the results table is still empty", () => {
+  const text = `{{Infobox election
+| election_name = Test
+| reporting = 93
+| nominee1 = '''[[Jon Ossoff]]'''
+| party1 = Democratic Party (United States)
+| popular_vote1 = '''2,407,286'''
+| percentage1 = '''58.83%'''
+| nominee2 = [[Mike Collins (politician)|Mike Collins]]
+| party2 = Republican Party (United States)
+| popular_vote2 = 1,684,685
+| percentage2 = 41.17%
+}}
+Lead.
+==General election==
+===Results===
+{{Election box begin
+ | title=Test}}
+{{Election box candidate with party link no change
+ | party=Democratic Party (United States)
+ | candidate=[[Jon Ossoff]] (incumbent)
+ | votes=
+ | percentage=
+}}
+{{Election box end}}
+`;
+  const r = parseRace(text, { id: "GA-SEN" }).results;
+  assert.equal(r.source, "infobox");
+  assert.equal(r.winner, "Jon Ossoff");
+  assert.equal(r.reporting, 93);
+  assert.deepEqual(r.candidates.map((c) => [c.name, c.party, c.votes, c.percentage]), [
+    ["Jon Ossoff", "D", 2407286, 58.83],
+    ["Mike Collins", "R", 1684685, 41.17],
+  ]);
+});
+
+test("parseRace leaves results empty before any votes are in", () => {
+  const text = `{{Infobox election
+| nominee1 = [[A Person]]
+| party1 = Democratic Party (United States)
+| nominee2 = [[B Person]]
+| party2 = Republican Party (United States)
+}}
+==General election==
+===Results===
+`;
+  assert.equal(parseRace(text, { id: "X" }).results, null);
+});

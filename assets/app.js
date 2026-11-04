@@ -2462,7 +2462,7 @@ function resultsBlock(race, colors) {
   return h("div", { class: `results-block${sum.called ? " called" : ""}` },
     h("h4", {}, "Results ", h("span", { class: "status" }, status)),
     h("div", { class: "result-rows" }, rows),
-    h("p", { class: "hint" }, `${res.totalVotes.toLocaleString()} votes counted, per Wikipedia.`),
+    h("p", { class: "hint" }, `${res.totalVotes.toLocaleString()} votes counted${typeof res.reporting === "number" ? ` (${fmtNum(res.reporting)}% reporting)` : ""}, per Wikipedia.`),
     compare,
   );
 }
