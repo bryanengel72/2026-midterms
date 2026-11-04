@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T22:56:01.068Z",
+ "generatedAt": "2026-11-04T23:26:01.162Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -41528,23 +41528,23 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 2506985,
+        "votes": 2507454,
         "percentage": 52.5,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 2171951,
+        "votes": 2172586,
         "percentage": 45.5,
         "winner": false
        }
       ],
-      "totalVotes": 4678936,
+      "totalVotes": 4680040,
       "winner": "Abdul El-Sayed",
       "runoff": false,
       "source": "infobox",
-      "reporting": 97.4,
+      "reporting": 98,
       "calledAt": "2026-11-04T07:33:11.252Z"
      },
      "ratings": [
@@ -44732,23 +44732,23 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 466488,
-        "percentage": 49.05,
+        "votes": 462857,
+        "percentage": 48.95,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 464240,
-        "percentage": 48.95,
+        "votes": 462792,
+        "percentage": 48.94,
         "winner": false
        }
       ],
-      "totalVotes": 930728,
+      "totalVotes": 925649,
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 97
+      "reporting": 95
      },
      "ratings": [
       {
