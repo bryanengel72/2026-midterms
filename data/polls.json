@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T07:03:11.125Z",
+ "generatedAt": "2026-11-04T07:18:10.782Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -33750,7 +33750,42 @@
        "partyName": "Independent politician"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Jim Risch",
+        "party": "R",
+        "votes": 317836,
+        "percentage": 55.6,
+        "winner": true
+       },
+       {
+        "name": "Todd Achilles",
+        "party": "I",
+        "votes": 197950,
+        "percentage": 34.6,
+        "winner": false
+       },
+       {
+        "name": "Natalie Fleming",
+        "party": "I",
+        "votes": 39506,
+        "percentage": 6.9,
+        "winner": false
+       },
+       {
+        "name": "Matt Loesby",
+        "party": "L",
+        "votes": 16394,
+        "percentage": 2.9,
+        "winner": false
+       }
+      ],
+      "totalVotes": 571686,
+      "winner": "Jim Risch",
+      "runoff": false,
+      "calledAt": "2026-11-04T07:18:10.782Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -36169,23 +36204,23 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 541771,
-        "percentage": 52.1,
+        "votes": 557314,
+        "percentage": 51,
         "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
-        "votes": 466980,
-        "percentage": 44.9,
+        "votes": 503230,
+        "percentage": 46,
         "winner": false
        }
       ],
-      "totalVotes": 1008751,
+      "totalVotes": 1060544,
       "winner": "Adam Hamilton",
       "runoff": false,
       "source": "infobox",
-      "reporting": 89,
+      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -42172,23 +42207,23 @@
        {
         "name": "Peggy Flanagan",
         "party": "D",
-        "votes": 1205247,
-        "percentage": 53.7,
+        "votes": 1506294,
+        "percentage": 53.8,
         "winner": true
        },
        {
         "name": "Michele Tafoya",
         "party": "R",
-        "votes": 978353,
-        "percentage": 43.6,
+        "votes": 1215455,
+        "percentage": 43.4,
         "winner": false
        }
       ],
-      "totalVotes": 2183600,
+      "totalVotes": 2721749,
       "winner": "Peggy Flanagan",
       "runoff": false,
       "source": "infobox",
-      "reporting": 77,
+      "reporting": 96,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -43204,16 +43239,16 @@
      },
      "candidates": [
       {
-       "name": "Cindy Hyde-Smith",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Scott Colom",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
+      },
+      {
+       "name": "Cindy Hyde-Smith",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       },
       {
        "name": "Ty Pinkins",
@@ -43221,7 +43256,29 @@
        "nominee": false
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Scott Colom",
+        "party": "D",
+        "votes": 462779,
+        "percentage": 48.9,
+        "winner": false
+       },
+       {
+        "name": "Cindy Hyde-Smith",
+        "party": "R",
+        "votes": 462751,
+        "percentage": 48.9,
+        "winner": false
+       }
+      ],
+      "totalVotes": 925530,
+      "winner": null,
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 97
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -43403,8 +43460,8 @@
       "basis": "aggregate",
       "detail": "Silver Bulletin polling average",
       "values": {
-       "Cindy Hyde-Smith": 45.7,
-       "Scott Colom": 39.2
+       "Scott Colom": 39.2,
+       "Cindy Hyde-Smith": 45.7
       },
       "leader": "Cindy Hyde-Smith",
       "margin": 6.5
