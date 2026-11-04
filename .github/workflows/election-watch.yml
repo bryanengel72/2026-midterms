@@ -1,0 +1,72 @@
+name: Election watch
+
+# GitHub skips or delays scheduled runs when it is busy (election night
+# was), so instead of one short run every 20 minutes, one long run stays
+# up and refreshes the data every 15 minutes for about 5.5 hours. A new
+# watch is scheduled every two hours; it waits for the running one to
+# finish, then takes over, so coverage stays continuous even when some
+# schedule ticks are dropped. Runs November 4-10 (UTC) while votes are
+# counted. Public repository: Actions minutes are free.
+
+on:
+  schedule:
+    - cron: "41 */2 4-10 11 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: election-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Test the parser
+        run: npm test
+
+      - name: Refresh every 15 minutes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          every=$((15 * 60))
+          stop=$(( $(date +%s) + 330 * 60 ))
+          round=0
+          while :; do
+            round=$((round + 1))
+            started=$(date +%s)
+            echo "::group::Round $round at $(date -u +%H:%M) UTC"
+            # Start from the latest main so other commits never conflict.
+            git fetch -q origin main && git reset -q --hard origin/main
+            if npm run update; then
+              if git diff --quiet -- data/polls.json; then
+                echo "Poll data unchanged."
+              else
+                git add data/polls.json
+                git commit -q -m "Update poll data from Wikipedia"
+                if git push -q origin HEAD:main; then
+                  echo "Pushed new data."
+                else
+                  echo "Push lost a race with another commit; next round will redo it."
+                fi
+              fi
+            else
+              echo "Update failed this round; trying again next round."
+            fi
+            echo "::endgroup::"
+            now=$(date +%s)
+            if [ $((now + every)) -ge "$stop" ]; then
+              echo "Watch ending after $round rounds; the next scheduled watch takes over."
+              break
+            fi
+            sleep $(( every - (now - started) > 30 ? every - (now - started) : 30 ))
+          done
