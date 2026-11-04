@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T02:58:20.266Z",
+ "generatedAt": "2026-11-04T04:42:28.527Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -16337,16 +16337,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Jersey#District_7",
     "candidates": [
      {
-      "name": "Thomas Kean Jr.",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Rebecca Bennett",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Thomas Kean Jr.",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -16382,7 +16382,34 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Rebecca Bennett",
+       "party": "D",
+       "votes": 148433,
+       "percentage": 60.26,
+       "winner": false
+      },
+      {
+       "name": "Thomas Kean Jr.",
+       "party": "R",
+       "votes": 94388,
+       "percentage": 38.32,
+       "winner": false
+      },
+      {
+       "name": "Seamus Patrick O'Toole",
+       "party": "O",
+       "votes": 3487,
+       "percentage": 1.42,
+       "winner": false
+      }
+     ],
+     "totalVotes": 246308,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: StimSight Research, September 8–12, 2026",
@@ -24601,7 +24628,7 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_35",
     "candidates": [
      {
-      "name": "Johnny Garcia",
+      "name": "Johnny C. Garcia",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
@@ -24624,7 +24651,7 @@
       "moe": 6.2,
       "values": {
        "Carlos De La Cruz": 48,
-       "Johnny Garcia": 47
+       "Johnny C. Garcia": 47
       },
       "other": null,
       "undecided": 5
@@ -24639,7 +24666,7 @@
       "moe": null,
       "values": {
        "Carlos De La Cruz": 49,
-       "Johnny Garcia": 51
+       "Johnny C. Garcia": 51
       },
       "other": null,
       "undecided": null
@@ -24654,7 +24681,7 @@
       "moe": null,
       "values": {
        "Carlos De La Cruz": 45,
-       "Johnny Garcia": 47
+       "Johnny C. Garcia": 47
       },
       "other": null,
       "undecided": 8
@@ -24669,7 +24696,7 @@
       "moe": 4.4,
       "values": {
        "Carlos De La Cruz": 45,
-       "Johnny Garcia": 44
+       "Johnny C. Garcia": 44
       },
       "other": null,
       "undecided": 11
@@ -24681,10 +24708,10 @@
      "basis": "simple-average",
      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Johnny Garcia": 48.3,
+      "Johnny C. Garcia": 48.3,
       "Carlos De La Cruz": 47.3
      },
-     "leader": "Johnny Garcia",
+     "leader": "Johnny C. Garcia",
      "margin": 1
     },
     "latestPoll": "2026-10-19"
@@ -34372,16 +34399,16 @@
      },
      "candidates": [
       {
+       "name": "Josh Turek",
+       "party": "D",
+       "nominee": true,
+       "partyName": "Democratic"
+      },
+      {
        "name": "Ashley Hinson",
        "party": "R",
        "nominee": true,
        "partyName": "Republican Party"
-      },
-      {
-       "name": "Josh Turek",
-       "party": "D",
-       "nominee": true,
-       "partyName": "Democratic Party"
       }
      ],
      "results": null,
@@ -35221,16 +35248,16 @@
      },
      "candidates": [
       {
-       "name": "Zach Lahn",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party of Iowa"
-      },
-      {
        "name": "Rob Sand",
        "party": "D",
        "nominee": true,
        "partyName": "Iowa Democratic Party"
+      },
+      {
+       "name": "Zach Lahn",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party of Iowa"
       }
      ],
      "results": null,
