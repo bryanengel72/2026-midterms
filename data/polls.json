@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T16:36:41.255Z",
+ "generatedAt": "2026-11-04T16:51:41.530Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -34411,14 +34411,14 @@
        {
         "name": "Brad Little",
         "party": "R",
-        "votes": 388272,
+        "votes": 389631,
         "percentage": 57.2,
         "winner": true
        },
        {
         "name": "Terri Pickens",
         "party": "D",
-        "votes": 218597,
+        "votes": 219051,
         "percentage": 32.2,
         "winner": false
        },
@@ -34430,11 +34430,11 @@
         "winner": false
        }
       ],
-      "totalVotes": 658586,
+      "totalVotes": 660399,
       "winner": "Brad Little",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
+      "reporting": 95,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -37582,26 +37582,26 @@
        {
         "name": "Andy Barr",
         "party": "R",
-        "votes": 784000,
-        "percentage": 54.98,
+        "votes": 784867,
+        "percentage": 54.99,
         "winner": true
        },
        {
         "name": "Charles Booker",
         "party": "D",
-        "votes": 611987,
-        "percentage": 42.92,
+        "votes": 612349,
+        "percentage": 42.9,
         "winner": false
        },
        {
         "name": "Christopher Campbell",
         "party": "O",
-        "votes": 29865,
+        "votes": 29892,
         "percentage": 2.09,
         "winner": false
        }
       ],
-      "totalVotes": 1425978,
+      "totalVotes": 1427234,
       "winner": "Andy Barr",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -38039,23 +38039,23 @@
        {
         "name": "Troy Jackson",
         "party": "D",
-        "votes": 340972,
-        "percentage": 53.8,
+        "votes": 346909,
+        "percentage": 53.7,
         "winner": true
        },
        {
         "name": "Susan Collins",
         "party": "R",
-        "votes": 292570,
-        "percentage": 46.1,
+        "votes": 299243,
+        "percentage": 46.3,
         "winner": false
        }
       ],
-      "totalVotes": 633542,
+      "totalVotes": 646152,
       "winner": "Troy Jackson",
       "runoff": false,
       "source": "infobox",
-      "reporting": 88,
+      "reporting": 90,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -38857,15 +38857,15 @@
        {
         "name": "Hannah Pingree",
         "party": "D",
-        "votes": 353346,
-        "percentage": 55.2,
+        "votes": 357670,
+        "percentage": 55,
         "winner": true
        },
        {
         "name": "Bobby Charles",
         "party": "R",
-        "votes": 235427,
-        "percentage": 36.8,
+        "votes": 240047,
+        "percentage": 36.9,
         "winner": false
        },
        {
@@ -38876,11 +38876,11 @@
         "winner": false
        }
       ],
-      "totalVotes": 639716,
+      "totalVotes": 648660,
       "winner": "Hannah Pingree",
       "runoff": false,
       "source": "infobox",
-      "reporting": 86,
+      "reporting": 87,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -39672,23 +39672,23 @@
        {
         "name": "Ed Markey",
         "party": "D",
-        "votes": 1519385,
-        "percentage": 63.3,
+        "votes": 1541551,
+        "percentage": 63.4,
         "winner": true
        },
        {
         "name": "John Deaton",
         "party": "R",
-        "votes": 773177,
-        "percentage": 32.2,
+        "votes": 781025,
+        "percentage": 32.1,
         "winner": false
        }
       ],
-      "totalVotes": 2292562,
+      "totalVotes": 2322576,
       "winner": "Ed Markey",
       "runoff": false,
       "source": "infobox",
-      "reporting": 90,
+      "reporting": 92,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -40137,19 +40137,19 @@
        {
         "name": "Maura Healey",
         "party": "D",
-        "votes": 1493355,
-        "percentage": 62.1,
+        "votes": 1515963,
+        "percentage": 62.2,
         "winner": true
        },
        {
         "name": "Mike Minogue",
         "party": "R",
-        "votes": 830277,
-        "percentage": 34.5,
+        "votes": 839006,
+        "percentage": 34.4,
         "winner": false
        }
       ],
-      "totalVotes": 2323632,
+      "totalVotes": 2354969,
       "winner": "Maura Healey",
       "runoff": false,
       "source": "infobox",
@@ -51542,19 +51542,19 @@
        {
         "name": "Mike Mazzei",
         "party": "R",
-        "votes": 579614,
+        "votes": 580386,
         "percentage": 52,
         "winner": true
        },
        {
         "name": "Cyndi Munson",
         "party": "D",
-        "votes": 511369,
-        "percentage": 45.9,
+        "votes": 511664,
+        "percentage": 45.8,
         "winner": false
        }
       ],
-      "totalVotes": 1090983,
+      "totalVotes": 1092050,
       "winner": "Mike Mazzei",
       "runoff": false,
       "source": "infobox",
@@ -54982,14 +54982,14 @@
         "name": "Marsha Blackburn",
         "party": "R",
         "votes": 955259,
-        "percentage": 44.5,
+        "percentage": 45.5,
         "winner": true
        },
        {
         "name": "Jerri Green",
         "party": "D",
         "votes": 902546,
-        "percentage": 43.2,
+        "percentage": 43,
         "winner": false
        },
        {
@@ -55256,13 +55256,18 @@
         "votes": 4249752,
         "percentage": 43,
         "winner": false
+       },
+       {
+        "name": "Ted Brown",
+        "party": "L",
+        "votes": 190258,
+        "percentage": 1.9,
+        "winner": false
        }
       ],
-      "totalVotes": 9694873,
+      "totalVotes": 9885131,
       "winner": "James Talarico",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 97,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
