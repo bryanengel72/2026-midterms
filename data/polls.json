@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T10:18:10.392Z",
+ "generatedAt": "2026-11-04T10:33:10.534Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -30880,7 +30880,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Chris Coons",
+        "party": "D",
+        "votes": 240347,
+        "percentage": 63.6,
+        "winner": true
+       },
+       {
+        "name": "Michael Katz",
+        "party": "R",
+        "votes": 137764,
+        "percentage": 36.4,
+        "winner": false
+       }
+      ],
+      "totalVotes": 378111,
+      "winner": "Chris Coons",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T10:33:10.534Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -46986,7 +47009,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Cory Booker",
+        "party": "D",
+        "votes": 1754917,
+        "percentage": 62.3,
+        "winner": true
+       },
+       {
+        "name": "Justin Murphy",
+        "party": "R",
+        "votes": 988046,
+        "percentage": 35.1,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2742963,
+      "winner": "Cory Booker",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T10:33:10.534Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -47594,7 +47640,30 @@
        "partyName": "Republican"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Kathy Hochul",
+        "party": "D",
+        "votes": 3550354,
+        "percentage": 60.1,
+        "winner": true
+       },
+       {
+        "name": "Bruce Blakeman",
+        "party": "R",
+        "votes": 2345191,
+        "percentage": 39.7,
+        "winner": false
+       }
+      ],
+      "totalVotes": 5895545,
+      "winner": "Kathy Hochul",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 88,
+      "calledAt": "2026-11-04T10:33:10.534Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -58118,23 +58187,23 @@
        {
         "name": "Mark Warner",
         "party": "D",
-        "votes": 1720969,
-        "percentage": 59.1,
+        "votes": 2176203,
+        "percentage": 61,
         "winner": true
        },
        {
         "name": "Bert Mizusawa",
         "party": "R",
-        "votes": 1183307,
-        "percentage": 40.6,
+        "votes": 1384206,
+        "percentage": 38.8,
         "winner": false
        }
       ],
-      "totalVotes": 2904276,
+      "totalVotes": 3560409,
       "winner": "Mark Warner",
       "runoff": false,
       "source": "infobox",
-      "reporting": 79,
+      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -58327,23 +58396,23 @@
        {
         "name": "Shelley Moore Capito",
         "party": "R",
-        "votes": 162548,
-        "percentage": 55.5,
+        "votes": 266068,
+        "percentage": 58.3,
         "winner": true
        },
        {
         "name": "Rachel Fetty Anderson",
         "party": "D",
-        "votes": 120099,
-        "percentage": 41,
+        "votes": 172922,
+        "percentage": 37.9,
         "winner": false
        }
       ],
-      "totalVotes": 282647,
+      "totalVotes": 438990,
       "winner": "Shelley Moore Capito",
       "runoff": false,
       "source": "infobox",
-      "reporting": 56,
+      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
