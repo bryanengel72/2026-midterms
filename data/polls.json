@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T01:43:58.319Z",
+ "generatedAt": "2026-11-04T02:58:20.266Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12489,16 +12489,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kentucky#District_6",
     "candidates": [
      {
-      "name": "Ralph Alvarado",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Zach Dembo",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Ralph Alvarado",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -12644,8 +12644,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Ralph Alvarado": 39.7,
-      "Zach Dembo": 46.7
+      "Zach Dembo": 46.7,
+      "Ralph Alvarado": 39.7
      },
      "leader": "Zach Dembo",
      "margin": 7
@@ -37180,17 +37180,17 @@
      },
      "candidates": [
       {
-       "name": "Susan Collins",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Troy Jackson",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party",
        "note": "replacing Graham Platner"
+      },
+      {
+       "name": "Susan Collins",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -38747,8 +38747,7 @@
       {
        "name": "Joe Tache",
        "party": "O",
-       "nominee": true,
-       "partyName": "Party for Socialism and Liberation"
+       "nominee": false
       }
      ],
      "results": null,
@@ -43442,16 +43441,16 @@
      },
      "candidates": [
       {
-       "name": "Pete Ricketts",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Dan Osborn",
        "party": "I",
        "nominee": true,
        "partyName": "Independent politician"
+      },
+      {
+       "name": "Pete Ricketts",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -44889,16 +44888,16 @@
      },
      "candidates": [
       {
-       "name": "John E. Sununu",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Chris Pappas",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
+      },
+      {
+       "name": "John E. Sununu",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -49445,16 +49444,16 @@
      },
      "candidates": [
       {
-       "name": "Vivek Ramaswamy",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Ohio Republican Party"
-      },
-      {
        "name": "Amy Acton",
        "party": "D",
        "nominee": true,
        "partyName": "Ohio Democratic Party"
+      },
+      {
+       "name": "Vivek Ramaswamy",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Ohio Republican Party"
       }
      ],
      "results": null,
@@ -51871,16 +51870,16 @@
        "partyName": "Democratic Party"
       },
       {
-       "name": "Aaron Guckian",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Ken Block",
        "party": "I",
        "nominee": true,
        "partyName": "Independent politician"
+      },
+      {
+       "name": "Aaron Guckian",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -52102,8 +52101,8 @@
       "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
       "values": {
        "Helena Foulkes": 47.3,
-       "Aaron Guckian": 12.3,
-       "Ken Block": 33.3
+       "Ken Block": 33.3,
+       "Aaron Guckian": 12.3
       },
       "leader": "Helena Foulkes",
       "margin": 14
@@ -52145,8 +52144,7 @@
        "name": "Darline Graham",
        "party": "R",
        "nominee": true,
-       "partyName": "Republican Party",
-       "note": "replacing Lindsey Graham"
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -55372,16 +55370,16 @@
      },
      "candidates": [
       {
-       "name": "Greg Abbott",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party of Texas"
-      },
-      {
        "name": "Gina Hinojosa",
        "party": "D",
        "nominee": true,
        "partyName": "Texas Democratic Party"
+      },
+      {
+       "name": "Greg Abbott",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party of Texas"
       },
       {
        "name": "Pat Dixon",
