@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T07:48:10.885Z",
+ "generatedAt": "2026-11-04T08:03:10.527Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20532,7 +20532,28 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Mark Tedford",
+       "party": "R",
+       "votes": 121260,
+       "percentage": 52.32,
+       "winner": true
+      },
+      {
+       "name": "John Croisant",
+       "party": "D",
+       "votes": 110521,
+       "percentage": 47.68,
+       "winner": false
+      }
+     ],
+     "totalVotes": 231781,
+     "winner": "Mark Tedford",
+     "runoff": false,
+     "calledAt": "2026-11-04T08:03:10.527Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -30202,7 +30223,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Phil Weiser",
+        "party": "D",
+        "votes": 1295308,
+        "percentage": 61.1,
+        "winner": true
+       },
+       {
+        "name": "Victor Marx",
+        "party": "R",
+        "votes": 709039,
+        "percentage": 33.5,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2004347,
+      "winner": "Phil Weiser",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 75,
+      "calledAt": "2026-11-04T08:03:10.527Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -43285,14 +43329,14 @@
         "name": "Scott Colom",
         "party": "D",
         "votes": 462779,
-        "percentage": 48.9,
+        "percentage": 48.95,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
         "votes": 462751,
-        "percentage": 48.9,
+        "percentage": 48.94,
         "winner": false
        }
       ],
@@ -51083,23 +51127,42 @@
        {
         "name": "Kevin Hern",
         "party": "R",
-        "votes": 441549,
-        "percentage": 60.56,
+        "votes": 628799,
+        "percentage": 57.29,
         "winner": true
        },
        {
-        "name": "N'Kiyla \"Jasmine\" Thomas",
+        "name": "N'Kiyla Jasmine Thomas",
         "party": "D",
-        "votes": 262340,
-        "percentage": 35.98,
+        "votes": 430321,
+        "percentage": 39.2,
+        "winner": false
+       },
+       {
+        "name": "Curtis Stinnett",
+        "party": "I",
+        "votes": 14265,
+        "percentage": 1.3,
+        "winner": false
+       },
+       {
+        "name": "Ron Meinhardt",
+        "party": "I",
+        "votes": 14223,
+        "percentage": 1.3,
+        "winner": false
+       },
+       {
+        "name": "Sevier White",
+        "party": "L",
+        "votes": 10010,
+        "percentage": 0.91,
         "winner": false
        }
       ],
-      "totalVotes": 703889,
+      "totalVotes": 1097618,
       "winner": "Kevin Hern",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 60,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
