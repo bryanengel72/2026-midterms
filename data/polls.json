@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T22:11:00.904Z",
+ "generatedAt": "2026-11-04T22:26:00.536Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -5838,6 +5838,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Figures",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -5845,7 +5852,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 4,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama#District_2",
     "candidates": [
@@ -7003,6 +7010,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "McClintock",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -7010,7 +7024,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326)#District_5",
     "candidates": [
@@ -7111,6 +7125,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Pan",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -7118,7 +7139,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326)#District_6",
     "candidates": [
@@ -7276,6 +7297,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gray",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -7283,7 +7311,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326)#District_13",
     "candidates": [
@@ -7384,6 +7412,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Costa",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -7391,7 +7426,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326)#District_21",
     "candidates": [
@@ -7492,6 +7527,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Villegas",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -7499,7 +7541,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 3,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326)#District_22",
     "candidates": [
@@ -7642,6 +7684,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Tran",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -7649,7 +7698,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_27%E2%80%9352)#District_45",
     "candidates": [
@@ -8330,6 +8379,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Rutinel",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -8337,7 +8393,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado#District_8",
     "candidates": [
@@ -8465,6 +8521,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Rogers",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -8472,7 +8535,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_2",
     "candidates": [
@@ -8575,6 +8638,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Cammack",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -8582,7 +8652,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_3",
     "candidates": [
@@ -8683,6 +8753,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Bean",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -8690,7 +8767,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_4",
     "candidates": [
@@ -8791,6 +8868,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Rutherford",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -8798,7 +8882,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_5",
     "candidates": [
@@ -9034,6 +9118,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Haridopolos",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -9041,7 +9132,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_8",
     "candidates": [
@@ -9334,6 +9425,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Strada",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -9341,7 +9439,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_11",
     "candidates": [
@@ -9469,6 +9567,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Bilirakis",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -9476,7 +9581,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_12",
     "candidates": [
@@ -9789,6 +9894,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Castor",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -9796,7 +9908,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_14",
     "candidates": [
@@ -9939,6 +10051,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Lee",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -9946,7 +10065,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_15",
     "candidates": [
@@ -10047,6 +10166,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gruters",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -10054,7 +10180,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_16",
     "candidates": [
@@ -10197,6 +10323,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Steube",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -10204,7 +10337,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_17",
     "candidates": [
@@ -10305,6 +10438,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Franklin",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -10312,7 +10452,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_18",
     "candidates": [
@@ -10413,6 +10553,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Mast",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -10420,7 +10567,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_21",
     "candidates": [
@@ -10548,6 +10695,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Dandiya",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -10555,7 +10709,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_22",
     "candidates": [
@@ -10698,6 +10852,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Moskowitz",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -10705,7 +10866,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_25",
     "candidates": [
@@ -11151,6 +11312,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Kingston",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -11158,7 +11326,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia#District_1",
     "candidates": [
@@ -11259,6 +11427,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "McCormick",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -11266,7 +11441,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia#District_7",
     "candidates": [
@@ -11409,6 +11584,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gaines",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -11416,7 +11598,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia#District_10",
     "candidates": [
@@ -11517,6 +11699,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Allen",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -11524,7 +11713,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia#District_12",
     "candidates": [
@@ -11625,6 +11814,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Mrvan",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -11632,7 +11828,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Indiana#District_1",
     "candidates": [
@@ -11733,6 +11929,13 @@
       "strength": "Lean",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Ford",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -11740,7 +11943,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Indiana#District_5",
     "candidates": [
@@ -11920,6 +12123,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Bohannan",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -11927,7 +12137,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa#District_1",
     "candidates": [
@@ -12093,6 +12303,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "James",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -12100,7 +12317,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa#District_2",
     "candidates": [
@@ -12258,6 +12475,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Garriott",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -12265,7 +12489,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa#District_3",
     "candidates": [
@@ -12393,6 +12617,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Schmidt",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -12400,7 +12631,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kansas#District_2",
     "candidates": [
@@ -12528,6 +12759,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Dembo",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -12535,7 +12773,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kentucky#District_6",
     "candidates": [
@@ -13095,6 +13333,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Harris",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -13102,7 +13347,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maryland#District_1",
     "candidates": [
@@ -13252,6 +13497,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Bergman",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -13259,7 +13511,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_1",
     "candidates": [
@@ -13360,6 +13612,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Scholten",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -13367,7 +13626,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_3",
     "candidates": [
@@ -13468,6 +13727,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "McCann",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -13475,7 +13741,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_4",
     "candidates": [
@@ -13663,6 +13929,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Lawrence",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -13670,7 +13943,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_7",
     "candidates": [
@@ -13828,6 +14101,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "McDonald Rivet",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -13835,7 +14115,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_8",
     "candidates": [
@@ -13936,6 +14216,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Hines",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -13943,7 +14230,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_10",
     "candidates": [
@@ -14317,6 +14604,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Matt Little",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -14324,7 +14618,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Minnesota#District_2",
     "candidates": [
@@ -14488,6 +14782,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Stauber",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -14495,7 +14796,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Minnesota#District_8",
     "candidates": [
@@ -14623,6 +14924,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Wellman",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -14630,7 +14938,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri#District_2",
     "candidates": [
@@ -15298,6 +15606,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Powell",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -15305,7 +15620,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska#District_2",
     "candidates": [
@@ -15448,6 +15763,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Titus",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -15455,7 +15777,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nevada#District_1",
     "candidates": [
@@ -15714,6 +16036,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Lee",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -15721,7 +16050,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nevada#District_3",
     "candidates": [
@@ -15849,6 +16178,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Horsford",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -15856,7 +16192,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nevada#District_4",
     "candidates": [
@@ -15957,6 +16293,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Shaheen",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -15964,7 +16307,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire#District_1",
     "candidates": [
@@ -16107,6 +16450,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Goodlander",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -16114,7 +16464,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire#District_2",
     "candidates": [
@@ -16497,6 +16847,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Bennett",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -16504,7 +16861,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Jersey#District_7",
     "candidates": [
@@ -16674,6 +17031,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Pou",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -16681,7 +17045,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Jersey#District_9",
     "candidates": [
@@ -16782,6 +17146,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Vasquez",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -16789,7 +17160,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Mexico#District_2",
     "candidates": [
@@ -17234,6 +17605,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Suozzi",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -17241,7 +17619,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York#District_3",
     "candidates": [
@@ -17364,6 +17742,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gillen",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -17371,7 +17756,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York#District_4",
     "candidates": [
@@ -17711,6 +18096,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Riley",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -17718,7 +18110,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York#District_19",
     "candidates": [
@@ -17974,6 +18366,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Langworthy",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -17981,7 +18380,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York#District_23",
     "candidates": [
@@ -19284,6 +19683,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Ager",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -19291,7 +19697,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_11",
     "candidates": [
@@ -19693,6 +20099,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Landsman",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -19700,7 +20113,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_1",
     "candidates": [
@@ -19873,6 +20286,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Poindexter",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -19880,7 +20300,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_7",
     "candidates": [
@@ -20083,6 +20503,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Davidson",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -20090,7 +20517,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_8",
     "candidates": [
@@ -20191,6 +20618,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Kaptur",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -20198,7 +20632,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_9",
     "candidates": [
@@ -20528,6 +20962,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Sykes",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -20535,7 +20976,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_13",
     "candidates": [
@@ -20636,6 +21077,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Leonard",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -20643,7 +21091,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_15",
     "candidates": [
@@ -20823,6 +21271,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Tedford",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -20830,7 +21285,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oklahoma#District_1",
     "candidates": [
@@ -21122,6 +21577,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Harvie",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -21129,7 +21591,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_1",
     "candidates": [
@@ -21362,6 +21824,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Brooks",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -21369,7 +21838,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_7",
     "candidates": [
@@ -21557,6 +22026,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Cognetti",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -21564,7 +22040,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_8",
     "candidates": [
@@ -21767,6 +22243,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Stelson",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -21774,7 +22257,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_10",
     "candidates": [
@@ -21992,6 +22475,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Smucker",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -21999,7 +22489,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_11",
     "candidates": [
@@ -22100,6 +22590,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Kelly",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -22107,7 +22604,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_16",
     "candidates": [
@@ -22517,6 +23014,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Climer",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -22524,7 +23028,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina#District_5",
     "candidates": [
@@ -22625,6 +23129,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Hatcher",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -22632,7 +23143,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee#District_5",
     "candidates": [
@@ -23153,6 +23664,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gooden",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -23160,7 +23678,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_5",
     "candidates": [
@@ -23261,6 +23779,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Gutierrez",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -23268,7 +23793,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_9",
     "candidates": [
@@ -23426,6 +23951,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gober",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -23433,7 +23965,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_10",
     "candidates": [
@@ -23561,6 +24093,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Pulido",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -23568,7 +24107,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 4,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_15",
     "candidates": [
@@ -23771,6 +24310,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Sessions",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -23778,7 +24324,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_17",
     "candidates": [
@@ -23879,6 +24425,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Teixeira",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -23886,7 +24439,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_21",
     "candidates": [
@@ -24095,6 +24648,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Padilla Stout",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -24102,7 +24662,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_23",
     "candidates": [
@@ -24267,6 +24827,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Van Duyne",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -24274,7 +24841,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_24",
     "candidates": [
@@ -24375,6 +24942,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Cloud",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -24382,7 +24956,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_27",
     "candidates": [
@@ -24483,6 +25057,13 @@
       "strength": "Likely",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Cuellar",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -24490,7 +25071,7 @@
      "strength": "Likely",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_28",
     "candidates": [
@@ -24648,6 +25229,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Carter",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -24655,7 +25243,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_31",
     "candidates": [
@@ -24756,6 +25344,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Yarbrough",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -24763,7 +25358,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_32",
     "candidates": [
@@ -24864,6 +25459,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gonzalez",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -24871,7 +25473,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_34",
     "candidates": [
@@ -25044,6 +25646,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Garcia",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -25051,7 +25660,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_35",
     "candidates": [
@@ -25224,6 +25833,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Bonck",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -25231,7 +25847,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_38",
     "candidates": [
@@ -25527,6 +26143,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Luria",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -25534,7 +26157,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia#District_2",
     "candidates": [
@@ -25842,6 +26465,13 @@
       "strength": "Safe",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Vindman",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -25849,7 +26479,7 @@
      "strength": "Safe",
      "lean": "D",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia#District_7",
     "candidates": [
@@ -25950,6 +26580,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gluesenkamp Perez",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -25957,7 +26594,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Washington#District_3",
     "candidates": [
@@ -26388,6 +27025,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Berman",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -26395,7 +27039,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin#District_1",
     "candidates": [
@@ -26589,6 +27233,13 @@
       "strength": "Lean",
       "lean": "D",
       "flip": true
+     },
+     {
+      "source": "Result",
+      "rating": "Cooke",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -26596,7 +27247,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin#District_3",
     "candidates": [
@@ -26769,6 +27420,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Grothman",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -26776,7 +27434,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin#District_6",
     "candidates": [
@@ -26904,6 +27562,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Alfonso",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -26911,7 +27576,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin#District_7",
     "candidates": [
@@ -27012,6 +27677,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Wied",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -27019,7 +27691,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin#District_8",
     "candidates": [
@@ -27120,6 +27792,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Gray",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -27127,7 +27806,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Wyoming",
     "candidates": [
@@ -27214,13 +27893,19 @@
     "D": 226,
     "R": 189,
     "tossup": 20
+   },
+   {
+    "source": "Result",
+    "D": 237,
+    "R": 147,
+    "tossup": 0
    }
   ],
   "safe": {
    "D": 182,
    "R": 108,
    "agreeing": 4,
-   "of": 10
+   "of": 11
   }
  },
  "states": [
@@ -55956,7 +56641,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 9885131,
+      "totalVotes": 9890243,
       "winner": "James Talarico",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
