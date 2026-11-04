@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T21:19:02.792Z",
+ "generatedAt": "2026-11-04T01:26:40.451Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -11779,13 +11779,13 @@
     "results": null,
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Victoria Spartz": 46.5,
-      "J. D. Ford": 44.5
+      "Victoria Spartz": 45,
+      "J. D. Ford": 42
      },
      "leader": "Victoria Spartz",
-     "margin": 2
+     "margin": 3
     },
     "latestPoll": "2026-10-22"
    },
@@ -12642,10 +12642,10 @@
     "results": null,
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 4 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Ralph Alvarado": 39.8,
-      "Zach Dembo": 46.8
+      "Ralph Alvarado": 39.7,
+      "Zach Dembo": 46.7
      },
      "leader": "Zach Dembo",
      "margin": 7
@@ -17930,14 +17930,14 @@
     "results": null,
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 4 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Don Davis": 46.3,
-      "Laurie Buckhout": 41.8,
-      "Tom Bailey": 4
+      "Don Davis": 46,
+      "Laurie Buckhout": 42.7,
+      "Tom Bailey": 2
      },
      "leader": "Don Davis",
-     "margin": 4.5
+     "margin": 3.3
     },
     "latestPoll": "2026-10-23"
    },
@@ -21886,13 +21886,13 @@
     "results": null,
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
       "Jenny Costa Honeycutt": 45,
-      "Nancy Lacore": 47.5
+      "Nancy Lacore": 47
      },
      "leader": "Nancy Lacore",
-     "margin": 2.5
+     "margin": 2
     },
     "latestPoll": "2026-10-22"
    },
@@ -22629,8 +22629,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Impact Research (D), September 29 – October 4, 2026",
      "values": {
       "Steve Toth": 46,
       "Shaun Finnie": 37
@@ -27278,11 +27278,11 @@
       },
       {
        "source": "Decision Desk HQ",
-       "rating": "Lean D",
-       "strength": "Lean",
-       "lean": "D",
-       "flip": true,
-       "asOf": "November 2, 2026"
+       "rating": "Tossup",
+       "strength": "Tossup",
+       "lean": null,
+       "flip": false,
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Economist",
@@ -27950,7 +27950,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 10,
+      "count": 11,
       "of": 14
      },
      "latestPoll": "2026-11-01"
@@ -31415,16 +31415,16 @@
      },
      "candidates": [
       {
-       "name": "Byron Donalds",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "David Jolly",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
+      },
+      {
+       "name": "Byron Donalds",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -38747,7 +38747,8 @@
       {
        "name": "Joe Tache",
        "party": "O",
-       "nominee": false
+       "nominee": true,
+       "partyName": "Party for Socialism and Liberation"
       }
      ],
      "results": null,
@@ -46236,7 +46237,8 @@
        "name": "Larry Marker",
        "party": "R",
        "nominee": true,
-       "partyName": "Republican Party"
+       "partyName": "Republican Party",
+       "note": "write-in"
       }
      ],
      "results": null,
@@ -46340,28 +46342,28 @@
      ],
      "aggregates": [
       {
-       "source": "RealClearPolitics",
+       "source": "270toWin",
        "isAverage": false,
-       "dates": "August 21 – September 30, 2026",
-       "updated": "October 27, 2026",
-       "updatedIso": "2026-10-27",
+       "dates": "September 25 – November 2, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Ben Ray Luján": 53.5,
-        "Larry Marker": 37
+        "Ben Ray Luján": 57,
+        "Larry Marker": 38
        },
-       "otherUndecided": 9.5
+       "otherUndecided": 5
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 27, 2026",
-       "updated": "October 27, 2026",
-       "updatedIso": "2026-10-27",
+       "dates": "through November 2, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Ben Ray Luján": 54,
-        "Larry Marker": 36.9
+        "Ben Ray Luján": 55.3,
+        "Larry Marker": 37.4
        },
-       "otherUndecided": 9.1
+       "otherUndecided": 7.3
       },
       {
        "source": "Average",
@@ -46370,10 +46372,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Ben Ray Luján": 53.8,
-        "Larry Marker": 37
+        "Ben Ray Luján": 56.2,
+        "Larry Marker": 37.7
        },
-       "otherUndecided": 9.2
+       "otherUndecided": 6.1
       }
      ],
      "polls": [
@@ -46442,11 +46444,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 2 poll aggregators",
       "values": {
-       "Ben Ray Luján": 53.8,
-       "Larry Marker": 37
+       "Ben Ray Luján": 56.2,
+       "Larry Marker": 37.7
       },
       "leader": "Ben Ray Luján",
-      "margin": 16.8
+      "margin": 18.5
      },
      "consensus": {
       "rating": "Safe D",
@@ -47503,62 +47505,62 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 1–29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 1 – November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Michael Whatley": 41.8,
-        "Roy Cooper": 53.4
+        "Michael Whatley": 42.8,
+        "Roy Cooper": 54.2
        },
-       "otherUndecided": 4.8
+       "otherUndecided": 3
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Michael Whatley": 42.6,
-        "Roy Cooper": 52.7
+        "Michael Whatley": 43.1,
+        "Roy Cooper": 54.1
        },
-       "otherUndecided": 4.7
+       "otherUndecided": 2.8
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Michael Whatley": 42.3,
-        "Roy Cooper": 52.9
+        "Michael Whatley": 42.5,
+        "Roy Cooper": 54.1
        },
-       "otherUndecided": 4.8
+       "otherUndecided": 3.4
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "September 29 – October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 1 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Michael Whatley": 40.8,
-        "Roy Cooper": 51.8
+        "Michael Whatley": 41.8,
+        "Roy Cooper": 52.8
        },
-       "otherUndecided": 7.4
+       "otherUndecided": 5.4
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
-       "dates": "through October 29, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "through November 1, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
         "Michael Whatley": 42.6,
-        "Roy Cooper": 52.6
+        "Roy Cooper": 53.7
        },
-       "otherUndecided": 4.8
+       "otherUndecided": 3.6
       },
       {
        "source": "Average",
@@ -47567,10 +47569,10 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Michael Whatley": 42,
-        "Roy Cooper": 52.7
+        "Michael Whatley": 42.6,
+        "Roy Cooper": 53.8
        },
-       "otherUndecided": 5.3
+       "otherUndecided": 3.6
       }
      ],
      "polls": [
@@ -48359,11 +48361,11 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Michael Whatley": 42,
-       "Roy Cooper": 52.7
+       "Michael Whatley": 42.6,
+       "Roy Cooper": 53.8
       },
       "leader": "Roy Cooper",
-      "margin": 10.7
+      "margin": 11.2
      },
      "consensus": {
       "rating": "Likely D",
@@ -48399,16 +48401,16 @@
      },
      "candidates": [
       {
-       "name": "Jon Husted",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Sherrod Brown",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
+      },
+      {
+       "name": "Jon Husted",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -48531,61 +48533,61 @@
        "source": "270toWin",
        "isAverage": false,
        "dates": "October 16 – November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Jon Husted": 47,
+        "Jon Husted": 46.8,
         "Sherrod Brown": 48.7
        },
-       "otherUndecided": 4.3
+       "otherUndecided": 4.5
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Jon Husted": 46,
-        "Sherrod Brown": 48.3
+        "Jon Husted": 46.2,
+        "Sherrod Brown": 48.5
        },
-       "otherUndecided": 5.7
+       "otherUndecided": 5.3
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Jon Husted": 45.3,
-        "Sherrod Brown": 48.2
+        "Jon Husted": 45.4,
+        "Sherrod Brown": 48.3
        },
-       "otherUndecided": 6.5
+       "otherUndecided": 6.3
       },
       {
        "source": "RealClearPolitics",
        "isAverage": false,
-       "dates": "October 12 – November 1, 2026",
-       "updated": "November 1, 2026",
-       "updatedIso": "2026-11-01",
+       "dates": "October 15 – November 1, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
        "values": {
-        "Jon Husted": 46.1,
-        "Sherrod Brown": 48.9
+        "Jon Husted": 45.7,
+        "Sherrod Brown": 48.5
        },
-       "otherUndecided": 5
+       "otherUndecided": 5.8
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Jon Husted": 45.3,
-        "Sherrod Brown": 48.3
+        "Jon Husted": 45.4,
+        "Sherrod Brown": 48.4
        },
-       "otherUndecided": 6.4
+       "otherUndecided": 6.2
       },
       {
        "source": "Average",
@@ -51670,7 +51672,56 @@
        "asOf": "November 2, 2026"
       }
      ],
-     "aggregates": [],
+     "aggregates": [
+      {
+       "source": "270toWin",
+       "isAverage": false,
+       "dates": "October 5–31, 2026",
+       "updated": "November 2, 2026",
+       "updatedIso": "2026-11-02",
+       "values": {
+        "Jack Reed": 59,
+        "Raymond McKay": 29.7
+       },
+       "otherUndecided": 11.3
+      },
+      {
+       "source": "RealClearPolitics",
+       "isAverage": false,
+       "dates": "October 5–31, 2026",
+       "updated": "November 1, 2026",
+       "updatedIso": "2026-11-01",
+       "values": {
+        "Jack Reed": 59,
+        "Raymond McKay": 29.7
+       },
+       "otherUndecided": 11.3
+      },
+      {
+       "source": "Silver Bulletin",
+       "isAverage": false,
+       "dates": "through October 11, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
+       "values": {
+        "Jack Reed": 58.3,
+        "Raymond McKay": 29.4
+       },
+       "otherUndecided": 12.3
+      },
+      {
+       "source": "Average",
+       "isAverage": true,
+       "dates": "",
+       "updated": "",
+       "updatedIso": null,
+       "values": {
+        "Jack Reed": 58.8,
+        "Raymond McKay": 29.6
+       },
+       "otherUndecided": 11.6
+      }
+     ],
      "polls": [
       {
        "pollster": "University of New Hampshire",
@@ -51784,15 +51835,14 @@
       }
      ],
      "headline": {
-      "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "basis": "aggregate-average",
+      "detail": "Average of 3 poll aggregators",
       "values": {
-       "Jack Reed": 59,
-       "Raymond McKay": 29.7,
-       "Michael Bahry": 4.7
+       "Jack Reed": 58.8,
+       "Raymond McKay": 29.6
       },
       "leader": "Jack Reed",
-      "margin": 29.3
+      "margin": 29.2
      },
      "consensus": {
       "rating": "Safe D",
@@ -52086,17 +52136,17 @@
      },
      "candidates": [
       {
+       "name": "Annie Andrews",
+       "party": "D",
+       "nominee": true,
+       "partyName": "Democratic Party"
+      },
+      {
        "name": "Darline Graham",
        "party": "R",
        "nominee": true,
        "partyName": "Republican Party",
        "note": "replacing Lindsey Graham"
-      },
-      {
-       "name": "Annie Andrews",
-       "party": "D",
-       "nominee": true,
-       "partyName": "Democratic Party"
       }
      ],
      "results": null,
@@ -52981,25 +53031,25 @@
        "source": "FiftyPlusOne",
        "isAverage": false,
        "dates": "through October 26, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Mike Rounds": 51.5,
+        "Mike Rounds": 51.3,
         "Brian Bengs": 41.3
        },
-       "otherUndecided": 7.2
+       "otherUndecided": 7.4
       },
       {
        "source": "Silver Bulletin",
        "isAverage": false,
        "dates": "through October 26, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Mike Rounds": 52.1,
-        "Brian Bengs": 41.4
+        "Mike Rounds": 52.4,
+        "Brian Bengs": 41.7
        },
-       "otherUndecided": 6.5
+       "otherUndecided": 5.9
       },
       {
        "source": "Average",
@@ -53009,9 +53059,9 @@
        "updatedIso": null,
        "values": {
         "Mike Rounds": 51.1,
-        "Brian Bengs": 40.7
+        "Brian Bengs": 40.8
        },
-       "otherUndecided": 8.2
+       "otherUndecided": 8.1
       }
      ],
      "polls": [
@@ -53246,10 +53296,10 @@
       "detail": "Average of 3 poll aggregators",
       "values": {
        "Mike Rounds": 51.1,
-       "Brian Bengs": 40.7
+       "Brian Bengs": 40.8
       },
       "leader": "Mike Rounds",
-      "margin": 10.4
+      "margin": 10.3
      },
      "consensus": {
       "rating": "Safe R",
@@ -53878,11 +53928,11 @@
       },
       {
        "source": "Decision Desk HQ",
-       "rating": "Lean D",
-       "strength": "Lean",
-       "lean": "D",
-       "flip": true,
-       "asOf": "November 2, 2026"
+       "rating": "Tossup",
+       "strength": "Tossup",
+       "lean": null,
+       "flip": false,
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Economist",
@@ -53969,38 +54019,38 @@
       {
        "source": "270toWin",
        "isAverage": false,
-       "dates": "October 13 – November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "dates": "October 13 – November 2, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Ken Paxton": 46.1,
-        "James Talarico": 49.5
+        "Ken Paxton": 46.4,
+        "James Talarico": 49.6
        },
-       "otherUndecided": 4.4
+       "otherUndecided": 4
       },
       {
        "source": "Decision Desk HQ",
        "isAverage": false,
        "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Ken Paxton": 45.8,
-        "James Talarico": 49.3
+        "Ken Paxton": 46,
+        "James Talarico": 49.4
        },
-       "otherUndecided": 5.7
+       "otherUndecided": 5.4
       },
       {
        "source": "FiftyPlusOne",
        "isAverage": false,
-       "dates": "through November 1, 2026",
-       "updated": "November 2, 2026",
-       "updatedIso": "2026-11-02",
+       "dates": "through November 2, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
        "values": {
-        "Ken Paxton": 45.7,
+        "Ken Paxton": 45.8,
         "James Talarico": 49.5
        },
-       "otherUndecided": 4.8
+       "otherUndecided": 4.7
       },
       {
        "source": "RealClearPolitics",
@@ -54010,9 +54060,9 @@
        "updatedIso": "2026-11-01",
        "values": {
         "Ken Paxton": 46.5,
-        "James Talarico": 49
+        "James Talarico": 49.1
        },
-       "otherUndecided": 4.5
+       "otherUndecided": 4.4
       },
       {
        "source": "The Texas Tribune",
@@ -54033,10 +54083,10 @@
        "updated": "November 2, 2026",
        "updatedIso": "2026-11-02",
        "values": {
-        "Ken Paxton": 46.3,
+        "Ken Paxton": 46.5,
         "James Talarico": 49.8
        },
-       "otherUndecided": 4.9
+       "otherUndecided": 4.7
       },
       {
        "source": "Average",
@@ -55305,7 +55355,7 @@
       "rating": "Tossup",
       "strength": "Tossup",
       "lean": null,
-      "count": 7,
+      "count": 8,
       "of": 14
      },
      "latestPoll": "2026-11-02"
