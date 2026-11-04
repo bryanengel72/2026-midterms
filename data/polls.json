@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T15:21:41.337Z",
+ "generatedAt": "2026-11-04T15:36:40.710Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -13093,7 +13093,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Andy Harris",
+       "party": "R",
+       "votes": 150615,
+       "percentage": 55.8,
+       "winner": true
+      },
+      {
+       "name": "Dan Schwartz",
+       "party": "D",
+       "votes": 119088,
+       "percentage": 44.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 269703,
+     "winner": "Andy Harris",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-04T15:36:40.710Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Z to A Research (D), July 23–27, 2026",
@@ -51714,7 +51736,7 @@
         "name": "David Brock Smith",
         "party": "R",
         "votes": 612071,
-        "percentage": 405,
+        "percentage": 40.5,
         "winner": false
        }
       ],
