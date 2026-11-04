@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T07:18:10.782Z",
+ "generatedAt": "2026-11-04T07:33:11.252Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -36783,7 +36783,29 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Cindy Holscher",
+        "party": "D",
+        "votes": 546587,
+        "percentage": 50.3,
+        "winner": false
+       },
+       {
+        "name": "Ty Masterson",
+        "party": "R",
+        "votes": 541030,
+        "percentage": 49.7,
+        "winner": false
+       }
+      ],
+      "totalVotes": 1087617,
+      "winner": null,
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -40110,7 +40132,7 @@
         "party": "D",
         "votes": 2009755,
         "percentage": 51.8,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Mike Rogers",
@@ -40121,10 +40143,11 @@
        }
       ],
       "totalVotes": 3801653,
-      "winner": null,
+      "winner": "Abdul El-Sayed",
       "runoff": false,
       "source": "infobox",
-      "reporting": 81
+      "reporting": 81,
+      "calledAt": "2026-11-04T07:33:11.252Z"
      },
      "ratings": [
       {
