@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T04:42:28.527Z",
+ "generatedAt": "2026-11-04T06:03:05.629Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12639,7 +12639,42 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Zach Dembo",
+       "party": "D",
+       "votes": 138777,
+       "percentage": 52.65,
+       "winner": true
+      },
+      {
+       "name": "Ralph Alvarado",
+       "party": "R",
+       "votes": 114030,
+       "percentage": 43.27,
+       "winner": false
+      },
+      {
+       "name": "Jay J. Bowman",
+       "party": "I",
+       "votes": 6710,
+       "percentage": 2.55,
+       "winner": false
+      },
+      {
+       "name": "Pete Lynch",
+       "party": "O",
+       "votes": 3836,
+       "percentage": 1.46,
+       "winner": false
+      }
+     ],
+     "totalVotes": 263561,
+     "winner": "Zach Dembo",
+     "runoff": false,
+     "calledAt": "2026-11-04T06:03:05.629Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
@@ -30741,7 +30776,34 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Ashley Moody",
+        "party": "R",
+        "votes": 4207173,
+        "percentage": 50.9,
+        "winner": false
+       },
+       {
+        "name": "Angie Nixon",
+        "party": "D",
+        "votes": 3967674,
+        "percentage": 48,
+        "winner": false
+       },
+       {
+        "name": "Neil J. Gillespie",
+        "party": "I",
+        "votes": 94501,
+        "percentage": 1.1,
+        "winner": false
+       }
+      ],
+      "totalVotes": 8269348,
+      "winner": null,
+      "runoff": false
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -36812,7 +36874,35 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Andy Barr",
+        "party": "R",
+        "votes": 784000,
+        "percentage": 54.98,
+        "winner": true
+       },
+       {
+        "name": "Charles Booker",
+        "party": "D",
+        "votes": 611987,
+        "percentage": 42.92,
+        "winner": false
+       },
+       {
+        "name": "Christopher Campbell",
+        "party": "O",
+        "votes": 29865,
+        "percentage": 2.09,
+        "winner": false
+       }
+      ],
+      "totalVotes": 1425978,
+      "winner": "Andy Barr",
+      "runoff": false,
+      "calledAt": "2026-11-04T06:03:05.629Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -42709,8 +42799,7 @@
       {
        "name": "Ty Pinkins",
        "party": "I",
-       "nominee": true,
-       "partyName": "Independent (US)"
+       "nominee": false
       }
      ],
      "results": null,
@@ -43468,16 +43557,16 @@
      },
      "candidates": [
       {
-       "name": "Dan Osborn",
-       "party": "I",
-       "nominee": true,
-       "partyName": "Independent politician"
-      },
-      {
        "name": "Pete Ricketts",
        "party": "R",
        "nominee": true,
        "partyName": "Republican Party"
+      },
+      {
+       "name": "Dan Osborn",
+       "party": "I",
+       "nominee": true,
+       "partyName": "Independent politician"
       }
      ],
      "results": null,
@@ -49483,7 +49572,34 @@
        "partyName": "Ohio Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Amy Acton",
+        "party": "D",
+        "votes": 2145218,
+        "percentage": 51,
+        "winner": false
+       },
+       {
+        "name": "Vivek Ramaswamy",
+        "party": "R",
+        "votes": 1921915,
+        "percentage": 45.7,
+        "winner": false
+       },
+       {
+        "name": "Don Kissick",
+        "party": "L",
+        "votes": 140926,
+        "percentage": 3.3,
+        "winner": false
+       }
+      ],
+      "totalVotes": 4208059,
+      "winner": null,
+      "runoff": false
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
