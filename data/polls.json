@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T09:33:10.372Z",
+ "generatedAt": "2026-11-04T09:48:11.236Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -51607,7 +51607,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Jeff Merkley",
+        "party": "D",
+        "votes": 857042,
+        "percentage": 56.6,
+        "winner": true
+       },
+       {
+        "name": "David Brock Smith",
+        "party": "R",
+        "votes": 612071,
+        "percentage": 405,
+        "winner": false
+       }
+      ],
+      "totalVotes": 1469113,
+      "winner": "Jeff Merkley",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 75,
+      "calledAt": "2026-11-04T09:48:11.236Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
