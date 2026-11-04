@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T06:18:10.504Z",
+ "generatedAt": "2026-11-04T06:33:10.528Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -54653,23 +54653,23 @@
        {
         "name": "James Talarico",
         "party": "D",
-        "votes": 4085629,
-        "percentage": 59.5,
+        "votes": 4932811,
+        "percentage": 54.9,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
-        "votes": 2675691,
-        "percentage": 39,
+        "votes": 3884743,
+        "percentage": 43.3,
         "winner": false
        }
       ],
-      "totalVotes": 6761320,
+      "totalVotes": 8817554,
       "winner": "James Talarico",
       "runoff": false,
       "source": "infobox",
-      "reporting": 69,
+      "reporting": 87,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -58038,7 +58038,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "David Crowley",
+        "party": "D",
+        "votes": 1379075,
+        "percentage": 53.4,
+        "winner": true
+       },
+       {
+        "name": "Tom Tiffany",
+        "party": "R",
+        "votes": 1205510,
+        "percentage": 46.6,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2584585,
+      "winner": "David Crowley",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 94,
+      "calledAt": "2026-11-04T06:33:10.528Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
