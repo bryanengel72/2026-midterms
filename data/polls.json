@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T09:48:11.236Z",
+ "generatedAt": "2026-11-04T10:18:10.392Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -27219,7 +27219,27 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Tommy Tuberville",
+        "party": "R",
+        "votes": 872445,
+        "percentage": 52.1,
+        "winner": false
+       },
+       {
+        "name": "Doug Jones",
+        "party": "D",
+        "votes": 803468,
+        "percentage": 47.9,
+        "winner": false
+       }
+      ],
+      "totalVotes": 1675913,
+      "winner": null,
+      "runoff": false
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -29114,7 +29134,30 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Tom Cotton",
+        "party": "R",
+        "votes": 480526,
+        "percentage": 54.3,
+        "winner": true
+       },
+       {
+        "name": "Hallie Shoffner",
+        "party": "D",
+        "votes": 375596,
+        "percentage": 42.4,
+        "winner": false
+       }
+      ],
+      "totalVotes": 856122,
+      "winner": "Tom Cotton",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T10:18:10.392Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -37778,23 +37821,23 @@
        {
         "name": "Troy Jackson",
         "party": "D",
-        "votes": 275827,
-        "percentage": 52.4,
+        "votes": 340972,
+        "percentage": 53.8,
         "winner": true
        },
        {
         "name": "Susan Collins",
         "party": "R",
-        "votes": 249814,
-        "percentage": 47.5,
+        "votes": 292570,
+        "percentage": 46.1,
         "winner": false
        }
       ],
-      "totalVotes": 525641,
+      "totalVotes": 633542,
       "winner": "Troy Jackson",
       "runoff": false,
       "source": "infobox",
-      "reporting": 73,
+      "reporting": 88,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -39388,23 +39431,23 @@
        {
         "name": "Ed Markey",
         "party": "D",
-        "votes": 270896,
-        "percentage": 68.4,
+        "votes": 1384546,
+        "percentage": 63.8,
         "winner": true
        },
        {
         "name": "John Deaton",
         "party": "R",
-        "votes": 105431,
-        "percentage": 26.6,
+        "votes": 687377,
+        "percentage": 31.7,
         "winner": false
        }
       ],
-      "totalVotes": 376327,
+      "totalVotes": 2071923,
       "winner": "Ed Markey",
       "runoff": false,
       "source": "infobox",
-      "reporting": 15,
+      "reporting": 82,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -44216,23 +44259,24 @@
        {
         "name": "Pete Ricketts",
         "party": "R",
-        "votes": 234151,
-        "percentage": 48,
-        "winner": false
+        "votes": 366063,
+        "percentage": 50.2,
+        "winner": true
        },
        {
         "name": "Dan Osborn",
         "party": "I",
-        "votes": 225160,
-        "percentage": 46.2,
+        "votes": 319285,
+        "percentage": 43.8,
         "winner": false
        }
       ],
-      "totalVotes": 459311,
-      "winner": null,
+      "totalVotes": 685348,
+      "winner": "Pete Ricketts",
       "runoff": false,
       "source": "infobox",
-      "reporting": 66
+      "reporting": 95,
+      "calledAt": "2026-11-04T10:18:10.392Z"
      },
      "ratings": [
       {
@@ -45218,19 +45262,41 @@
      },
      "candidates": [
       {
-       "name": "Joe Lombardo",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Aaron Ford",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
+      },
+      {
+       "name": "Joe Lombardo",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Aaron Ford",
+        "party": "D",
+        "votes": 491891,
+        "percentage": 51.52,
+        "winner": false
+       },
+       {
+        "name": "Joe Lombardo",
+        "party": "R",
+        "votes": 423205,
+        "percentage": 44.33,
+        "winner": false
+       }
+      ],
+      "totalVotes": 915096,
+      "winner": null,
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 85
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -45683,23 +45749,23 @@
        {
         "name": "Chris Pappas",
         "party": "D",
-        "votes": 123682,
-        "percentage": 59.1,
+        "votes": 331447,
+        "percentage": 56.2,
         "winner": true
        },
        {
         "name": "John E. Sununu",
         "party": "R",
-        "votes": 87604,
-        "percentage": 39.6,
+        "votes": 247329,
+        "percentage": 41.9,
         "winner": false
        }
       ],
-      "totalVotes": 211286,
+      "totalVotes": 578776,
       "winner": "Chris Pappas",
       "runoff": false,
       "source": "infobox",
-      "reporting": 32.2,
+      "reporting": 92,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -51426,19 +51492,19 @@
        {
         "name": "Mike Mazzei",
         "party": "R",
-        "votes": 572716,
+        "votes": 572738,
         "percentage": 51.99,
         "winner": true
        },
        {
         "name": "Cyndi Munson",
         "party": "D",
-        "votes": 505188,
+        "votes": 505249,
         "percentage": 45.86,
         "winner": false
        }
       ],
-      "totalVotes": 1077904,
+      "totalVotes": 1077987,
       "winner": "Mike Mazzei",
       "runoff": false,
       "source": "infobox",
@@ -52577,7 +52643,30 @@
        "nominee": false
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Jack Reed",
+        "party": "D",
+        "votes": 236408,
+        "percentage": 66.6,
+        "winner": true
+       },
+       {
+        "name": "Raymond McKay",
+        "party": "R",
+        "votes": 104649,
+        "percentage": 29.5,
+        "winner": false
+       }
+      ],
+      "totalVotes": 341057,
+      "winner": "Jack Reed",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 93,
+      "calledAt": "2026-11-04T10:18:10.392Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -53971,7 +54060,30 @@
        "partyName": "Independent politician"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Mike Rounds",
+        "party": "R",
+        "votes": 184477,
+        "percentage": 60.6,
+        "winner": true
+       },
+       {
+        "name": "Brian Bengs",
+        "party": "I",
+        "votes": 119818,
+        "percentage": 39.4,
+        "winner": false
+       }
+      ],
+      "totalVotes": 304295,
+      "winner": "Mike Rounds",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 99,
+      "calledAt": "2026-11-04T10:18:10.392Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -54990,19 +55102,19 @@
        {
         "name": "James Talarico",
         "party": "D",
-        "votes": 5125580,
+        "votes": 5256956,
         "percentage": 54.9,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
-        "votes": 4040298,
-        "percentage": 43.3,
+        "votes": 4137612,
+        "percentage": 43.21,
         "winner": false
        }
       ],
-      "totalVotes": 9165878,
+      "totalVotes": 9394568,
       "winner": "James Talarico",
       "runoff": false,
       "source": "infobox",
@@ -56502,23 +56614,23 @@
        {
         "name": "Gina Hinojosa",
         "party": "D",
-        "votes": 4833851,
-        "percentage": 52.7,
+        "votes": 5051936,
+        "percentage": 52.8,
         "winner": true
        },
        {
         "name": "Greg Abbott",
         "party": "R",
-        "votes": 4206670,
-        "percentage": 45.9,
+        "votes": 4377041,
+        "percentage": 45.7,
         "winner": false
        }
       ],
-      "totalVotes": 9040521,
+      "totalVotes": 9428977,
       "winner": "Gina Hinojosa",
       "runoff": false,
       "source": "infobox",
-      "reporting": 89,
+      "reporting": 94,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
