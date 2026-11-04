@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T15:36:40.710Z",
+ "generatedAt": "2026-11-04T16:06:41.322Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -42666,19 +42666,19 @@
        {
         "name": "Peggy Flanagan",
         "party": "D",
-        "votes": 1506294,
-        "percentage": 53.8,
+        "votes": 1520300,
+        "percentage": 53.7,
         "winner": true
        },
        {
         "name": "Michele Tafoya",
         "party": "R",
-        "votes": 1215455,
-        "percentage": 43.4,
+        "votes": 1232683,
+        "percentage": 43.6,
         "winner": false
        }
       ],
-      "totalVotes": 2721749,
+      "totalVotes": 2752983,
       "winner": "Peggy Flanagan",
       "runoff": false,
       "source": "infobox",
@@ -51542,23 +51542,23 @@
        {
         "name": "Mike Mazzei",
         "party": "R",
-        "votes": 572738,
-        "percentage": 51.99,
+        "votes": 579614,
+        "percentage": 52,
         "winner": true
        },
        {
         "name": "Cyndi Munson",
         "party": "D",
-        "votes": 505249,
-        "percentage": 45.86,
+        "votes": 511369,
+        "percentage": 45.9,
         "winner": false
        }
       ],
-      "totalVotes": 1077987,
+      "totalVotes": 1090983,
       "winner": "Mike Mazzei",
       "runoff": false,
       "source": "infobox",
-      "reporting": 98.34,
+      "reporting": 99,
       "calledAt": "2026-11-04T08:18:11.144Z"
      },
      "ratings": [
@@ -54162,19 +54162,19 @@
        {
         "name": "Mike Rounds",
         "party": "R",
-        "votes": 184477,
-        "percentage": 60.6,
+        "votes": 184571,
+        "percentage": 60.5,
         "winner": true
        },
        {
         "name": "Brian Bengs",
         "party": "I",
-        "votes": 119818,
-        "percentage": 39.4,
+        "votes": 120484,
+        "percentage": 39.5,
         "winner": false
        }
       ],
-      "totalVotes": 304295,
+      "totalVotes": 305055,
       "winner": "Mike Rounds",
       "runoff": false,
       "source": "infobox",
