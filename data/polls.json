@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T18:21:40.596Z",
+ "generatedAt": "2026-11-04T18:36:40.653Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12963,23 +12963,23 @@
       {
        "name": "Paul LePage",
        "party": "R",
-       "votes": 153355,
+       "votes": 153607,
        "percentage": 50,
        "winner": false
       },
       {
        "name": "Matthew Dunlap",
        "party": "D",
-       "votes": 153291,
+       "votes": 153470,
        "percentage": 50,
        "winner": false
       }
      ],
-     "totalVotes": 306646,
+     "totalVotes": 307077,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 91
+     "reporting": 88
     },
     "headline": {
      "basis": "simple-average",
@@ -13458,16 +13458,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_4",
     "candidates": [
      {
-      "name": "Bill Huizenga",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Sean McCann",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Bill Huizenga",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -13553,8 +13553,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Bill Huizenga": 47,
-      "Sean McCann": 44
+      "Sean McCann": 44,
+      "Bill Huizenga": 47
      },
      "leader": "Bill Huizenga",
      "margin": 3
@@ -27055,6 +27055,11 @@
       "name": "Lisa Kinney",
       "party": "D",
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Shawn Johnson",
+      "party": "L",
+      "partyName": "Libertarian Party"
      }
     ],
     "polls": [],
@@ -43957,19 +43962,19 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 466351,
-        "percentage": 49.1,
+        "votes": 462857,
+        "percentage": 48.95,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 464487,
-        "percentage": 48.9,
+        "votes": 462792,
+        "percentage": 48.94,
         "winner": false
        }
       ],
-      "totalVotes": 930838,
+      "totalVotes": 925649,
       "winner": null,
       "runoff": false,
       "source": "infobox",
