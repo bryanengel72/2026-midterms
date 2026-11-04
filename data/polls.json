@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T16:06:41.322Z",
+ "generatedAt": "2026-11-04T16:21:41.281Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -39672,23 +39672,23 @@
        {
         "name": "Ed Markey",
         "party": "D",
-        "votes": 1384546,
-        "percentage": 63.8,
+        "votes": 1519385,
+        "percentage": 63.3,
         "winner": true
        },
        {
         "name": "John Deaton",
         "party": "R",
-        "votes": 687377,
-        "percentage": 31.7,
+        "votes": 773177,
+        "percentage": 32.2,
         "winner": false
        }
       ],
-      "totalVotes": 2071923,
+      "totalVotes": 2292562,
       "winner": "Ed Markey",
       "runoff": false,
       "source": "infobox",
-      "reporting": 82,
+      "reporting": 90,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -40137,19 +40137,19 @@
        {
         "name": "Maura Healey",
         "party": "D",
-        "votes": 1362786,
-        "percentage": 62.7,
+        "votes": 1493355,
+        "percentage": 62.1,
         "winner": true
        },
        {
         "name": "Mike Minogue",
         "party": "R",
-        "votes": 735451,
-        "percentage": 33.9,
+        "votes": 830277,
+        "percentage": 34.5,
         "winner": false
        }
       ],
-      "totalVotes": 2098237,
+      "totalVotes": 2323632,
       "winner": "Maura Healey",
       "runoff": false,
       "source": "infobox",
@@ -51728,19 +51728,19 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 857042,
+        "votes": 864411,
         "percentage": 56.6,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 612071,
+        "votes": 619239,
         "percentage": 40.5,
         "winner": false
        }
       ],
-      "totalVotes": 1469113,
+      "totalVotes": 1483650,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
@@ -51891,23 +51891,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 794291,
-        "percentage": 51.85,
+        "votes": 795725,
+        "percentage": 51.7,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 696941,
+        "votes": 699400,
         "percentage": 45.5,
         "winner": false
        }
       ],
-      "totalVotes": 1491232,
+      "totalVotes": 1495125,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 71,
+      "reporting": 75,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
@@ -52156,23 +52156,23 @@
        {
         "name": "Josh Shapiro",
         "party": "D",
-        "votes": 2988002,
-        "percentage": 60.3,
+        "votes": 3002608,
+        "percentage": 60.4,
         "winner": true
        },
        {
         "name": "Stacy Garrity",
         "party": "R",
-        "votes": 1904484,
-        "percentage": 38.4,
+        "votes": 1906260,
+        "percentage": 38.3,
         "winner": false
        }
       ],
-      "totalVotes": 4892486,
+      "totalVotes": 4908868,
       "winner": "Josh Shapiro",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 99,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -58262,23 +58262,23 @@
        {
         "name": "Mark Warner",
         "party": "D",
-        "votes": 2176203,
-        "percentage": 61,
+        "votes": 2169536,
+        "percentage": 61.1,
         "winner": true
        },
        {
         "name": "Bert Mizusawa",
         "party": "R",
-        "votes": 1384206,
-        "percentage": 38.8,
+        "votes": 1374151,
+        "percentage": 38.7,
         "winner": false
        }
       ],
-      "totalVotes": 3560409,
+      "totalVotes": 3543687,
       "winner": "Mark Warner",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 97,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
