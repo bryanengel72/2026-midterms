@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T17:06:40.533Z",
+ "generatedAt": "2026-11-04T17:21:40.885Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12961,21 +12961,21 @@
     "results": {
      "candidates": [
       {
-       "name": "Matthew Dunlap",
-       "party": "D",
-       "votes": 152367,
+       "name": "Paul LePage",
+       "party": "R",
+       "votes": 152951,
        "percentage": 50,
        "winner": false
       },
       {
-       "name": "Paul LePage",
-       "party": "R",
-       "votes": 152098,
-       "percentage": 49.9,
+       "name": "Matthew Dunlap",
+       "party": "D",
+       "votes": 152889,
+       "percentage": 50,
        "winner": false
       }
      ],
-     "totalVotes": 304465,
+     "totalVotes": 305840,
      "winner": null,
      "runoff": false,
      "source": "infobox",
@@ -39694,23 +39694,35 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1163257,
-        "percentage": 62.7,
+        "votes": 1163909,
+        "percentage": 62.55,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 616821,
-        "percentage": 33.3,
+        "votes": 617114,
+        "percentage": 33.17,
+        "winner": false
+       },
+       {
+        "name": "Andy Ellis",
+        "party": "G",
+        "votes": 38315,
+        "percentage": 2.06,
+        "winner": false
+       },
+       {
+        "name": "Cathy White",
+        "party": "O",
+        "votes": 36597,
+        "percentage": 1.97,
         "winner": false
        }
       ],
-      "totalVotes": 1780078,
+      "totalVotes": 1860686,
       "winner": "Wes Moore",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 78,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
