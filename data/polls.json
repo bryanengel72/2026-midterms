@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T08:03:10.527Z",
+ "generatedAt": "2026-11-04T08:18:11.144Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6029,7 +6029,36 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Nick Begich III",
+       "party": "R",
+       "votes": 102147,
+       "percentage": 50,
+       "winner": false
+      },
+      {
+       "name": "Bill Hill",
+       "party": "I",
+       "votes": 81945,
+       "percentage": 40.1,
+       "winner": false
+      },
+      {
+       "name": "Eric Hafner",
+       "party": "D",
+       "votes": 14711,
+       "percentage": 7.2,
+       "winner": false
+      }
+     ],
+     "totalVotes": 198803,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 67
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -20679,7 +20708,42 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Stephanie Bice",
+       "party": "R",
+       "votes": 130972,
+       "percentage": 49.49,
+       "winner": true
+      },
+      {
+       "name": "Jena Nelson",
+       "party": "D",
+       "votes": 127608,
+       "percentage": 48.22,
+       "winner": false
+      },
+      {
+       "name": "Robert Henri",
+       "party": "I",
+       "votes": 4024,
+       "percentage": 1.52,
+       "winner": false
+      },
+      {
+       "name": "Austin Nieves",
+       "party": "I",
+       "votes": 2043,
+       "percentage": 0.77,
+       "winner": false
+      }
+     ],
+     "totalVotes": 264647,
+     "winner": "Stephanie Bice",
+     "runoff": false,
+     "calledAt": "2026-11-04T08:18:11.144Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: GBAO (D), September 17–20, 2026",
@@ -43573,16 +43637,16 @@
        "partyName": "Republican Party"
       },
       {
-       "name": "Alani Bankhead",
-       "party": "D",
-       "nominee": true,
-       "partyName": "Democratic Party"
-      },
-      {
        "name": "Seth Bodnar",
        "party": "I",
        "nominee": true,
        "partyName": "Independent politician"
+      },
+      {
+       "name": "Alani Bankhead",
+       "party": "D",
+       "nominee": true,
+       "partyName": "Democratic Party"
       },
       {
        "name": "Kyle Austin",
@@ -43590,7 +43654,42 @@
        "nominee": false
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Kurt Alme",
+        "party": "R",
+        "votes": 187961,
+        "percentage": 47.7,
+        "winner": true
+       },
+       {
+        "name": "Seth Bodnar",
+        "party": "I",
+        "votes": 152203,
+        "percentage": 38.6,
+        "winner": false
+       },
+       {
+        "name": "Alani Bankhead",
+        "party": "D",
+        "votes": 46838,
+        "percentage": 11.9,
+        "winner": false
+       },
+       {
+        "name": "Kyle Austin",
+        "party": "L",
+        "votes": 7066,
+        "percentage": 1.8,
+        "winner": false
+       }
+      ],
+      "totalVotes": 394068,
+      "winner": "Kurt Alme",
+      "runoff": false,
+      "calledAt": "2026-11-04T08:18:11.144Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -51324,7 +51423,30 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Mike Mazzei",
+        "party": "R",
+        "votes": 572716,
+        "percentage": 51.99,
+        "winner": true
+       },
+       {
+        "name": "Cyndi Munson",
+        "party": "D",
+        "votes": 505188,
+        "percentage": 45.86,
+        "winner": false
+       }
+      ],
+      "totalVotes": 1077904,
+      "winner": "Mike Mazzei",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 98.34,
+      "calledAt": "2026-11-04T08:18:11.144Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
