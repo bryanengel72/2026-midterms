@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T11:02:27.573Z",
+ "generatedAt": "2026-11-04T14:51:41.043Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -23871,22 +23871,23 @@
       {
        "name": "Katy Padilla Stout",
        "party": "D",
-       "votes": 120621,
-       "percentage": 51.7,
-       "winner": false
+       "votes": 140202,
+       "percentage": 52,
+       "winner": true
       },
       {
        "name": "Brandon Herrera",
        "party": "R",
-       "votes": 103761,
-       "percentage": 44.5,
+       "votes": 118768,
+       "percentage": 44.1,
        "winner": false
       }
      ],
-     "totalVotes": 224382,
-     "winner": null,
+     "totalVotes": 258970,
+     "winner": "Katy Padilla Stout",
      "runoff": false,
-     "source": "infobox"
+     "source": "infobox",
+     "calledAt": "2026-11-04T14:51:41.043Z"
     },
     "headline": {
      "basis": "simple-average",
@@ -26945,23 +26946,21 @@
        {
         "name": "Barry Moore",
         "party": "R",
-        "votes": 848575,
-        "percentage": 55.8,
-        "winner": true
+        "votes": 917347,
+        "percentage": 54.71,
+        "winner": false
        },
        {
         "name": "Everett Wess",
         "party": "D",
-        "votes": 671290,
-        "percentage": 44.2,
+        "votes": 759335,
+        "percentage": 45.29,
         "winner": false
        }
       ],
-      "totalVotes": 1519865,
-      "winner": "Barry Moore",
-      "runoff": false,
-      "source": "infobox",
-      "calledAt": "2026-11-04T06:05:40.683Z"
+      "totalVotes": 1676682,
+      "winner": null,
+      "runoff": false
      },
      "ratings": [
       {
@@ -27437,22 +27436,21 @@
      },
      "candidates": [
       {
-       "name": "Dan S. Sullivan",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Mary Peltola",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
       },
       {
-       "name": "Daniel J. Sullivan Jr.",
-       "party": "I",
+       "name": "Dan S. Sullivan",
+       "party": "R",
        "nominee": true,
-       "partyName": "Independent"
+       "partyName": "Republican Party"
+      },
+      {
+       "name": "Dan J. Sullivan",
+       "party": "I",
+       "nominee": false
       },
       {
        "name": "Gerald Heikes",
@@ -27460,7 +27458,29 @@
        "nominee": false
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Mary Peltola",
+        "party": "D",
+        "votes": 102701,
+        "percentage": 48.18,
+        "winner": false
+       },
+       {
+        "name": "Dan S. Sullivan",
+        "party": "R",
+        "votes": 102075,
+        "percentage": 47.88,
+        "winner": false
+       }
+      ],
+      "totalVotes": 204776,
+      "winner": null,
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 77
+     },
      "ratings": [
       {
        "source": "ABC News",
@@ -27661,7 +27681,7 @@
        "values": {
         "Dan S. Sullivan": 48,
         "Mary Peltola": 48,
-        "Daniel J. Sullivan Jr.": 2,
+        "Dan J. Sullivan": 2,
         "Gerald Heikes": 1
        },
        "other": null,
@@ -27678,7 +27698,7 @@
        "values": {
         "Dan S. Sullivan": 45,
         "Mary Peltola": 50,
-        "Daniel J. Sullivan Jr.": 1,
+        "Dan J. Sullivan": 1,
         "Gerald Heikes": 2
        },
        "other": 2,
@@ -27710,7 +27730,7 @@
        "values": {
         "Dan S. Sullivan": 46,
         "Mary Peltola": 48,
-        "Daniel J. Sullivan Jr.": 3,
+        "Dan J. Sullivan": 3,
         "Gerald Heikes": 3
        },
        "other": null,
@@ -27727,7 +27747,7 @@
        "values": {
         "Dan S. Sullivan": 44,
         "Mary Peltola": 47,
-        "Daniel J. Sullivan Jr.": 4,
+        "Dan J. Sullivan": 4,
         "Gerald Heikes": 1
        },
        "other": null,
@@ -27759,7 +27779,7 @@
        "values": {
         "Dan S. Sullivan": 42,
         "Mary Peltola": 44,
-        "Daniel J. Sullivan Jr.": 3,
+        "Dan J. Sullivan": 3,
         "Gerald Heikes": 4
        },
        "other": null,
@@ -27776,7 +27796,7 @@
        "values": {
         "Dan S. Sullivan": 43,
         "Mary Peltola": 48,
-        "Daniel J. Sullivan Jr.": 2,
+        "Dan J. Sullivan": 2,
         "Gerald Heikes": 2
        },
        "other": null,
@@ -27793,7 +27813,7 @@
        "values": {
         "Dan S. Sullivan": 45,
         "Mary Peltola": 47,
-        "Daniel J. Sullivan Jr.": 5,
+        "Dan J. Sullivan": 5,
         "Gerald Heikes": 3
        },
        "other": null,
@@ -27825,7 +27845,7 @@
        "values": {
         "Dan S. Sullivan": 46,
         "Mary Peltola": 46,
-        "Daniel J. Sullivan Jr.": 2,
+        "Dan J. Sullivan": 2,
         "Gerald Heikes": 1
        },
        "other": null,
@@ -27842,7 +27862,7 @@
        "values": {
         "Dan S. Sullivan": 47,
         "Mary Peltola": 46,
-        "Daniel J. Sullivan Jr.": 3,
+        "Dan J. Sullivan": 3,
         "Gerald Heikes": 1
        },
        "other": null,
@@ -27859,7 +27879,7 @@
        "values": {
         "Dan S. Sullivan": 48,
         "Mary Peltola": 46,
-        "Daniel J. Sullivan Jr.": 1,
+        "Dan J. Sullivan": 1,
         "Gerald Heikes": 1
        },
        "other": null,
@@ -27876,7 +27896,7 @@
        "values": {
         "Dan S. Sullivan": 39,
         "Mary Peltola": 39,
-        "Daniel J. Sullivan Jr.": 7,
+        "Dan J. Sullivan": 7,
         "Gerald Heikes": 6
        },
        "other": null,
@@ -27893,7 +27913,7 @@
        "values": {
         "Dan S. Sullivan": 44,
         "Mary Peltola": 48,
-        "Daniel J. Sullivan Jr.": 4,
+        "Dan J. Sullivan": 4,
         "Gerald Heikes": 4
        },
        "other": null,
@@ -27910,7 +27930,7 @@
        "values": {
         "Dan S. Sullivan": 41,
         "Mary Peltola": 46,
-        "Daniel J. Sullivan Jr.": 4,
+        "Dan J. Sullivan": 4,
         "Gerald Heikes": 3
        },
        "other": null,
@@ -27957,7 +27977,7 @@
        "values": {
         "Dan S. Sullivan": 41,
         "Mary Peltola": 45,
-        "Daniel J. Sullivan Jr.": 4,
+        "Dan J. Sullivan": 4,
         "Gerald Heikes": 3
        },
        "other": 5,
@@ -28201,7 +28221,43 @@
        "partyName": "Alaska Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Jonathan Kreiss-Tomkins",
+        "party": "D",
+        "votes": 103610,
+        "percentage": 49.2,
+        "winner": false
+       },
+       {
+        "name": "Bernadette Wilson",
+        "party": "R",
+        "votes": 61566,
+        "percentage": 29.2,
+        "winner": false
+       },
+       {
+        "name": "Dave Bronson",
+        "party": "R",
+        "votes": 29900,
+        "percentage": 14.2,
+        "winner": false
+       },
+       {
+        "name": "Treg Taylor",
+        "party": "R",
+        "votes": 15713,
+        "percentage": 7.5,
+        "winner": false
+       }
+      ],
+      "totalVotes": 210789,
+      "winner": null,
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 74
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -28476,7 +28532,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Katie Hobbs",
+        "party": "D",
+        "votes": 1170284,
+        "percentage": 55.83,
+        "winner": true
+       },
+       {
+        "name": "Andy Biggs",
+        "party": "R",
+        "votes": 890649,
+        "percentage": 42.49,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2060933,
+      "winner": "Katie Hobbs",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 76,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -29614,23 +29693,24 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 2937418,
-        "percentage": 63.84,
-        "winner": false
+        "votes": 4960174,
+        "percentage": 64.04,
+        "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 1663910,
-        "percentage": 36.16,
+        "votes": 2784695,
+        "percentage": 35.96,
         "winner": false
        }
       ],
-      "totalVotes": 4601328,
-      "winner": null,
+      "totalVotes": 7744869,
+      "winner": "Xavier Becerra",
       "runoff": false,
       "source": "infobox",
-      "reporting": 35
+      "reporting": 66,
+      "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
       {
@@ -30358,23 +30438,23 @@
        {
         "name": "Phil Weiser",
         "party": "D",
-        "votes": 1295308,
-        "percentage": 61.1,
+        "votes": 1319726,
+        "percentage": 60.9,
         "winner": true
        },
        {
         "name": "Victor Marx",
         "party": "R",
-        "votes": 709039,
-        "percentage": 33.5,
+        "votes": 728640,
+        "percentage": 33.6,
         "winner": false
        }
       ],
-      "totalVotes": 2004347,
+      "totalVotes": 2048366,
       "winner": "Phil Weiser",
       "runoff": false,
       "source": "infobox",
-      "reporting": 75,
+      "reporting": 77,
       "calledAt": "2026-11-04T08:03:10.527Z"
      },
      "ratings": [
@@ -30556,7 +30636,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Ned Lamont",
+        "party": "D",
+        "votes": 718126,
+        "percentage": 58.8,
+        "winner": true
+       },
+       {
+        "name": "Ryan Fazio",
+        "party": "R",
+        "votes": 503032,
+        "percentage": 41.2,
+        "winner": false
+       }
+      ],
+      "totalVotes": 1221158,
+      "winner": "Ned Lamont",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 93,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -34281,7 +34384,37 @@
        "partyName": "Independent"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Brad Little",
+        "party": "R",
+        "votes": 388272,
+        "percentage": 57.2,
+        "winner": true
+       },
+       {
+        "name": "Terri Pickens",
+        "party": "D",
+        "votes": 218597,
+        "percentage": 32.2,
+        "winner": false
+       },
+       {
+        "name": "John Stegner",
+        "party": "I",
+        "votes": 51717,
+        "percentage": 7.6,
+        "winner": false
+       }
+      ],
+      "totalVotes": 658586,
+      "winner": "Brad Little",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 94,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -34696,23 +34829,23 @@
        {
         "name": "JB Pritzker",
         "party": "D",
-        "votes": 1981468,
-        "percentage": 59.7,
+        "votes": 2335631,
+        "percentage": 59.8,
         "winner": true
        },
        {
         "name": "Darren Bailey",
         "party": "R",
-        "votes": 1228265,
-        "percentage": 37,
+        "votes": 1438609,
+        "percentage": 36.8,
         "winner": false
        }
       ],
-      "totalVotes": 3209733,
+      "totalVotes": 3774240,
       "winner": "JB Pritzker",
       "runoff": false,
       "source": "infobox",
-      "reporting": 73,
+      "reporting": 91,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -34814,6 +34947,21 @@
        "undecided": null
       },
       {
+       "pollster": "University of Illinois Springfield",
+       "dates": "October 1-22, 2026",
+       "start": "2026-10-01",
+       "end": "2026-10-22",
+       "sample": 610,
+       "population": "LV",
+       "moe": 4.5,
+       "values": {
+        "JB Pritzker": 56,
+        "Darren Bailey": 34
+       },
+       "other": 8,
+       "undecided": 2
+      },
+      {
        "pollster": "ActiVote",
        "dates": "October 2–22, 2026",
        "start": "2026-10-02",
@@ -34861,13 +35009,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
       "values": {
-       "JB Pritzker": 58,
-       "Darren Bailey": 38.5
+       "JB Pritzker": 57.3,
+       "Darren Bailey": 37
       },
       "leader": "JB Pritzker",
-      "margin": 19.5
+      "margin": 20.3
      },
      "consensus": {
       "rating": "Safe D",
@@ -34920,22 +35068,23 @@
        {
         "name": "Josh Turek",
         "party": "D",
-        "votes": 687410,
-        "percentage": 50.8,
+        "votes": 686487,
+        "percentage": 50.5,
         "winner": true
        },
        {
         "name": "Ashley Hinson",
         "party": "R",
-        "votes": 647490,
-        "percentage": 46.1,
+        "votes": 630615,
+        "percentage": 46.4,
         "winner": false
        }
       ],
-      "totalVotes": 1334900,
+      "totalVotes": 1317102,
       "winner": "Josh Turek",
       "runoff": false,
       "source": "infobox",
+      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -35791,23 +35940,24 @@
        {
         "name": "Rob Sand",
         "party": "D",
-        "votes": 654266,
-        "percentage": 57.28,
-        "winner": false
+        "votes": 757326,
+        "percentage": 55.5,
+        "winner": true
        },
        {
         "name": "Zach Lahn",
         "party": "R",
-        "votes": 488067,
-        "percentage": 42.72,
+        "votes": 607415,
+        "percentage": 44.5,
         "winner": false
        }
       ],
-      "totalVotes": 1142333,
-      "winner": null,
+      "totalVotes": 1364741,
+      "winner": "Rob Sand",
       "runoff": false,
       "source": "infobox",
-      "reporting": 82
+      "reporting": 95,
+      "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
       {
@@ -36401,19 +36551,19 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 557314,
-        "percentage": 51,
+        "votes": 556414,
+        "percentage": 50.9,
         "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
         "votes": 503230,
-        "percentage": 46,
+        "percentage": 46.1,
         "winner": false
        }
       ],
-      "totalVotes": 1060544,
+      "totalVotes": 1059644,
       "winner": "Adam Hamilton",
       "runoff": false,
       "source": "infobox",
@@ -36986,14 +37136,14 @@
         "name": "Cindy Holscher",
         "party": "D",
         "votes": 546587,
-        "percentage": 50.3,
+        "percentage": 50.26,
         "winner": false
        },
        {
         "name": "Ty Masterson",
         "party": "R",
         "votes": 541030,
-        "percentage": 49.7,
+        "percentage": 49.74,
         "winner": false
        }
       ],
@@ -37001,7 +37151,7 @@
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 95
+      "reporting": 98
      },
      "ratings": [
       {
@@ -37622,7 +37772,7 @@
         "party": "R",
         "votes": 745963,
         "percentage": 50.9,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Jamie Davis",
@@ -37633,9 +37783,9 @@
        }
       ],
       "totalVotes": 1466069,
-      "winner": null,
+      "winner": "Julia Letlow",
       "runoff": false,
-      "source": "infobox"
+      "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
       {
@@ -38685,30 +38835,30 @@
        {
         "name": "Hannah Pingree",
         "party": "D",
-        "votes": 240950,
-        "percentage": 53,
+        "votes": 353346,
+        "percentage": 55.2,
         "winner": true
        },
        {
         "name": "Bobby Charles",
         "party": "R",
-        "votes": 176728,
-        "percentage": 38.9,
+        "votes": 235427,
+        "percentage": 36.8,
         "winner": false
        },
        {
         "name": "Rick Bennett",
         "party": "I",
-        "votes": 36551,
+        "votes": 50943,
         "percentage": 8,
         "winner": false
        }
       ],
-      "totalVotes": 454229,
+      "totalVotes": 639716,
       "winner": "Hannah Pingree",
       "runoff": false,
       "source": "infobox",
-      "reporting": 59,
+      "reporting": 86,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -39317,7 +39467,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Wes Moore",
+        "party": "D",
+        "votes": 1163257,
+        "percentage": 62.7,
+        "winner": true
+       },
+       {
+        "name": "Dan Cox",
+        "party": "R",
+        "votes": 616821,
+        "percentage": 33.3,
+        "winner": false
+       }
+      ],
+      "totalVotes": 1780078,
+      "winner": "Wes Moore",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 78,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -39934,11 +40107,32 @@
       {
        "name": "Andrea James",
        "party": "I",
-       "nominee": true,
-       "partyName": "Independent"
+       "nominee": false
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Maura Healey",
+        "party": "D",
+        "votes": 1362786,
+        "percentage": 62.7,
+        "winner": true
+       },
+       {
+        "name": "Mike Minogue",
+        "party": "R",
+        "votes": 735451,
+        "percentage": 33.9,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2098237,
+      "winner": "Maura Healey",
+      "runoff": false,
+      "source": "infobox",
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -40327,19 +40521,19 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 2460111,
-        "percentage": 52.4,
+        "votes": 2497852,
+        "percentage": 52.5,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 2143780,
-        "percentage": 45.6,
+        "votes": 2162890,
+        "percentage": 45.5,
         "winner": false
        }
       ],
-      "totalVotes": 4603891,
+      "totalVotes": 4660742,
       "winner": "Abdul El-Sayed",
       "runoff": false,
       "source": "infobox",
@@ -41614,7 +41808,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Jocelyn Benson",
+        "party": "D",
+        "votes": 2591316,
+        "percentage": 54.5,
+        "winner": true
+       },
+       {
+        "name": "John James",
+        "party": "R",
+        "votes": 2078052,
+        "percentage": 43.7,
+        "winner": false
+       }
+      ],
+      "totalVotes": 4669368,
+      "winner": "Jocelyn Benson",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -43038,7 +43255,34 @@
        "partyName": "Republican Party of Minnesota"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Amy Klobuchar",
+        "party": "D",
+        "votes": 1569057,
+        "percentage": 55.47,
+        "winner": false
+       },
+       {
+        "name": "Lisa Demuth",
+        "party": "R",
+        "votes": 1205798,
+        "percentage": 42.63,
+        "winner": false
+       },
+       {
+        "name": "Steven Young",
+        "party": "G",
+        "votes": 51385,
+        "percentage": 1.82,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2826240,
+      "winner": null,
+      "runoff": false
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -43497,7 +43741,7 @@
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 97
+      "reporting": 96
      },
      "ratings": [
       {
@@ -43730,23 +43974,12 @@
        "party": "I",
        "nominee": true,
        "partyName": "Independent politician"
-      },
-      {
-       "name": "Alani Bankhead",
-       "party": "D",
-       "nominee": true,
-       "partyName": "Democratic Party"
-      },
-      {
-       "name": "Kyle Austin",
-       "party": "L",
-       "nominee": false
       }
      ],
      "results": {
       "candidates": [
        {
-        "name": "Kurt Alme",
+        "name": "Sawyer Adams",
         "party": "R",
         "votes": 187961,
         "percentage": 47.7,
@@ -43775,9 +44008,9 @@
        }
       ],
       "totalVotes": 394068,
-      "winner": "Kurt Alme",
+      "winner": "Sawyer Adams",
       "runoff": false,
-      "calledAt": "2026-11-04T08:18:11.144Z"
+      "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
       {
@@ -43877,389 +44110,9 @@
        "asOf": "November 2, 2026"
       }
      ],
-     "aggregates": [
-      {
-       "source": "270toWin",
-       "isAverage": false,
-       "dates": "September 19 – October 18, 2026",
-       "updated": "October 20, 2026",
-       "updatedIso": "2026-10-20",
-       "values": {
-        "Kurt Alme": 45.5,
-        "Alani Bankhead": 20,
-        "Seth Bodnar": 27.5
-       },
-       "otherUndecided": 7
-      },
-      {
-       "source": "Decision Desk HQ",
-       "isAverage": false,
-       "dates": "through October 23, 2026",
-       "updated": "October 30, 2026",
-       "updatedIso": "2026-10-30",
-       "values": {
-        "Kurt Alme": 37.5,
-        "Alani Bankhead": 16.1,
-        "Seth Bodnar": 31.3
-       },
-       "otherUndecided": 15.1
-      },
-      {
-       "source": "FiftyPlusOne",
-       "isAverage": false,
-       "dates": "through October 23, 2026",
-       "updated": "November 3, 2026",
-       "updatedIso": "2026-11-03",
-       "values": {
-        "Kurt Alme": 40.1,
-        "Alani Bankhead": 15.7,
-        "Seth Bodnar": 32.1
-       },
-       "otherUndecided": 12.1
-      },
-      {
-       "source": "Silver Bulletin",
-       "isAverage": false,
-       "dates": "through October 23, 2026",
-       "updated": "November 3, 2026",
-       "updatedIso": "2026-11-03",
-       "values": {
-        "Kurt Alme": 41.3,
-        "Alani Bankhead": 17.1,
-        "Seth Bodnar": 32.6
-       },
-       "otherUndecided": 9
-      },
-      {
-       "source": "Average",
-       "isAverage": true,
-       "dates": "",
-       "updated": "",
-       "updatedIso": null,
-       "values": {
-        "Kurt Alme": 41.1,
-        "Alani Bankhead": 17.2,
-        "Seth Bodnar": 30.9
-       },
-       "otherUndecided": 10.8
-      }
-     ],
-     "polls": [
-      {
-       "pollster": "Concord Public Opinion Partners (D)",
-       "dates": "October 22–23, 2026",
-       "start": "2026-10-22",
-       "end": "2026-10-23",
-       "sample": 410,
-       "population": "LV",
-       "moe": 4.8,
-       "values": {
-        "Kurt Alme": 38,
-        "Alani Bankhead": 10,
-        "Seth Bodnar": 39,
-        "Kyle Austin": 2
-       },
-       "other": null,
-       "undecided": 11
-      },
-      {
-       "pollster": "Montana State University Billings",
-       "dates": "October 5–21, 2026",
-       "start": "2026-10-05",
-       "end": "2026-10-21",
-       "sample": 720,
-       "population": "A",
-       "moe": 3.7,
-       "values": {
-        "Kurt Alme": 30,
-        "Alani Bankhead": 21,
-        "Seth Bodnar": 26,
-        "Kyle Austin": 3
-       },
-       "other": 1,
-       "undecided": 17
-      },
-      {
-       "pollster": "Quantus Insights (R)",
-       "dates": "October 15–18, 2026",
-       "start": "2026-10-15",
-       "end": "2026-10-18",
-       "sample": 667,
-       "population": "LV",
-       "moe": 4,
-       "values": {
-        "Kurt Alme": 46,
-        "Alani Bankhead": 21,
-        "Seth Bodnar": 29,
-        "Kyle Austin": 2
-       },
-       "other": 0,
-       "undecided": 2
-      },
-      {
-       "pollster": "Peak Insights (R)",
-       "dates": "October 7–12, 2026",
-       "start": "2026-10-07",
-       "end": "2026-10-12",
-       "sample": 500,
-       "population": "LV",
-       "moe": 4,
-       "values": {
-        "Kurt Alme": 44,
-        "Alani Bankhead": 12,
-        "Seth Bodnar": 29,
-        "Kyle Austin": 3
-       },
-       "other": null,
-       "undecided": 12
-      },
-      {
-       "pollster": "Concord Public Opinion Partners (D)",
-       "dates": "October 6–8, 2026",
-       "start": "2026-10-06",
-       "end": "2026-10-08",
-       "sample": 405,
-       "population": "LV",
-       "moe": 4.9,
-       "values": {
-        "Kurt Alme": 35,
-        "Alani Bankhead": 13,
-        "Seth Bodnar": 37,
-        "Kyle Austin": 1
-       },
-       "other": null,
-       "undecided": 13
-      },
-      {
-       "pollster": "American Pulse Research",
-       "dates": "September 19–24, 2026",
-       "start": "2026-09-19",
-       "end": "2026-09-24",
-       "sample": 604,
-       "population": "LV",
-       "moe": null,
-       "values": {
-        "Kurt Alme": 45,
-        "Alani Bankhead": 19,
-        "Seth Bodnar": 26,
-        "Kyle Austin": 3
-       },
-       "other": null,
-       "undecided": 7
-      },
-      {
-       "pollster": "Quantus Insights (R)",
-       "dates": "September 14–15, 2026",
-       "start": "2026-09-14",
-       "end": "2026-09-15",
-       "sample": 625,
-       "population": "LV",
-       "moe": 4.3,
-       "values": {
-        "Kurt Alme": 44,
-        "Alani Bankhead": 23,
-        "Seth Bodnar": 24
-       },
-       "other": 2,
-       "undecided": 7
-      },
-      {
-       "pollster": "Aspect Strategic",
-       "dates": "September 7–15, 2026",
-       "start": "2026-09-07",
-       "end": "2026-09-15",
-       "sample": 715,
-       "population": "LV",
-       "moe": null,
-       "values": {
-        "Kurt Alme": 44,
-        "Alani Bankhead": 14,
-        "Seth Bodnar": 32,
-        "Kyle Austin": 3
-       },
-       "other": null,
-       "undecided": 7
-      },
-      {
-       "pollster": "Rutgers-Eagleton",
-       "dates": "August 27 – September 7, 2026",
-       "start": "2026-08-27",
-       "end": "2026-09-07",
-       "sample": 845,
-       "population": "RV",
-       "moe": 4.2,
-       "values": {
-        "Kurt Alme": 38,
-        "Alani Bankhead": 16,
-        "Seth Bodnar": 30,
-        "Kyle Austin": 5
-       },
-       "other": 11,
-       "undecided": null
-      },
-      {
-       "pollster": "Peak Insights (R)",
-       "dates": "August 23–25, 2026",
-       "start": "2026-08-23",
-       "end": "2026-08-25",
-       "sample": 600,
-       "population": "LV",
-       "moe": 4,
-       "values": {
-        "Kurt Alme": 44,
-        "Alani Bankhead": 19,
-        "Seth Bodnar": 22,
-        "Kyle Austin": 2
-       },
-       "other": null,
-       "undecided": 13
-      },
-      {
-       "pollster": "Hart Research (D)",
-       "dates": "August 1–4, 2026",
-       "start": "2026-08-01",
-       "end": "2026-08-04",
-       "sample": 800,
-       "population": "LV",
-       "moe": null,
-       "values": {
-        "Kurt Alme": 45,
-        "Alani Bankhead": 15,
-        "Seth Bodnar": 30,
-        "Kyle Austin": 6
-       },
-       "other": null,
-       "undecided": 4
-      },
-      {
-       "pollster": "Tavern Research (D)",
-       "dates": "July 23–27, 2026",
-       "start": "2026-07-23",
-       "end": "2026-07-27",
-       "sample": 517,
-       "population": "LV",
-       "moe": 5,
-       "values": {
-        "Kurt Alme": 49,
-        "Alani Bankhead": 24,
-        "Seth Bodnar": 25,
-        "Kyle Austin": 2
-       },
-       "other": null,
-       "undecided": null
-      },
-      {
-       "pollster": "GQR (D)",
-       "dates": "July 23–26, 2026",
-       "start": "2026-07-23",
-       "end": "2026-07-26",
-       "sample": 500,
-       "population": "LV",
-       "moe": 4.4,
-       "values": {
-        "Kurt Alme": 41,
-        "Alani Bankhead": 22,
-        "Seth Bodnar": 27,
-        "Kyle Austin": 6
-       },
-       "other": null,
-       "undecided": 4
-      },
-      {
-       "pollster": "Bullfinch Group (R)",
-       "dates": "July 13–16, 2026",
-       "start": "2026-07-13",
-       "end": "2026-07-16",
-       "sample": 793,
-       "population": "LV",
-       "moe": 3.48,
-       "values": {
-        "Kurt Alme": 36,
-        "Alani Bankhead": 22,
-        "Seth Bodnar": 24
-       },
-       "other": null,
-       "undecided": 18
-      },
-      {
-       "pollster": "GrayHouse (R)",
-       "dates": "June 23–24, 2026",
-       "start": "2026-06-23",
-       "end": "2026-06-24",
-       "sample": 500,
-       "population": "RV",
-       "moe": 4.4,
-       "values": {
-        "Kurt Alme": 41,
-        "Alani Bankhead": 25,
-        "Seth Bodnar": 17,
-        "Kyle Austin": 3
-       },
-       "other": null,
-       "undecided": 13
-      },
-      {
-       "pollster": "Hart Research (D)",
-       "dates": "June 18–24, 2026",
-       "start": "2026-06-18",
-       "end": "2026-06-24",
-       "sample": 800,
-       "population": "LV",
-       "moe": null,
-       "values": {
-        "Kurt Alme": 47,
-        "Alani Bankhead": 22,
-        "Seth Bodnar": 25
-       },
-       "other": null,
-       "undecided": 6
-      },
-      {
-       "pollster": "Tavern Research (D)",
-       "dates": "June 16–19, 2026",
-       "start": "2026-06-16",
-       "end": "2026-06-19",
-       "sample": 400,
-       "population": "LV",
-       "moe": 6.1,
-       "values": {
-        "Kurt Alme": 49,
-        "Alani Bankhead": 26,
-        "Seth Bodnar": 24,
-        "Kyle Austin": 2
-       },
-       "other": null,
-       "undecided": null
-      },
-      {
-       "pollster": "Public Opinion Strategies (R)",
-       "dates": "June 8–11, 2026",
-       "start": "2026-06-08",
-       "end": "2026-06-11",
-       "sample": 500,
-       "population": "LV",
-       "moe": 4.4,
-       "values": {
-        "Kurt Alme": 44,
-        "Alani Bankhead": 25,
-        "Seth Bodnar": 20,
-        "Kyle Austin": 4
-       },
-       "other": null,
-       "undecided": 7
-      }
-     ],
-     "headline": {
-      "basis": "aggregate-average",
-      "detail": "Average of 4 poll aggregators",
-      "values": {
-       "Kurt Alme": 41.1,
-       "Alani Bankhead": 17.2,
-       "Seth Bodnar": 30.9
-      },
-      "leader": "Kurt Alme",
-      "margin": 10.2
-     },
+     "aggregates": [],
+     "polls": [],
+     "headline": null,
      "consensus": {
       "rating": "Likely R",
       "strength": "Likely",
@@ -44267,7 +44120,7 @@
       "count": 6,
       "of": 12
      },
-     "latestPoll": "2026-10-23"
+     "latestPoll": null
     }
    ]
   },
@@ -44305,19 +44158,19 @@
        {
         "name": "Pete Ricketts",
         "party": "R",
-        "votes": 366063,
-        "percentage": 50.2,
+        "votes": 368798,
+        "percentage": 50.3,
         "winner": true
        },
        {
         "name": "Dan Osborn",
         "party": "I",
-        "votes": 319285,
-        "percentage": 43.8,
+        "votes": 320562,
+        "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 685348,
+      "totalVotes": 689360,
       "winner": "Pete Ricketts",
       "runoff": false,
       "source": "infobox",
@@ -44869,7 +44722,30 @@
        "nominee": false
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Jim Pillen",
+        "party": "R",
+        "votes": 371775,
+        "percentage": 50.6,
+        "winner": true
+       },
+       {
+        "name": "Lynne Walz",
+        "party": "D",
+        "votes": 310774,
+        "percentage": 42.3,
+        "winner": false
+       }
+      ],
+      "totalVotes": 682549,
+      "winner": "Jim Pillen",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 91,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -45325,23 +45201,24 @@
        {
         "name": "Aaron Ford",
         "party": "D",
-        "votes": 491891,
-        "percentage": 51.52,
-        "winner": false
+        "votes": 506653,
+        "percentage": 51.7,
+        "winner": true
        },
        {
         "name": "Joe Lombardo",
         "party": "R",
-        "votes": 423205,
-        "percentage": 44.33,
+        "votes": 432732,
+        "percentage": 44.15,
         "winner": false
        }
       ],
-      "totalVotes": 915096,
-      "winner": null,
+      "totalVotes": 939385,
+      "winner": "Aaron Ford",
       "runoff": false,
       "source": "infobox",
-      "reporting": 85
+      "reporting": 87,
+      "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
       {
@@ -46554,23 +46431,24 @@
        {
         "name": "Kelly Ayotte",
         "party": "R",
-        "votes": 278603,
-        "percentage": 51,
-        "winner": false
+        "votes": 299637,
+        "percentage": 51.1,
+        "winner": true
        },
        {
         "name": "Cinde Warmington",
         "party": "D",
-        "votes": 259063,
-        "percentage": 47.4,
+        "votes": 276986,
+        "percentage": 47.2,
         "winner": false
        }
       ],
-      "totalVotes": 537666,
-      "winner": null,
+      "totalVotes": 576623,
+      "winner": "Kelly Ayotte",
       "runoff": false,
       "source": "infobox",
-      "reporting": 80
+      "reporting": 90,
+      "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
       {
@@ -47197,7 +47075,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Ben Ray Luján",
+        "party": "D",
+        "votes": 455165,
+        "percentage": 63.2,
+        "winner": true
+       },
+       {
+        "name": "Larry Marker",
+        "party": "R",
+        "votes": 265557,
+        "percentage": 36.8,
+        "winner": false
+       }
+      ],
+      "totalVotes": 720722,
+      "winner": "Ben Ray Luján",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -47439,7 +47340,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Deb Haaland",
+        "party": "D",
+        "votes": 412834,
+        "percentage": 57.2,
+        "winner": true
+       },
+       {
+        "name": "Gregg Hull",
+        "party": "R",
+        "votes": 308315,
+        "percentage": 42.8,
+        "winner": false
+       }
+      ],
+      "totalVotes": 721149,
+      "winner": "Deb Haaland",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -48378,22 +48302,35 @@
        {
         "name": "Roy Cooper",
         "party": "D",
-        "votes": 2431822,
-        "percentage": 58.64,
+        "votes": 2467963,
+        "percentage": 58.72,
         "winner": true
        },
        {
         "name": "Michael Whatley",
         "party": "R",
-        "votes": 1624770,
-        "percentage": 39.18,
+        "votes": 1643088,
+        "percentage": 39.09,
+        "winner": false
+       },
+       {
+        "name": "Shannon W. Bray",
+        "party": "L",
+        "votes": 55726,
+        "percentage": 1.33,
+        "winner": false
+       },
+       {
+        "name": "Michael Dublin",
+        "party": "G",
+        "votes": 36404,
+        "percentage": 0.87,
         "winner": false
        }
       ],
-      "totalVotes": 4056592,
+      "totalVotes": 4203181,
       "winner": "Roy Cooper",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -49419,23 +49356,23 @@
        {
         "name": "Sherrod Brown",
         "party": "D",
-        "votes": 2246694,
-        "percentage": 49.67,
+        "votes": 2301402,
+        "percentage": 50.01,
         "winner": true
        },
        {
         "name": "Jon Husted",
         "party": "R",
-        "votes": 2057537,
-        "percentage": 45.49,
+        "votes": 2077748,
+        "percentage": 45.15,
         "winner": false
        }
       ],
-      "totalVotes": 4304231,
+      "totalVotes": 4379150,
       "winner": "Sherrod Brown",
       "runoff": false,
       "source": "infobox",
-      "reporting": 98,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -52192,7 +52129,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Josh Shapiro",
+        "party": "D",
+        "votes": 2988002,
+        "percentage": 60.3,
+        "winner": true
+       },
+       {
+        "name": "Stacy Garrity",
+        "party": "R",
+        "votes": 1904484,
+        "percentage": 38.4,
+        "winner": false
+       }
+      ],
+      "totalVotes": 4892486,
+      "winner": "Josh Shapiro",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -53073,30 +53033,30 @@
        {
         "name": "Helena Foulkes",
         "party": "D",
-        "votes": 184664,
-        "percentage": 57.48,
+        "votes": 203894,
+        "percentage": 57.5,
         "winner": true
        },
        {
         "name": "Ken Block",
         "party": "I",
-        "votes": 87759,
-        "percentage": 27.77,
+        "votes": 98914,
+        "percentage": 27.9,
         "winner": false
        },
        {
         "name": "Aaron Guckian",
         "party": "R",
-        "votes": 42317,
-        "percentage": 13.39,
+        "votes": 46997,
+        "percentage": 13.3,
         "winner": false
        }
       ],
-      "totalVotes": 314740,
+      "totalVotes": 349805,
       "winner": "Helena Foulkes",
       "runoff": false,
       "source": "infobox",
-      "reporting": 85,
+      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -53882,7 +53842,30 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Alan Wilson",
+        "party": "R",
+        "votes": 1050190,
+        "percentage": 51.6,
+        "winner": true
+       },
+       {
+        "name": "Jermaine Johnson",
+        "party": "D",
+        "votes": 959001,
+        "percentage": 47.1,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2009191,
+      "winner": "Alan Wilson",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -54594,7 +54577,30 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Larry Rhoden",
+        "party": "R",
+        "votes": 193317,
+        "percentage": 63.5,
+        "winner": true
+       },
+       {
+        "name": "Dan Ahlers",
+        "party": "D",
+        "votes": 111131,
+        "percentage": 36.5,
+        "winner": false
+       }
+      ],
+      "totalVotes": 304448,
+      "winner": "Larry Rhoden",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T14:51:41.043Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -54954,14 +54960,14 @@
         "name": "Marsha Blackburn",
         "party": "R",
         "votes": 955259,
-        "percentage": 45.5,
-        "winner": false
+        "percentage": 44.5,
+        "winner": true
        },
        {
         "name": "Jerri Green",
         "party": "D",
         "votes": 902546,
-        "percentage": 43,
+        "percentage": 43.2,
         "winner": false
        },
        {
@@ -54973,10 +54979,11 @@
        }
       ],
       "totalVotes": 2053093,
-      "winner": null,
+      "winner": "Marsha Blackburn",
       "runoff": false,
       "source": "infobox",
-      "reporting": 99
+      "reporting": 99,
+      "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
       {
@@ -55217,23 +55224,23 @@
        {
         "name": "James Talarico",
         "party": "D",
-        "votes": 5256956,
-        "percentage": 54.9,
+        "votes": 5397670,
+        "percentage": 55.2,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
-        "votes": 4137612,
-        "percentage": 43.21,
+        "votes": 4188414,
+        "percentage": 42.9,
         "winner": false
        }
       ],
-      "totalVotes": 9394568,
+      "totalVotes": 9586084,
       "winner": "James Talarico",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
+      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -56729,23 +56736,23 @@
        {
         "name": "Gina Hinojosa",
         "party": "D",
-        "votes": 5051936,
-        "percentage": 52.8,
+        "votes": 5185814,
+        "percentage": 53,
         "winner": true
        },
        {
         "name": "Greg Abbott",
         "party": "R",
-        "votes": 4377041,
-        "percentage": 45.7,
+        "votes": 4461211,
+        "percentage": 45.6,
         "winner": false
        }
       ],
-      "totalVotes": 9428977,
+      "totalVotes": 9647025,
       "winner": "Gina Hinojosa",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
+      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -58607,23 +58614,23 @@
        {
         "name": "David Crowley",
         "party": "D",
-        "votes": 1379075,
-        "percentage": 53.4,
+        "votes": 1438721,
+        "percentage": 54.1,
         "winner": true
        },
        {
         "name": "Tom Tiffany",
         "party": "R",
-        "votes": 1205510,
-        "percentage": 46.6,
+        "votes": 1221668,
+        "percentage": 45.9,
         "winner": false
        }
       ],
-      "totalVotes": 2584585,
+      "totalVotes": 2660389,
       "winner": "David Crowley",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:33:10.528Z"
      },
      "ratings": [
@@ -59139,30 +59146,30 @@
        {
         "name": "Eric Barlow",
         "party": "R",
-        "votes": 125427,
-        "percentage": 68.44,
+        "votes": 128480,
+        "percentage": 68.6,
         "winner": true
        },
        {
         "name": "Rebecca Bextel",
         "party": "C",
-        "votes": 30710,
-        "percentage": 16.76,
+        "votes": 31430,
+        "percentage": 16.8,
         "winner": false
        },
        {
         "name": "Kenneth Casner",
         "party": "D",
-        "votes": 27136,
-        "percentage": 14.81,
+        "votes": 27469,
+        "percentage": 14.7,
         "winner": false
        }
       ],
-      "totalVotes": 183273,
+      "totalVotes": 187379,
       "winner": "Eric Barlow",
       "runoff": false,
       "source": "infobox",
-      "reporting": 93,
+      "reporting": 95,
       "calledAt": "2026-11-04T07:03:11.125Z"
      },
      "ratings": [
