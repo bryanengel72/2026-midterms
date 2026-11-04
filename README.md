@@ -51,7 +51,7 @@ npm test           # parser tests
 
 ## Automatic updates and hosting
 
-`.github/workflows/update-polls.yml` runs every three hours (hourly November 1 to 3, then every 20 minutes on election night, 6 PM to 7 AM Eastern) on `main` (and on demand from the Actions tab). It tests the parser, refreshes the data, and commits `data/polls.json` if anything changed.
+`.github/workflows/update-polls.yml` runs every three hours on `main` (and on demand from the Actions tab). It tests the parser, refreshes the data, and commits `data/polls.json` if anything changed. During the vote count (November 4-10), `.github/workflows/election-watch.yml` takes over the fast refreshes: GitHub often skips short scheduled runs when it is busy, so instead one long job stays up and refreshes every 15 minutes for about 5.5 hours, and a new one is queued every two hours to take over when it ends.
 
 The site is hosted on Vercel, linked to this repository, at https://2026-midterms.vercel.app. Every push to `main`, including the workflow's data commits, redeploys it. The site is plain HTML, CSS and JavaScript with no build step, so any static host works too.
 
