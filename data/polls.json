@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T18:06:41.079Z",
+ "generatedAt": "2026-11-04T18:21:40.596Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12808,16 +12808,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maine#District_2",
     "candidates": [
      {
-      "name": "Matthew Dunlap",
-      "party": "D",
-      "nominee": true,
-      "partyName": "Democratic Party"
-     },
-     {
       "name": "Paul LePage",
       "party": "R",
       "nominee": true,
       "partyName": "Republican Party"
+     },
+     {
+      "name": "Matthew Dunlap",
+      "party": "D",
+      "nominee": true,
+      "partyName": "Democratic Party"
      }
     ],
     "polls": [
@@ -12963,30 +12963,30 @@
       {
        "name": "Paul LePage",
        "party": "R",
-       "votes": 152951,
+       "votes": 153355,
        "percentage": 50,
        "winner": false
       },
       {
        "name": "Matthew Dunlap",
        "party": "D",
-       "votes": 152889,
+       "votes": 153291,
        "percentage": 50,
        "winner": false
       }
      ],
-     "totalVotes": 305840,
+     "totalVotes": 306646,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 87
+     "reporting": 91
     },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Matthew Dunlap": 50,
-      "Paul LePage": 46
+      "Paul LePage": 46,
+      "Matthew Dunlap": 50
      },
      "leader": "Matthew Dunlap",
      "margin": 4
@@ -43957,19 +43957,19 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 462857,
-        "percentage": 48.95,
+        "votes": 466351,
+        "percentage": 49.1,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 462792,
-        "percentage": 48.94,
+        "votes": 464487,
+        "percentage": 48.9,
         "winner": false
        }
       ],
-      "totalVotes": 925649,
+      "totalVotes": 930838,
       "winner": null,
       "runoff": false,
       "source": "infobox",
