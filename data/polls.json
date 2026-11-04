@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T15:06:40.548Z",
+ "generatedAt": "2026-11-04T15:21:41.337Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -32822,23 +32822,23 @@
        {
         "name": "Jon Ossoff",
         "party": "D",
-        "votes": 2463116,
+        "votes": 2463132,
         "percentage": 59,
         "winner": true
        },
        {
         "name": "Mike Collins",
         "party": "R",
-        "votes": 1711318,
+        "votes": 1711322,
         "percentage": 41,
         "winner": false
        }
       ],
-      "totalVotes": 4174434,
+      "totalVotes": 4174454,
       "winner": "Jon Ossoff",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -55224,23 +55224,23 @@
        {
         "name": "James Talarico",
         "party": "D",
-        "votes": 5397670,
-        "percentage": 55.2,
+        "votes": 5445121,
+        "percentage": 55.1,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
-        "votes": 4188414,
-        "percentage": 42.9,
+        "votes": 4249752,
+        "percentage": 43,
         "winner": false
        }
       ],
-      "totalVotes": 9586084,
+      "totalVotes": 9694873,
       "winner": "James Talarico",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 97,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
