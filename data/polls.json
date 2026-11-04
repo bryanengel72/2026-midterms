@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T17:21:40.885Z",
+ "generatedAt": "2026-11-04T17:36:41.251Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -44208,12 +44208,23 @@
        "party": "I",
        "nominee": true,
        "partyName": "Independent politician"
+      },
+      {
+       "name": "Alani Bankhead",
+       "party": "D",
+       "nominee": true,
+       "partyName": "Democratic Party"
+      },
+      {
+       "name": "Kyle Austin",
+       "party": "L",
+       "nominee": false
       }
      ],
      "results": {
       "candidates": [
        {
-        "name": "Sawyer Adams",
+        "name": "Kurt Alme",
         "party": "R",
         "votes": 187961,
         "percentage": 47.7,
@@ -44242,9 +44253,9 @@
        }
       ],
       "totalVotes": 394068,
-      "winner": "Sawyer Adams",
+      "winner": "Kurt Alme",
       "runoff": false,
-      "calledAt": "2026-11-04T14:51:41.043Z"
+      "calledAt": "2026-11-04T17:36:41.251Z"
      },
      "ratings": [
       {
@@ -44344,9 +44355,389 @@
        "asOf": "November 2, 2026"
       }
      ],
-     "aggregates": [],
-     "polls": [],
-     "headline": null,
+     "aggregates": [
+      {
+       "source": "270toWin",
+       "isAverage": false,
+       "dates": "September 19 – October 18, 2026",
+       "updated": "October 20, 2026",
+       "updatedIso": "2026-10-20",
+       "values": {
+        "Kurt Alme": 45.5,
+        "Alani Bankhead": 20,
+        "Seth Bodnar": 27.5
+       },
+       "otherUndecided": 7
+      },
+      {
+       "source": "Decision Desk HQ",
+       "isAverage": false,
+       "dates": "through October 23, 2026",
+       "updated": "October 30, 2026",
+       "updatedIso": "2026-10-30",
+       "values": {
+        "Kurt Alme": 37.5,
+        "Alani Bankhead": 16.1,
+        "Seth Bodnar": 31.3
+       },
+       "otherUndecided": 15.1
+      },
+      {
+       "source": "FiftyPlusOne",
+       "isAverage": false,
+       "dates": "through October 23, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
+       "values": {
+        "Kurt Alme": 40.1,
+        "Alani Bankhead": 15.7,
+        "Seth Bodnar": 32.1
+       },
+       "otherUndecided": 12.1
+      },
+      {
+       "source": "Silver Bulletin",
+       "isAverage": false,
+       "dates": "through October 23, 2026",
+       "updated": "November 3, 2026",
+       "updatedIso": "2026-11-03",
+       "values": {
+        "Kurt Alme": 41.3,
+        "Alani Bankhead": 17.1,
+        "Seth Bodnar": 32.6
+       },
+       "otherUndecided": 9
+      },
+      {
+       "source": "Average",
+       "isAverage": true,
+       "dates": "",
+       "updated": "",
+       "updatedIso": null,
+       "values": {
+        "Kurt Alme": 41.1,
+        "Alani Bankhead": 17.2,
+        "Seth Bodnar": 30.9
+       },
+       "otherUndecided": 10.8
+      }
+     ],
+     "polls": [
+      {
+       "pollster": "Concord Public Opinion Partners (D)",
+       "dates": "October 22–23, 2026",
+       "start": "2026-10-22",
+       "end": "2026-10-23",
+       "sample": 410,
+       "population": "LV",
+       "moe": 4.8,
+       "values": {
+        "Kurt Alme": 38,
+        "Alani Bankhead": 10,
+        "Seth Bodnar": 39,
+        "Kyle Austin": 2
+       },
+       "other": null,
+       "undecided": 11
+      },
+      {
+       "pollster": "Montana State University Billings",
+       "dates": "October 5–21, 2026",
+       "start": "2026-10-05",
+       "end": "2026-10-21",
+       "sample": 720,
+       "population": "A",
+       "moe": 3.7,
+       "values": {
+        "Kurt Alme": 30,
+        "Alani Bankhead": 21,
+        "Seth Bodnar": 26,
+        "Kyle Austin": 3
+       },
+       "other": 1,
+       "undecided": 17
+      },
+      {
+       "pollster": "Quantus Insights (R)",
+       "dates": "October 15–18, 2026",
+       "start": "2026-10-15",
+       "end": "2026-10-18",
+       "sample": 667,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Kurt Alme": 46,
+        "Alani Bankhead": 21,
+        "Seth Bodnar": 29,
+        "Kyle Austin": 2
+       },
+       "other": 0,
+       "undecided": 2
+      },
+      {
+       "pollster": "Peak Insights (R)",
+       "dates": "October 7–12, 2026",
+       "start": "2026-10-07",
+       "end": "2026-10-12",
+       "sample": 500,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Kurt Alme": 44,
+        "Alani Bankhead": 12,
+        "Seth Bodnar": 29,
+        "Kyle Austin": 3
+       },
+       "other": null,
+       "undecided": 12
+      },
+      {
+       "pollster": "Concord Public Opinion Partners (D)",
+       "dates": "October 6–8, 2026",
+       "start": "2026-10-06",
+       "end": "2026-10-08",
+       "sample": 405,
+       "population": "LV",
+       "moe": 4.9,
+       "values": {
+        "Kurt Alme": 35,
+        "Alani Bankhead": 13,
+        "Seth Bodnar": 37,
+        "Kyle Austin": 1
+       },
+       "other": null,
+       "undecided": 13
+      },
+      {
+       "pollster": "American Pulse Research",
+       "dates": "September 19–24, 2026",
+       "start": "2026-09-19",
+       "end": "2026-09-24",
+       "sample": 604,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Kurt Alme": 45,
+        "Alani Bankhead": 19,
+        "Seth Bodnar": 26,
+        "Kyle Austin": 3
+       },
+       "other": null,
+       "undecided": 7
+      },
+      {
+       "pollster": "Quantus Insights (R)",
+       "dates": "September 14–15, 2026",
+       "start": "2026-09-14",
+       "end": "2026-09-15",
+       "sample": 625,
+       "population": "LV",
+       "moe": 4.3,
+       "values": {
+        "Kurt Alme": 44,
+        "Alani Bankhead": 23,
+        "Seth Bodnar": 24
+       },
+       "other": 2,
+       "undecided": 7
+      },
+      {
+       "pollster": "Aspect Strategic",
+       "dates": "September 7–15, 2026",
+       "start": "2026-09-07",
+       "end": "2026-09-15",
+       "sample": 715,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Kurt Alme": 44,
+        "Alani Bankhead": 14,
+        "Seth Bodnar": 32,
+        "Kyle Austin": 3
+       },
+       "other": null,
+       "undecided": 7
+      },
+      {
+       "pollster": "Rutgers-Eagleton",
+       "dates": "August 27 – September 7, 2026",
+       "start": "2026-08-27",
+       "end": "2026-09-07",
+       "sample": 845,
+       "population": "RV",
+       "moe": 4.2,
+       "values": {
+        "Kurt Alme": 38,
+        "Alani Bankhead": 16,
+        "Seth Bodnar": 30,
+        "Kyle Austin": 5
+       },
+       "other": 11,
+       "undecided": null
+      },
+      {
+       "pollster": "Peak Insights (R)",
+       "dates": "August 23–25, 2026",
+       "start": "2026-08-23",
+       "end": "2026-08-25",
+       "sample": 600,
+       "population": "LV",
+       "moe": 4,
+       "values": {
+        "Kurt Alme": 44,
+        "Alani Bankhead": 19,
+        "Seth Bodnar": 22,
+        "Kyle Austin": 2
+       },
+       "other": null,
+       "undecided": 13
+      },
+      {
+       "pollster": "Hart Research (D)",
+       "dates": "August 1–4, 2026",
+       "start": "2026-08-01",
+       "end": "2026-08-04",
+       "sample": 800,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Kurt Alme": 45,
+        "Alani Bankhead": 15,
+        "Seth Bodnar": 30,
+        "Kyle Austin": 6
+       },
+       "other": null,
+       "undecided": 4
+      },
+      {
+       "pollster": "Tavern Research (D)",
+       "dates": "July 23–27, 2026",
+       "start": "2026-07-23",
+       "end": "2026-07-27",
+       "sample": 517,
+       "population": "LV",
+       "moe": 5,
+       "values": {
+        "Kurt Alme": 49,
+        "Alani Bankhead": 24,
+        "Seth Bodnar": 25,
+        "Kyle Austin": 2
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
+       "pollster": "GQR (D)",
+       "dates": "July 23–26, 2026",
+       "start": "2026-07-23",
+       "end": "2026-07-26",
+       "sample": 500,
+       "population": "LV",
+       "moe": 4.4,
+       "values": {
+        "Kurt Alme": 41,
+        "Alani Bankhead": 22,
+        "Seth Bodnar": 27,
+        "Kyle Austin": 6
+       },
+       "other": null,
+       "undecided": 4
+      },
+      {
+       "pollster": "Bullfinch Group (R)",
+       "dates": "July 13–16, 2026",
+       "start": "2026-07-13",
+       "end": "2026-07-16",
+       "sample": 793,
+       "population": "LV",
+       "moe": 3.48,
+       "values": {
+        "Kurt Alme": 36,
+        "Alani Bankhead": 22,
+        "Seth Bodnar": 24
+       },
+       "other": null,
+       "undecided": 18
+      },
+      {
+       "pollster": "GrayHouse (R)",
+       "dates": "June 23–24, 2026",
+       "start": "2026-06-23",
+       "end": "2026-06-24",
+       "sample": 500,
+       "population": "RV",
+       "moe": 4.4,
+       "values": {
+        "Kurt Alme": 41,
+        "Alani Bankhead": 25,
+        "Seth Bodnar": 17,
+        "Kyle Austin": 3
+       },
+       "other": null,
+       "undecided": 13
+      },
+      {
+       "pollster": "Hart Research (D)",
+       "dates": "June 18–24, 2026",
+       "start": "2026-06-18",
+       "end": "2026-06-24",
+       "sample": 800,
+       "population": "LV",
+       "moe": null,
+       "values": {
+        "Kurt Alme": 47,
+        "Alani Bankhead": 22,
+        "Seth Bodnar": 25
+       },
+       "other": null,
+       "undecided": 6
+      },
+      {
+       "pollster": "Tavern Research (D)",
+       "dates": "June 16–19, 2026",
+       "start": "2026-06-16",
+       "end": "2026-06-19",
+       "sample": 400,
+       "population": "LV",
+       "moe": 6.1,
+       "values": {
+        "Kurt Alme": 49,
+        "Alani Bankhead": 26,
+        "Seth Bodnar": 24,
+        "Kyle Austin": 2
+       },
+       "other": null,
+       "undecided": null
+      },
+      {
+       "pollster": "Public Opinion Strategies (R)",
+       "dates": "June 8–11, 2026",
+       "start": "2026-06-08",
+       "end": "2026-06-11",
+       "sample": 500,
+       "population": "LV",
+       "moe": 4.4,
+       "values": {
+        "Kurt Alme": 44,
+        "Alani Bankhead": 25,
+        "Seth Bodnar": 20,
+        "Kyle Austin": 4
+       },
+       "other": null,
+       "undecided": 7
+      }
+     ],
+     "headline": {
+      "basis": "aggregate-average",
+      "detail": "Average of 4 poll aggregators",
+      "values": {
+       "Kurt Alme": 41.1,
+       "Alani Bankhead": 17.2,
+       "Seth Bodnar": 30.9
+      },
+      "leader": "Kurt Alme",
+      "margin": 10.2
+     },
      "consensus": {
       "rating": "Likely R",
       "strength": "Likely",
@@ -44354,7 +44745,7 @@
       "count": 6,
       "of": 12
      },
-     "latestPoll": null
+     "latestPoll": "2026-10-23"
     }
    ]
   },
