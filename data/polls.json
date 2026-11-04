@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T01:26:40.451Z",
+ "generatedAt": "2026-11-04T01:43:58.319Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -31415,16 +31415,16 @@
      },
      "candidates": [
       {
-       "name": "David Jolly",
-       "party": "D",
-       "nominee": true,
-       "partyName": "Democratic Party"
-      },
-      {
        "name": "Byron Donalds",
        "party": "R",
        "nominee": true,
        "partyName": "Republican Party"
+      },
+      {
+       "name": "David Jolly",
+       "party": "D",
+       "nominee": true,
+       "partyName": "Democratic Party"
       }
      ],
      "results": null,
@@ -32884,16 +32884,16 @@
      },
      "candidates": [
       {
-       "name": "Rick Jackson",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Georgia Republican Party"
-      },
-      {
        "name": "Keisha Lance Bottoms",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party of Georgia"
+      },
+      {
+       "name": "Rick Jackson",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Georgia Republican Party"
       }
      ],
      "results": null,
@@ -35804,16 +35804,16 @@
      },
      "candidates": [
       {
-       "name": "Roger Marshall",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Adam Hamilton",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
+      },
+      {
+       "name": "Roger Marshall",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       },
       {
        "name": "David Graham",
@@ -47382,16 +47382,16 @@
      },
      "candidates": [
       {
-       "name": "Michael Whatley",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "Roy Cooper",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
+      },
+      {
+       "name": "Michael Whatley",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -53883,16 +53883,16 @@
      },
      "candidates": [
       {
-       "name": "Ken Paxton",
-       "party": "R",
-       "nominee": true,
-       "partyName": "Republican Party"
-      },
-      {
        "name": "James Talarico",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
+      },
+      {
+       "name": "Ken Paxton",
+       "party": "R",
+       "nominee": true,
+       "partyName": "Republican Party"
       },
       {
        "name": "Ted Brown",
