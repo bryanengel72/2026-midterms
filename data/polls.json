@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T06:48:10.337Z",
+ "generatedAt": "2026-11-04T07:03:11.125Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -19261,7 +19261,7 @@
       "partyName": "Republican Party"
      },
      {
-      "name": "LaKesha Womack",
+      "name": "Lakesha Womack",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
@@ -19278,7 +19278,7 @@
       "moe": 5,
       "values": {
        "Tim Moore": 48,
-       "LaKesha Womack": 40
+       "Lakesha Womack": 40
       },
       "other": null,
       "undecided": 12
@@ -19291,7 +19291,7 @@
      "detail": "Most recent poll: Ragnar Research Partners (R), March 10–12, 2026",
      "values": {
       "Tim Moore": 48,
-      "LaKesha Womack": 40
+      "Lakesha Womack": 40
      },
      "leader": "Tim Moore",
      "margin": 8
@@ -37361,7 +37361,28 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Julia Letlow",
+        "party": "R",
+        "votes": 745963,
+        "percentage": 50.9,
+        "winner": false
+       },
+       {
+        "name": "Jamie Davis",
+        "party": "D",
+        "votes": 720106,
+        "percentage": 49.1,
+        "winner": false
+       }
+      ],
+      "totalVotes": 1466069,
+      "winner": null,
+      "runoff": false,
+      "source": "infobox"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -58561,12 +58582,47 @@
        "partyName": "Republican Party"
       },
       {
+       "name": "Rebecca Bextel",
+       "party": "C",
+       "partyName": "Constitution Party"
+      },
+      {
        "name": "Kenneth Casner",
        "party": "D",
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Eric Barlow",
+        "party": "R",
+        "votes": 125427,
+        "percentage": 68.44,
+        "winner": true
+       },
+       {
+        "name": "Rebecca Bextel",
+        "party": "C",
+        "votes": 30710,
+        "percentage": 16.76,
+        "winner": false
+       },
+       {
+        "name": "Kenneth Casner",
+        "party": "D",
+        "votes": 27136,
+        "percentage": 14.81,
+        "winner": false
+       }
+      ],
+      "totalVotes": 183273,
+      "winner": "Eric Barlow",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 93,
+      "calledAt": "2026-11-04T07:03:11.125Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
