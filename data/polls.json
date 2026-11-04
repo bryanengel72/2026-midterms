@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T19:49:46.484Z",
+ "generatedAt": "2026-11-04T22:11:00.904Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -11745,16 +11745,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Indiana#District_5",
     "candidates": [
      {
-      "name": "Victoria Spartz",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "J. D. Ford",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Victoria Spartz",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -11805,13 +11805,35 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "J. D. Ford",
+       "party": "D",
+       "votes": 134476,
+       "percentage": 51.7,
+       "winner": true
+      },
+      {
+       "name": "Victoria Spartz",
+       "party": "R",
+       "votes": 125851,
+       "percentage": 48.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 260327,
+     "winner": "J. D. Ford",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-04T22:11:00.904Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Victoria Spartz": 45,
-      "J. D. Ford": 42
+      "J. D. Ford": 42,
+      "Victoria Spartz": 45
      },
      "leader": "Victoria Spartz",
      "margin": 3
@@ -14091,16 +14113,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Minnesota#District_1",
     "candidates": [
      {
-      "name": "Brad Finstad",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Jake Johnson",
       "party": "D",
       "nominee": true,
       "partyName": "Minnesota Democratic–Farmer–Labor Party"
+     },
+     {
+      "name": "Brad Finstad",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -14181,13 +14203,34 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jake Johnson",
+       "party": "D",
+       "votes": 163056,
+       "percentage": 50,
+       "winner": true
+      },
+      {
+       "name": "Brad Finstad",
+       "party": "R",
+       "votes": 162733,
+       "percentage": 49.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 326180,
+     "winner": "Jake Johnson",
+     "runoff": false,
+     "calledAt": "2026-11-04T22:11:00.904Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Brad Finstad": 43.5,
-      "Jake Johnson": 44.5
+      "Jake Johnson": 44.5,
+      "Brad Finstad": 43.5
      },
      "leader": "Jake Johnson",
      "margin": 1
@@ -14331,7 +14374,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Matt Little",
+       "party": "D",
+       "votes": 214255,
+       "percentage": 57.1,
+       "winner": true
+      },
+      {
+       "name": "Joe Teirab",
+       "party": "R",
+       "votes": 160636,
+       "percentage": 42.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 375226,
+     "winner": "Matt Little",
+     "runoff": false,
+     "calledAt": "2026-11-04T22:11:00.904Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Impact Research (D), September 9–13, 2026",
@@ -26336,16 +26400,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin#District_1",
     "candidates": [
      {
-      "name": "Bryan Steil",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Mitchell Berman",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Bryan Steil",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -26411,7 +26475,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Mitchell Berman",
+       "party": "D",
+       "votes": 158839,
+       "percentage": 52,
+       "winner": false
+      },
+      {
+       "name": "Bryan Steil",
+       "party": "R",
+       "votes": 146885,
+       "percentage": 48,
+       "winner": false
+      }
+     ],
+     "totalVotes": 305724,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Impact Research (D), September 28 – October 1, 2026",
@@ -29445,19 +29530,19 @@
        {
         "name": "Tom Cotton",
         "party": "R",
-        "votes": 480526,
+        "votes": 480576,
         "percentage": 54.3,
         "winner": true
        },
        {
         "name": "Hallie Shoffner",
         "party": "D",
-        "votes": 375596,
+        "votes": 375620,
         "percentage": 42.4,
         "winner": false
        }
       ],
-      "totalVotes": 856122,
+      "totalVotes": 856196,
       "winner": "Tom Cotton",
       "runoff": false,
       "source": "infobox",
@@ -33049,19 +33134,19 @@
        {
         "name": "Jon Ossoff",
         "party": "D",
-        "votes": 2463132,
+        "votes": 2466207,
         "percentage": 59,
         "winner": true
        },
        {
         "name": "Mike Collins",
         "party": "R",
-        "votes": 1711322,
+        "votes": 1711747,
         "percentage": 41,
         "winner": false
        }
       ],
-      "totalVotes": 4174454,
+      "totalVotes": 4177954,
       "winner": "Jon Ossoff",
       "runoff": false,
       "source": "infobox",
@@ -36776,7 +36861,7 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 556476,
+        "votes": 556477,
         "percentage": 50.9,
         "winner": true
        },
@@ -36788,7 +36873,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 1059744,
+      "totalVotes": 1059745,
       "winner": "Adam Hamilton",
       "runoff": false,
       "source": "infobox",
@@ -37360,19 +37445,19 @@
        {
         "name": "Cindy Holscher",
         "party": "D",
-        "votes": 546648,
+        "votes": 546747,
         "percentage": 50.26,
         "winner": false
        },
        {
         "name": "Ty Masterson",
         "party": "R",
-        "votes": 541070,
+        "votes": 541183,
         "percentage": 49.74,
         "winner": false
        }
       ],
-      "totalVotes": 1087718,
+      "totalVotes": 1087930,
       "winner": null,
       "runoff": false,
       "source": "infobox",
@@ -37785,14 +37870,14 @@
        {
         "name": "Andy Barr",
         "party": "R",
-        "votes": 784867,
+        "votes": 784869,
         "percentage": 54.99,
         "winner": true
        },
        {
         "name": "Charles Booker",
         "party": "D",
-        "votes": 612349,
+        "votes": 612357,
         "percentage": 42.9,
         "winner": false
        },
@@ -37804,7 +37889,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 1427234,
+      "totalVotes": 1427270,
       "winner": "Andy Barr",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -46300,19 +46385,19 @@
        {
         "name": "Chris Pappas",
         "party": "D",
-        "votes": 337071,
+        "votes": 341737,
         "percentage": 56.1,
         "winner": true
        },
        {
         "name": "John E. Sununu",
         "party": "R",
-        "votes": 252746,
+        "votes": 257453,
         "percentage": 42.1,
         "winner": false
        }
       ],
-      "totalVotes": 589817,
+      "totalVotes": 599190,
       "winner": "Chris Pappas",
       "runoff": false,
       "source": "infobox",
@@ -51053,7 +51138,7 @@
         "party": "D",
         "votes": 2204745,
         "percentage": 51.3,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Vivek Ramaswamy",
@@ -51071,8 +51156,9 @@
        }
       ],
       "totalVotes": 4301005,
-      "winner": null,
-      "runoff": false
+      "winner": "Amy Acton",
+      "runoff": false,
+      "calledAt": "2026-11-04T22:11:00.904Z"
      },
      "ratings": [
       {
