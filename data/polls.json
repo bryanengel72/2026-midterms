@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T19:36:41.268Z",
+ "generatedAt": "2026-11-04T19:49:46.484Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -37361,14 +37361,14 @@
         "name": "Cindy Holscher",
         "party": "D",
         "votes": 546648,
-        "percentage": 50.3,
+        "percentage": 50.26,
         "winner": false
        },
        {
         "name": "Ty Masterson",
         "party": "R",
         "votes": 541070,
-        "percentage": 49.7,
+        "percentage": 49.74,
         "winner": false
        }
       ],
