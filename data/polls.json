@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T07:33:11.252Z",
+ "generatedAt": "2026-11-04T07:48:10.885Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -33131,23 +33131,23 @@
        {
         "name": "Keisha Lance Bottoms",
         "party": "D",
-        "votes": 1800965,
-        "percentage": 55.8,
+        "votes": 2259100,
+        "percentage": 54.2,
         "winner": true
        },
        {
         "name": "Rick Jackson",
         "party": "R",
-        "votes": 1423744,
-        "percentage": 44.2,
+        "votes": 1905921,
+        "percentage": 45.8,
         "winner": false
        }
       ],
-      "totalVotes": 3224709,
+      "totalVotes": 4165021,
       "winner": "Keisha Lance Bottoms",
       "runoff": false,
       "source": "infobox",
-      "reporting": 73.3,
+      "reporting": 96.8,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -40130,23 +40130,23 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 2009755,
-        "percentage": 51.8,
+        "votes": 2207507,
+        "percentage": 52,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 1791898,
-        "percentage": 46.2,
+        "votes": 1955024,
+        "percentage": 46,
         "winner": false
        }
       ],
-      "totalVotes": 3801653,
+      "totalVotes": 4162531,
       "winner": "Abdul El-Sayed",
       "runoff": false,
       "source": "infobox",
-      "reporting": 81,
+      "reporting": 89,
       "calledAt": "2026-11-04T07:33:11.252Z"
      },
      "ratings": [
@@ -49121,23 +49121,23 @@
        {
         "name": "Sherrod Brown",
         "party": "D",
-        "votes": 1996306,
-        "percentage": 48.54,
+        "votes": 2246694,
+        "percentage": 49.67,
         "winner": true
        },
        {
         "name": "Jon Husted",
         "party": "R",
-        "votes": 1916219,
-        "percentage": 46.59,
+        "votes": 2057537,
+        "percentage": 45.49,
         "winner": false
        }
       ],
-      "totalVotes": 3912525,
+      "totalVotes": 4304231,
       "winner": "Sherrod Brown",
       "runoff": false,
       "source": "infobox",
-      "reporting": 87,
+      "reporting": 98,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -54755,23 +54755,23 @@
        {
         "name": "James Talarico",
         "party": "D",
-        "votes": 4932811,
+        "votes": 5125580,
         "percentage": 54.9,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
-        "votes": 3884743,
+        "votes": 4040298,
         "percentage": 43.3,
         "winner": false
        }
       ],
-      "totalVotes": 8817554,
+      "totalVotes": 9165878,
       "winner": "James Talarico",
       "runoff": false,
       "source": "infobox",
-      "reporting": 87,
+      "reporting": 94,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
