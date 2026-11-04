@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T06:33:10.528Z",
+ "generatedAt": "2026-11-04T06:48:10.337Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -29303,30 +29303,31 @@
        {
         "name": "Sarah Huckabee Sanders",
         "party": "R",
-        "votes": 474742,
-        "percentage": 53.83,
-        "winner": false
+        "votes": 477042,
+        "percentage": 53.87,
+        "winner": true
        },
        {
         "name": "Fredrick Love",
         "party": "D",
-        "votes": 340738,
-        "percentage": 38.64,
+        "votes": 341621,
+        "percentage": 38.58,
         "winner": false
        },
        {
         "name": "Colt Shelby",
         "party": "L",
-        "votes": 66373,
-        "percentage": 7.53,
+        "votes": 66877,
+        "percentage": 7.55,
         "winner": false
        }
       ],
-      "totalVotes": 881853,
-      "winner": null,
+      "totalVotes": 885540,
+      "winner": "Sarah Huckabee Sanders",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95
+      "reporting": 95,
+      "calledAt": "2026-11-04T06:48:10.337Z"
      },
      "ratings": [
       {
@@ -40051,23 +40052,23 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 1933317,
-        "percentage": 51.9,
+        "votes": 2009755,
+        "percentage": 51.8,
         "winner": false
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 1720741,
+        "votes": 1791898,
         "percentage": 46.2,
         "winner": false
        }
       ],
-      "totalVotes": 3654058,
+      "totalVotes": 3801653,
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 78
+      "reporting": 81
      },
      "ratings": [
       {
@@ -56165,23 +56166,23 @@
        {
         "name": "Gina Hinojosa",
         "party": "D",
-        "votes": 4505083,
-        "percentage": 53.2,
+        "votes": 4833851,
+        "percentage": 52.7,
         "winner": true
        },
        {
         "name": "Greg Abbott",
         "party": "R",
-        "votes": 3864607,
-        "percentage": 45.4,
+        "votes": 4206670,
+        "percentage": 45.9,
         "winner": false
        }
       ],
-      "totalVotes": 8369690,
+      "totalVotes": 9040521,
       "winner": "Gina Hinojosa",
       "runoff": false,
       "source": "infobox",
-      "reporting": 82,
+      "reporting": 89,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
