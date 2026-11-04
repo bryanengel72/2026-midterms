@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T10:33:10.534Z",
+ "generatedAt": "2026-11-04T11:02:27.573Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -30088,7 +30088,30 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "John Hickenlooper",
+        "party": "D",
+        "votes": 1310885,
+        "percentage": 60.2,
+        "winner": true
+       },
+       {
+        "name": "Mark Baisley",
+        "party": "R",
+        "votes": 773924,
+        "percentage": 35.6,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2084809,
+      "winner": "John Hickenlooper",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 88,
+      "calledAt": "2026-11-04T11:02:27.573Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -32696,23 +32719,23 @@
        {
         "name": "Jon Ossoff",
         "party": "D",
-        "votes": 2407286,
-        "percentage": 58.83,
+        "votes": 2463116,
+        "percentage": 59,
         "winner": true
        },
        {
         "name": "Mike Collins",
         "party": "R",
-        "votes": 1684685,
-        "percentage": 41.17,
+        "votes": 1711318,
+        "percentage": 41,
         "winner": false
        }
       ],
-      "totalVotes": 4091971,
+      "totalVotes": 4174434,
       "winner": "Jon Ossoff",
       "runoff": false,
       "source": "infobox",
-      "reporting": 93,
+      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -34432,23 +34455,23 @@
        {
         "name": "Juliana Stratton",
         "party": "D",
-        "votes": 2076017,
-        "percentage": 61.2,
+        "votes": 2418659,
+        "percentage": 61,
         "winner": true
        },
        {
         "name": "Don Tracy",
         "party": "R",
-        "votes": 1260874,
-        "percentage": 37.2,
+        "votes": 1487039,
+        "percentage": 37.5,
         "winner": false
        }
       ],
-      "totalVotes": 3336891,
+      "totalVotes": 3905698,
       "winner": "Juliana Stratton",
       "runoff": false,
       "source": "infobox",
-      "reporting": 75,
+      "reporting": 87,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -40304,23 +40327,23 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 2207507,
-        "percentage": 52,
+        "votes": 2460111,
+        "percentage": 52.4,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 1955024,
-        "percentage": 46,
+        "votes": 2143780,
+        "percentage": 45.6,
         "winner": false
        }
       ],
-      "totalVotes": 4162531,
+      "totalVotes": 4603891,
       "winner": "Abdul El-Sayed",
       "runoff": false,
       "source": "infobox",
-      "reporting": 89,
+      "reporting": 95,
       "calledAt": "2026-11-04T07:33:11.252Z"
      },
      "ratings": [
@@ -47171,8 +47194,7 @@
        "name": "Larry Marker",
        "party": "R",
        "nominee": true,
-       "partyName": "Republican Party",
-       "note": "write-in"
+       "partyName": "Republican Party"
       }
      ],
      "results": null,
@@ -51910,23 +51932,24 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 658979,
-        "percentage": 52.56,
-        "winner": false
+        "votes": 794291,
+        "percentage": 51.85,
+        "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 561602,
-        "percentage": 44.8,
+        "votes": 696941,
+        "percentage": 45.5,
         "winner": false
        }
       ],
-      "totalVotes": 1220581,
-      "winner": null,
+      "totalVotes": 1491232,
+      "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 62
+      "reporting": 71,
+      "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
       {
@@ -53345,19 +53368,19 @@
        {
         "name": "Annie Andrews",
         "party": "D",
-        "votes": 984027,
-        "percentage": 51,
+        "votes": 1042362,
+        "percentage": 51.1,
         "winner": true
        },
        {
         "name": "Darline Graham",
         "party": "R",
-        "votes": 916267,
-        "percentage": 47,
+        "votes": 951165,
+        "percentage": 46.7,
         "winner": false
        }
       ],
-      "totalVotes": 1900294,
+      "totalVotes": 1993527,
       "winner": "Annie Andrews",
       "runoff": false,
       "source": "infobox",
@@ -54721,7 +54744,30 @@
        "partyName": "Democratic Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Bill Hagerty",
+        "party": "R",
+        "votes": 1138407,
+        "percentage": 55.1,
+        "winner": true
+       },
+       {
+        "name": "Marquita Bradshaw",
+        "party": "D",
+        "votes": 886911,
+        "percentage": 42.9,
+        "winner": false
+       }
+      ],
+      "totalVotes": 2025318,
+      "winner": "Bill Hagerty",
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 95,
+      "calledAt": "2026-11-04T11:02:27.573Z"
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
