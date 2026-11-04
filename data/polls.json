@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T16:21:41.281Z",
+ "generatedAt": "2026-11-04T16:36:41.255Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -29256,7 +29256,7 @@
       "winner": "Tom Cotton",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 99,
       "calledAt": "2026-11-04T10:18:10.392Z"
      },
      "ratings": [
@@ -29532,30 +29532,30 @@
        {
         "name": "Sarah Huckabee Sanders",
         "party": "R",
-        "votes": 477042,
-        "percentage": 53.87,
+        "votes": 477092,
+        "percentage": 53.9,
         "winner": true
        },
        {
         "name": "Fredrick Love",
         "party": "D",
-        "votes": 341621,
-        "percentage": 38.58,
+        "votes": 341645,
+        "percentage": 38.6,
         "winner": false
        },
        {
         "name": "Colt Shelby",
         "party": "L",
-        "votes": 66877,
-        "percentage": 7.55,
+        "votes": 66880,
+        "percentage": 7.6,
         "winner": false
        }
       ],
-      "totalVotes": 885540,
+      "totalVotes": 885617,
       "winner": "Sarah Huckabee Sanders",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:48:10.337Z"
      },
      "ratings": [
@@ -30195,19 +30195,19 @@
        {
         "name": "John Hickenlooper",
         "party": "D",
-        "votes": 1310885,
+        "votes": 1310937,
         "percentage": 60.2,
         "winner": true
        },
        {
         "name": "Mark Baisley",
         "party": "R",
-        "votes": 773924,
+        "votes": 773936,
         "percentage": 35.6,
         "winner": false
        }
       ],
-      "totalVotes": 2084809,
+      "totalVotes": 2084873,
       "winner": "John Hickenlooper",
       "runoff": false,
       "source": "infobox",
@@ -30460,19 +30460,19 @@
        {
         "name": "Phil Weiser",
         "party": "D",
-        "votes": 1319726,
+        "votes": 1319781,
         "percentage": 60.9,
         "winner": true
        },
        {
         "name": "Victor Marx",
         "party": "R",
-        "votes": 728640,
+        "votes": 728650,
         "percentage": 33.6,
         "winner": false
        }
       ],
-      "totalVotes": 2048366,
+      "totalVotes": 2048431,
       "winner": "Phil Weiser",
       "runoff": false,
       "source": "infobox",
@@ -31049,7 +31049,7 @@
       "winner": "Chris Coons",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 99,
       "calledAt": "2026-11-04T10:33:10.534Z"
      },
      "ratings": [
@@ -31938,23 +31938,23 @@
        {
         "name": "Byron Donalds",
         "party": "R",
-        "votes": 3942784,
-        "percentage": 49.77,
+        "votes": 4132275,
+        "percentage": 50,
         "winner": true
        },
        {
         "name": "David Jolly",
         "party": "D",
-        "votes": 3879948,
-        "percentage": 48.97,
+        "votes": 4024554,
+        "percentage": 48.7,
         "winner": false
        }
       ],
-      "totalVotes": 7822732,
+      "totalVotes": 8156829,
       "winner": "Byron Donalds",
       "runoff": false,
       "source": "infobox",
-      "reporting": 97,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
