@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T06:05:40.683Z",
+ "generatedAt": "2026-11-04T06:08:38.232Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -23736,16 +23736,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_23",
     "candidates": [
      {
-      "name": "Brandon Herrera",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Katy Padilla Stout",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Brandon Herrera",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -23786,19 +23786,19 @@
       {
        "name": "Katy Padilla Stout",
        "party": "D",
-       "votes": 75576,
-       "percentage": 55.81,
+       "votes": 120621,
+       "percentage": 51.7,
        "winner": false
       },
       {
        "name": "Brandon Herrera",
        "party": "R",
-       "votes": 55544,
-       "percentage": 41.02,
+       "votes": 103761,
+       "percentage": 44.5,
        "winner": false
       }
      ],
-     "totalVotes": 131120,
+     "totalVotes": 224382,
      "winner": null,
      "runoff": false,
      "source": "infobox"
@@ -23807,8 +23807,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Brandon Herrera": 46,
-      "Katy Padilla Stout": 46
+      "Katy Padilla Stout": 46,
+      "Brandon Herrera": 46
      },
      "leader": null,
      "margin": 0
