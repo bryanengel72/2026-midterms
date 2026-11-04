@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T06:08:38.232Z",
+ "generatedAt": "2026-11-04T06:18:10.504Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -40051,23 +40051,23 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 1481936,
-        "percentage": 50.8,
+        "votes": 1933317,
+        "percentage": 51.9,
         "winner": false
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 1377524,
-        "percentage": 47.2,
+        "votes": 1720741,
+        "percentage": 46.2,
         "winner": false
        }
       ],
-      "totalVotes": 2859460,
+      "totalVotes": 3654058,
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 61
+      "reporting": 78
      },
      "ratings": [
       {
@@ -50086,26 +50086,26 @@
        {
         "name": "Amy Acton",
         "party": "D",
-        "votes": 2145218,
-        "percentage": 51,
+        "votes": 2204745,
+        "percentage": 51.3,
         "winner": false
        },
        {
         "name": "Vivek Ramaswamy",
         "party": "R",
-        "votes": 1921915,
-        "percentage": 45.7,
+        "votes": 1953015,
+        "percentage": 45.4,
         "winner": false
        },
        {
         "name": "Don Kissick",
         "party": "L",
-        "votes": 140926,
+        "votes": 143245,
         "percentage": 3.3,
         "winner": false
        }
       ],
-      "totalVotes": 4208059,
+      "totalVotes": 4301005,
       "winner": null,
       "runoff": false
      },
