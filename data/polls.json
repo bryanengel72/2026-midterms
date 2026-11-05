@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T13:43:32.871Z",
+ "generatedAt": "2026-11-05T14:58:32.613Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -52192,14 +52192,14 @@
         "name": "Amy Acton",
         "party": "D",
         "votes": 2404178,
-        "percentage": 52.3,
+        "percentage": 52.31,
         "winner": true
        },
        {
         "name": "Vivek Ramaswamy",
         "party": "R",
         "votes": 2039730,
-        "percentage": 44.3,
+        "percentage": 44.38,
         "winner": false
        },
        {
