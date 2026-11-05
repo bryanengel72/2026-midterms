@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T21:28:52.693Z",
+ "generatedAt": "2026-11-05T21:58:52.933Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -38872,7 +38872,7 @@
         "party": "D",
         "votes": 549974,
         "percentage": 50.32,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Ty Masterson",
@@ -38883,10 +38883,11 @@
        }
       ],
       "totalVotes": 1092903,
-      "winner": null,
+      "winner": "Cindy Holscher",
       "runoff": false,
       "source": "infobox",
-      "reporting": 99
+      "reporting": 99,
+      "calledAt": "2026-11-05T21:58:52.933Z"
      },
      "ratings": [
       {
