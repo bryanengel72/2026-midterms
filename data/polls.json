@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T16:13:33.250Z",
+ "generatedAt": "2026-11-05T16:58:32.385Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -13260,23 +13260,23 @@
       {
        "name": "Paul LePage",
        "party": "R",
-       "votes": 158825,
-       "percentage": 50.3,
+       "votes": 162598,
+       "percentage": 50.4,
        "winner": false
       },
       {
        "name": "Matthew Dunlap",
        "party": "D",
-       "votes": 156995,
-       "percentage": 49.7,
+       "votes": 160173,
+       "percentage": 49.6,
        "winner": false
       }
      ],
-     "totalVotes": 315820,
+     "totalVotes": 322771,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 92
+     "reporting": 94
     },
     "headline": {
      "basis": "simple-average",
