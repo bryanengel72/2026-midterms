@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T03:26:02.305Z",
+ "generatedAt": "2026-11-05T03:58:07.772Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -58374,7 +58374,7 @@
         "name": "Greg Abbott",
         "party": "R",
         "votes": 4524948,
-        "percentage": 45.7,
+        "percentage": 45.67,
         "winner": false
        }
       ],
