@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T08:13:08.232Z",
+ "generatedAt": "2026-11-05T11:02:19.140Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -29875,23 +29875,23 @@
        {
         "name": "Katie Hobbs",
         "party": "D",
-        "votes": 1170284,
-        "percentage": 55.83,
+        "votes": 1235066,
+        "percentage": 55.59,
         "winner": true
        },
        {
         "name": "Andy Biggs",
         "party": "R",
-        "votes": 890649,
-        "percentage": 42.49,
+        "votes": 948445,
+        "percentage": 42.69,
         "winner": false
        }
       ],
-      "totalVotes": 2060933,
+      "totalVotes": 2183511,
       "winner": "Katie Hobbs",
       "runoff": false,
       "source": "infobox",
-      "reporting": 76,
+      "reporting": 80,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -37887,24 +37887,28 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 556477,
-        "percentage": 50.99,
-        "winner": true
+        "votes": 559853,
+        "percentage": 51,
+        "winner": false
        },
        {
         "name": "Roger Marshall",
         "party": "R",
-        "votes": 503268,
-        "percentage": 45.99,
+        "votes": 504950,
+        "percentage": 46,
+        "winner": false
+       },
+       {
+        "name": "David Graham",
+        "party": "L",
+        "votes": 33117,
+        "percentage": 3,
         "winner": false
        }
       ],
-      "totalVotes": 1059745,
-      "winner": "Adam Hamilton",
-      "runoff": false,
-      "source": "infobox",
-      "reporting": 98.3,
-      "calledAt": "2026-11-04T06:05:40.683Z"
+      "totalVotes": 1097920,
+      "winner": null,
+      "runoff": false
      },
      "ratings": [
       {
@@ -55084,7 +55088,8 @@
        "name": "Darline Graham",
        "party": "R",
        "nominee": true,
-       "partyName": "Republican Party"
+       "partyName": "Republican Party",
+       "note": "replacing Lindsey Graham"
       }
      ],
      "results": {
