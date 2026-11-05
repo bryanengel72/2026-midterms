@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T00:56:00.850Z",
+ "generatedAt": "2026-11-05T01:11:00.652Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -23050,6 +23050,135 @@
     "latestPoll": null
    },
    {
+    "id": "TN-4",
+    "state": "TN",
+    "district": "4",
+    "pvi": "R+11",
+    "incumbent": {
+     "name": "Scott DesJarlais",
+     "party": "R"
+    },
+    "lastResult": "70.0% R",
+    "ratings": [
+     {
+      "source": "Cook",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "IE",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "Sabato",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "Econ.",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "ST",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "DDHQ",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "FPO",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "Fox",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "Silver",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     },
+     {
+      "source": "RCP",
+      "rating": "Safe R",
+      "strength": "Safe",
+      "lean": "R",
+      "flip": false
+     }
+    ],
+    "consensus": {
+     "rating": "Safe R",
+     "strength": "Safe",
+     "lean": "R",
+     "count": 10,
+     "of": 10
+    },
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee#District_4",
+    "candidates": [
+     {
+      "name": "Scott DesJarlais",
+      "party": "R",
+      "partyName": "Republican Party"
+     },
+     {
+      "name": "Victoria Broderick",
+      "party": "D",
+      "partyName": "Democratic Party"
+     }
+    ],
+    "polls": [],
+    "aggregates": [],
+    "results": {
+     "candidates": [
+      {
+       "name": "Victoria Broderick",
+       "party": "D",
+       "votes": 95585,
+       "percentage": 48.9,
+       "winner": false
+      },
+      {
+       "name": "Scott DesJarlais",
+       "party": "R",
+       "votes": 95305,
+       "percentage": 48.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 190890,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
+    "headline": null,
+    "latestPoll": null
+   },
+   {
     "id": "TN-5",
     "state": "TN",
     "district": "5",
@@ -27903,7 +28032,7 @@
   ],
   "safe": {
    "D": 182,
-   "R": 108,
+   "R": 107,
    "agreeing": 4,
    "of": 11
   }
