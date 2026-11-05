@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T15:43:32.840Z",
+ "generatedAt": "2026-11-05T15:58:32.407Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -45358,8 +45358,7 @@
       "totalVotes": 928714,
       "winner": null,
       "runoff": false,
-      "source": "infobox",
-      "reporting": 96
+      "source": "infobox"
      },
      "ratings": [
       {
