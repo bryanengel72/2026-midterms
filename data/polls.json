@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T02:56:01.673Z",
+ "generatedAt": "2026-11-05T03:11:01.425Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -22760,16 +22760,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina#District_1",
     "candidates": [
      {
-      "name": "Jenny Costa Honeycutt",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Nancy Lacore",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Jenny Costa Honeycutt",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      },
      {
       "name": "Bill Reeside Jr.",
@@ -22856,13 +22856,47 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Nancy Lacore",
+       "party": "D",
+       "votes": 161878,
+       "percentage": 49.7,
+       "winner": false
+      },
+      {
+       "name": "Jenny Costa Honeycutt",
+       "party": "R",
+       "votes": 158570,
+       "percentage": 48.6,
+       "winner": false
+      },
+      {
+       "name": "Bill Reeside Jr.",
+       "party": "L",
+       "votes": 5346,
+       "percentage": 1.6,
+       "winner": false
+      },
+      {
+       "name": "Write-ins",
+       "party": "O",
+       "votes": 218,
+       "percentage": 0.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 326012,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Jenny Costa Honeycutt": 45,
-      "Nancy Lacore": 47
+      "Nancy Lacore": 47,
+      "Jenny Costa Honeycutt": 45
      },
      "leader": "Nancy Lacore",
      "margin": 2
