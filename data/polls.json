@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T01:56:01.162Z",
+ "generatedAt": "2026-11-05T02:41:01.330Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24367,7 +24367,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Bobby Pulido",
+       "party": "D",
+       "votes": 126204,
+       "percentage": 62.3,
+       "winner": false
+      },
+      {
+       "name": "Monica De La Cruz",
+       "party": "R",
+       "votes": 76305,
+       "percentage": 37.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 202509,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -54877,14 +54898,14 @@
         "name": "Annie Andrews",
         "party": "D",
         "votes": 1042362,
-        "percentage": 51.1,
+        "percentage": 51.13,
         "winner": true
        },
        {
         "name": "Darline Graham",
         "party": "R",
         "votes": 951165,
-        "percentage": 46.7,
+        "percentage": 46.65,
         "winner": false
        }
       ],
