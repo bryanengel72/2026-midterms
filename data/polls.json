@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T02:41:01.330Z",
+ "generatedAt": "2026-11-05T02:56:01.673Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -11845,7 +11845,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Frank Mrvan",
+       "party": "D",
+       "votes": 412213,
+       "percentage": 63.02,
+       "winner": true
+      },
+      {
+       "name": "Barb Regnitz",
+       "party": "R",
+       "votes": 83468,
+       "percentage": 36.98,
+       "winner": false
+      }
+     ],
+     "totalVotes": 495681,
+     "winner": "Frank Mrvan",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T02:56:01.673Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -13223,23 +13245,23 @@
       {
        "name": "Paul LePage",
        "party": "R",
-       "votes": 153607,
-       "percentage": 50,
+       "votes": 158825,
+       "percentage": 50.3,
        "winner": false
       },
       {
        "name": "Matthew Dunlap",
        "party": "D",
-       "votes": 153470,
-       "percentage": 50,
+       "votes": 156995,
+       "percentage": 49.7,
        "winner": false
       }
      ],
-     "totalVotes": 307077,
+     "totalVotes": 315820,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 88
+     "reporting": 92
     },
     "headline": {
      "basis": "simple-average",
@@ -37718,14 +37740,14 @@
         "name": "Adam Hamilton",
         "party": "D",
         "votes": 556477,
-        "percentage": 50.9,
+        "percentage": 50.99,
         "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
         "votes": 503268,
-        "percentage": 46.1,
+        "percentage": 45.99,
         "winner": false
        }
       ],
