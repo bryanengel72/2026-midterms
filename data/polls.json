@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T15:28:32.428Z",
+ "generatedAt": "2026-11-05T15:43:32.840Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -15941,7 +15941,34 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Denise Powell",
+       "party": "D",
+       "votes": 138733,
+       "percentage": 56.41,
+       "winner": false
+      },
+      {
+       "name": "Brinker Harding",
+       "party": "R",
+       "votes": 100895,
+       "percentage": 41.02,
+       "winner": false
+      },
+      {
+       "name": "Eric Foreman",
+       "party": "L",
+       "votes": 6310,
+       "percentage": 2.57,
+       "winner": false
+      }
+     ],
+     "totalVotes": 245938,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: National Public Affairs, October 2–5, 2026",
