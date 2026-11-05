@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T23:41:00.999Z",
+ "generatedAt": "2026-11-05T00:11:01.097Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12966,13 +12966,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Zach Dembo": 46.7,
-      "Ralph Alvarado": 39.7
+      "Zach Dembo": 47,
+      "Ralph Alvarado": 41
      },
      "leader": "Zach Dembo",
-     "margin": 7
+     "margin": 6
     },
     "latestPoll": "2026-10-20"
    },
@@ -15672,8 +15672,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: National Public Affairs, October 2–5, 2026",
      "values": {
       "Brinker Harding": 38,
       "Denise Powell": 50
