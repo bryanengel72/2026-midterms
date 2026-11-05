@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T06:13:07.940Z",
+ "generatedAt": "2026-11-05T06:28:07.503Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -53430,23 +53430,23 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 864411,
-        "percentage": 56.6,
+        "votes": 915903,
+        "percentage": 56.8,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 619239,
-        "percentage": 40.5,
+        "votes": 650021,
+        "percentage": 40.3,
         "winner": false
        }
       ],
-      "totalVotes": 1483650,
+      "totalVotes": 1565924,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
-      "reporting": 75,
+      "reporting": 79,
       "calledAt": "2026-11-04T09:48:11.236Z"
      },
      "ratings": [
