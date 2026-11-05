@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T14:58:32.613Z",
+ "generatedAt": "2026-11-05T15:13:32.434Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -13565,7 +13565,62 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jack Bergman",
+       "party": "R",
+       "votes": 216960,
+       "percentage": 53.8,
+       "winner": false
+      },
+      {
+       "name": "Callie Barr",
+       "party": "D",
+       "votes": 178381,
+       "percentage": 44.2,
+       "winner": false
+      },
+      {
+       "name": "Arnett Satterla",
+       "party": "L",
+       "votes": 2757,
+       "percentage": 0.7,
+       "winner": false
+      },
+      {
+       "name": "Liz Hakola",
+       "party": "O",
+       "votes": 2383,
+       "percentage": 0.6,
+       "winner": false
+      },
+      {
+       "name": "Doc Kovaly",
+       "party": "C",
+       "votes": 1229,
+       "percentage": 0.3,
+       "winner": false
+      },
+      {
+       "name": "Zebulon Featherly",
+       "party": "I",
+       "votes": 922,
+       "percentage": 0.2,
+       "winner": false
+      },
+      {
+       "name": "LaVeta Davenport",
+       "party": "G",
+       "votes": 773,
+       "percentage": 0.2,
+       "winner": false
+      }
+     ],
+     "totalVotes": 403405,
+     "winner": null,
+     "runoff": false
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -13680,7 +13735,34 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Hillary Scholten",
+       "party": "D",
+       "votes": 211061,
+       "percentage": 57.1,
+       "winner": false
+      },
+      {
+       "name": "Terri DeBoer",
+       "party": "R",
+       "votes": 152988,
+       "percentage": 41.4,
+       "winner": false
+      },
+      {
+       "name": "Joe Jock",
+       "party": "I",
+       "votes": 5339,
+       "percentage": 1.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 369388,
+     "winner": null,
+     "runoff": false
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -13873,7 +13955,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Sean McCann",
+       "party": "D",
+       "votes": 185440,
+       "percentage": 50.1,
+       "winner": true
+      },
+      {
+       "name": "Bill Huizenga",
+       "party": "R",
+       "votes": 178741,
+       "percentage": 48.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 364181,
+     "winner": "Sean McCann",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T15:13:32.434Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -13985,16 +14089,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_7",
     "candidates": [
      {
-      "name": "Tom Barrett",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "William Lawrence",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Tom Barrett",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -14045,13 +14149,40 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "William Lawrence",
+       "party": "D",
+       "votes": 202657,
+       "percentage": 51,
+       "winner": false
+      },
+      {
+       "name": "Tom Barrett",
+       "party": "R",
+       "votes": 189482,
+       "percentage": 47.7,
+       "winner": false
+      },
+      {
+       "name": "Shane Dedrick",
+       "party": "G",
+       "votes": 4974,
+       "percentage": 1.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 397113,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Tom Barrett": 45,
-      "William Lawrence": 53
+      "William Lawrence": 53,
+      "Tom Barrett": 45
      },
      "leader": "William Lawrence",
      "margin": 8
@@ -14162,14 +14293,55 @@
       "partyName": "Democratic Party"
      },
      {
-      "name": "Tom Smith",
+      "name": "Thomas Smith",
       "party": "R",
       "partyName": "Republican Party"
      }
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Kristen McDonald Rivet",
+       "party": "D",
+       "votes": 195849,
+       "percentage": 55.5,
+       "winner": false
+      },
+      {
+       "name": "Thomas Smith",
+       "party": "R",
+       "votes": 147851,
+       "percentage": 41.9,
+       "winner": false
+      },
+      {
+       "name": "Kathy Goodwin",
+       "party": "O",
+       "votes": 5169,
+       "percentage": 1.5,
+       "winner": false
+      },
+      {
+       "name": "C. Mia Pettus",
+       "party": "L",
+       "votes": 2857,
+       "percentage": 0.8,
+       "winner": false
+      },
+      {
+       "name": "Jim Casha",
+       "party": "G",
+       "votes": 1044,
+       "percentage": 0.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 352770,
+     "winner": null,
+     "runoff": false
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -14272,16 +14444,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan#District_10",
     "candidates": [
      {
-      "name": "Mike Bouchard Jr.",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Christina Hines",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Michael Bouchard",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -14294,7 +14466,7 @@
       "population": "LV",
       "moe": 4.9,
       "values": {
-       "Mike Bouchard Jr.": 47,
+       "Michael Bouchard": 47,
        "Christina Hines": 42
       },
       "other": 6,
@@ -14309,7 +14481,7 @@
       "population": "LV",
       "moe": 4.4,
       "values": {
-       "Mike Bouchard Jr.": 45,
+       "Michael Bouchard": 45,
        "Christina Hines": 45
       },
       "other": null,
@@ -14324,7 +14496,7 @@
       "population": "RV",
       "moe": 4,
       "values": {
-       "Mike Bouchard Jr.": 42,
+       "Michael Bouchard": 42,
        "Christina Hines": 44
       },
       "other": null,
@@ -14332,15 +14504,56 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Christina Hines",
+       "party": "D",
+       "votes": 188078,
+       "percentage": 52.4,
+       "winner": false
+      },
+      {
+       "name": "Michael Bouchard",
+       "party": "R",
+       "votes": 162347,
+       "percentage": 45.3,
+       "winner": false
+      },
+      {
+       "name": "Andrea Kirby",
+       "party": "O",
+       "votes": 3978,
+       "percentage": 1.1,
+       "winner": false
+      },
+      {
+       "name": "Mike Saliba",
+       "party": "L",
+       "votes": 3088,
+       "percentage": 0.9,
+       "winner": false
+      },
+      {
+       "name": "Kwabena Nkromo",
+       "party": "G",
+       "votes": 1174,
+       "percentage": 0.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 358665,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Mike Bouchard Jr.": 47,
-      "Christina Hines": 42
+      "Christina Hines": 42,
+      "Michael Bouchard": 47
      },
-     "leader": "Mike Bouchard Jr.",
+     "leader": "Michael Bouchard",
      "margin": 5
     },
     "latestPoll": "2026-10-23"
