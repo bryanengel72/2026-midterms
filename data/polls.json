@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T17:28:32.920Z",
+ "generatedAt": "2026-11-05T20:00:57.737Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -5932,7 +5932,27 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Shomari Figures",
+       "party": "D",
+       "votes": 124422,
+       "percentage": 53.75,
+       "winner": false
+      },
+      {
+       "name": "Rhett Marques",
+       "party": "R",
+       "votes": 107049,
+       "percentage": 46.25,
+       "winner": false
+      }
+     ],
+     "totalVotes": 231471,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -31771,23 +31791,49 @@
        {
         "name": "John Hickenlooper",
         "party": "D",
-        "votes": 1310937,
-        "percentage": 60.2,
+        "votes": 1425835,
+        "percentage": 59.79,
         "winner": true
        },
        {
         "name": "Mark Baisley",
         "party": "R",
-        "votes": 773936,
-        "percentage": 35.6,
+        "votes": 855067,
+        "percentage": 35.86,
+        "winner": false
+       },
+       {
+        "name": "Bob Chew",
+        "party": "I",
+        "votes": 62166,
+        "percentage": 2.61,
+        "winner": false
+       },
+       {
+        "name": "Blake Huber",
+        "party": "L",
+        "votes": 27223,
+        "percentage": 1.14,
+        "winner": false
+       },
+       {
+        "name": "Adam Withrow",
+        "party": "O",
+        "votes": 10959,
+        "percentage": 0.46,
+        "winner": false
+       },
+       {
+        "name": "Christopher Baum",
+        "party": "O",
+        "votes": 3519,
+        "percentage": 0.19,
         "winner": false
        }
       ],
-      "totalVotes": 2084873,
+      "totalVotes": 2384769,
       "winner": "John Hickenlooper",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 88,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
@@ -32775,21 +32821,21 @@
         "name": "Ashley Moody",
         "party": "R",
         "votes": 4207173,
-        "percentage": 50.9,
+        "percentage": 50.88,
         "winner": false
        },
        {
         "name": "Angie Nixon",
         "party": "D",
         "votes": 3967674,
-        "percentage": 48,
+        "percentage": 47.98,
         "winner": false
        },
        {
         "name": "Neil J. Gillespie",
         "party": "I",
         "votes": 94501,
-        "percentage": 1.1,
+        "percentage": 1.14,
         "winner": false
        }
       ],
@@ -39371,14 +39417,14 @@
         "name": "Julia Letlow",
         "party": "R",
         "votes": 745963,
-        "percentage": 50.9,
+        "percentage": 50.88,
         "winner": true
        },
        {
         "name": "Jamie Davis",
         "party": "D",
         "votes": 720106,
-        "percentage": 49.1,
+        "percentage": 49.12,
         "winner": false
        }
       ],
@@ -45363,22 +45409,28 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 464926,
-        "percentage": 49.01,
+        "votes": 466226,
+        "percentage": 49,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 463788,
-        "percentage": 48.89,
+        "votes": 464502,
+        "percentage": 48.9,
+        "winner": false
+       },
+       {
+        "name": "Ty Pinkins",
+        "party": "I",
+        "votes": 19978,
+        "percentage": 2.1,
         "winner": false
        }
       ],
-      "totalVotes": 928714,
+      "totalVotes": 950706,
       "winner": null,
-      "runoff": false,
-      "source": "infobox"
+      "runoff": false
      },
      "ratings": [
       {
