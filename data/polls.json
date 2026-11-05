@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T05:43:07.483Z",
+ "generatedAt": "2026-11-05T06:13:07.940Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -52147,26 +52147,26 @@
        {
         "name": "Amy Acton",
         "party": "D",
-        "votes": 2204745,
-        "percentage": 51.3,
+        "votes": 2404178,
+        "percentage": 52.3,
         "winner": true
        },
        {
         "name": "Vivek Ramaswamy",
         "party": "R",
-        "votes": 1953015,
-        "percentage": 45.4,
+        "votes": 2039730,
+        "percentage": 44.3,
         "winner": false
        },
        {
         "name": "Don Kissick",
         "party": "L",
-        "votes": 143245,
+        "votes": 151874,
         "percentage": 3.3,
         "winner": false
        }
       ],
-      "totalVotes": 4301005,
+      "totalVotes": 4595782,
       "winner": "Amy Acton",
       "runoff": false,
       "calledAt": "2026-11-04T22:11:00.904Z"
@@ -53593,23 +53593,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 795725,
-        "percentage": 51.7,
+        "votes": 843263,
+        "percentage": 51.9,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 699400,
-        "percentage": 45.5,
+        "votes": 735625,
+        "percentage": 45.3,
         "winner": false
        }
       ],
-      "totalVotes": 1495125,
+      "totalVotes": 1578888,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 75,
+      "reporting": 79,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
