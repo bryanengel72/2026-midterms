@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T22:43:53.439Z",
+ "generatedAt": "2026-11-05T23:13:54.207Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -15927,7 +15927,30 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Mike Flood",
+       "party": "R",
+       "votes": 124881,
+       "percentage": 50.3,
+       "winner": true
+      },
+      {
+       "name": "Chris Backemeyer",
+       "party": "D",
+       "votes": 114664,
+       "percentage": 46.2,
+       "winner": false
+      }
+     ],
+     "totalVotes": 239545,
+     "winner": "Mike Flood",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 92,
+     "calledAt": "2026-11-05T23:13:54.207Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -16039,16 +16062,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska#District_2",
     "candidates": [
      {
-      "name": "Brinker Harding",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Denise Powell",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Brinker Harding",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -46503,23 +46526,23 @@
        {
         "name": "Pete Ricketts",
         "party": "R",
-        "votes": 368798,
-        "percentage": 50.3,
+        "votes": 373160,
+        "percentage": 50.4,
         "winner": true
        },
        {
         "name": "Dan Osborn",
         "party": "I",
-        "votes": 320562,
-        "percentage": 43.7,
+        "votes": 322646,
+        "percentage": 43.6,
         "winner": false
        }
       ],
-      "totalVotes": 689360,
+      "totalVotes": 695806,
       "winner": "Pete Ricketts",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 94,
       "calledAt": "2026-11-04T10:18:10.392Z"
      },
      "ratings": [
@@ -47072,23 +47095,23 @@
        {
         "name": "Jim Pillen",
         "party": "R",
-        "votes": 371775,
-        "percentage": 50.6,
+        "votes": 376285,
+        "percentage": 50.8,
         "winner": true
        },
        {
         "name": "Lynne Walz",
         "party": "D",
-        "votes": 310774,
-        "percentage": 42.3,
+        "votes": 312653,
+        "percentage": 42.2,
         "winner": false
        }
       ],
-      "totalVotes": 682549,
+      "totalVotes": 688938,
       "winner": "Jim Pillen",
       "runoff": false,
       "source": "infobox",
-      "reporting": 91,
+      "reporting": 94,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
