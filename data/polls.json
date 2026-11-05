@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T23:13:54.207Z",
+ "generatedAt": "2026-11-05T23:28:54.030Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8624,7 +8624,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Austin Rogers",
+       "party": "R",
+       "votes": 160968,
+       "percentage": 52.1,
+       "winner": true
+      },
+      {
+       "name": "Amanda Green",
+       "party": "D",
+       "votes": 147792,
+       "percentage": 47.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 308760,
+     "winner": "Austin Rogers",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -8739,7 +8761,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Kat Cammack",
+       "party": "R",
+       "votes": 165335,
+       "percentage": 55.1,
+       "winner": true
+      },
+      {
+       "name": "Seth Harp",
+       "party": "D",
+       "votes": 128882,
+       "percentage": 43,
+       "winner": false
+      }
+     ],
+     "totalVotes": 294217,
+     "winner": "Kat Cammack",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -8854,7 +8898,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Aaron Bean",
+       "party": "R",
+       "votes": 151114,
+       "percentage": 50.2,
+       "winner": true
+      },
+      {
+       "name": "LaShonda Holloway",
+       "party": "D",
+       "votes": 144795,
+       "percentage": 48.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 295909,
+     "winner": "Aaron Bean",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -8969,7 +9035,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "John Rutherford",
+       "party": "R",
+       "votes": 187951,
+       "percentage": 56.4,
+       "winner": true
+      },
+      {
+       "name": "Rachel Grage",
+       "party": "D",
+       "votes": 145160,
+       "percentage": 43.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 333111,
+     "winner": "John Rutherford",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -9095,7 +9183,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Ryan Elijah",
+       "party": "R",
+       "votes": 161189,
+       "percentage": 49.7,
+       "winner": false
+      },
+      {
+       "name": "Bale Dalton",
+       "party": "D",
+       "votes": 159488,
+       "percentage": 49.2,
+       "winner": false
+      }
+     ],
+     "totalVotes": 320677,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -9252,7 +9361,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Mike Haridopolos",
+       "party": "R",
+       "votes": 169863,
+       "percentage": 53.2,
+       "winner": true
+      },
+      {
+       "name": "Jennifer Jenkins",
+       "party": "D",
+       "votes": 149586,
+       "percentage": 46.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 319449,
+     "winner": "Mike Haridopolos",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Inquire LLC (R), July 27–29, 2026",
@@ -9402,7 +9533,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Darren Soto",
+       "party": "D",
+       "votes": 143174,
+       "percentage": 50.3,
+       "winner": false
+      },
+      {
+       "name": "Dan Green",
+       "party": "R",
+       "votes": 141697,
+       "percentage": 49.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 284871,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -9544,7 +9696,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Joe Strada",
+       "party": "R",
+       "votes": 193518,
+       "percentage": 52.9,
+       "winner": true
+      },
+      {
+       "name": "James Pericola",
+       "party": "D",
+       "votes": 168108,
+       "percentage": 46,
+       "winner": false
+      }
+     ],
+     "totalVotes": 361626,
+     "winner": "Joe Strada",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: MDW Communications (D), July 28–29, 2026",
@@ -9670,7 +9844,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Gus Bilirakis",
+       "party": "R",
+       "votes": 150746,
+       "percentage": 52.7,
+       "winner": true
+      },
+      {
+       "name": "Kimberly Overman",
+       "party": "D",
+       "votes": 131309,
+       "percentage": 45.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 282055,
+     "winner": "Gus Bilirakis",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -9878,7 +10074,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Anna Paulina Luna",
+       "party": "R",
+       "votes": 155117,
+       "percentage": 49.5,
+       "winner": true
+      },
+      {
+       "name": "Leela Gray",
+       "party": "D",
+       "votes": 152600,
+       "percentage": 48.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 307717,
+     "winner": "Anna Paulina Luna",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
@@ -10035,7 +10253,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Kathy Castor",
+       "party": "D",
+       "votes": 153586,
+       "percentage": 51.2,
+       "winner": true
+      },
+      {
+       "name": "Mike Beltran",
+       "party": "R",
+       "votes": 137599,
+       "percentage": 45.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 291185,
+     "winner": "Kathy Castor",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T23:28:54.030Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -15739,7 +15979,34 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Sam Forstag",
+       "party": "D",
+       "votes": 132003,
+       "percentage": 50.3,
+       "winner": false
+      },
+      {
+       "name": "Aaron Flint",
+       "party": "R",
+       "votes": 122694,
+       "percentage": 46.8,
+       "winner": false
+      },
+      {
+       "name": "Nick Sheedy",
+       "party": "L",
+       "votes": 7522,
+       "percentage": 2.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 262219,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 4 polls from the last 30 days (newest per pollster)",
