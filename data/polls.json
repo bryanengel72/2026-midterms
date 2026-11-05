@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T11:02:19.140Z",
+ "generatedAt": "2026-11-05T12:43:33.200Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24995,7 +24995,7 @@
       "rating": "Padilla Stout",
       "strength": null,
       "lean": null,
-      "flip": false
+      "flip": true
      }
     ],
     "consensus": {
@@ -33255,14 +33255,14 @@
         "name": "Byron Donalds",
         "party": "R",
         "votes": 4132275,
-        "percentage": 50,
+        "percentage": 50.02,
         "winner": true
        },
        {
         "name": "David Jolly",
         "party": "D",
         "votes": 4024554,
-        "percentage": 48.7,
+        "percentage": 48.71,
         "winner": false
        }
       ],
@@ -46969,23 +46969,23 @@
        {
         "name": "Aaron Ford",
         "party": "D",
-        "votes": 506653,
-        "percentage": 51.7,
+        "votes": 530510,
+        "percentage": 51.53,
         "winner": true
        },
        {
         "name": "Joe Lombardo",
         "party": "R",
-        "votes": 432732,
-        "percentage": 44.15,
+        "votes": 455302,
+        "percentage": 44.22,
         "winner": false
        }
       ],
-      "totalVotes": 939385,
+      "totalVotes": 985812,
       "winner": "Aaron Ford",
       "runoff": false,
       "source": "infobox",
-      "reporting": 87,
+      "reporting": 90,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -49359,23 +49359,23 @@
        {
         "name": "Kathy Hochul",
         "party": "D",
-        "votes": 3552397,
-        "percentage": 60.1,
+        "votes": 3576763,
+        "percentage": 60,
         "winner": true
        },
        {
         "name": "Bruce Blakeman",
         "party": "R",
-        "votes": 2348681,
-        "percentage": 39.7,
+        "votes": 2373666,
+        "percentage": 39.8,
         "winner": false
        }
       ],
-      "totalVotes": 5901078,
+      "totalVotes": 5950429,
       "winner": "Kathy Hochul",
       "runoff": false,
       "source": "infobox",
-      "reporting": 88,
+      "reporting": 93,
       "calledAt": "2026-11-04T10:33:10.534Z"
      },
      "ratings": [
