@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T03:58:07.772Z",
+ "generatedAt": "2026-11-05T04:13:07.633Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -15837,7 +15837,30 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Dina Titus",
+       "party": "D",
+       "votes": 127098,
+       "percentage": 59,
+       "winner": true
+      },
+      {
+       "name": "Carrie Buck",
+       "party": "R",
+       "votes": 81873,
+       "percentage": 38,
+       "winner": false
+      }
+     ],
+     "totalVotes": 208971,
+     "winner": "Dina Titus",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 85,
+     "calledAt": "2026-11-05T04:13:07.633Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -15933,16 +15956,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nevada#District_2",
     "candidates": [
      {
-      "name": "David Flippo",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Teresa Benitez-Thompson",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "David Flippo",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      },
      {
       "name": "Lynn Chapman",
@@ -15985,7 +16008,37 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Teresa Benitez-Thompson",
+       "party": "D",
+       "votes": 150333,
+       "percentage": 50.3,
+       "winner": true
+      },
+      {
+       "name": "David Flippo",
+       "party": "R",
+       "votes": 132762,
+       "percentage": 44.4,
+       "winner": false
+      },
+      {
+       "name": "Lynn Chapman",
+       "party": "I",
+       "votes": 15994,
+       "percentage": 5.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 299089,
+     "winner": "Teresa Benitez-Thompson",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 93,
+     "calledAt": "2026-11-05T04:13:07.633Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: GBAO (D), August 31 – September 3, 2026",
@@ -16128,7 +16181,30 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Susie Lee",
+       "party": "D",
+       "votes": 146863,
+       "percentage": 59.1,
+       "winner": true
+      },
+      {
+       "name": "Martin O'Donnell",
+       "party": "R",
+       "votes": 95845,
+       "percentage": 38.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 242708,
+     "winner": "Susie Lee",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 85,
+     "calledAt": "2026-11-05T04:13:07.633Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -16252,7 +16328,30 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Steven Horsford",
+       "party": "D",
+       "votes": 136704,
+       "percentage": 60,
+       "winner": true
+      },
+      {
+       "name": "Cody Whipple",
+       "party": "R",
+       "votes": 86861,
+       "percentage": 38.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 223565,
+     "winner": "Steven Horsford",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 86,
+     "calledAt": "2026-11-05T04:13:07.633Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -28687,19 +28786,19 @@
        {
         "name": "Mary Peltola",
         "party": "D",
-        "votes": 102701,
+        "votes": 102962,
         "percentage": 48.18,
         "winner": false
        },
        {
         "name": "Dan S. Sullivan",
         "party": "R",
-        "votes": 102075,
+        "votes": 102325,
         "percentage": 47.88,
         "winner": false
        }
       ],
-      "totalVotes": 204776,
+      "totalVotes": 205287,
       "winner": null,
       "runoff": false,
       "source": "infobox",
