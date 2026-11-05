@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T15:13:32.434Z",
+ "generatedAt": "2026-11-05T15:28:32.428Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -42088,7 +42088,7 @@
         "party": "D",
         "votes": 2507454,
         "percentage": 52.5,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Mike Rogers",
@@ -42127,8 +42127,9 @@
        }
       ],
       "totalVotes": 4775693,
-      "winner": null,
-      "runoff": false
+      "winner": "Abdul El-Sayed",
+      "runoff": false,
+      "calledAt": "2026-11-05T15:28:32.428Z"
      },
      "ratings": [
       {
