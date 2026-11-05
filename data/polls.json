@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T20:00:57.737Z",
+ "generatedAt": "2026-11-05T21:13:52.903Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8246,16 +8246,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado#District_5",
     "candidates": [
      {
-      "name": "Jeff Crank",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Jessica Killin",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Jeff Crank",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -8326,8 +8326,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Jeff Crank": 42.5,
-      "Jessica Killin": 45
+      "Jessica Killin": 45,
+      "Jeff Crank": 42.5
      },
      "leader": "Jessica Killin",
      "margin": 2.5
@@ -12199,16 +12199,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa#District_1",
     "candidates": [
      {
-      "name": "Mariannette Miller-Meeks",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Christina Bohannan",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Mariannette Miller-Meeks",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      },
      {
       "name": "Michael Bridgford",
@@ -12266,7 +12266,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Christina Bohannan",
+       "party": "D",
+       "votes": 182396,
+       "percentage": 52.8,
+       "winner": true
+      },
+      {
+       "name": "Mariannette Miller-Meeks",
+       "party": "R",
+       "votes": 150471,
+       "percentage": 43.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 332867,
+     "winner": "Christina Bohannan",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T21:13:52.903Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Wavefield Research, September 29 – October 2, 2026",
@@ -12379,16 +12401,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa#District_2",
     "candidates": [
      {
-      "name": "Joe Mitchell",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Lindsay James",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Joe Mitchell",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -12439,13 +12461,35 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Lindsay James",
+       "party": "D",
+       "votes": 171512,
+       "percentage": 49.5,
+       "winner": true
+      },
+      {
+       "name": "Joe Mitchell",
+       "party": "R",
+       "votes": 157722,
+       "percentage": 45.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 329234,
+     "winner": "Lindsay James",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T21:13:52.903Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Joe Mitchell": 47,
-      "Lindsay James": 50
+      "Lindsay James": 50,
+      "Joe Mitchell": 47
      },
      "leader": "Lindsay James",
      "margin": 3
@@ -12551,16 +12595,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa#District_3",
     "candidates": [
      {
-      "name": "Zach Nunn",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Sarah Trone Garriott",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Zach Nunn",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -12581,7 +12625,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Sarah Trone Garriott",
+       "party": "D",
+       "votes": 189349,
+       "percentage": 53.6,
+       "winner": true
+      },
+      {
+       "name": "Zach Nunn",
+       "party": "R",
+       "votes": 163631,
+       "percentage": 46.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 352980,
+     "winner": "Sarah Trone Garriott",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-05T21:13:52.903Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Ragnar Research Partners (R), March 12–14, 2026",
@@ -35584,7 +35650,29 @@
        "partyName": "Republican Party"
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Josh Green",
+        "party": "D",
+        "votes": 278652,
+        "percentage": 72.6,
+        "winner": false
+       },
+       {
+        "name": "Gary Cordery",
+        "party": "R",
+        "votes": 104926,
+        "percentage": 27.4,
+        "winner": false
+       }
+      ],
+      "totalVotes": 383578,
+      "winner": null,
+      "runoff": false,
+      "source": "infobox",
+      "reporting": 99
+     },
      "ratings": [
       {
        "source": "Cook Political Report",
@@ -39663,23 +39751,23 @@
        {
         "name": "Troy Jackson",
         "party": "D",
-        "votes": 365617,
-        "percentage": 53.6,
+        "votes": 372238,
+        "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Susan Collins",
         "party": "R",
-        "votes": 315657,
-        "percentage": 46.3,
+        "votes": 326151,
+        "percentage": 46.7,
         "winner": false
        }
       ],
-      "totalVotes": 681274,
+      "totalVotes": 698389,
       "winner": "Troy Jackson",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
+      "reporting": 92,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
