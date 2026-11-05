@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T00:11:01.097Z",
+ "generatedAt": "2026-11-05T00:26:00.662Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -7144,16 +7144,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326)#District_6",
     "candidates": [
      {
-      "name": "Kevin Kiley",
-      "party": "I",
-      "nominee": true,
-      "partyName": "No party preference"
-     },
-     {
       "name": "Richard Pan",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Kevin Kiley",
+      "party": "I",
+      "nominee": true,
+      "partyName": "No party preference"
      }
     ],
     "polls": [
@@ -7209,8 +7209,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Kevin Kiley": 38,
-      "Richard Pan": 51
+      "Richard Pan": 51,
+      "Kevin Kiley": 38
      },
      "leader": "Richard Pan",
      "margin": 13
@@ -7546,16 +7546,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326)#District_22",
     "candidates": [
      {
-      "name": "David Valadao",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Randy Villegas",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "David Valadao",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -7596,8 +7596,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "David Valadao": 41,
-      "Randy Villegas": 52
+      "Randy Villegas": 52,
+      "David Valadao": 41
      },
      "leader": "Randy Villegas",
      "margin": 11
@@ -10701,7 +10701,7 @@
       "rating": "Dandiya",
       "strength": null,
       "lean": null,
-      "flip": true
+      "flip": false
      }
     ],
     "consensus": {
