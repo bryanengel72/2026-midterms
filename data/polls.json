@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T21:13:52.903Z",
+ "generatedAt": "2026-11-05T21:28:52.693Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12646,6 +12646,7 @@
      "winner": "Sarah Trone Garriott",
      "runoff": false,
      "source": "infobox",
+     "reporting": 98.8,
      "calledAt": "2026-11-05T21:13:52.903Z"
     },
     "headline": {
@@ -60174,7 +60175,7 @@
         "name": "Amanda Janoo",
         "party": "D",
         "votes": 141572,
-        "percentage": 45.6,
+        "percentage": 45.65,
         "winner": false
        }
       ],
