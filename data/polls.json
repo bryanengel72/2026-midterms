@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T22:13:52.506Z",
+ "generatedAt": "2026-11-05T22:43:53.439Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -36737,23 +36737,23 @@
        {
         "name": "JB Pritzker",
         "party": "D",
-        "votes": 2335631,
-        "percentage": 59.8,
+        "votes": 2930469,
+        "percentage": 59.6,
         "winner": true
        },
        {
         "name": "Darren Bailey",
         "party": "R",
-        "votes": 1438609,
-        "percentage": 36.8,
+        "votes": 1483222,
+        "percentage": 37,
         "winner": false
        }
       ],
-      "totalVotes": 3774240,
+      "totalVotes": 4413691,
       "winner": "JB Pritzker",
       "runoff": false,
       "source": "infobox",
-      "reporting": 91,
+      "reporting": 93,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
