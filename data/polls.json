@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T07:13:07.982Z",
+ "generatedAt": "2026-11-05T08:13:08.232Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -41871,22 +41871,47 @@
         "party": "D",
         "votes": 2507454,
         "percentage": 52.5,
-        "winner": true
+        "winner": false
        },
        {
         "name": "Mike Rogers",
         "party": "R",
         "votes": 2172586,
-        "percentage": 45.5,
+        "percentage": 45.49,
+        "winner": false
+       },
+       {
+        "name": "Lydia Christensen",
+        "party": "L",
+        "votes": 49484,
+        "percentage": 1.04,
+        "winner": false
+       },
+       {
+        "name": "Tim Long",
+        "party": "C",
+        "votes": 26417,
+        "percentage": 0.55,
+        "winner": false
+       },
+       {
+        "name": "Douglas P. Marsh",
+        "party": "G",
+        "votes": 12510,
+        "percentage": 0.26,
+        "winner": false
+       },
+       {
+        "name": "Walter P. Kristy",
+        "party": "O",
+        "votes": 7232,
+        "percentage": 0.15,
         "winner": false
        }
       ],
-      "totalVotes": 4680040,
-      "winner": "Abdul El-Sayed",
-      "runoff": false,
-      "source": "infobox",
-      "reporting": 98,
-      "calledAt": "2026-11-04T07:33:11.252Z"
+      "totalVotes": 4775693,
+      "winner": null,
+      "runoff": false
      },
      "ratings": [
       {
