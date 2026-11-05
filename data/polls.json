@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T06:28:07.503Z",
+ "generatedAt": "2026-11-05T07:13:07.982Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -5871,6 +5871,21 @@
     ],
     "polls": [
      {
+      "pollster": "Remington Research Group",
+      "dates": "October 23–25, 2026",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "sample": 642,
+      "population": "LV",
+      "moe": 4,
+      "values": {
+       "Shomari Figures": 46,
+       "Rhett Marques": 48
+      },
+      "other": null,
+      "undecided": 6
+     },
+     {
       "pollster": "Tulchin Research (D)",
       "dates": "August 24–31, 2026",
       "start": "2026-08-24",
@@ -5919,16 +5934,16 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "latest-poll",
-     "detail": "Most recent poll: Tulchin Research (D), August 24–31, 2026",
+     "basis": "simple-average",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Shomari Figures": 47,
-      "Rhett Marques": 47
+      "Shomari Figures": 46,
+      "Rhett Marques": 48
      },
-     "leader": null,
-     "margin": 0
+     "leader": "Rhett Marques",
+     "margin": 2
     },
-    "latestPoll": "2026-08-31"
+    "latestPoll": "2026-10-25"
    },
    {
     "id": "AK-AL",
