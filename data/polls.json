@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T01:11:00.652Z",
+ "generatedAt": "2026-11-05T01:26:00.591Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -47182,7 +47182,7 @@
      },
      "candidates": [
       {
-       "name": "Abigail Emmons",
+       "name": "Chris Pappas",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
@@ -47197,11 +47197,11 @@
      "results": {
       "candidates": [
        {
-        "name": "Abigail Emmons",
+        "name": "Chris Pappas",
         "party": "D",
         "votes": 341737,
         "percentage": 56.1,
-        "winner": false
+        "winner": true
        },
        {
         "name": "John E. Sununu",
@@ -47212,10 +47212,11 @@
        }
       ],
       "totalVotes": 599190,
-      "winner": null,
+      "winner": "Chris Pappas",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94
+      "reporting": 94,
+      "calledAt": "2026-11-05T01:26:00.591Z"
      },
      "ratings": [
       {
@@ -47331,7 +47332,7 @@
        "updated": "November 3, 2026",
        "updatedIso": "2026-11-03",
        "values": {
-        "Abigail Emmons": 50.8,
+        "Chris Pappas": 50.8,
         "John E. Sununu": 42.6
        },
        "otherUndecided": 6.6
@@ -47343,7 +47344,7 @@
        "updated": "November 3, 2026",
        "updatedIso": "2026-11-03",
        "values": {
-        "Abigail Emmons": 52,
+        "Chris Pappas": 52,
         "John E. Sununu": 43.6
        },
        "otherUndecided": 4.4
@@ -47355,7 +47356,7 @@
        "updated": "November 3, 2026",
        "updatedIso": "2026-11-03",
        "values": {
-        "Abigail Emmons": 51.8,
+        "Chris Pappas": 51.8,
         "John E. Sununu": 43
        },
        "otherUndecided": 6.9
@@ -47367,7 +47368,7 @@
        "updated": "November 2, 2026",
        "updatedIso": "2026-11-02",
        "values": {
-        "Abigail Emmons": 50.8,
+        "Chris Pappas": 50.8,
         "John E. Sununu": 42.8
        },
        "otherUndecided": 6.4
@@ -47379,7 +47380,7 @@
        "updated": "November 3, 2026",
        "updatedIso": "2026-11-03",
        "values": {
-        "Abigail Emmons": 51.3,
+        "Chris Pappas": 51.3,
         "John E. Sununu": 43.1
        },
        "otherUndecided": 5.6
@@ -47391,7 +47392,7 @@
        "updated": "",
        "updatedIso": null,
        "values": {
-        "Abigail Emmons": 51.3,
+        "Chris Pappas": 51.3,
         "John E. Sununu": 43
        },
        "otherUndecided": 5.7
@@ -47407,7 +47408,7 @@
        "population": "LV",
        "moe": 3,
        "values": {
-        "Abigail Emmons": 52,
+        "Chris Pappas": 52,
         "John E. Sununu": 44
        },
        "other": 2,
@@ -47422,7 +47423,7 @@
        "population": "LV",
        "moe": 2.2,
        "values": {
-        "Abigail Emmons": 54,
+        "Chris Pappas": 54,
         "John E. Sununu": 42
        },
        "other": 2,
@@ -47437,7 +47438,7 @@
        "population": "LV",
        "moe": 3.5,
        "values": {
-        "Abigail Emmons": 51,
+        "Chris Pappas": 51,
         "John E. Sununu": 45
        },
        "other": 2,
@@ -47452,7 +47453,7 @@
        "population": "LV",
        "moe": 3,
        "values": {
-        "Abigail Emmons": 50,
+        "Chris Pappas": 50,
         "John E. Sununu": 44
        },
        "other": 4,
@@ -47467,7 +47468,7 @@
        "population": "LV",
        "moe": 2.4,
        "values": {
-        "Abigail Emmons": 50,
+        "Chris Pappas": 50,
         "John E. Sununu": 43
        },
        "other": 5,
@@ -47482,7 +47483,7 @@
        "population": "LV",
        "moe": 5,
        "values": {
-        "Abigail Emmons": 48,
+        "Chris Pappas": 48,
         "John E. Sununu": 41
        },
        "other": 4,
@@ -47497,7 +47498,7 @@
        "population": "LV",
        "moe": 4,
        "values": {
-        "Abigail Emmons": 50,
+        "Chris Pappas": 50,
         "John E. Sununu": 45
        },
        "other": null,
@@ -47512,7 +47513,7 @@
        "population": "LV",
        "moe": 3.9,
        "values": {
-        "Abigail Emmons": 51,
+        "Chris Pappas": 51,
         "John E. Sununu": 43
        },
        "other": 1,
@@ -47527,7 +47528,7 @@
        "population": "LV",
        "moe": 3,
        "values": {
-        "Abigail Emmons": 49,
+        "Chris Pappas": 49,
         "John E. Sununu": 44
        },
        "other": 3,
@@ -47542,7 +47543,7 @@
        "population": "LV",
        "moe": 3,
        "values": {
-        "Abigail Emmons": 51,
+        "Chris Pappas": 51,
         "John E. Sununu": 44
        },
        "other": 3,
@@ -47557,7 +47558,7 @@
        "population": "LV",
        "moe": 2.9,
        "values": {
-        "Abigail Emmons": 47,
+        "Chris Pappas": 47,
         "John E. Sununu": 41
        },
        "other": 1,
@@ -47572,7 +47573,7 @@
        "population": "LV",
        "moe": 4.9,
        "values": {
-        "Abigail Emmons": 50,
+        "Chris Pappas": 50,
         "John E. Sununu": 45
        },
        "other": null,
@@ -47587,7 +47588,7 @@
        "population": "LV",
        "moe": 2.6,
        "values": {
-        "Abigail Emmons": 50,
+        "Chris Pappas": 50,
         "John E. Sununu": 42
        },
        "other": 4,
@@ -47602,7 +47603,7 @@
        "population": "LV",
        "moe": 2.8,
        "values": {
-        "Abigail Emmons": 48,
+        "Chris Pappas": 48,
         "John E. Sununu": 40
        },
        "other": 3,
@@ -47617,7 +47618,7 @@
        "population": "LV",
        "moe": 3.2,
        "values": {
-        "Abigail Emmons": 46,
+        "Chris Pappas": 46,
         "John E. Sununu": 46
        },
        "other": null,
@@ -47632,7 +47633,7 @@
        "population": "LV",
        "moe": 2,
        "values": {
-        "Abigail Emmons": 45,
+        "Chris Pappas": 45,
         "John E. Sununu": 34
        },
        "other": 13,
@@ -47647,7 +47648,7 @@
        "population": "LV",
        "moe": 4,
        "values": {
-        "Abigail Emmons": 36,
+        "Chris Pappas": 36,
         "John E. Sununu": 37
        },
        "other": 4,
@@ -47662,7 +47663,7 @@
        "population": "LV",
        "moe": 2.3,
        "values": {
-        "Abigail Emmons": 43,
+        "Chris Pappas": 43,
         "John E. Sununu": 45
        },
        "other": 5,
@@ -47677,7 +47678,7 @@
        "population": "LV",
        "moe": 2.6,
        "values": {
-        "Abigail Emmons": 48,
+        "Chris Pappas": 48,
         "John E. Sununu": 41
        },
        "other": null,
@@ -47692,7 +47693,7 @@
        "population": "LV",
        "moe": 4,
        "values": {
-        "Abigail Emmons": 43,
+        "Chris Pappas": 43,
         "John E. Sununu": 42
        },
        "other": null,
@@ -47707,7 +47708,7 @@
        "population": "RV",
        "moe": 2.4,
        "values": {
-        "Abigail Emmons": 47,
+        "Chris Pappas": 47,
         "John E. Sununu": 41
        },
        "other": null,
@@ -47722,7 +47723,7 @@
        "population": "LV",
        "moe": 2.1,
        "values": {
-        "Abigail Emmons": 47,
+        "Chris Pappas": 47,
         "John E. Sununu": 44
        },
        "other": 2,
@@ -47737,7 +47738,7 @@
        "population": "LV",
        "moe": 2.7,
        "values": {
-        "Abigail Emmons": 49,
+        "Chris Pappas": 49,
         "John E. Sununu": 42
        },
        "other": 4,
@@ -47752,7 +47753,7 @@
        "population": "LV",
        "moe": 2.9,
        "values": {
-        "Abigail Emmons": 45,
+        "Chris Pappas": 45,
         "John E. Sununu": 44
        },
        "other": 5,
@@ -47767,7 +47768,7 @@
        "population": "RV",
        "moe": 2.5,
        "values": {
-        "Abigail Emmons": 46,
+        "Chris Pappas": 46,
         "John E. Sununu": 43
        },
        "other": null,
@@ -47782,7 +47783,7 @@
        "population": "LV",
        "moe": 4.1,
        "values": {
-        "Abigail Emmons": 45,
+        "Chris Pappas": 45,
         "John E. Sununu": 41
        },
        "other": null,
@@ -47797,7 +47798,7 @@
        "population": "LV",
        "moe": 2.1,
        "values": {
-        "Abigail Emmons": 50,
+        "Chris Pappas": 50,
         "John E. Sununu": 45
        },
        "other": 1,
@@ -47812,7 +47813,7 @@
        "population": "RV",
        "moe": 4,
        "values": {
-        "Abigail Emmons": 42,
+        "Chris Pappas": 42,
         "John E. Sununu": 36
        },
        "other": null,
@@ -47827,7 +47828,7 @@
        "population": "LV",
        "moe": 4,
        "values": {
-        "Abigail Emmons": 47,
+        "Chris Pappas": 47,
         "John E. Sununu": 44
        },
        "other": null,
@@ -47842,7 +47843,7 @@
        "population": "RV",
        "moe": null,
        "values": {
-        "Abigail Emmons": 44,
+        "Chris Pappas": 44,
         "John E. Sununu": 41
        },
        "other": null,
@@ -47857,7 +47858,7 @@
        "population": "LV",
        "moe": 3.1,
        "values": {
-        "Abigail Emmons": 45,
+        "Chris Pappas": 45,
         "John E. Sununu": 42
        },
        "other": null,
@@ -47872,7 +47873,7 @@
        "population": "LV",
        "moe": 2.8,
        "values": {
-        "Abigail Emmons": 49,
+        "Chris Pappas": 49,
         "John E. Sununu": 43
        },
        "other": 1,
@@ -47887,7 +47888,7 @@
        "population": "LV",
        "moe": 3.3,
        "values": {
-        "Abigail Emmons": 46,
+        "Chris Pappas": 46,
         "John E. Sununu": 43
        },
        "other": null,
@@ -47902,7 +47903,7 @@
        "population": "LV",
        "moe": 4.4,
        "values": {
-        "Abigail Emmons": 45,
+        "Chris Pappas": 45,
         "John E. Sununu": 43
        },
        "other": null,
@@ -47913,10 +47914,10 @@
       "basis": "aggregate-average",
       "detail": "Average of 5 poll aggregators",
       "values": {
-       "Abigail Emmons": 51.3,
+       "Chris Pappas": 51.3,
        "John E. Sununu": 43
       },
-      "leader": "Abigail Emmons",
+      "leader": "Chris Pappas",
       "margin": 8.3
      },
      "consensus": {
