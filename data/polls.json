@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T15:58:32.407Z",
+ "generatedAt": "2026-11-05T16:13:33.250Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24418,7 +24418,27 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Leticia Gutierrez",
+       "party": "D",
+       "votes": 98079,
+       "percentage": 57.6,
+       "winner": false
+      },
+      {
+       "name": "Alex Mealer",
+       "party": "R",
+       "votes": 72340,
+       "percentage": 42.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 170419,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
