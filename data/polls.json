@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T20:11:01.807Z",
+ "generatedAt": "2026-11-06T20:56:02.250Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -15894,16 +15894,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri#District_2",
     "candidates": [
      {
-      "name": "Ann Wagner",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Fred Wellman",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Ann Wagner",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -16011,8 +16011,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Ann Wagner": 47,
-      "Fred Wellman": 48
+      "Fred Wellman": 48,
+      "Ann Wagner": 47
      },
      "leader": "Fred Wellman",
      "margin": 1
