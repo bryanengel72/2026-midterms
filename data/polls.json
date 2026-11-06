@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T05:49:09.618Z",
+ "generatedAt": "2026-11-06T06:34:09.531Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -32162,23 +32162,21 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 4960174,
-        "percentage": 64.04,
+        "votes": 5671949,
+        "percentage": 64.6,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 2784695,
-        "percentage": 35.96,
+        "votes": 3103607,
+        "percentage": 35.4,
         "winner": false
        }
       ],
-      "totalVotes": 7744869,
+      "totalVotes": 8775556,
       "winner": "Xavier Becerra",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 66,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
