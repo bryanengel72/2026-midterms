@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T23:58:53.723Z",
+ "generatedAt": "2026-11-06T00:13:53.925Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -19767,14 +19767,14 @@
     "results": null,
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Don Davis": 46,
-      "Laurie Buckhout": 42.7,
+      "Don Davis": 43.5,
+      "Laurie Buckhout": 43.5,
       "Tom Bailey": 2
      },
-     "leader": "Don Davis",
-     "margin": 3.3
+     "leader": null,
+     "margin": 0
     },
     "latestPoll": "2026-10-23"
    },
