@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T07:34:09.743Z",
+ "generatedAt": "2026-11-06T11:00:06.830Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -18413,7 +18413,7 @@
        "party": "R",
        "votes": 152546,
        "percentage": 51.1,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Chris Gallant",
@@ -18424,10 +18424,11 @@
       }
      ],
      "totalVotes": 298415,
-     "winner": null,
+     "winner": "Nick LaLota",
      "runoff": false,
      "source": "infobox",
-     "reporting": 86
+     "reporting": 97,
+     "calledAt": "2026-11-06T11:00:06.830Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -18557,23 +18558,24 @@
       {
        "name": "Andrew Garbarino",
        "party": "R",
-       "votes": 125338,
+       "votes": 128184,
        "percentage": 51.2,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Patrick Halpin",
        "party": "D",
-       "votes": 119079,
-       "percentage": 48.7,
+       "votes": 120263,
+       "percentage": 48.4,
        "winner": false
       }
      ],
-     "totalVotes": 244417,
-     "winner": null,
+     "totalVotes": 248447,
+     "winner": "Andrew Garbarino",
      "runoff": false,
      "source": "infobox",
-     "reporting": 78
+     "reporting": 97,
+     "calledAt": "2026-11-06T11:00:06.830Z"
     },
     "headline": null,
     "latestPoll": null
@@ -18694,23 +18696,24 @@
       {
        "name": "Tom Suozzi",
        "party": "D",
-       "votes": 144174,
-       "percentage": 55.1,
-       "winner": false
+       "votes": 149547,
+       "percentage": 54.8,
+       "winner": true
       },
       {
        "name": "Mike LiPetri",
        "party": "R",
-       "votes": 117001,
-       "percentage": 44.7,
+       "votes": 122442,
+       "percentage": 44.9,
        "winner": false
       }
      ],
-     "totalVotes": 261175,
-     "winner": null,
+     "totalVotes": 271989,
+     "winner": "Tom Suozzi",
      "runoff": false,
      "source": "infobox",
-     "reporting": 87
+     "reporting": 97,
+     "calledAt": "2026-11-06T11:00:06.830Z"
     },
     "headline": null,
     "latestPoll": null
@@ -18831,23 +18834,24 @@
       {
        "name": "Laura Gillen",
        "party": "D",
-       "votes": 151336,
+       "votes": 162077,
        "percentage": 56.2,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Jeanine Driscoll",
        "party": "R",
-       "votes": 116912,
-       "percentage": 43.4,
+       "votes": 125333,
+       "percentage": 43.5,
        "winner": false
       }
      ],
-     "totalVotes": 268248,
-     "winner": null,
+     "totalVotes": 287410,
+     "winner": "Laura Gillen",
      "runoff": false,
      "source": "infobox",
-     "reporting": 85
+     "reporting": 98,
+     "calledAt": "2026-11-06T11:00:06.830Z"
     },
     "headline": null,
     "latestPoll": null
@@ -19039,23 +19043,24 @@
       {
        "name": "Cait Conley",
        "party": "D",
-       "votes": 133219,
-       "percentage": 52.2,
-       "winner": false
+       "votes": 159170,
+       "percentage": 52.8,
+       "winner": true
       },
       {
        "name": "Mike Lawler",
        "party": "R",
-       "votes": 121881,
-       "percentage": 47.7,
+       "votes": 142035,
+       "percentage": 47.1,
        "winner": false
       }
      ],
-     "totalVotes": 255100,
-     "winner": null,
+     "totalVotes": 301205,
+     "winner": "Cait Conley",
      "runoff": false,
      "source": "infobox",
-     "reporting": 61
+     "reporting": 98,
+     "calledAt": "2026-11-06T11:00:06.830Z"
     },
     "headline": {
      "basis": "simple-average",
@@ -19185,23 +19190,23 @@
       {
        "name": "Josh Riley",
        "party": "D",
-       "votes": 165758,
-       "percentage": 57.2,
+       "votes": 167896,
+       "percentage": 57.3,
        "winner": true
       },
       {
        "name": "Peter Oberacker",
        "party": "R",
-       "votes": 123624,
-       "percentage": 42.7,
+       "votes": 124729,
+       "percentage": 42.6,
        "winner": false
       }
      ],
-     "totalVotes": 289382,
+     "totalVotes": 292625,
      "winner": "Josh Riley",
      "runoff": false,
      "source": "infobox",
-     "reporting": 96,
+     "reporting": 97,
      "calledAt": "2026-11-04T17:06:40.533Z"
     },
     "headline": null,
@@ -19318,23 +19323,23 @@
       {
        "name": "Anthony Constantino",
        "party": "R",
-       "votes": 139830,
-       "percentage": 51,
+       "votes": 140126,
+       "percentage": 50.9,
        "winner": false
       },
       {
        "name": "Blake Gendebien",
        "party": "D",
-       "votes": 133771,
+       "votes": 134399,
        "percentage": 48.8,
        "winner": false
       }
      ],
-     "totalVotes": 273601,
+     "totalVotes": 274525,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 81
+     "reporting": 96
     },
     "headline": null,
     "latestPoll": null
@@ -40560,19 +40565,19 @@
        {
         "name": "Troy Jackson",
         "party": "D",
-        "votes": 372238,
-        "percentage": 53.3,
+        "votes": 374585,
+        "percentage": 53.2,
         "winner": true
        },
        {
         "name": "Susan Collins",
         "party": "R",
-        "votes": 326151,
-        "percentage": 46.7,
+        "votes": 329531,
+        "percentage": 46.8,
         "winner": false
        }
       ],
-      "totalVotes": 698389,
+      "totalVotes": 704116,
       "winner": "Troy Jackson",
       "runoff": false,
       "source": "infobox",
@@ -54501,22 +54506,42 @@
        {
         "name": "Mike Mazzei",
         "party": "R",
-        "votes": 580386,
-        "percentage": 52,
+        "votes": 581706,
+        "percentage": 51.93,
         "winner": true
        },
        {
         "name": "Cyndi Munson",
         "party": "D",
-        "votes": 511664,
-        "percentage": 45.8,
+        "votes": 514342,
+        "percentage": 45.92,
+        "winner": false
+       },
+       {
+        "name": "Robert E. Brooks Sr.",
+        "party": "I",
+        "votes": 11649,
+        "percentage": 1.04,
+        "winner": false
+       },
+       {
+        "name": "Jerry Griffin",
+        "party": "I",
+        "votes": 7433,
+        "percentage": 0.66,
+        "winner": false
+       },
+       {
+        "name": "Orlando Lynn Bush",
+        "party": "I",
+        "votes": 5009,
+        "percentage": 0.45,
         "winner": false
        }
       ],
-      "totalVotes": 1092050,
+      "totalVotes": 1120139,
       "winner": "Mike Mazzei",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T08:18:11.144Z"
      },
      "ratings": [
