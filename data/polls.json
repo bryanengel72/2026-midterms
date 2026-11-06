@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T02:13:55.209Z",
+ "generatedAt": "2026-11-06T03:19:09.820Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24858,7 +24858,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Steve Toth",
+       "party": "R",
+       "votes": 144748,
+       "percentage": 51,
+       "winner": true
+      },
+      {
+       "name": "Shaun Finnie",
+       "party": "D",
+       "votes": 139167,
+       "percentage": 49,
+       "winner": false
+      }
+     ],
+     "totalVotes": 283915,
+     "winner": "Steve Toth",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-06T03:19:09.820Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Impact Research (D), September 29 – October 4, 2026",
@@ -24982,7 +25004,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Lance Gooden",
+       "party": "R",
+       "votes": 130278,
+       "percentage": 51.5,
+       "winner": true
+      },
+      {
+       "name": "Chelsey Hockett",
+       "party": "D",
+       "votes": 122855,
+       "percentage": 48.5,
+       "winner": false
+      }
+     ],
+     "totalVotes": 253133,
+     "winner": "Lance Gooden",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-06T03:19:09.820Z"
+    },
     "headline": null,
     "latestPoll": null
    },
