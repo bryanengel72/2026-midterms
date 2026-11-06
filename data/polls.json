@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T13:27:50.525Z",
+ "generatedAt": "2026-11-06T15:57:52.024Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -37613,8 +37613,8 @@
        {
         "name": "Josh Turek",
         "party": "D",
-        "votes": 686487,
-        "percentage": 50.5,
+        "votes": 686486,
+        "percentage": 50.51,
         "winner": true
        },
        {
@@ -37623,13 +37623,18 @@
         "votes": 630615,
         "percentage": 46.4,
         "winner": false
+       },
+       {
+        "name": "Thomas Laehn",
+        "party": "L",
+        "votes": 42086,
+        "percentage": 3.09,
+        "winner": false
        }
       ],
-      "totalVotes": 1317102,
+      "totalVotes": 1359187,
       "winner": "Josh Turek",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
