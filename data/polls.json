@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T19:28:11.049Z",
+ "generatedAt": "2026-11-06T19:41:01.622Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -18674,7 +18674,7 @@
        "name": "Andrew Garbarino",
        "party": "R",
        "votes": 128184,
-       "percentage": 51.2,
+       "percentage": 51.6,
        "winner": true
       },
       {
@@ -19158,23 +19158,23 @@
       {
        "name": "Cait Conley",
        "party": "D",
-       "votes": 159170,
-       "percentage": 52.8,
+       "votes": 163245,
+       "percentage": 52.9,
        "winner": true
       },
       {
        "name": "Mike Lawler",
        "party": "R",
-       "votes": 142035,
-       "percentage": 47.1,
+       "votes": 145060,
+       "percentage": 47,
        "winner": false
       }
      ],
-     "totalVotes": 301205,
+     "totalVotes": 308305,
      "winner": "Cait Conley",
      "runoff": false,
      "source": "infobox",
-     "reporting": 98,
+     "reporting": 94,
      "calledAt": "2026-11-06T11:00:06.830Z"
     },
     "headline": {
@@ -19440,7 +19440,7 @@
        "party": "R",
        "votes": 140126,
        "percentage": 50.9,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Blake Gendebien",
@@ -19451,10 +19451,11 @@
       }
      ],
      "totalVotes": 274525,
-     "winner": null,
+     "winner": "Anthony Constantino",
      "runoff": false,
      "source": "infobox",
-     "reporting": 96
+     "reporting": 97,
+     "calledAt": "2026-11-06T19:41:01.622Z"
     },
     "headline": null,
     "latestPoll": null
@@ -19608,23 +19609,23 @@
       {
        "name": "Nick Langworthy",
        "party": "R",
-       "votes": 181807,
-       "percentage": 60.3,
+       "votes": 182067,
+       "percentage": 60.2,
        "winner": true
       },
       {
        "name": "Aaron Gies",
        "party": "D",
-       "votes": 119749,
+       "votes": 120199,
        "percentage": 39.7,
        "winner": false
       }
      ],
-     "totalVotes": 301556,
+     "totalVotes": 302266,
      "winner": "Nick Langworthy",
      "runoff": false,
      "source": "infobox",
-     "reporting": 97,
+     "reporting": 98,
      "calledAt": "2026-11-04T17:06:40.533Z"
     },
     "headline": {
@@ -20649,7 +20650,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Richard Ojeda",
+       "party": "D",
+       "votes": 138707,
+       "percentage": 51.5,
+       "winner": true
+      },
+      {
+       "name": "Richard Hudson",
+       "party": "R",
+       "votes": 132692,
+       "percentage": 48.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 271399,
+     "winner": "Richard Ojeda",
+     "runoff": false,
+     "calledAt": "2026-11-06T19:41:01.622Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
