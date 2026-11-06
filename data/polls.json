@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T04:49:09.507Z",
+ "generatedAt": "2026-11-06T05:34:10.213Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -33136,25 +33136,50 @@
       "candidates": [
        {
         "name": "Ned Lamont",
+        "party": "O",
+        "votes": 770539,
+        "percentage": 59.51,
+        "winner": false
+       },
+       {
+        "name": "Ned Lamont",
         "party": "D",
-        "votes": 718126,
-        "percentage": 58.8,
-        "winner": true
+        "votes": 740768,
+        "percentage": 57.21,
+        "winner": false
+       },
+       {
+        "name": "Ryan Fazio",
+        "party": "O",
+        "votes": 524135,
+        "percentage": 40.48,
+        "winner": false
        },
        {
         "name": "Ryan Fazio",
         "party": "R",
-        "votes": 503032,
-        "percentage": 41.2,
+        "votes": 495720,
+        "percentage": 38.29,
+        "winner": false
+       },
+       {
+        "name": "Ned Lamont",
+        "party": "O",
+        "votes": 29771,
+        "percentage": 2.3,
+        "winner": false
+       },
+       {
+        "name": "Ryan Fazio",
+        "party": "I",
+        "votes": 28415,
+        "percentage": 2.19,
         "winner": false
        }
       ],
-      "totalVotes": 1221158,
-      "winner": "Ned Lamont",
-      "runoff": false,
-      "source": "infobox",
-      "reporting": 93,
-      "calledAt": "2026-11-04T14:51:41.043Z"
+      "totalVotes": 1294727,
+      "winner": null,
+      "runoff": false
      },
      "ratings": [
       {
