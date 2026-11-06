@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T05:34:10.213Z",
+ "generatedAt": "2026-11-06T05:49:09.618Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -15981,22 +15981,21 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana#District_1",
     "candidates": [
      {
-      "name": "Aaron Flint",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Sam Forstag",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
      },
      {
+      "name": "Aaron Flint",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
+     },
+     {
       "name": "Nick Sheedy",
       "party": "L",
-      "nominee": true,
-      "partyName": "Libertarian Party"
+      "nominee": false
      }
     ],
     "polls": [
@@ -16207,8 +16206,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 4 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Aaron Flint": 43.5,
       "Sam Forstag": 48,
+      "Aaron Flint": 43.5,
       "Nick Sheedy": 3
      },
      "leader": "Sam Forstag",
