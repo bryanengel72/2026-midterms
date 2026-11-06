@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T22:41:01.571Z",
+ "generatedAt": "2026-11-06T23:41:01.974Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -33166,23 +33166,23 @@
        {
         "name": "Phil Weiser",
         "party": "D",
-        "votes": 1319781,
-        "percentage": 60.9,
+        "votes": 1610582,
+        "percentage": 61,
         "winner": true
        },
        {
         "name": "Victor Marx",
         "party": "R",
-        "votes": 728650,
-        "percentage": 33.6,
+        "votes": 879473,
+        "percentage": 33.3,
         "winner": false
        }
       ],
-      "totalVotes": 2048431,
+      "totalVotes": 2490055,
       "winner": "Phil Weiser",
       "runoff": false,
       "source": "infobox",
-      "reporting": 77,
+      "reporting": 97,
       "calledAt": "2026-11-04T08:03:10.527Z"
      },
      "ratings": [
