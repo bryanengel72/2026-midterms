@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T19:56:01.450Z",
+ "generatedAt": "2026-11-06T20:11:01.807Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -19180,19 +19180,19 @@
       {
        "name": "Cait Conley",
        "party": "D",
-       "votes": 163245,
+       "votes": 163253,
        "percentage": 52.9,
        "winner": true
       },
       {
        "name": "Mike Lawler",
        "party": "R",
-       "votes": 145060,
+       "votes": 145061,
        "percentage": 47,
        "winner": false
       }
      ],
-     "totalVotes": 308305,
+     "totalVotes": 308314,
      "winner": "Cait Conley",
      "runoff": false,
      "source": "infobox",
