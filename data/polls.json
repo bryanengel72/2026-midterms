@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T16:12:52.007Z",
+ "generatedAt": "2026-11-06T16:27:51.739Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -59765,23 +59765,23 @@
        {
         "name": "Gina Hinojosa",
         "party": "D",
-        "votes": 5230908,
+        "votes": 5230929,
         "percentage": 52.8,
         "winner": true
        },
        {
         "name": "Greg Abbott",
         "party": "R",
-        "votes": 4524948,
+        "votes": 4524955,
         "percentage": 45.67,
         "winner": false
        }
       ],
-      "totalVotes": 9755856,
+      "totalVotes": 9755884,
       "winner": "Gina Hinojosa",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
