@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T07:19:10.305Z",
+ "generatedAt": "2026-11-06T07:34:09.743Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -56335,7 +56335,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 2033886,
+      "totalVotes": 2038780,
       "winner": "Annie Andrews",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
