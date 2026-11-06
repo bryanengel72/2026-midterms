@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T12:27:51.035Z",
+ "generatedAt": "2026-11-06T13:27:50.525Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -45853,7 +45853,7 @@
         "party": "D",
         "votes": 1569057,
         "percentage": 55.47,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Lisa Demuth",
@@ -45871,8 +45871,9 @@
        }
       ],
       "totalVotes": 2826240,
-      "winner": null,
-      "runoff": false
+      "winner": "Amy Klobuchar",
+      "runoff": false,
+      "calledAt": "2026-11-06T13:27:50.525Z"
      },
      "ratings": [
       {
