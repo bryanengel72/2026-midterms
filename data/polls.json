@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T00:58:54.005Z",
+ "generatedAt": "2026-11-06T02:13:55.209Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -49960,23 +49960,21 @@
        {
         "name": "Ben Ray Luján",
         "party": "D",
-        "votes": 455165,
-        "percentage": 63.2,
+        "votes": 458007,
+        "percentage": 63.24,
         "winner": true
        },
        {
         "name": "Larry Marker",
         "party": "R",
-        "votes": 265557,
-        "percentage": 36.8,
+        "votes": 266260,
+        "percentage": 36.76,
         "winner": false
        }
       ],
-      "totalVotes": 720722,
+      "totalVotes": 724267,
       "winner": "Ben Ray Luján",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 98,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
