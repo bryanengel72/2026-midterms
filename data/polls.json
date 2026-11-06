@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T06:49:09.665Z",
+ "generatedAt": "2026-11-06T07:19:10.305Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -56319,13 +56319,25 @@
         "votes": 951165,
         "percentage": 46.65,
         "winner": false
+       },
+       {
+        "name": "Kasie Whitener",
+        "party": "L",
+        "votes": 23560,
+        "percentage": 1.16,
+        "winner": false
+       },
+       {
+        "name": "Mark Hackett",
+        "party": "C",
+        "votes": 16799,
+        "percentage": 0.82,
+        "winner": false
        }
       ],
-      "totalVotes": 1993527,
+      "totalVotes": 2033886,
       "winner": "Annie Andrews",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
