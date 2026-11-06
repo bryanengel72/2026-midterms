@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T21:11:01.686Z",
+ "generatedAt": "2026-11-06T22:41:01.571Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6549,6 +6549,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Lamb",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -6556,7 +6563,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arizona#District_5",
     "candidates": [
@@ -6873,6 +6880,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Hamadeh",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -6880,7 +6894,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arizona#District_8",
     "candidates": [
@@ -8079,6 +8093,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Hurd",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -8086,7 +8107,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 4,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado#District_3",
     "candidates": [
@@ -19073,6 +19094,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Conley",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -19080,7 +19108,7 @@
      "strength": "Lean",
      "lean": "D",
      "count": 4,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York#District_17",
     "candidates": [
@@ -19429,6 +19457,13 @@
       "strength": "Lean",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Constantino",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -19436,7 +19471,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York#District_21",
     "candidates": [
@@ -20500,6 +20535,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Harris",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -20507,7 +20549,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_8",
     "candidates": [
@@ -28405,6 +28447,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "McKinney",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -28412,7 +28461,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Washington#District_4",
     "candidates": [
@@ -29554,8 +29603,8 @@
    },
    {
     "source": "Result",
-    "D": 252,
-    "R": 155,
+    "D": 253,
+    "R": 162,
     "tossup": 0
    }
   ],
