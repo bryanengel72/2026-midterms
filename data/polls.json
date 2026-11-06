@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T04:34:10.268Z",
+ "generatedAt": "2026-11-06T04:49:09.507Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -46289,26 +46289,26 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 466226,
-        "percentage": 49,
+        "votes": 466775,
+        "percentage": 49.04,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 464502,
-        "percentage": 48.9,
+        "votes": 464962,
+        "percentage": 48.85,
         "winner": false
        },
        {
         "name": "Ty Pinkins",
         "party": "I",
-        "votes": 19978,
+        "votes": 20007,
         "percentage": 2.1,
         "winner": false
        }
       ],
-      "totalVotes": 950706,
+      "totalVotes": 951744,
       "winner": null,
       "runoff": false
      },
