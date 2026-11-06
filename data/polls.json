@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T16:27:51.739Z",
+ "generatedAt": "2026-11-06T19:28:11.049Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6203,16 +6203,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arizona#District_1",
     "candidates": [
      {
-      "name": "Jay Feely",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Amish Shah",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Jay Feely",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -6233,7 +6233,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Amish Shah",
+       "party": "D",
+       "votes": 179685,
+       "percentage": 52.39,
+       "winner": true
+      },
+      {
+       "name": "Jay Feely",
+       "party": "R",
+       "votes": 155688,
+       "percentage": 45.39,
+       "winner": false
+      }
+     ],
+     "totalVotes": 335373,
+     "winner": "Amish Shah",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-06T19:28:11.049Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: FirstStrategic Communications and Public Affairs, October 1, 2026",
@@ -6413,7 +6435,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Eli Crane",
+       "party": "R",
+       "votes": 157677,
+       "percentage": 49.65,
+       "winner": false
+      },
+      {
+       "name": "Jonathan Nez",
+       "party": "D",
+       "votes": 153983,
+       "percentage": 48.49,
+       "winner": false
+      }
+     ],
+     "totalVotes": 311660,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -6530,7 +6573,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Mark Lamb",
+       "party": "R",
+       "votes": 159821,
+       "percentage": 51.48,
+       "winner": true
+      },
+      {
+       "name": "Elizabeth Lee",
+       "party": "D",
+       "votes": 150119,
+       "percentage": 48.35,
+       "winner": false
+      }
+     ],
+     "totalVotes": 309940,
+     "winner": "Mark Lamb",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-06T19:28:11.049Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -6633,16 +6698,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arizona#District_6",
     "candidates": [
      {
-      "name": "Juan Ciscomani",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "JoAnna Mendoza",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Juan Ciscomani",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -6693,7 +6758,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "JoAnna Mendoza",
+       "party": "D",
+       "votes": 170232,
+       "percentage": 52.8,
+       "winner": true
+      },
+      {
+       "name": "Juan Ciscomani",
+       "party": "R",
+       "votes": 145018,
+       "percentage": 44.98,
+       "winner": false
+      }
+     ],
+     "totalVotes": 315250,
+     "winner": "JoAnna Mendoza",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-06T19:28:11.049Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Normington Petts (D), June 8–11, 2026",
@@ -6810,7 +6897,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Abraham Hamadeh",
+       "party": "R",
+       "votes": 144547,
+       "percentage": 51.19,
+       "winner": true
+      },
+      {
+       "name": "Bernadette Greene-Placentia",
+       "party": "D",
+       "votes": 137230,
+       "percentage": 48.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 281777,
+     "winner": "Abraham Hamadeh",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-06T19:28:11.049Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -13989,19 +14098,19 @@
       {
        "name": "Andy Harris",
        "party": "R",
-       "votes": 150615,
-       "percentage": 55.8,
+       "votes": 158976,
+       "percentage": 53.4,
        "winner": true
       },
       {
        "name": "Dan Schwartz",
        "party": "D",
-       "votes": 119088,
-       "percentage": 44.1,
+       "votes": 138055,
+       "percentage": 46.4,
        "winner": false
       }
      ],
-     "totalVotes": 269703,
+     "totalVotes": 297031,
      "winner": "Andy Harris",
      "runoff": false,
      "source": "infobox",
@@ -14525,22 +14634,28 @@
       {
        "name": "Sean McCann",
        "party": "D",
-       "votes": 185440,
-       "percentage": 50.1,
+       "votes": 184257,
+       "percentage": 50.12,
        "winner": true
       },
       {
        "name": "Bill Huizenga",
        "party": "R",
-       "votes": 178741,
-       "percentage": 48.3,
+       "votes": 177753,
+       "percentage": 48.35,
+       "winner": false
+      },
+      {
+       "name": "Shafina Che Barnett",
+       "party": "G",
+       "votes": 5652,
+       "percentage": 1.54,
        "winner": false
       }
      ],
-     "totalVotes": 364181,
+     "totalVotes": 367662,
      "winner": "Sean McCann",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-05T15:13:32.434Z"
     },
     "headline": {
@@ -21099,7 +21214,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "LaKesha Womack",
+       "party": "D",
+       "votes": 147388,
+       "percentage": 51.1,
+       "winner": true
+      },
+      {
+       "name": "Tim Moore",
+       "party": "R",
+       "votes": 140973,
+       "percentage": 48.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 288361,
+     "winner": "LaKesha Womack",
+     "runoff": false,
+     "calledAt": "2026-11-06T19:28:11.049Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Ragnar Research Partners (R), March 10–12, 2026",
@@ -43091,47 +43227,47 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 2507454,
-        "percentage": 52.5,
+        "votes": 2517819,
+        "percentage": 52.55,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 2172586,
-        "percentage": 45.49,
+        "votes": 2177618,
+        "percentage": 45.45,
         "winner": false
        },
        {
         "name": "Lydia Christensen",
         "party": "L",
-        "votes": 49484,
+        "votes": 49640,
         "percentage": 1.04,
         "winner": false
        },
        {
         "name": "Tim Long",
         "party": "C",
-        "votes": 26417,
+        "votes": 26512,
         "percentage": 0.55,
         "winner": false
        },
        {
         "name": "Douglas P. Marsh",
         "party": "G",
-        "votes": 12510,
+        "votes": 12549,
         "percentage": 0.26,
         "winner": false
        },
        {
         "name": "Walter P. Kristy",
         "party": "O",
-        "votes": 7232,
+        "votes": 7250,
         "percentage": 0.15,
         "winner": false
        }
       ],
-      "totalVotes": 4775693,
+      "totalVotes": 4791388,
       "winner": "Abdul El-Sayed",
       "runoff": false,
       "calledAt": "2026-11-05T15:28:32.428Z"
@@ -44409,23 +44545,42 @@
        {
         "name": "Jocelyn Benson",
         "party": "D",
-        "votes": 2594262,
-        "percentage": 54.6,
+        "votes": 2611110,
+        "percentage": 54.57,
         "winner": true
        },
        {
         "name": "John James",
         "party": "R",
-        "votes": 2079333,
-        "percentage": 43.7,
+        "votes": 2091828,
+        "percentage": 43.72,
+        "winner": false
+       },
+       {
+        "name": "Anthony Hudson",
+        "party": "L",
+        "votes": 44444,
+        "percentage": 0.93,
+        "winner": false
+       },
+       {
+        "name": "Donna Brandenburg",
+        "party": "C",
+        "votes": 20129,
+        "percentage": 0.42,
+        "winner": false
+       },
+       {
+        "name": "Douglas Campbell",
+        "party": "G",
+        "votes": 17599,
+        "percentage": 0.36,
         "winner": false
        }
       ],
-      "totalVotes": 4673595,
+      "totalVotes": 4785110,
       "winner": "Jocelyn Benson",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 97,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
