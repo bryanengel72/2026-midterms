@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T23:43:54.294Z",
+ "generatedAt": "2026-11-05T23:58:53.723Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -13825,23 +13825,23 @@
       {
        "name": "Paul LePage",
        "party": "R",
-       "votes": 162598,
-       "percentage": 50.4,
+       "votes": 170265,
+       "percentage": 49.89,
        "winner": false
       },
       {
        "name": "Matthew Dunlap",
        "party": "D",
-       "votes": 160173,
-       "percentage": 49.6,
+       "votes": 164845,
+       "percentage": 48.31,
        "winner": false
       }
      ],
-     "totalVotes": 322771,
+     "totalVotes": 335110,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 94
+     "reporting": 98
     },
     "headline": {
      "basis": "simple-average",
@@ -54559,23 +54559,23 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 915903,
+        "votes": 936053,
         "percentage": 56.8,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 650021,
-        "percentage": 40.3,
+        "votes": 662034,
+        "percentage": 40.2,
         "winner": false
        }
       ],
-      "totalVotes": 1565924,
+      "totalVotes": 1598087,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
-      "reporting": 79,
+      "reporting": 81,
       "calledAt": "2026-11-04T09:48:11.236Z"
      },
      "ratings": [
@@ -54722,23 +54722,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 843263,
-        "percentage": 51.9,
+        "votes": 862084,
+        "percentage": 52,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 735625,
-        "percentage": 45.3,
+        "votes": 749562,
+        "percentage": 45.2,
         "winner": false
        }
       ],
-      "totalVotes": 1578888,
+      "totalVotes": 1611646,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 79,
+      "reporting": 81,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
