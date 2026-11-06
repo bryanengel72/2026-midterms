@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T11:00:06.830Z",
+ "generatedAt": "2026-11-06T12:27:51.035Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -26145,19 +26145,19 @@
       {
        "name": "Katy Padilla Stout",
        "party": "D",
-       "votes": 140202,
-       "percentage": 52,
+       "votes": 142032,
+       "percentage": 52.1,
        "winner": true
       },
       {
        "name": "Brandon Herrera",
        "party": "R",
-       "votes": 118768,
-       "percentage": 44.1,
+       "votes": 119795,
+       "percentage": 44,
        "winner": false
       }
      ],
-     "totalVotes": 258970,
+     "totalVotes": 261827,
      "winner": "Katy Padilla Stout",
      "runoff": false,
      "source": "infobox",
