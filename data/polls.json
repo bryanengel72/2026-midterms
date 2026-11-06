@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T04:04:09.641Z",
+ "generatedAt": "2026-11-06T04:34:10.268Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -29266,7 +29266,42 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Chuck Gray",
+       "party": "R",
+       "votes": 99891,
+       "percentage": 54.52,
+       "winner": true
+      },
+      {
+       "name": "Lisa Kinney",
+       "party": "D",
+       "votes": 61687,
+       "percentage": 33.67,
+       "winner": false
+      },
+      {
+       "name": "Shawn Johnson",
+       "party": "L",
+       "votes": 13665,
+       "percentage": 7.46,
+       "winner": false
+      },
+      {
+       "name": "Jeffrey Haggit",
+       "party": "C",
+       "votes": 7960,
+       "percentage": 4.34,
+       "winner": false
+      }
+     ],
+     "totalVotes": 183203,
+     "winner": "Chuck Gray",
+     "runoff": false,
+     "calledAt": "2026-11-06T04:34:10.268Z"
+    },
     "headline": null,
     "latestPoll": null
    }
@@ -39033,27 +39068,28 @@
         "name": "Adam Hamilton",
         "party": "D",
         "votes": 559853,
-        "percentage": 51,
-        "winner": false
+        "percentage": 50.99,
+        "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
         "votes": 504950,
-        "percentage": 46,
+        "percentage": 45.99,
         "winner": false
        },
        {
         "name": "David Graham",
         "party": "L",
         "votes": 33117,
-        "percentage": 3,
+        "percentage": 3.02,
         "winner": false
        }
       ],
       "totalVotes": 1097920,
-      "winner": null,
-      "runoff": false
+      "winner": "Adam Hamilton",
+      "runoff": false,
+      "calledAt": "2026-11-06T04:34:10.268Z"
      },
      "ratings": [
       {
