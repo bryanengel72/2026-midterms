@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T19:41:01.622Z",
+ "generatedAt": "2026-11-06T19:56:01.450Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -15984,7 +15984,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Fred Wellman",
+       "party": "D",
+       "votes": 169477,
+       "percentage": 51.14,
+       "winner": true
+      },
+      {
+       "name": "Ann Wagner",
+       "party": "R",
+       "votes": 153132,
+       "percentage": 46.21,
+       "winner": false
+      }
+     ],
+     "totalVotes": 322609,
+     "winner": "Fred Wellman",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-06T19:56:01.450Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
@@ -19305,19 +19327,19 @@
       {
        "name": "Josh Riley",
        "party": "D",
-       "votes": 167896,
+       "votes": 167964,
        "percentage": 57.3,
        "winner": true
       },
       {
        "name": "Peter Oberacker",
        "party": "R",
-       "votes": 124729,
+       "votes": 124754,
        "percentage": 42.6,
        "winner": false
       }
      ],
-     "totalVotes": 292625,
+     "totalVotes": 292718,
      "winner": "Josh Riley",
      "runoff": false,
      "source": "infobox",
@@ -19438,19 +19460,19 @@
       {
        "name": "Anthony Constantino",
        "party": "R",
-       "votes": 140126,
-       "percentage": 50.9,
+       "votes": 140422,
+       "percentage": 50.8,
        "winner": true
       },
       {
        "name": "Blake Gendebien",
        "party": "D",
-       "votes": 134399,
-       "percentage": 48.8,
+       "votes": 135172,
+       "percentage": 48.9,
        "winner": false
       }
      ],
-     "totalVotes": 274525,
+     "totalVotes": 275594,
      "winner": "Anthony Constantino",
      "runoff": false,
      "source": "infobox",
@@ -42366,6 +42388,11 @@
        "name": "Joe Tache",
        "party": "O",
        "nominee": false
+      },
+      {
+       "name": "Shiva Ayyadurai",
+       "party": "I",
+       "nominee": false
       }
      ],
      "results": {
@@ -42373,23 +42400,23 @@
        {
         "name": "Ed Markey",
         "party": "D",
-        "votes": 1541551,
+        "votes": 1650772,
         "percentage": 63.4,
         "winner": true
        },
        {
         "name": "John Deaton",
         "party": "R",
-        "votes": 781025,
+        "votes": 837152,
         "percentage": 32.1,
         "winner": false
        }
       ],
-      "totalVotes": 2322576,
+      "totalVotes": 2487924,
       "winner": "Ed Markey",
       "runoff": false,
       "source": "infobox",
-      "reporting": 92,
+      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -42564,9 +42591,10 @@
        "values": {
         "Ed Markey": 53,
         "John Deaton": 32,
-        "Joe Tache": 7
+        "Joe Tache": 7,
+        "Shiva Ayyadurai": 4
        },
-       "other": 4,
+       "other": 0.5,
        "undecided": 4
       },
       {
@@ -42580,9 +42608,10 @@
        "values": {
         "Ed Markey": 60,
         "John Deaton": 32,
-        "Joe Tache": 1
+        "Joe Tache": 1,
+        "Shiva Ayyadurai": 1
        },
-       "other": 1,
+       "other": null,
        "undecided": 6
       },
       {
@@ -42611,9 +42640,10 @@
        "values": {
         "Ed Markey": 56,
         "John Deaton": 29,
-        "Joe Tache": 3
+        "Joe Tache": 3,
+        "Shiva Ayyadurai": 6
        },
-       "other": 8,
+       "other": 2,
        "undecided": 4
       },
       {
@@ -42627,9 +42657,10 @@
        "values": {
         "Ed Markey": 54,
         "John Deaton": 28,
-        "Joe Tache": 2
+        "Joe Tache": 2,
+        "Shiva Ayyadurai": 3
        },
-       "other": 8,
+       "other": 5,
        "undecided": 9
       },
       {
