@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T00:13:53.925Z",
+ "generatedAt": "2026-11-06T00:58:54.005Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -25922,7 +25922,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Trever Nehls",
+       "party": "R",
+       "votes": 150166,
+       "percentage": 51.8,
+       "winner": true
+      },
+      {
+       "name": "Marquette Greene-Scott",
+       "party": "D",
+       "votes": 139611,
+       "percentage": 48.2,
+       "winner": false
+      }
+     ],
+     "totalVotes": 289777,
+     "winner": "Trever Nehls",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-06T00:58:54.005Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -42546,23 +42568,28 @@
        {
         "name": "Maura Healey",
         "party": "D",
-        "votes": 1515963,
-        "percentage": 62.2,
-        "winner": true
+        "votes": 1623656,
+        "percentage": 62.18,
+        "winner": false
        },
        {
-        "name": "Mike Minogue",
+        "name": "Michael Minogue",
         "party": "R",
-        "votes": 839006,
-        "percentage": 34.4,
+        "votes": 901841,
+        "percentage": 34.54,
+        "winner": false
+       },
+       {
+        "name": "Andrea C. James",
+        "party": "I",
+        "votes": 85807,
+        "percentage": 3.29,
         "winner": false
        }
       ],
-      "totalVotes": 2354969,
-      "winner": "Maura Healey",
-      "runoff": false,
-      "source": "infobox",
-      "calledAt": "2026-11-04T14:51:41.043Z"
+      "totalVotes": 2611312,
+      "winner": null,
+      "runoff": false
      },
      "ratings": [
       {
