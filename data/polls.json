@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T19:32:21.272Z",
+ "generatedAt": "2026-11-07T19:47:20.647Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -21312,12 +21312,18 @@
        "votes": 141427,
        "percentage": 41.3,
        "winner": false
+      },
+      {
+       "name": "Travis Groo",
+       "party": "L",
+       "votes": 5345,
+       "percentage": 1.5,
+       "winner": false
       }
      ],
-     "totalVotes": 337064,
+     "totalVotes": 342409,
      "winner": "Jamie Ager",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-07T16:46:36.060Z"
     },
     "headline": {
