@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T06:49:39.237Z",
+ "generatedAt": "2026-11-07T07:49:38.389Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -55093,23 +55093,23 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 993523,
-        "percentage": 57.4,
+        "votes": 1081731,
+        "percentage": 58.1,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 684272,
-        "percentage": 39.5,
+        "votes": 719926,
+        "percentage": 38.7,
         "winner": false
        }
       ],
-      "totalVotes": 1677795,
+      "totalVotes": 1801657,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
-      "reporting": 84,
+      "reporting": 89,
       "calledAt": "2026-11-04T09:48:11.236Z"
      },
      "ratings": [
@@ -55256,23 +55256,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 916643,
-        "percentage": 52.6,
+        "votes": 999912,
+        "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 776279,
-        "percentage": 44.5,
+        "votes": 819516,
+        "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1692922,
+      "totalVotes": 1819428,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 84,
+      "reporting": 89,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
