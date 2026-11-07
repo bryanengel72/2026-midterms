@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T03:43:07.526Z",
+ "generatedAt": "2026-11-07T03:58:07.388Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -48075,23 +48075,22 @@
        {
         "name": "Jim Pillen",
         "party": "R",
-        "votes": 376285,
-        "percentage": 50.8,
+        "votes": 380604,
+        "percentage": 50.41,
         "winner": true
        },
        {
         "name": "Lynne Walz",
         "party": "D",
-        "votes": 312653,
-        "percentage": 42.2,
+        "votes": 321061,
+        "percentage": 42.53,
         "winner": false
        }
       ],
-      "totalVotes": 688938,
+      "totalVotes": 701665,
       "winner": "Jim Pillen",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -58653,7 +58652,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 30, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Cook Political Report",
@@ -58661,7 +58660,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -58701,7 +58700,7 @@
        "strength": "Tilt",
        "lean": "D",
        "flip": true,
-       "asOf": "October 29, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "MS NOW",
@@ -58709,7 +58708,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "October 29, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "NBC News",
