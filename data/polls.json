@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T19:47:20.647Z",
+ "generatedAt": "2026-11-07T20:32:21.090Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20476,21 +20476,20 @@
        "name": "Cyril Jefferson",
        "party": "D",
        "votes": 140001,
-       "percentage": 51.1,
+       "percentage": 51.4,
        "winner": true
       },
       {
        "name": "Addison McDowell",
        "party": "R",
        "votes": 133737,
-       "percentage": 48.9,
+       "percentage": 48.8,
        "winner": false
       }
      ],
      "totalVotes": 273738,
      "winner": "Cyril Jefferson",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-07T16:31:36.073Z"
     },
     "headline": null,
@@ -20631,21 +20630,26 @@
        "party": "R",
        "votes": 159985,
        "percentage": 49.9,
-       "winner": true
+       "winner": false
       },
       {
-       "name": "Kim Hardy",
+       "name": "Kimberly Hardy",
        "party": "D",
        "votes": 157560,
        "percentage": 49.1,
        "winner": false
+      },
+      {
+       "name": "Maad Abu-Ghazalah",
+       "party": "L",
+       "votes": 3135,
+       "percentage": 0.9,
+       "winner": false
       }
      ],
-     "totalVotes": 317545,
-     "winner": "David Rouzer",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-07T16:31:36.073Z"
+     "totalVotes": 320680,
+     "winner": null,
+     "runoff": false
     },
     "headline": {
      "basis": "latest-poll",
@@ -20786,12 +20790,18 @@
        "votes": 141915,
        "percentage": 48.6,
        "winner": false
+      },
+      {
+       "name": "Bo Whitehead",
+       "party": "G",
+       "votes": 2890,
+       "percentage": 1,
+       "winner": false
       }
      ],
-     "totalVotes": 289009,
+     "totalVotes": 291899,
      "winner": "Mark Harris",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-07T16:46:36.060Z"
     },
     "headline": null,
