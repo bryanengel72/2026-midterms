@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T03:58:07.388Z",
+ "generatedAt": "2026-11-07T04:43:07.658Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -25696,7 +25696,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Chris Gober",
+       "party": "R",
+       "votes": 161425,
+       "percentage": 53.8,
+       "winner": true
+      },
+      {
+       "name": "Caitlin Rourk",
+       "party": "D",
+       "votes": 138832,
+       "percentage": 46.2,
+       "winner": false
+      }
+     ],
+     "totalVotes": 300257,
+     "winner": "Chris Gober",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T04:43:07.658Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Change Research, September 18–22, 2026",
