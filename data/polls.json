@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T22:47:20.762Z",
+ "generatedAt": "2026-11-07T23:17:21.123Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12584,19 +12584,19 @@
       {
        "name": "Frank Mrvan",
        "party": "D",
-       "votes": 412213,
-       "percentage": 63.02,
+       "votes": 142213,
+       "percentage": 63,
        "winner": true
       },
       {
        "name": "Barb Regnitz",
        "party": "R",
        "votes": 83468,
-       "percentage": 36.98,
+       "percentage": 37,
        "winner": false
       }
      ],
-     "totalVotes": 495681,
+     "totalVotes": 225681,
      "winner": "Frank Mrvan",
      "runoff": false,
      "source": "infobox",
