@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T16:16:36.099Z",
+ "generatedAt": "2026-11-07T16:31:36.073Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20038,7 +20038,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Don Davis",
+       "party": "D",
+       "votes": 156572,
+       "percentage": 50.1,
+       "winner": true
+      },
+      {
+       "name": "Laurie Buckhout",
+       "party": "R",
+       "votes": 146287,
+       "percentage": 46.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 302859,
+     "winner": "Don Davis",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T16:31:36.073Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
@@ -20174,7 +20196,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Greg Murphy",
+       "party": "R",
+       "votes": 117583,
+       "percentage": 49.4,
+       "winner": false
+      },
+      {
+       "name": "Raymond Smith Jr.",
+       "party": "D",
+       "votes": 117350,
+       "percentage": 49.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 234933,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Tulchin Research (D), July 27 – August 2, 2026",
@@ -20279,19 +20322,40 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_5",
     "candidates": [
      {
-      "name": "Virginia Foxx",
-      "party": "R",
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Chuck Hubbard",
       "party": "D",
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Virginia Foxx",
+      "party": "R",
+      "partyName": "Republican Party"
      }
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Chuck Hubbard",
+       "party": "D",
+       "votes": 139034,
+       "percentage": 48.7,
+       "winner": false
+      },
+      {
+       "name": "Virginia Foxx",
+       "party": "R",
+       "votes": 138935,
+       "percentage": 48.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 277969,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -20394,19 +20458,41 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_6",
     "candidates": [
      {
-      "name": "Addison McDowell",
-      "party": "R",
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Cyril Jefferson",
       "party": "D",
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Addison McDowell",
+      "party": "R",
+      "partyName": "Republican Party"
      }
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Cyril Jefferson",
+       "party": "D",
+       "votes": 140001,
+       "percentage": 51.1,
+       "winner": true
+      },
+      {
+       "name": "Addison McDowell",
+       "party": "R",
+       "votes": 133737,
+       "percentage": 48.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 273738,
+     "winner": "Cyril Jefferson",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T16:31:36.073Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -20538,7 +20624,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "David Rouzer",
+       "party": "R",
+       "votes": 159985,
+       "percentage": 49.9,
+       "winner": true
+      },
+      {
+       "name": "Kim Hardy",
+       "party": "D",
+       "votes": 157560,
+       "percentage": 49.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 317545,
+     "winner": "David Rouzer",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T16:31:36.073Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Public Policy Polling (D), August 19–20, 2026",
@@ -54680,7 +54788,7 @@
        "partyName": "Republican Party"
       },
       {
-       "name": "N'Kiyla \"Jasmine\" Thomas",
+       "name": "N'Kiyla Jasmine Thomas",
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party"
@@ -54839,7 +54947,7 @@
        "moe": 4.3,
        "values": {
         "Kevin Hern": 49,
-        "N'Kiyla \"Jasmine\" Thomas": 25
+        "N'Kiyla Jasmine Thomas": 25
        },
        "other": 8,
        "undecided": 19
@@ -54850,7 +54958,7 @@
       "detail": "Most recent poll: CHS & Associates, August 3–6, 2026",
       "values": {
        "Kevin Hern": 49,
-       "N'Kiyla \"Jasmine\" Thomas": 25
+       "N'Kiyla Jasmine Thomas": 25
       },
       "leader": "Kevin Hern",
       "margin": 24
