@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T05:13:07.326Z",
+ "generatedAt": "2026-11-07T05:58:08.056Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -32040,19 +32040,19 @@
        {
         "name": "Tom Cotton",
         "party": "R",
-        "votes": 480576,
+        "votes": 480627,
         "percentage": 54.3,
         "winner": true
        },
        {
         "name": "Hallie Shoffner",
         "party": "D",
-        "votes": 375620,
+        "votes": 375647,
         "percentage": 42.4,
         "winner": false
        }
       ],
-      "totalVotes": 856196,
+      "totalVotes": 856274,
       "winner": "Tom Cotton",
       "runoff": false,
       "source": "infobox",
