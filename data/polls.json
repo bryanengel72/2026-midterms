@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T02:43:07.340Z",
+ "generatedAt": "2026-11-07T02:58:07.765Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -39983,19 +39983,19 @@
        {
         "name": "Cindy Holscher",
         "party": "D",
-        "votes": 549974,
-        "percentage": 50.32,
+        "votes": 551250,
+        "percentage": 50.35,
         "winner": false
        },
        {
         "name": "Ty Masterson",
         "party": "R",
-        "votes": 542929,
-        "percentage": 49.68,
+        "votes": 543612,
+        "percentage": 49.65,
         "winner": false
        }
       ],
-      "totalVotes": 1092903,
+      "totalVotes": 1094862,
       "winner": null,
       "runoff": false,
       "source": "infobox",
@@ -54804,8 +54804,7 @@
       "count": 12,
       "of": 12
      },
-     "latestPoll": "2026-08-06",
-     "stale": true
+     "latestPoll": "2026-08-06"
     },
     {
      "id": "OK-GOV",
