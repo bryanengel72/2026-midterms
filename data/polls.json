@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T16:46:36.060Z",
+ "generatedAt": "2026-11-07T18:31:35.884Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -21453,12 +21453,18 @@
        "votes": 152329,
        "percentage": 48.1,
        "winner": false
+      },
+      {
+       "name": "Steven Swinton",
+       "party": "L",
+       "votes": 4479,
+       "percentage": 1.4,
+       "winner": false
       }
      ],
-     "totalVotes": 312310,
+     "totalVotes": 316789,
      "winner": "Paul Barringer",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-07T16:46:36.060Z"
     },
     "headline": null,
@@ -51162,7 +51168,7 @@
         "party": "D",
         "votes": 3563714,
         "percentage": 59.6,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Bruce Blakeman",
@@ -51173,10 +51179,11 @@
        }
       ],
       "totalVotes": 5967072,
-      "winner": null,
+      "winner": "Kathy Hochul",
       "runoff": false,
       "source": "infobox",
-      "reporting": 91
+      "reporting": 91,
+      "calledAt": "2026-11-07T18:31:35.884Z"
      },
      "ratings": [
       {
