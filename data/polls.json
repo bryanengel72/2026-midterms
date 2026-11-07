@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T05:58:08.056Z",
+ "generatedAt": "2026-11-07T06:13:07.838Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -35693,19 +35693,19 @@
        {
         "name": "Jon Ossoff",
         "party": "D",
-        "votes": 2466207,
+        "votes": 2466422,
         "percentage": 59,
         "winner": true
        },
        {
         "name": "Mike Collins",
         "party": "R",
-        "votes": 1711747,
+        "votes": 1712444,
         "percentage": 41,
         "winner": false
        }
       ],
-      "totalVotes": 4177954,
+      "totalVotes": 4178866,
       "winner": "Jon Ossoff",
       "runoff": false,
       "source": "infobox",
@@ -37482,23 +37482,23 @@
        {
         "name": "Juliana Stratton",
         "party": "D",
-        "votes": 2431012,
-        "percentage": 60.8,
+        "votes": 2499776,
+        "percentage": 61.3,
         "winner": true
        },
        {
         "name": "Don Tracy",
         "party": "R",
-        "votes": 1501458,
-        "percentage": 37.6,
+        "votes": 1510621,
+        "percentage": 37.1,
         "winner": false
        }
       ],
-      "totalVotes": 3932470,
+      "totalVotes": 4010397,
       "winner": "Juliana Stratton",
       "runoff": false,
       "source": "infobox",
-      "reporting": 93,
+      "reporting": 95.8,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
