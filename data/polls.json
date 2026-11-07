@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T02:58:07.765Z",
+ "generatedAt": "2026-11-07T03:28:07.592Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8894,23 +8894,28 @@
       {
        "name": "Kat Cammack",
        "party": "R",
-       "votes": 165335,
+       "votes": 165655,
        "percentage": 55.1,
-       "winner": true
+       "winner": false
       },
       {
        "name": "Seth Harp",
        "party": "D",
-       "votes": 128882,
+       "votes": 129139,
        "percentage": 43,
+       "winner": false
+      },
+      {
+       "name": "Mike Klein",
+       "party": "I",
+       "votes": 5617,
+       "percentage": 1.9,
        "winner": false
       }
      ],
-     "totalVotes": 294217,
-     "winner": "Kat Cammack",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-05T23:28:54.030Z"
+     "totalVotes": 300411,
+     "winner": null,
+     "runoff": false
     },
     "headline": null,
     "latestPoll": null
