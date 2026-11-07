@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T00:41:03.237Z",
+ "generatedAt": "2026-11-07T01:13:07.468Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24235,21 +24235,21 @@
       {
        "name": "Nancy Lacore",
        "party": "D",
-       "votes": 161878,
+       "votes": 162103,
        "percentage": 49.7,
        "winner": false
       },
       {
        "name": "Jenny Costa Honeycutt",
        "party": "R",
-       "votes": 158570,
+       "votes": 158751,
        "percentage": 48.6,
        "winner": false
       },
       {
        "name": "Bill Reeside Jr.",
        "party": "L",
-       "votes": 5346,
+       "votes": 5351,
        "percentage": 1.6,
        "winner": false
       },
