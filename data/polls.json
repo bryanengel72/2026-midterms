@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T00:26:02.768Z",
+ "generatedAt": "2026-11-07T00:41:03.237Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -11986,7 +11986,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jim Kingston",
+       "party": "R",
+       "votes": 140222,
+       "percentage": 51.4,
+       "winner": true
+      },
+      {
+       "name": "Amanda Hollowell",
+       "party": "D",
+       "votes": 132498,
+       "percentage": 48.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 272720,
+     "winner": "Jim Kingston",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T00:41:03.237Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -12134,7 +12156,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Rich McCormick",
+       "party": "R",
+       "votes": 191539,
+       "percentage": 56.2,
+       "winner": true
+      },
+      {
+       "name": "Anthony Kozycki",
+       "party": "D",
+       "votes": 149323,
+       "percentage": 43.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 340862,
+     "winner": "Rich McCormick",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T00:41:03.237Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -12258,7 +12302,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Houston Gaines",
+       "party": "R",
+       "votes": 174274,
+       "percentage": 53.6,
+       "winner": true
+      },
+      {
+       "name": "Pamela DeLancy",
+       "party": "D",
+       "votes": 150907,
+       "percentage": 46.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 325181,
+     "winner": "Houston Gaines",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T00:41:03.237Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -12373,7 +12439,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Rick Allen",
+       "party": "R",
+       "votes": 140869,
+       "percentage": 52.1,
+       "winner": true
+      },
+      {
+       "name": "Ceretta Smith",
+       "party": "D",
+       "votes": 129582,
+       "percentage": 47.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 270451,
+     "winner": "Rick Allen",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T00:41:03.237Z"
+    },
     "headline": null,
     "latestPoll": null
    },
