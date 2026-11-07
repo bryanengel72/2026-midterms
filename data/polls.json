@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T20:47:20.863Z",
+ "generatedAt": "2026-11-07T22:47:20.762Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -21985,16 +21985,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_7",
     "candidates": [
      {
-      "name": "Max Miller",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Brian Poindexter",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Max Miller",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -22090,13 +22090,33 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Brian Poindexter",
+       "party": "D",
+       "votes": 180614,
+       "percentage": 54.9,
+       "winner": false
+      },
+      {
+       "name": "Max Miller",
+       "party": "R",
+       "votes": 148177,
+       "percentage": 45.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 148177,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Max Miller": 42,
-      "Brian Poindexter": 46
+      "Brian Poindexter": 46,
+      "Max Miller": 42
      },
      "leader": "Brian Poindexter",
      "margin": 4
@@ -22214,7 +22234,27 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Warren Davidson",
+       "party": "R",
+       "votes": 168689,
+       "percentage": 52.1,
+       "winner": false
+      },
+      {
+       "name": "Vanessa Enoch",
+       "party": "D",
+       "votes": 154828,
+       "percentage": 47.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 323517,
+     "winner": null,
+     "runoff": false
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -22377,7 +22417,27 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Marcy Kaptur",
+       "party": "D",
+       "votes": 159306,
+       "percentage": 52.7,
+       "winner": false
+      },
+      {
+       "name": "Derek Merrin",
+       "party": "R",
+       "votes": 142830,
+       "percentage": 47.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 302136,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -22489,16 +22549,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_10",
     "candidates": [
      {
-      "name": "Mike Turner",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Kristina Knickerbocker",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Mike Turner",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      },
      {
       "name": "Thomas McMasters",
@@ -22555,13 +22615,40 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Kristina Knickerbocker",
+       "party": "D",
+       "votes": 149024,
+       "percentage": 49.3,
+       "winner": false
+      },
+      {
+       "name": "Mike Turner",
+       "party": "R",
+       "votes": 144086,
+       "percentage": 47.7,
+       "winner": false
+      },
+      {
+       "name": "Thomas McMasters",
+       "party": "L",
+       "votes": 8906,
+       "percentage": 2.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 302016,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Mike Turner": 44,
       "Kristina Knickerbocker": 47,
+      "Mike Turner": 44,
       "Thomas McMasters": 4
      },
      "leader": "Kristina Knickerbocker",
@@ -22680,7 +22767,34 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Emilia Sykes",
+       "party": "D",
+       "votes": 190593,
+       "percentage": 60,
+       "winner": false
+      },
+      {
+       "name": "Carey Coleman",
+       "party": "R",
+       "votes": 122078,
+       "percentage": 38.4,
+       "winner": false
+      },
+      {
+       "name": "Sandeep Dixit",
+       "party": "I",
+       "votes": 5104,
+       "percentage": 1.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 317775,
+     "winner": null,
+     "runoff": false
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -22783,16 +22897,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio#District_15",
     "candidates": [
      {
-      "name": "Mike Carey",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Don Leonard",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Mike Carey",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      },
      {
       "name": "Brennan Barrington",
@@ -22865,13 +22979,40 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Don Leonard",
+       "party": "D",
+       "votes": 149287,
+       "percentage": 51.9,
+       "winner": false
+      },
+      {
+       "name": "Mike Carey",
+       "party": "R",
+       "votes": 130225,
+       "percentage": 45.3,
+       "winner": false
+      },
+      {
+       "name": "Brennan Barrington",
+       "party": "L",
+       "votes": 8135,
+       "percentage": 2.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 287647,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Mike Carey": 45,
-      "Don Leonard": 48
+      "Don Leonard": 48,
+      "Mike Carey": 45
      },
      "leader": "Don Leonard",
      "margin": 3
