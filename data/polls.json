@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T15:31:36.132Z",
+ "generatedAt": "2026-11-07T16:16:36.099Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -31365,23 +31365,23 @@
        {
         "name": "Katie Hobbs",
         "party": "D",
-        "votes": 1235066,
-        "percentage": 55.59,
+        "votes": 1414266,
+        "percentage": 55.64,
         "winner": true
        },
        {
         "name": "Andy Biggs",
         "party": "R",
-        "votes": 948445,
-        "percentage": 42.69,
+        "votes": 1080353,
+        "percentage": 42.5,
         "winner": false
        }
       ],
-      "totalVotes": 2183511,
+      "totalVotes": 2494619,
       "winner": "Katie Hobbs",
       "runoff": false,
       "source": "infobox",
-      "reporting": 80,
+      "reporting": 98,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
