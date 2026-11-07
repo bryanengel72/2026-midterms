@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T04:43:07.658Z",
+ "generatedAt": "2026-11-07T04:58:07.452Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -58370,26 +58370,26 @@
        {
         "name": "Marsha Blackburn",
         "party": "R",
-        "votes": 955259,
-        "percentage": 45.5,
+        "votes": 957136,
+        "percentage": 45.52,
         "winner": true
        },
        {
         "name": "Jerri Green",
         "party": "D",
-        "votes": 902546,
-        "percentage": 43,
+        "votes": 902953,
+        "percentage": 42.95,
         "winner": false
        },
        {
         "name": "David Hatley",
         "party": "I",
-        "votes": 195288,
+        "votes": 195564,
         "percentage": 9.3,
         "winner": false
        }
       ],
-      "totalVotes": 2053093,
+      "totalVotes": 2055653,
       "winner": "Marsha Blackburn",
       "runoff": false,
       "source": "infobox",
