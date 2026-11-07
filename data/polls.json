@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T02:13:08.298Z",
+ "generatedAt": "2026-11-07T02:43:07.340Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -54804,7 +54804,8 @@
       "count": 12,
       "of": 12
      },
-     "latestPoll": "2026-08-06"
+     "latestPoll": "2026-08-06",
+     "stale": true
     },
     {
      "id": "OK-GOV",
