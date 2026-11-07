@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T20:32:21.090Z",
+ "generatedAt": "2026-11-07T20:47:20.863Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20044,21 +20044,27 @@
        "name": "Don Davis",
        "party": "D",
        "votes": 156572,
-       "percentage": 50.1,
+       "percentage": 50,
        "winner": true
       },
       {
        "name": "Laurie Buckhout",
        "party": "R",
        "votes": 146287,
-       "percentage": 46.8,
+       "percentage": 46.7,
+       "winner": false
+      },
+      {
+       "name": "Tom Bailey",
+       "party": "L",
+       "votes": 9881,
+       "percentage": 3.1,
        "winner": false
       }
      ],
-     "totalVotes": 302859,
+     "totalVotes": 312740,
      "winner": "Don Davis",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-07T16:31:36.073Z"
     },
     "headline": {
@@ -20211,12 +20217,18 @@
        "votes": 117350,
        "percentage": 49.3,
        "winner": false
+      },
+      {
+       "name": "Daniel Cavender",
+       "party": "L",
+       "votes": 2971,
+       "percentage": 1.2,
+       "winner": false
       }
      ],
-     "totalVotes": 234933,
+     "totalVotes": 237904,
      "winner": null,
-     "runoff": false,
-     "source": "infobox"
+     "runoff": false
     },
     "headline": {
      "basis": "latest-poll",
@@ -20347,14 +20359,20 @@
        "name": "Virginia Foxx",
        "party": "R",
        "votes": 138935,
-       "percentage": 48.7,
+       "percentage": 48.6,
+       "winner": false
+      },
+      {
+       "name": "Robert Luffman",
+       "party": "L",
+       "votes": 7529,
+       "percentage": 2.6,
        "winner": false
       }
      ],
-     "totalVotes": 277969,
+     "totalVotes": 285498,
      "winner": null,
-     "runoff": false,
-     "source": "infobox"
+     "runoff": false
     },
     "headline": null,
     "latestPoll": null
