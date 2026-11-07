@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T01:58:08.104Z",
+ "generatedAt": "2026-11-07T02:13:08.298Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8759,23 +8759,21 @@
       {
        "name": "Austin Rogers",
        "party": "R",
-       "votes": 160968,
+       "votes": 161148,
        "percentage": 52.1,
-       "winner": true
+       "winner": false
       },
       {
        "name": "Amanda Green",
        "party": "D",
-       "votes": 147792,
+       "votes": 148215,
        "percentage": 47.9,
        "winner": false
       }
      ],
-     "totalVotes": 308760,
-     "winner": "Austin Rogers",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-05T23:28:54.030Z"
+     "totalVotes": 309363,
+     "winner": null,
+     "runoff": false
     },
     "headline": null,
     "latestPoll": null
