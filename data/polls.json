@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T16:31:36.073Z",
+ "generatedAt": "2026-11-07T16:46:36.060Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20771,7 +20771,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Mark Harris",
+       "party": "R",
+       "votes": 147094,
+       "percentage": 50.4,
+       "winner": true
+      },
+      {
+       "name": "Colby Watson",
+       "party": "D",
+       "votes": 141915,
+       "percentage": 48.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 289009,
+     "winner": "Mark Harris",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T16:46:36.060Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -20874,16 +20896,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_9",
     "candidates": [
      {
-      "name": "Richard Hudson",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Richard Ojeda",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Richard Hudson",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -20945,8 +20967,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Richard Hudson": 46,
-      "Richard Ojeda": 42
+      "Richard Ojeda": 42,
+      "Richard Hudson": 46
      },
      "leader": "Richard Hudson",
      "margin": 4
@@ -21075,7 +21097,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Pat Harrigan",
+       "party": "R",
+       "votes": 146166,
+       "percentage": 49.7,
+       "winner": true
+      },
+      {
+       "name": "Ashley Bell",
+       "party": "D",
+       "votes": 143137,
+       "percentage": 48.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 289303,
+     "winner": "Pat Harrigan",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T16:46:36.060Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Ragnar Research Partners (R), March 10–12, 2026",
@@ -21187,17 +21231,17 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_11",
     "candidates": [
      {
+      "name": "Jamie Ager",
+      "party": "D",
+      "nominee": true,
+      "partyName": "Democratic Party"
+     },
+     {
       "name": "Jennifer Balkcom",
       "party": "R",
       "nominee": true,
       "partyName": "Republican Party",
       "note": "replacing Chuck Edwards"
-     },
-     {
-      "name": "Jamie Ager",
-      "party": "D",
-      "nominee": true,
-      "partyName": "Democratic Party"
      }
     ],
     "polls": [
@@ -21248,13 +21292,35 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jamie Ager",
+       "party": "D",
+       "votes": 195637,
+       "percentage": 57.1,
+       "winner": true
+      },
+      {
+       "name": "Jennifer Balkcom",
+       "party": "R",
+       "votes": 141427,
+       "percentage": 41.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 337064,
+     "winner": "Jamie Ager",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T16:46:36.060Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Jennifer Balkcom": 43.5,
-      "Jamie Ager": 53
+      "Jamie Ager": 53,
+      "Jennifer Balkcom": 43.5
      },
      "leader": "Jamie Ager",
      "margin": 9.5
@@ -21360,19 +21426,41 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_13",
     "candidates": [
      {
-      "name": "Brad Knott",
-      "party": "R",
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Paul Barringer",
       "party": "D",
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Brad Knott",
+      "party": "R",
+      "partyName": "Republican Party"
      }
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Paul Barringer",
+       "party": "D",
+       "votes": 159981,
+       "percentage": 50.5,
+       "winner": true
+      },
+      {
+       "name": "Brad Knott",
+       "party": "R",
+       "votes": 152329,
+       "percentage": 48.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 312310,
+     "winner": "Paul Barringer",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-07T16:46:36.060Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -21475,16 +21563,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_14",
     "candidates": [
      {
-      "name": "Tim Moore",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Lakesha Womack",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Tim Moore",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
