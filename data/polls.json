@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T01:13:07.468Z",
+ "generatedAt": "2026-11-07T01:58:08.104Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -37671,23 +37671,23 @@
        {
         "name": "JB Pritzker",
         "party": "D",
-        "votes": 2930469,
-        "percentage": 59.6,
+        "votes": 2456413,
+        "percentage": 60.1,
         "winner": true
        },
        {
         "name": "Darren Bailey",
         "party": "R",
-        "votes": 1483222,
-        "percentage": 37,
+        "votes": 1495307,
+        "percentage": 36.6,
         "winner": false
        }
       ],
-      "totalVotes": 4413691,
+      "totalVotes": 3951720,
       "winner": "JB Pritzker",
       "runoff": false,
       "source": "infobox",
-      "reporting": 93,
+      "reporting": 96,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -57196,24 +57196,35 @@
        {
         "name": "Alan Wilson",
         "party": "R",
-        "votes": 1050190,
-        "percentage": 51.6,
-        "winner": true
+        "votes": 1051010,
+        "percentage": 51.58,
+        "winner": false
        },
        {
         "name": "Jermaine Johnson",
         "party": "D",
-        "votes": 959001,
-        "percentage": 47.1,
+        "votes": 960269,
+        "percentage": 47.13,
+        "winner": false
+       },
+       {
+        "name": "Michael Addison",
+        "party": "O",
+        "votes": 16123,
+        "percentage": 0.79,
+        "winner": false
+       },
+       {
+        "name": "Walid Hakim",
+        "party": "G",
+        "votes": 9077,
+        "percentage": 0.45,
         "winner": false
        }
       ],
-      "totalVotes": 2009191,
-      "winner": "Alan Wilson",
-      "runoff": false,
-      "source": "infobox",
-      "reporting": 95,
-      "calledAt": "2026-11-04T14:51:41.043Z"
+      "totalVotes": 2036479,
+      "winner": null,
+      "runoff": false
      },
      "ratings": [
       {
