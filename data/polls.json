@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T23:41:01.974Z",
+ "generatedAt": "2026-11-07T00:11:02.424Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -25439,13 +25439,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Leticia Gutierrez": 44.5,
+      "Leticia Gutierrez": 47,
       "Alex Mealer": 48
      },
      "leader": "Alex Mealer",
-     "margin": 3.5
+     "margin": 1
     },
     "latestPoll": "2026-10-22"
    },
@@ -26387,11 +26387,11 @@
      "calledAt": "2026-11-04T14:51:41.043Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Normington Petts (D), October 5–7, 2026",
      "values": {
-      "Katy Padilla Stout": 46,
-      "Brandon Herrera": 46
+      "Brandon Herrera": 46,
+      "Katy Padilla Stout": 46
      },
      "leader": null,
      "margin": 0
@@ -30162,29 +30162,7 @@
        "nominee": false
       }
      ],
-     "results": {
-      "candidates": [
-       {
-        "name": "Mary Peltola",
-        "party": "D",
-        "votes": 102962,
-        "percentage": 48.18,
-        "winner": false
-       },
-       {
-        "name": "Dan S. Sullivan",
-        "party": "R",
-        "votes": 102325,
-        "percentage": 47.88,
-        "winner": false
-       }
-      ],
-      "totalVotes": 205287,
-      "winner": null,
-      "runoff": false,
-      "source": "infobox",
-      "reporting": 74
-     },
+     "results": null,
      "ratings": [
       {
        "source": "ABC News",
