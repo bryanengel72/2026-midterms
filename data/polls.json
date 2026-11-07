@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T13:31:35.720Z",
+ "generatedAt": "2026-11-07T13:46:35.775Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -16111,12 +16111,18 @@
        "votes": 153132,
        "percentage": 46.21,
        "winner": false
+      },
+      {
+       "name": "Brandon Daugherty",
+       "party": "L",
+       "votes": 8782,
+       "percentage": 2.65,
+       "winner": false
       }
      ],
-     "totalVotes": 322609,
+     "totalVotes": 331391,
      "winner": "Fred Wellman",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-06T19:56:01.450Z"
     },
     "headline": {
