@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T03:28:07.592Z",
+ "generatedAt": "2026-11-07T03:43:07.526Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -21599,7 +21599,34 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Greg Landsman",
+       "party": "D",
+       "votes": 176453,
+       "percentage": 54.4,
+       "winner": false
+      },
+      {
+       "name": "Eric Conroy",
+       "party": "R",
+       "votes": 139343,
+       "percentage": 42.9,
+       "winner": false
+      },
+      {
+       "name": "Nathan Weise",
+       "party": "L",
+       "votes": 8675,
+       "percentage": 2.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 324471,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
