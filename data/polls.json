@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T00:11:02.424Z",
+ "generatedAt": "2026-11-07T00:26:02.768Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -36678,7 +36678,7 @@
         "party": "D",
         "votes": 278652,
         "percentage": 72.6,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Gary Cordery",
@@ -36689,10 +36689,11 @@
        }
       ],
       "totalVotes": 383578,
-      "winner": null,
+      "winner": "Josh Green",
       "runoff": false,
       "source": "infobox",
-      "reporting": 99
+      "reporting": 99,
+      "calledAt": "2026-11-07T00:26:02.768Z"
      },
      "ratings": [
       {
