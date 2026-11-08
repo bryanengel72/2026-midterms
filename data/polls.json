@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T11:56:26.410Z",
+ "generatedAt": "2026-11-08T13:31:29.372Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -17083,23 +17083,23 @@
       {
        "name": "Dina Titus",
        "party": "D",
-       "votes": 127098,
-       "percentage": 59,
+       "votes": 140944,
+       "percentage": 59.2,
        "winner": true
       },
       {
        "name": "Carrie Buck",
        "party": "R",
-       "votes": 81873,
-       "percentage": 38,
+       "votes": 89724,
+       "percentage": 37.7,
        "winner": false
       }
      ],
-     "totalVotes": 208971,
+     "totalVotes": 230668,
      "winner": "Dina Titus",
      "runoff": false,
      "source": "infobox",
-     "reporting": 85,
+     "reporting": 99,
      "calledAt": "2026-11-05T04:13:07.633Z"
     },
     "headline": null,
@@ -17261,30 +17261,30 @@
       {
        "name": "Teresa Benitez-Thompson",
        "party": "D",
-       "votes": 150333,
-       "percentage": 50.3,
+       "votes": 161066,
+       "percentage": 50.2,
        "winner": true
       },
       {
        "name": "David Flippo",
        "party": "R",
-       "votes": 132762,
-       "percentage": 44.4,
+       "votes": 142066,
+       "percentage": 44.3,
        "winner": false
       },
       {
        "name": "Lynn Chapman",
        "party": "I",
-       "votes": 15994,
-       "percentage": 5.3,
+       "votes": 17546,
+       "percentage": 5.5,
        "winner": false
       }
      ],
-     "totalVotes": 299089,
+     "totalVotes": 320678,
      "winner": "Teresa Benitez-Thompson",
      "runoff": false,
      "source": "infobox",
-     "reporting": 93,
+     "reporting": 99,
      "calledAt": "2026-11-05T04:13:07.633Z"
     },
     "headline": {
@@ -17434,23 +17434,23 @@
       {
        "name": "Susie Lee",
        "party": "D",
-       "votes": 146863,
-       "percentage": 59.1,
+       "votes": 161418,
+       "percentage": 59.6,
        "winner": true
       },
       {
        "name": "Martin O'Donnell",
        "party": "R",
-       "votes": 95845,
-       "percentage": 38.6,
+       "votes": 103197,
+       "percentage": 38.1,
        "winner": false
       }
      ],
-     "totalVotes": 242708,
+     "totalVotes": 264615,
      "winner": "Susie Lee",
      "runoff": false,
      "source": "infobox",
-     "reporting": 85,
+     "reporting": 99,
      "calledAt": "2026-11-05T04:13:07.633Z"
     },
     "headline": {
@@ -17581,23 +17581,23 @@
       {
        "name": "Steven Horsford",
        "party": "D",
-       "votes": 136704,
-       "percentage": 60,
+       "votes": 152008,
+       "percentage": 60.4,
        "winner": true
       },
       {
        "name": "Cody Whipple",
        "party": "R",
-       "votes": 86861,
-       "percentage": 38.1,
+       "votes": 94741,
+       "percentage": 37.7,
        "winner": false
       }
      ],
-     "totalVotes": 223565,
+     "totalVotes": 246749,
      "winner": "Steven Horsford",
      "runoff": false,
      "source": "infobox",
-     "reporting": 86,
+     "reporting": 99,
      "calledAt": "2026-11-05T04:13:07.633Z"
     },
     "headline": null,
@@ -29882,7 +29882,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Glenn Grothman",
+       "party": "R",
+       "votes": 172138,
+       "percentage": 52.8,
+       "winner": false
+      },
+      {
+       "name": "Brad Smith",
+       "party": "D",
+       "votes": 141346,
+       "percentage": 43.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 313484,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Tavern Research (D), May 18–28, 2026",
@@ -30143,7 +30164,28 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Tony Wied",
+       "party": "R",
+       "votes": 177258,
+       "percentage": 53.9,
+       "winner": false
+      },
+      {
+       "name": "Rick Crosson",
+       "party": "D",
+       "votes": 151471,
+       "percentage": 46.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 328729,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -36332,7 +36374,6 @@
       "winner": "Jon Ossoff",
       "runoff": false,
       "source": "infobox",
-      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -41546,19 +41587,19 @@
        {
         "name": "Troy Jackson",
         "party": "D",
-        "votes": 374585,
-        "percentage": 53.2,
+        "votes": 375516,
+        "percentage": 53.1,
         "winner": true
        },
        {
         "name": "Susan Collins",
         "party": "R",
-        "votes": 329531,
+        "votes": 330994,
         "percentage": 46.8,
         "winner": false
        }
       ],
-      "totalVotes": 704116,
+      "totalVotes": 706510,
       "winner": "Troy Jackson",
       "runoff": false,
       "source": "infobox",
