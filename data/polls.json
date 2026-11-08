@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T03:19:25.455Z",
+ "generatedAt": "2026-11-08T03:49:25.969Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -59241,26 +59241,26 @@
        {
         "name": "James Talarico",
         "party": "D",
-        "votes": 5445156,
+        "votes": 5446309,
         "percentage": 55.06,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
-        "votes": 4249763,
+        "votes": 4250166,
         "percentage": 42.97,
         "winner": false
        },
        {
         "name": "Ted Brown",
         "party": "L",
-        "votes": 190259,
+        "votes": 190293,
         "percentage": 1.92,
         "winner": false
        }
       ],
-      "totalVotes": 9890290,
+      "totalVotes": 9891880,
       "winner": "James Talarico",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
