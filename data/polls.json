@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T01:19:26.271Z",
+ "generatedAt": "2026-11-08T01:34:25.734Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8157,7 +8157,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jeff Hurd",
+       "party": "R",
+       "votes": 163655,
+       "percentage": 49.3,
+       "winner": true
+      },
+      {
+       "name": "Dwayne Romero",
+       "party": "D",
+       "votes": 157523,
+       "percentage": 47.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 321178,
+     "winner": "Jeff Hurd",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:34:25.734Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -8262,16 +8284,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado#District_4",
     "candidates": [
      {
-      "name": "Lauren Boebert",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Eileen Laubacher",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Lauren Boebert",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      },
      {
       "name": "Douglas Mangeris",
@@ -8298,7 +8320,28 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Eileen Laubacher",
+       "party": "D",
+       "votes": 185923,
+       "percentage": 48.8,
+       "winner": false
+      },
+      {
+       "name": "Lauren Boebert",
+       "party": "R",
+       "votes": 182686,
+       "percentage": 47.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 368609,
+     "winner": null,
+     "runoff": false,
+     "source": "infobox"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Impact Research (D), September 21–24, 2026",
@@ -8486,7 +8529,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jessica Killin",
+       "party": "D",
+       "votes": 155598,
+       "percentage": 50.5,
+       "winner": true
+      },
+      {
+       "name": "Jeff Crank",
+       "party": "R",
+       "votes": 141074,
+       "percentage": 45.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 296672,
+     "winner": "Jessica Killin",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:34:25.734Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
@@ -8598,16 +8663,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado#District_8",
     "candidates": [
      {
-      "name": "Gabe Evans",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Manny Rutinel",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Gabe Evans",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -8628,7 +8693,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Manny Rutinel",
+       "party": "D",
+       "votes": 158784,
+       "percentage": 55.4,
+       "winner": true
+      },
+      {
+       "name": "Gabe Evans",
+       "party": "R",
+       "votes": 116602,
+       "percentage": 40.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 275386,
+     "winner": "Manny Rutinel",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:34:25.734Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: McLaughlin and Associates (R), September 16–17, 2026",
@@ -29615,7 +29702,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Rebecca Cooke",
+       "party": "D",
+       "votes": 172757,
+       "percentage": 52.4,
+       "winner": true
+      },
+      {
+       "name": "Derrick Van Orden",
+       "party": "R",
+       "votes": 150873,
+       "percentage": 45.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 323630,
+     "winner": "Rebecca Cooke",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:34:25.734Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: FM3 Research (D), June 20–25, 2026",
@@ -29881,7 +29990,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Michael Alfonso",
+       "party": "R",
+       "votes": 191822,
+       "percentage": 56.4,
+       "winner": true
+      },
+      {
+       "name": "Fred Clark",
+       "party": "D",
+       "votes": 148172,
+       "percentage": 43.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 339994,
+     "winner": "Michael Alfonso",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:34:25.734Z"
+    },
     "headline": null,
     "latestPoll": null
    },
