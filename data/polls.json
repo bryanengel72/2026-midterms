@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T15:34:17.207Z",
+ "generatedAt": "2026-11-08T15:49:17.023Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -14460,28 +14460,28 @@
        "name": "Jack Bergman",
        "party": "R",
        "votes": 216960,
-       "percentage": 53.8,
+       "percentage": 53.78,
        "winner": false
       },
       {
        "name": "Callie Barr",
        "party": "D",
        "votes": 178381,
-       "percentage": 44.2,
+       "percentage": 44.22,
        "winner": false
       },
       {
        "name": "Arnett Satterla",
        "party": "L",
        "votes": 2757,
-       "percentage": 0.7,
+       "percentage": 0.68,
        "winner": false
       },
       {
        "name": "Liz Hakola",
        "party": "O",
        "votes": 2383,
-       "percentage": 0.6,
+       "percentage": 0.59,
        "winner": false
       },
       {
@@ -14495,14 +14495,14 @@
        "name": "Zebulon Featherly",
        "party": "I",
        "votes": 922,
-       "percentage": 0.2,
+       "percentage": 0.23,
        "winner": false
       },
       {
        "name": "LaVeta Davenport",
        "party": "G",
        "votes": 773,
-       "percentage": 0.2,
+       "percentage": 0.19,
        "winner": false
       }
      ],
@@ -14630,21 +14630,21 @@
        "name": "Hillary Scholten",
        "party": "D",
        "votes": 211061,
-       "percentage": 57.1,
+       "percentage": 57.14,
        "winner": false
       },
       {
        "name": "Terri DeBoer",
        "party": "R",
        "votes": 152988,
-       "percentage": 41.4,
+       "percentage": 41.42,
        "winner": false
       },
       {
        "name": "Joe Jock",
        "party": "I",
        "votes": 5339,
-       "percentage": 1.4,
+       "percentage": 1.44,
        "winner": false
       }
      ],
@@ -14864,7 +14864,7 @@
        "name": "Shafina Che Barnett",
        "party": "G",
        "votes": 5652,
-       "percentage": 1.54,
+       "percentage": 1.53,
        "winner": false
       }
      ],
@@ -15050,21 +15050,21 @@
        "name": "William Lawrence",
        "party": "D",
        "votes": 202657,
-       "percentage": 51,
+       "percentage": 51.03,
        "winner": false
       },
       {
        "name": "Tom Barrett",
        "party": "R",
        "votes": 189482,
-       "percentage": 47.7,
+       "percentage": 47.71,
        "winner": false
       },
       {
        "name": "Shane Dedrick",
        "party": "G",
        "votes": 4974,
-       "percentage": 1.3,
+       "percentage": 1.26,
        "winner": false
       }
      ],
@@ -15201,35 +15201,35 @@
        "name": "Kristen McDonald Rivet",
        "party": "D",
        "votes": 195849,
-       "percentage": 55.5,
+       "percentage": 55.52,
        "winner": false
       },
       {
        "name": "Thomas Smith",
        "party": "R",
        "votes": 147851,
-       "percentage": 41.9,
+       "percentage": 41.91,
        "winner": false
       },
       {
        "name": "Kathy Goodwin",
        "party": "O",
        "votes": 5169,
-       "percentage": 1.5,
+       "percentage": 1.47,
        "winner": false
       },
       {
        "name": "C. Mia Pettus",
        "party": "L",
        "votes": 2857,
-       "percentage": 0.8,
+       "percentage": 0.81,
        "winner": false
       },
       {
        "name": "Jim Casha",
        "party": "G",
        "votes": 1044,
-       "percentage": 0.3,
+       "percentage": 0.29,
        "winner": false
       }
      ],
@@ -15405,35 +15405,35 @@
        "name": "Christina Hines",
        "party": "D",
        "votes": 188078,
-       "percentage": 52.4,
+       "percentage": 52.44,
        "winner": false
       },
       {
        "name": "Michael Bouchard",
        "party": "R",
        "votes": 162347,
-       "percentage": 45.3,
+       "percentage": 45.26,
        "winner": false
       },
       {
        "name": "Andrea Kirby",
        "party": "O",
        "votes": 3978,
-       "percentage": 1.1,
+       "percentage": 1.11,
        "winner": false
       },
       {
        "name": "Mike Saliba",
        "party": "L",
        "votes": 3088,
-       "percentage": 0.9,
+       "percentage": 0.86,
        "winner": false
       },
       {
        "name": "Kwabena Nkromo",
        "party": "G",
        "votes": 1174,
-       "percentage": 0.3,
+       "percentage": 0.33,
        "winner": false
       }
      ],
