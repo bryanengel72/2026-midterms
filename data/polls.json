@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T11:41:27.095Z",
+ "generatedAt": "2026-11-08T11:56:26.410Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -7096,7 +7096,27 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "French Hill",
+       "party": "R",
+       "votes": 127437,
+       "percentage": 50.9,
+       "winner": false
+      },
+      {
+       "name": "Chris Jones",
+       "party": "D",
+       "votes": 123032,
+       "percentage": 49.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 250469,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
