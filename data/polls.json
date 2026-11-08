@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T03:04:26.145Z",
+ "generatedAt": "2026-11-08T03:19:25.455Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12673,7 +12673,7 @@
        "party": "D",
        "votes": 142213,
        "percentage": 63,
-       "winner": true
+       "winner": false
       },
       {
        "name": "Barb Regnitz",
@@ -12684,10 +12684,8 @@
       }
      ],
      "totalVotes": 225681,
-     "winner": "Frank Mrvan",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-05T02:56:01.673Z"
+     "winner": null,
+     "runoff": false
     },
     "headline": null,
     "latestPoll": null
@@ -12854,11 +12852,11 @@
     "results": {
      "candidates": [
       {
-       "name": "J. D. Ford",
+       "name": "J.D. Ford",
        "party": "D",
        "votes": 134476,
        "percentage": 51.7,
-       "winner": true
+       "winner": false
       },
       {
        "name": "Victoria Spartz",
@@ -12869,10 +12867,8 @@
       }
      ],
      "totalVotes": 260327,
-     "winner": "J. D. Ford",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-04T22:11:00.904Z"
+     "winner": null,
+     "runoff": false
     },
     "headline": {
      "basis": "simple-average",
@@ -38330,24 +38326,28 @@
        {
         "name": "JB Pritzker",
         "party": "D",
-        "votes": 2456413,
+        "votes": 2458101,
         "percentage": 60.1,
-        "winner": true
+        "winner": false
        },
        {
         "name": "Darren Bailey",
         "party": "R",
-        "votes": 1495307,
+        "votes": 1495629,
         "percentage": 36.6,
+        "winner": false
+       },
+       {
+        "name": "Collin Corbett",
+        "party": "I",
+        "votes": 137448,
+        "percentage": 3.4,
         "winner": false
        }
       ],
-      "totalVotes": 3951720,
-      "winner": "JB Pritzker",
-      "runoff": false,
-      "source": "infobox",
-      "reporting": 96,
-      "calledAt": "2026-11-04T06:05:40.683Z"
+      "totalVotes": 4091178,
+      "winner": null,
+      "runoff": false
      },
      "ratings": [
       {
