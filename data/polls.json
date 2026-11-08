@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T23:17:21.123Z",
+ "generatedAt": "2026-11-08T00:02:21.265Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20069,14 +20069,14 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Don Davis": 43.5,
-      "Laurie Buckhout": 43.5,
+      "Don Davis": 45,
+      "Laurie Buckhout": 44,
       "Tom Bailey": 2
      },
-     "leader": null,
-     "margin": 0
+     "leader": "Don Davis",
+     "margin": 1
     },
     "latestPoll": "2026-10-23"
    },
@@ -23569,13 +23569,13 @@
     "results": null,
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
       "Brian Fitzpatrick": 46,
-      "Bob Harvie": 46.7
+      "Bob Harvie": 47
      },
      "leader": "Bob Harvie",
-     "margin": 0.7
+     "margin": 1
     },
     "latestPoll": "2026-10-23"
    },
@@ -57049,14 +57049,14 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Helena Foulkes": 47.3,
-       "Ken Block": 33.3,
-       "Aaron Guckian": 12.3
+       "Helena Foulkes": 51.5,
+       "Ken Block": 36,
+       "Aaron Guckian": 10
       },
       "leader": "Helena Foulkes",
-      "margin": 14
+      "margin": 15.5
      },
      "consensus": {
       "rating": "Safe D",
@@ -58501,13 +58501,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
       "values": {
-       "Larry Rhoden": 52,
-       "Dan Ahlers": 37
+       "Larry Rhoden": 56,
+       "Dan Ahlers": 36
       },
       "leader": "Larry Rhoden",
-      "margin": 15
+      "margin": 20
      },
      "consensus": {
       "rating": "Safe R",
