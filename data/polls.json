@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T16:34:17.273Z",
+ "generatedAt": "2026-11-08T17:04:16.984Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -14462,7 +14462,7 @@
        "party": "R",
        "votes": 216960,
        "percentage": 53.78,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Callie Barr",
@@ -14508,8 +14508,9 @@
       }
      ],
      "totalVotes": 403405,
-     "winner": null,
-     "runoff": false
+     "winner": "Jack Bergman",
+     "runoff": false,
+     "calledAt": "2026-11-08T17:04:16.984Z"
     },
     "headline": null,
     "latestPoll": null
@@ -14632,7 +14633,7 @@
        "party": "D",
        "votes": 211061,
        "percentage": 57.14,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Terri DeBoer",
@@ -14650,8 +14651,9 @@
       }
      ],
      "totalVotes": 369388,
-     "winner": null,
-     "runoff": false
+     "winner": "Hillary Scholten",
+     "runoff": false,
+     "calledAt": "2026-11-08T17:04:16.984Z"
     },
     "headline": null,
     "latestPoll": null
@@ -15052,7 +15054,7 @@
        "party": "D",
        "votes": 202657,
        "percentage": 51.03,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Tom Barrett",
@@ -15070,8 +15072,9 @@
       }
      ],
      "totalVotes": 397113,
-     "winner": null,
-     "runoff": false
+     "winner": "William Lawrence",
+     "runoff": false,
+     "calledAt": "2026-11-08T17:04:16.984Z"
     },
     "headline": {
      "basis": "simple-average",
@@ -15203,7 +15206,7 @@
        "party": "D",
        "votes": 195849,
        "percentage": 55.52,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Thomas Smith",
@@ -15235,8 +15238,9 @@
       }
      ],
      "totalVotes": 352770,
-     "winner": null,
-     "runoff": false
+     "winner": "Kristen McDonald Rivet",
+     "runoff": false,
+     "calledAt": "2026-11-08T17:04:16.984Z"
     },
     "headline": null,
     "latestPoll": null
@@ -15346,7 +15350,7 @@
       "partyName": "Democratic Party"
      },
      {
-      "name": "Michael Bouchard",
+      "name": "Michael Bouchard Jr.",
       "party": "R",
       "nominee": true,
       "partyName": "Republican Party"
@@ -15362,7 +15366,7 @@
       "population": "LV",
       "moe": 4.9,
       "values": {
-       "Michael Bouchard": 47,
+       "Michael Bouchard Jr.": 47,
        "Christina Hines": 42
       },
       "other": 6,
@@ -15377,7 +15381,7 @@
       "population": "LV",
       "moe": 4.4,
       "values": {
-       "Michael Bouchard": 45,
+       "Michael Bouchard Jr.": 45,
        "Christina Hines": 45
       },
       "other": null,
@@ -15392,7 +15396,7 @@
       "population": "RV",
       "moe": 4,
       "values": {
-       "Michael Bouchard": 42,
+       "Michael Bouchard Jr.": 42,
        "Christina Hines": 44
       },
       "other": null,
@@ -15407,7 +15411,7 @@
        "party": "D",
        "votes": 188078,
        "percentage": 52.44,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Michael Bouchard",
@@ -15439,17 +15443,18 @@
       }
      ],
      "totalVotes": 358665,
-     "winner": null,
-     "runoff": false
+     "winner": "Christina Hines",
+     "runoff": false,
+     "calledAt": "2026-11-08T17:04:16.984Z"
     },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
       "Christina Hines": 42,
-      "Michael Bouchard": 47
+      "Michael Bouchard Jr.": 47
      },
-     "leader": "Michael Bouchard",
+     "leader": "Michael Bouchard Jr.",
      "margin": 5
     },
     "latestPoll": "2026-10-23"
@@ -19409,23 +19414,23 @@
       {
        "name": "Cait Conley",
        "party": "D",
-       "votes": 163253,
-       "percentage": 52.9,
+       "votes": 164679,
+       "percentage": 53,
        "winner": true
       },
       {
        "name": "Mike Lawler",
        "party": "R",
-       "votes": 145061,
-       "percentage": 47,
+       "votes": 145632,
+       "percentage": 46.9,
        "winner": false
       }
      ],
-     "totalVotes": 308314,
+     "totalVotes": 310311,
      "winner": "Cait Conley",
      "runoff": false,
      "source": "infobox",
-     "reporting": 94,
+     "reporting": 95,
      "calledAt": "2026-11-06T11:00:06.830Z"
     },
     "headline": {
@@ -19696,19 +19701,19 @@
       {
        "name": "Anthony Constantino",
        "party": "R",
-       "votes": 140422,
+       "votes": 140428,
        "percentage": 50.8,
        "winner": true
       },
       {
        "name": "Blake Gendebien",
        "party": "D",
-       "votes": 135172,
+       "votes": 135187,
        "percentage": 48.9,
        "winner": false
       }
      ],
-     "totalVotes": 275594,
+     "totalVotes": 275615,
      "winner": "Anthony Constantino",
      "runoff": false,
      "source": "infobox",
