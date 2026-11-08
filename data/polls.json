@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T22:06:28.535Z",
+ "generatedAt": "2026-11-08T22:21:28.850Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -16759,23 +16759,22 @@
       {
        "name": "Mike Flood",
        "party": "R",
-       "votes": 124881,
-       "percentage": 50.3,
+       "votes": 127001,
+       "percentage": 49.97,
        "winner": true
       },
       {
        "name": "Chris Backemeyer",
        "party": "D",
-       "votes": 114664,
-       "percentage": 46.2,
+       "votes": 118135,
+       "percentage": 46.48,
        "winner": false
       }
      ],
-     "totalVotes": 239545,
+     "totalVotes": 245136,
      "winner": "Mike Flood",
      "runoff": false,
      "source": "infobox",
-     "reporting": 92,
      "calledAt": "2026-11-05T23:13:54.207Z"
     },
     "headline": {
