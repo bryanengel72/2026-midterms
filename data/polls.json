@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T20:19:17.011Z",
+ "generatedAt": "2026-11-08T20:34:17.243Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -30966,8 +30966,7 @@
       {
        "name": "Dan J. Sullivan",
        "party": "I",
-       "nominee": true,
-       "partyName": "Independent"
+       "nominee": false
       },
       {
        "name": "Gerald Heikes",
@@ -59377,7 +59376,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 3, 2026"
+       "asOf": "October 30, 2026"
       },
       {
        "source": "Cook Political Report",
@@ -59385,7 +59384,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 3, 2026"
+       "asOf": "November 2, 2026"
       },
       {
        "source": "Decision Desk HQ",
@@ -59409,7 +59408,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -59425,7 +59424,7 @@
        "strength": "Tilt",
        "lean": "D",
        "flip": true,
-       "asOf": "November 3, 2026"
+       "asOf": "October 29, 2026"
       },
       {
        "source": "MS NOW",
@@ -59433,7 +59432,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 3, 2026"
+       "asOf": "October 29, 2026"
       },
       {
        "source": "NBC News",
@@ -62398,7 +62397,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Economist",
@@ -62406,7 +62405,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -62414,7 +62413,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -62446,7 +62445,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -62470,7 +62469,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Split Ticket",
@@ -62607,7 +62606,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Economist",
@@ -62615,7 +62614,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -62623,7 +62622,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -62655,7 +62654,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -62679,7 +62678,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Split Ticket",
@@ -63166,7 +63165,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Economist",
@@ -63174,7 +63173,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "FiftyPlusOne",
@@ -63182,7 +63181,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -63214,7 +63213,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -63238,7 +63237,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Split Ticket",
