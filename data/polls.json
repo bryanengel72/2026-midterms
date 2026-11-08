@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T22:21:28.850Z",
+ "generatedAt": "2026-11-08T22:36:29.047Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -18127,16 +18127,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Jersey#District_2",
     "candidates": [
      {
-      "name": "Jeff Van Drew",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Zack Mullock",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Jeff Van Drew",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -18162,8 +18162,8 @@
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Jeff Van Drew": 50,
-      "Zack Mullock": 40
+      "Zack Mullock": 40,
+      "Jeff Van Drew": 50
      },
      "leader": "Jeff Van Drew",
      "margin": 10
@@ -39519,7 +39519,7 @@
         "name": "Zach Lahn",
         "party": "R",
         "votes": 607415,
-        "percentage": 45.5,
+        "percentage": 44.5,
         "winner": false
        }
       ],
