@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T20:34:17.243Z",
+ "generatedAt": "2026-11-08T22:06:28.535Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -42410,30 +42410,30 @@
        {
         "name": "Hannah Pingree",
         "party": "D",
-        "votes": 379914,
-        "percentage": 54.8,
+        "votes": 387226,
+        "percentage": 54.47,
         "winner": true
        },
        {
         "name": "Bobby Charles",
         "party": "R",
-        "votes": 257847,
-        "percentage": 37.2,
+        "votes": 265982,
+        "percentage": 37.41,
         "winner": false
        },
        {
         "name": "Rick Bennett",
         "party": "I",
-        "votes": 55697,
-        "percentage": 8,
+        "votes": 57478,
+        "percentage": 8.08,
         "winner": false
        }
       ],
-      "totalVotes": 693458,
+      "totalVotes": 710686,
       "winner": "Hannah Pingree",
       "runoff": false,
       "source": "infobox",
-      "reporting": 91,
+      "reporting": 94,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
