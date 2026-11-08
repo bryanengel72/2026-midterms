@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T00:02:21.265Z",
+ "generatedAt": "2026-11-08T01:19:26.271Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -23431,16 +23431,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_1",
     "candidates": [
      {
-      "name": "Brian Fitzpatrick",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Bob Harvie",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Brian Fitzpatrick",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -23566,13 +23566,35 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Bob Harvie",
+       "party": "D",
+       "votes": 188087,
+       "percentage": 52.7,
+       "winner": true
+      },
+      {
+       "name": "Brian Fitzpatrick",
+       "party": "R",
+       "votes": 168531,
+       "percentage": 47.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 356618,
+     "winner": "Bob Harvie",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:19:26.271Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Brian Fitzpatrick": 46,
-      "Bob Harvie": 47
+      "Bob Harvie": 47,
+      "Brian Fitzpatrick": 46
      },
      "leader": "Bob Harvie",
      "margin": 1
@@ -23678,16 +23700,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_7",
     "candidates": [
      {
-      "name": "Ryan Mackenzie",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Bob Brooks",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Ryan Mackenzie",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -23768,13 +23790,35 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Bob Brooks",
+       "party": "D",
+       "votes": 164543,
+       "percentage": 56.1,
+       "winner": true
+      },
+      {
+       "name": "Ryan Mackenzie",
+       "party": "R",
+       "votes": 128738,
+       "percentage": 43.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 293281,
+     "winner": "Bob Brooks",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:19:26.271Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Ryan Mackenzie": 43.7,
-      "Bob Brooks": 49
+      "Bob Brooks": 49,
+      "Ryan Mackenzie": 43.7
      },
      "leader": "Bob Brooks",
      "margin": 5.3
@@ -23880,16 +23924,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_8",
     "candidates": [
      {
-      "name": "Rob Bresnahan",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Paige Cognetti",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Rob Bresnahan",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -23985,13 +24029,35 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Paige Cognetti",
+       "party": "D",
+       "votes": 153764,
+       "percentage": 54.5,
+       "winner": true
+      },
+      {
+       "name": "Rob Bresnahan",
+       "party": "R",
+       "votes": 128589,
+       "percentage": 45.5,
+       "winner": false
+      }
+     ],
+     "totalVotes": 282353,
+     "winner": "Paige Cognetti",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:19:26.271Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Rob Bresnahan": 46.7,
-      "Paige Cognetti": 50.7
+      "Paige Cognetti": 50.7,
+      "Rob Bresnahan": 46.7
      },
      "leader": "Paige Cognetti",
      "margin": 4
@@ -24097,16 +24163,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania#District_10",
     "candidates": [
      {
-      "name": "Scott Perry",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Janelle Stelson",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Scott Perry",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -24217,13 +24283,35 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Janelle Stelson",
+       "party": "D",
+       "votes": 173671,
+       "percentage": 55.1,
+       "winner": true
+      },
+      {
+       "name": "Scott Perry",
+       "party": "R",
+       "votes": 141731,
+       "percentage": 44.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 315402,
+     "winner": "Janelle Stelson",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-08T01:19:26.271Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Scott Perry": 46.3,
-      "Janelle Stelson": 48.3
+      "Janelle Stelson": 48.3,
+      "Scott Perry": 46.3
      },
      "leader": "Janelle Stelson",
      "margin": 2
