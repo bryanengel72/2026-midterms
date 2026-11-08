@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T15:49:17.023Z",
+ "generatedAt": "2026-11-08T16:34:17.273Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12876,7 +12876,7 @@
        "party": "D",
        "votes": 134476,
        "percentage": 51.7,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Victoria Spartz",
@@ -12887,8 +12887,9 @@
       }
      ],
      "totalVotes": 260327,
-     "winner": null,
-     "runoff": false
+     "winner": "J.D. Ford",
+     "runoff": false,
+     "calledAt": "2026-11-08T16:34:17.273Z"
     },
     "headline": {
      "basis": "simple-average",
