@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T13:31:29.372Z",
+ "generatedAt": "2026-11-08T15:34:17.207Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -32707,7 +32707,7 @@
         "party": "R",
         "votes": 480627,
         "percentage": 54.3,
-        "winner": true
+        "winner": false
        },
        {
         "name": "Hallie Shoffner",
@@ -32718,11 +32718,9 @@
        }
       ],
       "totalVotes": 856274,
-      "winner": "Tom Cotton",
+      "winner": null,
       "runoff": false,
-      "source": "infobox",
-      "reporting": 99,
-      "calledAt": "2026-11-04T10:18:10.392Z"
+      "source": "infobox"
      },
      "ratings": [
       {
@@ -33180,19 +33178,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 5671949,
-        "percentage": 64.6,
+        "votes": 6773781,
+        "percentage": 65.5,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 3103607,
-        "percentage": 35.4,
+        "votes": 3575025,
+        "percentage": 34.5,
         "winner": false
        }
       ],
-      "totalVotes": 8775556,
+      "totalVotes": 10348806,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -46301,7 +46299,6 @@
       "winner": "Peggy Flanagan",
       "runoff": false,
       "source": "infobox",
-      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -48196,23 +48193,22 @@
        {
         "name": "Pete Ricketts",
         "party": "R",
-        "votes": 373160,
-        "percentage": 50.4,
+        "votes": 378281,
+        "percentage": 50.1,
         "winner": true
        },
        {
         "name": "Dan Osborn",
         "party": "I",
-        "votes": 322646,
-        "percentage": 43.6,
+        "votes": 331268,
+        "percentage": 43.9,
         "winner": false
        }
       ],
-      "totalVotes": 695806,
+      "totalVotes": 709549,
       "winner": "Pete Ricketts",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
       "calledAt": "2026-11-04T10:18:10.392Z"
      },
      "ratings": [
@@ -58219,23 +58215,22 @@
        {
         "name": "Mike Rounds",
         "party": "R",
-        "votes": 184572,
+        "votes": 184589,
         "percentage": 60.5,
         "winner": true
        },
        {
         "name": "Brian Bengs",
         "party": "I",
-        "votes": 120490,
+        "votes": 120509,
         "percentage": 39.5,
         "winner": false
        }
       ],
-      "totalVotes": 305062,
+      "totalVotes": 305098,
       "winner": "Mike Rounds",
       "runoff": false,
       "source": "infobox",
-      "reporting": 99,
       "calledAt": "2026-11-04T10:18:10.392Z"
      },
      "ratings": [
