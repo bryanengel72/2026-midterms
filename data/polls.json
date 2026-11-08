@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T17:49:16.731Z",
+ "generatedAt": "2026-11-08T18:04:16.681Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -51628,24 +51628,57 @@
       "candidates": [
        {
         "name": "Kathy Hochul",
-        "party": "D",
-        "votes": 3563714,
-        "percentage": 59.6,
+        "party": "O",
+        "votes": 3641811,
+        "percentage": 59.7,
         "winner": true
        },
        {
         "name": "Bruce Blakeman",
+        "party": "O",
+        "votes": 2442748,
+        "percentage": 40.1,
+        "winner": false
+       },
+       {
+        "name": "Kathy Hochul",
+        "party": "D",
+        "votes": null,
+        "percentage": null,
+        "winner": false
+       },
+       {
+        "name": "Kathy Hochul",
+        "party": "O",
+        "votes": null,
+        "percentage": null,
+        "winner": false
+       },
+       {
+        "name": "Bruce Blakeman",
         "party": "R",
-        "votes": 2403358,
-        "percentage": 40.2,
+        "votes": null,
+        "percentage": null,
+        "winner": false
+       },
+       {
+        "name": "Bruce Blakeman",
+        "party": "O",
+        "votes": null,
+        "percentage": null,
+        "winner": false
+       },
+       {
+        "name": "Bruce Blakeman",
+        "party": "O",
+        "votes": null,
+        "percentage": null,
         "winner": false
        }
       ],
-      "totalVotes": 5967072,
+      "totalVotes": 6097359,
       "winner": "Kathy Hochul",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 91,
       "calledAt": "2026-11-07T18:31:35.884Z"
      },
      "ratings": [
