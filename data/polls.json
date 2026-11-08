@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T01:34:25.734Z",
+ "generatedAt": "2026-11-08T03:04:26.145Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -42981,33 +42981,33 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1163909,
-        "percentage": 62.55,
+        "votes": 1306941,
+        "percentage": 63.88,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 617114,
-        "percentage": 33.17,
+        "votes": 651406,
+        "percentage": 31.84,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 38315,
+        "votes": 42642,
         "percentage": 2.06,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 36597,
+        "votes": 39538,
         "percentage": 1.97,
         "winner": false
        }
       ],
-      "totalVotes": 1860686,
+      "totalVotes": 2045846,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
