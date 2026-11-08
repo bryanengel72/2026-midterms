@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T03:49:25.969Z",
+ "generatedAt": "2026-11-08T04:04:26.344Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -47298,7 +47298,8 @@
       {
        "name": "Ty Pinkins",
        "party": "I",
-       "nominee": false
+       "nominee": true,
+       "partyName": "Independent"
       }
      ],
      "results": {
