@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T05:08:33.776Z",
+ "generatedAt": "2026-11-09T05:23:33.917Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -15663,7 +15663,7 @@
       {
        "name": "Jake Johnson",
        "party": "D",
-       "votes": 163056,
+       "votes": 163055,
        "percentage": 50,
        "winner": true
       },
