@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T22:26:06.681Z",
+ "generatedAt": "2026-11-09T22:33:38.693Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -59634,14 +59634,14 @@
        {
         "name": "James Talarico",
         "party": "D",
-        "votes": 5447069,
+        "votes": 5446309,
         "percentage": 55.06,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
-        "votes": 4250664,
+        "votes": 4250166,
         "percentage": 42.97,
         "winner": false
        },
