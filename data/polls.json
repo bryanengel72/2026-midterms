@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T22:36:29.047Z",
+ "generatedAt": "2026-11-09T00:06:29.266Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12290,8 +12290,8 @@
      "calledAt": "2026-11-07T00:41:03.237Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: 20/20 Insight (D), October 6–9, 2026",
      "values": {
       "Rich McCormick": 45,
       "Anthony Kozycki": 47
@@ -15666,13 +15666,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Jake Johnson": 44.5,
-      "Brad Finstad": 43.5
+      "Jake Johnson": 43,
+      "Brad Finstad": 43
      },
-     "leader": "Jake Johnson",
-     "margin": 1
+     "leader": null,
+     "margin": 0
     },
     "latestPoll": "2026-10-14"
    },
@@ -18630,8 +18630,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Research & Polling, October 1–9, 2026",
      "values": {
       "Gabe Vasquez": 48,
       "Greg Cunningham": 44
