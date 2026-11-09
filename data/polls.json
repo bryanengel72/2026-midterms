@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T04:08:33.883Z",
+ "generatedAt": "2026-11-09T04:23:33.930Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -36387,21 +36387,20 @@
         "name": "Jon Ossoff",
         "party": "D",
         "votes": 2466422,
-        "percentage": 59,
+        "percentage": 59.02,
         "winner": true
        },
        {
         "name": "Mike Collins",
         "party": "R",
         "votes": 1712444,
-        "percentage": 41,
+        "percentage": 40.98,
         "winner": false
        }
       ],
       "totalVotes": 4178866,
       "winner": "Jon Ossoff",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -37641,29 +37640,29 @@
        {
         "name": "Jim Risch",
         "party": "R",
-        "votes": 317836,
-        "percentage": 55.6,
+        "votes": 401788,
+        "percentage": 56.53,
         "winner": true
        },
        {
         "name": "Todd Achilles",
         "party": "I",
-        "votes": 197950,
-        "percentage": 34.6,
+        "votes": 238352,
+        "percentage": 33.54,
         "winner": false
        },
        {
         "name": "Natalie Fleming",
         "party": "I",
-        "votes": 39506,
-        "percentage": 6.9,
+        "votes": 49932,
+        "percentage": 7.02,
         "winner": false
        },
        {
         "name": "Matt Loesby",
         "party": "L",
-        "votes": 16394,
-        "percentage": 2.9,
+        "votes": 20677,
+        "percentage": 2.91,
         "winner": false
        }
       ],
@@ -38658,26 +38657,26 @@
        {
         "name": "Josh Turek",
         "party": "D",
-        "votes": 686486,
-        "percentage": 50.51,
+        "votes": 688232,
+        "percentage": 50.55,
         "winner": true
        },
        {
         "name": "Ashley Hinson",
         "party": "R",
-        "votes": 630615,
-        "percentage": 46.4,
+        "votes": 631174,
+        "percentage": 46.36,
         "winner": false
        },
        {
         "name": "Thomas Laehn",
         "party": "L",
-        "votes": 42086,
+        "votes": 42121,
         "percentage": 3.09,
         "winner": false
        }
       ],
-      "totalVotes": 1359187,
+      "totalVotes": 1361527,
       "winner": "Josh Turek",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -40144,26 +40143,26 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 559853,
-        "percentage": 50.99,
+        "votes": 561143,
+        "percentage": 51.02,
         "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
-        "votes": 504950,
-        "percentage": 45.99,
+        "votes": 505558,
+        "percentage": 45.96,
         "winner": false
        },
        {
         "name": "David Graham",
         "party": "L",
-        "votes": 33117,
+        "votes": 33195,
         "percentage": 3.02,
         "winner": false
        }
       ],
-      "totalVotes": 1097920,
+      "totalVotes": 1099896,
       "winner": "Adam Hamilton",
       "runoff": false,
       "calledAt": "2026-11-06T04:34:10.268Z"
