@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T23:18:39.247Z",
+ "generatedAt": "2026-11-09T23:33:38.963Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -41464,19 +41464,19 @@
        {
         "name": "Julia Letlow",
         "party": "R",
-        "votes": 745963,
+        "votes": 746000,
         "percentage": 50.88,
         "winner": true
        },
        {
         "name": "Jamie Davis",
         "party": "D",
-        "votes": 720106,
+        "votes": 720150,
         "percentage": 49.12,
         "winner": false
        }
       ],
-      "totalVotes": 1466069,
+      "totalVotes": 1466150,
       "winner": "Julia Letlow",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -55948,23 +55948,23 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 1081731,
+        "votes": 1085808,
         "percentage": 58.1,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 719926,
-        "percentage": 38.7,
+        "votes": 722073,
+        "percentage": 38.6,
         "winner": false
        }
       ],
-      "totalVotes": 1801657,
+      "totalVotes": 1807881,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
-      "reporting": 89,
+      "reporting": 93,
       "calledAt": "2026-11-04T09:48:11.236Z"
      },
      "ratings": [
