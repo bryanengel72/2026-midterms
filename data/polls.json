@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T05:23:33.917Z",
+ "generatedAt": "2026-11-09T10:19:24.405Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -30477,19 +30477,19 @@
        {
         "name": "Barry Moore",
         "party": "R",
-        "votes": 917347,
+        "votes": 917338,
         "percentage": 54.71,
         "winner": true
        },
        {
         "name": "Everett Wess",
         "party": "D",
-        "votes": 759335,
+        "votes": 759321,
         "percentage": 45.29,
         "winner": false
        }
       ],
-      "totalVotes": 1676682,
+      "totalVotes": 1676659,
       "winner": "Barry Moore",
       "runoff": false,
       "calledAt": "2026-11-09T04:08:33.883Z"
@@ -34576,22 +34576,20 @@
         "name": "Chris Coons",
         "party": "D",
         "votes": 240347,
-        "percentage": 63.6,
+        "percentage": 63.57,
         "winner": true
        },
        {
         "name": "Michael Katz",
         "party": "R",
         "votes": 137764,
-        "percentage": 36.4,
+        "percentage": 36.43,
         "winner": false
        }
       ],
       "totalVotes": 378111,
       "winner": "Chris Coons",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 99,
       "calledAt": "2026-11-04T10:33:10.534Z"
      },
      "ratings": [
@@ -43265,22 +43263,34 @@
         "name": "Ed Markey",
         "party": "D",
         "votes": 1650772,
-        "percentage": 63.4,
+        "percentage": 63.39,
         "winner": true
        },
        {
         "name": "John Deaton",
         "party": "R",
         "votes": 837152,
-        "percentage": 32.1,
+        "percentage": 32.14,
+        "winner": false
+       },
+       {
+        "name": "Shiva Ayyadurai",
+        "party": "I",
+        "votes": 59837,
+        "percentage": 2.3,
+        "winner": false
+       },
+       {
+        "name": "Joe Tache",
+        "party": "O",
+        "votes": 56530,
+        "percentage": 2.17,
         "winner": false
        }
       ],
-      "totalVotes": 2487924,
+      "totalVotes": 2604291,
       "winner": "Ed Markey",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 99,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -43733,26 +43743,26 @@
        {
         "name": "Maura Healey",
         "party": "D",
-        "votes": 1623656,
-        "percentage": 62.18,
+        "votes": 1625487,
+        "percentage": 61.97,
         "winner": false
        },
        {
         "name": "Michael Minogue",
         "party": "R",
-        "votes": 901841,
-        "percentage": 34.54,
+        "votes": 911234,
+        "percentage": 34.74,
         "winner": false
        },
        {
         "name": "Andrea C. James",
         "party": "I",
-        "votes": 85807,
+        "votes": 86279,
         "percentage": 3.29,
         "winner": false
        }
       ],
-      "totalVotes": 2611312,
+      "totalVotes": 2623000,
       "winner": null,
       "runoff": false
      },
@@ -46320,14 +46330,27 @@
         "name": "Michele Tafoya",
         "party": "R",
         "votes": 1233476,
-        "percentage": 43.6,
+        "percentage": 43.56,
+        "winner": false
+       },
+       {
+        "name": "Marisa Simonetti",
+        "party": "I",
+        "votes": 41574,
+        "percentage": 1.47,
+        "winner": false
+       },
+       {
+        "name": "Rebecca Whiting",
+        "party": "L",
+        "votes": 32493,
+        "percentage": 1.15,
         "winner": false
        }
       ],
-      "totalVotes": 2754347,
+      "totalVotes": 2831795,
       "winner": "Peggy Flanagan",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -49734,23 +49757,28 @@
        {
         "name": "Chris Pappas",
         "party": "D",
-        "votes": 341737,
-        "percentage": 56.1,
+        "votes": 355720,
+        "percentage": 55.91,
         "winner": true
        },
        {
         "name": "John E. Sununu",
         "party": "R",
-        "votes": 257453,
-        "percentage": 42.1,
+        "votes": 268340,
+        "percentage": 42.19,
+        "winner": false
+       },
+       {
+        "name": "Edmond J. LaPlante Jr.",
+        "party": "C",
+        "votes": 12062,
+        "percentage": 1.9,
         "winner": false
        }
       ],
-      "totalVotes": 599190,
+      "totalVotes": 636212,
       "winner": "Chris Pappas",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 94,
       "calledAt": "2026-11-05T01:26:00.591Z"
      },
      "ratings": [
@@ -52395,33 +52423,33 @@
        {
         "name": "Roy Cooper",
         "party": "D",
-        "votes": 2467963,
+        "votes": 2467972,
         "percentage": 58.72,
         "winner": true
        },
        {
         "name": "Michael Whatley",
         "party": "R",
-        "votes": 1643088,
+        "votes": 1643114,
         "percentage": 39.09,
         "winner": false
        },
        {
         "name": "Shannon W. Bray",
         "party": "L",
-        "votes": 55726,
-        "percentage": 1.33,
+        "votes": 55727,
+        "percentage": 1.32,
         "winner": false
        },
        {
         "name": "Michael Dublin",
         "party": "G",
-        "votes": 36404,
+        "votes": 36405,
         "percentage": 0.87,
         "winner": false
        }
       ],
-      "totalVotes": 4203181,
+      "totalVotes": 4203218,
       "winner": "Roy Cooper",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -55412,40 +55440,40 @@
        {
         "name": "Kevin Hern",
         "party": "R",
-        "votes": 638103,
-        "percentage": 57.29,
+        "votes": 639510,
+        "percentage": 57.2,
         "winner": true
        },
        {
         "name": "N'Kiyla Jasmine Thomas",
         "party": "D",
-        "votes": 436604,
-        "percentage": 39.2,
+        "votes": 439109,
+        "percentage": 39.28,
         "winner": false
        },
        {
         "name": "Curtis Stinnett",
         "party": "I",
-        "votes": 14562,
+        "votes": 14622,
         "percentage": 1.31,
         "winner": false
        },
        {
         "name": "Ron Meinhardt",
         "party": "I",
-        "votes": 14440,
+        "votes": 14492,
         "percentage": 1.3,
         "winner": false
        },
        {
         "name": "Sevier White",
         "party": "L",
-        "votes": 10170,
+        "votes": 10199,
         "percentage": 0.91,
         "winner": false
        }
       ],
-      "totalVotes": 1113879,
+      "totalVotes": 1117932,
       "winner": "Kevin Hern",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -57442,33 +57470,33 @@
        {
         "name": "Annie Andrews",
         "party": "D",
-        "votes": 1042362,
-        "percentage": 51.13,
+        "votes": 1043719,
+        "percentage": 51.14,
         "winner": true
        },
        {
         "name": "Darline Graham",
         "party": "R",
-        "votes": 951165,
-        "percentage": 46.65,
+        "votes": 951904,
+        "percentage": 46.64,
         "winner": false
        },
        {
         "name": "Kasie Whitener",
         "party": "L",
-        "votes": 23560,
+        "votes": 23592,
         "percentage": 1.16,
         "winner": false
        },
        {
         "name": "Mark Hackett",
         "party": "C",
-        "votes": 16799,
+        "votes": 16815,
         "percentage": 0.82,
         "winner": false
        }
       ],
-      "totalVotes": 2038780,
+      "totalVotes": 2040928,
       "winner": "Annie Andrews",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -62655,7 +62683,7 @@
        {
         "name": "Shelley Moore Capito",
         "party": "R",
-        "votes": 266068,
+        "votes": 266067,
         "percentage": 58.33,
         "winner": true
        },
@@ -62665,13 +62693,18 @@
         "votes": 172922,
         "percentage": 37.91,
         "winner": false
+       },
+       {
+        "name": "S. Marshall Wilson",
+        "party": "C",
+        "votes": 17139,
+        "percentage": 3.76,
+        "winner": false
        }
       ],
-      "totalVotes": 438990,
+      "totalVotes": 456128,
       "winner": "Shelley Moore Capito",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 95,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
