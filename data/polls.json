@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T04:23:33.930Z",
+ "generatedAt": "2026-11-09T04:38:33.997Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -51143,19 +51143,19 @@
        {
         "name": "Ben Ray Luján",
         "party": "D",
-        "votes": 458007,
-        "percentage": 63.24,
+        "votes": 458756,
+        "percentage": 63.26,
         "winner": true
        },
        {
         "name": "Larry Marker",
         "party": "R",
-        "votes": 266260,
-        "percentage": 36.76,
+        "votes": 266434,
+        "percentage": 36.74,
         "winner": false
        }
       ],
-      "totalVotes": 724267,
+      "totalVotes": 725190,
       "winner": "Ben Ray Luján",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -58293,7 +58293,6 @@
       "totalVotes": 305098,
       "winner": "Mike Rounds",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T10:18:10.392Z"
      },
      "ratings": [
@@ -58892,22 +58891,84 @@
        {
         "name": "Bill Hagerty",
         "party": "R",
-        "votes": 1138436,
-        "percentage": 55.07,
+        "votes": 1138457,
+        "percentage": 55.08,
         "winner": true
        },
        {
         "name": "Marquita Bradshaw",
         "party": "D",
-        "votes": 886988,
+        "votes": 886974,
         "percentage": 42.91,
+        "winner": false
+       },
+       {
+        "name": "Robert Jones",
+        "party": "I",
+        "votes": 9398,
+        "percentage": 0.46,
+        "winner": false
+       },
+       {
+        "name": "Tharon Chandler",
+        "party": "I",
+        "votes": 7689,
+        "percentage": 0.37,
+        "winner": false
+       },
+       {
+        "name": "Andrew Gerena",
+        "party": "I",
+        "votes": 5633,
+        "percentage": 0.27,
+        "winner": false
+       },
+       {
+        "name": "Catherine Whitson",
+        "party": "I",
+        "votes": 5113,
+        "percentage": 0.25,
+        "winner": false
+       },
+       {
+        "name": "Jeremy Hearn",
+        "party": "I",
+        "votes": 4937,
+        "percentage": 0.24,
+        "winner": false
+       },
+       {
+        "name": "David Sutman Jr.",
+        "party": "I",
+        "votes": 3087,
+        "percentage": 0.15,
+        "winner": false
+       },
+       {
+        "name": "Yoshi Matthews",
+        "party": "I",
+        "votes": 3026,
+        "percentage": 0.15,
+        "winner": false
+       },
+       {
+        "name": "James Macon III",
+        "party": "I",
+        "votes": 2576,
+        "percentage": 0.12,
+        "winner": false
+       },
+       {
+        "name": "Andrew Mixon",
+        "party": "I",
+        "votes": null,
+        "percentage": null,
         "winner": false
        }
       ],
-      "totalVotes": 2025424,
+      "totalVotes": 2066890,
       "winner": "Bill Hagerty",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
