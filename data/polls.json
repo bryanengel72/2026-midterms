@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T00:51:28.568Z",
+ "generatedAt": "2026-11-09T00:57:34.464Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -9143,23 +9143,35 @@
       {
        "name": "Aaron Bean",
        "party": "R",
-       "votes": 151114,
+       "votes": 151163,
        "percentage": 50.2,
-       "winner": true
+       "winner": false
       },
       {
        "name": "LaShonda Holloway",
        "party": "D",
-       "votes": 144795,
+       "votes": 144796,
        "percentage": 48.1,
+       "winner": false
+      },
+      {
+       "name": "Todd Schaefer",
+       "party": "I",
+       "votes": 3194,
+       "percentage": 1.1,
+       "winner": false
+      },
+      {
+       "name": "Mike Sell",
+       "party": "I",
+       "votes": 1832,
+       "percentage": 0.6,
        "winner": false
       }
      ],
-     "totalVotes": 295909,
-     "winner": "Aaron Bean",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-05T23:28:54.030Z"
+     "totalVotes": 300985,
+     "winner": null,
+     "runoff": false
     },
     "headline": null,
     "latestPoll": null
@@ -9280,23 +9292,21 @@
       {
        "name": "John Rutherford",
        "party": "R",
-       "votes": 187951,
+       "votes": 188062,
        "percentage": 56.4,
-       "winner": true
+       "winner": false
       },
       {
        "name": "Rachel Grage",
        "party": "D",
-       "votes": 145160,
+       "votes": 145296,
        "percentage": 43.6,
        "winner": false
       }
      ],
-     "totalVotes": 333111,
-     "winner": "John Rutherford",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-05T23:28:54.030Z"
+     "totalVotes": 333358,
+     "winner": null,
+     "runoff": false
     },
     "headline": null,
     "latestPoll": null
