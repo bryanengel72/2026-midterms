@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T01:36:28.542Z",
+ "generatedAt": "2026-11-09T02:23:34.094Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -30981,8 +30981,7 @@
       {
        "name": "Dan J. Sullivan",
        "party": "I",
-       "nominee": true,
-       "partyName": "Independent"
+       "nominee": false
       },
       {
        "name": "Gerald Heikes",
