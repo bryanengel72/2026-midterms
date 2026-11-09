@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T02:23:34.094Z",
+ "generatedAt": "2026-11-09T04:08:33.883Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -30479,7 +30479,7 @@
         "party": "R",
         "votes": 917347,
         "percentage": 54.71,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Everett Wess",
@@ -30490,8 +30490,9 @@
        }
       ],
       "totalVotes": 1676682,
-      "winner": null,
-      "runoff": false
+      "winner": "Barry Moore",
+      "runoff": false,
+      "calledAt": "2026-11-09T04:08:33.883Z"
      },
      "ratings": [
       {
@@ -32728,21 +32729,28 @@
         "name": "Tom Cotton",
         "party": "R",
         "votes": 480627,
-        "percentage": 54.3,
-        "winner": false
+        "percentage": 54.26,
+        "winner": true
        },
        {
         "name": "Hallie Shoffner",
         "party": "D",
         "votes": 375647,
-        "percentage": 42.4,
+        "percentage": 42.41,
+        "winner": false
+       },
+       {
+        "name": "Jeff Wadlin",
+        "party": "L",
+        "votes": 29485,
+        "percentage": 3.33,
         "winner": false
        }
       ],
-      "totalVotes": 856274,
-      "winner": null,
+      "totalVotes": 885759,
+      "winner": "Tom Cotton",
       "runoff": false,
-      "source": "infobox"
+      "calledAt": "2026-11-09T04:08:33.883Z"
      },
      "ratings": [
       {
@@ -33678,47 +33686,47 @@
        {
         "name": "John Hickenlooper",
         "party": "D",
-        "votes": 1425835,
-        "percentage": 59.79,
+        "votes": 1609163,
+        "percentage": 60.45,
         "winner": true
        },
        {
         "name": "Mark Baisley",
         "party": "R",
-        "votes": 855067,
-        "percentage": 35.86,
+        "votes": 932741,
+        "percentage": 35.04,
         "winner": false
        },
        {
         "name": "Bob Chew",
         "party": "I",
-        "votes": 62166,
-        "percentage": 2.61,
+        "votes": 70049,
+        "percentage": 2.63,
         "winner": false
        },
        {
         "name": "Blake Huber",
         "party": "L",
-        "votes": 27223,
-        "percentage": 1.14,
+        "votes": 32507,
+        "percentage": 1.22,
         "winner": false
        },
        {
         "name": "Adam Withrow",
         "party": "O",
-        "votes": 10959,
-        "percentage": 0.46,
+        "votes": 13409,
+        "percentage": 0.5,
         "winner": false
        },
        {
         "name": "Christopher Baum",
         "party": "O",
-        "votes": 3519,
-        "percentage": 0.19,
+        "votes": 4184,
+        "percentage": 0.16,
         "winner": false
        }
       ],
-      "totalVotes": 2384769,
+      "totalVotes": 2662053,
       "winner": "John Hickenlooper",
       "runoff": false,
       "calledAt": "2026-11-04T11:02:27.573Z"
@@ -34732,21 +34740,21 @@
        {
         "name": "Ashley Moody",
         "party": "R",
-        "votes": 4207173,
-        "percentage": 50.88,
+        "votes": 4210242,
+        "percentage": 50.87,
         "winner": false
        },
        {
         "name": "Angie Nixon",
         "party": "D",
-        "votes": 3967674,
-        "percentage": 47.98,
+        "votes": 3972095,
+        "percentage": 47.99,
         "winner": false
        },
        {
         "name": "Neil J. Gillespie",
         "party": "I",
-        "votes": 94501,
+        "votes": 94608,
         "percentage": 1.14,
         "winner": false
        }
