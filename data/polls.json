@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T11:49:24.567Z",
+ "generatedAt": "2026-11-09T12:04:24.870Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -41627,7 +41627,6 @@
       "winner": "Troy Jackson",
       "runoff": false,
       "source": "infobox",
-      "reporting": 92,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -51004,23 +51003,22 @@
        {
         "name": "Cory Booker",
         "party": "D",
-        "votes": 1781879,
-        "percentage": 62.1,
+        "votes": 1819769,
+        "percentage": 62.3,
         "winner": true
        },
        {
         "name": "Justin Murphy",
         "party": "R",
-        "votes": 1013938,
-        "percentage": 35.3,
+        "votes": 1023549,
+        "percentage": 35.1,
         "winner": false
        }
       ],
-      "totalVotes": 2795817,
+      "totalVotes": 2843318,
       "winner": "Cory Booker",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
       "calledAt": "2026-11-04T10:33:10.534Z"
      },
      "ratings": [
@@ -56839,23 +56837,22 @@
        {
         "name": "Jack Reed",
         "party": "D",
-        "votes": 237742,
-        "percentage": 66.6,
+        "votes": 240069,
+        "percentage": 66.8,
         "winner": true
        },
        {
         "name": "Raymond McKay",
         "party": "R",
-        "votes": 104875,
-        "percentage": 29.4,
+        "votes": 105346,
+        "percentage": 29.3,
         "winner": false
        }
       ],
-      "totalVotes": 342617,
+      "totalVotes": 345415,
       "winner": "Jack Reed",
       "runoff": false,
       "source": "infobox",
-      "reporting": 98,
       "calledAt": "2026-11-04T10:18:10.392Z"
      },
      "ratings": [
@@ -62472,23 +62469,22 @@
        {
         "name": "Mark Warner",
         "party": "D",
-        "votes": 2169536,
-        "percentage": 61.1,
+        "votes": 2188657,
+        "percentage": 61.2,
         "winner": true
        },
        {
         "name": "Bert Mizusawa",
         "party": "R",
-        "votes": 1374151,
-        "percentage": 38.7,
+        "votes": 1378325,
+        "percentage": 38.5,
         "winner": false
        }
       ],
-      "totalVotes": 3543687,
+      "totalVotes": 3566982,
       "winner": "Mark Warner",
       "runoff": false,
       "source": "infobox",
-      "reporting": 97,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
