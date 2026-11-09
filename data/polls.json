@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T00:36:28.941Z",
+ "generatedAt": "2026-11-09T00:51:28.568Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -14159,7 +14159,7 @@
        "party": "R",
        "votes": 170265,
        "percentage": 49.89,
-       "winner": true
+       "winner": false
       },
       {
        "name": "Matthew Dunlap",
@@ -14170,11 +14170,10 @@
       }
      ],
      "totalVotes": 335110,
-     "winner": "Paul LePage",
+     "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 98,
-     "calledAt": "2026-11-08T17:34:16.977Z"
+     "reporting": 98
     },
     "headline": {
      "basis": "simple-average",
@@ -46931,7 +46930,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 2826240,
+      "totalVotes": 2830125,
       "winner": "Amy Klobuchar",
       "runoff": false,
       "calledAt": "2026-11-06T13:27:50.525Z"
