@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T10:19:24.405Z",
+ "generatedAt": "2026-11-09T11:49:24.567Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -38171,23 +38171,22 @@
        {
         "name": "Juliana Stratton",
         "party": "D",
-        "votes": 2499776,
-        "percentage": 61.3,
+        "votes": 2501456,
+        "percentage": 61.4,
         "winner": true
        },
        {
         "name": "Don Tracy",
         "party": "R",
-        "votes": 1510621,
+        "votes": 1510968,
         "percentage": 37.1,
         "winner": false
        }
       ],
-      "totalVotes": 4010397,
+      "totalVotes": 4012424,
       "winner": "Juliana Stratton",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95.8,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -53493,7 +53492,6 @@
       "winner": "Sherrod Brown",
       "runoff": false,
       "source": "infobox",
-      "reporting": 98,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
