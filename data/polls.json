@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T00:03:38.860Z",
+ "generatedAt": "2026-11-10T01:03:38.315Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -12116,23 +12116,21 @@
       {
        "name": "Jim Kingston",
        "party": "R",
-       "votes": 140222,
+       "votes": 140266,
        "percentage": 51.4,
-       "winner": true
+       "winner": false
       },
       {
        "name": "Amanda Hollowell",
        "party": "D",
-       "votes": 132498,
+       "votes": 132609,
        "percentage": 48.6,
        "winner": false
       }
      ],
-     "totalVotes": 272720,
-     "winner": "Jim Kingston",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-07T00:41:03.237Z"
+     "totalVotes": 272875,
+     "winner": null,
+     "runoff": false
     },
     "headline": null,
     "latestPoll": null
@@ -56111,23 +56109,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 999912,
+        "votes": 1003698,
         "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 819516,
+        "votes": 822115,
         "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1819428,
+      "totalVotes": 1825813,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 89,
+      "reporting": 93,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
