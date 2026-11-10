@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T01:03:38.315Z",
+ "generatedAt": "2026-11-10T01:18:38.333Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -9443,22 +9443,23 @@
       {
        "name": "Ryan Elijah",
        "party": "R",
-       "votes": 161189,
+       "votes": 161300,
        "percentage": 49.7,
        "winner": false
       },
       {
        "name": "Bale Dalton",
        "party": "D",
-       "votes": 159488,
+       "votes": 159669,
        "percentage": 49.2,
        "winner": false
       }
      ],
-     "totalVotes": 320677,
+     "totalVotes": 320969,
      "winner": null,
      "runoff": false,
-     "source": "infobox"
+     "source": "infobox",
+     "reporting": 99
     },
     "headline": {
      "basis": "simple-average",
@@ -9621,22 +9622,23 @@
       {
        "name": "Mike Haridopolos",
        "party": "R",
-       "votes": 169863,
+       "votes": 169928,
        "percentage": 53.2,
        "winner": true
       },
       {
        "name": "Jennifer Jenkins",
        "party": "D",
-       "votes": 149586,
+       "votes": 149667,
        "percentage": 46.8,
        "winner": false
       }
      ],
-     "totalVotes": 319449,
+     "totalVotes": 319595,
      "winner": "Mike Haridopolos",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:28:54.030Z"
     },
     "headline": {
@@ -9793,22 +9795,23 @@
       {
        "name": "Darren Soto",
        "party": "D",
-       "votes": 143174,
+       "votes": 143314,
        "percentage": 50.3,
        "winner": false
       },
       {
        "name": "Dan Green",
        "party": "R",
-       "votes": 141697,
+       "votes": 141808,
        "percentage": 49.7,
        "winner": false
       }
      ],
-     "totalVotes": 284871,
+     "totalVotes": 285122,
      "winner": null,
      "runoff": false,
-     "source": "infobox"
+     "source": "infobox",
+     "reporting": 99
     },
     "headline": {
      "basis": "simple-average",
@@ -9956,22 +9959,23 @@
       {
        "name": "Joe Strada",
        "party": "R",
-       "votes": 193518,
+       "votes": 193588,
        "percentage": 52.9,
        "winner": true
       },
       {
        "name": "James Pericola",
        "party": "D",
-       "votes": 168108,
+       "votes": 168207,
        "percentage": 46,
        "winner": false
       }
      ],
-     "totalVotes": 361626,
+     "totalVotes": 361795,
      "winner": "Joe Strada",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:28:54.030Z"
     },
     "headline": {
@@ -10104,22 +10108,23 @@
       {
        "name": "Gus Bilirakis",
        "party": "R",
-       "votes": 150746,
+       "votes": 150869,
        "percentage": 52.7,
        "winner": true
       },
       {
        "name": "Kimberly Overman",
        "party": "D",
-       "votes": 131309,
+       "votes": 131435,
        "percentage": 45.9,
        "winner": false
       }
      ],
-     "totalVotes": 282055,
+     "totalVotes": 282304,
      "winner": "Gus Bilirakis",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:28:54.030Z"
     },
     "headline": null,
@@ -10334,22 +10339,23 @@
       {
        "name": "Anna Paulina Luna",
        "party": "R",
-       "votes": 155117,
+       "votes": 155189,
        "percentage": 49.5,
        "winner": true
       },
       {
        "name": "Leela Gray",
        "party": "D",
-       "votes": 152600,
+       "votes": 152698,
        "percentage": 48.7,
        "winner": false
       }
      ],
-     "totalVotes": 307717,
+     "totalVotes": 307887,
      "winner": "Anna Paulina Luna",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:28:54.030Z"
     },
     "headline": {
@@ -10513,22 +10519,23 @@
       {
        "name": "Kathy Castor",
        "party": "D",
-       "votes": 153586,
+       "votes": 153785,
        "percentage": 51.2,
        "winner": true
       },
       {
        "name": "Mike Beltran",
        "party": "R",
-       "votes": 137599,
+       "votes": 137702,
        "percentage": 45.9,
        "winner": false
       }
      ],
-     "totalVotes": 291185,
+     "totalVotes": 291487,
      "winner": "Kathy Castor",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:28:54.030Z"
     },
     "headline": {
@@ -10659,22 +10666,23 @@
       {
        "name": "Laurel Lee",
        "party": "R",
-       "votes": 163251,
+       "votes": 163372,
        "percentage": 54.3,
        "winner": true
       },
       {
        "name": "Robert People",
        "party": "D",
-       "votes": 137390,
+       "votes": 137535,
        "percentage": 45.7,
        "winner": false
       }
      ],
-     "totalVotes": 300641,
+     "totalVotes": 300907,
      "winner": "Laurel Lee",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": null,
@@ -10829,22 +10837,23 @@
       {
        "name": "Sydney Gruters",
        "party": "R",
-       "votes": 175512,
+       "votes": 175650,
        "percentage": 51.2,
        "winner": true
       },
       {
        "name": "Kelly Kirschner",
        "party": "D",
-       "votes": 160942,
+       "votes": 161113,
        "percentage": 47,
        "winner": false
       }
      ],
-     "totalVotes": 336454,
+     "totalVotes": 336763,
      "winner": "Sydney Gruters",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": {
@@ -10975,22 +10984,23 @@
       {
        "name": "Greg Steube",
        "party": "R",
-       "votes": 209055,
+       "votes": 209186,
        "percentage": 58.5,
        "winner": true
       },
       {
        "name": "Matthew Montavon",
        "party": "D",
-       "votes": 143570,
+       "votes": 143675,
        "percentage": 40.1,
        "winner": false
       }
      ],
-     "totalVotes": 352625,
+     "totalVotes": 352861,
      "winner": "Greg Steube",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": null,
@@ -11112,22 +11122,23 @@
       {
        "name": "Scott Franklin",
        "party": "R",
-       "votes": 137590,
-       "percentage": 50.4,
+       "votes": 137704,
+       "percentage": 50.3,
        "winner": true
       },
       {
        "name": "Curtis Gibson",
        "party": "D",
-       "votes": 127564,
+       "votes": 127747,
        "percentage": 46.7,
        "winner": false
       }
      ],
-     "totalVotes": 265154,
+     "totalVotes": 265451,
      "winner": "Scott Franklin",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": null,
@@ -11267,22 +11278,23 @@
       {
        "name": "Brian Mast",
        "party": "R",
-       "votes": 183785,
+       "votes": 184324,
        "percentage": 53.9,
        "winner": true
       },
       {
        "name": "James Martin",
        "party": "D",
-       "votes": 152443,
-       "percentage": 44.7,
+       "votes": 153242,
+       "percentage": 44.8,
        "winner": false
       }
      ],
-     "totalVotes": 336228,
+     "totalVotes": 337566,
      "winner": "Brian Mast",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": {
@@ -11446,22 +11458,23 @@
       {
        "name": "Pia Dandiya",
        "party": "D",
-       "votes": 153047,
+       "votes": 153177,
        "percentage": 51.9,
        "winner": true
       },
       {
        "name": "Casey Askar",
        "party": "R",
-       "votes": 141886,
+       "votes": 141939,
        "percentage": 48.1,
        "winner": false
       }
      ],
-     "totalVotes": 294933,
+     "totalVotes": 295116,
      "winner": "Pia Dandiya",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": {
@@ -11655,22 +11668,23 @@
       {
        "name": "Jared Moskowitz",
        "party": "D",
-       "votes": 143763,
+       "votes": 143919,
        "percentage": 51.3,
        "winner": true
       },
       {
        "name": "Scott Singer",
        "party": "R",
-       "votes": 130792,
+       "votes": 130880,
        "percentage": 46.6,
        "winner": false
       }
      ],
-     "totalVotes": 274555,
+     "totalVotes": 274799,
      "winner": "Jared Moskowitz",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": {
@@ -11794,22 +11808,24 @@
       {
        "name": "Mario Díaz-Balart",
        "party": "R",
-       "votes": 114556,
+       "votes": 114578,
        "percentage": 49.9,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Nicole Locklin",
        "party": "D",
-       "votes": 112804,
+       "votes": 112874,
        "percentage": 49.1,
        "winner": false
       }
      ],
-     "totalVotes": 227360,
-     "winner": null,
+     "totalVotes": 227452,
+     "winner": "Mario Díaz-Balart",
      "runoff": false,
-     "source": "infobox"
+     "source": "infobox",
+     "reporting": 99,
+     "calledAt": "2026-11-10T01:18:38.333Z"
     },
     "headline": null,
     "latestPoll": null
@@ -11971,22 +11987,23 @@
       {
        "name": "Maria Elvira Salazar",
        "party": "R",
-       "votes": 124511,
+       "votes": 124528,
        "percentage": 50.2,
        "winner": false
       },
       {
        "name": "Eliott Rodriguez",
        "party": "D",
-       "votes": 123408,
+       "votes": 123438,
        "percentage": 49.8,
        "winner": false
       }
      ],
-     "totalVotes": 247919,
+     "totalVotes": 247966,
      "winner": null,
      "runoff": false,
-     "source": "infobox"
+     "source": "infobox",
+     "reporting": 99
     },
     "headline": {
      "basis": "latest-poll",
@@ -56109,23 +56126,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1003698,
+        "votes": 999912,
         "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 822115,
+        "votes": 819516,
         "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1825813,
+      "totalVotes": 1819428,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 93,
+      "reporting": 89,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
