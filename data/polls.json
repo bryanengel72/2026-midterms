@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T04:18:06.907Z",
+ "generatedAt": "2026-11-10T05:48:06.758Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -56166,23 +56166,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1003698,
-        "percentage": 53.3,
+        "votes": 1013693,
+        "percentage": 53.2,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 822115,
-        "percentage": 43.7,
+        "votes": 833259,
+        "percentage": 43.8,
         "winner": false
        }
       ],
-      "totalVotes": 1825813,
+      "totalVotes": 1846952,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 93,
+      "reporting": 94,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
