@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T21:59:40.365Z",
+ "generatedAt": "2026-11-10T22:59:41.224Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20522,16 +20522,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_3",
     "candidates": [
      {
-      "name": "Greg Murphy",
-      "party": "R",
-      "nominee": true,
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Raymond Smith Jr.",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Greg Murphy",
+      "party": "R",
+      "nominee": true,
+      "partyName": "Republican Party"
      }
     ],
     "polls": [
@@ -20555,28 +20555,28 @@
     "results": {
      "candidates": [
       {
-       "name": "Greg Murphy",
-       "party": "R",
-       "votes": 117583,
+       "name": "Raymond Smith Jr.",
+       "party": "D",
+       "votes": 118341,
        "percentage": 49.4,
        "winner": false
       },
       {
-       "name": "Raymond Smith Jr.",
-       "party": "D",
-       "votes": 117350,
+       "name": "Greg Murphy",
+       "party": "R",
+       "votes": 118040,
        "percentage": 49.3,
        "winner": false
       },
       {
        "name": "Daniel Cavender",
        "party": "L",
-       "votes": 2971,
+       "votes": 3001,
        "percentage": 1.2,
        "winner": false
       }
      ],
-     "totalVotes": 237904,
+     "totalVotes": 239382,
      "winner": null,
      "runoff": false
     },
