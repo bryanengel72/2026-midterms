@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T12:58:07.527Z",
+ "generatedAt": "2026-11-10T16:28:08.132Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -25707,16 +25707,16 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee#District_9",
     "candidates": [
      {
-      "name": "Justin J. Pearson",
-      "party": "D",
-      "nominee": true,
-      "partyName": "Democratic Party"
-     },
-     {
       "name": "Brent Taylor",
       "party": "R",
       "nominee": true,
       "partyName": "Republican Party"
+     },
+     {
+      "name": "Justin J. Pearson",
+      "party": "D",
+      "nominee": true,
+      "partyName": "Democratic Party"
      }
     ],
     "polls": [
@@ -25737,7 +25737,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Brent Taylor",
+       "party": "R",
+       "votes": 111968,
+       "percentage": 49.6,
+       "winner": true
+      },
+      {
+       "name": "Justin J. Pearson",
+       "party": "D",
+       "votes": 109429,
+       "percentage": 48.5,
+       "winner": false
+      }
+     ],
+     "totalVotes": 221397,
+     "winner": "Brent Taylor",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-10T16:28:08.132Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Hart Research Associates (D), September 1–3, 2026",
