@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T01:18:38.333Z",
+ "generatedAt": "2026-11-10T01:33:38.477Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -21753,7 +21753,7 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_14",
     "candidates": [
      {
-      "name": "Lakesha Womack",
+      "name": "LaKesha Womack",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
@@ -21776,7 +21776,7 @@
       "moe": 5,
       "values": {
        "Tim Moore": 48,
-       "Lakesha Womack": 40
+       "LaKesha Womack": 40
       },
       "other": null,
       "undecided": 12
@@ -21810,7 +21810,7 @@
      "detail": "Most recent poll: Ragnar Research Partners (R), March 10–12, 2026",
      "values": {
       "Tim Moore": 48,
-      "Lakesha Womack": 40
+      "LaKesha Womack": 40
      },
      "leader": "Tim Moore",
      "margin": 8
@@ -31845,37 +31845,37 @@
        {
         "name": "Jonathan Kreiss-Tomkins",
         "party": "D",
-        "votes": 103610,
-        "percentage": 49.2,
+        "votes": 107171,
+        "percentage": 49.6,
         "winner": false
        },
        {
         "name": "Bernadette Wilson",
         "party": "R",
-        "votes": 61566,
-        "percentage": 29.2,
+        "votes": 62501,
+        "percentage": 28.9,
         "winner": false
        },
        {
         "name": "Dave Bronson",
         "party": "R",
-        "votes": 29900,
-        "percentage": 14.2,
+        "votes": 30488,
+        "percentage": 14.1,
         "winner": false
        },
        {
         "name": "Treg Taylor",
         "party": "R",
-        "votes": 15713,
-        "percentage": 7.5,
+        "votes": 16077,
+        "percentage": 7.4,
         "winner": false
        }
       ],
-      "totalVotes": 210789,
+      "totalVotes": 216237,
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 74
+      "reporting": 76
      },
      "ratings": [
       {
@@ -37097,19 +37097,19 @@
        {
         "name": "Keisha Lance Bottoms",
         "party": "D",
-        "votes": 2273305,
-        "percentage": 54.33,
+        "votes": 2273818,
+        "percentage": 54.34,
         "winner": true
        },
        {
         "name": "Rick Jackson",
         "party": "R",
-        "votes": 1910706,
-        "percentage": 45.67,
+        "votes": 1910872,
+        "percentage": 45.66,
         "winner": false
        }
       ],
-      "totalVotes": 4184011,
+      "totalVotes": 4184690,
       "winner": "Keisha Lance Bottoms",
       "runoff": false,
       "source": "infobox",
@@ -56126,23 +56126,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 999912,
+        "votes": 1003698,
         "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 819516,
+        "votes": 822115,
         "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1819428,
+      "totalVotes": 1825813,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 89,
+      "reporting": 93,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
