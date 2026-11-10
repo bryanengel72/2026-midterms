@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T06:33:07.132Z",
+ "generatedAt": "2026-11-10T12:58:07.527Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6348,6 +6348,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Crane",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -6355,7 +6362,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arizona#District_2",
     "candidates": [
@@ -8291,6 +8298,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Laubacher",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -8298,7 +8312,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado#District_4",
     "candidates": [
@@ -16793,19 +16807,19 @@
       {
        "name": "Mike Flood",
        "party": "R",
-       "votes": 127001,
-       "percentage": 49.97,
+       "votes": 127024,
+       "percentage": 49.98,
        "winner": true
       },
       {
        "name": "Chris Backemeyer",
        "party": "D",
-       "votes": 118135,
+       "votes": 118141,
        "percentage": 46.48,
        "winner": false
       }
      ],
-     "totalVotes": 245136,
+     "totalVotes": 245165,
      "winner": "Mike Flood",
      "runoff": false,
      "source": "infobox",
@@ -16972,26 +16986,26 @@
       {
        "name": "Denise Powell",
        "party": "D",
-       "votes": 138733,
-       "percentage": 56.41,
+       "votes": 143785,
+       "percentage": 56.64,
        "winner": false
       },
       {
        "name": "Brinker Harding",
        "party": "R",
-       "votes": 100895,
-       "percentage": 41.02,
+       "votes": 103494,
+       "percentage": 40.77,
        "winner": false
       },
       {
        "name": "Eric Foreman",
        "party": "L",
-       "votes": 6310,
-       "percentage": 2.57,
+       "votes": 6557,
+       "percentage": 2.58,
        "winner": false
       }
      ],
-     "totalVotes": 245938,
+     "totalVotes": 253836,
      "winner": null,
      "runoff": false
     },
