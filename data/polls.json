@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T01:33:38.477Z",
+ "generatedAt": "2026-11-10T01:48:38.575Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6076,30 +6076,30 @@
       {
        "name": "Nick Begich III",
        "party": "R",
-       "votes": 105647,
-       "percentage": 49.6,
+       "votes": 107184,
+       "percentage": 49.2,
        "winner": false
       },
       {
        "name": "Bill Hill",
        "party": "I",
-       "votes": 86023,
-       "percentage": 40.4,
+       "votes": 88882,
+       "percentage": 40.8,
        "winner": false
       },
       {
        "name": "Eric Hafner",
        "party": "D",
-       "votes": 15550,
+       "votes": 15979,
        "percentage": 7.3,
        "winner": false
       }
      ],
-     "totalVotes": 207220,
+     "totalVotes": 212045,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 74
+     "reporting": 76
     },
     "headline": null,
     "latestPoll": null
