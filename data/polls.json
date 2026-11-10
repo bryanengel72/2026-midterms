@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T16:28:08.132Z",
+ "generatedAt": "2026-11-10T20:59:40.488Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6238,22 +6238,23 @@
       {
        "name": "Amish Shah",
        "party": "D",
-       "votes": 184534,
-       "percentage": 52.32,
+       "votes": 184770,
+       "percentage": 52.4,
        "winner": true
       },
       {
        "name": "Jay Feely",
        "party": "R",
-       "votes": 160244,
-       "percentage": 45.43,
+       "votes": 160408,
+       "percentage": 45.5,
        "winner": false
       }
      ],
-     "totalVotes": 344778,
+     "totalVotes": 345178,
      "winner": "Amish Shah",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-06T19:28:11.049Z"
     },
     "headline": {
@@ -6447,22 +6448,23 @@
       {
        "name": "Eli Crane",
        "party": "R",
-       "votes": 162753,
-       "percentage": 49.64,
+       "votes": 163286,
+       "percentage": 49.6,
        "winner": true
       },
       {
        "name": "Jonathan Nez",
        "party": "D",
-       "votes": 158919,
-       "percentage": 48.47,
+       "votes": 159763,
+       "percentage": 48.5,
        "winner": false
       }
      ],
-     "totalVotes": 321672,
+     "totalVotes": 323049,
      "winner": "Eli Crane",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-09T21:03:39.121Z"
     },
     "headline": {
@@ -6593,22 +6595,23 @@
       {
        "name": "Mark Lamb",
        "party": "R",
-       "votes": 167059,
-       "percentage": 51.63,
+       "votes": 167205,
+       "percentage": 51.7,
        "winner": true
       },
       {
        "name": "Elizabeth Lee",
        "party": "D",
-       "votes": 155946,
-       "percentage": 48.2,
+       "votes": 156223,
+       "percentage": 48.3,
        "winner": false
       }
      ],
-     "totalVotes": 323005,
+     "totalVotes": 323428,
      "winner": "Mark Lamb",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-06T19:28:11.049Z"
     },
     "headline": null,
@@ -6778,22 +6781,23 @@
       {
        "name": "JoAnna Mendoza",
        "party": "D",
-       "votes": 188137,
-       "percentage": 52.87,
+       "votes": 189188,
+       "percentage": 53,
        "winner": true
       },
       {
        "name": "Juan Ciscomani",
        "party": "R",
-       "votes": 159603,
-       "percentage": 44.85,
+       "votes": 160276,
+       "percentage": 44.9,
        "winner": false
       }
      ],
-     "totalVotes": 347740,
+     "totalVotes": 349464,
      "winner": "JoAnna Mendoza",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-06T19:28:11.049Z"
     },
     "headline": {
@@ -6924,22 +6928,23 @@
       {
        "name": "Abraham Hamadeh",
        "party": "R",
-       "votes": 146302,
-       "percentage": 51.13,
+       "votes": 146439,
+       "percentage": 51.2,
        "winner": true
       },
       {
        "name": "Bernadette Greene-Placentia",
        "party": "D",
-       "votes": 139242,
-       "percentage": 48.66,
+       "votes": 139431,
+       "percentage": 48.8,
        "winner": false
       }
      ],
-     "totalVotes": 285544,
+     "totalVotes": 285870,
      "winner": "Abraham Hamadeh",
      "runoff": false,
      "source": "infobox",
+     "reporting": 99,
      "calledAt": "2026-11-06T19:28:11.049Z"
     },
     "headline": null,
@@ -7248,7 +7253,30 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Tom McClintock",
+       "party": "R",
+       "votes": 130858,
+       "percentage": 56.2,
+       "winner": true
+      },
+      {
+       "name": "Michael Masuda",
+       "party": "D",
+       "votes": 102154,
+       "percentage": 43.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 233012,
+     "winner": "Tom McClintock",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 76,
+     "calledAt": "2026-11-10T20:59:40.488Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -7411,7 +7439,30 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Richard Pan",
+       "party": "D",
+       "votes": 108065,
+       "percentage": 58.6,
+       "winner": true
+      },
+      {
+       "name": "Kevin Kiley",
+       "party": "I",
+       "votes": 76313,
+       "percentage": 41.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 184378,
+     "winner": "Richard Pan",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 63,
+     "calledAt": "2026-11-10T20:59:40.488Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -7535,7 +7586,30 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Adam Gray",
+       "party": "D",
+       "votes": 80249,
+       "percentage": 62.3,
+       "winner": true
+      },
+      {
+       "name": "Kevin Lincoln",
+       "party": "R",
+       "votes": 48632,
+       "percentage": 37.7,
+       "winner": false
+      }
+     ],
+     "totalVotes": 128881,
+     "winner": "Adam Gray",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 73,
+     "calledAt": "2026-11-10T20:59:40.488Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -7650,7 +7724,30 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jim Costa",
+       "party": "D",
+       "votes": 64336,
+       "percentage": 62.7,
+       "winner": true
+      },
+      {
+       "name": "Kyle Kirkland",
+       "party": "R",
+       "votes": 38319,
+       "percentage": 37.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 102655,
+     "winner": "Jim Costa",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 61,
+     "calledAt": "2026-11-10T20:59:40.488Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -7798,7 +7895,30 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Randy Villegas",
+       "party": "D",
+       "votes": 81446,
+       "percentage": 68.1,
+       "winner": true
+      },
+      {
+       "name": "David Valadao",
+       "party": "R",
+       "votes": 38069,
+       "percentage": 31.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 119515,
+     "winner": "Randy Villegas",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 71,
+     "calledAt": "2026-11-10T20:59:40.488Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -7922,7 +8042,30 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Derek Tran",
+       "party": "D",
+       "votes": 138514,
+       "percentage": 60.4,
+       "winner": true
+      },
+      {
+       "name": "Chuong Vo",
+       "party": "R",
+       "votes": 90849,
+       "percentage": 39.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 229363,
+     "winner": "Derek Tran",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 91,
+     "calledAt": "2026-11-10T20:59:40.488Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -8025,19 +8168,42 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_27%E2%80%9352)#District_48",
     "candidates": [
      {
-      "name": "Jim Desmond",
-      "party": "R",
-      "partyName": "Republican Party"
-     },
-     {
       "name": "Marni von Wilpert",
       "party": "D",
       "partyName": "Democratic Party"
+     },
+     {
+      "name": "Jim Desmond",
+      "party": "R",
+      "partyName": "Republican Party"
      }
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Marni von Wilpert",
+       "party": "D",
+       "votes": 130516,
+       "percentage": 59.9,
+       "winner": true
+      },
+      {
+       "name": "Jim Desmond",
+       "party": "R",
+       "votes": 87304,
+       "percentage": 40.1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 217820,
+     "winner": "Marni von Wilpert",
+     "runoff": false,
+     "source": "infobox",
+     "reporting": 70,
+     "calledAt": "2026-11-10T20:59:40.488Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -18205,7 +18371,34 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Zack Mullock",
+       "party": "D",
+       "votes": 137999,
+       "percentage": 50.8,
+       "winner": false
+      },
+      {
+       "name": "Jeff Van Drew",
+       "party": "R",
+       "votes": 130631,
+       "percentage": 48.1,
+       "winner": false
+      },
+      {
+       "name": "Ramon Mora Jr.",
+       "party": "I",
+       "votes": 2836,
+       "percentage": 1,
+       "winner": false
+      }
+     ],
+     "totalVotes": 271466,
+     "winner": null,
+     "runoff": false
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Impact Research (D), October 7–10, 2026",
@@ -34759,19 +34952,19 @@
        {
         "name": "Chris Coons",
         "party": "D",
-        "votes": 240347,
-        "percentage": 63.57,
+        "votes": 240587,
+        "percentage": 63.58,
         "winner": true
        },
        {
         "name": "Michael Katz",
         "party": "R",
-        "votes": 137764,
-        "percentage": 36.43,
+        "votes": 137837,
+        "percentage": 36.42,
         "winner": false
        }
       ],
-      "totalVotes": 378111,
+      "totalVotes": 378424,
       "winner": "Chris Coons",
       "runoff": false,
       "calledAt": "2026-11-04T10:33:10.534Z"
@@ -40921,19 +41114,19 @@
        {
         "name": "Cindy Holscher",
         "party": "D",
-        "votes": 551250,
+        "votes": 551467,
         "percentage": 50.35,
         "winner": false
        },
        {
         "name": "Ty Masterson",
         "party": "R",
-        "votes": 543612,
+        "votes": 543903,
         "percentage": 49.65,
         "winner": false
        }
       ],
-      "totalVotes": 1094862,
+      "totalVotes": 1095370,
       "winner": null,
       "runoff": false,
       "source": "infobox",
