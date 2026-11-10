@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T20:59:40.488Z",
+ "generatedAt": "2026-11-10T21:59:40.365Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -62956,22 +62956,21 @@
        {
         "name": "Mark Warner",
         "party": "D",
-        "votes": 2188657,
-        "percentage": 61.2,
+        "votes": 2212571,
+        "percentage": 61.34,
         "winner": true
        },
        {
         "name": "Bert Mizusawa",
         "party": "R",
-        "votes": 1378325,
-        "percentage": 38.5,
+        "votes": 1384680,
+        "percentage": 38.39,
         "winner": false
        }
       ],
-      "totalVotes": 3566982,
+      "totalVotes": 3606850,
       "winner": "Mark Warner",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -63726,23 +63725,21 @@
        {
         "name": "Harriet Hageman",
         "party": "R",
-        "votes": 122157,
-        "percentage": 65.2,
+        "votes": 122174,
+        "percentage": 64.88,
         "winner": true
        },
        {
-        "name": "James W. Byrd",
+        "name": "James Byrd",
         "party": "D",
-        "votes": 65097,
-        "percentage": 34.8,
+        "votes": 65105,
+        "percentage": 34.57,
         "winner": false
        }
       ],
-      "totalVotes": 187254,
+      "totalVotes": 188318,
       "winner": "Harriet Hageman",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 97,
       "calledAt": "2026-11-04T19:21:40.751Z"
      },
      "ratings": [
