@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T22:59:41.224Z",
+ "generatedAt": "2026-11-10T23:14:41.011Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -32426,24 +32426,35 @@
        {
         "name": "Katie Hobbs",
         "party": "D",
-        "votes": 1415725,
-        "percentage": 55.64,
-        "winner": true
+        "votes": 1424282,
+        "percentage": 55.65,
+        "winner": false
        },
        {
         "name": "Andy Biggs",
         "party": "R",
-        "votes": 1081317,
-        "percentage": 42.5,
+        "votes": 1087326,
+        "percentage": 42.49,
+        "winner": false
+       },
+       {
+        "name": "Risa Lombardo",
+        "party": "G",
+        "votes": 24330,
+        "percentage": 0.95,
+        "winner": false
+       },
+       {
+        "name": "Teri Ann Hourihan",
+        "party": "O",
+        "votes": 23298,
+        "percentage": 0.91,
         "winner": false
        }
       ],
-      "totalVotes": 2497042,
-      "winner": "Katie Hobbs",
-      "runoff": false,
-      "source": "infobox",
-      "reporting": 98,
-      "calledAt": "2026-11-04T14:51:41.043Z"
+      "totalVotes": 2559252,
+      "winner": null,
+      "runoff": false
      },
      "ratings": [
       {
@@ -48070,33 +48081,33 @@
        {
         "name": "Kurt Alme",
         "party": "R",
-        "votes": 187961,
-        "percentage": 47.7,
+        "votes": 235549,
+        "percentage": 48.16,
         "winner": true
        },
        {
         "name": "Seth Bodnar",
         "party": "I",
-        "votes": 152203,
-        "percentage": 38.6,
+        "votes": 184551,
+        "percentage": 37.74,
         "winner": false
        },
        {
         "name": "Alani Bankhead",
         "party": "D",
-        "votes": 46838,
-        "percentage": 11.9,
+        "votes": 59950,
+        "percentage": 12.26,
         "winner": false
        },
        {
         "name": "Kyle Austin",
         "party": "L",
-        "votes": 7066,
-        "percentage": 1.8,
+        "votes": 9013,
+        "percentage": 1.84,
         "winner": false
        }
       ],
-      "totalVotes": 394068,
+      "totalVotes": 489063,
       "winner": "Kurt Alme",
       "runoff": false,
       "calledAt": "2026-11-04T17:36:41.251Z"
@@ -63884,30 +63895,28 @@
        {
         "name": "Eric Barlow",
         "party": "R",
-        "votes": 128480,
-        "percentage": 68.6,
+        "votes": 128496,
+        "percentage": 68.12,
         "winner": true
        },
        {
         "name": "Rebecca Bextel",
         "party": "C",
-        "votes": 31430,
-        "percentage": 16.8,
+        "votes": 31444,
+        "percentage": 16.67,
         "winner": false
        },
        {
         "name": "Kenneth Casner",
         "party": "D",
-        "votes": 27469,
-        "percentage": 14.7,
+        "votes": 27472,
+        "percentage": 14.57,
         "winner": false
        }
       ],
-      "totalVotes": 187379,
+      "totalVotes": 188624,
       "winner": "Eric Barlow",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 95,
       "calledAt": "2026-11-04T07:03:11.125Z"
      },
      "ratings": [
