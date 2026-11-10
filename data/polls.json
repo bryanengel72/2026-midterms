@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T23:33:38.963Z",
+ "generatedAt": "2026-11-10T00:03:38.860Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -18180,11 +18180,11 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Impact Research (D), October 7–10, 2026",
      "values": {
-      "Zack Mullock": 40,
-      "Jeff Van Drew": 50
+      "Jeff Van Drew": 50,
+      "Zack Mullock": 40
      },
      "leader": "Jeff Van Drew",
      "margin": 10
@@ -28657,11 +28657,11 @@
      "calledAt": "2026-11-09T21:03:39.121Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Christopher Newport University, October 1–10, 2026",
      "values": {
-      "Elaine Luria": 46,
-      "Jen Kiggans": 43
+      "Jen Kiggans": 43,
+      "Elaine Luria": 46
      },
      "leader": "Elaine Luria",
      "margin": 3
