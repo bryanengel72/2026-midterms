@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T06:35:01.106Z",
+ "generatedAt": "2026-11-11T17:13:20.258Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -7114,19 +7114,19 @@
       {
        "name": "French Hill",
        "party": "R",
-       "votes": 127437,
+       "votes": 127452,
        "percentage": 50.9,
        "winner": false
       },
       {
        "name": "Chris Jones",
        "party": "D",
-       "votes": 123032,
+       "votes": 123096,
        "percentage": 49.1,
        "winner": false
       }
      ],
-     "totalVotes": 250469,
+     "totalVotes": 250548,
      "winner": null,
      "runoff": false
     },
@@ -20559,7 +20559,7 @@
        "party": "D",
        "votes": 118341,
        "percentage": 49.4,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Greg Murphy",
@@ -20577,8 +20577,9 @@
       }
      ],
      "totalVotes": 239382,
-     "winner": null,
-     "runoff": false
+     "winner": "Raymond Smith Jr.",
+     "runoff": false,
+     "calledAt": "2026-11-11T17:13:20.258Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -34986,18 +34987,18 @@
         "name": "Chris Coons",
         "party": "D",
         "votes": 240587,
-        "percentage": 63.58,
+        "percentage": 63.35,
         "winner": true
        },
        {
         "name": "Michael Katz",
         "party": "R",
         "votes": 137837,
-        "percentage": 36.42,
+        "percentage": 36.3,
         "winner": false
        }
       ],
-      "totalVotes": 378424,
+      "totalVotes": 379754,
       "winner": "Chris Coons",
       "runoff": false,
       "calledAt": "2026-11-04T10:33:10.534Z"
@@ -41591,7 +41592,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 1427270,
+      "totalVotes": 1427276,
       "winner": "Andy Barr",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -42015,7 +42016,7 @@
        "party": "D",
        "nominee": true,
        "partyName": "Democratic Party",
-       "note": "replacing Graham Platner"
+       "note": "replaced Graham Platner"
       },
       {
        "name": "Susan Collins",
@@ -43482,28 +43483,28 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1333883,
-        "percentage": 64.16,
+        "votes": 1356732,
+        "percentage": 64.39,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 656039,
-        "percentage": 31.55,
+        "votes": 659871,
+        "percentage": 31.32,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 43570,
-        "percentage": 2.1,
+        "votes": 44409,
+        "percentage": 2.11,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 40138,
+        "votes": 40623,
         "percentage": 1.93,
         "winner": false
        }
@@ -44569,47 +44570,47 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 2517819,
+        "votes": 2520883,
         "percentage": 52.55,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 2177618,
+        "votes": 2181108,
         "percentage": 45.45,
         "winner": false
        },
        {
         "name": "Lydia Christensen",
         "party": "L",
-        "votes": 49640,
+        "votes": 49707,
         "percentage": 1.04,
         "winner": false
        },
        {
         "name": "Tim Long",
         "party": "C",
-        "votes": 26512,
+        "votes": 26550,
         "percentage": 0.55,
         "winner": false
        },
        {
         "name": "Douglas P. Marsh",
         "party": "G",
-        "votes": 12549,
+        "votes": 12564,
         "percentage": 0.26,
         "winner": false
        },
        {
         "name": "Walter P. Kristy",
         "party": "O",
-        "votes": 7250,
+        "votes": 7262,
         "percentage": 0.15,
         "winner": false
        }
       ],
-      "totalVotes": 4791388,
+      "totalVotes": 4798074,
       "winner": "Abdul El-Sayed",
       "runoff": false,
       "calledAt": "2026-11-05T15:28:32.428Z"
@@ -47831,14 +47832,14 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 468339,
+        "votes": 470074,
         "percentage": 49.09,
         "winner": false
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 465643,
+        "votes": 467084,
         "percentage": 48.81,
         "winner": false
        },
@@ -52842,33 +52843,33 @@
        {
         "name": "Roy Cooper",
         "party": "D",
-        "votes": 2467972,
-        "percentage": 58.72,
+        "votes": 2480707,
+        "percentage": 58.8,
         "winner": true
        },
        {
         "name": "Michael Whatley",
         "party": "R",
-        "votes": 1643114,
-        "percentage": 39.09,
+        "votes": 1648593,
+        "percentage": 39,
         "winner": false
        },
        {
         "name": "Shannon W. Bray",
         "party": "L",
-        "votes": 55727,
-        "percentage": 1.32,
+        "votes": 56074,
+        "percentage": 1.3,
         "winner": false
        },
        {
         "name": "Michael Dublin",
         "party": "G",
-        "votes": 36405,
-        "percentage": 0.87,
+        "votes": 36710,
+        "percentage": 0.9,
         "winner": false
        }
       ],
-      "totalVotes": 4203218,
+      "totalVotes": 4222084,
       "winner": "Roy Cooper",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -63932,7 +63933,7 @@
         "name": "Kenneth Casner",
         "party": "D",
         "votes": 27472,
-        "percentage": 14.56,
+        "percentage": 14.57,
         "winner": false
        }
       ],
