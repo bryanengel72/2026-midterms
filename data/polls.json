@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T06:31:42.450Z",
+ "generatedAt": "2026-11-11T06:35:01.106Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6076,30 +6076,30 @@
       {
        "name": "Nick Begich III",
        "party": "R",
-       "votes": 107184,
-       "percentage": 49.2,
+       "votes": 118337,
+       "percentage": 48.9,
        "winner": false
       },
       {
        "name": "Bill Hill",
        "party": "I",
-       "votes": 88882,
-       "percentage": 40.8,
+       "votes": 99240,
+       "percentage": 41,
        "winner": false
       },
       {
        "name": "Eric Hafner",
        "party": "D",
-       "votes": 15979,
-       "percentage": 7.3,
+       "votes": 18121,
+       "percentage": 7.5,
        "winner": false
       }
      ],
-     "totalVotes": 212045,
+     "totalVotes": 235698,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 76
+     "reporting": 84
     },
     "headline": null,
     "latestPoll": null
@@ -56428,23 +56428,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1013693,
+        "votes": 1041511,
         "percentage": 53.2,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 833259,
+        "votes": 856474,
         "percentage": 43.8,
         "winner": false
        }
       ],
-      "totalVotes": 1846952,
+      "totalVotes": 1897985,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
+      "reporting": 95,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
