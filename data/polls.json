@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T23:14:41.011Z",
+ "generatedAt": "2026-11-11T00:14:40.880Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24658,13 +24658,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Janelle Stelson": 48.3,
-      "Scott Perry": 46.3
+      "Janelle Stelson": 48,
+      "Scott Perry": 46.5
      },
      "leader": "Janelle Stelson",
-     "margin": 2
+     "margin": 1.5
     },
     "latestPoll": "2026-10-23"
    },
@@ -57815,14 +57815,14 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
       "values": {
-       "Helena Foulkes": 51.5,
-       "Ken Block": 36,
-       "Aaron Guckian": 10
+       "Helena Foulkes": 55,
+       "Ken Block": 34,
+       "Aaron Guckian": 8
       },
       "leader": "Helena Foulkes",
-      "margin": 15.5
+      "margin": 21
      },
      "consensus": {
       "rating": "Safe D",
