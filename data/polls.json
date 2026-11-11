@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T00:59:40.937Z",
+ "generatedAt": "2026-11-11T01:14:40.691Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -21480,21 +21480,21 @@
       {
        "name": "Pat Harrigan",
        "party": "R",
-       "votes": 146166,
-       "percentage": 49.7,
+       "votes": 146594,
+       "percentage": 49.6,
        "winner": false
       },
       {
        "name": "Ashley Bell",
        "party": "D",
-       "votes": 143137,
-       "percentage": 48.6,
+       "votes": 144109,
+       "percentage": 48.7,
        "winner": false
       },
       {
        "name": "Steve Feldman",
        "party": "L",
-       "votes": 4673,
+       "votes": 4711,
        "percentage": 1.6,
        "winner": false
       }
@@ -63910,7 +63910,7 @@
         "name": "Kenneth Casner",
         "party": "D",
         "votes": 27472,
-        "percentage": 14.57,
+        "percentage": 14.56,
         "winner": false
        }
       ],
