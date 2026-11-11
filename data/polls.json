@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T00:14:40.880Z",
+ "generatedAt": "2026-11-11T00:59:40.937Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -30710,33 +30710,33 @@
       {
        "name": "Chuck Gray",
        "party": "R",
-       "votes": 99891,
-       "percentage": 54.52,
+       "votes": 99906,
+       "percentage": 54.22,
        "winner": true
       },
       {
        "name": "Lisa Kinney",
        "party": "D",
-       "votes": 61687,
-       "percentage": 33.67,
+       "votes": 61689,
+       "percentage": 33.48,
        "winner": false
       },
       {
        "name": "Shawn Johnson",
        "party": "L",
-       "votes": 13665,
-       "percentage": 7.46,
+       "votes": 13667,
+       "percentage": 7.42,
        "winner": false
       },
       {
        "name": "Jeffrey Haggit",
        "party": "C",
-       "votes": 7960,
-       "percentage": 4.34,
+       "votes": 7961,
+       "percentage": 4.32,
        "winner": false
       }
      ],
-     "totalVotes": 183203,
+     "totalVotes": 184254,
      "winner": "Chuck Gray",
      "runoff": false,
      "calledAt": "2026-11-06T04:34:10.268Z"
