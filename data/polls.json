@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T04:31:41.634Z",
+ "generatedAt": "2026-11-11T06:31:42.450Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -32137,37 +32137,37 @@
        {
         "name": "Jonathan Kreiss-Tomkins",
         "party": "D",
-        "votes": 107171,
-        "percentage": 49.6,
+        "votes": 119860,
+        "percentage": 49.9,
         "winner": false
        },
        {
         "name": "Bernadette Wilson",
         "party": "R",
-        "votes": 62501,
-        "percentage": 28.9,
+        "votes": 69199,
+        "percentage": 28.8,
         "winner": false
        },
        {
         "name": "Dave Bronson",
         "party": "R",
-        "votes": 30488,
-        "percentage": 14.1,
+        "votes": 33590,
+        "percentage": 14,
         "winner": false
        },
        {
         "name": "Treg Taylor",
         "party": "R",
-        "votes": 16077,
-        "percentage": 7.4,
+        "votes": 17619,
+        "percentage": 7.3,
         "winner": false
        }
       ],
-      "totalVotes": 216237,
+      "totalVotes": 240268,
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 76
+      "reporting": 84
      },
      "ratings": [
       {
@@ -33618,19 +33618,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 7451961,
-        "percentage": 65.8,
+        "votes": 7922872,
+        "percentage": 65.6,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 3879315,
-        "percentage": 34.2,
+        "votes": 4148630,
+        "percentage": 34.4,
         "winner": false
        }
       ],
-      "totalVotes": 11331276,
+      "totalVotes": 12071502,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -56265,23 +56265,23 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 1096431,
+        "votes": 1126652,
         "percentage": 58,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 731820,
+        "votes": 751594,
         "percentage": 38.7,
         "winner": false
        }
       ],
-      "totalVotes": 1828251,
+      "totalVotes": 1878246,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
-      "reporting": 94,
+      "reporting": 95,
       "calledAt": "2026-11-04T09:48:11.236Z"
      },
      "ratings": [
@@ -57892,33 +57892,33 @@
        {
         "name": "Annie Andrews",
         "party": "D",
-        "votes": 1043719,
+        "votes": 1044001,
         "percentage": 51.14,
         "winner": true
        },
        {
         "name": "Darline Graham",
         "party": "R",
-        "votes": 951904,
+        "votes": 952191,
         "percentage": 46.64,
         "winner": false
        },
        {
         "name": "Kasie Whitener",
         "party": "L",
-        "votes": 23592,
+        "votes": 23585,
         "percentage": 1.16,
         "winner": false
        },
        {
         "name": "Mark Hackett",
         "party": "C",
-        "votes": 16815,
+        "votes": 16811,
         "percentage": 0.82,
         "winner": false
        }
       ],
-      "totalVotes": 2040928,
+      "totalVotes": 2041487,
       "winner": "Annie Andrews",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -58423,33 +58423,33 @@
        {
         "name": "Alan Wilson",
         "party": "R",
-        "votes": 1051018,
+        "votes": 1051334,
         "percentage": 51.58,
         "winner": true
        },
        {
         "name": "Jermaine Johnson",
         "party": "D",
-        "votes": 960276,
+        "votes": 960534,
         "percentage": 47.13,
         "winner": false
        },
        {
         "name": "Michael Addison",
         "party": "O",
-        "votes": 16137,
+        "votes": 16125,
         "percentage": 0.79,
         "winner": false
        },
        {
         "name": "Walid Hakim",
         "party": "G",
-        "votes": 9088,
-        "percentage": 0.44,
+        "votes": 9078,
+        "percentage": 0.45,
         "winner": false
        }
       ],
-      "totalVotes": 2037662,
+      "totalVotes": 2038214,
       "winner": "Alan Wilson",
       "runoff": false,
       "calledAt": "2026-11-09T21:03:39.121Z"
