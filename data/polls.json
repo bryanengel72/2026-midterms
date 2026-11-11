@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T02:16:41.705Z",
+ "generatedAt": "2026-11-11T04:31:41.634Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -29473,7 +29473,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Marie Gluesenkamp Perez",
+       "party": "D",
+       "votes": 189105,
+       "percentage": 53.6,
+       "winner": true
+      },
+      {
+       "name": "John Braun",
+       "party": "R",
+       "votes": 160174,
+       "percentage": 45.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 349279,
+     "winner": "Marie Gluesenkamp Perez",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-11T04:31:41.634Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
