@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T01:14:40.691Z",
+ "generatedAt": "2026-11-11T02:16:41.705Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20701,22 +20701,22 @@
       {
        "name": "Chuck Hubbard",
        "party": "D",
-       "votes": 139034,
-       "percentage": 48.7,
+       "votes": 139672,
+       "percentage": 48.74,
        "winner": false
       },
       {
        "name": "Virginia Foxx",
        "party": "R",
-       "votes": 138935,
-       "percentage": 48.6,
+       "votes": 139347,
+       "percentage": 48.62,
        "winner": false
       },
       {
        "name": "Robert Luffman",
        "party": "L",
-       "votes": 7529,
-       "percentage": 2.6,
+       "votes": 7574,
+       "percentage": 2.64,
        "winner": false
       }
      ],
