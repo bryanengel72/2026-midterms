@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T11:23:37.734Z",
+ "generatedAt": "2026-11-12T19:59:48.830Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -9574,6 +9574,13 @@
       "strength": "Lean",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Elijah",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -9581,7 +9588,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_7",
     "candidates": [
@@ -9911,6 +9918,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Soto",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -9918,7 +9932,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 4,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_9",
     "candidates": [
@@ -11957,6 +11971,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Díaz-Balart",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -11964,7 +11985,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_26",
     "candidates": [
@@ -12088,6 +12109,13 @@
       "strength": "Lean",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Salazar",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -12095,7 +12123,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida#District_27",
     "candidates": [
@@ -16207,7 +16235,7 @@
        "winner": true
       },
       {
-       "name": "Jeanne Hendricks",
+       "name": "Trina Swanson",
        "party": "D",
        "votes": 168350,
        "percentage": 46.8,
@@ -30832,8 +30860,8 @@
    },
    {
     "source": "Result",
-    "D": 253,
-    "R": 162,
+    "D": 255,
+    "R": 169,
     "tossup": 0
    }
   ],
@@ -32160,12 +32188,12 @@
        {
         "name": "Treg Taylor",
         "party": "R",
-        "votes": 18.012,
+        "votes": 18012,
         "percentage": 7.3,
         "winner": false
        }
       ],
-      "totalVotes": 227790.012,
+      "totalVotes": 245784,
       "winner": null,
       "runoff": false,
       "source": "infobox",
@@ -47861,26 +47889,26 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 473336,
-        "percentage": 49.19,
+        "votes": 474823,
+        "percentage": 49.24,
         "winner": true
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 468667,
-        "percentage": 48.71,
+        "votes": 469205,
+        "percentage": 48.66,
         "winner": false
        },
        {
         "name": "Ty Pinkins",
         "party": "I",
-        "votes": 20234,
+        "votes": 20277,
         "percentage": 2.1,
         "winner": false
        }
       ],
-      "totalVotes": 962237,
+      "totalVotes": 964305,
       "winner": "Scott Colom",
       "runoff": false,
       "calledAt": "2026-11-12T00:47:35.614Z"
@@ -52129,15 +52157,15 @@
        {
         "name": "Kathy Hochul",
         "party": "O",
-        "votes": 3641811,
+        "votes": 3651791,
         "percentage": 59.7,
         "winner": true
        },
        {
         "name": "Bruce Blakeman",
         "party": "O",
-        "votes": 2442748,
-        "percentage": 40.1,
+        "votes": 2448115,
+        "percentage": 40,
         "winner": false
        },
        {
@@ -52176,7 +52204,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 6097359,
+      "totalVotes": 6112761,
       "winner": "Kathy Hochul",
       "runoff": false,
       "calledAt": "2026-11-07T18:31:35.884Z"
@@ -56122,7 +56150,7 @@
         "name": "Mike Mazzei",
         "party": "R",
         "votes": 582039,
-        "percentage": 51.93,
+        "percentage": 51.92,
         "winner": true
        },
        {
@@ -62831,28 +62859,28 @@
        {
         "name": "Phil Scott",
         "party": "R",
-        "votes": 162050,
-        "percentage": 52.5,
+        "votes": 162048,
+        "percentage": 52.43,
         "winner": true
        },
        {
         "name": "Amanda Janoo",
         "party": "D",
-        "votes": 141618,
-        "percentage": 45.88,
+        "votes": 141631,
+        "percentage": 45.83,
         "winner": false
        },
        {
         "name": "Brian Judd",
         "party": "I",
         "votes": 2614,
-        "percentage": 0.85,
+        "percentage": 0.84,
         "winner": false
        },
        {
         "name": "June Goodband",
         "party": "G",
-        "votes": 1233,
+        "votes": 1227,
         "percentage": 0.4,
         "winner": false
        },
@@ -62864,7 +62892,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 308652,
+      "totalVotes": 309055,
       "winner": "Phil Scott",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -64041,7 +64069,7 @@
         "name": "Kenneth Casner",
         "party": "D",
         "votes": 27472,
-        "percentage": 14.57,
+        "percentage": 14.56,
         "winner": false
        }
       ],
