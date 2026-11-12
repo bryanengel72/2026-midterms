@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T00:47:35.614Z",
+ "generatedAt": "2026-11-12T11:23:37.734Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6076,30 +6076,30 @@
       {
        "name": "Nick Begich III",
        "party": "R",
-       "votes": 118337,
-       "percentage": 48.9,
+       "votes": 121324,
+       "percentage": 49,
        "winner": false
       },
       {
        "name": "Bill Hill",
        "party": "I",
-       "votes": 99240,
-       "percentage": 41,
+       "votes": 101297,
+       "percentage": 40.9,
        "winner": false
       },
       {
        "name": "Eric Hafner",
        "party": "D",
-       "votes": 18121,
+       "votes": 18562,
        "percentage": 7.5,
        "winner": false
       }
      ],
-     "totalVotes": 235698,
+     "totalVotes": 241183,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 84
+     "reporting": 86
     },
     "headline": null,
     "latestPoll": null
@@ -29940,7 +29940,7 @@
        "party": "D",
        "votes": 158839,
        "percentage": 52,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Bryan Steil",
@@ -29951,9 +29951,10 @@
       }
      ],
      "totalVotes": 305724,
-     "winner": null,
+     "winner": "Mitchell Berman",
      "runoff": false,
-     "source": "infobox"
+     "source": "infobox",
+     "calledAt": "2026-11-12T11:23:37.734Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -32138,37 +32139,37 @@
        {
         "name": "Jonathan Kreiss-Tomkins",
         "party": "D",
-        "votes": 119860,
-        "percentage": 49.9,
+        "votes": 122353,
+        "percentage": 49.8,
         "winner": false
        },
        {
         "name": "Bernadette Wilson",
         "party": "R",
-        "votes": 69199,
-        "percentage": 28.8,
+        "votes": 71231,
+        "percentage": 29,
         "winner": false
        },
        {
         "name": "Dave Bronson",
         "party": "R",
-        "votes": 33590,
-        "percentage": 14,
+        "votes": 34188,
+        "percentage": 13.9,
         "winner": false
        },
        {
         "name": "Treg Taylor",
         "party": "R",
-        "votes": 17619,
+        "votes": 18.012,
         "percentage": 7.3,
         "winner": false
        }
       ],
-      "totalVotes": 240268,
+      "totalVotes": 227790.012,
       "winner": null,
       "runoff": false,
       "source": "infobox",
-      "reporting": 84
+      "reporting": 86
      },
      "ratings": [
       {
@@ -37914,19 +37915,19 @@
        {
         "name": "Josh Green",
         "party": "D",
-        "votes": 278652,
-        "percentage": 72.65,
+        "votes": 279445,
+        "percentage": 72.64,
         "winner": true
        },
        {
         "name": "Gary Cordery",
         "party": "R",
-        "votes": 104926,
-        "percentage": 27.35,
+        "votes": 105258,
+        "percentage": 27.36,
         "winner": false
        }
       ],
-      "totalVotes": 383578,
+      "totalVotes": 384703,
       "winner": "Josh Green",
       "runoff": false,
       "calledAt": "2026-11-07T00:26:02.768Z"
@@ -44863,6 +44864,21 @@
        "undecided": 5
       },
       {
+       "pollster": "HarrisX",
+       "dates": "October 30 – November 1, 2026",
+       "start": "2026-10-30",
+       "end": "2026-11-01",
+       "sample": 663,
+       "population": "LV",
+       "moe": 3.8,
+       "values": {
+        "Abdul El-Sayed": 48,
+        "Mike Rogers": 45
+       },
+       "other": 4,
+       "undecided": 2
+      },
+      {
        "pollster": "Research Co.",
        "dates": "October 30 – November 1, 2026",
        "start": "2026-10-30",
@@ -46094,6 +46110,21 @@
        },
        "other": 4,
        "undecided": 4
+      },
+      {
+       "pollster": "HarrisX",
+       "dates": "October 30 – November 1, 2026",
+       "start": "2026-10-30",
+       "end": "2026-11-01",
+       "sample": 663,
+       "population": "LV",
+       "moe": 3.8,
+       "values": {
+        "Jocelyn Benson": 53,
+        "John James": 41
+       },
+       "other": 3,
+       "undecided": 3
       },
       {
        "pollster": "Research Co.",
@@ -54134,6 +54165,21 @@
        "undecided": 4
       },
       {
+       "pollster": "HarrisX",
+       "dates": "October 30 – November 1, 2026",
+       "start": "2026-10-30",
+       "end": "2026-11-01",
+       "sample": 496,
+       "population": "LV",
+       "moe": 4.4,
+       "values": {
+        "Jon Husted": 45,
+        "Sherrod Brown": 47
+       },
+       "other": 4,
+       "undecided": 5
+      },
+      {
        "pollster": "Research Co.",
        "dates": "October 30 – November 1, 2026",
        "start": "2026-10-30",
@@ -55141,6 +55187,21 @@
        },
        "other": 3,
        "undecided": 1
+      },
+      {
+       "pollster": "HarrisX",
+       "dates": "October 30 – November 1, 2026",
+       "start": "2026-10-30",
+       "end": "2026-11-01",
+       "sample": 496,
+       "population": "LV",
+       "moe": 4.4,
+       "values": {
+        "Vivek Ramaswamy": 47,
+        "Amy Acton": 45
+       },
+       "other": 4,
+       "undecided": 4
       },
       {
        "pollster": "Research Co.",
@@ -57603,28 +57664,28 @@
         "name": "Helena Buonanno Foulkes",
         "party": "D",
         "votes": 207580,
-        "percentage": 57.89,
+        "percentage": 57.71,
         "winner": true
        },
        {
         "name": "Kenneth Block",
         "party": "I",
         "votes": 99828,
-        "percentage": 27.84,
+        "percentage": 27.75,
         "winner": false
        },
        {
         "name": "Aaron C. Guckian",
         "party": "R",
         "votes": 47401,
-        "percentage": 13.22,
+        "percentage": 13.18,
         "winner": false
        },
        {
         "name": "C.D. Reynolds",
         "party": "I",
-        "votes": 2070,
-        "percentage": 0.58,
+        "votes": 2050,
+        "percentage": 0.57,
         "winner": false
        },
        {
@@ -57635,7 +57696,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 358553,
+      "totalVotes": 359681,
       "winner": "Helena Buonanno Foulkes",
       "runoff": false,
       "calledAt": "2026-11-12T00:47:35.614Z"
@@ -59962,15 +60023,15 @@
        {
         "name": "James Talarico",
         "party": "D",
-        "votes": 5447069,
-        "percentage": 55.06,
+        "votes": 5447080,
+        "percentage": 55.09,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
-        "votes": 4250664,
-        "percentage": 42.97,
+        "votes": 4250704,
+        "percentage": 42.99,
         "winner": false
        },
        {
@@ -60234,6 +60295,21 @@
        },
        "other": null,
        "undecided": null
+      },
+      {
+       "pollster": "HarrisX",
+       "dates": "October 30 – November 1, 2026",
+       "start": "2026-10-30",
+       "end": "2026-11-01",
+       "sample": 512,
+       "population": "LV",
+       "moe": 4.3,
+       "values": {
+        "Ken Paxton": 44,
+        "James Talarico": 50
+       },
+       "other": 4,
+       "undecided": 2
       },
       {
        "pollster": "AtlasIntel",
@@ -61675,6 +61751,21 @@
        },
        "other": null,
        "undecided": null
+      },
+      {
+       "pollster": "HarrisX",
+       "dates": "October 30 – November 1, 2026",
+       "start": "2026-10-30",
+       "end": "2026-11-01",
+       "sample": 512,
+       "population": "LV",
+       "moe": 4.3,
+       "values": {
+        "Greg Abbott": 51,
+        "Gina Hinojosa": 46
+       },
+       "other": 1,
+       "undecided": 2
       },
       {
        "pollster": "AtlasIntel",
