@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T17:13:20.258Z",
+ "generatedAt": "2026-11-12T00:47:35.614Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -16973,19 +16973,19 @@
       {
        "name": "Mike Flood",
        "party": "R",
-       "votes": 127024,
+       "votes": 127061,
        "percentage": 49.98,
        "winner": true
       },
       {
        "name": "Chris Backemeyer",
        "party": "D",
-       "votes": 118141,
+       "votes": 118157,
        "percentage": 46.48,
        "winner": false
       }
      ],
-     "totalVotes": 245165,
+     "totalVotes": 245218,
      "winner": "Mike Flood",
      "runoff": false,
      "source": "infobox",
@@ -23359,11 +23359,11 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Hart Research (D), October 9–12, 2026",
      "values": {
-      "Don Leonard": 48,
-      "Mike Carey": 45
+      "Mike Carey": 45,
+      "Don Leonard": 48
      },
      "leader": "Don Leonard",
      "margin": 3
@@ -41162,9 +41162,7 @@
       ],
       "totalVotes": 1095370,
       "winner": null,
-      "runoff": false,
-      "source": "infobox",
-      "reporting": 99
+      "runoff": false
      },
      "ratings": [
       {
@@ -44571,42 +44569,42 @@
         "name": "Abdul El-Sayed",
         "party": "D",
         "votes": 2520883,
-        "percentage": 52.55,
+        "percentage": 2520883,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
         "votes": 2181108,
-        "percentage": 45.45,
+        "percentage": 2181108,
         "winner": false
        },
        {
         "name": "Lydia Christensen",
         "party": "L",
         "votes": 49707,
-        "percentage": 1.04,
+        "percentage": 49707,
         "winner": false
        },
        {
         "name": "Tim Long",
         "party": "C",
         "votes": 26550,
-        "percentage": 0.55,
+        "percentage": 26550,
         "winner": false
        },
        {
         "name": "Douglas P. Marsh",
         "party": "G",
         "votes": 12564,
-        "percentage": 0.26,
+        "percentage": 12564,
         "winner": false
        },
        {
         "name": "Walter P. Kristy",
         "party": "O",
         "votes": 7262,
-        "percentage": 0.15,
+        "percentage": 7262,
         "winner": false
        }
       ],
@@ -47832,28 +47830,29 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 470074,
-        "percentage": 49.09,
-        "winner": false
+        "votes": 473336,
+        "percentage": 49.19,
+        "winner": true
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 467084,
-        "percentage": 48.81,
+        "votes": 468667,
+        "percentage": 48.71,
         "winner": false
        },
        {
         "name": "Ty Pinkins",
         "party": "I",
-        "votes": 20043,
+        "votes": 20234,
         "percentage": 2.1,
         "winner": false
        }
       ],
-      "totalVotes": 951744,
-      "winner": null,
-      "runoff": false
+      "totalVotes": 962237,
+      "winner": "Scott Colom",
+      "runoff": false,
+      "calledAt": "2026-11-12T00:47:35.614Z"
      },
      "ratings": [
       {
@@ -55859,40 +55858,40 @@
        {
         "name": "Kevin Hern",
         "party": "R",
-        "votes": 639510,
-        "percentage": 57.2,
+        "votes": 639860,
+        "percentage": 57.19,
         "winner": true
        },
        {
         "name": "N'Kiyla Jasmine Thomas",
         "party": "D",
-        "votes": 439109,
-        "percentage": 39.28,
+        "votes": 439522,
+        "percentage": 39.29,
         "winner": false
        },
        {
         "name": "Curtis Stinnett",
         "party": "I",
-        "votes": 14622,
+        "votes": 14635,
         "percentage": 1.31,
         "winner": false
        },
        {
         "name": "Ron Meinhardt",
         "party": "I",
-        "votes": 14492,
+        "votes": 14504,
         "percentage": 1.3,
         "winner": false
        },
        {
         "name": "Sevier White",
         "party": "L",
-        "votes": 10199,
+        "votes": 10209,
         "percentage": 0.91,
         "winner": false
        }
       ],
-      "totalVotes": 1117932,
+      "totalVotes": 1118730,
       "winner": "Kevin Hern",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -56061,35 +56060,35 @@
        {
         "name": "Mike Mazzei",
         "party": "R",
-        "votes": 581706,
+        "votes": 582039,
         "percentage": 51.93,
         "winner": true
        },
        {
         "name": "Cyndi Munson",
         "party": "D",
-        "votes": 514342,
+        "votes": 514776,
         "percentage": 45.92,
         "winner": false
        },
        {
         "name": "Robert E. Brooks Sr.",
         "party": "I",
-        "votes": 11649,
+        "votes": 11660,
         "percentage": 1.04,
         "winner": false
        },
        {
         "name": "Jerry Griffin",
         "party": "I",
-        "votes": 7433,
+        "votes": 7441,
         "percentage": 0.66,
         "winner": false
        },
        {
         "name": "Orlando Lynn Bush",
         "party": "I",
-        "votes": 5009,
+        "votes": 5014,
         "percentage": 0.45,
         "winner": false
        }
@@ -56215,13 +56214,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
       "values": {
-       "Mike Mazzei": 44,
-       "Cyndi Munson": 40.5
+       "Mike Mazzei": 49,
+       "Cyndi Munson": 45
       },
       "leader": "Mike Mazzei",
-      "margin": 3.5
+      "margin": 4
      },
      "consensus": {
       "rating": "Likely R",
@@ -57265,22 +57264,28 @@
        {
         "name": "Jack Reed",
         "party": "D",
-        "votes": 240069,
-        "percentage": 66.8,
+        "votes": 240686,
+        "percentage": 66.79,
         "winner": true
        },
        {
         "name": "Raymond McKay",
         "party": "R",
-        "votes": 105346,
-        "percentage": 29.3,
+        "votes": 105453,
+        "percentage": 29.26,
+        "winner": false
+       },
+       {
+        "name": "Michael Bahry",
+        "party": "I",
+        "votes": 13562,
+        "percentage": 3.76,
         "winner": false
        }
       ],
-      "totalVotes": 345415,
+      "totalVotes": 360396,
       "winner": "Jack Reed",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T10:18:10.392Z"
      },
      "ratings": [
@@ -57595,33 +57600,45 @@
      "results": {
       "candidates": [
        {
-        "name": "Helena Foulkes",
+        "name": "Helena Buonanno Foulkes",
         "party": "D",
-        "votes": 205117,
-        "percentage": 57.57,
+        "votes": 207580,
+        "percentage": 57.89,
         "winner": true
        },
        {
-        "name": "Ken Block",
+        "name": "Kenneth Block",
         "party": "I",
-        "votes": 99269,
-        "percentage": 27.86,
+        "votes": 99828,
+        "percentage": 27.84,
         "winner": false
        },
        {
-        "name": "Aaron Guckian",
+        "name": "Aaron C. Guckian",
         "party": "R",
-        "votes": 47106,
+        "votes": 47401,
         "percentage": 13.22,
+        "winner": false
+       },
+       {
+        "name": "C.D. Reynolds",
+        "party": "I",
+        "votes": 2070,
+        "percentage": 0.58,
+        "winner": false
+       },
+       {
+        "name": "Jasjit S. Gotra",
+        "party": "I",
+        "votes": 1674,
+        "percentage": 0.47,
         "winner": false
        }
       ],
-      "totalVotes": 351492,
-      "winner": "Helena Foulkes",
+      "totalVotes": 358553,
+      "winner": "Helena Buonanno Foulkes",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 98,
-      "calledAt": "2026-11-04T06:05:40.683Z"
+      "calledAt": "2026-11-12T00:47:35.614Z"
      },
      "ratings": [
       {
