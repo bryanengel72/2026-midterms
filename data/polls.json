@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T11:07:26.265Z",
+ "generatedAt": "2026-11-13T19:47:15.830Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -17158,26 +17158,26 @@
       {
        "name": "Denise Powell",
        "party": "D",
-       "votes": 143785,
-       "percentage": 56.64,
+       "votes": 145402,
+       "percentage": 56.69,
        "winner": false
       },
       {
        "name": "Brinker Harding",
        "party": "R",
-       "votes": 103494,
-       "percentage": 40.77,
+       "votes": 104498,
+       "percentage": 40.72,
        "winner": false
       },
       {
        "name": "Eric Foreman",
        "party": "L",
-       "votes": 6557,
-       "percentage": 2.58,
+       "votes": 6677,
+       "percentage": 2.6,
        "winner": false
       }
      ],
-     "totalVotes": 253836,
+     "totalVotes": 256577,
      "winner": null,
      "runoff": false
     },
@@ -23514,19 +23514,19 @@
       {
        "name": "Mark Tedford",
        "party": "R",
-       "votes": 121260,
-       "percentage": 52.32,
+       "votes": 121397,
+       "percentage": 52.3,
        "winner": true
       },
       {
        "name": "John Croisant",
        "party": "D",
-       "votes": 110521,
-       "percentage": 47.68,
+       "votes": 110707,
+       "percentage": 47.7,
        "winner": false
       }
      ],
-     "totalVotes": 231781,
+     "totalVotes": 232104,
      "winner": "Mark Tedford",
      "runoff": false,
      "calledAt": "2026-11-04T08:03:10.527Z"
@@ -23668,28 +23668,28 @@
       {
        "name": "Stephanie Bice",
        "party": "R",
-       "votes": 130972,
-       "percentage": 49.49,
+       "votes": 131023,
+       "percentage": 49.48,
        "winner": true
       },
       {
        "name": "Jena Nelson",
        "party": "D",
-       "votes": 127608,
+       "votes": 127687,
        "percentage": 48.22,
        "winner": false
       },
       {
        "name": "Robert Henri",
        "party": "I",
-       "votes": 4024,
+       "votes": 4027,
        "percentage": 1.52,
        "winner": false
       },
       {
        "name": "Austin Nieves",
        "party": "I",
-       "votes": 2043,
+       "votes": 2047,
        "percentage": 0.77,
        "winner": false
       }
@@ -38664,19 +38664,19 @@
        {
         "name": "Juliana Stratton",
         "party": "D",
-        "votes": 2501456,
-        "percentage": 61.4,
+        "votes": 2583698,
+        "percentage": 61.9,
         "winner": true
        },
        {
         "name": "Don Tracy",
         "party": "R",
-        "votes": 1510968,
-        "percentage": 37.1,
+        "votes": 1526355,
+        "percentage": 36.5,
         "winner": false
        }
       ],
-      "totalVotes": 4012424,
+      "totalVotes": 4110053,
       "winner": "Juliana Stratton",
       "runoff": false,
       "source": "infobox",
@@ -38904,26 +38904,26 @@
        {
         "name": "JB Pritzker",
         "party": "D",
-        "votes": 2458101,
-        "percentage": 60.1,
+        "votes": 2540792,
+        "percentage": 60.6,
         "winner": false
        },
        {
         "name": "Darren Bailey",
         "party": "R",
-        "votes": 1495629,
-        "percentage": 36.6,
+        "votes": 1509625,
+        "percentage": 36,
         "winner": false
        },
        {
         "name": "Collin Corbett",
         "party": "I",
-        "votes": 137448,
+        "votes": 140541,
         "percentage": 3.4,
         "winner": false
        }
       ],
-      "totalVotes": 4091178,
+      "totalVotes": 4190958,
       "winner": null,
       "runoff": false
      },
@@ -41222,15 +41222,15 @@
        {
         "name": "Cindy Holscher",
         "party": "D",
-        "votes": 551467,
-        "percentage": 50.35,
+        "votes": 552076,
+        "percentage": 50.33,
         "winner": true
        },
        {
         "name": "Ty Masterson",
         "party": "R",
-        "votes": 543903,
-        "percentage": 49.65,
+        "votes": 544791,
+        "percentage": 49.67,
         "winner": false
        }
       ],
