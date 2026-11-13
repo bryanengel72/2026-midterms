@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T19:59:48.830Z",
+ "generatedAt": "2026-11-13T01:52:56.307Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -14388,29 +14388,7 @@
      }
     ],
     "aggregates": [],
-    "results": {
-     "candidates": [
-      {
-       "name": "Paul LePage",
-       "party": "R",
-       "votes": 170265,
-       "percentage": 49.89,
-       "winner": false
-      },
-      {
-       "name": "Matthew Dunlap",
-       "party": "D",
-       "votes": 164845,
-       "percentage": 48.31,
-       "winner": false
-      }
-     ],
-     "totalVotes": 335110,
-     "winner": null,
-     "runoff": false,
-     "source": "infobox",
-     "reporting": 98
-    },
+    "results": null,
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -18734,7 +18712,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Nellie Pou",
+       "party": "D",
+       "votes": 123604,
+       "percentage": 66.75,
+       "winner": true
+      },
+      {
+       "name": "Rosie Pino",
+       "party": "R",
+       "votes": 58868,
+       "percentage": 31.79,
+       "winner": false
+      }
+     ],
+     "totalVotes": 182472,
+     "winner": "Nellie Pou",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-13T01:52:56.307Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -23023,11 +23023,11 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: DCCC (D), October 12–13, 2026",
      "values": {
-      "Kristina Knickerbocker": 47,
       "Mike Turner": 44,
+      "Kristina Knickerbocker": 47,
       "Thomas McMasters": 4
      },
      "leader": "Kristina Knickerbocker",
@@ -27849,8 +27849,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: DCCC, October 7–13, 2026",
      "values": {
       "Henry Cuellar": 54,
       "Tano Tijerina": 34
@@ -29648,7 +29648,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Amanda McKinney",
+       "party": "R",
+       "votes": 128950,
+       "percentage": 53.9,
+       "winner": true
+      },
+      {
+       "name": "John Duresky",
+       "party": "D",
+       "votes": 109679,
+       "percentage": 45.9,
+       "winner": false
+      }
+     ],
+     "totalVotes": 238629,
+     "winner": "Amanda McKinney",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-13T01:52:56.307Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -29774,7 +29796,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Michael Baumgartner",
+       "party": "R",
+       "votes": 163507,
+       "percentage": 52,
+       "winner": true
+      },
+      {
+       "name": "Carmela Conroy",
+       "party": "D",
+       "votes": 149609,
+       "percentage": 47.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 313116,
+     "winner": "Michael Baumgartner",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-13T01:52:56.307Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Tavern Research (D), May 18–25, 2026",
@@ -33593,8 +33637,8 @@
       }
      ],
      "headline": {
-      "basis": "simple-average",
-      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+      "basis": "latest-poll",
+      "detail": "Most recent poll: Hendrix College, October 8–13, 2026",
       "values": {
        "Sarah Huckabee Sanders": 51,
        "Fredrick Love": 32,
@@ -41179,7 +41223,7 @@
         "party": "D",
         "votes": 551467,
         "percentage": 50.35,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Ty Masterson",
@@ -41190,8 +41234,9 @@
        }
       ],
       "totalVotes": 1095370,
-      "winner": null,
-      "runoff": false
+      "winner": "Cindy Holscher",
+      "runoff": false,
+      "calledAt": "2026-11-13T01:52:56.307Z"
      },
      "ratings": [
       {
@@ -43510,33 +43555,33 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1356732,
-        "percentage": 64.39,
+        "votes": 1368151,
+        "percentage": 64.38,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 659871,
-        "percentage": 31.32,
+        "votes": 665170,
+        "percentage": 31.3,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 44409,
-        "percentage": 2.11,
+        "votes": 45026,
+        "percentage": 2.12,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 40623,
+        "votes": 41052,
         "percentage": 1.93,
         "winner": false
        }
       ],
-      "totalVotes": 2079086,
+      "totalVotes": 2125012,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -56302,8 +56347,8 @@
       }
      ],
      "headline": {
-      "basis": "simple-average",
-      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+      "basis": "latest-poll",
+      "detail": "Most recent poll: Workbench Strategy (D), October 8–13, 2026",
       "values": {
        "Mike Mazzei": 49,
        "Cyndi Munson": 45
