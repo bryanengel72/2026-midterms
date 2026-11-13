@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T01:52:56.307Z",
+ "generatedAt": "2026-11-13T11:07:26.265Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6076,30 +6076,30 @@
       {
        "name": "Nick Begich III",
        "party": "R",
-       "votes": 121324,
-       "percentage": 49,
+       "votes": 123241,
+       "percentage": 48.55,
        "winner": false
       },
       {
        "name": "Bill Hill",
        "party": "I",
-       "votes": 101297,
-       "percentage": 40.9,
+       "votes": 104460,
+       "percentage": 41.15,
        "winner": false
       },
       {
        "name": "Eric Hafner",
        "party": "D",
-       "votes": 18562,
+       "votes": 19032,
        "percentage": 7.5,
        "winner": false
       }
      ],
-     "totalVotes": 241183,
+     "totalVotes": 246733,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 86
+     "reporting": 88
     },
     "headline": null,
     "latestPoll": null
@@ -16764,26 +16764,26 @@
       {
        "name": "Sam Forstag",
        "party": "D",
-       "votes": 132003,
-       "percentage": 50.3,
+       "votes": 135096,
+       "percentage": 50.5,
        "winner": false
       },
       {
        "name": "Aaron Flint",
        "party": "R",
-       "votes": 122694,
-       "percentage": 46.8,
+       "votes": 124727,
+       "percentage": 46.6,
        "winner": false
       },
       {
        "name": "Nick Sheedy",
        "party": "L",
-       "votes": 7522,
+       "votes": 7719,
        "percentage": 2.9,
        "winner": false
       }
      ],
-     "totalVotes": 262219,
+     "totalVotes": 267562,
      "winner": null,
      "runoff": false
     },
@@ -32211,37 +32211,38 @@
        {
         "name": "Jonathan Kreiss-Tomkins",
         "party": "D",
-        "votes": 122353,
-        "percentage": 49.8,
-        "winner": false
+        "votes": 126195,
+        "percentage": 50.05,
+        "winner": true
        },
        {
         "name": "Bernadette Wilson",
         "party": "R",
-        "votes": 71231,
-        "percentage": 29,
+        "votes": 72282,
+        "percentage": 28.67,
         "winner": false
        },
        {
         "name": "Dave Bronson",
         "party": "R",
-        "votes": 34188,
-        "percentage": 13.9,
+        "votes": 34604,
+        "percentage": 13.72,
         "winner": false
        },
        {
         "name": "Treg Taylor",
         "party": "R",
-        "votes": 18012,
-        "percentage": 7.3,
+        "votes": 18344,
+        "percentage": 7.28,
         "winner": false
        }
       ],
-      "totalVotes": 245784,
-      "winner": null,
+      "totalVotes": 251425,
+      "winner": "Jonathan Kreiss-Tomkins",
       "runoff": false,
       "source": "infobox",
-      "reporting": 86
+      "reporting": 88,
+      "calledAt": "2026-11-13T11:07:26.265Z"
      },
      "ratings": [
       {
@@ -33692,19 +33693,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 7922872,
+        "votes": 8318536,
         "percentage": 65.6,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 4148630,
+        "votes": 4362766,
         "percentage": 34.4,
         "winner": false
        }
       ],
-      "totalVotes": 12071502,
+      "totalVotes": 12681302,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -49805,23 +49806,22 @@
        {
         "name": "Aaron Ford",
         "party": "D",
-        "votes": 530510,
-        "percentage": 51.53,
+        "votes": 562812,
+        "percentage": 51.6,
         "winner": true
        },
        {
         "name": "Joe Lombardo",
         "party": "R",
-        "votes": 455302,
-        "percentage": 44.22,
+        "votes": 480120,
+        "percentage": 44,
         "winner": false
        }
       ],
-      "totalVotes": 985812,
+      "totalVotes": 1042932,
       "winner": "Aaron Ford",
       "runoff": false,
       "source": "infobox",
-      "reporting": 90,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -56399,19 +56399,19 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 1126652,
+        "votes": 1132682,
         "percentage": 58,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 751594,
-        "percentage": 38.7,
+        "votes": 753657,
+        "percentage": 38.6,
         "winner": false
        }
       ],
-      "totalVotes": 1878246,
+      "totalVotes": 1886339,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
@@ -56562,19 +56562,19 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1041511,
-        "percentage": 53.2,
+        "votes": 1046933,
+        "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 856474,
-        "percentage": 43.8,
+        "votes": 859025,
+        "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1897985,
+      "totalVotes": 1905958,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
@@ -60097,14 +60097,14 @@
         "name": "James Talarico",
         "party": "D",
         "votes": 5447080,
-        "percentage": 55.09,
+        "percentage": 55.06,
         "winner": true
        },
        {
         "name": "Ken Paxton",
         "party": "R",
         "votes": 4250704,
-        "percentage": 42.99,
+        "percentage": 42.97,
         "winner": false
        },
        {
@@ -60115,7 +60115,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 9891880,
+      "totalVotes": 9893189,
       "winner": "James Talarico",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
