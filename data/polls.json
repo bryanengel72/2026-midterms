@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T10:34:05.866Z",
+ "generatedAt": "2026-11-14T18:11:37.956Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -18566,26 +18566,26 @@
       {
        "name": "Rebecca Bennett",
        "party": "D",
-       "votes": 148433,
-       "percentage": 60.26,
+       "votes": 193473,
+       "percentage": 57.54,
        "winner": false
       },
       {
        "name": "Thomas Kean Jr.",
        "party": "R",
-       "votes": 94388,
-       "percentage": 38.32,
+       "votes": 137562,
+       "percentage": 40.91,
        "winner": false
       },
       {
        "name": "Seamus Patrick O'Toole",
        "party": "O",
-       "votes": 3487,
-       "percentage": 1.42,
+       "votes": 5228,
+       "percentage": 1.55,
        "winner": false
       }
      ],
-     "totalVotes": 246308,
+     "totalVotes": 336263,
      "winner": null,
      "runoff": false
     },
@@ -27045,7 +27045,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Pete Sessions",
+       "party": "R",
+       "votes": 143523,
+       "percentage": 53.6,
+       "winner": true
+      },
+      {
+       "name": "Casey Shepard",
+       "party": "D",
+       "votes": 124480,
+       "percentage": 46.4,
+       "winner": false
+      }
+     ],
+     "totalVotes": 268003,
+     "winner": "Pete Sessions",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-14T18:11:37.956Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -27165,19 +27187,19 @@
       {
        "name": "Mark Teixeira",
        "party": "R",
-       "votes": 194302,
+       "votes": 194394,
        "percentage": 54.5,
        "winner": true
       },
       {
        "name": "Kristin Hook",
        "party": "D",
-       "votes": 162088,
+       "votes": 162119,
        "percentage": 45.5,
        "winner": false
       }
      ],
-     "totalVotes": 356390,
+     "totalVotes": 356513,
      "winner": "Mark Teixeira",
      "runoff": false,
      "source": "infobox",
@@ -27472,19 +27494,19 @@
       {
        "name": "Katy Padilla Stout",
        "party": "D",
-       "votes": 142032,
+       "votes": 142116,
        "percentage": 52.1,
        "winner": true
       },
       {
        "name": "Brandon Herrera",
        "party": "R",
-       "votes": 119795,
+       "votes": 119822,
        "percentage": 44,
        "winner": false
       }
      ],
-     "totalVotes": 261827,
+     "totalVotes": 261938,
      "winner": "Katy Padilla Stout",
      "runoff": false,
      "source": "infobox",
@@ -27613,7 +27635,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Beth Van Duyne",
+       "party": "R",
+       "votes": 171751,
+       "percentage": 53.4,
+       "winner": true
+      },
+      {
+       "name": "Kevin Burge",
+       "party": "D",
+       "votes": 149697,
+       "percentage": 46.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 321448,
+     "winner": "Beth Van Duyne",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-14T18:11:37.956Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -33259,26 +33303,26 @@
        {
         "name": "Tom Cotton",
         "party": "R",
-        "votes": 480627,
+        "votes": 480802,
         "percentage": 54.26,
         "winner": true
        },
        {
         "name": "Hallie Shoffner",
         "party": "D",
-        "votes": 375647,
+        "votes": 375831,
         "percentage": 42.41,
         "winner": false
        },
        {
         "name": "Jeff Wadlin",
         "party": "L",
-        "votes": 29485,
+        "votes": 29488,
         "percentage": 3.33,
         "winner": false
        }
       ],
-      "totalVotes": 885759,
+      "totalVotes": 886121,
       "winner": "Tom Cotton",
       "runoff": false,
       "calledAt": "2026-11-09T04:08:33.883Z"
@@ -33737,19 +33781,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 8318536,
+        "votes": 8526667,
         "percentage": 65.6,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 4362766,
+        "votes": 4470796,
         "percentage": 34.4,
         "winner": false
        }
       ],
-      "totalVotes": 12681302,
+      "totalVotes": 12997463,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -35300,26 +35344,26 @@
        {
         "name": "Ashley Moody",
         "party": "R",
-        "votes": 4210242,
-        "percentage": 50.87,
+        "votes": 4211455,
+        "percentage": 50.86,
         "winner": false
        },
        {
         "name": "Angie Nixon",
         "party": "D",
-        "votes": 3972095,
-        "percentage": 47.99,
+        "votes": 3974149,
+        "percentage": 48,
         "winner": false
        },
        {
         "name": "Neil J. Gillespie",
         "party": "I",
-        "votes": 94608,
+        "votes": 94665,
         "percentage": 1.14,
         "winner": false
        }
       ],
-      "totalVotes": 8269348,
+      "totalVotes": 8280269,
       "winner": null,
       "runoff": false
      },
@@ -38196,33 +38240,33 @@
        {
         "name": "Jim Risch",
         "party": "R",
-        "votes": 401788,
-        "percentage": 56.53,
+        "votes": 402983,
+        "percentage": 56.5,
         "winner": true
        },
        {
         "name": "Todd Achilles",
         "party": "I",
-        "votes": 238352,
-        "percentage": 33.54,
+        "votes": 239422,
+        "percentage": 33.56,
         "winner": false
        },
        {
         "name": "Natalie Fleming",
         "party": "I",
-        "votes": 49932,
-        "percentage": 7.02,
+        "votes": 50134,
+        "percentage": 7.03,
         "winner": false
        },
        {
         "name": "Matt Loesby",
         "party": "L",
-        "votes": 20677,
+        "votes": 20742,
         "percentage": 2.91,
         "winner": false
        }
       ],
-      "totalVotes": 571686,
+      "totalVotes": 713281,
       "winner": "Jim Risch",
       "runoff": false,
       "calledAt": "2026-11-04T07:18:10.782Z"
@@ -38530,40 +38574,40 @@
        {
         "name": "Brad Little",
         "party": "R",
-        "votes": 407253,
-        "percentage": 57.1,
+        "votes": 408410,
+        "percentage": 57.03,
         "winner": true
        },
        {
         "name": "Terri Pickens",
         "party": "D",
-        "votes": 230760,
-        "percentage": 32.35,
+        "votes": 231475,
+        "percentage": 32.32,
         "winner": false
        },
        {
         "name": "John Stegner",
         "party": "I",
-        "votes": 54210,
-        "percentage": 7.6,
+        "votes": 54867,
+        "percentage": 7.66,
         "winner": false
        },
        {
         "name": "Paul Sand",
         "party": "L",
-        "votes": 11543,
+        "votes": 11569,
         "percentage": 1.62,
         "winner": false
        },
        {
         "name": "Pro-Life",
         "party": "C",
-        "votes": 9488,
+        "votes": 9508,
         "percentage": 1.33,
         "winner": false
        }
       ],
-      "totalVotes": 713254,
+      "totalVotes": 716113,
       "winner": "Brad Little",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -38741,19 +38785,19 @@
        {
         "name": "Juliana Stratton",
         "party": "D",
-        "votes": 2583698,
+        "votes": 2590687,
         "percentage": 61.9,
         "winner": true
        },
        {
         "name": "Don Tracy",
         "party": "R",
-        "votes": 1526355,
+        "votes": 1527231,
         "percentage": 36.5,
         "winner": false
        }
       ],
-      "totalVotes": 4110053,
+      "totalVotes": 4117918,
       "winner": "Juliana Stratton",
       "runoff": false,
       "source": "infobox",
@@ -39224,26 +39268,26 @@
        {
         "name": "Josh Turek",
         "party": "D",
-        "votes": 688302,
+        "votes": 688741,
         "percentage": 50.55,
         "winner": true
        },
        {
         "name": "Ashley Hinson",
         "party": "R",
-        "votes": 631232,
+        "votes": 631481,
         "percentage": 46.36,
         "winner": false
        },
        {
         "name": "Thomas Laehn",
         "party": "L",
-        "votes": 42121,
+        "votes": 42109,
         "percentage": 3.09,
         "winner": false
        }
       ],
-      "totalVotes": 1361527,
+      "totalVotes": 1362331,
       "winner": "Josh Turek",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -40710,26 +40754,26 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 561143,
+        "votes": 562076,
         "percentage": 51.02,
         "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
-        "votes": 505558,
+        "votes": 506752,
         "percentage": 45.96,
         "winner": false
        },
        {
         "name": "David Graham",
         "party": "L",
-        "votes": 33195,
+        "votes": 33326,
         "percentage": 3.02,
         "winner": false
        }
       ],
-      "totalVotes": 1099896,
+      "totalVotes": 1102154,
       "winner": "Adam Hamilton",
       "runoff": false,
       "calledAt": "2026-11-06T04:34:10.268Z"
@@ -41933,19 +41977,19 @@
        {
         "name": "Julia Letlow",
         "party": "R",
-        "votes": 746000,
+        "votes": 746476,
         "percentage": 50.88,
         "winner": true
        },
        {
         "name": "Jamie Davis",
         "party": "D",
-        "votes": 720150,
+        "votes": 720521,
         "percentage": 49.12,
         "winner": false
        }
       ],
-      "totalVotes": 1466150,
+      "totalVotes": 1466997,
       "winner": "Julia Letlow",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -48842,19 +48886,19 @@
        {
         "name": "Pete Ricketts",
         "party": "R",
-        "votes": 378281,
-        "percentage": 50.1,
+        "votes": 381127,
+        "percentage": 50,
         "winner": true
        },
        {
         "name": "Dan Osborn",
         "party": "I",
-        "votes": 331268,
-        "percentage": 43.9,
+        "votes": 336261,
+        "percentage": 44.1,
         "winner": false
        }
       ],
-      "totalVotes": 709549,
+      "totalVotes": 717388,
       "winner": "Pete Ricketts",
       "runoff": false,
       "source": "infobox",
@@ -49883,19 +49927,19 @@
        {
         "name": "Aaron Ford",
         "party": "D",
-        "votes": 562812,
+        "votes": 563151,
         "percentage": 51.6,
         "winner": true
        },
        {
         "name": "Joe Lombardo",
         "party": "R",
-        "votes": 480120,
+        "votes": 480595,
         "percentage": 44,
         "winner": false
        }
       ],
-      "totalVotes": 1042932,
+      "totalVotes": 1043746,
       "winner": "Aaron Ford",
       "runoff": false,
       "source": "infobox",
@@ -50353,26 +50397,26 @@
        {
         "name": "Chris Pappas",
         "party": "D",
-        "votes": 355720,
+        "votes": 356425,
         "percentage": 55.91,
         "winner": true
        },
        {
         "name": "John E. Sununu",
         "party": "R",
-        "votes": 268340,
+        "votes": 268712,
         "percentage": 42.19,
         "winner": false
        },
        {
         "name": "Edmond J. LaPlante Jr.",
         "party": "C",
-        "votes": 12062,
+        "votes": 12081,
         "percentage": 1.9,
         "winner": false
        }
       ],
-      "totalVotes": 636212,
+      "totalVotes": 637218,
       "winner": "Chris Pappas",
       "runoff": false,
       "calledAt": "2026-11-05T01:26:00.591Z"
@@ -54077,19 +54121,19 @@
        {
         "name": "Sherrod Brown",
         "party": "D",
-        "votes": 2301042,
+        "votes": 2302298,
         "percentage": 50.01,
         "winner": true
        },
        {
         "name": "Jon Husted",
         "party": "R",
-        "votes": 2077748,
+        "votes": 2079294,
         "percentage": 45.15,
         "winner": false
        }
       ],
-      "totalVotes": 4378790,
+      "totalVotes": 4381592,
       "winner": "Sherrod Brown",
       "runoff": false,
       "source": "infobox",
@@ -63455,26 +63499,26 @@
        {
         "name": "Shelley Moore Capito",
         "party": "R",
-        "votes": 266067,
+        "votes": 266772,
         "percentage": 58.33,
         "winner": true
        },
        {
         "name": "Rachel Fetty Anderson",
         "party": "D",
-        "votes": 172922,
+        "votes": 173656,
         "percentage": 37.91,
         "winner": false
        },
        {
         "name": "S. Marshall Wilson",
         "party": "C",
-        "votes": 17139,
+        "votes": 17183,
         "percentage": 3.76,
         "winner": false
        }
       ],
-      "totalVotes": 456128,
+      "totalVotes": 457611,
       "winner": "Shelley Moore Capito",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
