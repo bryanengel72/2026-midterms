@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T19:47:15.830Z",
+ "generatedAt": "2026-11-14T01:28:36.132Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6468,8 +6468,8 @@
      "calledAt": "2026-11-09T21:03:39.121Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Emerson College, October 12–14, 2026",
      "values": {
       "Eli Crane": 48,
       "Jonathan Nez": 50
@@ -7131,8 +7131,8 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Emerson College, October 12–14, 2026",
      "values": {
       "French Hill": 52,
       "Chris Jones": 48
@@ -10731,8 +10731,8 @@
      "calledAt": "2026-11-05T23:28:54.030Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Emerson College, October 12–14, 2026",
      "values": {
       "Kathy Castor": 48,
       "Mike Beltran": 43
@@ -13534,11 +13534,11 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Emerson College, October 12–14, 2026",
      "values": {
-      "Lindsay James": 50,
-      "Joe Mitchell": 47
+      "Joe Mitchell": 47,
+      "Lindsay James": 50
      },
      "leader": "Lindsay James",
      "margin": 3
@@ -14390,11 +14390,11 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Tulchin Research (D), October 12–14, 2026",
      "values": {
-      "Paul LePage": 46,
-      "Matthew Dunlap": 50
+      "Matthew Dunlap": 50,
+      "Paul LePage": 46
      },
      "leader": "Matthew Dunlap",
      "margin": 4
@@ -15298,11 +15298,11 @@
      "calledAt": "2026-11-08T17:04:16.984Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Emerson College, October 12–14, 2026",
      "values": {
-      "William Lawrence": 53,
-      "Tom Barrett": 45
+      "Tom Barrett": 45,
+      "William Lawrence": 53
      },
      "leader": "William Lawrence",
      "margin": 8
@@ -15885,11 +15885,11 @@
      "calledAt": "2026-11-04T22:11:00.904Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 13–14, 2026",
      "values": {
-      "Jake Johnson": 43,
-      "Brad Finstad": 43
+      "Brad Finstad": 43,
+      "Jake Johnson": 43
      },
      "leader": null,
      "margin": 0
@@ -16789,14 +16789,14 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 4 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
      "values": {
       "Sam Forstag": 48,
-      "Aaron Flint": 43.5,
+      "Aaron Flint": 43,
       "Nick Sheedy": 3
      },
      "leader": "Sam Forstag",
-     "margin": 4.5
+     "margin": 5
     },
     "latestPoll": "2026-11-01"
    },
@@ -21735,13 +21735,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Jamie Ager": 53,
-      "Jennifer Balkcom": 43.5
+      "Jamie Ager": 50,
+      "Jennifer Balkcom": 44
      },
      "leader": "Jamie Ager",
-     "margin": 9.5
+     "margin": 6
     },
     "latestPoll": "2026-10-23"
    },
@@ -24433,10 +24433,10 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Paige Cognetti": 50.7,
-      "Rob Bresnahan": 46.7
+      "Paige Cognetti": 50,
+      "Rob Bresnahan": 46
      },
      "leader": "Paige Cognetti",
      "margin": 4
@@ -28454,12 +28454,12 @@
     "results": null,
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Johnny C. Garcia": 48.3,
-      "Carlos De La Cruz": 47.3
+      "Johnny C. Garcia": 47,
+      "Carlos De La Cruz": 48
      },
-     "leader": "Johnny C. Garcia",
+     "leader": "Carlos De La Cruz",
      "margin": 1
     },
     "latestPoll": "2026-10-19"
@@ -28773,19 +28773,19 @@
       {
        "name": "Shannon Taylor",
        "party": "D",
-       "votes": 209482,
-       "percentage": 51.16,
+       "votes": 211717,
+       "percentage": 51.31,
        "winner": true
       },
       {
        "name": "Rob Wittman",
        "party": "R",
-       "votes": 199014,
-       "percentage": 48.6,
+       "votes": 199817,
+       "percentage": 48.44,
        "winner": false
       }
      ],
-     "totalVotes": 408496,
+     "totalVotes": 411534,
      "winner": "Shannon Taylor",
      "runoff": false,
      "source": "infobox",
@@ -28952,19 +28952,19 @@
       {
        "name": "Elaine Luria",
        "party": "D",
-       "votes": 179126,
-       "percentage": 53.03,
+       "votes": 182525,
+       "percentage": 53.22,
        "winner": true
       },
       {
        "name": "Jen Kiggans",
        "party": "R",
-       "votes": 150456,
-       "percentage": 44.54,
+       "votes": 151966,
+       "percentage": 44.31,
        "winner": false
       }
      ],
-     "totalVotes": 329582,
+     "totalVotes": 334491,
      "winner": "Elaine Luria",
      "runoff": false,
      "source": "infobox",
@@ -29146,19 +29146,19 @@
       {
        "name": "John McGuire",
        "party": "R",
-       "votes": 181529,
-       "percentage": 50.12,
+       "votes": 184141,
+       "percentage": 49.87,
        "winner": true
       },
       {
        "name": "Tom Perriello",
        "party": "D",
-       "votes": 174141,
-       "percentage": 48.08,
+       "votes": 178393,
+       "percentage": 48.31,
        "winner": false
       }
      ],
-     "totalVotes": 355670,
+     "totalVotes": 362534,
      "winner": "John McGuire",
      "runoff": false,
      "source": "infobox",
@@ -29292,19 +29292,19 @@
       {
        "name": "Eugene Vindman",
        "party": "D",
-       "votes": 192949,
-       "percentage": 59.8,
+       "votes": 196096,
+       "percentage": 60,
        "winner": true
       },
       {
        "name": "Doug Ollivant",
        "party": "R",
-       "votes": 121467,
-       "percentage": 37.64,
+       "votes": 122199,
+       "percentage": 37.39,
        "winner": false
       }
      ],
-     "totalVotes": 314416,
+     "totalVotes": 318295,
      "winner": "Eugene Vindman",
      "runoff": false,
      "source": "infobox",
@@ -31509,8 +31509,8 @@
       },
       {
        "source": "FiftyPlusOne",
-       "rating": "Lean D",
-       "strength": "Lean",
+       "rating": "Leaning D",
+       "strength": null,
        "lean": "D",
        "flip": true,
        "asOf": "November 3, 2026"
@@ -31557,8 +31557,8 @@
       },
       {
        "source": "Sabato's Crystal Ball",
-       "rating": "Lean D",
-       "strength": "Lean",
+       "rating": "Leaning D",
+       "strength": null,
        "lean": "D",
        "flip": true,
        "asOf": "November 2, 2026"
@@ -31573,8 +31573,8 @@
       },
       {
        "source": "Split Ticket",
-       "rating": "Lean D",
-       "strength": "Lean",
+       "rating": "Leaning D",
+       "strength": null,
        "lean": "D",
        "flip": true,
        "asOf": "November 2, 2026"
@@ -34171,47 +34171,47 @@
        {
         "name": "John Hickenlooper",
         "party": "D",
-        "votes": 1609163,
-        "percentage": 60.45,
+        "votes": 1619217,
+        "percentage": 60.43,
         "winner": true
        },
        {
         "name": "Mark Baisley",
         "party": "R",
-        "votes": 932741,
-        "percentage": 35.04,
+        "votes": 939220,
+        "percentage": 35.05,
         "winner": false
        },
        {
         "name": "Bob Chew",
         "party": "I",
-        "votes": 70049,
+        "votes": 70479,
         "percentage": 2.63,
         "winner": false
        },
        {
         "name": "Blake Huber",
         "party": "L",
-        "votes": 32507,
-        "percentage": 1.22,
+        "votes": 32874,
+        "percentage": 1.23,
         "winner": false
        },
        {
         "name": "Adam Withrow",
         "party": "O",
-        "votes": 13409,
+        "votes": 13569,
         "percentage": 0.5,
         "winner": false
        },
        {
         "name": "Christopher Baum",
         "party": "O",
-        "votes": 4184,
+        "votes": 4237,
         "percentage": 0.16,
         "winner": false
        }
       ],
-      "totalVotes": 2662053,
+      "totalVotes": 2679596,
       "winner": "John Hickenlooper",
       "runoff": false,
       "calledAt": "2026-11-04T11:02:27.573Z"
@@ -34462,23 +34462,56 @@
        {
         "name": "Phil Weiser",
         "party": "D",
-        "votes": 1610582,
-        "percentage": 61,
+        "votes": 1628795,
+        "percentage": 61.07,
         "winner": true
        },
        {
         "name": "Victor Marx",
         "party": "R",
-        "votes": 879473,
-        "percentage": 33.3,
+        "votes": 887672,
+        "percentage": 33.28,
+        "winner": false
+       },
+       {
+        "name": "Greg Lopez",
+        "party": "I",
+        "votes": 73866,
+        "percentage": 2.77,
+        "winner": false
+       },
+       {
+        "name": "Erik Mulder",
+        "party": "L",
+        "votes": 44370,
+        "percentage": 1.66,
+        "winner": false
+       },
+       {
+        "name": "Stephen T. Hamilton",
+        "party": "C",
+        "votes": 17255,
+        "percentage": 0.65,
+        "winner": false
+       },
+       {
+        "name": "Erik Underwood",
+        "party": "O",
+        "votes": 9413,
+        "percentage": 0.35,
+        "winner": false
+       },
+       {
+        "name": "Jeff Peckman",
+        "party": "O",
+        "votes": 5956,
+        "percentage": 0.22,
         "winner": false
        }
       ],
-      "totalVotes": 2490055,
+      "totalVotes": 2667327,
       "winner": "Phil Weiser",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 97,
       "calledAt": "2026-11-04T08:03:10.527Z"
      },
      "ratings": [
@@ -43556,33 +43589,33 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1368151,
-        "percentage": 64.38,
+        "votes": 1411534,
+        "percentage": 64.69,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 665170,
-        "percentage": 31.3,
+        "votes": 675791,
+        "percentage": 30.97,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 45026,
-        "percentage": 2.12,
+        "votes": 46724,
+        "percentage": 2.14,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 41052,
-        "percentage": 1.93,
+        "votes": 42301,
+        "percentage": 1.94,
         "winner": false
        }
       ],
-      "totalVotes": 2125012,
+      "totalVotes": 2182107,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -47935,15 +47968,15 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 474823,
-        "percentage": 49.24,
+        "votes": 479059,
+        "percentage": 49.34,
         "winner": true
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 469205,
-        "percentage": 48.66,
+        "votes": 471484,
+        "percentage": 48.56,
         "winner": false
        },
        {
@@ -58036,7 +58069,7 @@
        "party": "R",
        "nominee": true,
        "partyName": "Republican Party",
-       "note": "replacing Lindsey Graham"
+       "note": "replaced Lindsey Graham"
       }
      ],
      "results": {
@@ -59437,8 +59470,8 @@
       }
      ],
      "headline": {
-      "basis": "simple-average",
-      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+      "basis": "latest-poll",
+      "detail": "Most recent poll: Mason-Dixon Polling & Strategy, October 12–14, 2026",
       "values": {
        "Larry Rhoden": 56,
        "Dan Ahlers": 36
