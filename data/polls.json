@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T18:11:37.956Z",
+ "generatedAt": "2026-11-14T22:29:50.103Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -14535,22 +14535,21 @@
       {
        "name": "Andy Harris",
        "party": "R",
-       "votes": 158976,
-       "percentage": 53.4,
+       "votes": 165256,
+       "percentage": 52.12,
        "winner": true
       },
       {
        "name": "Dan Schwartz",
        "party": "D",
-       "votes": 138055,
-       "percentage": 46.4,
+       "votes": 151285,
+       "percentage": 47.71,
        "winner": false
       }
      ],
-     "totalVotes": 297031,
+     "totalVotes": 317083,
      "winner": "Andy Harris",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-04T15:36:40.710Z"
     },
     "headline": {
@@ -43677,33 +43676,33 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1425121,
+        "votes": 1425469,
         "percentage": 64.79,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 678733,
+        "votes": 679013,
         "percentage": 30.86,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 47185,
+        "votes": 47198,
         "percentage": 2.15,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 42603,
+        "votes": 42612,
         "percentage": 1.94,
         "winner": false
        }
       ],
-      "totalVotes": 2182107,
+      "totalVotes": 2200108,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -49937,12 +49936,18 @@
         "votes": 480595,
         "percentage": 44,
         "winner": false
+       },
+       {
+        "name": "Danielle Ford",
+        "party": "I",
+        "votes": 31765,
+        "percentage": 2.9,
+        "winner": false
        }
       ],
-      "totalVotes": 1043746,
+      "totalVotes": 1091587,
       "winner": "Aaron Ford",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -51650,19 +51655,19 @@
        {
         "name": "Cory Booker",
         "party": "D",
-        "votes": 1819769,
-        "percentage": 62.3,
+        "votes": 1851091,
+        "percentage": 62.5,
         "winner": true
        },
        {
         "name": "Justin Murphy",
         "party": "R",
-        "votes": 1023549,
-        "percentage": 35.1,
+        "votes": 1032597,
+        "percentage": 34.9,
         "winner": false
        }
       ],
-      "totalVotes": 2843318,
+      "totalVotes": 2883688,
       "winner": "Cory Booker",
       "runoff": false,
       "source": "infobox",
