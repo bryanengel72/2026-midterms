@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T22:29:50.103Z",
+ "generatedAt": "2026-11-15T06:40:52.849Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6076,30 +6076,30 @@
       {
        "name": "Nick Begich III",
        "party": "R",
-       "votes": 132053,
-       "percentage": 47.8,
+       "votes": 133707,
+       "percentage": 47.7,
        "winner": false
       },
       {
        "name": "Bill Hill",
        "party": "I",
-       "votes": 115220,
+       "votes": 116932,
        "percentage": 41.7,
        "winner": false
       },
       {
        "name": "Eric Hafner",
        "party": "D",
-       "votes": 21187,
-       "percentage": 7.7,
+       "votes": 21815,
+       "percentage": 7.8,
        "winner": false
       }
      ],
-     "totalVotes": 268460,
+     "totalVotes": 272454,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 95
+     "reporting": 97
     },
     "headline": null,
     "latestPoll": null
@@ -10006,8 +10006,8 @@
      "reporting": 99
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: SEA Polling (D), October 10–15, 2026",
      "values": {
       "Darren Soto": 44,
       "Dan Green": 44
@@ -10552,13 +10552,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Anna Paulina Luna": 47,
-      "Leela Gray": 46
+      "Anna Paulina Luna": 48,
+      "Leela Gray": 45
      },
      "leader": "Anna Paulina Luna",
-     "margin": 1
+     "margin": 3
     },
     "latestPoll": "2026-10-23"
    },
@@ -11881,13 +11881,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Jared Moskowitz": 44.5,
-      "Scott Singer": 45
+      "Jared Moskowitz": 47,
+      "Scott Singer": 41
      },
-     "leader": "Scott Singer",
-     "margin": 0.5
+     "leader": "Jared Moskowitz",
+     "margin": 6
     },
     "latestPoll": "2026-10-27"
    },
@@ -17308,23 +17308,42 @@
       {
        "name": "Dina Titus",
        "party": "D",
-       "votes": 140944,
-       "percentage": 59.2,
+       "votes": 142035,
+       "percentage": 59.31,
        "winner": true
       },
       {
-       "name": "Carrie Buck",
+       "name": "Carrie Ann Buck",
        "party": "R",
-       "votes": 89724,
-       "percentage": 37.7,
+       "votes": 90024,
+       "percentage": 37.59,
+       "winner": false
+      },
+      {
+       "name": "Steven \"Chap\" St John",
+       "party": "I",
+       "votes": 4146,
+       "percentage": 1.73,
+       "winner": false
+      },
+      {
+       "name": "Afzal \"Bobby\" Khan",
+       "party": "I",
+       "votes": 3283,
+       "percentage": 1.37,
+       "winner": false
+      },
+      {
+       "name": "Dina Titus",
+       "party": "D",
+       "votes": null,
+       "percentage": null,
        "winner": false
       }
      ],
-     "totalVotes": 230668,
+     "totalVotes": 239488,
      "winner": "Dina Titus",
      "runoff": false,
-     "source": "infobox",
-     "reporting": 99,
      "calledAt": "2026-11-05T04:13:07.633Z"
     },
     "headline": null,
@@ -17484,33 +17503,31 @@
     "results": {
      "candidates": [
       {
-       "name": "Teresa Benitez-Thompson",
+       "name": "Teresa F. Benitez-Thompson",
        "party": "D",
-       "votes": 161066,
-       "percentage": 50.2,
+       "votes": 163773,
+       "percentage": 50.41,
        "winner": true
       },
       {
        "name": "David Flippo",
        "party": "R",
-       "votes": 142066,
-       "percentage": 44.3,
+       "votes": 143336,
+       "percentage": 44.12,
        "winner": false
       },
       {
        "name": "Lynn Chapman",
        "party": "I",
-       "votes": 17546,
-       "percentage": 5.5,
+       "votes": 17757,
+       "percentage": 5.47,
        "winner": false
       }
      ],
-     "totalVotes": 320678,
-     "winner": "Teresa Benitez-Thompson",
+     "totalVotes": 324866,
+     "winner": "Teresa F. Benitez-Thompson",
      "runoff": false,
-     "source": "infobox",
-     "reporting": 99,
-     "calledAt": "2026-11-05T04:13:07.633Z"
+     "calledAt": "2026-11-15T06:40:52.849Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -17659,23 +17676,28 @@
       {
        "name": "Susie Lee",
        "party": "D",
-       "votes": 161418,
-       "percentage": 59.6,
+       "votes": 162520,
+       "percentage": 59.63,
        "winner": true
       },
       {
        "name": "Martin O'Donnell",
        "party": "R",
-       "votes": 103197,
-       "percentage": 38.1,
+       "votes": 103629,
+       "percentage": 38.02,
+       "winner": false
+      },
+      {
+       "name": "Jon Kamerath",
+       "party": "I",
+       "votes": 6390,
+       "percentage": 2.34,
        "winner": false
       }
      ],
-     "totalVotes": 264615,
+     "totalVotes": 272539,
      "winner": "Susie Lee",
      "runoff": false,
-     "source": "infobox",
-     "reporting": 99,
      "calledAt": "2026-11-05T04:13:07.633Z"
     },
     "headline": {
@@ -17806,23 +17828,35 @@
       {
        "name": "Steven Horsford",
        "party": "D",
-       "votes": 152008,
-       "percentage": 60.4,
+       "votes": 153396,
+       "percentage": 60.47,
        "winner": true
       },
       {
-       "name": "Cody Whipple",
+       "name": "Cody K. Whipple",
        "party": "R",
-       "votes": 94741,
-       "percentage": 37.7,
+       "votes": 95401,
+       "percentage": 37.61,
+       "winner": false
+      },
+      {
+       "name": "Russell Best",
+       "party": "I",
+       "votes": 2570,
+       "percentage": 1.01,
+       "winner": false
+      },
+      {
+       "name": "William Johnson",
+       "party": "I",
+       "votes": 2308,
+       "percentage": 0.91,
        "winner": false
       }
      ],
-     "totalVotes": 246749,
+     "totalVotes": 253675,
      "winner": "Steven Horsford",
      "runoff": false,
-     "source": "infobox",
-     "reporting": 99,
      "calledAt": "2026-11-05T04:13:07.633Z"
     },
     "headline": null,
@@ -24193,13 +24227,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
       "Bob Brooks": 49,
-      "Ryan Mackenzie": 43.7
+      "Ryan Mackenzie": 44
      },
      "leader": "Bob Brooks",
-     "margin": 5.3
+     "margin": 5
     },
     "latestPoll": "2026-10-23"
    },
@@ -24412,19 +24446,19 @@
       {
        "name": "Paige Cognetti",
        "party": "D",
-       "votes": 153764,
+       "votes": 154060,
        "percentage": 54.5,
        "winner": true
       },
       {
        "name": "Rob Bresnahan",
        "party": "R",
-       "votes": 128589,
+       "votes": 128739,
        "percentage": 45.5,
        "winner": false
       }
      ],
-     "totalVotes": 282353,
+     "totalVotes": 282799,
      "winner": "Paige Cognetti",
      "runoff": false,
      "source": "infobox",
@@ -32298,37 +32332,37 @@
        {
         "name": "Jonathan Kreiss-Tomkins",
         "party": "D",
-        "votes": 139293,
-        "percentage": 50.8,
+        "votes": 141623,
+        "percentage": 50.9,
         "winner": true
        },
        {
         "name": "Bernadette Wilson",
         "party": "R",
-        "votes": 77110,
-        "percentage": 28.1,
+        "votes": 77943,
+        "percentage": 28,
         "winner": false
        },
        {
         "name": "Dave Bronson",
         "party": "R",
-        "votes": 37252,
+        "votes": 37913,
         "percentage": 13.6,
         "winner": false
        },
        {
         "name": "Treg Taylor",
         "party": "R",
-        "votes": 19709,
+        "votes": 19977,
         "percentage": 7.2,
         "winner": false
        }
       ],
-      "totalVotes": 273364,
+      "totalVotes": 277456,
       "winner": "Jonathan Kreiss-Tomkins",
       "runoff": false,
       "source": "infobox",
-      "reporting": 95,
+      "reporting": 97,
       "calledAt": "2026-11-13T11:07:26.265Z"
      },
      "ratings": [
@@ -39026,7 +39060,7 @@
         "party": "D",
         "votes": 2540792,
         "percentage": 60.6,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Darren Bailey",
@@ -39044,8 +39078,9 @@
        }
       ],
       "totalVotes": 4190958,
-      "winner": null,
-      "runoff": false
+      "winner": "JB Pritzker",
+      "runoff": false,
+      "calledAt": "2026-11-15T06:40:52.849Z"
      },
      "ratings": [
       {
@@ -43676,28 +43711,28 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1425469,
-        "percentage": 64.79,
+        "votes": 1431197,
+        "percentage": 64.86,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 679013,
-        "percentage": 30.86,
+        "votes": 679423,
+        "percentage": 30.79,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 47198,
+        "votes": 47461,
         "percentage": 2.15,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 42612,
+        "votes": 42823,
         "percentage": 1.94,
         "winner": false
        }
@@ -44354,7 +44389,7 @@
         "party": "D",
         "votes": 1625849,
         "percentage": 61.97,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Michael Minogue",
@@ -44372,8 +44407,9 @@
        }
       ],
       "totalVotes": 2623508,
-      "winner": null,
-      "runoff": false
+      "winner": "Maura Healey",
+      "runoff": false,
+      "calledAt": "2026-11-15T06:40:52.849Z"
      },
      "ratings": [
       {
@@ -49927,21 +49963,21 @@
         "name": "Aaron Ford",
         "party": "D",
         "votes": 563151,
-        "percentage": 51.6,
+        "percentage": 51.59,
         "winner": true
        },
        {
         "name": "Joe Lombardo",
         "party": "R",
         "votes": 480595,
-        "percentage": 44,
+        "percentage": 44.03,
         "winner": false
        },
        {
         "name": "Danielle Ford",
         "party": "I",
         "votes": 31765,
-        "percentage": 2.9,
+        "percentage": 2.91,
         "winner": false
        }
       ],
@@ -59006,19 +59042,19 @@
        {
         "name": "Mike Rounds",
         "party": "R",
-        "votes": 184589,
+        "votes": 184590,
         "percentage": 60.5,
         "winner": true
        },
        {
         "name": "Brian Bengs",
         "party": "I",
-        "votes": 120509,
+        "votes": 120513,
         "percentage": 39.5,
         "winner": false
        }
       ],
-      "totalVotes": 305098,
+      "totalVotes": 305103,
       "winner": "Mike Rounds",
       "runoff": false,
       "calledAt": "2026-11-04T10:18:10.392Z"
@@ -60163,11 +60199,11 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Marsha Blackburn": 44.3,
-       "Jerri Green": 32.3,
-       "David Hatley": 15
+       "Marsha Blackburn": 44.5,
+       "Jerri Green": 32.5,
+       "David Hatley": 16.5
       },
       "leader": "Marsha Blackburn",
       "margin": 12
