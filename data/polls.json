@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T06:40:52.849Z",
+ "generatedAt": "2026-11-15T16:25:04.670Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -17331,13 +17331,6 @@
        "party": "I",
        "votes": 3283,
        "percentage": 1.37,
-       "winner": false
-      },
-      {
-       "name": "Dina Titus",
-       "party": "D",
-       "votes": null,
-       "percentage": null,
        "winner": false
       }
      ],
@@ -40165,13 +40158,13 @@
        "name": "Rob Sand",
        "party": "D",
        "nominee": true,
-       "partyName": "Iowa Democratic Party"
+       "partyName": "Democratic Party"
       },
       {
        "name": "Zach Lahn",
        "party": "R",
        "nominee": true,
-       "partyName": "Republican Party of Iowa"
+       "partyName": "Republican Party"
       }
      ],
      "results": {
