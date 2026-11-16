@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T22:53:47.391Z",
+ "generatedAt": "2026-11-16T06:39:17.361Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -21380,7 +21380,7 @@
        "name": "Richard Ojeda",
        "party": "D",
        "votes": 139456,
-       "percentage": 51.5,
+       "percentage": 51.1,
        "winner": true
       },
       {
@@ -26949,11 +26949,11 @@
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Texas Southern University, October 13–16, 2026",
      "values": {
-      "Bobby Pulido": 51,
-      "Monica De La Cruz": 44
+      "Monica De La Cruz": 44,
+      "Bobby Pulido": 51
      },
      "leader": "Bobby Pulido",
      "margin": 7
@@ -31521,13 +31521,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Tommy Tuberville": 50,
-       "Doug Jones": 41.3
+       "Tommy Tuberville": 49.5,
+       "Doug Jones": 42.5
       },
       "leader": "Tommy Tuberville",
-      "margin": 8.7
+      "margin": 7
      },
      "consensus": {
       "rating": "Safe R",
@@ -32582,15 +32582,15 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 4 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Jonathan Kreiss-Tomkins": 47.5,
-       "Bernadette Wilson": 29.3,
-       "Dave Bronson": 10,
-       "Treg Taylor": 7.3
+       "Jonathan Kreiss-Tomkins": 48,
+       "Bernadette Wilson": 29.7,
+       "Dave Bronson": 9.3,
+       "Treg Taylor": 6.7
       },
       "leader": "Jonathan Kreiss-Tomkins",
-      "margin": 18.2
+      "margin": 18.3
      },
      "consensus": {
       "rating": "Lean D",
@@ -43068,11 +43068,11 @@
         "name": "Hannah Pingree",
         "party": "D",
         "votes": 388721,
-        "percentage": 54.44,
+        "percentage": 55.69,
         "winner": true
        },
        {
-        "name": "Bobby Charles",
+        "name": "Robert B. Charles",
         "party": "R",
         "votes": 267346,
         "percentage": 37.44,
@@ -43086,11 +43086,9 @@
         "winner": false
        }
       ],
-      "totalVotes": 713774,
+      "totalVotes": 813774,
       "winner": "Hannah Pingree",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 97,
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -56982,26 +56980,26 @@
        {
         "name": "Josh Shapiro",
         "party": "D",
-        "votes": 3015546,
-        "percentage": 60.44,
+        "votes": 3034792,
+        "percentage": 60.54,
         "winner": true
        },
        {
         "name": "Stacy Garrity",
         "party": "R",
-        "votes": 1909567,
-        "percentage": 38.27,
+        "votes": 1913175,
+        "percentage": 38.17,
         "winner": false
        },
        {
         "name": "Ken Krawchuk",
         "party": "L",
-        "votes": 64597,
+        "votes": 64907,
         "percentage": 1.29,
         "winner": false
        }
       ],
-      "totalVotes": 4989710,
+      "totalVotes": 5012874,
       "winner": "Josh Shapiro",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -58982,13 +58980,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 6 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 5 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Alan Wilson": 50,
-       "Jermaine Johnson": 39.7
+       "Alan Wilson": 49.8,
+       "Jermaine Johnson": 39.4
       },
       "leader": "Alan Wilson",
-      "margin": 10.3
+      "margin": 10.4
      },
      "consensus": {
       "rating": "Safe R",
