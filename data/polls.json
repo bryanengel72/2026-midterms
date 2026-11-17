@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T03:56:48.639Z",
+ "generatedAt": "2026-11-17T16:07:44.818Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -28130,7 +28130,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "John Carter",
+       "party": "R",
+       "votes": 164012,
+       "percentage": 53.8,
+       "winner": true
+      },
+      {
+       "name": "Justin Early",
+       "party": "D",
+       "votes": 136734,
+       "percentage": 44.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 300746,
+     "winner": "John Carter",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-17T16:07:44.818Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -28233,19 +28255,41 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_32",
     "candidates": [
      {
-      "name": "Dan Barrios",
-      "party": "D",
-      "partyName": "Democratic Party"
-     },
-     {
       "name": "Jace Yarbrough",
       "party": "R",
       "partyName": "Republican Party"
+     },
+     {
+      "name": "Dan Barrios",
+      "party": "D",
+      "partyName": "Democratic Party"
      }
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jace Yarbrough",
+       "party": "R",
+       "votes": 142877,
+       "percentage": 51.5,
+       "winner": true
+      },
+      {
+       "name": "Dan Barrios",
+       "party": "D",
+       "votes": 134792,
+       "percentage": 48.5,
+       "winner": false
+      }
+     ],
+     "totalVotes": 277669,
+     "winner": "Jace Yarbrough",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-17T16:07:44.818Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -28423,7 +28467,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Vicente Gonzalez",
+       "party": "D",
+       "votes": 112667,
+       "percentage": 55.6,
+       "winner": true
+      },
+      {
+       "name": "Eric Flores",
+       "party": "R",
+       "votes": 80572,
+       "percentage": 39.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 193239,
+     "winner": "Vicente Gonzalez",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-17T16:07:44.818Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
@@ -28535,7 +28601,7 @@
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas#District_35",
     "candidates": [
      {
-      "name": "Johnny C. Garcia",
+      "name": "Johnny Garcia",
       "party": "D",
       "nominee": true,
       "partyName": "Democratic Party"
@@ -28558,7 +28624,7 @@
       "moe": 6.2,
       "values": {
        "Carlos De La Cruz": 48,
-       "Johnny C. Garcia": 47
+       "Johnny Garcia": 47
       },
       "other": null,
       "undecided": 5
@@ -28573,7 +28639,7 @@
       "moe": null,
       "values": {
        "Carlos De La Cruz": 49,
-       "Johnny C. Garcia": 51
+       "Johnny Garcia": 51
       },
       "other": null,
       "undecided": null
@@ -28588,7 +28654,7 @@
       "moe": null,
       "values": {
        "Carlos De La Cruz": 45,
-       "Johnny C. Garcia": 47
+       "Johnny Garcia": 47
       },
       "other": null,
       "undecided": 8
@@ -28603,19 +28669,41 @@
       "moe": 4.4,
       "values": {
        "Carlos De La Cruz": 45,
-       "Johnny C. Garcia": 44
+       "Johnny Garcia": 44
       },
       "other": null,
       "undecided": 11
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Johnny Garcia",
+       "party": "D",
+       "votes": 139984,
+       "percentage": 55.4,
+       "winner": true
+      },
+      {
+       "name": "Carlos De La Cruz",
+       "party": "R",
+       "votes": 112574,
+       "percentage": 44.6,
+       "winner": false
+      }
+     ],
+     "totalVotes": 252558,
+     "winner": "Johnny Garcia",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-17T16:07:44.818Z"
+    },
     "headline": {
      "basis": "simple-average",
      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Johnny C. Garcia": 47,
+      "Johnny Garcia": 47,
       "Carlos De La Cruz": 48
      },
      "leader": "Carlos De La Cruz",
@@ -28734,7 +28822,29 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Jon Bonck",
+       "party": "R",
+       "votes": 157261,
+       "percentage": 51.5,
+       "winner": true
+      },
+      {
+       "name": "Melissa McDonough",
+       "party": "D",
+       "votes": 144397,
+       "percentage": 47.3,
+       "winner": false
+      }
+     ],
+     "totalVotes": 301658,
+     "winner": "Jon Bonck",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-17T16:07:44.818Z"
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -32369,40 +32479,38 @@
      "results": {
       "candidates": [
        {
-        "name": "Jonathan Kreiss-Tomkins",
+        "name": "Jonathan Kreiss-Tomkins Zac Johnson",
         "party": "D",
         "votes": 142591,
-        "percentage": 50.9,
+        "percentage": 50.93,
         "winner": true
        },
        {
-        "name": "Bernadette Wilson",
+        "name": "Bernadette Wilson Mike Shower",
         "party": "R",
         "votes": 78305,
-        "percentage": 28,
+        "percentage": 27.97,
         "winner": false
        },
        {
-        "name": "Dave Bronson",
+        "name": "Dave Bronson Josh Church",
         "party": "R",
         "votes": 38179,
-        "percentage": 13.6,
+        "percentage": 13.64,
         "winner": false
        },
        {
-        "name": "Treg Taylor",
+        "name": "Treg Taylor Candice English",
         "party": "R",
         "votes": 20112,
-        "percentage": 7.2,
+        "percentage": 7.18,
         "winner": false
        }
       ],
-      "totalVotes": 279187,
-      "winner": "Jonathan Kreiss-Tomkins",
+      "totalVotes": 279995,
+      "winner": "Jonathan Kreiss-Tomkins Zac Johnson",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 98,
-      "calledAt": "2026-11-13T11:07:26.265Z"
+      "calledAt": "2026-11-17T16:07:44.818Z"
      },
      "ratings": [
       {
@@ -33853,19 +33961,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 8526667,
+        "votes": 8637628,
         "percentage": 65.6,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 4470796,
+        "votes": 4531284,
         "percentage": 34.4,
         "winner": false
        }
       ],
-      "totalVotes": 12997463,
+      "totalVotes": 13168912,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -40827,26 +40935,26 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 566865,
-        "percentage": 51.1,
+        "votes": 571451,
+        "percentage": 51.18,
         "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
-        "votes": 508887,
-        "percentage": 45.87,
+        "votes": 511186,
+        "percentage": 45.79,
         "winner": false
        },
        {
         "name": "David Graham",
         "party": "L",
-        "votes": 33564,
+        "votes": 33828,
         "percentage": 3.03,
         "winner": false
        }
       ],
-      "totalVotes": 1109316,
+      "totalVotes": 1114165,
       "winner": "Adam Hamilton",
       "runoff": false,
       "calledAt": "2026-11-06T04:34:10.268Z"
@@ -41416,19 +41524,19 @@
        {
         "name": "Cindy Holscher",
         "party": "D",
-        "votes": 556894,
-        "percentage": 50.43,
+        "votes": 561475,
+        "percentage": 50.52,
         "winner": true
        },
        {
         "name": "Ty Masterson",
         "party": "R",
-        "votes": 547459,
-        "percentage": 49.57,
+        "votes": 549988,
+        "percentage": 49.48,
         "winner": false
        }
       ],
-      "totalVotes": 1095370,
+      "totalVotes": 1111463,
       "winner": "Cindy Holscher",
       "runoff": false,
       "calledAt": "2026-11-13T01:52:56.307Z"
@@ -43748,29 +43856,29 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1438312,
-        "percentage": 64.94,
+        "votes": 1452074,
+        "percentage": 65.1,
         "winner": true
+       },
+       {
+        "name": "Cathy White",
+        "party": "O",
+        "votes": 1452074,
+        "percentage": 1.94,
+        "winner": false
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 679978,
-        "percentage": 30.7,
+        "votes": 681194,
+        "percentage": 30.54,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 47641,
-        "percentage": 2.15,
-        "winner": false
-       },
-       {
-        "name": "Cathy White",
-        "party": "O",
-        "votes": 42944,
-        "percentage": 1.94,
+        "votes": 48113,
+        "percentage": 2.16,
         "winner": false
        }
       ],
@@ -48128,14 +48236,14 @@
        {
         "name": "Scott Colom",
         "party": "D",
-        "votes": 480148,
+        "votes": 480153,
         "percentage": 49.36,
         "winner": true
        },
        {
         "name": "Cindy Hyde-Smith",
         "party": "R",
-        "votes": 472121,
+        "votes": 472122,
         "percentage": 48.54,
         "winner": false
        },
@@ -48147,7 +48255,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 972738,
+      "totalVotes": 972744,
       "winner": "Scott Colom",
       "runoff": false,
       "calledAt": "2026-11-12T00:47:35.614Z"
@@ -56650,19 +56758,19 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 1138894,
+        "votes": 1139265,
         "percentage": 58.1,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 757034,
+        "votes": 757113,
         "percentage": 38.6,
         "winner": false
        }
       ],
-      "totalVotes": 1895928,
+      "totalVotes": 1896378,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
@@ -63422,19 +63530,19 @@
        {
         "name": "Mark Warner",
         "party": "D",
-        "votes": 2212571,
-        "percentage": 61.34,
+        "votes": 2251626,
+        "percentage": 61.6,
         "winner": true
        },
        {
         "name": "Bert Mizusawa",
         "party": "R",
-        "votes": 1384680,
-        "percentage": 38.39,
+        "votes": 1393714,
+        "percentage": 38.13,
         "winner": false
        }
       ],
-      "totalVotes": 3606850,
+      "totalVotes": 3655140,
       "winner": "Mark Warner",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
