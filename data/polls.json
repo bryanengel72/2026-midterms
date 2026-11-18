@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T00:59:21.991Z",
+ "generatedAt": "2026-11-18T11:51:22.040Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -20571,6 +20571,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Smith",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -20578,7 +20585,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_3",
     "candidates": [
@@ -25563,6 +25570,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Broderick",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -25570,7 +25584,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 10,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee#District_4",
     "candidates": [
@@ -31770,7 +31784,42 @@
        "nominee": false
       }
      ],
-     "results": null,
+     "results": {
+      "candidates": [
+       {
+        "name": "Mary Peltola",
+        "party": "D",
+        "votes": 144302,
+        "percentage": 50.12,
+        "winner": true
+       },
+       {
+        "name": "Dan S. Sullivan",
+        "party": "R",
+        "votes": 131844,
+        "percentage": 45.8,
+        "winner": false
+       },
+       {
+        "name": "Gerald L. Heikes",
+        "party": "R",
+        "votes": 6105,
+        "percentage": 2.12,
+        "winner": false
+       },
+       {
+        "name": "Daniel J. Sullivan Jr.",
+        "party": "I",
+        "votes": 4760,
+        "percentage": 1.65,
+        "winner": false
+       }
+      ],
+      "totalVotes": 287896,
+      "winner": "Mary Peltola",
+      "runoff": false,
+      "calledAt": "2026-11-18T11:51:22.040Z"
+     },
      "ratings": [
       {
        "source": "ABC News",
@@ -32516,33 +32565,33 @@
        {
         "name": "Jonathan Kreiss-Tomkins Zac Johnson",
         "party": "D",
-        "votes": 142591,
-        "percentage": 50.93,
+        "votes": 145268,
+        "percentage": 51.07,
         "winner": true
        },
        {
         "name": "Bernadette Wilson Mike Shower",
         "party": "R",
-        "votes": 78305,
-        "percentage": 27.97,
+        "votes": 79269,
+        "percentage": 27.87,
         "winner": false
        },
        {
         "name": "Dave Bronson Josh Church",
         "party": "R",
-        "votes": 38179,
-        "percentage": 13.64,
+        "votes": 38721,
+        "percentage": 13.61,
         "winner": false
        },
        {
         "name": "Treg Taylor Candice English",
         "party": "R",
-        "votes": 20112,
-        "percentage": 7.18,
+        "votes": 20358,
+        "percentage": 7.16,
         "winner": false
        }
       ],
-      "totalVotes": 279995,
+      "totalVotes": 284440,
       "winner": "Jonathan Kreiss-Tomkins Zac Johnson",
       "runoff": false,
       "calledAt": "2026-11-17T16:07:44.818Z"
@@ -34474,47 +34523,47 @@
        {
         "name": "John Hickenlooper",
         "party": "D",
-        "votes": 1619217,
-        "percentage": 60.43,
+        "votes": 1629507,
+        "percentage": 60.5,
         "winner": true
        },
        {
         "name": "Mark Baisley",
         "party": "R",
-        "votes": 939220,
-        "percentage": 35.05,
+        "votes": 942089,
+        "percentage": 34.98,
         "winner": false
        },
        {
         "name": "Bob Chew",
         "party": "I",
-        "votes": 70479,
+        "votes": 70794,
         "percentage": 2.63,
         "winner": false
        },
        {
         "name": "Blake Huber",
         "party": "L",
-        "votes": 32874,
+        "votes": 33136,
         "percentage": 1.23,
         "winner": false
        },
        {
         "name": "Adam Withrow",
         "party": "O",
-        "votes": 13569,
-        "percentage": 0.5,
+        "votes": 13717,
+        "percentage": 0.51,
         "winner": false
        },
        {
         "name": "Christopher Baum",
         "party": "O",
-        "votes": 4237,
+        "votes": 4268,
         "percentage": 0.16,
         "winner": false
        }
       ],
-      "totalVotes": 2679596,
+      "totalVotes": 2693511,
       "winner": "John Hickenlooper",
       "runoff": false,
       "calledAt": "2026-11-04T11:02:27.573Z"
@@ -40970,26 +41019,26 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 571521,
+        "votes": 571573,
         "percentage": 51.18,
         "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
-        "votes": 511297,
+        "votes": 511360,
         "percentage": 45.79,
         "winner": false
        },
        {
         "name": "David Graham",
         "party": "L",
-        "votes": 33840,
+        "votes": 33848,
         "percentage": 3.03,
         "winner": false
        }
       ],
-      "totalVotes": 1116658,
+      "totalVotes": 1116781,
       "winner": "Adam Hamilton",
       "runoff": false,
       "calledAt": "2026-11-06T04:34:10.268Z"
@@ -41559,19 +41608,19 @@
        {
         "name": "Cindy Holscher",
         "party": "D",
-        "votes": 561984,
+        "votes": 562012,
         "percentage": 50.51,
         "winner": true
        },
        {
         "name": "Ty Masterson",
         "party": "R",
-        "votes": 550594,
+        "votes": 550643,
         "percentage": 49.49,
         "winner": false
        }
       ],
-      "totalVotes": 1112578,
+      "totalVotes": 1112655,
       "winner": "Cindy Holscher",
       "runoff": false,
       "calledAt": "2026-11-13T01:52:56.307Z"
@@ -43891,33 +43940,33 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1452074,
-        "percentage": 65.1,
+        "votes": 1460213,
+        "percentage": 65.19,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 681194,
-        "percentage": 30.54,
+        "votes": 682141,
+        "percentage": 30.45,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 48113,
+        "votes": 48328,
         "percentage": 2.16,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 43261,
+        "votes": 43463,
         "percentage": 1.94,
         "winner": false
        }
       ],
-      "totalVotes": 2230537,
+      "totalVotes": 2240061,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -52596,15 +52645,15 @@
        {
         "name": "Kathy Hochul",
         "party": "O",
-        "votes": 3651791,
-        "percentage": 59.7,
+        "votes": 3659917,
+        "percentage": 59.75,
         "winner": true
        },
        {
         "name": "Bruce Blakeman",
         "party": "O",
-        "votes": 2448115,
-        "percentage": 40,
+        "votes": 2452383,
+        "percentage": 40.04,
         "winner": false
        },
        {
@@ -52643,7 +52692,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 6112761,
+      "totalVotes": 6125203,
       "winner": "Kathy Hochul",
       "runoff": false,
       "calledAt": "2026-11-07T18:31:35.884Z"
@@ -53340,14 +53389,14 @@
        {
         "name": "Roy Cooper",
         "party": "D",
-        "votes": 2480640,
+        "votes": 2480638,
         "percentage": 58.75,
         "winner": true
        },
        {
         "name": "Michael Whatley",
         "party": "R",
-        "votes": 1648870,
+        "votes": 1648864,
         "percentage": 39.05,
         "winner": false
        },
@@ -53366,7 +53415,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 4222304,
+      "totalVotes": 4222296,
       "winner": "Roy Cooper",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -56793,19 +56842,19 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 1139265,
+        "votes": 1140734,
         "percentage": 58.1,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 757113,
+        "votes": 757742,
         "percentage": 38.6,
         "winner": false
        }
       ],
-      "totalVotes": 1896378,
+      "totalVotes": 1898476,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
@@ -56956,19 +57005,19 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1052113,
+        "votes": 1053198,
         "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 863059,
+        "votes": 863762,
         "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1915172,
+      "totalVotes": 1916960,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
@@ -57221,26 +57270,26 @@
        {
         "name": "Josh Shapiro",
         "party": "D",
-        "votes": 3036075,
-        "percentage": 60.55,
+        "votes": 3039710,
+        "percentage": 60.56,
         "winner": true
        },
        {
         "name": "Stacy Garrity",
         "party": "R",
-        "votes": 1913522,
-        "percentage": 38.16,
+        "votes": 1914345,
+        "percentage": 38.14,
         "winner": false
        },
        {
         "name": "Ken Krawchuk",
         "party": "L",
-        "votes": 64925,
+        "votes": 64992,
         "percentage": 1.29,
         "winner": false
        }
       ],
-      "totalVotes": 5014522,
+      "totalVotes": 5019047,
       "winner": "Josh Shapiro",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
