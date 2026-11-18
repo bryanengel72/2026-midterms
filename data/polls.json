@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T16:07:44.818Z",
+ "generatedAt": "2026-11-18T00:59:21.991Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8756,13 +8756,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Jessica Killin": 45,
-      "Jeff Crank": 42.5
+      "Jessica Killin": 47,
+      "Jeff Crank": 47
      },
-     "leader": "Jessica Killin",
-     "margin": 2.5
+     "leader": null,
+     "margin": 0
     },
     "latestPoll": "2026-10-20"
    },
@@ -14226,6 +14226,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "LePage",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -14233,7 +14240,7 @@
      "strength": "Tossup",
      "lean": null,
      "count": 6,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maine#District_2",
     "candidates": [
@@ -20998,6 +21005,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Rouzer",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -21005,7 +21019,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_7",
     "candidates": [
@@ -25034,6 +25048,13 @@
       "strength": "Tossup",
       "lean": null,
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Lacore",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -25041,7 +25062,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina#District_1",
     "candidates": [
@@ -25263,6 +25284,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Wilson",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -25270,7 +25298,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 8,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina#District_2",
     "candidates": [
@@ -26452,7 +26480,7 @@
       "rating": "Gutierrez",
       "strength": null,
       "lean": null,
-      "flip": true
+      "flip": false
      }
     ],
     "consensus": {
@@ -28588,7 +28616,7 @@
       "rating": "Garcia",
       "strength": null,
       "lean": null,
-      "flip": true
+      "flip": false
      }
     ],
     "consensus": {
@@ -30023,6 +30051,13 @@
       "strength": "Lean",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Baumgartner",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -30030,7 +30065,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 7,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Washington#District_5",
     "candidates": [
@@ -31174,8 +31209,8 @@
    },
    {
     "source": "Result",
-    "D": 255,
-    "R": 169,
+    "D": 256,
+    "R": 171,
     "tossup": 0
    }
   ],
@@ -32736,15 +32771,15 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Jonathan Kreiss-Tomkins": 48,
-       "Bernadette Wilson": 29.7,
-       "Dave Bronson": 9.3,
-       "Treg Taylor": 6.7
+       "Jonathan Kreiss-Tomkins": 47,
+       "Bernadette Wilson": 29.5,
+       "Dave Bronson": 8,
+       "Treg Taylor": 6
       },
       "leader": "Jonathan Kreiss-Tomkins",
-      "margin": 18.3
+      "margin": 17.5
      },
      "consensus": {
       "rating": "Lean D",
@@ -40935,26 +40970,26 @@
        {
         "name": "Adam Hamilton",
         "party": "D",
-        "votes": 571451,
+        "votes": 571521,
         "percentage": 51.18,
         "winner": true
        },
        {
         "name": "Roger Marshall",
         "party": "R",
-        "votes": 511186,
+        "votes": 511297,
         "percentage": 45.79,
         "winner": false
        },
        {
         "name": "David Graham",
         "party": "L",
-        "votes": 33828,
+        "votes": 33840,
         "percentage": 3.03,
         "winner": false
        }
       ],
-      "totalVotes": 1114165,
+      "totalVotes": 1116658,
       "winner": "Adam Hamilton",
       "runoff": false,
       "calledAt": "2026-11-06T04:34:10.268Z"
@@ -41524,19 +41559,19 @@
        {
         "name": "Cindy Holscher",
         "party": "D",
-        "votes": 561475,
-        "percentage": 50.52,
+        "votes": 561984,
+        "percentage": 50.51,
         "winner": true
        },
        {
         "name": "Ty Masterson",
         "party": "R",
-        "votes": 549988,
-        "percentage": 49.48,
+        "votes": 550594,
+        "percentage": 49.49,
         "winner": false
        }
       ],
-      "totalVotes": 1111463,
+      "totalVotes": 1112578,
       "winner": "Cindy Holscher",
       "runoff": false,
       "calledAt": "2026-11-13T01:52:56.307Z"
@@ -43861,13 +43896,6 @@
         "winner": true
        },
        {
-        "name": "Cathy White",
-        "party": "O",
-        "votes": 1452074,
-        "percentage": 1.94,
-        "winner": false
-       },
-       {
         "name": "Dan Cox",
         "party": "R",
         "votes": 681194,
@@ -43880,9 +43908,16 @@
         "votes": 48113,
         "percentage": 2.16,
         "winner": false
+       },
+       {
+        "name": "Cathy White",
+        "party": "O",
+        "votes": 43261,
+        "percentage": 1.94,
+        "winner": false
        }
       ],
-      "totalVotes": 2214734,
+      "totalVotes": 2230537,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -49066,40 +49101,40 @@
        {
         "name": "Pete Ricketts",
         "party": "R",
-        "votes": 381330,
-        "percentage": 49.95,
+        "votes": 382171,
+        "percentage": 49.85,
         "winner": true
        },
        {
         "name": "Dan Osborn",
         "party": "I",
-        "votes": 336409,
-        "percentage": 44.07,
+        "votes": 338509,
+        "percentage": 44.15,
         "winner": false
        },
        {
         "name": "Robin Richards",
         "party": "O",
-        "votes": 19889,
-        "percentage": 2.6,
+        "votes": 20027,
+        "percentage": 2.61,
         "winner": false
        },
        {
         "name": "Mike Marvin (withdrawn)",
         "party": "O",
-        "votes": 16553,
-        "percentage": 2.17,
+        "votes": 16727,
+        "percentage": 2.18,
         "winner": false
        },
        {
         "name": "Chuck Conboy",
         "party": "O",
-        "votes": 9224,
+        "votes": 9267,
         "percentage": 1.21,
         "winner": false
        }
       ],
-      "totalVotes": 763405,
+      "totalVotes": 766701,
       "winner": "Pete Ricketts",
       "runoff": false,
       "calledAt": "2026-11-04T10:18:10.392Z"
@@ -63530,19 +63565,19 @@
        {
         "name": "Mark Warner",
         "party": "D",
-        "votes": 2251626,
+        "votes": 2251628,
         "percentage": 61.6,
         "winner": true
        },
        {
         "name": "Bert Mizusawa",
         "party": "R",
-        "votes": 1393714,
+        "votes": 1393713,
         "percentage": 38.13,
         "winner": false
        }
       ],
-      "totalVotes": 3655140,
+      "totalVotes": 3655141,
       "winner": "Mark Warner",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
