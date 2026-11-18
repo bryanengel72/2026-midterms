@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T11:51:22.040Z",
+ "generatedAt": "2026-11-18T20:37:40.666Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6076,30 +6076,30 @@
       {
        "name": "Nick Begich III",
        "party": "R",
-       "votes": 134456,
-       "percentage": 47.7,
+       "votes": 136215,
+       "percentage": 47.5,
        "winner": false
       },
       {
        "name": "Bill Hill",
        "party": "I",
-       "votes": 117607,
-       "percentage": 41.7,
+       "votes": 119689,
+       "percentage": 41.8,
        "winner": false
       },
       {
        "name": "Eric Hafner",
        "party": "D",
-       "votes": 22127,
-       "percentage": 7.8,
+       "votes": 22669,
+       "percentage": 7.9,
        "winner": false
       }
      ],
-     "totalVotes": 274190,
+     "totalVotes": 278573,
      "winner": null,
      "runoff": false,
      "source": "infobox",
-     "reporting": 98
+     "reporting": 99
     },
     "headline": null,
     "latestPoll": null
@@ -29091,12 +29091,12 @@
       {
        "name": "Rob Wittman",
        "party": "R",
-       "votes": 199817,
+       "votes": 199871,
        "percentage": 48.44,
        "winner": false
       }
      ],
-     "totalVotes": 411534,
+     "totalVotes": 411588,
      "winner": "Shannon Taylor",
      "runoff": false,
      "source": "infobox",
@@ -39049,22 +39049,28 @@
        {
         "name": "Juliana Stratton",
         "party": "D",
-        "votes": 2598988,
-        "percentage": 61.98,
+        "votes": 2619505,
+        "percentage": 62.07,
         "winner": true
        },
        {
         "name": "Don Tracy",
         "party": "R",
-        "votes": 1527950,
-        "percentage": 36.44,
+        "votes": 1533624,
+        "percentage": 36.34,
+        "winner": false
+       },
+       {
+        "name": "Whitfield Harrington Jr.",
+        "party": "O",
+        "votes": 67323,
+        "percentage": 1.59,
         "winner": false
        }
       ],
-      "totalVotes": 4126938,
+      "totalVotes": 4220452,
       "winner": "Juliana Stratton",
       "runoff": false,
-      "source": "infobox",
       "calledAt": "2026-11-04T06:05:40.683Z"
      },
      "ratings": [
@@ -39289,22 +39295,22 @@
        {
         "name": "JB Pritzker",
         "party": "D",
-        "votes": 2540792,
-        "percentage": 60.6,
+        "votes": 2574606,
+        "percentage": 60.82,
         "winner": true
        },
        {
         "name": "Darren Bailey",
         "party": "R",
-        "votes": 1509625,
-        "percentage": 36,
+        "votes": 1516219,
+        "percentage": 35.82,
         "winner": false
        },
        {
         "name": "Collin Corbett",
         "party": "I",
-        "votes": 140541,
-        "percentage": 3.4,
+        "votes": 142368,
+        "percentage": 3.36,
         "winner": false
        }
       ],
@@ -43940,33 +43946,33 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1460213,
+        "votes": 1460319,
         "percentage": 65.19,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 682141,
+        "votes": 682143,
         "percentage": 30.45,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 48328,
+        "votes": 48329,
         "percentage": 2.16,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 43463,
+        "votes": 43465,
         "percentage": 1.94,
         "winner": false
        }
       ],
-      "totalVotes": 2240061,
+      "totalVotes": 2240172,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
