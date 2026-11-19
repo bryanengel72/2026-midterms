@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T20:37:40.666Z",
+ "generatedAt": "2026-11-19T02:36:56.656Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6071,36 +6071,7 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": {
-     "candidates": [
-      {
-       "name": "Nick Begich III",
-       "party": "R",
-       "votes": 136215,
-       "percentage": 47.5,
-       "winner": false
-      },
-      {
-       "name": "Bill Hill",
-       "party": "I",
-       "votes": 119689,
-       "percentage": 41.8,
-       "winner": false
-      },
-      {
-       "name": "Eric Hafner",
-       "party": "D",
-       "votes": 22669,
-       "percentage": 7.9,
-       "winner": false
-      }
-     ],
-     "totalVotes": 278573,
-     "winner": null,
-     "runoff": false,
-     "source": "infobox",
-     "reporting": 99
-    },
+    "results": null,
     "headline": null,
     "latestPoll": null
    },
@@ -9630,7 +9601,7 @@
        "party": "R",
        "votes": 161300,
        "percentage": 49.7,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Bale Dalton",
@@ -9638,17 +9609,23 @@
        "votes": 159669,
        "percentage": 49.2,
        "winner": false
+      },
+      {
+       "name": "Christopher Dennison",
+       "party": "L",
+       "votes": 3485,
+       "percentage": 1.1,
+       "winner": false
       }
      ],
-     "totalVotes": 320969,
-     "winner": null,
+     "totalVotes": 324454,
+     "winner": "Ryan Elijah",
      "runoff": false,
-     "source": "infobox",
-     "reporting": 99
+     "calledAt": "2026-11-19T02:36:56.656Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: DCCC, October 17–19, 2026",
      "values": {
       "Ryan Elijah": 45,
       "Bale Dalton": 45
@@ -28533,8 +28510,8 @@
      "calledAt": "2026-11-17T16:07:44.818Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Washington Post/Schar School, October 14–19, 2026",
      "values": {
       "Vicente Gonzalez": 50,
       "Eric Flores": 43
@@ -28742,11 +28719,11 @@
      "calledAt": "2026-11-17T16:07:44.818Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Washington Post/Schar School, October 14–19, 2026",
      "values": {
-      "Johnny Garcia": 47,
-      "Carlos De La Cruz": 48
+      "Carlos De La Cruz": 48,
+      "Johnny Garcia": 47
      },
      "leader": "Carlos De La Cruz",
      "margin": 1
@@ -31789,15 +31766,15 @@
        {
         "name": "Mary Peltola",
         "party": "D",
-        "votes": 144302,
-        "percentage": 50.12,
+        "votes": 144486,
+        "percentage": 50.13,
         "winner": true
        },
        {
         "name": "Dan S. Sullivan",
         "party": "R",
-        "votes": 131844,
-        "percentage": 45.8,
+        "votes": 131965,
+        "percentage": 45.79,
         "winner": false
        },
        {
@@ -31810,7 +31787,7 @@
        {
         "name": "Daniel J. Sullivan Jr.",
         "party": "I",
-        "votes": 4760,
+        "votes": 4765,
         "percentage": 1.65,
         "winner": false
        }
@@ -54449,19 +54426,19 @@
        {
         "name": "Sherrod Brown",
         "party": "D",
-        "votes": 2302669,
-        "percentage": 50.01,
+        "votes": 2306137,
+        "percentage": 49.99,
         "winner": true
        },
        {
         "name": "Jon Husted",
         "party": "R",
-        "votes": 2080064,
-        "percentage": 45.17,
+        "votes": 2083977,
+        "percentage": 45.18,
         "winner": false
        }
       ],
-      "totalVotes": 4382733,
+      "totalVotes": 4390114,
       "winner": "Sherrod Brown",
       "runoff": false,
       "source": "infobox",
@@ -57011,19 +56988,19 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1053198,
+        "votes": 1053593,
         "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 863762,
+        "votes": 863922,
         "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1916960,
+      "totalVotes": 1917515,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
@@ -63627,12 +63604,12 @@
        {
         "name": "Bert Mizusawa",
         "party": "R",
-        "votes": 1393713,
+        "votes": 1393710,
         "percentage": 38.13,
         "winner": false
        }
       ],
-      "totalVotes": 3655141,
+      "totalVotes": 3655138,
       "winner": "Mark Warner",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
