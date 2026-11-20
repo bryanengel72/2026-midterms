@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T20:42:50.143Z",
+ "generatedAt": "2026-11-20T02:22:05.072Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8726,11 +8726,11 @@
      "calledAt": "2026-11-08T01:34:25.734Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 19–20, 2026",
      "values": {
-      "Jessica Killin": 47,
-      "Jeff Crank": 47
+      "Jeff Crank": 47,
+      "Jessica Killin": 47
      },
      "leader": null,
      "margin": 0
@@ -13815,8 +13815,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: DCCC, October 19–20, 2026",
      "values": {
       "Derek Schmidt": 49,
       "Don Coover": 46
@@ -14112,11 +14112,11 @@
      "calledAt": "2026-11-04T06:05:40.683Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 19–20, 2026",
      "values": {
-      "Zach Dembo": 47,
-      "Ralph Alvarado": 41
+      "Ralph Alvarado": 41,
+      "Zach Dembo": 47
      },
      "leader": "Zach Dembo",
      "margin": 6
@@ -16440,10 +16440,10 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Fred Wellman": 48,
-      "Ann Wagner": 47
+      "Fred Wellman": 50,
+      "Ann Wagner": 49
      },
      "leader": "Fred Wellman",
      "margin": 1
@@ -16981,8 +16981,8 @@
      "calledAt": "2026-11-05T23:13:54.207Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 19–20, 2026",
      "values": {
       "Mike Flood": 46,
       "Chris Backemeyer": 45
@@ -17985,8 +17985,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Saint Anselm College, October 19–20, 2026",
      "values": {
       "Stefany Shaheen": 46,
       "Anthony DiLorenzo": 42
@@ -18247,8 +18247,8 @@
     "aggregates": [],
     "results": null,
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Saint Anselm College, October 19–20, 2026",
      "values": {
       "Maggie Goodlander": 54,
       "Lily Tang Williams": 38
@@ -21396,11 +21396,11 @@
      "calledAt": "2026-11-06T19:41:01.622Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 19–20, 2026",
      "values": {
-      "Richard Ojeda": 42,
-      "Richard Hudson": 46
+      "Richard Hudson": 46,
+      "Richard Ojeda": 42
      },
      "leader": "Richard Hudson",
      "margin": 4
@@ -32542,33 +32542,33 @@
        {
         "name": "Jonathan Kreiss-Tomkins Zac Johnson",
         "party": "D",
-        "votes": 145268,
-        "percentage": 51.07,
+        "votes": 145449,
+        "percentage": 51.08,
         "winner": true
        },
        {
         "name": "Bernadette Wilson Mike Shower",
         "party": "R",
-        "votes": 79269,
-        "percentage": 27.87,
+        "votes": 79336,
+        "percentage": 27.86,
         "winner": false
        },
        {
         "name": "Dave Bronson Josh Church",
         "party": "R",
-        "votes": 38721,
-        "percentage": 13.61,
+        "votes": 38767,
+        "percentage": 13.62,
         "winner": false
        },
        {
         "name": "Treg Taylor Candice English",
         "party": "R",
-        "votes": 20358,
-        "percentage": 7.16,
+        "votes": 20368,
+        "percentage": 7.15,
         "winner": false
        }
       ],
-      "totalVotes": 284440,
+      "totalVotes": 284745,
       "winner": "Jonathan Kreiss-Tomkins Zac Johnson",
       "runoff": false,
       "calledAt": "2026-11-17T16:07:44.818Z"
@@ -33544,26 +33544,26 @@
        {
         "name": "Tom Cotton",
         "party": "R",
-        "votes": 480802,
-        "percentage": 54.26,
+        "votes": 481495,
+        "percentage": 54.21,
         "winner": true
        },
        {
         "name": "Hallie Shoffner",
         "party": "D",
-        "votes": 375831,
-        "percentage": 42.41,
+        "votes": 377108,
+        "percentage": 42.46,
         "winner": false
        },
        {
         "name": "Jeff Wadlin",
         "party": "L",
-        "votes": 29488,
+        "votes": 29539,
         "percentage": 3.33,
         "winner": false
        }
       ],
-      "totalVotes": 886121,
+      "totalVotes": 888142,
       "winner": "Tom Cotton",
       "runoff": false,
       "calledAt": "2026-11-09T04:08:33.883Z"
@@ -33841,26 +33841,26 @@
        {
         "name": "Sarah Huckabee Sanders",
         "party": "R",
-        "votes": 477304,
-        "percentage": 53.87,
+        "votes": 477996,
+        "percentage": 53.82,
         "winner": true
        },
        {
         "name": "Fredrick Love",
         "party": "D",
-        "votes": 341842,
-        "percentage": 38.58,
+        "votes": 343057,
+        "percentage": 38.63,
         "winner": false
        },
        {
         "name": "Colt Shelby",
         "party": "L",
-        "votes": 66913,
+        "votes": 67025,
         "percentage": 7.55,
         "winner": false
        }
       ],
-      "totalVotes": 886059,
+      "totalVotes": 888078,
       "winner": "Sarah Huckabee Sanders",
       "runoff": false,
       "calledAt": "2026-11-04T06:48:10.337Z"
@@ -34022,19 +34022,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 8637628,
+        "votes": 8670377,
         "percentage": 65.6,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 4531284,
+        "votes": 4542980,
         "percentage": 34.4,
         "winner": false
        }
       ],
-      "totalVotes": 13168912,
+      "totalVotes": 13213357,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -34974,13 +34974,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Phil Weiser": 56.3,
-       "Victor Marx": 36
+       "Phil Weiser": 56,
+       "Victor Marx": 35.5
       },
       "leader": "Phil Weiser",
-      "margin": 20.3
+      "margin": 20.5
      },
      "consensus": {
       "rating": "Safe D",
@@ -38823,7 +38823,7 @@
         "name": "Terri Pickens",
         "party": "D",
         "votes": 231475,
-        "percentage": 32.32,
+        "percentage": 32.33,
         "winner": false
        },
        {
@@ -42225,19 +42225,19 @@
        {
         "name": "Julia Letlow",
         "party": "R",
-        "votes": 746476,
+        "votes": 746466,
         "percentage": 50.88,
         "winner": true
        },
        {
         "name": "Jamie Davis",
         "party": "D",
-        "votes": 720521,
+        "votes": 720516,
         "percentage": 49.12,
         "winner": false
        }
       ],
-      "totalVotes": 1466997,
+      "totalVotes": 1466982,
       "winner": "Julia Letlow",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -51963,8 +51963,8 @@
        {
         "name": "Eduardo Castillo",
         "party": "O",
-        "votes": null,
-        "percentage": null,
+        "votes": 79,
+        "percentage": 0,
         "winner": false
        }
       ],
