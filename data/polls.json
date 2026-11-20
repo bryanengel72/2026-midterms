@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T02:22:05.072Z",
+ "generatedAt": "2026-11-20T11:47:52.437Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -16962,19 +16962,19 @@
       {
        "name": "Mike Flood",
        "party": "R",
-       "votes": 127061,
-       "percentage": 49.98,
+       "votes": 128863,
+       "percentage": 49.7,
        "winner": true
       },
       {
        "name": "Chris Backemeyer",
        "party": "D",
-       "votes": 118157,
-       "percentage": 46.48,
+       "votes": 121346,
+       "percentage": 46.8,
        "winner": false
       }
      ],
-     "totalVotes": 245218,
+     "totalVotes": 250209,
      "winner": "Mike Flood",
      "runoff": false,
      "source": "infobox",
@@ -32854,7 +32854,7 @@
         "party": "D",
         "votes": 1434813,
         "percentage": 55.67,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Andy Biggs",
@@ -32879,8 +32879,9 @@
        }
       ],
       "totalVotes": 2577383,
-      "winner": null,
-      "runoff": false
+      "winner": "Katie Hobbs",
+      "runoff": false,
+      "calledAt": "2026-11-20T11:47:52.437Z"
      },
      "ratings": [
       {
@@ -54426,19 +54427,19 @@
        {
         "name": "Sherrod Brown",
         "party": "D",
-        "votes": 2306137,
+        "votes": 2310474,
         "percentage": 49.99,
         "winner": true
        },
        {
         "name": "Jon Husted",
         "party": "R",
-        "votes": 2083977,
-        "percentage": 45.18,
+        "votes": 2087610,
+        "percentage": 45.17,
         "winner": false
        }
       ],
-      "totalVotes": 4390114,
+      "totalVotes": 4398084,
       "winner": "Sherrod Brown",
       "runoff": false,
       "source": "infobox",
