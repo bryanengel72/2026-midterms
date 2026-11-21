@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T02:23:23.679Z",
+ "generatedAt": "2026-11-21T19:22:28.224Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -9784,23 +9784,22 @@
       {
        "name": "Mike Haridopolos",
        "party": "R",
-       "votes": 169928,
-       "percentage": 53.2,
+       "votes": 169945,
+       "percentage": 53.16,
        "winner": true
       },
       {
        "name": "Jennifer Jenkins",
        "party": "D",
-       "votes": 149667,
-       "percentage": 46.8,
+       "votes": 149741,
+       "percentage": 46.84,
        "winner": false
       }
      ],
-     "totalVotes": 319595,
+     "totalVotes": 319686,
      "winner": "Mike Haridopolos",
      "runoff": false,
      "source": "infobox",
-     "reporting": 99,
      "calledAt": "2026-11-05T23:28:54.030Z"
     },
     "headline": {
@@ -9964,23 +9963,23 @@
       {
        "name": "Darren Soto",
        "party": "D",
-       "votes": 143314,
-       "percentage": 50.3,
-       "winner": false
+       "votes": 143354,
+       "percentage": 50.27,
+       "winner": true
       },
       {
        "name": "Dan Green",
        "party": "R",
-       "votes": 141808,
-       "percentage": 49.7,
+       "votes": 141814,
+       "percentage": 49.73,
        "winner": false
       }
      ],
-     "totalVotes": 285122,
-     "winner": null,
+     "totalVotes": 285168,
+     "winner": "Darren Soto",
      "runoff": false,
      "source": "infobox",
-     "reporting": 99
+     "calledAt": "2026-11-21T19:22:28.224Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -13287,28 +13286,29 @@
       {
        "name": "Christina Bohannan",
        "party": "D",
-       "votes": 182396,
-       "percentage": 52.8,
-       "winner": false
+       "votes": 184144,
+       "percentage": 53,
+       "winner": true
       },
       {
        "name": "Mariannette Miller-Meeks",
        "party": "R",
-       "votes": 150471,
-       "percentage": 43.6,
+       "votes": 150926,
+       "percentage": 43.4,
        "winner": false
       },
       {
        "name": "Michael Bridgford",
        "party": "I",
-       "votes": 12603,
+       "votes": 12656,
        "percentage": 3.6,
        "winner": false
       }
      ],
-     "totalVotes": 345470,
-     "winner": null,
-     "runoff": false
+     "totalVotes": 347726,
+     "winner": "Christina Bohannan",
+     "runoff": false,
+     "calledAt": "2026-11-21T19:22:28.224Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -13487,28 +13487,36 @@
       {
        "name": "Lindsay James",
        "party": "D",
-       "votes": 171512,
+       "votes": 171604,
        "percentage": 49.5,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Joe Mitchell",
        "party": "R",
-       "votes": 157722,
+       "votes": 157773,
        "percentage": 45.6,
+       "winner": false
+      },
+      {
+       "name": "Rick Stewart",
+       "party": "L",
+       "votes": 9505,
+       "percentage": 2.7,
        "winner": false
       },
       {
        "name": "Dave Bushaw",
        "party": "I",
-       "votes": 7470,
+       "votes": 7477,
        "percentage": 2.2,
        "winner": false
       }
      ],
-     "totalVotes": 336704,
-     "winner": null,
-     "runoff": false
+     "totalVotes": 346359,
+     "winner": "Lindsay James",
+     "runoff": false,
+     "calledAt": "2026-11-21T19:22:28.224Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -13656,21 +13664,22 @@
       {
        "name": "Sarah Trone Garriott",
        "party": "D",
-       "votes": 189349,
+       "votes": 189435,
        "percentage": 53.6,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Zach Nunn",
        "party": "R",
-       "votes": 163631,
+       "votes": 163687,
        "percentage": 46.6,
        "winner": false
       }
      ],
-     "totalVotes": 352980,
-     "winner": null,
-     "runoff": false
+     "totalVotes": 353122,
+     "winner": "Sarah Trone Garriott",
+     "runoff": false,
+     "calledAt": "2026-11-21T19:22:28.224Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -13813,7 +13822,35 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Derek Schmidt",
+       "party": "R",
+       "votes": 126915,
+       "percentage": 51,
+       "winner": true
+      },
+      {
+       "name": "Don Coover",
+       "party": "D",
+       "votes": 112365,
+       "percentage": 45.2,
+       "winner": false
+      },
+      {
+       "name": "John Hauer",
+       "party": "L",
+       "votes": 9404,
+       "percentage": 3.8,
+       "winner": false
+      }
+     ],
+     "totalVotes": 248684,
+     "winner": "Derek Schmidt",
+     "runoff": false,
+     "calledAt": "2026-11-21T19:22:28.224Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: DCCC, October 19–20, 2026",
@@ -17983,7 +18020,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Stefany Shaheen",
+       "party": "D",
+       "votes": 180763,
+       "percentage": 57.04,
+       "winner": true
+      },
+      {
+       "name": "Anthony DiLorenzo",
+       "party": "R",
+       "votes": 136115,
+       "percentage": 42.96,
+       "winner": false
+      }
+     ],
+     "totalVotes": 316878,
+     "winner": "Stefany Shaheen",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-21T19:22:28.224Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Saint Anselm College, October 19–20, 2026",
@@ -18245,7 +18304,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Maggie Goodlander",
+       "party": "D",
+       "votes": 185900,
+       "percentage": 58.82,
+       "winner": true
+      },
+      {
+       "name": "Lily Tang Williams",
+       "party": "R",
+       "votes": 122645,
+       "percentage": 38.81,
+       "winner": false
+      }
+     ],
+     "totalVotes": 308545,
+     "winner": "Maggie Goodlander",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-21T19:22:28.224Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Saint Anselm College, October 19–20, 2026",
@@ -18907,7 +18988,29 @@
      }
     ],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Gabe Vasquez",
+       "party": "D",
+       "votes": 123737,
+       "percentage": 58.75,
+       "winner": true
+      },
+      {
+       "name": "Greg Cunningham",
+       "party": "R",
+       "votes": 86863,
+       "percentage": 41.25,
+       "winner": false
+      }
+     ],
+     "totalVotes": 210600,
+     "winner": "Gabe Vasquez",
+     "runoff": false,
+     "source": "infobox",
+     "calledAt": "2026-11-21T19:22:28.224Z"
+    },
     "headline": {
      "basis": "latest-poll",
      "detail": "Most recent poll: Research & Polling, October 1–9, 2026",
@@ -34029,19 +34132,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 8670377,
+        "votes": 8714908,
         "percentage": 65.6,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 4542980,
+        "votes": 4560879,
         "percentage": 34.4,
         "winner": false
        }
       ],
-      "totalVotes": 13213357,
+      "totalVotes": 13275787,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
