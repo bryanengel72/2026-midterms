@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T20:27:42.327Z",
+ "generatedAt": "2026-11-21T02:23:23.679Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8344,8 +8344,8 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Democratic Congressional Campaign Committee, October 20–21, 2026",
      "values": {
       "Jeff Hurd": 46,
       "Dwayne Romero": 47
@@ -16772,14 +16772,14 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
      "values": {
-      "Sam Forstag": 48,
-      "Aaron Flint": 43,
-      "Nick Sheedy": 3
+      "Sam Forstag": 47.5,
+      "Aaron Flint": 48.5,
+      "Nick Sheedy": 2.5
      },
-     "leader": "Sam Forstag",
-     "margin": 5
+     "leader": "Aaron Flint",
+     "margin": 1
     },
     "latestPoll": "2026-11-01"
    },
@@ -21534,28 +21534,29 @@
       {
        "name": "Pat Harrigan",
        "party": "R",
-       "votes": 146590,
+       "votes": 146589,
        "percentage": 49.6,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Ashley Bell",
        "party": "D",
-       "votes": 144081,
+       "votes": 144073,
        "percentage": 48.7,
        "winner": false
       },
       {
        "name": "Steve Feldman",
        "party": "L",
-       "votes": 4710,
+       "votes": 4711,
        "percentage": 1.6,
        "winner": false
       }
      ],
-     "totalVotes": 295381,
-     "winner": null,
-     "runoff": false
+     "totalVotes": 295373,
+     "winner": "Pat Harrigan",
+     "runoff": false,
+     "calledAt": "2026-11-21T02:23:23.679Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -22280,13 +22281,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Greg Landsman": 47.5,
-      "Eric Conroy": 40.5
+      "Greg Landsman": 48,
+      "Eric Conroy": 39
      },
      "leader": "Greg Landsman",
-     "margin": 7
+     "margin": 9
     },
     "latestPoll": "2026-10-23"
    },
@@ -29819,8 +29820,8 @@
      "calledAt": "2026-11-11T04:31:41.634Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Change Research (D), October 19–21, 2026",
      "values": {
       "Marie Gluesenkamp Perez": 45,
       "John Braun": 44
@@ -31499,8 +31500,7 @@
       "count": 12,
       "of": 12
      },
-     "latestPoll": "2026-10-24",
-     "stale": true
+     "latestPoll": "2026-10-24"
     },
     {
      "id": "AL-GOV",
@@ -31724,8 +31724,7 @@
       "count": 6,
       "of": 8
      },
-     "latestPoll": "2026-10-24",
-     "stale": true
+     "latestPoll": "2026-10-24"
     }
    ]
   },
@@ -37238,19 +37237,19 @@
        {
         "name": "Jon Ossoff",
         "party": "D",
-        "votes": 2466422,
+        "votes": 2469059,
         "percentage": 59.02,
         "winner": true
        },
        {
         "name": "Mike Collins",
         "party": "R",
-        "votes": 1712444,
-        "percentage": 40.98,
+        "votes": 1713673,
+        "percentage": 40.96,
         "winner": false
        }
       ],
-      "totalVotes": 4178866,
+      "totalVotes": 4183363,
       "winner": "Jon Ossoff",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -37845,19 +37844,19 @@
        {
         "name": "Keisha Lance Bottoms",
         "party": "D",
-        "votes": 2273861,
-        "percentage": 54.34,
+        "votes": 2273918,
+        "percentage": 54.33,
         "winner": true
        },
        {
         "name": "Rick Jackson",
         "party": "R",
-        "votes": 1910910,
-        "percentage": 45.66,
+        "votes": 1910926,
+        "percentage": 45.65,
         "winner": false
        }
       ],
-      "totalVotes": 4184771,
+      "totalVotes": 4184844,
       "winner": "Keisha Lance Bottoms",
       "runoff": false,
       "source": "infobox",
@@ -43931,33 +43930,33 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1468655,
-        "percentage": 65.26,
+        "votes": 1470907,
+        "percentage": 65.29,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 683520,
-        "percentage": 30.37,
+        "votes": 683658,
+        "percentage": 30.35,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 48548,
+        "votes": 48592,
         "percentage": 2.16,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 43668,
+        "votes": 43714,
         "percentage": 1.94,
         "winner": false
        }
       ],
-      "totalVotes": 2250332,
+      "totalVotes": 2252821,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -44126,33 +44125,33 @@
        {
         "name": "Ed Markey",
         "party": "D",
-        "votes": 1650772,
-        "percentage": 63.39,
+        "votes": 1718276,
+        "percentage": 63.68,
         "winner": true
        },
        {
         "name": "John Deaton",
         "party": "R",
-        "votes": 837152,
-        "percentage": 32.14,
+        "votes": 855969,
+        "percentage": 31.72,
         "winner": false
        },
        {
         "name": "Shiva Ayyadurai",
         "party": "I",
-        "votes": 59837,
-        "percentage": 2.3,
+        "votes": 61085,
+        "percentage": 2.27,
         "winner": false
        },
        {
         "name": "Joe Tache",
         "party": "O",
-        "votes": 56530,
-        "percentage": 2.17,
+        "votes": 59097,
+        "percentage": 2.19,
         "winner": false
        }
       ],
-      "totalVotes": 2604291,
+      "totalVotes": 2698238,
       "winner": "Ed Markey",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -44607,26 +44606,26 @@
        {
         "name": "Maura Healey",
         "party": "D",
-        "votes": 1628936,
-        "percentage": 61.99,
+        "votes": 1691156,
+        "percentage": 62.31,
         "winner": true
        },
        {
         "name": "Michael Minogue",
         "party": "R",
-        "votes": 912300,
-        "percentage": 34.72,
+        "votes": 930508,
+        "percentage": 34.28,
         "winner": false
        },
        {
         "name": "Andrea C. James",
         "party": "I",
-        "votes": 86460,
-        "percentage": 3.29,
+        "votes": 89951,
+        "percentage": 3.32,
         "winner": false
        }
       ],
-      "totalVotes": 2627696,
+      "totalVotes": 2714111,
       "winner": "Maura Healey",
       "runoff": false,
       "calledAt": "2026-11-15T06:40:52.849Z"
@@ -51971,7 +51970,7 @@
        {
         "name": "Eduardo Castillo",
         "party": "O",
-        "votes": 79,
+        "votes": 89,
         "percentage": 0,
         "winner": false
        }
