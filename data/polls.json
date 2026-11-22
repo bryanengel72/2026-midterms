@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T19:22:28.224Z",
+ "generatedAt": "2026-11-22T01:23:09.544Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -13104,11 +13104,11 @@
      "calledAt": "2026-11-08T16:34:17.273Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Quantus Insights (R), October 21–22, 2026",
      "values": {
-      "J. D. Ford": 42,
-      "Victoria Spartz": 45
+      "Victoria Spartz": 45,
+      "J. D. Ford": 42
      },
      "leader": "Victoria Spartz",
      "margin": 3
@@ -24099,13 +24099,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Bob Harvie": 47,
+      "Bob Harvie": 46,
       "Brian Fitzpatrick": 46
      },
-     "leader": "Bob Harvie",
-     "margin": 1
+     "leader": null,
+     "margin": 0
     },
     "latestPoll": "2026-10-23"
    },
@@ -24323,7 +24323,7 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
       "Bob Brooks": 49,
       "Ryan Mackenzie": 44
@@ -24562,13 +24562,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Paige Cognetti": 50,
+      "Paige Cognetti": 49,
       "Rob Bresnahan": 46
      },
      "leader": "Paige Cognetti",
-     "margin": 4
+     "margin": 3
     },
     "latestPoll": "2026-10-23"
    },
@@ -24816,13 +24816,13 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
       "Janelle Stelson": 48,
-      "Scott Perry": 46.5
+      "Scott Perry": 45
      },
      "leader": "Janelle Stelson",
-     "margin": 1.5
+     "margin": 3
     },
     "latestPoll": "2026-10-23"
    },
@@ -25281,11 +25281,11 @@
      "calledAt": "2026-11-10T04:18:06.907Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 21–22, 2026",
      "values": {
-      "Nancy Lacore": 47,
-      "Jenny Costa Honeycutt": 45
+      "Jenny Costa Honeycutt": 45,
+      "Nancy Lacore": 47
      },
      "leader": "Nancy Lacore",
      "margin": 2
@@ -26670,8 +26670,8 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: DCCC, October 20–22, 2026",
      "values": {
       "Leticia Gutierrez": 47,
       "Alex Mealer": 48
@@ -29185,10 +29185,10 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Shannon Taylor": 47.5,
-      "Rob Wittman": 46.5
+      "Shannon Taylor": 48,
+      "Rob Wittman": 47
      },
      "leader": "Shannon Taylor",
      "margin": 1
@@ -34610,14 +34610,14 @@
        {
         "name": "John Hickenlooper",
         "party": "D",
-        "votes": 1629507,
+        "votes": 1629521,
         "percentage": 60.5,
         "winner": true
        },
        {
         "name": "Mark Baisley",
         "party": "R",
-        "votes": 942089,
+        "votes": 942095,
         "percentage": 34.98,
         "winner": false
        },
@@ -34650,7 +34650,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 2693511,
+      "totalVotes": 2693531,
       "winner": "John Hickenlooper",
       "runoff": false,
       "calledAt": "2026-11-04T11:02:27.573Z"
@@ -35137,47 +35137,47 @@
        {
         "name": "Ned Lamont",
         "party": "O",
-        "votes": 770539,
-        "percentage": 59.51,
+        "votes": 772258,
+        "percentage": 59.56,
         "winner": false
        },
        {
         "name": "Ned Lamont",
         "party": "D",
-        "votes": 740768,
-        "percentage": 57.21,
+        "votes": 742438,
+        "percentage": 57.26,
         "winner": false
        },
        {
         "name": "Ryan Fazio",
         "party": "O",
-        "votes": 524135,
-        "percentage": 40.48,
+        "votes": 524232,
+        "percentage": 40.43,
         "winner": false
        },
        {
         "name": "Ryan Fazio",
         "party": "R",
-        "votes": 495720,
+        "votes": 496466,
         "percentage": 38.29,
         "winner": false
        },
        {
         "name": "Ned Lamont",
         "party": "O",
-        "votes": 29771,
+        "votes": 29820,
         "percentage": 2.3,
         "winner": false
        },
        {
         "name": "Ryan Fazio",
         "party": "I",
-        "votes": 28415,
-        "percentage": 2.19,
+        "votes": 27766,
+        "percentage": 2.14,
         "winner": false
        }
       ],
-      "totalVotes": 1294727,
+      "totalVotes": 1296554,
       "winner": null,
       "runoff": false
      },
@@ -39081,8 +39081,8 @@
       }
      ],
      "headline": {
-      "basis": "simple-average",
-      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+      "basis": "latest-poll",
+      "detail": "Most recent poll: VoteNexus Research, October 21–22, 2026",
       "values": {
        "Brad Little": 49,
        "Terri Pickens": 30,
@@ -39567,13 +39567,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "JB Pritzker": 57.3,
-       "Darren Bailey": 37
+       "JB Pritzker": 58,
+       "Darren Bailey": 38.5
       },
       "leader": "JB Pritzker",
-      "margin": 20.3
+      "margin": 19.5
      },
      "consensus": {
       "rating": "Safe D",
@@ -48686,33 +48686,33 @@
        {
         "name": "Kurt Alme",
         "party": "R",
-        "votes": 235549,
-        "percentage": 48.16,
+        "votes": 235693,
+        "percentage": 48.17,
         "winner": true
        },
        {
         "name": "Seth Bodnar",
         "party": "I",
-        "votes": 184551,
-        "percentage": 37.74,
+        "votes": 184574,
+        "percentage": 37.72,
         "winner": false
        },
        {
         "name": "Alani Bankhead",
         "party": "D",
-        "votes": 59950,
+        "votes": 59984,
         "percentage": 12.26,
         "winner": false
        },
        {
         "name": "Kyle Austin",
         "party": "L",
-        "votes": 9013,
+        "votes": 9018,
         "percentage": 1.84,
         "winner": false
        }
       ],
-      "totalVotes": 489063,
+      "totalVotes": 489269,
       "winner": "Kurt Alme",
       "runoff": false,
       "calledAt": "2026-11-04T17:36:41.251Z"
