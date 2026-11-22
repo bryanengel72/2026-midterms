@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T01:23:09.544Z",
+ "generatedAt": "2026-11-22T11:33:28.199Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -31666,7 +31666,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -31690,7 +31690,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -31714,7 +31714,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -32697,7 +32697,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -32721,7 +32721,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -32745,7 +32745,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -33007,7 +33007,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -33031,7 +33031,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -33055,7 +33055,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -33990,7 +33990,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -34014,7 +34014,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -34038,7 +34038,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -34164,7 +34164,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -34188,7 +34188,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -34212,7 +34212,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -34968,7 +34968,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -34992,7 +34992,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -35016,7 +35016,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -35196,7 +35196,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -35220,7 +35220,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -35244,7 +35244,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -35697,7 +35697,7 @@
         "party": "R",
         "votes": 4211733,
         "percentage": 50.86,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Angie Nixon",
@@ -35715,8 +35715,9 @@
        }
       ],
       "totalVotes": 8281789,
-      "winner": null,
-      "runoff": false
+      "winner": "Ashley Moody",
+      "runoff": false,
+      "calledAt": "2026-11-22T11:33:28.199Z"
      },
      "ratings": [
       {
@@ -36468,7 +36469,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -36492,7 +36493,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -36516,7 +36517,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -37980,7 +37981,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -38004,7 +38005,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -38028,7 +38029,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -38492,7 +38493,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -38516,7 +38517,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -38540,7 +38541,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -38978,7 +38979,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -39002,7 +39003,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -39026,7 +39027,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -39136,26 +39137,26 @@
        {
         "name": "Juliana Stratton",
         "party": "D",
-        "votes": 2619505,
+        "votes": 2620386,
         "percentage": 62.07,
         "winner": true
        },
        {
         "name": "Don Tracy",
         "party": "R",
-        "votes": 1533624,
+        "votes": 1534193,
         "percentage": 36.34,
         "winner": false
        },
        {
         "name": "Whitfield Harrington Jr.",
         "party": "O",
-        "votes": 67323,
-        "percentage": 1.59,
+        "votes": 67369,
+        "percentage": 1.6,
         "winner": false
        }
       ],
-      "totalVotes": 4220452,
+      "totalVotes": 4221948,
       "winner": "Juliana Stratton",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -39421,7 +39422,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -39445,7 +39446,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -39469,7 +39470,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -40535,7 +40536,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -40559,7 +40560,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -40583,7 +40584,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -41733,7 +41734,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -41757,7 +41758,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -43437,7 +43438,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -43461,7 +43462,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -43485,7 +43486,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -44079,7 +44080,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -44103,7 +44104,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -44127,7 +44128,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -44748,7 +44749,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -44772,7 +44773,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -44796,7 +44797,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -46507,7 +46508,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -46531,7 +46532,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -46555,7 +46556,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -47986,7 +47987,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -48010,7 +48011,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -48034,7 +48035,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -49876,7 +49877,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -49900,7 +49901,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -49924,7 +49925,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -50355,7 +50356,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -50379,7 +50380,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -50403,7 +50404,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -51595,7 +51596,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -51619,7 +51620,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -51643,7 +51644,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -52526,7 +52527,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -52550,7 +52551,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -52574,7 +52575,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -52805,7 +52806,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -52829,7 +52830,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -52853,7 +52854,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -55656,7 +55657,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -55680,7 +55681,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -55704,7 +55705,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": true,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -56783,7 +56784,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -56807,7 +56808,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -56831,7 +56832,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -56935,23 +56936,23 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 1141593,
+        "votes": 1143907,
         "percentage": 58.1,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 758330,
+        "votes": 759135,
         "percentage": 38.6,
         "winner": false
        }
       ],
-      "totalVotes": 1899923,
+      "totalVotes": 1903042,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
-      "reporting": 97,
+      "reporting": 98,
       "calledAt": "2026-11-04T09:48:11.236Z"
      },
      "ratings": [
@@ -57098,23 +57099,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1054013,
+        "votes": 1056062,
         "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 864449,
+        "votes": 865418,
         "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1918462,
+      "totalVotes": 1921480,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 97,
+      "reporting": 98,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
@@ -57132,7 +57133,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -57156,7 +57157,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -57180,7 +57181,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -57402,7 +57403,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -57426,7 +57427,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -57450,7 +57451,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -58325,7 +58326,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -58349,7 +58350,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -58373,7 +58374,7 @@
        "strength": "Safe",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -59157,7 +59158,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -59181,7 +59182,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -59205,7 +59206,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -59888,7 +59889,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -59912,7 +59913,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -59936,7 +59937,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -60408,7 +60409,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -60432,7 +60433,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -60456,7 +60457,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -62203,7 +62204,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -62227,7 +62228,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -62251,7 +62252,7 @@
        "strength": "Lean",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -63493,7 +63494,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -63517,7 +63518,7 @@
        "strength": "Likely",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -63541,7 +63542,7 @@
        "strength": "Tossup",
        "lean": null,
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
@@ -64116,7 +64117,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -64140,7 +64141,7 @@
        "strength": "Lean",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -64164,7 +64165,7 @@
        "strength": "Likely",
        "lean": "D",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [
@@ -64674,7 +64675,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "Fox News",
@@ -64698,7 +64699,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       },
       {
        "source": "RealClearPolitics",
@@ -64722,7 +64723,7 @@
        "strength": "Safe",
        "lean": "R",
        "flip": false,
-       "asOf": "November 2, 2026"
+       "asOf": "November 3, 2026"
       }
      ],
      "aggregates": [],
