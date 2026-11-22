@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T11:33:28.199Z",
+ "generatedAt": "2026-11-22T19:46:15.413Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -6045,6 +6045,13 @@
       "strength": "Lean",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Begich",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -6052,7 +6059,7 @@
      "strength": "Lean",
      "lean": "R",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Alaska",
     "candidates": [
@@ -9599,26 +9606,26 @@
       {
        "name": "Ryan Elijah",
        "party": "R",
-       "votes": 161300,
+       "votes": 161303,
        "percentage": 49.7,
        "winner": true
       },
       {
        "name": "Bale Dalton",
        "party": "D",
-       "votes": 159669,
+       "votes": 159689,
        "percentage": 49.2,
        "winner": false
       },
       {
        "name": "Christopher Dennison",
        "party": "L",
-       "votes": 3485,
+       "votes": 3486,
        "percentage": 1.1,
        "winner": false
       }
      ],
-     "totalVotes": 324454,
+     "totalVotes": 324478,
      "winner": "Ryan Elijah",
      "runoff": false,
      "calledAt": "2026-11-19T02:36:56.656Z"
@@ -20534,14 +20541,14 @@
       {
        "name": "Don Davis",
        "party": "D",
-       "votes": 157490,
+       "votes": 157483,
        "percentage": 50.1,
        "winner": true
       },
       {
        "name": "Laurie Buckhout",
        "party": "R",
-       "votes": 146696,
+       "votes": 146684,
        "percentage": 46.7,
        "winner": false
       },
@@ -20553,7 +20560,7 @@
        "winner": false
       }
      ],
-     "totalVotes": 314130,
+     "totalVotes": 314111,
      "winner": "Don Davis",
      "runoff": false,
      "calledAt": "2026-11-07T16:31:36.073Z"
@@ -20821,6 +20828,13 @@
       "strength": "Likely",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Hubbard",
+      "strength": null,
+      "lean": null,
+      "flip": true
      }
     ],
     "consensus": {
@@ -20828,7 +20842,7 @@
      "strength": "Likely",
      "lean": "R",
      "count": 5,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_5",
     "candidates": [
@@ -20850,9 +20864,9 @@
       {
        "name": "Chuck Hubbard",
        "party": "D",
-       "votes": 139770,
+       "votes": 139769,
        "percentage": 48.7,
-       "winner": false
+       "winner": true
       },
       {
        "name": "Virginia Foxx",
@@ -20864,14 +20878,15 @@
       {
        "name": "Robert Luffman",
        "party": "L",
-       "votes": 7579,
+       "votes": 7578,
        "percentage": 2.6,
        "winner": false
       }
      ],
-     "totalVotes": 286788,
-     "winner": null,
-     "runoff": false
+     "totalVotes": 286786,
+     "winner": "Chuck Hubbard",
+     "runoff": false,
+     "calledAt": "2026-11-22T19:46:15.413Z"
     },
     "headline": null,
     "latestPoll": null
@@ -21590,6 +21605,13 @@
       "strength": "Safe",
       "lean": "R",
       "flip": false
+     },
+     {
+      "source": "Result",
+      "rating": "Harrigan",
+      "strength": null,
+      "lean": null,
+      "flip": false
      }
     ],
     "consensus": {
@@ -21597,7 +21619,7 @@
      "strength": "Safe",
      "lean": "R",
      "count": 9,
-     "of": 10
+     "of": 11
     },
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina#District_10",
     "candidates": [
@@ -31309,8 +31331,8 @@
    },
    {
     "source": "Result",
-    "D": 256,
-    "R": 171,
+    "D": 259,
+    "R": 173,
     "tossup": 0
    }
   ],
