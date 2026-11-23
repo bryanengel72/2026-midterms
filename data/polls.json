@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T19:46:15.413Z",
+ "generatedAt": "2026-11-23T01:47:40.012Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -10534,8 +10534,8 @@
      "calledAt": "2026-11-05T23:28:54.030Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20–23, 2026",
      "values": {
       "Anna Paulina Luna": 48,
       "Leela Gray": 45
@@ -15125,11 +15125,11 @@
      "calledAt": "2026-11-05T15:13:32.434Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20–23, 2026",
      "values": {
-      "Sean McCann": 44,
-      "Bill Huizenga": 47
+      "Bill Huizenga": 47,
+      "Sean McCann": 44
      },
      "leader": "Bill Huizenga",
      "margin": 3
@@ -15696,11 +15696,11 @@
      "calledAt": "2026-11-08T17:04:16.984Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20–23, 2026",
      "values": {
-      "Christina Hines": 42,
-      "Michael Bouchard Jr.": 47
+      "Michael Bouchard Jr.": 47,
+      "Christina Hines": 42
      },
      "leader": "Michael Bouchard Jr.",
      "margin": 5
@@ -16816,14 +16816,14 @@
     },
     "headline": {
      "basis": "simple-average",
-     "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
      "values": {
-      "Sam Forstag": 47.5,
-      "Aaron Flint": 48.5,
-      "Nick Sheedy": 2.5
+      "Sam Forstag": 49,
+      "Aaron Flint": 49,
+      "Nick Sheedy": 3
      },
-     "leader": "Aaron Flint",
-     "margin": 1
+     "leader": null,
+     "margin": 0
     },
     "latestPoll": "2026-11-01"
    },
@@ -17722,8 +17722,8 @@
      "calledAt": "2026-11-05T04:13:07.633Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
       "Susie Lee": 49,
       "Martin O'Donnell": 42
@@ -19823,11 +19823,11 @@
      "calledAt": "2026-11-06T11:00:06.830Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20–23, 2026",
      "values": {
-      "Cait Conley": 48,
-      "Mike Lawler": 46
+      "Mike Lawler": 46,
+      "Cait Conley": 48
      },
      "leader": "Cait Conley",
      "margin": 2
@@ -20566,8 +20566,8 @@
      "calledAt": "2026-11-07T16:31:36.073Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
       "Don Davis": 45,
       "Laurie Buckhout": 44,
@@ -21885,11 +21885,11 @@
      "calledAt": "2026-11-07T16:46:36.060Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
-      "Jamie Ager": 50,
-      "Jennifer Balkcom": 44
+      "Jennifer Balkcom": 44,
+      "Jamie Ager": 50
      },
      "leader": "Jamie Ager",
      "margin": 6
@@ -22405,8 +22405,8 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
       "Greg Landsman": 48,
       "Eric Conroy": 39
@@ -22642,11 +22642,11 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
-      "Brian Poindexter": 46,
-      "Max Miller": 42
+      "Max Miller": 42,
+      "Brian Poindexter": 46
      },
      "leader": "Brian Poindexter",
      "margin": 4
@@ -22969,8 +22969,8 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
       "Marcy Kaptur": 49,
       "Derek Merrin": 43
@@ -24120,11 +24120,11 @@
      "calledAt": "2026-11-08T01:19:26.271Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
-      "Bob Harvie": 46,
-      "Brian Fitzpatrick": 46
+      "Brian Fitzpatrick": 46,
+      "Bob Harvie": 46
      },
      "leader": null,
      "margin": 0
@@ -24344,11 +24344,11 @@
      "calledAt": "2026-11-08T01:19:26.271Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20–23, 2026",
      "values": {
-      "Bob Brooks": 49,
-      "Ryan Mackenzie": 44
+      "Ryan Mackenzie": 44,
+      "Bob Brooks": 49
      },
      "leader": "Bob Brooks",
      "margin": 5
@@ -24583,11 +24583,11 @@
      "calledAt": "2026-11-08T01:19:26.271Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
-      "Paige Cognetti": 49,
-      "Rob Bresnahan": 46
+      "Rob Bresnahan": 46,
+      "Paige Cognetti": 49
      },
      "leader": "Paige Cognetti",
      "margin": 3
@@ -24837,11 +24837,11 @@
      "calledAt": "2026-11-08T01:19:26.271Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: RedBox Research (D), October 20-23, 2026",
      "values": {
-      "Janelle Stelson": 48,
-      "Scott Perry": 45
+      "Scott Perry": 45,
+      "Janelle Stelson": 48
      },
      "leader": "Janelle Stelson",
      "margin": 3
