@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T01:47:40.012Z",
+ "generatedAt": "2026-11-23T12:57:42.062Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24325,19 +24325,19 @@
       {
        "name": "Bob Brooks",
        "party": "D",
-       "votes": 164543,
-       "percentage": 56.1,
+       "votes": 166671,
+       "percentage": 56.3,
        "winner": true
       },
       {
        "name": "Ryan Mackenzie",
        "party": "R",
-       "votes": 128738,
-       "percentage": 43.9,
+       "votes": 129431,
+       "percentage": 43.7,
        "winner": false
       }
      ],
-     "totalVotes": 293281,
+     "totalVotes": 296102,
      "winner": "Bob Brooks",
      "runoff": false,
      "source": "infobox",
@@ -58595,7 +58595,7 @@
        "party": "R",
        "nominee": true,
        "partyName": "Republican Party",
-       "note": "replaced Lindsey Graham"
+       "note": "replaced Lindsey Graham†"
       }
      ],
      "results": {
