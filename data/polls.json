@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T13:51:23.355Z",
+ "generatedAt": "2026-11-24T23:56:05.177Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -15895,14 +15895,14 @@
        "name": "Jake Johnson",
        "party": "D",
        "votes": 163055,
-       "percentage": 50,
+       "percentage": 49.9989,
        "winner": true
       },
       {
        "name": "Brad Finstad",
        "party": "R",
        "votes": 162733,
-       "percentage": 49.9,
+       "percentage": 49.8906,
        "winner": false
       }
      ],
@@ -31378,19 +31378,19 @@
        {
         "name": "Barry Moore",
         "party": "R",
-        "votes": 917338,
-        "percentage": 54.71,
+        "votes": 918207,
+        "percentage": 54.68,
         "winner": true
        },
        {
         "name": "Everett Wess",
         "party": "D",
-        "votes": 759321,
-        "percentage": 45.29,
+        "votes": 759018,
+        "percentage": 45.2,
         "winner": false
        }
       ],
-      "totalVotes": 1676659,
+      "totalVotes": 1679267,
       "winner": "Barry Moore",
       "runoff": false,
       "calledAt": "2026-11-09T04:08:33.883Z"
@@ -31897,33 +31897,33 @@
        {
         "name": "Mary Peltola",
         "party": "D",
-        "votes": 144486,
-        "percentage": 50.13,
+        "votes": 144583,
+        "percentage": 50.14,
         "winner": true
        },
        {
         "name": "Dan S. Sullivan",
         "party": "R",
-        "votes": 131965,
-        "percentage": 45.79,
+        "votes": 132022,
+        "percentage": 45.78,
         "winner": false
        },
        {
         "name": "Gerald L. Heikes",
         "party": "R",
-        "votes": 6105,
+        "votes": 6107,
         "percentage": 2.12,
         "winner": false
        },
        {
         "name": "Daniel J. Sullivan Jr.",
         "party": "I",
-        "votes": 4765,
+        "votes": 4767,
         "percentage": 1.65,
         "winner": false
        }
       ],
-      "totalVotes": 287896,
+      "totalVotes": 288365,
       "winner": "Mary Peltola",
       "runoff": false,
       "calledAt": "2026-11-18T11:51:22.040Z"
@@ -32673,33 +32673,33 @@
        {
         "name": "Jonathan Kreiss-Tomkins Zac Johnson",
         "party": "D",
-        "votes": 145449,
-        "percentage": 51.08,
+        "votes": 145546,
+        "percentage": 51.09,
         "winner": true
        },
        {
         "name": "Bernadette Wilson Mike Shower",
         "party": "R",
-        "votes": 79336,
+        "votes": 79363,
         "percentage": 27.86,
         "winner": false
        },
        {
         "name": "Dave Bronson Josh Church",
         "party": "R",
-        "votes": 38767,
-        "percentage": 13.62,
+        "votes": 38785,
+        "percentage": 13.61,
         "winner": false
        },
        {
         "name": "Treg Taylor Candice English",
         "party": "R",
-        "votes": 20368,
+        "votes": 20383,
         "percentage": 7.15,
         "winner": false
        }
       ],
-      "totalVotes": 284745,
+      "totalVotes": 284905,
       "winner": "Jonathan Kreiss-Tomkins Zac Johnson",
       "runoff": false,
       "calledAt": "2026-11-17T16:07:44.818Z"
@@ -32983,14 +32983,14 @@
        {
         "name": "Katie Hobbs",
         "party": "D",
-        "votes": 1434813,
+        "votes": 1434824,
         "percentage": 55.67,
         "winner": true
        },
        {
         "name": "Andy Biggs",
         "party": "R",
-        "votes": 1094388,
+        "votes": 1094393,
         "percentage": 42.46,
         "winner": false
        },
@@ -33009,7 +33009,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 2577383,
+      "totalVotes": 2577410,
       "winner": "Katie Hobbs",
       "runoff": false,
       "calledAt": "2026-11-20T11:47:52.437Z"
@@ -34154,19 +34154,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 8720802,
+        "votes": 8721100,
         "percentage": 65.7,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 4562976,
+        "votes": 4563123,
         "percentage": 34.3,
         "winner": false
        }
       ],
-      "totalVotes": 13283778,
+      "totalVotes": 13284223,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -45144,35 +45144,35 @@
        {
         "name": "Abdul El-Sayed",
         "party": "D",
-        "votes": 2521693,
+        "votes": 2521908,
         "percentage": 52.56,
         "winner": true
        },
        {
         "name": "Mike Rogers",
         "party": "R",
-        "votes": 2180388,
+        "votes": 2180444,
         "percentage": 45.44,
         "winner": false
        },
        {
         "name": "Lydia Christensen",
         "party": "L",
-        "votes": 49692,
+        "votes": 49699,
         "percentage": 1.04,
         "winner": false
        },
        {
         "name": "Tim Long",
         "party": "C",
-        "votes": 26534,
+        "votes": 26535,
         "percentage": 0.55,
         "winner": false
        },
        {
         "name": "Douglas P. Marsh",
         "party": "G",
-        "votes": 12553,
+        "votes": 12554,
         "percentage": 0.26,
         "winner": false
        },
@@ -45184,7 +45184,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 4798123,
+      "totalVotes": 4798403,
       "winner": "Abdul El-Sayed",
       "runoff": false,
       "calledAt": "2026-11-05T15:28:32.428Z"
@@ -46477,28 +46477,28 @@
        {
         "name": "Jocelyn Benson",
         "party": "D",
-        "votes": 2615034,
+        "votes": 2615251,
         "percentage": 54.57,
         "winner": true
        },
        {
         "name": "John James",
         "party": "R",
-        "votes": 2094508,
+        "votes": 2094566,
         "percentage": 43.71,
         "winner": false
        },
        {
         "name": "Anthony Hudson",
         "party": "L",
-        "votes": 44496,
+        "votes": 44497,
         "percentage": 0.93,
         "winner": false
        },
        {
         "name": "Donna Brandenburg",
         "party": "C",
-        "votes": 20136,
+        "votes": 20140,
         "percentage": 0.42,
         "winner": false
        },
@@ -46510,7 +46510,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 4791842,
+      "totalVotes": 4792122,
       "winner": "Jocelyn Benson",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -54552,33 +54552,33 @@
        {
         "name": "Sherrod Brown",
         "party": "D",
-        "votes": 2323001,
-        "percentage": 50.09,
+        "votes": 2334442,
+        "percentage": 50.16,
         "winner": true
        },
        {
         "name": "Jon Husted",
         "party": "R",
-        "votes": 2090390,
-        "percentage": 45.07,
+        "votes": 2094366,
+        "percentage": 45,
         "winner": false
        },
        {
         "name": "Bill Redpath",
         "party": "L",
-        "votes": 129435,
+        "votes": 129906,
         "percentage": 2.79,
         "winner": false
        },
        {
         "name": "Greg Levy",
         "party": "I",
-        "votes": 94857,
+        "votes": 95468,
         "percentage": 2.05,
         "winner": false
        }
       ],
-      "totalVotes": 4637683,
+      "totalVotes": 4654182,
       "winner": "Sherrod Brown",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
