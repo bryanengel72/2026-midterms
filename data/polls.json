@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T02:16:09.350Z",
+ "generatedAt": "2026-11-24T13:51:23.355Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -25709,19 +25709,19 @@
       {
        "name": "Victoria Broderick",
        "party": "D",
-       "votes": 95585,
+       "votes": 95602,
        "percentage": 48.87,
        "winner": true
       },
       {
        "name": "Scott DesJarlais",
        "party": "R",
-       "votes": 95308,
+       "votes": 95327,
        "percentage": 48.73,
        "winner": false
       }
      ],
-     "totalVotes": 190893,
+     "totalVotes": 190929,
      "winner": "Victoria Broderick",
      "runoff": false,
      "source": "infobox",
@@ -57392,14 +57392,14 @@
        {
         "name": "Josh Shapiro",
         "party": "D",
-        "votes": 3039710,
+        "votes": 3039781,
         "percentage": 60.56,
         "winner": true
        },
        {
         "name": "Stacy Garrity",
         "party": "R",
-        "votes": 1914345,
+        "votes": 1914351,
         "percentage": 38.14,
         "winner": false
        },
@@ -57411,7 +57411,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 5019047,
+      "totalVotes": 5019124,
       "winner": "Josh Shapiro",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -57963,26 +57963,26 @@
        {
         "name": "Jack Reed",
         "party": "D",
-        "votes": 240686,
-        "percentage": 66.79,
+        "votes": 240707,
+        "percentage": 66.78,
         "winner": true
        },
        {
         "name": "Raymond McKay",
         "party": "R",
-        "votes": 105453,
+        "votes": 105459,
         "percentage": 29.26,
         "winner": false
        },
        {
         "name": "Michael Bahry",
         "party": "I",
-        "votes": 13562,
+        "votes": 13563,
         "percentage": 3.76,
         "winner": false
        }
       ],
-      "totalVotes": 360396,
+      "totalVotes": 360424,
       "winner": "Jack Reed",
       "runoff": false,
       "calledAt": "2026-11-04T10:18:10.392Z"
@@ -60056,7 +60056,7 @@
        {
         "name": "Bill Hagerty",
         "party": "R",
-        "votes": 1138436,
+        "votes": 1138457,
         "percentage": 55.08,
         "winner": true
        },
@@ -60071,7 +60071,7 @@
         "name": "Robert Jones",
         "party": "I",
         "votes": 9398,
-        "percentage": 0.46,
+        "percentage": 0.45,
         "winner": false
        },
        {
@@ -60103,7 +60103,7 @@
         "winner": false
        },
        {
-        "name": "David Sutman, Jr.",
+        "name": "David Sutman Jr.",
         "party": "I",
         "votes": 3087,
         "percentage": 0.15,
@@ -60124,7 +60124,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 2066869,
+      "totalVotes": 2066890,
       "winner": "Bill Hagerty",
       "runoff": false,
       "calledAt": "2026-11-04T11:02:27.573Z"
