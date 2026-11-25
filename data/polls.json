@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T23:56:05.177Z",
+ "generatedAt": "2026-11-25T08:43:23.598Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -5954,8 +5954,8 @@
      "runoff": false
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Remington Research Group, October 23–25, 2026",
      "values": {
       "Shomari Figures": 46,
       "Rhett Marques": 48
@@ -25709,19 +25709,19 @@
       {
        "name": "Victoria Broderick",
        "party": "D",
-       "votes": 95602,
+       "votes": 95722,
        "percentage": 48.87,
        "winner": true
       },
       {
        "name": "Scott DesJarlais",
        "party": "R",
-       "votes": 95327,
+       "votes": 95361,
        "percentage": 48.73,
        "winner": false
       }
      ],
-     "totalVotes": 190929,
+     "totalVotes": 191083,
      "winner": "Victoria Broderick",
      "runoff": false,
      "source": "infobox",
@@ -29206,11 +29206,11 @@
      "calledAt": "2026-11-09T21:03:39.121Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: DCCC Targeting Team (D), October 24–25, 2026",
      "values": {
-      "Shannon Taylor": 48,
-      "Rob Wittman": 47
+      "Rob Wittman": 47,
+      "Shannon Taylor": 48
      },
      "leader": "Shannon Taylor",
      "margin": 1
@@ -31656,19 +31656,19 @@
        {
         "name": "Tommy Tuberville",
         "party": "R",
-        "votes": 873332,
-        "percentage": 52,
+        "votes": 872910,
+        "percentage": 51.78,
         "winner": true
        },
        {
         "name": "Doug Jones",
         "party": "D",
-        "votes": 806270,
-        "percentage": 48,
+        "votes": 806868,
+        "percentage": 47.87,
         "winner": false
        }
       ],
-      "totalVotes": 1679602,
+      "totalVotes": 1685702,
       "winner": "Tommy Tuberville",
       "runoff": false,
       "calledAt": "2026-11-09T21:03:39.121Z"
@@ -34155,14 +34155,14 @@
         "name": "Xavier Becerra",
         "party": "D",
         "votes": 8721100,
-        "percentage": 65.7,
+        "percentage": 65.65,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
         "votes": 4563123,
-        "percentage": 34.3,
+        "percentage": 34.35,
         "winner": false
        }
       ],
@@ -39649,26 +39649,26 @@
        {
         "name": "Josh Turek",
         "party": "D",
-        "votes": 688741,
-        "percentage": 50.55,
+        "votes": 688613,
+        "percentage": 50.51,
         "winner": true
        },
        {
         "name": "Ashley Hinson",
         "party": "R",
-        "votes": 631481,
-        "percentage": 46.36,
+        "votes": 631276,
+        "percentage": 46.3,
         "winner": false
        },
        {
         "name": "Thomas Laehn",
         "party": "L",
-        "votes": 42109,
-        "percentage": 3.09,
+        "votes": 41829,
+        "percentage": 3.07,
         "winner": false
        }
       ],
-      "totalVotes": 1362331,
+      "totalVotes": 1363371,
       "winner": "Josh Turek",
       "runoff": false,
       "calledAt": "2026-11-04T06:05:40.683Z"
@@ -40526,19 +40526,19 @@
        {
         "name": "Rob Sand",
         "party": "D",
-        "votes": 759705,
-        "percentage": 55.54,
+        "votes": 759570,
+        "percentage": 55.47,
         "winner": true
        },
        {
         "name": "Zach Lahn",
         "party": "R",
-        "votes": 608231,
-        "percentage": 44.46,
+        "votes": 608025,
+        "percentage": 44.4,
         "winner": false
        }
       ],
-      "totalVotes": 1367936,
+      "totalVotes": 1369351,
       "winner": "Rob Sand",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -52245,19 +52245,19 @@
        {
         "name": "Ben Ray Luján",
         "party": "D",
-        "votes": 458756,
-        "percentage": 63.26,
+        "votes": 459052,
+        "percentage": 63.27,
         "winner": true
        },
        {
         "name": "Larry Marker",
         "party": "R",
-        "votes": 266434,
-        "percentage": 36.74,
+        "votes": 266524,
+        "percentage": 36.73,
         "winner": false
        }
       ],
-      "totalVotes": 725190,
+      "totalVotes": 725576,
       "winner": "Ben Ray Luján",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -52508,23 +52508,21 @@
        {
         "name": "Deb Haaland",
         "party": "D",
-        "votes": 412834,
-        "percentage": 57.2,
+        "votes": 416455,
+        "percentage": 57.36,
         "winner": true
        },
        {
         "name": "Gregg Hull",
         "party": "R",
-        "votes": 308315,
-        "percentage": 42.8,
+        "votes": 309547,
+        "percentage": 42.64,
         "winner": false
        }
       ],
-      "totalVotes": 721149,
+      "totalVotes": 726002,
       "winner": "Deb Haaland",
       "runoff": false,
-      "source": "infobox",
-      "reporting": 95,
       "calledAt": "2026-11-04T14:51:41.043Z"
      },
      "ratings": [
@@ -55646,26 +55644,26 @@
        {
         "name": "Amy Acton",
         "party": "D",
-        "votes": 2427432,
-        "percentage": 52.41,
+        "votes": 2439487,
+        "percentage": 52.48,
         "winner": true
        },
        {
         "name": "Vivek Ramaswamy",
         "party": "R",
-        "votes": 2051557,
-        "percentage": 44.29,
+        "votes": 2055514,
+        "percentage": 44.22,
         "winner": false
        },
        {
         "name": "Don Kissick",
         "party": "L",
-        "votes": 153011,
+        "votes": 153546,
         "percentage": 3.3,
         "winner": false
        }
       ],
-      "totalVotes": 4632000,
+      "totalVotes": 4648547,
       "winner": "Amy Acton",
       "runoff": false,
       "calledAt": "2026-11-04T22:11:00.904Z"
@@ -57127,23 +57125,23 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1056062,
+        "votes": 1056308,
         "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 865418,
+        "votes": 865590,
         "percentage": 43.7,
         "winner": false
        }
       ],
-      "totalVotes": 1921480,
+      "totalVotes": 1921898,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
-      "reporting": 98,
+      "reporting": 99,
       "calledAt": "2026-11-04T11:02:27.573Z"
      },
      "ratings": [
@@ -58301,14 +58299,14 @@
        {
         "name": "Helena Buonanno Foulkes",
         "party": "D",
-        "votes": 207588,
+        "votes": 207600,
         "percentage": 57.71,
         "winner": true
        },
        {
         "name": "Kenneth Block",
         "party": "I",
-        "votes": 99829,
+        "votes": 99835,
         "percentage": 27.75,
         "winner": false
        },
@@ -58334,7 +58332,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 359691,
+      "totalVotes": 359709,
       "winner": "Helena Buonanno Foulkes",
       "runoff": false,
       "calledAt": "2026-11-12T00:47:35.614Z"
@@ -59392,13 +59390,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 5 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Alan Wilson": 49.8,
-       "Jermaine Johnson": 39.4
+       "Alan Wilson": 52,
+       "Jermaine Johnson": 41.7
       },
       "leader": "Alan Wilson",
-      "margin": 10.4
+      "margin": 10.3
      },
      "consensus": {
       "rating": "Safe R",
@@ -63683,13 +63681,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
       "values": {
-       "Phil Scott": 46,
-       "Amanda Janoo": 48.5
+       "Phil Scott": 43,
+       "Amanda Janoo": 51
       },
       "leader": "Amanda Janoo",
-      "margin": 2.5
+      "margin": 8
      },
      "consensus": {
       "rating": "Likely R",
