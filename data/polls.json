@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T08:43:23.598Z",
+ "generatedAt": "2026-11-26T03:36:49.430Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -16253,8 +16253,8 @@
      "calledAt": "2026-11-05T01:56:01.162Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 25–26, 2026",
      "values": {
       "Pete Stauber": 49,
       "Trina Swanson": 43
@@ -34154,19 +34154,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 8721100,
+        "votes": 8727990,
         "percentage": 65.65,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 4563123,
+        "votes": 4564952,
         "percentage": 34.35,
         "winner": false
        }
       ],
-      "totalVotes": 13284223,
+      "totalVotes": 13292942,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -44056,33 +44056,33 @@
        {
         "name": "Wes Moore",
         "party": "D",
-        "votes": 1472845,
-        "percentage": 65.32,
+        "votes": 1475470,
+        "percentage": 65.35,
         "winner": true
        },
        {
         "name": "Dan Cox",
         "party": "R",
-        "votes": 683775,
-        "percentage": 30.32,
+        "votes": 683927,
+        "percentage": 30.29,
         "winner": false
        },
        {
         "name": "Andy Ellis",
         "party": "G",
-        "votes": 48649,
+        "votes": 48743,
         "percentage": 2.16,
         "winner": false
        },
        {
         "name": "Cathy White",
         "party": "O",
-        "votes": 43760,
+        "votes": 43808,
         "percentage": 1.94,
         "winner": false
        }
       ],
-      "totalVotes": 2254987,
+      "totalVotes": 2257917,
       "winner": "Wes Moore",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -59390,13 +59390,13 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 3 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
       "values": {
-       "Alan Wilson": 52,
-       "Jermaine Johnson": 41.7
+       "Alan Wilson": 52.5,
+       "Jermaine Johnson": 40.5
       },
       "leader": "Alan Wilson",
-      "margin": 10.3
+      "margin": 12
      },
      "consensus": {
       "rating": "Safe R",
@@ -60600,14 +60600,14 @@
      ],
      "headline": {
       "basis": "simple-average",
-      "detail": "Simple average of 2 polls from the last 30 days (newest per pollster)",
+      "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
       "values": {
-       "Marsha Blackburn": 44.5,
-       "Jerri Green": 32.5,
-       "David Hatley": 16.5
+       "Marsha Blackburn": 54,
+       "Jerri Green": 35,
+       "David Hatley": 7
       },
       "leader": "Marsha Blackburn",
-      "margin": 12
+      "margin": 19
      },
      "consensus": {
       "rating": "Safe R",
