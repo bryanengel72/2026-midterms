@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T03:36:49.430Z",
+ "generatedAt": "2026-11-26T16:59:06.642Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -8334,21 +8334,36 @@
       {
        "name": "Jeff Hurd",
        "party": "R",
-       "votes": 163817,
-       "percentage": 49.3,
+       "votes": 165502,
+       "percentage": 49.25,
+       "winner": true
+      },
+      {
+       "name": "Dwayne L. Romero",
+       "party": "D",
+       "votes": 159516,
+       "percentage": 47.47,
        "winner": false
       },
       {
-       "name": "Dwayne Romero",
-       "party": "D",
-       "votes": 157660,
-       "percentage": 47.4,
+       "name": "Cory Robertson",
+       "party": "L",
+       "votes": 5648,
+       "percentage": 1.68,
+       "winner": false
+      },
+      {
+       "name": "Clifton Brown",
+       "party": "I",
+       "votes": 5401,
+       "percentage": 1.61,
        "winner": false
       }
      ],
-     "totalVotes": 321477,
-     "winner": null,
-     "runoff": false
+     "totalVotes": 336067,
+     "winner": "Jeff Hurd",
+     "runoff": false,
+     "calledAt": "2026-11-26T16:59:06.642Z"
     },
     "headline": {
      "basis": "latest-poll",
@@ -8502,23 +8517,28 @@
       {
        "name": "Eileen Laubacher",
        "party": "D",
-       "votes": 187745,
+       "votes": 187752,
        "percentage": 48.8,
        "winner": true
       },
       {
        "name": "Lauren Boebert",
        "party": "R",
-       "votes": 184220,
-       "percentage": 47.9,
+       "votes": 184226,
+       "percentage": 47.89,
+       "winner": false
+      },
+      {
+       "name": "Douglas Mangeris",
+       "party": "L",
+       "votes": 12742,
+       "percentage": 3.31,
        "winner": false
       }
      ],
-     "totalVotes": 371965,
+     "totalVotes": 384720,
      "winner": "Eileen Laubacher",
      "runoff": false,
-     "source": "infobox",
-     "reporting": 99,
      "calledAt": "2026-11-10T04:18:06.907Z"
     },
     "headline": {
@@ -8713,23 +8733,35 @@
       {
        "name": "Jessica Killin",
        "party": "D",
-       "votes": 157799,
+       "votes": 157803,
        "percentage": 50.7,
        "winner": true
       },
       {
        "name": "Jeff Crank",
        "party": "R",
-       "votes": 141984,
-       "percentage": 45.6,
+       "votes": 141986,
+       "percentage": 45.61,
+       "winner": false
+      },
+      {
+       "name": "Mark 'Marky Jr' Elworth",
+       "party": "L",
+       "votes": 6088,
+       "percentage": 1.96,
+       "winner": false
+      },
+      {
+       "name": "Christopher Mitchell",
+       "party": "C",
+       "votes": 5397,
+       "percentage": 1.73,
        "winner": false
       }
      ],
-     "totalVotes": 299783,
+     "totalVotes": 311274,
      "winner": "Jessica Killin",
      "runoff": false,
-     "source": "infobox",
-     "reporting": 99,
      "calledAt": "2026-11-08T01:34:25.734Z"
     },
     "headline": {
@@ -8878,8 +8910,8 @@
       {
        "name": "Manny Rutinel",
        "party": "D",
-       "votes": 160954,
-       "percentage": 55.5,
+       "votes": 160955,
+       "percentage": 55.51,
        "winner": true
       },
       {
@@ -8888,13 +8920,18 @@
        "votes": 117709,
        "percentage": 40.6,
        "winner": false
+      },
+      {
+       "name": "Dave Wood",
+       "party": "L",
+       "votes": 11268,
+       "percentage": 3.89,
+       "winner": false
       }
      ],
-     "totalVotes": 278663,
+     "totalVotes": 289932,
      "winner": "Manny Rutinel",
      "runoff": false,
-     "source": "infobox",
-     "reporting": 99,
      "calledAt": "2026-11-08T01:34:25.734Z"
     },
     "headline": {
@@ -24101,23 +24138,21 @@
       {
        "name": "Bob Harvie",
        "party": "D",
-       "votes": 188087,
-       "percentage": 52.7,
-       "winner": true
+       "votes": 189926,
+       "percentage": 52.88,
+       "winner": false
       },
       {
        "name": "Brian Fitzpatrick",
        "party": "R",
-       "votes": 168531,
-       "percentage": 47.3,
+       "votes": 169255,
+       "percentage": 47.12,
        "winner": false
       }
      ],
-     "totalVotes": 356618,
-     "winner": "Bob Harvie",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-08T01:19:26.271Z"
+     "totalVotes": 359181,
+     "winner": null,
+     "runoff": false
     },
     "headline": {
      "basis": "latest-poll",
@@ -25074,7 +25109,27 @@
     ],
     "polls": [],
     "aggregates": [],
-    "results": null,
+    "results": {
+     "candidates": [
+      {
+       "name": "Mike Kelly",
+       "party": "R",
+       "votes": 154693,
+       "percentage": 53.83,
+       "winner": false
+      },
+      {
+       "name": "Justin Wagner",
+       "party": "D",
+       "votes": 132690,
+       "percentage": 46.17,
+       "winner": false
+      }
+     ],
+     "totalVotes": 287383,
+     "winner": null,
+     "runoff": false
+    },
     "headline": null,
     "latestPoll": null
    },
@@ -34154,19 +34209,19 @@
        {
         "name": "Xavier Becerra",
         "party": "D",
-        "votes": 8727990,
-        "percentage": 65.65,
+        "votes": 8740676,
+        "percentage": 65.66,
         "winner": true
        },
        {
         "name": "Steve Hilton",
         "party": "R",
-        "votes": 4564952,
-        "percentage": 34.35,
+        "votes": 4571042,
+        "percentage": 34.34,
         "winner": false
        }
       ],
-      "totalVotes": 13292942,
+      "totalVotes": 13311718,
       "winner": "Xavier Becerra",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -56962,23 +57017,23 @@
        {
         "name": "Jeff Merkley",
         "party": "D",
-        "votes": 1143907,
+        "votes": 1150323,
         "percentage": 58.1,
         "winner": true
        },
        {
         "name": "David Brock Smith",
         "party": "R",
-        "votes": 759135,
-        "percentage": 38.6,
+        "votes": 761536,
+        "percentage": 38.5,
         "winner": false
        }
       ],
-      "totalVotes": 1903042,
+      "totalVotes": 1911859,
       "winner": "Jeff Merkley",
       "runoff": false,
       "source": "infobox",
-      "reporting": 98,
+      "reporting": 99,
       "calledAt": "2026-11-04T09:48:11.236Z"
      },
      "ratings": [
@@ -57125,19 +57180,19 @@
        {
         "name": "Tina Kotek",
         "party": "D",
-        "votes": 1056308,
+        "votes": 1061263,
         "percentage": 53.3,
         "winner": true
        },
        {
         "name": "Christine Drazan",
         "party": "R",
-        "votes": 865590,
-        "percentage": 43.7,
+        "votes": 868211,
+        "percentage": 43.6,
         "winner": false
        }
       ],
-      "totalVotes": 1921898,
+      "totalVotes": 1929474,
       "winner": "Tina Kotek",
       "runoff": false,
       "source": "infobox",
