@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T01:46:00.559Z",
+ "generatedAt": "2026-11-27T12:34:23.456Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -24360,23 +24360,21 @@
       {
        "name": "Bob Brooks",
        "party": "D",
-       "votes": 166671,
-       "percentage": 56.3,
-       "winner": true
+       "votes": 167629,
+       "percentage": 56.4,
+       "winner": false
       },
       {
        "name": "Ryan Mackenzie",
        "party": "R",
-       "votes": 129431,
-       "percentage": 43.7,
+       "votes": 129765,
+       "percentage": 43.6,
        "winner": false
       }
      ],
-     "totalVotes": 296102,
-     "winner": "Bob Brooks",
-     "runoff": false,
-     "source": "infobox",
-     "calledAt": "2026-11-08T01:19:26.271Z"
+     "totalVotes": 297394,
+     "winner": null,
+     "runoff": false
     },
     "headline": {
      "basis": "latest-poll",
