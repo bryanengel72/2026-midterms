@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T16:59:06.642Z",
+ "generatedAt": "2026-11-27T01:46:00.559Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -11900,8 +11900,8 @@
      "calledAt": "2026-11-05T23:43:54.294Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: Public Policy Polling (D), October 26–27, 2026",
      "values": {
       "Jared Moskowitz": 47,
       "Scott Singer": 41
@@ -33039,14 +33039,14 @@
         "name": "Katie Hobbs",
         "party": "D",
         "votes": 1434824,
-        "percentage": 55.67,
+        "percentage": 55.63,
         "winner": true
        },
        {
         "name": "Andy Biggs",
         "party": "R",
         "votes": 1094393,
-        "percentage": 42.46,
+        "percentage": 42.43,
         "winner": false
        },
        {
@@ -33064,7 +33064,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 2577410,
+      "totalVotes": 2579147,
       "winner": "Katie Hobbs",
       "runoff": false,
       "calledAt": "2026-11-20T11:47:52.437Z"
@@ -34978,35 +34978,35 @@
        {
         "name": "Phil Weiser",
         "party": "D",
-        "votes": 1639109,
+        "votes": 1639208,
         "percentage": 61.13,
         "winner": true
        },
        {
         "name": "Victor Marx",
         "party": "R",
-        "votes": 890472,
+        "votes": 890538,
         "percentage": 33.21,
         "winner": false
        },
        {
         "name": "Greg Lopez",
         "party": "I",
-        "votes": 74134,
+        "votes": 74140,
         "percentage": 2.76,
         "winner": false
        },
        {
         "name": "Erik Mulder",
         "party": "L",
-        "votes": 44643,
+        "votes": 44651,
         "percentage": 1.67,
         "winner": false
        },
        {
         "name": "Stephen T. Hamilton",
         "party": "C",
-        "votes": 17340,
+        "votes": 17344,
         "percentage": 0.65,
         "winner": false
        },
@@ -35025,7 +35025,7 @@
         "winner": false
        }
       ],
-      "totalVotes": 2681244,
+      "totalVotes": 2681427,
       "winner": "Phil Weiser",
       "runoff": false,
       "calledAt": "2026-11-04T08:03:10.527Z"
@@ -35214,21 +35214,21 @@
        {
         "name": "Ned Lamont",
         "party": "O",
-        "votes": 772258,
+        "votes": 772249,
         "percentage": 59.56,
-        "winner": false
+        "winner": true
        },
        {
         "name": "Ned Lamont",
         "party": "D",
-        "votes": 742438,
+        "votes": 742429,
         "percentage": 57.26,
         "winner": false
        },
        {
         "name": "Ryan Fazio",
         "party": "O",
-        "votes": 524232,
+        "votes": 524233,
         "percentage": 40.43,
         "winner": false
        },
@@ -35249,14 +35249,15 @@
        {
         "name": "Ryan Fazio",
         "party": "I",
-        "votes": 27766,
+        "votes": 27767,
         "percentage": 2.14,
         "winner": false
        }
       ],
-      "totalVotes": 1296554,
-      "winner": null,
-      "runoff": false
+      "totalVotes": 1296546,
+      "winner": "Ned Lamont",
+      "runoff": false,
+      "calledAt": "2026-11-27T01:46:00.559Z"
      },
      "ratings": [
       {
@@ -39003,40 +39004,40 @@
        {
         "name": "Brad Little",
         "party": "R",
-        "votes": 408410,
-        "percentage": 57.03,
+        "votes": 408547,
+        "percentage": 56.92,
         "winner": true
        },
        {
         "name": "Terri Pickens",
         "party": "D",
-        "votes": 231475,
-        "percentage": 32.33,
+        "votes": 231485,
+        "percentage": 32.25,
         "winner": false
        },
        {
         "name": "John Stegner",
         "party": "I",
-        "votes": 54867,
-        "percentage": 7.66,
+        "votes": 54860,
+        "percentage": 7.64,
         "winner": false
        },
        {
         "name": "Paul Sand",
         "party": "L",
-        "votes": 11569,
-        "percentage": 1.62,
+        "votes": 11568,
+        "percentage": 1.61,
         "winner": false
        },
        {
         "name": "Pro-Life",
         "party": "C",
         "votes": 9508,
-        "percentage": 1.33,
+        "percentage": 1.32,
         "winner": false
        }
       ],
-      "totalVotes": 716113,
+      "totalVotes": 717758,
       "winner": "Brad Little",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
@@ -57445,26 +57446,26 @@
        {
         "name": "Josh Shapiro",
         "party": "D",
-        "votes": 3039781,
-        "percentage": 60.56,
+        "votes": 3040772,
+        "percentage": 60.57,
         "winner": true
        },
        {
         "name": "Stacy Garrity",
         "party": "R",
-        "votes": 1914351,
+        "votes": 1914618,
         "percentage": 38.14,
         "winner": false
        },
        {
         "name": "Ken Krawchuk",
         "party": "L",
-        "votes": 64992,
+        "votes": 65021,
         "percentage": 1.29,
         "winner": false
        }
       ],
-      "totalVotes": 5019124,
+      "totalVotes": 5020411,
       "winner": "Josh Shapiro",
       "runoff": false,
       "calledAt": "2026-11-04T14:51:41.043Z"
