@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T23:29:48.857Z",
+ "generatedAt": "2026-11-28T07:56:02.797Z",
  "electionDate": "2026-11-03",
  "source": {
   "name": "Wikipedia",
@@ -7442,11 +7442,11 @@
      "calledAt": "2026-11-10T20:59:40.488Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: University of Southern California, October 22–28, 2026",
      "values": {
-      "Richard Pan": 51,
-      "Kevin Kiley": 38
+      "Kevin Kiley": 38,
+      "Richard Pan": 51
      },
      "leader": "Richard Pan",
      "margin": 13
@@ -7898,11 +7898,11 @@
      "calledAt": "2026-11-10T20:59:40.488Z"
     },
     "headline": {
-     "basis": "simple-average",
-     "detail": "Simple average of 1 poll from the last 30 days (newest per pollster)",
+     "basis": "latest-poll",
+     "detail": "Most recent poll: University of Southern California, October 22–28, 2026",
      "values": {
-      "Randy Villegas": 52,
-      "David Valadao": 41
+      "David Valadao": 41,
+      "Randy Villegas": 52
      },
      "leader": "Randy Villegas",
      "margin": 11
@@ -29979,22 +29979,21 @@
       {
        "name": "Marie Gluesenkamp Perez",
        "party": "D",
-       "votes": 189105,
-       "percentage": 53.6,
+       "votes": 190680,
+       "percentage": 53.68,
        "winner": true
       },
       {
        "name": "John Braun",
        "party": "R",
-       "votes": 160174,
-       "percentage": 45.4,
+       "votes": 161207,
+       "percentage": 45.39,
        "winner": false
       }
      ],
-     "totalVotes": 349279,
+     "totalVotes": 355198,
      "winner": "Marie Gluesenkamp Perez",
      "runoff": false,
-     "source": "infobox",
      "calledAt": "2026-11-11T04:31:41.634Z"
     },
     "headline": {
